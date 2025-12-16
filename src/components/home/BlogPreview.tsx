@@ -1,30 +1,34 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 
 const posts = [
     {
-        title: "How to Attest Degrees for Saudi Arabia (KSA)",
-        excerpt: "A complete step-by-step guide to attesting your educational documents for Saudi work visas.",
-        date: "Dec 12, 2024",
-        slug: "how-to-attest-degrees-ksa"
+        title: "Understanding the Document Attestation Process in Pakistan",
+        excerpt: "A comprehensive guide to getting your educational and personal documents attested for use in Saudi Arabia and other countries.",
+        date: "Dec 08, 2024",
+        slug: "understanding-attestation",
+        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop"
     },
     {
-        title: "Understanding the New UAE Attestation Rules",
-        excerpt: "Recent changes in UAE embassy attestation requirements you need to know before applying.",
-        date: "Nov 28, 2024",
-        slug: "uae-attestation-rules-update"
+        title: "How to Attest Degrees for Saudi Arabia (KSA)",
+        excerpt: "A complete step-by-step guide to attesting your educational documents for Saudi work visas. Learn about HEC, MOFA, and Embassy requirements.",
+        date: "Dec 12, 2024",
+        slug: "how-to-attest-degrees-ksa",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop"
     },
     {
         title: "Translation Requirements for Family Visas",
-        excerpt: "Which documents need translation for bringing your family to the Gulf? We explain everything.",
+        excerpt: "Which documents need translation for bringing your family to the Gulf? We explain everything you need to know about marriage and birth certificate translation.",
         date: "Nov 15, 2024",
-        slug: "translation-requirements-family-visa"
+        slug: "translation-requirements-family-visa",
+        image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=800&auto=format&fit=crop"
     }
 ]
 
 export function BlogPreview() {
     return (
-        <section className="py-20 bg-white border-t border-slate-200">
+        <section className="py-20 bg-white">
             <div className="container mx-auto px-4">
                 <div className="flex justify-between items-end mb-12">
                     <div>
@@ -37,19 +41,27 @@ export function BlogPreview() {
                 </div>
                 <div className="grid md:grid-cols-3 gap-8">
                     {posts.map((post) => (
-                        <article key={post.slug} className="flex flex-col group cursor-pointer">
-                            <div className="h-48 bg-slate-100 rounded-xl mb-4 overflow-hidden relative">
-                                <div className="absolute inset-0 bg-slate-200 group-hover:scale-105 transition-transform duration-500"></div>
-                                <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-medium">Article Image</div>
+                        <article key={post.slug} className="flex flex-col group cursor-pointer bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-slate-100">
+                            <div className="h-56 overflow-hidden relative">
+                                <Image
+                                    src={post.image}
+                                    alt={post.title}
+                                    fill
+                                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                />
                             </div>
-                            <div className="flex-1">
-                                <p className="text-sm text-emerald-600 font-medium mb-2">{post.date}</p>
-                                <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-700 transition-colors">
+                            <div className="p-6 flex-1 flex flex-col">
+                                <h3 className="text-xl font-bold text-slate-900 mb-3 leading-tight group-hover:text-emerald-700 transition-colors">
                                     <Link href={`/blog/${post.slug}`}>
                                         {post.title}
                                     </Link>
                                 </h3>
-                                <p className="text-slate-600 line-clamp-3">{post.excerpt}</p>
+                                <div className="text-xs text-slate-400 mb-3">{post.date} /</div>
+                                <p className="text-slate-600 text-sm line-clamp-3 mb-4 flex-grow">{post.excerpt}</p>
+                                <Link href={`/blog/${post.slug}`} className="text-emerald-600 text-sm font-semibold hover:underline mt-auto">
+                                    More
+                                </Link>
                             </div>
                         </article>
                     ))}

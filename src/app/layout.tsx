@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { FloatingActions } from "@/components/layout/FloatingActions";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,12 +30,12 @@ export default function RootLayout({
     "name": "Lisan.pk",
     "image": "https://lisan.pk/logo.png",
     "url": "https://lisan.pk",
-    "telephone": "+923001234567",
+    "telephone": "03034041132",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Office Address",
-      "addressLocality": "Islamabad",
-      "postalCode": "44000",
+      "addressLocality": "Lahore",
+      "postalCode": "54000",
       "addressCountry": "PK"
     },
     "priceRange": "$$",
@@ -63,7 +64,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <FloatingActions />
+      </body>
     </html>
   );
 }

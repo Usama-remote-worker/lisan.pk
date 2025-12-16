@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  name      String?
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Page {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title_en    String
+  title_ar    String?
+  content_en  String // Rich text HTML
+  content_ar  String? // Rich text HTML
+  seo_title   String?
+  seo_desc    String?
+  updatedAt   DateTime @updatedAt
+}
+
+model Service {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name_en     String
+  name_ar     String?
+  desc_en     String?
+  desc_ar     String?
+  price       String?
+  source_lang String?
+  target_lang String?
+  icon        String? // Icon name or URL
+  order       Int      @default(0)
+  updatedAt   DateTime @updatedAt
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title_en    String
+  title_ar    String?
+  content_en  String // Rich text HTML
+  content_ar  String? // Rich text HTML
+  excerpt_en  String?
+  excerpt_ar  String?
+  mainImage   String?
+  published   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Faq {
+  id          String   @id @default(cuid())
+  question_en String
+  question_ar String?
+  answer_en   String
+  answer_ar   String?
+  order       Int      @default(0)
+}
+
+model Testimonial {
+  id          String   @id @default(cuid())
+  client_name String
+  feedback_en String
+  feedback_ar String?
+  rating      Int      @default(5)
+  image       String?
+  createdAt   DateTime @default(now())
+}

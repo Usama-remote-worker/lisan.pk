@@ -29,8 +29,8 @@ export function Footer() {
                 <div>
                     <h4 className="text-white font-semibold mb-4">Contact</h4>
                     <ul className="space-y-2 text-sm">
-                        <li>Islamabad, Pakistan</li>
-                        <li>+92 300 123 4567</li>
+                        <li>Lahore, Pakistan</li>
+                        <li>0303 404 1132</li>
                         <li>info@lisan.pk</li>
                     </ul>
                 </div>
