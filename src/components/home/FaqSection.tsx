@@ -3,15 +3,9 @@
 import { useState } from "react"
 import { ChevronDown, Plus, Minus } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { faqs as defaultFaqs, type Faq } from "@/data/faqs"
 
-interface Faq {
-    id: string
-    question_en: string
-    answer_en: string
-    // Add Arabic support later if needed for the view
-}
-
-export function FaqSection({ faqs }: { faqs: Faq[] }) {
+export function FaqSection({ faqs = defaultFaqs }: { faqs?: Faq[] }) {
     const [openId, setOpenId] = useState<string | null>(null)
 
     return (
@@ -37,7 +31,7 @@ export function FaqSection({ faqs }: { faqs: Faq[] }) {
                                 className="w-full flex items-center justify-between p-6 text-left"
                             >
                                 <span className="font-semibold text-lg text-slate-900">
-                                    {faq.question_en}
+                                    {faq.question}
                                 </span>
                                 <span className={cn(
                                     "flex items-center justify-center w-8 h-8 rounded-full border border-slate-200 text-slate-500 transition-colors",
@@ -58,18 +52,12 @@ export function FaqSection({ faqs }: { faqs: Faq[] }) {
                             >
                                 <div className="overflow-hidden">
                                     <div className="p-6 pt-0 text-slate-600 leading-relaxed">
-                                        {faq.answer_en}
+                                        {faq.answer}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     ))}
-
-                    {faqs.length === 0 && (
-                        <div className="text-center text-slate-500 py-12">
-                            No FAQs available at the moment.
-                        </div>
-                    )}
                 </div>
             </div>
         </section>

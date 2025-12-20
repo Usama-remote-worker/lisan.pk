@@ -1,29 +1,78 @@
-import { Header } from "@/components/layout/Header"
-import { Footer } from "@/components/layout/Footer"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import { PageHero } from "@/components/ui/PageHeader"
+import { CheckCircle2 } from "lucide-react"
 
 export default function AttestationPage() {
     return (
-        <main className="min-h-screen bg-white font-sans text-slate-900">
-            <Header />
-            <div className="container mx-auto px-4 py-16">
-                <h1 className="text-4xl font-bold text-emerald-800 mb-8">Document Attestation Services</h1>
-                <p className="text-lg text-slate-600 mb-8">
-                    We assist with document attestation from various authorities, including:
-                </p>
-                <ul className="list-disc list-inside space-y-2 text-slate-600 mb-8">
-                    <li>Saudi Embassy</li>
-                    <li>UAE Embassy</li>
-                    <li>Ministry of Foreign Affairs (MOFA)</li>
-                    <li>Higher Education Commission (HEC)</li>
-                    <li>IBCC</li>
-                </ul>
-                <Link href="https://wa.me/923034041132" target="_blank">
-                    <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">Get a Quote via WhatsApp</Button>
-                </Link>
-            </div>
-            <Footer />
+        <main className="min-h-screen bg-slate-50">
+            <PageHero
+                title="Document Attestation Services"
+                description="Complete attestation support for MOFA, HEC, IBCC, and foreign embassies in Pakistan."
+                breadcrumbs={[
+                    { label: "Services", href: "/services" },
+                    { label: "Attestation", href: "/services/attestation" }
+                ]}
+            />
+
+            <section className="py-16">
+                <div className="container mx-auto px-4 max-w-4xl">
+                    <div className="prose prose-slate max-w-none">
+                        <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+                            <div>
+                                <h2 className="text-3xl font-bold text-slate-900 mb-6">Hassle-Free Attestation</h2>
+                                <p className="text-lg text-slate-600 mb-6">
+                                    Navigating government offices for document attestation can be difficult. We handle the entire process for you, ensuring your documents are verified by the relevant authorities efficiently.
+                                </p>
+                            </div>
+                            <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200 h-64">
+                                <img
+                                    src="/images/services-attestation.png"
+                                    alt="Document Attestation Services"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="grid md:grid-cols-2 gap-8 my-12">
+                            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                                <h3 className="text-xl font-semibold mb-4 text-emerald-800">Authorities We Cover</h3>
+                                <ul className="space-y-3">
+                                    {[
+                                        "Ministry of Foreign Affairs (MOFA)",
+                                        "Higher Education Commission (HEC)",
+                                        "Inter Board Committee of Chairmen (IBCC)",
+                                        "Saudi Embassy",
+                                        "UAE Embassy",
+                                        "Qatar Embassy"
+                                    ].map((item) => (
+                                        <li key={item} className="flex items-center text-slate-700">
+                                            <CheckCircle2 className="h-5 w-5 text-emerald-500 mr-3 flex-shrink-0" />
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                                <h3 className="text-xl font-semibold mb-4 text-emerald-800">Requirements</h3>
+                                <p className="text-slate-600 mb-4 text-sm">Requirements vary by document and authority. Generally you will need:</p>
+                                <ul className="space-y-3">
+                                    {[
+                                        "Original Documents",
+                                        "Copy of CNIC",
+                                        "Passport Copy (for some embassies)",
+                                        "Authority Letter (we provide format)"
+                                    ].map((item) => (
+                                        <li key={item} className="flex items-center text-slate-700">
+                                            <CheckCircle2 className="h-5 w-5 text-emerald-500 mr-3 flex-shrink-0" />
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     )
 }

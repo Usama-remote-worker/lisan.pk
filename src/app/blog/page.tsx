@@ -1,64 +1,58 @@
-import Link from "next/link"
-import { Header } from "@/components/layout/Header"
-import { Footer } from "@/components/layout/Footer"
+import { PageHero } from "@/components/ui/PageHeader"
 import { getSortedPostsData } from "@/lib/blog"
-import { Metadata } from "next"
-
-export const metadata: Metadata = {
-    title: "Blog | Lisan.pk",
-    description: "Latest news, guides, and updates about translation and attestation services in Pakistan.",
-}
+import Link from "next/link"
+import Image from "next/image"
 
 export default async function BlogPage() {
-    const allPostsData = await getSortedPostsData()
+    const posts = await getSortedPostsData()
 
     return (
-        <main className="min-h-screen bg-white font-sans text-slate-900">
-            <Header />
-            <div className="container mx-auto px-4 py-16">
-                <div className="max-w-4xl mx-auto">
-                    <h1 className="text-4xl font-bold text-emerald-800 mb-4">Lisan.pk Blog</h1>
-                    <p className="text-lg text-slate-600 mb-12">
-                        Expert insights on document attestation, translation services, and study abroad guides.
-                    </p>
+        <main className="min-h-screen bg-slate-50">
+            <PageHero
+                title="Latest News & Insights"
+                description="Updates on translation requirements, scholarship opportunities, and attestation procedures."
+                breadcrumbs={[{ label: "Blog", href: "/blog" }]}
+            />
 
-                    <div className="grid gap-8">
-                        {allPostsData.length > 0 ? (
-                            allPostsData.map((post) => (
-                                <article key={post.slug} className="flex flex-col md:flex-row gap-6 border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow bg-white">
-                                    <div className="flex-1">
-                                        <div className="flex items-center gap-2 text-sm text-slate-500 mb-2">
-                                            <time dateTime={post.date}>{post.date}</time>
-                                            {post.tags && (
-                                                <>
-                                                    <span>•</span>
-                                                    <span className="text-emerald-600 font-medium">{post.tags[0]}</span>
-                                                </>
-                                            )}
-                                        </div>
-                                        <h2 className="text-2xl font-bold text-slate-900 mb-3">
-                                            <Link href={`/blog/${post.slug}`} className="hover:text-emerald-700 transition-colors">
-                                                {post.title}
-                                            </Link>
-                                        </h2>
-                                        <p className="text-slate-600 mb-4 line-clamp-2">
-                                            {post.summary}
-                                        </p>
-                                        <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-emerald-600 font-semibold hover:text-emerald-700">
-                                            Read Article
-                                            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                                        </Link>
-                                    </div>
-                                </article>
-                            ))
-                        ) : (
-                            <p className="text-slate-500 text-center py-12">No blog posts found.</p>
-                        )}
-                    </div>
+            <div className="py-20 container mx-auto px-4">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {posts.map((post) => (
+                        <article key={post.slug} className="flex flex-col group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100">
+                            <div className="h-56 overflow-hidden relative">
+                                <Image
+                                    src={post.image || "/placeholder.jpg"}
+                                    alt={post.title}
+                                    fill
+                                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                />
+                                <div className="absolute top-4 left-4 flex flex-wrap gap-2">
+                                    {post.tags?.map(tag => (
+                                        <span key={tag} className="px-2 py-1 bg-emerald-600/90 text-white text-xs font-semibold rounded-md backdrop-blur-sm">
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="p-6 flex-1 flex flex-col">
+                                <div className="text-xs text-slate-400 mb-3 flex items-center gap-2">
+                                    <span>{post.date}</span>
+                                    {/* Additional metadata could go here */}
+                                </div>
+                                <h3 className="text-xl font-bold text-slate-900 mb-3 leading-tight group-hover:text-emerald-700 transition-colors">
+                                    <Link href={`/blog/${post.slug}`}>
+                                        {post.title}
+                                    </Link>
+                                </h3>
+                                <p className="text-slate-600 text-sm line-clamp-3 mb-4 flex-grow">{post.summary}</p>
+                                <Link href={`/blog/${post.slug}`} className="text-emerald-600 text-sm font-semibold hover:underline mt-auto inline-flex items-center">
+                                    Read Article <span className="ml-1">→</span>
+                                </Link>
+                            </div>
+                        </article>
+                    ))}
                 </div>
             </div>
-            <Footer />
         </main>
     )
 }
-

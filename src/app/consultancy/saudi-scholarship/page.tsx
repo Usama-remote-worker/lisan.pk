@@ -1,5 +1,3 @@
-import { Header } from "@/components/layout/Header"
-import { Footer } from "@/components/layout/Footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { FadeIn, FadeInStagger, FadeInItem } from "@/components/ui/fade-in"
@@ -15,7 +13,6 @@ export const metadata: Metadata = {
 export default function SaudiScholarshipPage() {
     return (
         <main className="min-h-screen bg-white font-sans text-slate-900">
-            <Header />
 
             {/* Hero Section */}
             <section className="relative py-24 bg-gradient-to-b from-emerald-50 to-white overflow-hidden">
@@ -206,8 +203,6 @@ export default function SaudiScholarshipPage() {
                     </div>
                 </div>
             </div>
-
-            <Footer />
         </main>
     )
 }

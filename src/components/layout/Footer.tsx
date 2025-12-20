@@ -29,7 +29,7 @@ export function Footer() {
                 <div>
                     <h4 className="text-white font-semibold mb-4">Contact</h4>
                     <ul className="space-y-2 text-sm">
-                        <li>Lahore, Pakistan</li>
+                        <li>Saqib Translation Centre, Jamia Ashrafia, Muslim town Ferozpur Road, Lahore</li>
                         <li>0303 404 1132</li>
                         <li>info@lisan.pk</li>
                     </ul>

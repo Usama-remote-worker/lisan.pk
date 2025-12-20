@@ -1,54 +1,87 @@
-import { Header } from "@/components/layout/Header"
-import { Footer } from "@/components/layout/Footer"
+import { PageHero } from "@/components/ui/PageHeader"
 import { Button } from "@/components/ui/button"
+import { Mail, MapPin, Phone } from "lucide-react"
 
 export default function ContactPage() {
     return (
-        <main className="min-h-screen bg-white font-sans text-slate-900">
-            <Header />
-            <div className="container mx-auto px-4 py-16">
-                <h1 className="text-4xl font-bold text-emerald-800 mb-8">Contact Us</h1>
-                <div className="grid md:grid-cols-2 gap-12">
-                    <div>
-                        <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
-                        <p className="text-slate-600 mb-6">
-                            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
-                        </p>
-                        <div className="space-y-4">
+        <main className="min-h-screen bg-slate-50">
+            <PageHero
+                title="Contact Us"
+                description="Get in touch with us for certified translation and attestation services."
+                breadcrumbs={[{ label: "Contact", href: "/contact" }]}
+            />
+
+            <section className="py-16">
+                <div className="container mx-auto px-4">
+                    <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                        {/* Contact Info */}
+                        <div className="space-y-8">
                             <div>
-                                <h3 className="font-medium text-slate-900">Address</h3>
-                                <p className="text-slate-600">Lahore, Pakistan</p>
+                                <h2 className="text-2xl font-bold text-slate-900 mb-6">Get in Touch</h2>
+                                <p className="text-slate-600 mb-8">
+                                    Have questions about your documents? Our team is here to help you via phone, WhatsApp, or email.
+                                </p>
                             </div>
-                            <div>
-                                <h3 className="font-medium text-slate-900">Phone</h3>
-                                <p className="text-slate-600">0303 404 1132</p>
-                            </div>
-                            <div>
-                                <h3 className="font-medium text-slate-900">Email</h3>
-                                <p className="text-slate-600">info@lisan.pk</p>
+
+                            <div className="space-y-6">
+                                <div className="flex items-start space-x-4">
+                                    <div className="p-3 bg-emerald-100 rounded-lg text-emerald-600">
+                                        <Phone className="h-6 w-6" />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-semibold text-slate-900">Phone & WhatsApp</h3>
+                                        <p className="text-slate-600">0303 4041132</p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-4">
+                                    <div className="p-3 bg-emerald-100 rounded-lg text-emerald-600">
+                                        <Mail className="h-6 w-6" />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-semibold text-slate-900">Email</h3>
+                                        <p className="text-slate-600">info@lisan.pk</p>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start space-x-4">
+                                    <div className="p-3 bg-emerald-100 rounded-lg text-emerald-600">
+                                        <MapPin className="h-6 w-6" />
+                                    </div>
+                                    <div>
+                                        <h3 className="font-semibold text-slate-900">Address</h3>
+                                        <p className="text-slate-600">
+                                            Saqib Translation Centre, Jamia Ashrafia, Muslim town Ferozpur Road, Lahore
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="bg-slate-50 p-8 rounded-lg border border-slate-200">
-                        <form className="space-y-4">
-                            <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">Name</label>
-                                <input type="text" id="name" className="w-full p-2 border border-slate-300 rounded-md" placeholder="Your Name" />
-                            </div>
-                            <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">Email</label>
-                                <input type="email" id="email" className="w-full p-2 border border-slate-300 rounded-md" placeholder="your@email.com" />
-                            </div>
-                            <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1">Message</label>
-                                <textarea id="message" rows={4} className="w-full p-2 border border-slate-300 rounded-md" placeholder="How can we help you?"></textarea>
-                            </div>
-                            <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">Send Message</Button>
-                        </form>
+
+                        {/* Map or Form Placeholder */}
+                        <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                            <h3 className="text-xl font-bold text-slate-900 mb-6">Send us a Message</h3>
+                            <form className="space-y-4">
+                                <div>
+                                    <label className="block text-sm font-medium text-slate-700 mb-1">Name</label>
+                                    <input type="text" className="w-full px-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition-all" placeholder="Your Name" />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-slate-700 mb-1">Phone</label>
+                                    <input type="tel" className="w-full px-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition-all" placeholder="Your Phone Number" />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-slate-700 mb-1">Message</label>
+                                    <textarea className="w-full px-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition-all min-h-[120px]" placeholder="How can we help you?"></textarea>
+                                </div>
+                                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
+                                    Send Message
+                                </Button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <Footer />
+            </section>
         </main>
     )
 }

@@ -31,18 +31,19 @@ export function Hero() {
                             </Button>
                         </Link>
                     </div>
+
                     <div className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-sm font-medium text-slate-500">
                         <div className="flex items-center">
                             <CheckCircle2 className="mr-2 h-5 w-5 text-emerald-600" />
-                            Embassy Approved
+                            <span>Embassy Approved</span>
                         </div>
                         <div className="flex items-center">
                             <CheckCircle2 className="mr-2 h-5 w-5 text-emerald-600" />
-                            Urgent Service Available
+                            <span>Same Day Delivery</span>
                         </div>
                         <div className="flex items-center">
                             <CheckCircle2 className="mr-2 h-5 w-5 text-emerald-600" />
-                            Nationwide Delivery
+                            <span>100% Accuracy Guaranteed</span>
                         </div>
                     </div>
                 </div>
