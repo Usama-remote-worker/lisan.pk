@@ -1,6 +1,12 @@
 import { PageHero } from "@/components/ui/PageHeader"
 import { Button } from "@/components/ui/button"
 import { Mail, MapPin, Phone } from "lucide-react"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Contact Us | Arabic Translation Centre Lahore | Lisan.pk",
+    description: "Affordable Arabic translation and embassy attestation services in Lahore. Visit Saqib Translation Centre or contact us via WhatsApp: 0303 4041132.",
+}
 
 export default function ContactPage() {
     return (

@@ -1,9 +1,7 @@
 import { MetadataRoute } from 'next'
+import { getSortedPostsData } from '@/lib/blog'
 
 export const baseUrl = 'https://lisan.pk'
-// In a real implementation, you'd import getBlogPosts or similar
-// import { getBlogPosts } from '@/lib/blog' 
-
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const routes = [
         '',
@@ -21,14 +19,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: route === '' ? 1 : 0.8,
     }))
 
-    // Placeholder for blog posts dynamic generation
-    // const posts = await getBlogPosts()
-    // const postRoutes = posts.map(post => ({
-    //     url: `${baseUrl}/blog/${post.slug}`,
-    //     lastModified: new Date(post.date),
-    //     changeFrequency: 'weekly',
-    //     priority: 0.7
-    // }))
+    // Dynamic generation for blog posts
+    const posts = await getSortedPostsData()
+    const postRoutes = posts.map(post => ({
+        url: `${baseUrl}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'weekly' as const,
+        priority: 0.7
+    }))
 
-    return [...routes]
+    return [...routes, ...postRoutes]
 }

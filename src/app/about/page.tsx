@@ -1,7 +1,12 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-
 import { PageHero } from "@/components/ui/PageHeader"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "About Us | 40+ Years of Arabic Translation Excellence | Lisan.pk",
+    description: "Learn about Lisan.pk and our founder Muhammad Iftikhar Zahid. Providing trusted Arabic translation and document attestation since the 1980s.",
+}
 
 export default function AboutPage() {
   return (

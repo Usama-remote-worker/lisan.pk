@@ -1,5 +1,11 @@
 import { PageHero } from "@/components/ui/PageHeader"
 import { CheckCircle2 } from "lucide-react"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Document Translation Services | Arabic to English & Urdu | Lisan.pk",
+    description: "Expert certified translation for Nikah Nama, Birth Certificates, and legal documents. Embassy recognized Arabic translation with same-day delivery.",
+}
 
 export default function TranslationPage() {
     return (
