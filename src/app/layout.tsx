@@ -16,6 +16,9 @@ const notoArabic = Noto_Naskh_Arabic({
 export const metadata: Metadata = {
   title: "Lisan.pk | #1 Arabic Translation & Attestation Services in Pakistan",
   description: "Certified Arabic translation and attestation services in Pakistan. Trusted by embassies and 100k+ clients. Doorstep delivery nationwide.",
+  verification: {
+    google: "-cosWo_tSCd8DlUq4yq9RIxya4mkLK-UHb3607taPkU",
+  },
 };
 
 export default function RootLayout({
