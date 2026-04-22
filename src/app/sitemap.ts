@@ -12,7 +12,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         '/services/translation',
         '/services/attestation',
         '/services/document',
-        '/consultancy/saudi-scholarship',
+        '/services/translation/nikah-nama-marriage-certificate',
+        '/services/translation/birth-certificate-translation',
+        '/services/translation/academic-degree-transcript',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
