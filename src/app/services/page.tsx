@@ -305,6 +305,43 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+
+            {/* JSON-LD FAQ Schema */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How long does the Saudi Embassy attestation process take?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Typically, the process takes 3-5 working days. However, this depends on whether your documents are already attested by MOFA and HEC."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are your translations accepted for US/UK/Canada visas?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, our certified translations are recognized by embassies globally for visa and immigration purposes."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I send my documents from another city?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes, we serve clients nationwide via secure courier services."
+                                }
+                            }
+                        ]
+                    })
+                }}
+            />
         </main>
     )
 }

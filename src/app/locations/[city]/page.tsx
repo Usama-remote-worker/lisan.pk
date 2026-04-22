@@ -138,6 +138,30 @@ export default function LocationPage({ params }: PageProps) {
                     </div>
                 </div>
             </section>
+            {/* JSON-LD LocalBusiness Schema */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "ProfessionalService",
+                        "name": `Lisan.pk Arabic Translation ${cityData.name}`,
+                        "description": cityData.description,
+                        "url": `https://lisan.pk/locations/${params.city}`,
+                        "telephone": "+923034041132",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": cityData.name,
+                            "addressCountry": "PK"
+                        },
+                        "areaServed": {
+                            "@type": "City",
+                            "name": cityData.name
+                        },
+                        "priceRange": "$$"
+                    })
+                }}
+            />
         </main>
     )
 }
