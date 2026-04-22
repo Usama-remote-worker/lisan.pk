@@ -1,6 +1,12 @@
 import { PageHero } from "@/components/ui/PageHeader"
 import { ShieldCheck, Award, Lock, Clock, FileText, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Document Services | Professional Legalization & Notary | Lisan.pk",
+    description: "Assistance with Police Clearance Certificates, NADRA Family Registration (FRC), Birth Certificates, and legal documentation for international use.",
+}
 
 export default function DocumentServicesPage() {
     return (

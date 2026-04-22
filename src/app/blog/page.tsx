@@ -2,6 +2,12 @@ import { PageHero } from "@/components/ui/PageHeader"
 import { getSortedPostsData } from "@/lib/blog"
 import Link from "next/link"
 import Image from "next/image"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Lisan.pk Blog | Insights on Arabic Translation & Saudi Attestation",
+    description: "Expert advice on translation and attestation procedures. Stay updated with the latest requirements for student visas, marriage documents, and more.",
+}
 
 export default async function BlogPage() {
     const posts = await getSortedPostsData()
