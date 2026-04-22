@@ -190,6 +190,121 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+            {/* Comprehensive Document Inventory */}
+            <section className="py-20 bg-white">
+                <div className="container mx-auto px-4">
+                    <div className="max-w-4xl mx-auto text-center mb-16">
+                        <h2 className="text-3xl font-bold text-slate-900 mb-4">Complete Document Inventory</h2>
+                        <p className="text-lg text-slate-600">
+                            Whether it's for the Saudi Embassy in Islamabad, MOFA in Lahore, or global use, we handle the translation and attestation of all major Pakistani and international documents.
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                        {[
+                            "Nikkah Nama (Marriage)", "Birth Certificate", "Character Certificate", "Death Certificate",
+                            "Divorce Certificate", "Degree & Transcript", "Experience Letter", "Medical Report",
+                            "Police Clearance", "FRC (NADRA)", "CNIC / B-Form", "Power of Attorney",
+                            "Affidavit", "Trade License", "Import/Export Docs", "Bank Statement"
+                        ].map((doc) => (
+                            <div key={doc} className="p-4 rounded-xl border border-slate-100 bg-slate-50 flex items-center gap-3">
+                                <FileText className="w-5 h-5 text-emerald-600 flex-shrink-0" />
+                                <span className="font-semibold text-slate-700 text-sm md:text-base">{doc}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Professional Workflow Section */}
+            <section className="py-20 bg-emerald-950 text-white overflow-hidden relative">
+                <div className="absolute top-0 right-0 w-1/2 h-full bg-emerald-900 skew-x-12 translate-x-32 hidden md:block"></div>
+                <div className="container mx-auto px-4 relative z-10">
+                    <div className="grid md:grid-cols-2 gap-16 items-center">
+                        <div>
+                            <h2 className="text-3xl md:text-4xl font-bold mb-8">How We Work</h2>
+                            <p className="text-emerald-100 mb-12 text-lg leading-relaxed">
+                                Our process is designed for speed, accuracy, and minimum effort from your side. We act as your representatives at Government and Embassy offices so you don't have to stand in queues.
+                            </p>
+                            <div className="space-y-8">
+                                {[
+                                    { step: "01", title: "Submit Documents", desc: "Send scanned copies or clear photos via WhatsApp or Email." },
+                                    { step: "02", title: "Expert Review", desc: "Our specialists verify the documents for HEC/MOFA/Embassy compliance." },
+                                    { step: "03", title: "Swift Processing", desc: "We complete the translation or attestation within 24-48 hours." },
+                                    { step: "04", title: "Safe Delivery", desc: "Get your documents via secure courier or digital copy instantly." }
+                                ].map((item) => (
+                                    <div key={item.step} className="flex gap-6">
+                                        <div className="text-3xl font-bold text-emerald-500/50">{item.step}</div>
+                                        <div>
+                                            <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                                            <p className="text-emerald-100/70">{item.desc}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        <div className="bg-emerald-800/50 p-8 rounded-3xl border border-emerald-700 backdrop-blur-sm">
+                            <h3 className="text-2xl font-bold mb-6">Why Lisan.pk Leads?</h3>
+                            <ul className="space-y-4">
+                                {[
+                                    "Direct Access to Embassy certified translators",
+                                    "Up-to-date knowledge of Saudi & Gulf requirements",
+                                    "Transparent pricing with no hidden hidden costs",
+                                    "Confidentiality guaranteed for sensitive legal docs",
+                                    "40+ Years of proven local and international trust"
+                                ].map((benefit) => (
+                                    <li key={benefit} className="flex items-start gap-3">
+                                        <CheckCircle2 className="w-5 h-5 text-emerald-400 mt-1 flex-shrink-0" />
+                                        <span className="text-emerald-50">{benefit}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Strategic FAQ Section */}
+            <section className="py-20 bg-slate-50">
+                <div className="container mx-auto px-4 max-w-4xl">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl font-bold text-slate-900 mb-4">Frequently Asked Questions</h2>
+                        <p className="text-slate-600">Common questions about Arabic translation and document attestation in Pakistan.</p>
+                    </div>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "How long does the Saudi Embassy attestation process take?",
+                                a: "Typically, the process takes 3-5 working days. However, this depends on whether your documents are already attested by MOFA and HEC. We offer urgent processing for critical cases."
+                            },
+                            {
+                                q: "Are your translations accepted for US/UK/Canada visas?",
+                                a: "Yes, our certified translations are recognized by embassies for visa and immigration purposes globally, as we follow international standards for certification and notarization."
+                            },
+                            {
+                                q: "Can I send my documents from another city like Karachi or Islamabad?",
+                                a: "Absolutely. We serve clients nationwide. You can courier your original documents to our Lahore office, and we will return them securely once processed."
+                            },
+                            {
+                                q: "What is the fee for translating a Nikkah Nama into English?",
+                                a: "The fee varies based on the length and urgency. Our rates are highly competitive starting from as low as 1500 PKR. Contact us on WhatsApp for an exact quote."
+                            },
+                            {
+                                q: "Do you handle HEC and MOFA verification as well?",
+                                a: "Yes, we provide end-to-end support. If your degrees are not yet verified, we can guide you through the HEC portal and handle the MOFA stamp ourselves."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                                <h3 className="text-lg font-bold text-slate-900 mb-3 flex gap-3 text-left">
+                                    <span className="text-emerald-600">Q.</span> {faq.q}
+                                </h3>
+                                <p className="text-slate-600 pl-8 leading-relaxed">
+                                    {faq.a}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
         </main>
     )
 }

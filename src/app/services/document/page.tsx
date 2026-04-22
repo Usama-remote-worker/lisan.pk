@@ -113,6 +113,22 @@ export default function DocumentServicesPage() {
                             ))}
                         </div>
                     </div>
+                    {/* Document FAQ Section */}
+                    <div className="py-12">
+                        <h2 className="text-3xl font-bold text-center mb-12 text-slate-900">Document Services FAQ</h2>
+                        <div className="grid gap-6">
+                            {[
+                                { q: "How can I apply for a character certificate in Pakistan?", a: "To apply for a Police Character Certificate, you typically need to provide a copy of your CNIC, Passport, and a photo. We can handle the verification through the local police station and the DPO/CPO office on your behalf." },
+                                { q: "What is an FRC and why is it needed for visas?", a: "A Family Registration Certificate (FRC) shows your family structure. Most embassies, including Saudi Arabia and the UK, require it to verify your lineage or marital status during the visa process." },
+                                { q: "Do you provide attested translations for NADRA documents?", a: "Yes, we translate NADRA birth certificates, Nikah Namas, and Death certificates into English or Arabic, followed by official certification and notary stamps." }
+                            ].map((f, i) => (
+                                <div key={i} className="bg-white p-6 rounded-2xl border border-slate-100 italic">
+                                    <p className="font-bold text-slate-900 not-italic mb-2">"{f.q}"</p>
+                                    <p className="text-slate-600 not-italic">{f.a}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
