@@ -35,7 +35,21 @@ export function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="container mx-auto px-4 mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
+            <div className="container mx-auto px-4 mt-8 pt-8 border-t border-slate-800 grid grid-cols-2 md:grid-cols-5 gap-4">
+                <div className="col-span-2 md:col-span-1">
+                    <h4 className="text-white font-semibold mb-4">Locations</h4>
+                </div>
+                {['Lahore', 'Karachi', 'Islamabad', 'Faisalabad', 'Multan', 'Rawalpindi', 'Peshawar', 'Sialkot', 'Gujranwala', 'Quetta'].map((city) => (
+                    <Link 
+                        key={city} 
+                        href={`/locations/${city.toLowerCase()}`} 
+                        className="text-xs text-slate-500 hover:text-emerald-400 transition-colors"
+                    >
+                        {city} Translation
+                    </Link>
+                ))}
+            </div>
+            <div className="container mx-auto px-4 mt-8 pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
                 © {new Date().getFullYear()} Lisan.pk. All rights reserved.
             </div>
         </footer>
