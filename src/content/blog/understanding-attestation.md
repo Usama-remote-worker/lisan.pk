@@ -2,11 +2,13 @@
 title: "Understanding the Document Attestation Process in Pakistan"
 date: "2024-12-08"
 summary: "A comprehensive guide to getting your educational and personal documents attested for use in Saudi Arabia and other countries."
-image: "/images/blog/attestation-guide.jpg"
+image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop"
 tags: ["Attestation", "Saudi Arabia", "Guide"]
+category: "Attestation"
+author: "Admin"
+readingTime: "5 min"
+published: true
 ---
-
-# Understanding the Document Attestation Process in Pakistan
 
 Document attestation is a crucial step for anyone planning to travel, work, or study abroad. Whether you are applying for a visa, seeking employment, or pursuing higher education, attested documents are often a mandatory requirement. In this guide, we will walk you through the process of document attestation in Pakistan, specifically focusing on requirements for Saudi Arabia.
 
