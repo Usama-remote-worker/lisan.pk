@@ -41,9 +41,12 @@ export default async function BlogPage() {
                                 </div>
                             </div>
                             <div className="p-6 flex-1 flex flex-col">
-                                <div className="text-xs text-slate-400 mb-3 flex items-center gap-2">
+                                <div className="text-xs text-slate-400 mb-3 flex items-center gap-4">
                                     <span>{post.date}</span>
-                                    {/* Additional metadata could go here */}
+                                    <span>•</span>
+                                    <span className="font-medium text-emerald-600">{post.category}</span>
+                                    <span>•</span>
+                                    <span>{post.readingTime} read</span>
                                 </div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-3 leading-tight group-hover:text-emerald-700 transition-colors">
                                     <Link href={`/blog/${post.slug}`}>
@@ -51,9 +54,12 @@ export default async function BlogPage() {
                                     </Link>
                                 </h3>
                                 <p className="text-slate-600 text-sm line-clamp-3 mb-4 flex-grow">{post.summary}</p>
-                                <Link href={`/blog/${post.slug}`} className="text-emerald-600 text-sm font-semibold hover:underline mt-auto inline-flex items-center">
-                                    Read Article <span className="ml-1">→</span>
-                                </Link>
+                                <div className="flex items-center justify-between mt-auto">
+                                    <Link href={`/blog/${post.slug}`} className="text-emerald-600 text-sm font-semibold hover:underline inline-flex items-center">
+                                        Read Article <span className="ml-1">→</span>
+                                    </Link>
+                                    <span className="text-[10px] uppercase tracking-wider text-slate-400">By {post.author}</span>
+                                </div>
                             </div>
                         </article>
                     ))}
