@@ -67,16 +67,6 @@ export default async function BlogPostPage({ params }: Props) {
                     <span>{post.readingTime} read</span>
                 </div>
 
-                {post.image && (
-                    <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl shadow-slate-200 aspect-[16/9] relative">
-                        <img
-                            src={post.image}
-                            alt={post.title}
-                            className="object-cover w-full h-full"
-                        />
-                    </div>
-                )}
-
                 <div 
                     className="prose prose-slate prose-lg max-w-none 
                     prose-headings:text-slate-900 prose-headings:font-bold

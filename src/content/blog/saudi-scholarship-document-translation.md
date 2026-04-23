@@ -7,7 +7,6 @@ author: "Lisan.pk Editorial Team"
 readingTime: "5 min"
 published: true
 tags: ["Saudi Scholarship", "Document Translation", "Attestation", "Study in Saudi"]
-image: "/placeholder.jpg"
 ---
 
 Securing a fully-funded seat in the Kingdom of Saudi Arabia is a dream for thousands of Pakistani students. However, the path to King Saud University or KAUST often hits a roadblock due to improper Saudi scholarship document translation. In 2026, the competition is higher than ever, and a single mistranslation on your degree or transcript can lead to an immediate rejection.
