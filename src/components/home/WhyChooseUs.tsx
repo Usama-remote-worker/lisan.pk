@@ -2,23 +2,23 @@ import { Clock, Zap, UserCheck, CheckCircle2 } from "lucide-react"
 
 const features = [
     {
-        title: "40 Years Experience",
-        description: "Decades of expertise in legal and academic Arabic translation.",
+        title: "Over 4 Decades",
+        description: "Unmatched expertise in legal and academic Arabic translation since 1980.",
         icon: Clock,
     },
     {
         title: "Fast Turnaround",
-        description: "Urgent translation services available with digital delivery via WhatsApp.",
+        description: "Urgent translation services with same-day digital delivery available.",
         icon: Zap,
     },
     {
-        title: "Saudi Consultancy",
-        description: "Expert guidance for student visas and university admissions in Saudi Arabia.",
+        title: "Embassy Approved",
+        description: "100% acceptance rate at Saudi, UAE, and other Gulf embassies.",
         icon: UserCheck,
     },
     {
-        title: "100% Accuracy",
-        description: "Double-checked by experts to ensure zero rejection from embassies.",
+        title: "200% Guarantee",
+        description: "Full protection against rejections caused by our translation errors.",
         icon: CheckCircle2,
     },
 ]

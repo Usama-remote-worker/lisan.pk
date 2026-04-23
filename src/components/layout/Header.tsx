@@ -2,20 +2,11 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Phone, Menu, MessageCircle, X } from "lucide-react"
+import { Phone, Menu, MessageCircle, X, FileCheck, ScanEye } from "lucide-react"
 import { useState } from "react"
 
 export function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
-    const [isLangOpen, setIsLangOpen] = useState(false)
-
-    const languages = [
-        { name: "English", code: "en", flag: "🇬🇧" },
-        { name: "Arabic", code: "ar", flag: "🇸🇦" },
-        { name: "Urdu", code: "ur", flag: "🇵🇰" },
-        { name: "Turkish", code: "tr", flag: "🇹🇷" },
-        { name: "German", code: "de", flag: "🇩🇪" },
-    ]
 
     const navItems = [
         { label: "Home", href: "/" },
@@ -52,57 +43,40 @@ export function Header() {
                     ))}
                 </nav>
 
-                {/* Icons - Right */}
-                <div className="flex items-center space-x-3">
-                    <a
-                        href="tel:03034041132"
-                        className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"
-                        aria-label="Call Us"
-                    >
-                        <Phone className="h-5 w-5" />
-                    </a>
-
-                    <a
-                        href="https://wa.me/923034041132"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"
-                        aria-label="WhatsApp"
-                    >
-                        <MessageCircle className="h-5 w-5" />
-                    </a>
-
-                    {/* Language Selector (Visual Only) */}
-                    <div className="relative">
-                        <Button
-                            variant="ghost"
-                            size="icon"
-                            className="bg-slate-50 text-slate-700 hover:bg-slate-100 hover:text-emerald-700 ml-2"
-                            aria-label="Select Language"
-                            onClick={() => setIsLangOpen(!isLangOpen)}
+                {/* Icons & CTA - Right */}
+                <div className="flex items-center space-x-2 md:space-x-4">
+                    <div className="hidden sm:flex items-center space-x-2">
+                        <a
+                            href="tel:03034041132"
+                            className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"
+                            aria-label="Call Us"
                         >
-                            <Menu className="h-6 w-6" />
-                        </Button>
+                            <Phone className="h-5 w-5" />
+                        </a>
 
-                        {/* Dropdown */}
-                        {isLangOpen && (
-                            <div className="absolute right-0 top-full mt-2 w-48 bg-white rounded-lg shadow-xl border border-slate-100 py-2 z-50 animate-in fade-in slide-in-from-top-2">
-                                <div className="px-3 py-2 text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
-                                    Select Language
-                                </div>
-                                {languages.map((lang) => (
-                                    <button
-                                        key={lang.code}
-                                        className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 flex items-center space-x-3 transition-colors"
-                                        onClick={() => setIsLangOpen(false)}
-                                    >
-                                        <span className="text-lg">{lang.flag}</span>
-                                        <span className="font-medium">{lang.name}</span>
-                                    </button>
-                                ))}
-                            </div>
-                        )}
+                        <a
+                            href="https://wa.me/923034041132"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"
+                            aria-label="WhatsApp"
+                        >
+                            <MessageCircle className="h-5 w-5" />
+                        </a>
                     </div>
+
+                    <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="hidden md:block">
+                        <Button className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold px-6 h-11 shadow-[0_4px_20px_-5px_rgba(6,78,59,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-emerald-700/50">
+                            <FileCheck className="mr-2 h-5 w-5 text-emerald-400" />
+                            Get a Free Quote
+                        </Button>
+                    </Link>
+
+                    <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="md:hidden">
+                        <Button size="sm" className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-3 rounded-lg shadow-md">
+                            <FileCheck className="h-5 w-5" />
+                        </Button>
+                    </Link>
 
                     <div className="lg:hidden ml-1">
                         <Button
@@ -111,8 +85,7 @@ export function Header() {
                             className="px-2"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                         >
-                            {isMenuOpen ? <X className="h-6 w-6" /> : <span className="sr-only">Menu</span>}
-                            <Menu className="h-6 w-6" />
+                            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
                         </Button>
                     </div>
                 </div>
@@ -126,12 +99,18 @@ export function Header() {
                             <Link
                                 key={item.label}
                                 href={item.href}
-                                className="transition-colors hover:text-emerald-600 px-2 py-1.5 rounded-md hover:bg-slate-50"
+                                className="transition-colors hover:text-emerald-600 px-2 py-1.5 rounded-md hover:bg-slate-50 border-b border-slate-50 font-semibold"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 {item.label}
                             </Link>
                         ))}
+                        <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="pt-4">
+                            <Button className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold h-14 rounded-2xl shadow-xl transition-all active:scale-95 border border-emerald-700">
+                                <FileCheck className="mr-2 h-6 w-6 text-emerald-400" />
+                                Get a Free Quote & Upload
+                            </Button>
+                        </Link>
                     </nav>
                 </div>
             )}

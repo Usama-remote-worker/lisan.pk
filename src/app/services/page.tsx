@@ -172,7 +172,7 @@ export default function ServicesPage() {
                                         </div>
 
                                         <div className="mt-auto pt-8 border-t border-slate-100 flex flex-col sm:flex-row gap-4">
-                                            <Link href="/contact" className="flex-1">
+                                            <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="flex-1">
                                                 <Button size="lg" className="w-full bg-slate-900 hover:bg-slate-800 text-white h-12 text-lg">
                                                     Get a Quote
                                                 </Button>

@@ -1,6 +1,7 @@
 import { PageHero } from "@/components/ui/PageHeader"
 import { Button } from "@/components/ui/button"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Mail, MapPin, Phone, ExternalLink } from "lucide-react"
+import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -64,26 +65,24 @@ export default function ContactPage() {
                             </div>
                         </div>
 
-                        {/* Map or Form Placeholder */}
-                        <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-                            <h3 className="text-xl font-bold text-slate-900 mb-6">Send us a Message</h3>
-                            <form className="space-y-4">
-                                <div>
-                                    <label className="block text-sm font-medium text-slate-700 mb-1">Name</label>
-                                    <input type="text" className="w-full px-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition-all" placeholder="Your Name" />
-                                </div>
-                                <div>
-                                    <label className="block text-sm font-medium text-slate-700 mb-1">Phone</label>
-                                    <input type="tel" className="w-full px-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition-all" placeholder="Your Phone Number" />
-                                </div>
-                                <div>
-                                    <label className="block text-sm font-medium text-slate-700 mb-1">Message</label>
-                                    <textarea className="w-full px-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition-all min-h-[120px]" placeholder="How can we help you?"></textarea>
-                                </div>
-                                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
-                                    Send Message
+                        {/* Google Form CTA */}
+                        <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-emerald-500 relative">
+                            <div className="absolute -top-4 left-6 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+                                Recommended
+                            </div>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Fast Quote & Document Upload</h3>
+                            <p className="text-slate-600 mb-8 leading-relaxed">
+                                The fastest way to get a quote is to upload your documents to our secure quote request form. Our team will review them and contact you within 30 minutes.
+                            </p>
+                            <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank">
+                                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white h-14 text-lg font-bold shadow-lg shadow-emerald-200">
+                                    Open Quote Request Form
+                                    <ExternalLink className="ml-2 h-5 w-5" />
                                 </Button>
-                            </form>
+                            </Link>
+                            <p className="mt-6 text-center text-sm text-slate-500">
+                                No technical issues. Secure Google-powered hosting.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ export function Hero() {
                         Trusted by 100k+ clients for over 40 years. We provide accurate, certified translation and attestation services with doorstep delivery across Pakistan.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in-up animate-delay-300">
-                        <Link href="https://wa.me/923034041132" target="_blank">
+                        <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank">
                             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 h-12 text-base shadow-lg shadow-emerald-600/20">
                                 Get a Free Quote
                                 <ArrowRight className="ml-2 h-5 w-5" />

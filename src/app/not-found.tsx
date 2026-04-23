@@ -14,9 +14,9 @@ export default function NotFound() {
                         Return Home
                     </Button>
                 </Link>
-                <Link href="/contact">
+                <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank">
                     <Button variant="outline">
-                        Contact Support
+                        Get a Free Quote
                     </Button>
                 </Link>
             </div>

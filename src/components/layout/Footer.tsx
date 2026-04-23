@@ -22,6 +22,7 @@ export function Footer() {
                     <h4 className="text-white font-semibold mb-4">Company</h4>
                     <ul className="space-y-2 text-sm">
                         <li><Link href="/about" className="hover:text-emerald-400 transition-colors">About Us</Link></li>
+                        <li><Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="hover:text-emerald-400 transition-colors">Request a Quote / Upload</Link></li>
                         <li><Link href="/contact" className="hover:text-emerald-400 transition-colors">Contact</Link></li>
                         <li><Link href="/blog" className="hover:text-emerald-400 transition-colors">Blog</Link></li>
                     </ul>
@@ -29,7 +30,7 @@ export function Footer() {
                 <div>
                     <h4 className="text-white font-semibold mb-4">Contact</h4>
                     <ul className="space-y-2 text-sm">
-                        <li>Saqib Translation Centre, Jamia Ashrafia, Muslim town Ferozpur Road, Lahore</li>
+                        <li>Saqib Translation Centre, Jamia Ashrafia, Muslim Town, Ferozpur Road, Lahore</li>
                         <li>0303 404 1132</li>
                         <li>info@lisan.pk</li>
                     </ul>
