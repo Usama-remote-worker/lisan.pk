@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
+import remarkGfm from 'remark-gfm'
 
 const postsDirectory = path.join(process.cwd(), 'src/content/blog')
 
@@ -66,6 +67,7 @@ export async function getPostData(slug: string): Promise<BlogPost | null> {
 
         // Use remark to convert markdown into HTML string
         const processedContent = await remark()
+            .use(remarkGfm)
             .use(html)
             .process(matterResult.content)
         const contentHtml = processedContent.toString()
@@ -83,7 +85,7 @@ export async function getPostData(slug: string): Promise<BlogPost | null> {
             const mdxPath = path.join(postsDirectory, `${slug}.mdx`)
             const mdxContents = fs.readFileSync(mdxPath, 'utf8')
             const mdxResult = matter(mdxContents)
-            const processedMdx = await remark().use(html).process(mdxResult.content)
+            const processedMdx = await remark().use(remarkGfm).use(html).process(mdxResult.content)
             return {
                 slug,
                 id: slug,
