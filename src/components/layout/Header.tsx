@@ -47,7 +47,7 @@ export function Header() {
                 <div className="flex items-center space-x-2 md:space-x-4">
                     <div className="hidden sm:flex items-center space-x-2">
                         <a
-                            href="tel:03034041132"
+                            href="tel:03044296295"
                             className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"
                             aria-label="Call Us"
                         >
@@ -55,7 +55,7 @@ export function Header() {
                         </a>
 
                         <a
-                            href="https://wa.me/923034041132"
+                            href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20translation%20services."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"

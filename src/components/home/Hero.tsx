@@ -25,10 +25,19 @@ export function Hero() {
                                 <ArrowRight className="ml-2 h-5 w-5" />
                             </Button>
                         </Link>
-                        <Link href="/services/translation">
+                        <Link href="/services">
                             <Button variant="outline" size="lg" className="border-slate-300 text-slate-700 hover:bg-white h-12 text-base">
-                                View Services
+                                View All Services
                             </Button>
+                        </Link>
+                    </div>
+
+                    <div className="mt-8 animate-fade-in-up animate-delay-400 space-y-3">
+                        <Link href="/consultancy/saudi-scholarship" className="text-emerald-700 font-bold hover:underline text-sm flex items-center justify-center gap-2">
+                            🎓 Looking for Saudi Arabia Fully Funded Scholarship 2026? Click here.
+                        </Link>
+                        <Link href="/blog/arabic-translation-services-saudi-scholarship-pakistan" className="text-slate-500 font-medium hover:text-emerald-600 hover:underline text-sm flex items-center justify-center gap-2 transition-colors">
+                            📚 Latest from our blog: Arabic Translation Services for Saudi Scholarship Documents
                         </Link>
                     </div>
 

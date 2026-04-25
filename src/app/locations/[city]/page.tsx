@@ -116,12 +116,12 @@ export default function LocationPage({ params }: PageProps) {
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-slate-100 sticky top-24">
                                 <h3 className="font-bold text-slate-900 mb-6 text-xl">Get Instant Quote</h3>
                                 <div className="space-y-4">
-                                    <Link href="https://wa.me/923034041132" target="_blank" className="block w-full">
+                                    <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20translation%20services%20in%20${cityData.name}.`} target="_blank" className="block w-full">
                                         <Button className="w-full bg-emerald-600 hover:bg-emerald-700 h-14 text-lg">
                                             <MessageSquare className="mr-2" /> WhatsApp Now
                                         </Button>
                                     </Link>
-                                    <Link href="tel:+923034041132" className="block w-full">
+                                    <Link href="tel:+923044296295" className="block w-full">
                                         <Button variant="outline" className="w-full h-14 text-lg border-slate-200">
                                             <Phone className="mr-2" /> Call Agent
                                         </Button>
@@ -148,7 +148,7 @@ export default function LocationPage({ params }: PageProps) {
                         "name": `Lisan.pk Arabic Translation ${cityData.name}`,
                         "description": cityData.description,
                         "url": `https://lisan.pk/locations/${params.city}`,
-                        "telephone": "+923034041132",
+                        "telephone": "+923044296295",
                         "address": {
                             "@type": "PostalAddress",
                             "addressLocality": cityData.name,

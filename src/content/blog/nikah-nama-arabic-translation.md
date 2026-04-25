@@ -117,6 +117,6 @@ Don’t let a missing stamp or signature delay your family’s future – that�
 - ✅ Secure handling of your personal documents
 
 ### Ready to proceed?
-📸 WhatsApp your Nikah Nama to [03034041132](https://wa.me/923034041132) or [03044296295](https://wa.me/923044296295).
+📸 WhatsApp your Nikah Nama to [03044296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Nikah%20Nama%20translation%20services.).
 
 Free instant quote – reply within 2 hours.

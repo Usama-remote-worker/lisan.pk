@@ -1,15 +1,76 @@
 import { PageHero } from "@/components/ui/PageHeader"
 import { CheckCircle2 } from "lucide-react"
 import { Metadata } from "next"
+import { JsonLd } from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
     title: "Document Translation Services | Arabic to English & Urdu | Lisan.pk",
     description: "Expert certified translation for Nikah Nama, Birth Certificates, and legal documents. Embassy recognized Arabic translation with same-day delivery.",
+    alternates: {
+        canonical: '/services/translation',
+    }
 }
+
+const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Certified Document Translation",
+    "provider": {
+        "@type": "LocalBusiness",
+        "name": "Lisan.pk"
+    },
+    "description": "Professional translation for legal, academic, and personal documents from Arabic to English/Urdu and vice versa.",
+    "areaServed": "PK",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Translation Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Nikah Nama Translation"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Birth Certificate Translation"
+                }
+            }
+        ]
+    }
+};
+
+const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Is your translation accepted by the Saudi Embassy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, our Arabic translations are specifically drafted to meet the requirements of the Saudi Embassy in Islamabad and Karachi."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you provide notarized translation?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, we can provide notarized certificates of translation accuracy for legal and court use."
+            }
+        }
+    ]
+};
 
 export default function TranslationPage() {
     return (
         <main className="min-h-screen bg-slate-50">
+            <JsonLd data={serviceSchema} />
+            <JsonLd data={faqSchema} />
             <PageHero
                 title="Certified Translation Services"
                 description="Professional translation for legal, academic, and personal documents. Accepted by embassies and government offices."

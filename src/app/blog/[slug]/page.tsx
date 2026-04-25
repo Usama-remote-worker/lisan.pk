@@ -16,6 +16,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: `${post.title} | Lisan.pk`,
         description: post.summary,
+        alternates: {
+            canonical: `https://lisan.pk/blog/${slug}`,
+        },
         openGraph: {
             title: post.title,
             description: post.summary,
@@ -43,8 +46,37 @@ export default async function BlogPostPage({ params }: Props) {
 
     const relatedPosts = await getRelatedPosts(post.slug, post.category)
 
+    const blogSchema = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "description": post.summary,
+        "author": {
+            "@type": "Person",
+            "name": post.author
+        },
+        "datePublished": post.date,
+        "image": post.image || "https://lisan.pk/logo.png",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Lisan.pk",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://lisan.pk/logo.png"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `https://lisan.pk/blog/${slug}`
+        }
+    }
+
     return (
         <main className="min-h-screen bg-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+            />
             <PageHero
                 title={post.title}
                 breadcrumbs={[

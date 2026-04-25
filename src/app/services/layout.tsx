@@ -1,8 +1,11 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Our Services | Expert Arabic Translation & Attestation | Lisan.pk",
-    description: "One-stop solution for Arabic Translation, Embassy Attestation (MOFA, HEC), and Saudi Scholarship consultancy. Fast, accurate, and trusted nationwide.",
+    title: "Expert Arabic Translation & Embassy Attestation Services | Lisan.pk",
+    description: "Verified Arabic Translation, MOFA Attestation, and HEC Degree Verification services. Trusted by 100k+ clients for Saudi Embassy & Gulf document legalization.",
+    alternates: {
+        canonical: '/services',
+    }
 }
 
 export default function ServicesLayout({

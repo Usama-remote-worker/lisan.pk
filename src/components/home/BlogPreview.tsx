@@ -3,12 +3,12 @@ import { ArrowRight, BookOpen, Calendar, Clock } from "lucide-react"
 
 const posts = [
     {
-        title: "Saudi Scholarship Document Translation: The Ultimate Guide (2026)",
-        excerpt: "A comprehensive guide on translating and attesting documents for Saudi scholarships, covering requirements for KSU, KAUST, and the Saudi Culture Office.",
-        date: "April 23, 2026",
-        category: "Scholarship Guides",
-        readTime: "5 min",
-        slug: "saudi-scholarship-document-translation"
+        title: "Arabic Translation Services for Saudi Scholarship Documents – Pakistan",
+        excerpt: "Applying for a Saudi scholarship? Discover why certified Arabic translation is essential, including costs, doorstep services, and attestation guide.",
+        date: "April 25, 2026",
+        category: "Education",
+        readTime: "6 min",
+        slug: "arabic-translation-services-saudi-scholarship-pakistan"
     },
     {
         title: "Professional Arabic Translation in Pakistan: A 40-Year Heritage",

@@ -6,6 +6,9 @@ import { ShieldCheck, Award, Clock, Users, CheckCircle, Search, FileText, Check,
 export const metadata: Metadata = {
     title: "About Lisan.pk – 40+ Years of Arabic Translation in Pakistan | MA Arabic Certified",
     description: "Lisan.pk: Family-owned Arabic translation & attestation since 1980s. MA Arabic qualified. 200% guarantee. Accepted by MOFA, HEC, Saudi & UAE embassies. Get a free quote.",
+    alternates: {
+        canonical: "https://lisan.pk/about",
+    },
 }
 
 // JSON-LD structured data for the page
@@ -76,12 +79,12 @@ export default function AboutPage() {
               Lisan (لسان) – meaning "tongue" or "language" in Arabic. For over 40 years, we have been Pakistan's trusted voice for embassy‑ready translation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="w-full sm:w-auto">
+              <Link href="/services" className="w-full sm:w-auto">
                 <Button className="w-full bg-emerald-700 hover:bg-emerald-800 text-white min-w-[200px] h-14 text-lg font-bold shadow-lg hover:shadow-xl transition-all">
-                  Get a Free Quote
+                  Our Certified Services
                 </Button>
               </Link>
-              <Link href="https://wa.me/923034041132" target="_blank" className="w-full sm:w-auto">
+              <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20read%20about%20your%20services%20and%20would%20like%20to%20know%20more." target="_blank" className="w-full sm:w-auto">
                 <Button variant="outline" className="w-full border-2 border-emerald-700 text-emerald-800 hover:bg-emerald-50 min-w-[200px] h-14 text-lg font-bold transition-all bg-white">
                   Chat on WhatsApp
                 </Button>
@@ -358,12 +361,12 @@ export default function AboutPage() {
                 Don't risk visa rejections or delays with unverified translators. Partner with the most trusted name in certified Arabic translation in Pakistan.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="w-full sm:w-auto">
-                  <Button className="w-full bg-white text-emerald-900 hover:bg-slate-100 min-w-[220px] h-14 text-lg font-bold shadow-lg transition-all">
-                    Get a Free Quote
-                  </Button>
-                </Link>
-                <Link href="https://wa.me/923034041132" target="_blank" className="w-full sm:w-auto">
+              <Link href="/contact" className="w-full sm:w-auto">
+                <Button className="w-full bg-white text-emerald-900 hover:bg-slate-100 min-w-[220px] h-14 text-lg font-bold shadow-lg transition-all">
+                  Reach out to us
+                </Button>
+              </Link>
+                <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20read%20about%20your%20services%20and%20would%20like%20to%20know%20more." target="_blank" className="w-full sm:w-auto">
                   <Button variant="outline" className="w-full border-2 border-white text-white hover:bg-white/10 min-w-[220px] h-14 text-lg font-bold bg-transparent transition-all">
                     Chat on WhatsApp
                   </Button>

@@ -26,12 +26,22 @@ export default async function BlogPage() {
                         <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">Topic Index</h3>
                         <nav className="flex flex-col space-y-1">
                             <Link href="#" className="px-4 py-2 text-sm text-emerald-700 font-semibold bg-emerald-50 border-l-2 -ml-[2px] border-emerald-600 rounded-r-md">All Collections</Link>
-                            <Link href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors">Document Translation</Link>
-                            <Link href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors">Saudi Attestation</Link>
-                            <Link href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors">Scholarship Guides</Link>
+                             <Link href="/services/translation" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors">Document Translation</Link>
+                            <Link href="/services/attestation" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors">Saudi Attestation</Link>
+                            <Link href="/consultancy/saudi-scholarship" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors font-bold text-emerald-800">🇸🇦 Saudi Scholarship 2026</Link>
                             <Link href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors">Visa Procedures</Link>
                             <Link href="#" className="px-4 py-2 text-sm text-slate-600 hover:text-emerald-700 transition-colors">Company Registration</Link>
                         </nav>
+
+                        <div className="mt-12 p-6 bg-emerald-900 text-white rounded-2xl shadow-xl border border-emerald-800">
+                            <h4 className="text-sm font-bold mb-4">Need Help Now?</h4>
+                            <p className="text-xs text-emerald-100 mb-6 leading-relaxed">
+                                24/7 support available for urgent translation requests.
+                            </p>
+                            <Link href="/contact" className="text-xs font-bold bg-white text-emerald-900 px-4 py-2 rounded-lg hover:bg-emerald-50 transition-colors inline-block">
+                                24/7 support – contact us
+                            </Link>
+                        </div>
 
                         <div className="mt-12 p-6 bg-white rounded-md border border-slate-200 shadow-sm">
                             <h4 className="text-sm font-bold text-slate-900 mb-4">Archive Filters</h4>
