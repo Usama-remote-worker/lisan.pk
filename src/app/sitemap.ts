@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { getSortedPostsData } from '@/lib/blog'
 
-export const baseUrl = 'https://lisan.pk'
+export const baseUrl = 'https://www.lisan.pk'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const staticRoutes = [
