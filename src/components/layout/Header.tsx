@@ -22,7 +22,12 @@ export function Header() {
             <div className="container mx-auto px-4 flex h-16 items-center justify-between">
                 {/* Logo - Left */}
                 <div className="flex-shrink-0">
-                    <Link href="/" className="flex items-center space-x-2">
+                    <Link href="/" className="flex items-center gap-[10px]">
+                        <img 
+                            src="/logo-icon.svg" 
+                            alt="Lisan.pk Logo Icon" 
+                            className="h-7 w-7 object-contain"
+                        />
                         <span className="font-bold text-2xl text-emerald-800 tracking-tight">
                             Lisan.pk
                         </span>

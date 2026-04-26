@@ -13,11 +13,11 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Lisan.pk",
-  "url": "https://lisan.pk",
-  "logo": "https://lisan.pk/logo.png",
+  "url": "https://www.lisan.pk",
+  "logo": "https://www.lisan.pk/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+92-303-404-1132",
+    "telephone": "+923044296295",
     "contactType": "customer service",
     "areaServed": "PK",
     "availableLanguage": ["English", "Arabic", "Urdu"]
@@ -32,9 +32,9 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Lisan.pk - Arabic Translation & Attestation",
-  "image": "https://lisan.pk/images/hero-bg.jpg",
-  "@id": "https://lisan.pk",
-  "url": "https://lisan.pk",
+  "image": "https://www.lisan.pk/images/hero-bg.jpg",
+  "@id": "https://www.lisan.pk",
+  "url": "https://www.lisan.pk",
   "telephone": "+923044296295",
   "address": {
     "@type": "PostalAddress",

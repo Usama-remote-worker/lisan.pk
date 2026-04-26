@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Contact Lisan – Certified Translation & Scholarship Support",
     description: "24/7 Arabic translation support in Pakistan. No office visits needed. Certified stamp and professional sign for Saudi and UAE embassies.",
     alternates: {
-        canonical: "https://lisan.pk/contact",
+        canonical: "https://www.lisan.pk/contact",
     },
 }
 

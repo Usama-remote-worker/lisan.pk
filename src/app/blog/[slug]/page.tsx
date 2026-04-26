@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${post.title} | Lisan.pk`,
         description: post.summary,
         alternates: {
-            canonical: `https://lisan.pk/blog/${slug}`,
+            canonical: `https://www.lisan.pk/blog/${slug}`,
         },
         openGraph: {
             title: post.title,
@@ -56,18 +56,18 @@ export default async function BlogPostPage({ params }: Props) {
             "name": post.author
         },
         "datePublished": post.date,
-        "image": post.image || "https://lisan.pk/logo.png",
+        "image": post.image || "https://www.lisan.pk/logo.png",
         "publisher": {
             "@type": "Organization",
             "name": "Lisan.pk",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://lisan.pk/logo.png"
+                "url": "https://www.lisan.pk/logo.png"
             }
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://lisan.pk/blog/${slug}`
+            "@id": `https://www.lisan.pk/blog/${slug}`
         }
     }
 

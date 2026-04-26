@@ -147,7 +147,7 @@ export default function LocationPage({ params }: PageProps) {
                         "@type": "ProfessionalService",
                         "name": `Lisan.pk Arabic Translation ${cityData.name}`,
                         "description": cityData.description,
-                        "url": `https://lisan.pk/locations/${params.city}`,
+                        "url": `https://www.lisan.pk/locations/${params.city}`,
                         "telephone": "+923044296295",
                         "address": {
                             "@type": "PostalAddress",

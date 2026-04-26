@@ -16,7 +16,7 @@ export interface BlogPost {
     content: string;
     image?: string;
     tags?: string[];
-    category: "Translation" | "Attestation" | "Visa Guides" | "Education";
+    category: "Translation" | "Attestation" | "Visa Guides" | "Education" | "Scholarship Guides" | string;
     author: string;
     readingTime: string;
     published: boolean;

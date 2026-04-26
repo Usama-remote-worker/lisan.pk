@@ -5,7 +5,14 @@ export function Footer() {
         <footer className="bg-slate-900 text-slate-300 py-12">
             <div className="container mx-auto px-4 grid md:grid-cols-4 gap-8">
                 <div>
-                    <h3 className="text-white text-lg font-bold mb-4">Lisan.pk</h3>
+                    <div className="flex items-center space-x-2 mb-4">
+                        <img 
+                            src="/logo-icon-white.svg" 
+                            alt="Lisan.pk Icon" 
+                            className="h-7 w-7 object-contain"
+                        />
+                        <h3 className="text-white text-lg font-bold">Lisan.pk</h3>
+                    </div>
                     <p className="text-sm leading-relaxed text-slate-400">
                         Pakistan’s leading Arabic translation and attestation service provider. Trusted by thousands for accurate and timely services.
                     </p>

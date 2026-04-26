@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "About Lisan.pk – 40+ Years of Arabic Translation in Pakistan | MA Arabic Certified",
     description: "Lisan.pk: Family-owned Arabic translation & attestation since 1980s. MA Arabic qualified. 200% guarantee. Accepted by MOFA, HEC, Saudi & UAE embassies. Get a free quote.",
     alternates: {
-        canonical: "https://lisan.pk/about",
+        canonical: "https://www.lisan.pk/about",
     },
 }
 
@@ -16,8 +16,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Lisan.pk",
-  "url": "https://lisan.pk",
-  "logo": "https://lisan.pk/logo.png",
+  "url": "https://www.lisan.pk",
+  "logo": "https://www.lisan.pk/logo.png",
   "foundingDate": "1984",
   "founder": {
     "@type": "Person",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Naskh_Arabic } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -14,7 +15,7 @@ const notoArabic = Noto_Naskh_Arabic({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://lisan.pk'),
+  metadataBase: new URL('https://www.lisan.pk'),
   title: {
     default: "Lisan.pk | #1 Arabic Translation & Attestation Services in Pakistan",
     template: "%s | Lisan.pk"
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lisan.pk | Certified Arabic Translation & Attestation",
     description: "Expert Arabic translation and document attestation services in Pakistan. Recognized by all major embassies.",
-    url: 'https://lisan.pk',
+    url: 'https://www.lisan.pk',
     siteName: 'Lisan.pk',
     locale: 'en_US',
     type: 'website',
@@ -59,6 +60,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -68,6 +72,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TK7C4ZDDRT"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-TK7C4ZDDRT');
+          `}
+        </Script>
+      </head>
       <body className={`${inter.variable} ${notoArabic.variable} font-sans`}>
         <Header />
         {children}

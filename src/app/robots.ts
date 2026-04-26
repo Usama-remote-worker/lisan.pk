@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/admin', '/api'],
         },
-        sitemap: 'https://lisan.pk/sitemap.xml',
+        sitemap: 'https://www.lisan.pk/sitemap.xml',
     }
 }
