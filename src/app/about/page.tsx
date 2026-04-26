@@ -4,8 +4,8 @@ import { Metadata } from "next"
 import { ShieldCheck, Award, Clock, Users, CheckCircle, Search, FileText, Check, ArrowRight, ExternalLink } from "lucide-react"
 
 export const metadata: Metadata = {
-    title: "About Lisan.pk – 40+ Years of Arabic Translation in Pakistan | MA Arabic Certified",
-    description: "Lisan.pk: Family-owned Arabic translation & attestation since 1980s. MA Arabic qualified. 200% guarantee. Accepted by MOFA, HEC, Saudi & UAE embassies. Get a free quote.",
+    title: "About Lisan.pk: 40+ Years of Arabic Translation Expertise",
+    description: "Learn how Lisan.pk became Pakistan’s #1 trusted name for Arabic translation and embassy attestation. Led by MA Arabic experts with a 40-year legacy.",
     alternates: {
         canonical: "https://www.lisan.pk/about",
     },

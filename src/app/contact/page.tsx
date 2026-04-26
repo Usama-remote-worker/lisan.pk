@@ -17,8 +17,8 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-    title: "Contact Lisan – Certified Translation & Scholarship Support",
-    description: "24/7 Arabic translation support in Pakistan. No office visits needed. Certified stamp and professional sign for Saudi and UAE embassies.",
+    title: "Contact Lisan.pk: Certified Arabic Translation & Attestation",
+    description: "Get a free quote for certified Arabic translation and attestation. 24/7 support across Pakistan. Embassy-accepted services for Saudi & UAE.",
     alternates: {
         canonical: "https://www.lisan.pk/contact",
     },

@@ -7,9 +7,9 @@ import { notFound } from "next/navigation"
 
 const serviceData = {
     "nikah-nama-marriage-certificate": {
-        title: "Nikah Nama & Marriage Certificate Translation",
+        title: "Certified Nikah Nama Translation Pakistan | Lisan.pk",
         h1: "Certified Nikah Nama Translation | Official & Recognized",
-        description: "Professional Arabic, English, and Urdu translation for Nikah Nama and Marriage Certificates. Accepted by the Saudi Embassy, UAE Embassy, and global immigration.",
+        description: "Certified Arabic & English translation for Nikah Nama. Official and embassy-recognized services in Pakistan. Fast delivery for Saudi & UAE visas.",
         content: "Translating a Nikah Nama requires precision, as legal terminology and dates must be exact. Our certified translations are recognized by embassies for spouse visas, family registration, and legal stay applications.",
         features: ["Embassy Certified", "Same-day Service", "Notarized Certificate", "Accurate Date Conversion"],
         checklist: ["Original Arabic/Urdu Nikah Nama", "Passport copies of Bride & Groom", "CNIC copies for verification"],
@@ -19,9 +19,9 @@ const serviceData = {
         ]
     },
     "birth-certificate-translation": {
-        title: "Birth Certificate Translation Services",
+        title: "Certified Birth Certificate Translation Pakistan | Lisan.pk",
         h1: "Certified Birth Certificate Translation for Visa & Immigration",
-        description: "Official translation of NADRA birth certificates and hospital records into Arabic or English. Fast turnaround for study and immigration visas.",
+        description: "Official Arabic & English translation of NADRA birth certificates. Accepted by embassies for visa & immigration. Certified and fast turnaround.",
         content: "A birth certificate is the most critical document for identity verification. We provide certified translations that mirror the original format, ensuring zero friction during your visa interview.",
         features: ["NADRA Format Matching", "Global Recognition", "Fast Digital Copy", "Official Seal & Stamp"],
         checklist: ["Original NADRA Birth Certificate", "Correct spelling of names as per Passport", "Date of birth verification"],
@@ -31,9 +31,9 @@ const serviceData = {
         ]
     },
     "academic-degree-transcript": {
-        title: "Academic Degree & Transcript Translation",
+        title: "Degree & Transcript Translation Pakistan | Lisan.pk",
         h1: "Professional Academic Translation | HEC Recognized Documents",
-        description: "Certified translation for Degrees, Diplomas, and Transcripts. Essential for HEC attestation, WES evaluation, and foreign university admissions.",
+        description: "Professional Arabic translation for degrees and transcripts. HEC and MOFA compliant. Trusted for Saudi, UAE & Gulf visa applications.",
         content: "Your academic future depends on accurate representation. We translate Pakistani degrees and transcripts into Arabic for Gulf countries (Saudi, UAE, Qatar) and English for Western universities.",
         features: ["Technical Terminology", "HEC Compliance", "WES/IQAS Friendly", "Transcript Formatting"],
         checklist: ["HEC Attested Original Degree", "Marksheet/Transcript", "Passport for name matching"],

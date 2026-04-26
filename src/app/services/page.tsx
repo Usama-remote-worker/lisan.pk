@@ -5,8 +5,8 @@ import { CheckCircle2, ArrowRight, FileText, Globe, ShieldCheck, HelpCircle, Clo
 import { JsonLd } from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
-    title: "Professional Translation Services in Pakistan | Certified & Fast | Lisan.pk",
-    description: "Looking for translation services in Pakistan? We provide certified document translation, Urdu to English, and legal translation with MOFA/Embassy acceptance.",
+    title: "Professional Translation Services in Pakistan | Lisan.pk",
+    description: "Certified document translation services in Pakistan. Specialist in Arabic, Urdu & English. Accepted by MOFA, HEC & all foreign embassies. Fast turnaround.",
     alternates: {
         canonical: "https://www.lisan.pk/services",
     },

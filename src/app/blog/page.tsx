@@ -3,8 +3,8 @@ import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Lisan.pk Blog | Insights on Arabic Translation & Saudi Attestation",
-    description: "Expert advice on translation and attestation procedures. Stay updated with the latest requirements for student visas, marriage documents, and more.",
+    title: "Lisan.pk Blog: Arabic Translation & Saudi Attestation Guides",
+    description: "Expert guides on document translation, Saudi scholarship requirements, and embassy attestation in Pakistan. Stay updated with Lisan.pk.",
 }
 
 export default async function BlogPage() {

@@ -17,10 +17,10 @@ const notoArabic = Noto_Naskh_Arabic({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.lisan.pk'),
   title: {
-    default: "Lisan.pk | #1 Arabic Translation & Attestation Services in Pakistan",
+    default: "Certified Arabic Translation & Attestation Pakistan | Lisan.pk",
     template: "%s | Lisan.pk"
   },
-  description: "Certified Arabic translation and attestation services in Pakistan. Trusted by embassies and 100k+ clients. Doorstep delivery nationwide.",
+  description: "40+ years of certified Arabic translation & attestation in Pakistan. Trusted by Saudi & UAE embassies. Fast doorstep delivery nationwide. 100% acceptance.",
   keywords: ["Arabic translation", "Attestation services", "Nikah Nama translation", "MOFA attestation", "Saudi Embassy attestation", "Pakistan translation services"],
   authors: [{ name: "Lisan.pk Team" }],
   creator: "Lisan.pk",
