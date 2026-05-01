@@ -6,7 +6,11 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
     title: "Document Services | Professional Legalization & Notary | Lisan.pk",
     description: "Assistance with Police Clearance Certificates, NADRA Family Registration (FRC), Birth Certificates, and legal documentation for international use.",
+    alternates: {
+        canonical: '/services/document',
+    }
 }
+
 
 export default function DocumentServicesPage() {
     return (

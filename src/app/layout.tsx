@@ -30,9 +30,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  alternates: {
-    canonical: '/',
-  },
+
   openGraph: {
     title: "Lisan.pk | Certified Arabic Translation & Attestation",
     description: "Expert Arabic translation and document attestation services in Pakistan. Recognized by all major embassies.",

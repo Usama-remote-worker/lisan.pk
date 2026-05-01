@@ -29,8 +29,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
         title: `Arabic Translation & Attestation in ${cityData.name} | Lisan.pk`,
         description: `Need certified Arabic translation or MOFA/HEC attestation in ${cityData.name}? Lisan.pk provides professional, embassy-recognized document services nationwide.`,
+        alternates: {
+            canonical: `/locations/${params.city}`,
+        },
     }
 }
+
 
 export async function generateStaticParams() {
     return Object.keys(cities).map((city) => ({

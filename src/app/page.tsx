@@ -1,3 +1,4 @@
+import { Metadata } from "next"
 import { Hero } from "@/components/home/Hero"
 import { DocumentTranslationGrid } from "@/components/home/DocumentTranslationGrid"
 import { AttestationList } from "@/components/home/AttestationList"
@@ -8,6 +9,13 @@ import { BlogPreview } from "@/components/home/BlogPreview"
 import { TrustSection } from "@/components/home/TrustSection"
 import { FadeIn } from "@/components/ui/fade-in"
 import { JsonLd } from "@/components/seo/JsonLd"
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+}
+
 
 const organizationSchema = {
   "@context": "https://schema.org",

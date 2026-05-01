@@ -67,8 +67,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
         title: `${data.title} | Lisan.pk`,
         description: data.description,
+        alternates: {
+            canonical: `/services/translation/${params.slug}`,
+        },
     }
 }
+
 
 export async function generateStaticParams() {
     return Object.keys(serviceData).map((slug) => ({
