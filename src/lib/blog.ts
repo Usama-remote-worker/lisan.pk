@@ -20,6 +20,7 @@ export interface BlogPost {
     author: string;
     readingTime: string;
     published: boolean;
+    faqs?: { q: string; a: string }[];
 }
 
 export async function getSortedPostsData(): Promise<BlogPost[]> {
