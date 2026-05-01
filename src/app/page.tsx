@@ -7,15 +7,17 @@ import { Testimonials } from "@/components/home/Testimonials"
 import { FaqSection } from "@/components/home/FaqSection"
 import { BlogPreview } from "@/components/home/BlogPreview"
 import { TrustSection } from "@/components/home/TrustSection"
+import { LocationGrid } from "@/components/home/LocationGrid"
 import { FadeIn } from "@/components/ui/fade-in"
 import { JsonLd } from "@/components/seo/JsonLd"
+
+import { getSortedPostsData } from "@/lib/blog"
 
 export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
 }
-
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -74,7 +76,10 @@ const localBusinessSchema = {
   ]
 };
 
-export default function Home() {
+
+export default async function Home() {
+  const posts = await getSortedPostsData()
+
   return (
     <main className="min-h-screen bg-slate-50 font-sans text-slate-900">
       <JsonLd data={organizationSchema} />
@@ -85,13 +90,15 @@ export default function Home() {
 
       <TrustSection />
 
-
       <DocumentTranslationGrid />
       <AttestationList />
       <WhyChooseUs />
+      <LocationGrid />
       <Testimonials />
       <FaqSection />
-      <BlogPreview />
+
+      <BlogPreview posts={posts} />
     </main>
   )
 }
+

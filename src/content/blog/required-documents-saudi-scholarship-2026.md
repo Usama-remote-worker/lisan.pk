@@ -13,6 +13,8 @@ Applying for a Saudi Arabia scholarship in 2026? Whether you aim for a bachelor�
 
 In this guide, you’ll get the complete **required documents for Saudi Arabia scholarship programs 2026** – plus professional [Arabic translation services in Pakistan](/) to make your file 100% compliant.
 
+> **Important:** This checklist is a companion to our **[Complete Saudi Arabia Fully Funded Scholarship Guide (2026)](/blog/saudi-arabia-fully-funded-scholarships-guide-pakistani-students)**. Read the main guide first for application strategies and deadines.
+
 
 
 ## Why Saudi Arabia Scholarships Are Highly Competitive in 2026
@@ -133,6 +135,20 @@ A: Both. We handle bachelor, master, and PhD scholarship document translations.
 **Q5: Is your service available in small cities like Sialkot or Sukkur?**  
 A: Yes, we serve all of Pakistan via courier and email.
 
+## 2026 Scholarship Student FAQ (Deep Dive)
+
+**Q: Can I apply for the Saudi Government scholarship without a Passport?**
+No. A valid passport is mandatory for the registration on the 'Study in Saudi' portal. We recommend applying for an urgent passport if you don't have one yet.
+
+**Q: Do I need a single status certificate for a student visa?**
+While not usually required for the initial scholarship application, it is mandatory if you plan to bring your spouse later. See our [Nikah Nama translation guide](/blog/nikah-nama-arabic-translation).
+
+**Q: What is the benefit of translating my CV into Arabic?**
+Some universities (like King Saud University) prefer an Arabic CV as it shows your commitment to learning the language and simplifies the reviewer's job.
+
+**Q: Does Lisan.pk offer help with the online application portal?**
+We primarily focus on certified translation and attestation, but we provide a [free document checklist PDF](#cta) that walks you through the portal's requirements.
+
 ## Final Checklist Before Submission
 
 Print this and tick ✅ each item:
@@ -149,8 +165,10 @@ Print this and tick ✅ each item:
 
 ✅ **Documents professionally translated into Arabic?** [Contact us now](/contact).
 
-### Ready to submit your Saudi scholarship application for 2026?
-Don’t let missing or untranslated documents ruin your chance.  
-👉 **Order your Arabic translation today** – [Get a Free Quote](/contact) or call **0304-4296295**.
-
 We deliver accurate, certified Arabic translations for all required documents for Saudi Arabia scholarship programs 2026 – anywhere in Pakistan.
+
+<div id="cta" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
+    <h3 className="text-2xl font-bold text-emerald-900 mb-4">📥 Free Download: Saudi Scholarship 7-Step Checklist</h3>
+    <p className="text-emerald-800/70 mb-6">Never miss a deadline or a document. Get our verified PDF checklist for the 2026 application cycle.</p>
+    <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20the%20Scholarship%20Document%20Checklist%20PDF." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Get PDF via WhatsApp</a>
+</div>

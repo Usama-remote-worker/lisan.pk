@@ -71,12 +71,41 @@ export default async function BlogPostPage({ params }: Props) {
         }
     }
 
+    const isScholarshipPillar = slug === 'saudi-arabia-fully-funded-scholarships-guide-pakistani-students'
+
+    const faqSchema = post.faqs ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": post.faqs.map((f: any) => ({
+            "@type": "Question",
+            "name": f.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": f.a
+            }
+        }))
+    } : null
+
     return (
         <main className="min-h-screen bg-white">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
             />
+            {faqSchema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+                />
+            )}
+            
+            {isScholarshipPillar && (
+                <div className="bg-amber-500 text-white py-3 text-center text-sm font-bold animate-pulse">
+                    ⚠️ 2026 Applications Closing Soon. Is your translation ready? 
+                    <Link href="#cta" className="ml-2 underline hover:text-white">Get Priority Help →</Link>
+                </div>
+            )}
+
             <PageHero
                 title={post.title}
                 breadcrumbs={[
@@ -87,6 +116,15 @@ export default async function BlogPostPage({ params }: Props) {
             />
 
             <article className="py-16 container mx-auto px-4 max-w-3xl">
+                {isScholarshipPillar && (
+                    <div className="mb-12 flex flex-wrap justify-center items-center gap-8 opacity-40 grayscale hover:grayscale-0 transition-all">
+                        <img src="/images/logos/hec.png" alt="HEC Pakistan" className="h-10 w-auto" />
+                        <img src="/images/logos/mofa.png" alt="MOFA Pakistan" className="h-10 w-auto" />
+                        <img src="/images/logos/saudi-moe.png" alt="Saudi Ministry of Education" className="h-10 w-auto" />
+                        <p className="w-full text-center text-[10px] text-slate-400 mt-2 italic font-sans">Recognized standards for documentation and certified translation.</p>
+                    </div>
+                )}
+
                 <div className="flex items-center gap-4 text-slate-500 mb-10 text-sm">
                     <time dateTime={post.date}>{new Date(post.date).toLocaleDateString('en-US', {
                         year: 'numeric',
@@ -148,3 +186,4 @@ export default async function BlogPostPage({ params }: Props) {
         </main>
     )
 }
+

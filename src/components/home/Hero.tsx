@@ -34,13 +34,16 @@ export function Hero() {
                     </div>
 
 
-                    <div className="mt-8 animate-fade-in-up animate-delay-400 space-y-4">
-                        <Link href="/consultancy/saudi-scholarship" className="text-emerald-700 font-bold hover:underline text-[15px] flex items-center justify-center gap-2">
-                            Looking for Saudi Arabia Fully Funded Scholarship 2026? Click here.
-                        </Link>
-                        <Link href="/blog/saudia-scholarship-programs-still-open-2026" className="text-slate-400 font-medium hover:text-emerald-600 hover:underline text-[13px] flex items-center justify-center gap-2 transition-colors">
-                            Latest Update: Saudia Scholarship Programs Still Open for 2026
-                        </Link>
+                    <div className="mt-12 p-6 bg-emerald-50 rounded-2xl border border-emerald-100 inline-block animate-fade-in-up animate-delay-400">
+                        <p className="text-emerald-900 font-bold mb-2">🎓 2026 Saudi Scholarship Application Cycle is LIVE</p>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <Link href="/blog/saudi-arabia-fully-funded-scholarships-guide-pakistani-students" className="text-emerald-700 font-bold hover:underline text-[15px] flex items-center justify-center gap-2">
+                                Complete 2026 Scholarship Guide <ArrowRight className="h-4 w-4" />
+                            </Link>
+                            <Link href="/blog/required-documents-saudi-scholarship-2026" className="text-emerald-700 font-bold hover:underline text-[15px] flex items-center justify-center gap-2">
+                                Document Checklist <ArrowRight className="h-4 w-4" />
+                            </Link>
+                        </div>
                     </div>
 
                     <div className="mt-20 flex flex-wrap items-center justify-center gap-x-12 gap-y-6 text-sm font-bold text-slate-400 uppercase tracking-widest border-t border-slate-50 pt-12">

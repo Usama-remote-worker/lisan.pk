@@ -56,7 +56,7 @@ If you missed the KFUPM, KAUST, or IsDB deadlines, use this time wisely:
 
 1.  **Plan for Fall 2027:** KAUST and KFUPM typically open their next round around September–October 2026.
 2.  **Get Your Paperwork Ready:** Use our [Required Documents Checklist](/blog/required-documents-saudi-scholarship-2026) to start gathering your degrees and transcripts.
-3.  **Start Translation Early:** Avoid the last-minute rush. You can now [order Arabic document translation online](/blog/order-arabic-document-translation-online) and get your [certified document translation](/services/translation) done from home so you're ready the moment portals open.
+3.  **Start Translation Early:** Avoid the last-minute rush. You can now [order Arabic document translation online](/blog/order-arabic-document-translation-online) and get your [certified document translation](/services/translation) done from home so you're ready the moment portals open. Learn more about [certified Arabic translation in Pakistan](/blog/certified-arabic-translation-pakistan).
 
 ---
 
@@ -118,7 +118,9 @@ Your scholarship dream deserves perfection from the very first page.
 
 ### Related Scholarship Guides:
 *   [How to Apply for Saudi Scholarships: Complete Pakistani Student Guide](/blog/saudi-arabia-fully-funded-scholarships-guide-pakistani-students)
+*   [Detailed Required Documents Checklist for 2026](/blog/required-documents-saudi-scholarship-2026)
 *   [Top 5 Best Universities for Saudi Scholarships 2026](/blog/top-5-best-universities-saudi-arabia-fully-funded-scholarship-2026)
 *   [Everything You Need to Know About Saudi Scholarship Document Translation](/blog/saudi-scholarship-document-translation)
+*   [Professional Arabic Translation Services in Pakistan: A Full Comparison](/blog/professional-arabic-translation-services-pakistan)
 *   [Step-by-Step HEC and MOFA Attestation Guide](/services/attestation)
 

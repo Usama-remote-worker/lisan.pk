@@ -7,6 +7,13 @@ author: "Lisan.pk Editorial Team"
 readingTime: "5 min"
 published: true
 tags: ["Saudi Scholarship", "Document Translation", "Attestation", "Study in Saudi"]
+faqs:
+  - q: "What is the most important document for a Saudi scholarship?"
+    a: "Your HEC-attested degree and its certified Arabic translation are the most critical components of your application."
+  - q: "Can I use an English transcript for a Saudi university?"
+    a: "While some universities accept English, most government-funded scholarships require an official Arabic translation for the final selection process."
+  - q: "Is the translation recognized by the Saudi Embassy?"
+    a: "Yes, our certified translations are recognized by the Saudi Embassy in Islamabad and the Consulate in Karachi."
 ---
 
 Securing a fully-funded seat in the Kingdom of Saudi Arabia is a dream for thousands of Pakistani students. However, the path to King Saud University or KAUST often hits a roadblock due to improper Saudi scholarship document translation. In 2026, the competition is higher than ever, and a single mistranslation on your degree or transcript can lead to an immediate rejection.

@@ -133,6 +133,11 @@ export default function ServiceDetailPage({ params }: PageProps) {
                                     ))}
                                 </ul>
 
+                                <h2 className="text-2xl font-bold text-slate-900 mb-6">Why Certified Translation Matters</h2>
+                                <p className="text-slate-600 mb-8 leading-relaxed">
+                                    When submitting documents to the **Saudi Embassy**, **MOFA**, or international universities, a simple translation is not enough. You need a **Certified Translation** that includes an official statement of accuracy, the translator's credentials, and the agency's registered stamp. This legal weight ensures your application isn't rejected for "unofficial documentation."
+                                </p>
+
                                 <h2 className="text-2xl font-bold text-slate-900 mb-8">Frequently Asked Questions</h2>
                                 <div className="space-y-4">
                                     {data.faqs.map((faq, idx) => (
