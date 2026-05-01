@@ -1,44 +1,41 @@
-import { Clock, Zap, UserCheck, CheckCircle2 } from "lucide-react"
-
 const features = [
     {
         title: "Over 4 Decades",
         description: "Unmatched expertise in legal and academic Arabic translation since 1980.",
-        icon: Clock,
     },
     {
         title: "Fast Turnaround",
         description: "Urgent translation services with same-day digital delivery available.",
-        icon: Zap,
     },
     {
         title: "Embassy Approved",
         description: "100% acceptance rate at Saudi, UAE, and other Gulf embassies.",
-        icon: UserCheck,
     },
     {
         title: "200% Guarantee",
         description: "Full protection against rejections caused by our translation errors.",
-        icon: CheckCircle2,
     },
 ]
 
 export function WhyChooseUs() {
     return (
-        <section className="py-20 bg-white">
-            <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center text-slate-900 mb-16">What Makes Lisan.pk Different?</h2>
+        <section className="py-24 bg-white border-t border-slate-100">
+            <div className="container mx-auto px-4 max-w-7xl">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">Why Authorities Trust Lisan.pk</h2>
+                    <div className="w-20 h-1 bg-emerald-600 mx-auto rounded-full"></div>
+                </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {features.map((feature) => (
-                        <div key={feature.title} className="p-6 rounded-xl border border-emerald-100 bg-emerald-50/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full">
-                            <div className="mb-4">
-                                <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-4 text-emerald-600">
-                                    <feature.icon className="h-6 w-6" />
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    {features.map((feature, index) => (
+                        <div key={feature.title} className="p-8 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 border border-transparent hover:border-emerald-100 flex flex-col h-full">
+                            <div className="mb-6">
+                                <div className="text-4xl font-bold text-emerald-100 mb-4 tabular-nums">
+                                    {String(index + 1).padStart(2, '0')}
                                 </div>
-                                <h3 className="text-lg font-bold text-slate-900 mb-2">{feature.title}</h3>
+                                <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">{feature.title}</h3>
                             </div>
-                            <p className="text-slate-600 text-sm leading-relaxed flex-grow">
+                            <p className="text-slate-600 leading-relaxed text-[15px]">
                                 {feature.description}
                             </p>
                         </div>
@@ -48,3 +45,4 @@ export function WhyChooseUs() {
         </section>
     )
 }
+

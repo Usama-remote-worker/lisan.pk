@@ -41,6 +41,18 @@ const serviceData = {
             { q: "Do you provide translation for WES evaluation?", a: "Yes, our translations are formatted to meet the specific requirements of WES, IQAS, and other evaluation bodies." },
             { q: "Can you help with HEC attestation too?", a: "Yes, we provide consultancy and logistics support for the entire HEC and MOFA verification process." }
         ]
+    },
+    "police-character-certificate": {
+        title: "Police Character Certificate Translation | Lisan.pk",
+        h1: "Certified Police Certificate Translation for Visa & Immigration",
+        description: "Official Arabic & English translation of Police Character Certificates. Required for Saudi, UAE, and Qatar work visas. Certified and fast turnaround.",
+        content: "A Police Character Certificate (PCC) is a mandatory requirement for most work and residency visas in the Gulf. We provide certified translations that are accepted by all major embassies and consulates.",
+        features: ["Embassy Certified", "24-Hour Delivery", "Legal Validity", "Accurate Terminology"],
+        checklist: ["Original Police Character Certificate", "Passport copy for name matching", "CNIC copy"],
+        faqs: [
+            { q: "Is this translation valid for Saudi work visas?", a: "Yes, our certified translations are recognized by the Saudi Embassy and Cultural Attaché for all visa categories." },
+            { q: "Do you translate certificates from all districts?", a: "Yes, we translate police certificates issued by any district or city across Pakistan." }
+        ]
     }
 }
 

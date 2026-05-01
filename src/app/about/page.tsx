@@ -203,7 +203,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
         <div className="container mx-auto px-4 relative z-10 max-w-[1280px]">
           <div className="max-w-4xl mx-auto bg-black/20 backdrop-blur border border-white/10 p-8 md:p-12 rounded-3xl animate-in fade-in slide-in-from-bottom-8 duration-700">
-            <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-8">
+            <div id="why-no-license" className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-8">
               <Award className="w-12 h-12 text-emerald-400 flex-shrink-0" />
               <h2 className="text-3xl md:text-4xl font-bold font-serif leading-tight">The Truth About "Certified" Translation in Pakistan</h2>
             </div>
@@ -219,7 +219,7 @@ export default function AboutPage() {
                   This is why Lisan.pk is uniquely trusted. With 40+ years of flawless standing, verifiable MA Arabic qualifications, and a track record of 100% acceptance by MOFA and foreign embassies, our letterhead carries the weight of unquestionable authority.
                 </p>
               </div>
-              <Link href="/why-no-license" className="inline-flex items-center text-emerald-200 hover:text-white font-bold text-lg group transition-colors">
+              <Link href="#why-no-license" className="inline-flex items-center text-emerald-200 hover:text-white font-bold text-lg group transition-colors">
                 [Learn more about why Pakistan has no official translator license →]
               </Link>
             </div>
@@ -328,19 +328,19 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 mb-6 font-serif">Explore Our Certified Services</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-             <Link href="/services/translation/nikah-nama" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
+             <Link href="/services/translation/nikah-nama-marriage-certificate" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
                 <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Nikah Nama Translation for Saudi Visa</span>
                 <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
              </Link>
-             <Link href="/services/attestation/degree" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
+             <Link href="/services/attestation" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
                 <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Degree Attestation for UAE</span>
                 <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
              </Link>
-             <Link href="/services/translation/police-certificate" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
+             <Link href="/services/translation/police-character-certificate" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
                 <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Police Certificate Translation for Qatar</span>
                 <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
              </Link>
-             <Link href="/services/translation/birth-certificate" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
+             <Link href="/services/translation/birth-certificate-translation" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
                 <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Birth Certificate (FRC) Translation</span>
                 <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
              </Link>

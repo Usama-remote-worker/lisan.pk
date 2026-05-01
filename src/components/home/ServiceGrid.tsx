@@ -1,9 +1,6 @@
-import { FileText, Globe, Languages, CheckCircle2 } from "lucide-react"
-
 const serviceCategories = [
     {
         title: "Primary Services",
-        icon: Languages,
         items: [
             "Arabic to English Translation",
             "English to Arabic Translation",
@@ -13,7 +10,6 @@ const serviceCategories = [
     },
     {
         title: "Gulf/Arabic Country Coverage",
-        icon: Globe,
         items: [
             "Saudi Arabia Translation",
             "UAE Translation (Dubai, Abu Dhabi)",
@@ -25,7 +21,6 @@ const serviceCategories = [
     },
     {
         title: "Document Translation",
-        icon: FileText,
         items: [
             "Visa Documents",
             "Birth/Marriage Certificates",
@@ -43,29 +38,24 @@ const serviceCategories = [
 
 export function ServiceGrid() {
     return (
-        <section className="py-20 bg-white">
-            <div className="container mx-auto px-4">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Our Services</h2>
-                    <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-                        Comprehensive Arabic translation and attestation services for all your needs.
+        <section className="py-24 bg-white border-t border-slate-100">
+            <div className="container mx-auto px-4 max-w-7xl">
+                <div className="mb-16">
+                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 font-serif">Our Specialized Services</h2>
+                    <p className="mt-4 text-lg text-slate-600 max-w-2xl leading-relaxed">
+                        Comprehensive Arabic translation and attestation services for all your needs, delivered with 40 years of expertise.
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-3 gap-10">
                     {serviceCategories.map((category) => (
-                        <div key={category.title} className="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                            <div className="flex items-center gap-4 mb-6">
-                                <div className="p-3 bg-emerald-100 text-emerald-600 rounded-lg">
-                                    <category.icon className="h-6 w-6" />
-                                </div>
-                                <h3 className="text-xl font-bold text-slate-900">{category.title}</h3>
-                            </div>
-                            <ul className="space-y-3">
+                        <div key={category.title} className="p-0 flex flex-col">
+                            <h3 className="text-xl font-bold text-slate-900 mb-8 font-serif pb-4 border-b-2 border-emerald-600 inline-block self-start">{category.title}</h3>
+                            <ul className="space-y-4">
                                 {category.items.map((item) => (
-                                    <li key={item} className="flex items-start text-slate-600">
-                                        <CheckCircle2 className="h-5 w-5 text-emerald-500 mr-3 flex-shrink-0 mt-0.5" />
-                                        <span className="text-sm font-medium">{item}</span>
+                                    <li key={item} className="flex items-start text-slate-700">
+                                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-3 mt-2 shrink-0"></span>
+                                        <span className="text-[15px] font-medium leading-tight">{item}</span>
                                     </li>
                                 ))}
                             </ul>
@@ -76,3 +66,4 @@ export function ServiceGrid() {
         </section>
     )
 }
+

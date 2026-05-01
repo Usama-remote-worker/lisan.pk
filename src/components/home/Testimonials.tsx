@@ -73,78 +73,73 @@ export function Testimonials() {
 
     return (
         <section className="py-24 bg-white border-t border-slate-100 overflow-hidden">
-            <div className="container mx-auto px-4">
-                <div className="text-center mb-12">
-                    <div className="inline-flex items-center justify-center p-2 mb-4 bg-orange-50 rounded-full">
-                        <div className="flex text-orange-400">
-                            {[1, 2, 3, 4, 5].map((_, i) => (
-                                <Star key={i} className="w-4 h-4 fill-current" />
-                            ))}
+            <div className="container mx-auto px-4 max-w-7xl">
+                <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8">
+                    <div className="max-w-2xl">
+                        <div className="inline-flex items-center gap-3 mb-6">
+                            <div className="flex items-center gap-1 text-emerald-600 font-bold text-xl font-serif">
+                                4.9
+                            </div>
+                            <div className="w-1 h-1 rounded-full bg-slate-300"></div>
+                            <div className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">
+                                Verified Google Reviews
+                            </div>
                         </div>
-                        <span className="ml-2 text-sm font-medium text-orange-700">Excellent 4.9/5 Rating</span>
+                        <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 mb-6 font-serif">
+                            Trusted by Students & Professionals
+                        </h2>
+                        <p className="text-lg text-slate-600 leading-relaxed">
+                            Over 40 years of building trust through precision and reliability. Here is what our clients say about our institutional service standards.
+                        </p>
                     </div>
-                    <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl mb-4">
-                        Trusted by Thousands
-                    </h2>
-                    <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                        Don't just take our word for it. Here is what our satisfied clients have to say about our translation and attestation services.
-                    </p>
-                </div>
-
-                <div className="relative">
-                    {/* Navigation Buttons for Desktop */}
-                    <div className="hidden lg:flex justify-end gap-2 mb-4">
+                    
+                    {/* Navigation Buttons */}
+                    <div className="flex gap-3">
                         <Button
                             variant="outline"
                             size="icon"
                             onClick={() => scroll("left")}
-                            className="rounded-full hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200"
+                            className="rounded-full w-14 h-14 border-slate-200 hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200 transition-all duration-300"
                         >
-                            <ChevronLeft className="h-5 w-5" />
+                            <ChevronLeft className="h-6 w-6" />
                         </Button>
                         <Button
                             variant="outline"
                             size="icon"
                             onClick={() => scroll("right")}
-                            className="rounded-full hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200"
+                            className="rounded-full w-14 h-14 border-slate-200 hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200 transition-all duration-300"
                         >
-                            <ChevronRight className="h-5 w-5" />
+                            <ChevronRight className="h-6 w-6" />
                         </Button>
                     </div>
+                </div>
 
+                <div className="relative">
                     {/* Scrollable Container */}
                     <div
                         ref={scrollRef}
-                        className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0"
+                        className="flex gap-8 overflow-x-auto pb-12 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0"
                         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
                     >
                         {reviews.map((review) => (
                             <div
                                 key={review.id}
-                                className="min-w-[300px] md:min-w-[400px] bg-slate-50 p-8 rounded-2xl border border-slate-100 relative hover:shadow-lg transition-all snap-center flex flex-col"
+                                className="min-w-[320px] md:min-w-[440px] bg-white p-10 rounded-[2.5rem] border border-slate-100 relative hover:shadow-2xl transition-all duration-500 snap-center flex flex-col group"
                             >
-                                <Quote className="absolute top-8 right-8 w-8 h-8 text-emerald-100 fill-current" />
-
-                                <div className="flex items-center gap-1 mb-6 text-orange-400">
-                                    {[...Array(review.rating)].map((_, i) => (
-                                        <Star key={i} className="w-4 h-4 fill-current" />
-                                    ))}
+                                <div className="mb-8">
+                                    <div className="text-emerald-600 font-bold text-sm uppercase tracking-[0.2em] mb-4">Excellent Service</div>
+                                    <p className="text-slate-700 text-lg leading-relaxed font-medium italic group-hover:text-slate-900 transition-colors">
+                                        "{review.text}"
+                                    </p>
                                 </div>
 
-                                <p className="text-slate-600 mb-8 leading-relaxed flex-grow">
-                                    "{review.text}"
-                                </p>
-
-                                <div className="flex items-center gap-4 mt-auto">
-                                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 font-bold shrink-0">
+                                <div className="flex items-center gap-4 mt-auto pt-8 border-t border-slate-50">
+                                    <div className="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-bold shrink-0 text-lg">
                                         {review.avatar}
                                     </div>
                                     <div>
-                                        <p className="font-semibold text-slate-900">{review.name}</p>
-                                        <p className="text-sm text-slate-400">{review.date}</p>
-                                    </div>
-                                    <div className="ml-auto">
-                                        <div className="text-xs font-bold text-slate-300">Google Review</div>
+                                        <p className="font-bold text-slate-900">{review.name}</p>
+                                        <p className="text-xs text-slate-400 font-medium uppercase tracking-wider">{review.date}</p>
                                     </div>
                                 </div>
                             </div>
@@ -155,4 +150,5 @@ export function Testimonials() {
         </section>
     )
 }
+
 

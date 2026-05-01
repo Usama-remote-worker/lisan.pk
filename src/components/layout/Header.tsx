@@ -70,16 +70,15 @@ export function Header() {
                         </a>
                     </div>
 
-                    <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="hidden md:block">
-                        <Button className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold px-6 h-11 shadow-[0_4px_20px_-5px_rgba(6,78,59,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-emerald-700/50">
-                            <FileCheck className="mr-2 h-5 w-5 text-emerald-400" />
+                    <Link href="/contact" className="hidden md:block">
+                        <Button className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold px-8 h-11 shadow-[0_4px_20px_-5px_rgba(6,78,59,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-emerald-700/50">
                             Get a Free Quote
                         </Button>
                     </Link>
 
-                    <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="md:hidden">
-                        <Button size="sm" className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-3 rounded-lg shadow-md">
-                            <FileCheck className="h-5 w-5" />
+                    <Link href="/contact" className="md:hidden">
+                        <Button size="sm" className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-4 rounded-lg shadow-md">
+                            Quote
                         </Button>
                     </Link>
 
@@ -90,7 +89,7 @@ export function Header() {
                             className="px-2"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                         >
-                            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                            {isMenuOpen ? <X className="h-6 w-6 text-slate-600" /> : <Menu className="h-6 w-6 text-slate-600" />}
                         </Button>
                     </div>
                 </div>
@@ -110,9 +109,8 @@ export function Header() {
                                 {item.label}
                             </Link>
                         ))}
-                        <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="pt-4">
+                        <Link href="/contact" className="pt-4">
                             <Button className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold h-14 rounded-2xl shadow-xl transition-all active:scale-95 border border-emerald-700">
-                                <FileCheck className="mr-2 h-6 w-6 text-emerald-400" />
                                 Get a Free Quote & Upload
                             </Button>
                         </Link>

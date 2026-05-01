@@ -42,21 +42,21 @@ export function Footer() {
                     <h4 className="text-white font-semibold mb-4">Official Contact</h4>
                     <ul className="space-y-4 text-sm">
                         <li className="flex items-start gap-2">
-                            <span className="text-emerald-500 font-bold">🚀</span>
+                            <span className="text-emerald-500 font-bold uppercase text-[10px] tracking-widest mt-1">Status:</span>
                             <span>Serving Nationwide Pakistan – No office visits needed.</span>
                         </li>
                         <li className="flex items-center gap-2">
-                            <span className="text-emerald-500 font-bold">📞</span>
-                            <a href="tel:03044296295" className="hover:text-emerald-400">0304-4296295</a>
+                            <span className="text-emerald-500 font-bold uppercase text-[10px] tracking-widest">Phone:</span>
+                            <a href="tel:03044296295" className="hover:text-emerald-400 font-bold">0304-4296295</a>
                         </li>
                         <li className="flex items-center gap-2">
-                            <span className="text-emerald-500 font-bold">✉️</span>
+                            <span className="text-emerald-500 font-bold uppercase text-[10px] tracking-widest">Email:</span>
                             <a href="mailto:lisan.pk.services@gmail.com" className="hover:text-emerald-400">lisan.pk.services@gmail.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div className="container mx-auto px-4 mt-8 pt-8 border-t border-slate-800">
+            <div id="locations" className="container mx-auto px-4 mt-8 pt-8 border-t border-slate-800">
                 <h4 className="text-white font-semibold mb-6 text-sm uppercase tracking-widest">Service Areas in Pakistan</h4>
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                     {['Lahore', 'Karachi', 'Islamabad', 'Faisalabad', 'Multan', 'Rawalpindi', 'Peshawar', 'Sialkot', 'Gujranwala', 'Quetta'].map((city) => (
