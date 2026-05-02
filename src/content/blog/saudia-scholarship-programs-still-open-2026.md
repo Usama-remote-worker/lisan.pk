@@ -106,11 +106,9 @@ A: Register for the [Duolingo English Test](https://englishtest.duolingo.com/) i
 May 2026 is not too late to secure a life-changing scholarship. With the Saudi Government Scholarship and the Islamic University of Madinah both accepting applications until **May 21**, you have a clear path if you act now.
 
 ### Ready to secure your scholarship?
-Don’t let a language barrier or missing paperwork stand in your way. 
+Don’t let a language barrier or missing paperwork stand in your way. For the latest deadlines, see our guides on [Spring 2027 KSU/KAU Deadlines](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027) and [General Saudi Scholarship Deadlines 2026](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026).
 
-👉 **[Get a Free Quote for Translation](/contact)**  
-👉 **[WhatsApp Us: 0304-4296295](https://wa.me/923044296295)**  
-👉 **[Explore Translation Services](/services/translation)**
+
 
 Your scholarship dream deserves perfection from the very first page.
 

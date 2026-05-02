@@ -165,13 +165,9 @@ No. Every university explicitly requires documents in Arabic or English.
 
 ## Get Your Documents Certified-Translated for Any Saudi University
 
-**Lisan.pk** is Pakistan’s specialized translation partner for Saudi scholarship applicants. We provide:
+**Lisan.pk** is Pakistan’s specialized translation partner for Saudi scholarship applicants. For current deadline updates, check our guides on [KSU/KAU Spring 2027](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027) and [General 2026 Deadlines](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026).
 
-- **Certified Urdu → Arabic and Urdu → English translations**
-- **Official translator seal** recognized by Saudi Cultural Attaché
-- **24–72 hour turnaround** with doorstep pickup and delivery
 
-📢 **Your application is only as strong as your documents.** [Get a free quote for certified document translation now](https://forms.gle/FnBnLrbdCQXsyjVS6). Call/WhatsApp us at **03044296295** or visit our [Contact Page](/contact).
 
 ---
 

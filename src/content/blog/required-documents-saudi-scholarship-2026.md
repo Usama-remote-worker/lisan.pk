@@ -163,12 +163,6 @@ Print this and tick ✅ each item:
 - [ ] Medical report (English + Arabic translation)
 - [ ] Police clearance certificate (English + Arabic translation)
 
-✅ **Documents professionally translated into Arabic?** [Contact us now](/contact).
+✅ **Documents professionally translated into Arabic?** For the latest updates on deadlines, check our [KSU/KAU Spring 2027 Guide](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027) and [General Saudi Scholarship Deadlines 2026](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026).
 
-We deliver accurate, certified Arabic translations for all required documents for Saudi Arabia scholarship programs 2026 – anywhere in Pakistan.
 
-<div id="cta" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
-    <h3 className="text-2xl font-bold text-emerald-900 mb-4">📥 Free Download: Saudi Scholarship 7-Step Checklist</h3>
-    <p className="text-emerald-800/70 mb-6">Never miss a deadline or a document. Get our verified PDF checklist for the 2026 application cycle.</p>
-    <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20the%20Scholarship%20Document%20Checklist%20PDF." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Get PDF via WhatsApp</a>
-</div>
