@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { getSortedPostsData } from '@/lib/blog'
 import { cities, services } from '@/data/location-services'
+import { universities } from '@/data/scholarship-universities'
 
 export const baseUrl = 'https://www.lisan.pk'
 
@@ -48,6 +49,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         })
     })
 
+    // Dynamic generation for scholarship pages
+    const scholarshipRoutes = Object.keys(universities).map(slug => ({
+        url: `${baseUrl}/scholarships/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as 'weekly',
+        priority: 0.85
+    }))
+
     // Dynamic generation for blog posts
     const posts = await getSortedPostsData()
     const postRoutes = posts.map(post => ({
@@ -57,5 +66,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.6
     }))
 
-    return [...staticRoutes, ...postRoutes, ...locationRoutes]
+    return [...staticRoutes, ...scholarshipRoutes, ...postRoutes, ...locationRoutes]
 }
