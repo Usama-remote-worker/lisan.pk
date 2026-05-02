@@ -33,7 +33,7 @@ export function LocationGrid() {
                             className="group p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-emerald-600 hover:border-emerald-500 transition-all duration-300 text-center"
                         >
                             <MapPin className="w-6 h-6 mx-auto mb-3 text-emerald-500 group-hover:text-white transition-colors" />
-                            <h3 className="font-bold text-lg group-hover:text-white">{city.name}</h3>
+                            <h3 className="font-bold text-lg text-white group-hover:text-emerald-400 transition-colors">{city.name}</h3>
                             <span className="text-[10px] uppercase tracking-widest text-slate-500 group-hover:text-emerald-100">Translation Service</span>
                         </Link>
                     ))}
