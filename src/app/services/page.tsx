@@ -3,6 +3,8 @@ import Link from "next/link"
 import { Metadata } from "next"
 import { CheckCircle2, ArrowRight, FileText, Globe, ShieldCheck, HelpCircle, Clock, Users, Building2, Briefcase, Languages, Scale, GraduationCap } from "lucide-react"
 import { JsonLd } from "@/components/seo/JsonLd"
+import { ServicePackages } from "@/components/home/ServicePackages"
+import { services } from "@/data/location-services"
 
 export const metadata: Metadata = {
     title: "Professional Translation Services in Pakistan | Lisan.pk",
@@ -62,85 +64,50 @@ export default function ServicesPage() {
             </section>
 
 
-            {/* Specialties Section */}
-            <section className="py-32 container mx-auto px-4 max-w-7xl">
-                <div className="flex flex-col lg:flex-row justify-between items-end mb-20 gap-8">
-                    <div className="max-w-2xl">
-                        <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-serif">Translation Specialties</h2>
-                        <p className="text-lg text-slate-600 leading-relaxed">
-                            Comprehensive linguistic solutions for legal, academic, and corporate sectors.
-                        </p>
-                    </div>
-                </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {[
-                        { title: "Legal Translation", desc: "Certified translations for court documents, affidavits, and legal contracts accepted by foreign missions." },
-                        { title: "Educational Docs", desc: "Degrees, transcripts, and diplomas translated and formatted for HEC, MOFA, and international universities." },
-                        { title: "Personal Documents", desc: "Fast Urdu to English translation for Nikkah Nama, Birth Certificates, FRC, and Death Certificates." },
-                        { title: "Corporate Translation", desc: "Business proposals, company profiles, and annual reports for international expansion and tenders." },
-                        { title: "Website Localization", desc: "Adapting your digital presence for the Pakistani market or international audiences with cultural precision." },
-                        { title: "Medical Translation", desc: "Accurate translation of medical reports, prescriptions, and lab results for overseas treatment or insurance." },
-                        { title: "Technical Manuals", desc: "Technical documentation, user guides, and engineering specs translated with industry-specific terminology." },
-                        { title: "Embassy Forms", desc: "Professional assistance in translating and filling out complex embassy forms for visa applications." }
-                    ].map((spec, i) => (
-                        <div key={i} className="p-10 rounded-[2rem] bg-white border border-slate-100 hover:shadow-2xl transition-all duration-500 group">
-                            <div className="text-emerald-600/20 font-black text-5xl mb-6 group-hover:text-emerald-600 transition-colors">
-                                {(i + 1).toString().padStart(2, '0')}
-                            </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">{spec.title}</h3>
-                            <p className="text-slate-600 leading-relaxed">{spec.desc}</p>
+            {/* Service Packages */}
+            <ServicePackages />
+
+            {/* Specialties Section - Expanded Catalog */}
+            <section className="py-32 bg-white">
+                <div className="container mx-auto px-4 max-w-7xl">
+                    <div className="flex flex-col lg:flex-row justify-between items-end mb-20 gap-8">
+                        <div className="max-w-2xl">
+                            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-serif">Comprehensive Document Support</h2>
+                            <p className="text-lg text-slate-600 leading-relaxed">
+                                Our diverse range of translation services is tailored specifically for the 2026 Saudi scholarship cycle and residency requirements.
+                            </p>
                         </div>
-                    ))}
+                        <div className="text-right">
+                            <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-6 py-3 rounded-full">
+                                {Object.keys(services).length}+ specialized services
+                            </span>
+                        </div>
+                    </div>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {Object.values(services).map((service, i) => (
+                            <div key={service.slug} className="p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/5 transition-all duration-500 group border-transparent hover:border-emerald-100">
+                                <div className="text-emerald-600/20 font-black text-5xl mb-6 group-hover:text-emerald-600 transition-colors tabular-nums">
+                                    {(i + 1).toString().padStart(2, '0')}
+                                </div>
+                                <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-emerald-800 transition-colors">{service.title}</h3>
+                                <p className="text-slate-600 leading-relaxed mb-8">{service.description}</p>
+                                <ul className="space-y-3 mb-8">
+                                    {service.benefits.slice(0, 3).map((benefit) => (
+                                        <li key={benefit} className="flex items-center gap-2 text-sm text-slate-500 font-medium">
+                                            <CheckCircle2 className="w-4 h-4 text-emerald-500" /> {benefit}
+                                        </li>
+                                    ))}
+                                </ul>
+                                <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20${service.title}.`} className="inline-flex items-center gap-2 text-emerald-600 font-bold hover:gap-4 transition-all">
+                                    Order Translation <ArrowRight className="w-4 h-4" />
+                                </Link>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </section>
 
-            {/* Why Choose Lisan? */}
-            <section className="py-32 bg-slate-50">
-                <div className="container mx-auto px-4 max-w-7xl">
-                    <div className="grid lg:grid-cols-2 gap-20 items-center">
-                        <div>
-                            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-10 font-serif">Why Choose Lisan?</h2>
-                            <div className="space-y-10">
-                                {[
-                                    { t: "MA Arabic Qualified Experts", d: "Our team is led by academic experts with 40+ years of linguistic mastery in Pakistan." },
-                                    { t: "Global Embassy Acceptance", d: "Our certified translations are recognized by Saudi, UAE, US, UK, and EU embassies." },
-                                    { t: "100% Accuracy Guarantee", d: "We provide a 200% refund guarantee if any document is rejected due to our error." },
-                                    { t: "Rapid Doorstep Delivery", d: "Serving clients in Lahore, Karachi, Islamabad, and beyond with secure courier delivery." }
-                                ].map((item, idx) => (
-                                    <div key={idx} className="flex gap-6">
-                                        <div className="w-1.5 h-1.5 bg-emerald-600 rounded-full mt-3 shrink-0"></div>
-                                        <div>
-                                            <h4 className="font-bold text-xl mb-2 text-slate-900">{item.t}</h4>
-                                            <p className="text-slate-600 text-lg leading-relaxed">{item.d}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="bg-white p-12 rounded-[3rem] shadow-2xl border border-slate-100 relative overflow-hidden group">
-                            <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-50 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-700"></div>
-                            <h3 className="text-3xl font-bold mb-10 relative font-serif">Institutional Workflow</h3>
-                            <div className="space-y-12 relative">
-                                {[
-                                    { step: "01", t: "Initial Review", d: "We analyze the legal and linguistic requirements of your specific document." },
-                                    { step: "02", t: "Expert Drafting", d: "Our certified translators produce a draft focused on accuracy and embassy-standards." },
-                                    { step: "03", t: "Final Certification", d: "Documents are stamped, signed, and certified on our official letterhead for submission." }
-                                ].map((s) => (
-                                    <div key={s.step} className="flex gap-8">
-                                        <div className="text-4xl font-black text-slate-100 italic group-hover:text-emerald-100 transition-colors">
-                                            {s.step}
-                                        </div>
-                                        <div>
-                                            <h4 className="font-bold text-xl mb-2">{s.t}</h4>
-                                            <p className="text-slate-500 leading-relaxed">{s.d}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {/* Why Choose Lisan? Removed for global layout consistency */}
 
 
             {/* Industries Section */}
@@ -205,8 +172,8 @@ export default function ServicesPage() {
                 <h2 className="text-3xl font-bold text-center mb-16">Client Testimonials</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     <div className="p-8 bg-slate-50 rounded-2xl border border-slate-100 italic text-slate-700">
-                        "Lisan.pk is the best for <strong>certified translation</strong> in Lahore. They translated my Nikkah Nama for the Saudi Embassy in just 4 hours. Highly recommended for fast service."
-                        <div className="mt-6 font-bold text-slate-900 not-italic">— Ahmad Raza, Lahore</div>
+                        "Lisan.pk is the best for <strong>certified translation</strong>. They translated my entire scholarship document set (Result Card, Medical, and Recommendation) for the Saudi portal in record time."
+                        <div className="mt-6 font-bold text-slate-900 not-italic">— Muhammad Ahsan Hassan, Rahim Yar Khan</div>
                     </div>
                     <div className="p-8 bg-slate-50 rounded-2xl border border-slate-100 italic text-slate-700">
                         "I needed my HEC verified degrees translated into Arabic for my UAE visa. Lisan.pk provided professional <strong>Urdu to English translation</strong> and Arabic versions that were accepted immediately."

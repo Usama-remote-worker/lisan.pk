@@ -17,28 +17,34 @@ const features = [
     },
 ]
 
+import { ScrollReveal } from "@/components/animations/ScrollReveal"
+
 export function WhyChooseUs() {
     return (
         <section className="py-24 bg-white border-t border-slate-100">
             <div className="container mx-auto px-4 max-w-7xl">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 font-serif">Why Authorities Trust Lisan.pk</h2>
-                    <div className="w-20 h-1 bg-emerald-600 mx-auto rounded-full"></div>
-                </div>
+                <ScrollReveal>
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 font-serif tracking-tight">Why Authorities Trust Lisan.pk</h2>
+                        <div className="w-20 h-1.5 bg-emerald-600 mx-auto rounded-full"></div>
+                    </div>
+                </ScrollReveal>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {features.map((feature, index) => (
-                        <div key={feature.title} className="p-8 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 border border-transparent hover:border-emerald-100 flex flex-col h-full">
-                            <div className="mb-6">
-                                <div className="text-4xl font-bold text-emerald-100 mb-4 tabular-nums">
-                                    {String(index + 1).padStart(2, '0')}
+                        <ScrollReveal key={feature.title} delay={index * 0.1}>
+                            <div className="p-8 rounded-[2rem] bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/10 hover:-translate-y-1 transition-all duration-500 border border-transparent hover:border-emerald-100 flex flex-col h-full group">
+                                <div className="mb-6">
+                                    <div className="text-5xl font-black text-emerald-600/10 mb-4 tabular-nums group-hover:text-emerald-600/20 transition-colors">
+                                        {String(index + 1).padStart(2, '0')}
+                                    </div>
+                                    <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">{feature.title}</h3>
                                 </div>
-                                <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">{feature.title}</h3>
+                                <p className="text-slate-600 leading-relaxed text-[15px]">
+                                    {feature.description}
+                                </p>
                             </div>
-                            <p className="text-slate-600 leading-relaxed text-[15px]">
-                                {feature.description}
-                            </p>
-                        </div>
+                        </ScrollReveal>
                     ))}
                 </div>
             </div>

@@ -1,106 +1,27 @@
 import { Metadata } from 'next'
 import { PageHero } from "@/components/ui/PageHeader"
-import { CheckCircle2, MapPin, Phone, MessageSquare } from "lucide-react"
+import { CheckCircle2, MapPin, Phone, MessageSquare, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
+import { ServicePackages } from "@/components/home/ServicePackages"
 
-const cities = {
-    "lahore": { 
-        name: "Lahore", 
-        description: "The primary hub for Arabic translation and embassy attestation at Muslim Town, Ferozepur Road.",
-        lat: 31.5204,
-        lng: 74.3587,
-        landmark: "Muslim Town & Ferozepur Road",
-        localInfo: "Our main hub in Lahore is strategically located near Jamia Ashrafia, serving the entire central Punjab region with direct access to HEC and MOFA verification services."
-    },
-    "karachi": { 
-        name: "Karachi", 
-        description: "Professional document services for businesses and individuals in the financial capital of Pakistan.",
-        lat: 24.8607,
-        lng: 67.0011,
-        landmark: "Shahrah-e-Faisal & Saddar",
-        localInfo: "Serving the metropolitan hub of Karachi, we provide specialized translation for corporate and legal documents, with courier support across Clifton, DHA, and the main business districts."
-    },
-    "islamabad": { 
-        name: "Islamabad", 
-        description: "Expert attestation and translation support near the Diplomatic Enclave and foreign embassies.",
-        lat: 33.6844,
-        lng: 73.0479,
-        landmark: "Blue Area & Diplomatic Enclave",
-        localInfo: "Ideally positioned for Islamabad residents, our service facilitates quick processing for embassy-related translations, being in close proximity to the Diplomatic Enclave and MOFA headquarters."
-    },
-    "faisalabad": { 
-        name: "Faisalabad", 
-        description: "Fast-track translation for students and professionals in the industrial heart of Punjab.",
-        lat: 31.4504,
-        lng: 73.1350,
-        landmark: "Clock Tower & District Courts",
-        localInfo: "In Faisalabad, we serve the industrial and student community with rapid Arabic translation for academic degrees and business contracts, ensuring compliance with Saudi standards."
-    },
-    "multan": { 
-        name: "Multan", 
-        description: "Certified document legalization and translation for South Punjab residents.",
-        lat: 30.1575,
-        lng: 71.5249,
-        landmark: "Cantonment & Multan Chamber",
-        localInfo: "Serving the South Punjab region, our Multan service point ensures that local students and workers can get their documents translated and attested without traveling to Lahore."
-    },
-    "rawalpindi": { 
-        name: "Rawalpindi", 
-        description: "Quick attestation support for MOFA and embassy document processing for the twin cities.",
-        lat: 33.5651,
-        lng: 73.0169,
-        landmark: "Saddar & Rawalpindi Chamber",
-        localInfo: "For the twin cities, we provide dedicated support for Rawalpindi residents, focusing on fast-track MOFA attestation and Arabic translation for work visas."
-    },
-    "peshawar": { 
-        name: "Peshawar", 
-        description: "Official translation and attestation services for students and workers in KPK.",
-        lat: 34.0151,
-        lng: 71.5249,
-        landmark: "University Road & KPK MOFA Office",
-        localInfo: "Lisan.pk serves the KPK community from Peshawar, providing localized support for document translation that meets the specific requirements of foreign missions and the Peshawar MOFA office."
-    },
-    "sialkot": { 
-        name: "Sialkot", 
-        description: "Specialized export and business document translation for the Sialkot trade community.",
-        lat: 32.4945,
-        lng: 74.5229,
-        landmark: "Sialkot Chamber of Commerce",
-        localInfo: "Our Sialkot service focuses on the business community, providing certified translation for trade documents and export-related legalizations required for the Gulf region."
-    },
-    "gujranwala": { 
-        name: "Gujranwala", 
-        description: "Reliable certified translation for marriage certificates and academic degrees.",
-        lat: 32.1877,
-        lng: 74.1945,
-        landmark: "GT Road & Gujranwala Chamber",
-        localInfo: "Supporting the industrial hub of Gujranwala, we offer secure pickup and delivery for Nikkah Nama and degree translations, processed with 100% embassy acceptance."
-    },
-    "quetta": { 
-        name: "Quetta", 
-        description: "Secure document attestation and translation support for Balochistan.",
-        lat: 30.1798,
-        lng: 66.9750,
-        landmark: "Serena Chowk & Balochistan Secretariat",
-        localInfo: "Lisan.pk extends its professional services to Balochistan, ensuring that Quetta residents have access to embassy-standard Arabic translation without logistical delays."
-    }
-}
+import { cities, services } from "@/data/location-services"
 
 interface PageProps {
-    params: { city: string }
+    params: Promise<{ city: string }>
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-    const cityData = cities[params.city as keyof typeof cities]
+    const { city } = await params
+    const cityData = cities[city.toLowerCase() as keyof typeof cities]
     if (!cityData) return {}
 
     return {
-        title: `Arabic Translation & Attestation in ${cityData.name} | Lisan.pk`,
-        description: `Need certified Arabic translation or MOFA/HEC attestation in ${cityData.name}? Lisan.pk provides professional, embassy-recognized document services nationwide.`,
+        title: `Arabic Translation & Certified Document Services in ${cityData.name}`,
+        description: `Certified Arabic translation, attestation, and document legalization services in ${cityData.name}. Trusted for Saudi and UAE embassy applications with secure handling.`,
         alternates: {
-            canonical: `/locations/${params.city}`,
+            canonical: `/locations/${city}`,
         },
     }
 }
@@ -112,8 +33,9 @@ export async function generateStaticParams() {
     }))
 }
 
-export default function LocationPage({ params }: PageProps) {
-    const cityData = cities[params.city as keyof typeof cities]
+export default async function LocationPage({ params }: PageProps) {
+    const { city } = await params
+    const cityData = cities[city.toLowerCase() as keyof typeof cities]
 
     if (!cityData) {
         notFound()
@@ -139,7 +61,7 @@ export default function LocationPage({ params }: PageProps) {
                 "@type": "ListItem",
                 "position": 3,
                 "name": cityData.name,
-                "item": `https://www.lisan.pk/locations/${params.city}`
+                "item": `https://www.lisan.pk/locations/${city}`
             }
         ]
     }
@@ -149,7 +71,7 @@ export default function LocationPage({ params }: PageProps) {
         "@type": "LocalBusiness",
         "name": `Lisan.pk Arabic Translation ${cityData.name}`,
         "description": cityData.description,
-        "url": `https://www.lisan.pk/locations/${params.city}`,
+        "url": `https://www.lisan.pk/locations/${city}`,
         "telephone": "+923044296295",
         "address": {
             "@type": "PostalAddress",
@@ -169,7 +91,7 @@ export default function LocationPage({ params }: PageProps) {
     }
 
     return (
-        <main className="min-h-screen bg-slate-50">
+        <main className="min-h-screen bg-[#fcfdfe]">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
@@ -179,106 +101,159 @@ export default function LocationPage({ params }: PageProps) {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
             />
             <PageHero
-                title={`Services in ${cityData.name}`}
-                description={cityData.description}
+                title={`Arabic Translation in ${cityData.name}`}
+                description={`Certified & embassy-recognized translation services for residents of ${cityData.name}. Trusted for Saudi, UAE, and Gulf document legalization.`}
                 breadcrumbs={[
                     { label: "Locations", href: "/#locations" },
                     { label: cityData.name }
                 ]}
             />
 
-            <section className="py-20">
-                <div className="container mx-auto px-4 max-w-5xl">
-                    <div className="grid md:grid-cols-3 gap-12">
-                        {/* Main Content */}
-                        <div className="md:col-span-2 space-y-12">
-                            <div className="prose prose-slate max-w-none">
-                                <h2 className="text-3xl font-bold text-slate-900">Expert Translation & Legalization for {cityData.name}</h2>
-                                <p className="text-lg text-slate-600 leading-relaxed">
-                                    Residents of {cityData.name} no longer need to travel to Islamabad or Lahore for high-quality translation and attestation. Lisan.pk brings 40+ years of expertise directly to your doorstep. We handle everything from HEC degree verification to Saudi Embassy attestation with secure courier support.
-                                </p>
+            {/* Service Grid - The "Catalog" */}
+            <section className="py-20 -mt-10 relative z-20">
+                <div className="container mx-auto px-4 max-w-7xl">
+                    <div className="bg-white rounded-[3rem] shadow-xl border border-slate-100 p-8 md:p-12">
+                        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                            <div className="max-w-2xl">
+                                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 font-serif">Service Catalog: {cityData.name}</h2>
+                                <p className="text-slate-500 text-lg">Select a service below to see specific requirements and pricing for {cityData.name}.</p>
+                            </div>
+                            <div className="hidden md:block h-px flex-1 bg-slate-100 mx-10 mb-5"></div>
+                            <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-4 py-2 rounded-full mb-2">
+                                {Object.keys(services).length} Available Services
+                            </span>
+                        </div>
 
-                                <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm my-10">
-                                    <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                                        <MapPin className="text-emerald-600" /> Local Knowledge: {cityData.landmark}
-                                    </h3>
-                                    <p className="text-slate-600 leading-relaxed italic">
-                                        {cityData.localInfo}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {Object.values(services).map((item) => (
+                                <Link 
+                                    key={item.slug}
+                                    href={`/locations/${city}/${item.slug}`}
+                                    className="group flex flex-col p-6 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/5 hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-emerald-100"
+                                >
+                                    <div className="mb-4 flex items-start justify-between">
+                                        <div className="p-3 bg-white rounded-xl shadow-sm group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                                            <CheckCircle2 className="w-6 h-6 text-emerald-600 group-hover:text-white" />
+                                        </div>
+                                        <ArrowRight className="w-5 h-5 text-slate-300 group-hover:text-emerald-600 transition-colors" />
+                                    </div>
+                                    <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-emerald-800 transition-colors">{item.title}</h3>
+                                    <p className="text-slate-500 text-sm leading-relaxed line-clamp-2">
+                                        Professional Arabic translation and legalization for your {item.title.toLowerCase()} in {cityData.name}.
                                     </p>
-                                </div>
-                                
-                                <div className="mt-8 grid sm:grid-cols-2 gap-6">
-                                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                                        <h3 className="font-bold text-emerald-800 mb-4 text-xl">Top Services in {cityData.name}</h3>
-                                        <ul className="space-y-3">
-                                            {[
-                                                "Nikkah Nama Translation",
-                                                "MOFA Attestation Support",
-                                                "HEC Degree Verification",
-                                                "Saudi Embassy Legalization",
-                                                "Police Character Certificate"
-                                            ].map((s) => (
-                                                <li key={s} className="flex items-center gap-3 text-slate-700">
-                                                    <CheckCircle2 className="w-5 h-5 text-emerald-500 flex-shrink-0" />
-                                                    {s}
-                                                </li>
-                                            ))}
-                                        </ul>
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Service Packages Section */}
+            <ServicePackages />
+
+            <section className="pb-32">
+                <div className="container mx-auto px-4 max-w-7xl">
+                    <div className="grid lg:grid-cols-3 gap-16 items-start">
+                        {/* Main Content */}
+                        <div className="lg:col-span-2 space-y-16">
+                            <div className="prose prose-slate prose-lg max-w-none">
+                                <h2 className="text-4xl font-bold text-slate-900 font-serif leading-tight">Expert Document Legalization for {cityData.name} Clients</h2>
+                                <p className="text-slate-600">
+                                    Residents of {cityData.name} no longer need to travel to Islamabad or Lahore for high-quality translation and attestation. Lisan.pk brings 40+ years of expertise directly to your doorstep. We handle everything from <span className="font-bold text-slate-900">HEC degree verification</span> to <span className="font-bold text-slate-900">Saudi Embassy attestation</span> with secure courier support.
+                                </p>
+
+                                <div className="grid md:grid-cols-2 gap-8 my-12">
+                                    <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm relative overflow-hidden group">
+                                        <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-50 rounded-full -mr-12 -mt-12 transition-transform group-hover:scale-110"></div>
+                                        <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2 relative">
+                                            <MapPin className="text-emerald-600" /> Local Knowledge
+                                        </h3>
+                                        <p className="text-slate-500 text-[15px] leading-relaxed relative italic">
+                                            Serving all areas near {cityData.landmark}. {cityData.localInfo}
+                                        </p>
                                     </div>
-                                    <div className="bg-emerald-900 p-6 rounded-2xl text-white">
-                                        <h3 className="font-bold mb-4 text-xl">Why Choose Us?</h3>
-                                        <ul className="space-y-3">
-                                            {[
-                                                "Fast courier pick & drop",
-                                                "Embassy recognized",
-                                                "Native Arabic translators",
-                                                "Verified over 40 years",
-                                                "100% Data privacy"
-                                            ].map((w) => (
-                                                <li key={w} className="flex items-center gap-3">
-                                                    <CheckCircle2 className="w-5 h-5 text-emerald-400 flex-shrink-0" />
-                                                    <span className="text-emerald-50">{w}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
+                                    <div className="bg-slate-900 p-8 rounded-3xl text-white relative overflow-hidden">
+                                        <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full -ml-12 -mb-12"></div>
+                                        <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                                            <Phone className="text-emerald-400" /> Express Support
+                                        </h3>
+                                        <p className="text-slate-400 text-[15px] leading-relaxed mb-6">
+                                            Our {cityData.name} division offers direct priority processing for urgent embassy deadlines.
+                                        </p>
+                                        <Link href="tel:+923044296295" className="font-bold text-emerald-400 hover:underline">+92 304 4296295</Link>
                                     </div>
                                 </div>
 
-                                <h3 className="text-2xl font-bold text-slate-900 mt-12 mb-6">Process for {cityData.name} Clients</h3>
-                                <p className="text-slate-600">
-                                    Simply send a clear photo or scan of your documents via WhatsApp. Our team in {cityData.name} (or our main service hub) will review the requirements, provide a quote, and execute the translation or attestation within 24-48 hours.
+                                <h3 className="text-2xl font-bold text-slate-900 mb-6">Workflow for {cityData.name} Residents</h3>
+                                <p className="text-slate-600 mb-8">
+                                    Simply send a clear photo or scan of your documents via WhatsApp. Our service in {cityData.name} (or our main hub) will review the requirements, provide a quote, and execute the translation or attestation within 24-48 hours.
                                 </p>
+                                
+                                <div className="space-y-4">
+                                    {[
+                                        "Secure document pickup from your home/office in " + cityData.name,
+                                        "Certified translation by MA Arabic qualified experts",
+                                        "MOFA & Saudi Embassy attestation coordination",
+                                        "Safe return delivery with tracking"
+                                    ].map((step, idx) => (
+                                        <div key={idx} className="flex items-center gap-4 p-4 bg-white rounded-xl border border-slate-50">
+                                            <div className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 text-xs font-bold">
+                                                {idx + 1}
+                                            </div>
+                                            <span className="text-slate-700 font-medium">{step}</span>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
 
-                        {/* Sidebar */}
-                        <div className="space-y-6">
-                            <div className="bg-white p-6 rounded-2xl shadow-lg border border-slate-100 sticky top-24">
-                                <h3 className="font-bold text-slate-900 mb-6 text-xl">Get Instant Quote</h3>
+                        {/* Sidebar CTA */}
+                        <aside className="space-y-8 lg:sticky lg:top-28">
+                            <div className="bg-white p-8 rounded-[2.5rem] shadow-2xl shadow-emerald-900/10 border border-slate-100 relative overflow-hidden">
+                                <div className="absolute top-0 left-0 w-full h-2 bg-emerald-600"></div>
+                                <h3 className="font-bold text-slate-900 mb-6 text-2xl font-serif">Instant Quote</h3>
+                                <p className="text-slate-500 mb-8 text-sm leading-relaxed">
+                                    Upload your documents via WhatsApp for a precise quote within 10 minutes. 100% data privacy guaranteed.
+                                </p>
                                 <div className="space-y-4">
                                     <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20translation%20services%20in%20${cityData.name}.`} target="_blank" className="block w-full">
-                                        <Button className="w-full bg-emerald-600 hover:bg-emerald-700 h-14 text-lg">
-                                            <MessageSquare className="mr-2" /> WhatsApp Now
+                                        <Button className="w-full bg-emerald-600 hover:bg-emerald-700 h-16 text-lg rounded-2xl shadow-lg transition-transform hover:-translate-y-1 active:scale-95">
+                                            <MessageSquare className="mr-2 h-5 w-5" /> WhatsApp Now
                                         </Button>
                                     </Link>
                                     <Link href="tel:+923044296295" className="block w-full">
-                                        <Button variant="outline" className="w-full h-14 text-lg border-slate-200">
-                                            <Phone className="mr-2" /> Call Agent
+                                        <Button variant="outline" className="w-full h-16 text-lg border-slate-200 rounded-2xl hover:bg-slate-50 transition-colors">
+                                            <Phone className="mr-2 h-5 w-5" /> Call Agent
                                         </Button>
                                     </Link>
                                 </div>
-                                <div className="mt-8 pt-8 border-t border-slate-100 flex items-center gap-4 text-slate-500">
+                                <div className="mt-8 pt-8 border-t border-slate-100 flex items-center gap-4 text-slate-400">
                                     <div className="p-3 bg-slate-50 rounded-full">
-                                        <MapPin className="w-6 h-6" />
+                                        <MapPin className="w-5 h-5" />
                                     </div>
-                                    <span className="text-sm">Serving all areas in and around {cityData.name}.</span>
+                                    <span className="text-[11px] font-bold uppercase tracking-wider">Serving all zones in {cityData.name}.</span>
                                 </div>
                             </div>
-                        </div>
+
+                            <div className="bg-emerald-900 p-8 rounded-[2.5rem] text-white">
+                                <h4 className="font-bold mb-4 text-emerald-400 uppercase tracking-widest text-xs">Trust Indicators</h4>
+                                <ul className="space-y-4">
+                                    {[
+                                        "40+ Years of Excellence",
+                                        "100% Embassy Acceptance",
+                                        "Certified Arabic Experts",
+                                        "Verified Legal Stamps"
+                                    ].map(t => (
+                                        <li key={t} className="flex items-center gap-3 text-sm font-bold">
+                                            <CheckCircle2 className="w-4 h-4 text-emerald-400" /> {t}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </aside>
                     </div>
                 </div>
             </section>
         </main>
     )
 }
-

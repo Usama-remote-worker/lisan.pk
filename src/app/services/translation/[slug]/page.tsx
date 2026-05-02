@@ -57,18 +57,19 @@ const serviceData = {
 }
 
 interface PageProps {
-    params: { slug: string }
+    params: Promise<{ slug: string }>
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-    const data = serviceData[params.slug as keyof typeof serviceData]
+    const { slug } = await params
+    const data = serviceData[slug as keyof typeof serviceData]
     if (!data) return {}
 
     return {
         title: `${data.title} | Lisan.pk`,
         description: data.description,
         alternates: {
-            canonical: `/services/translation/${params.slug}`,
+            canonical: `/services/translation/${slug}`,
         },
     }
 }
@@ -80,8 +81,9 @@ export async function generateStaticParams() {
     }))
 }
 
-export default function ServiceDetailPage({ params }: PageProps) {
-    const data = serviceData[params.slug as keyof typeof serviceData]
+export default async function ServiceDetailPage({ params }: PageProps) {
+    const { slug } = await params
+    const data = serviceData[slug as keyof typeof serviceData]
 
     if (!data) {
         notFound()

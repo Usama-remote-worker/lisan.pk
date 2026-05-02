@@ -8,78 +8,58 @@ const services = [
     },
     {
         title: "Marriage Certificate (Nikah Nama)",
-        slug: "nikah-nama-marriage-certificate",
+        slug: "nikah-nama-translation",
         text: "Accurate translation of marriage contracts for spouse visas and international legal recognition."
     },
     {
         title: "Degrees & Transcripts",
-        slug: "academic-degree-transcript",
+        slug: "degree-transcript-translation",
         text: "Academic translation for foreign university admissions and equivalence certificates."
     },
     {
         title: "Police Character Certificate",
-        slug: "police-character-certificate",
+        slug: "police-character-certificate-translation",
         text: "Translation of police clearance certificates for immigration, jobs, and travel visa requirements."
     },
     {
         title: "Divorce Certificate",
-        slug: "translation",
+        slug: "divorce-certificate-translation",
         text: "Legal translation of divorce deeds and effectiveness certificates for official record updates."
     },
     {
-        title: "Death Certificate",
-        slug: "translation",
-        text: "Certified translation for succession certificates, insurance claims, and legal matters."
-    },
-    {
         title: "Medical Reports",
-        slug: "translation",
+        slug: "medical-report-translation",
         text: "Precise medical translation for overseas treatment, insurance, and fitness certificates."
     },
     {
-        title: "Driving License",
-        slug: "translation",
-        text: "Translation of driving licenses for international driving permits and car rentals abroad."
-    },
-    {
         title: "Property Documents",
-        slug: "translation",
+        slug: "property-document-translation",
         text: "Translation of Fard, registry, sale deeds, and property documents for legal use."
     },
     {
         title: "Legal Document Translation",
-        slug: "translation",
+        slug: "legal-document-translation",
         text: "Court cases, judgments, power of attorney, affidavits, and legal agreements translated by experts."
     },
     {
         title: "Bank Statements",
-        slug: "translation",
+        slug: "bank-statement-translation",
         text: "Financial document translation including bank statements and salary slips for visa proofs."
     },
     {
         title: "CNIC / ID Card",
-        slug: "translation",
+        slug: "cnic-id-card-translation",
         text: "National ID card translation for official identification in foreign countries."
     },
     {
-        title: "Passport Translation",
-        slug: "translation",
-        text: "Translation of passport bio pages and visa stickers for various official applications."
-    },
-    {
         title: "Business Documents",
-        slug: "translation",
+        slug: "business-document-translation",
         text: "Articles of association, company profiles, and tax returns for international business."
     },
     {
-        title: "Form-B (B-Form)",
-        slug: "translation",
-        text: "Translation of Family Registration Certificate (FRC) and Form-B for family visas."
-    },
-    {
-        title: "Hajj & Umrah Services",
-        slug: "translation",
-        text: "Visa application translation, medical fitness certificates, and relationship proof for pilgrims."
+        title: "Saudi Scholarship",
+        slug: "saudi-scholarship-translation",
+        text: "Specialized translation for KSU, KAU, and Madinah University admissions and scholarships."
     }
 ]
 

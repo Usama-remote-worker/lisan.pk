@@ -89,7 +89,7 @@ export default function AttestationPage() {
                                 </div>
                                 <div className="space-y-4">
                                     <h4 className="text-emerald-400 font-bold">4. Technical Errors</h4>
-                                    <p className="text-sm text-slate-400">Incorrect fee slips or expired authority letters are common pitfalls. Our team verifies every form before submission.</p>
+                                    <p className="text-sm text-slate-400">Incorrect fee slips or expired authority letters are common pitfalls. Our service verifies every form before submission.</p>
                                 </div>
                             </div>
                         </div>

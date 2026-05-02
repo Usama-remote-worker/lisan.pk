@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
-import { Inter, Noto_Naskh_Arabic } from "next/font/google";
+import { Inter, Noto_Naskh_Arabic, Outfit, Instrument_Serif } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingActions } from "@/components/layout/FloatingActions";
+import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
+import { ScholarshipPopup } from "@/components/modals/ScholarshipPopup";
 import { Toaster } from "react-hot-toast";
+// Removed WhyChooseUs import as it is now inside Footer
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
+const instrumentSerif = Instrument_Serif({ subsets: ["latin"], variable: "--font-serif", weight: "400" });
 const notoArabic = Noto_Naskh_Arabic({
   subsets: ["arabic"],
   variable: "--font-noto-arabic",
@@ -85,11 +90,13 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={`${inter.variable} ${notoArabic.variable} font-sans`}>
+      <body className={`${inter.variable} ${outfit.variable} ${instrumentSerif.variable} ${notoArabic.variable} antialiased font-sans`}>
+        <AnnouncementBar />
         <Header />
         {children}
         <Footer />
         <FloatingActions />
+        <ScholarshipPopup />
         <Toaster position="bottom-right" />
       </body>
     </html>

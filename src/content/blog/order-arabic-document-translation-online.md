@@ -42,7 +42,7 @@ Select the certification level you need. For Saudi visa and university applicati
 👉 **[Get Your Free Quote Now – Click Here](/contact)**
 
 ### Step 3: Receive Your Saudi-Ready Documents
-Once you confirm the order, a professional native Arabic translator starts working immediately. You receive the final translation by email — a high-resolution PDF with the certification stamp, accompanied by a hard copy via courier if you select that option. You can now confidently submit the documents to the Saudi Cultural Attaché or the visa application center.
+Once you confirm the order, a certified and qualified Arabic linguist starts working immediately. You receive the final translation by email — a high-resolution PDF with the certification stamp, accompanied by a hard copy via courier if you select that option. You can now confidently submit the documents to the Saudi Cultural Attaché or the visa application center.
 
 ---
 

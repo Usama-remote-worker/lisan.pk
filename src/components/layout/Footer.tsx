@@ -1,8 +1,11 @@
 import Link from "next/link"
+import { WhyChooseUs } from "@/components/home/WhyChooseUs"
 
 export function Footer() {
     return (
-        <footer className="bg-slate-900 text-slate-300 py-12">
+        <>
+            <WhyChooseUs />
+            <footer className="bg-slate-900 text-slate-300 py-12">
             <div className="container mx-auto px-4 grid md:grid-cols-4 gap-8">
                 <div>
                     <div className="flex items-center space-x-2 mb-4">
@@ -75,5 +78,6 @@ export function Footer() {
                 © {new Date().getFullYear()} Lisan.pk. All rights reserved.
             </div>
         </footer>
+        </>
     )
 }

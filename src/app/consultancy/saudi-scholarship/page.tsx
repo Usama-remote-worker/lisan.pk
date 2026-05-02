@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Metadata } from "next"
 import { CheckCircle2, ArrowRight, FileText, GraduationCap, MapPin, Globe, ShieldCheck, HelpCircle, ExternalLink, Clock, Users, BookOpen } from "lucide-react"
 import { JsonLd } from "@/components/seo/JsonLd"
+import { ServicePackages } from "@/components/home/ServicePackages"
 
 export const metadata: Metadata = {
     title: "Saudi Scholarship for Pakistani Students 2026 | Fully Funded Guide",
@@ -163,6 +164,11 @@ export default function SaudiScholarshipPage() {
                     ))}
                 </div>
             </section>
+
+            {/* The Conversion Bridge: Service Packages */}
+            <div className="bg-slate-50 py-12">
+                <ServicePackages />
+            </div>
 
             {/* Required Documents Checklist */}
             <section className="py-20 bg-emerald-900 text-white">

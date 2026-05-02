@@ -94,7 +94,7 @@ We cover every document on the checklist:
 - Research proposal (PhD)
 - Medical report and police certificate
 
-✅ Human native-level Arabic translators (not Google Translate)  
+✅ Qualified and certified Arabic translators (not Google Translate)  
 ✅ Certified stamp for embassy/visa acceptance  
 ✅ Fast turnaround (24–72 hours depending on volume)
 

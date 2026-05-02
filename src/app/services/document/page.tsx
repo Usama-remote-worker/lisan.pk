@@ -51,7 +51,7 @@ export default function DocumentServicesPage() {
                                 <Award className="w-6 h-6" />
                             </div>
                             <div>
-                                <h3 className="font-semibold text-slate-900">Expert Team</h3>
+                                <h3 className="font-semibold text-slate-900">Expertise</h3>
                                 <p className="text-sm text-slate-500">Years of experience</p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export default function DocumentServicesPage() {
                         </h2>
                         <p className="text-slate-600 mb-6">
                             We assist in obtaining Police Character Certificates from Pakistan for visa and immigration purposes.
-                            Our team handles the application, follow-up, and collection.
+                            Our service handles the application, follow-up, and collection.
                         </p>
                         <Button variant="outline" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50">
                             Learn Requirements <ChevronRight className="ml-2 w-4 h-4" />

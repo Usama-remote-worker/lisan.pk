@@ -2,15 +2,13 @@ import { Metadata } from "next"
 import { Hero } from "@/components/home/Hero"
 import { DocumentTranslationGrid } from "@/components/home/DocumentTranslationGrid"
 import { AttestationList } from "@/components/home/AttestationList"
-import { WhyChooseUs } from "@/components/home/WhyChooseUs"
-import { Testimonials } from "@/components/home/Testimonials"
+import { TestimonialSection } from "@/components/home/TestimonialSection"
 import { FaqSection } from "@/components/home/FaqSection"
 import { BlogPreview } from "@/components/home/BlogPreview"
 import { TrustSection } from "@/components/home/TrustSection"
 import { LocationGrid } from "@/components/home/LocationGrid"
 import { FadeIn } from "@/components/ui/fade-in"
 import { JsonLd } from "@/components/seo/JsonLd"
-
 import { getSortedPostsData } from "@/lib/blog"
 
 export const metadata: Metadata = {
@@ -48,15 +46,9 @@ const localBusinessSchema = {
   "telephone": "+923044296295",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Saqib Translation Centre, Jamia Ashrafia, Muslim Town, Ferozpur Road",
     "addressLocality": "Lahore",
-    "postalCode": "54600",
+    "addressRegion": "Punjab",
     "addressCountry": "PK"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 31.5175,
-    "longitude": 74.3256
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -69,7 +61,7 @@ const localBusinessSchema = {
       "Saturday"
     ],
     "opens": "09:00",
-    "closes": "18:00"
+    "closes": "20:00"
   },
   "sameAs": [
     "https://facebook.com/lisanpk"
@@ -92,9 +84,8 @@ export default async function Home() {
 
       <DocumentTranslationGrid />
       <AttestationList />
-      <WhyChooseUs />
       <LocationGrid />
-      <Testimonials />
+      <TestimonialSection />
       <FaqSection />
 
       <BlogPreview posts={posts} />

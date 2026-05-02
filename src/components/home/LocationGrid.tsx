@@ -19,8 +19,8 @@ export function LocationGrid() {
         <section className="py-24 bg-slate-900 text-white overflow-hidden">
             <div className="container mx-auto px-4 max-w-7xl">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold font-serif mb-6">Our Nationwide Presence</h2>
-                    <p className="text-slate-400 max-w-2xl mx-auto text-lg">
+                    <h2 className="text-3xl md:text-5xl font-bold font-serif mb-6 text-white">Our Nationwide Presence</h2>
+                    <p className="text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
                         Providing certified Arabic translation and embassy attestation services across all major cities of Pakistan with secure doorstep delivery.
                     </p>
                 </div>

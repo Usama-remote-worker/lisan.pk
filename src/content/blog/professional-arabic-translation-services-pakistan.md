@@ -46,7 +46,7 @@ Getting your documents translated is now as easy as sending an email:
 ## Why We Are Pakistan’s Leading Choice for Arabic Translation
 
 - **Legacy of Trust**: Four decades of serving the Pakistani community.
-- **Native-Level Fluency**: Our translators possess deep cultural and linguistic insights.
+- **Expert-Level Fluency**: Our translators possess deep cultural and linguistic insights.
 - **Confidentiality**: Your data and documents are handled with the highest level of security.
 - **Nationwide Reach**: Whether you are in a major city or a remote area, our online services are accessible to you.
 

@@ -121,7 +121,7 @@ export default function TranslationPage() {
                 <div className="container mx-auto px-4 max-w-4xl">
                     <h2 className="text-3xl font-bold text-slate-900 mb-8">Niche Specialist Translation</h2>
                     <p className="text-lg text-slate-600 mb-12">
-                        Translation is more than just swapping words. It requires understanding legal frameworks in Pakistan and Saudi Arabia. Our specialized team ensures that your technical jargon is preserved while meeting the strict standards of the MOFA and foreign embassies.
+                        Translation is more than just swapping words. It requires understanding legal frameworks in Pakistan and Saudi Arabia. Our specialized service ensures that your technical jargon is preserved while meeting the strict standards of the MOFA and foreign embassies.
                     </p>
                     <div className="grid md:grid-cols-2 gap-12">
                         <div>
@@ -147,7 +147,7 @@ export default function TranslationPage() {
                     <div className="grid md:grid-cols-4 gap-8">
                         {[
                             { step: "01", t: "Digitization", d: "You send docs via WhatsApp/Email." },
-                            { step: "02", t: "Translation", d: "Native linguists draft the content." },
+                            { step: "02", t: "Translation", d: "Qualified specialists draft the content." },
                             { step: "03", t: "Proofing", d: "Legal experts verify dates and names." },
                             { step: "04", t: "Certification", d: "Official stamps and seals applied." }
                         ].map(s => (

@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { getSortedPostsData } from '@/lib/blog'
+import { cities, services } from '@/data/location-services'
 
 export const baseUrl = 'https://www.lisan.pk'
 
@@ -25,17 +26,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: route === '' ? 1.0 : route.startsWith('/services') ? 0.9 : 0.8,
     }))
 
-    const majorCities = [
-        'lahore', 'karachi', 'islamabad', 'faisalabad', 'multan',
-        'rawalpindi', 'peshawar', 'sialkot', 'gujranwala', 'quetta'
-    ]
+    const locationRoutes: MetadataRoute.Sitemap = []
+    
+    // Generate main city routes
+    Object.keys(cities).forEach(city => {
+        locationRoutes.push({
+            url: `${baseUrl}/locations/${city}`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly',
+            priority: 0.7
+        })
 
-    const locationRoutes = majorCities.map(city => ({
-        url: `${baseUrl}/locations/${city}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as 'weekly',
-        priority: 0.7
-    }))
+        // Generate city-service specific routes
+        Object.keys(services).forEach(service => {
+            locationRoutes.push({
+                url: `${baseUrl}/locations/${city}/${service}`,
+                lastModified: new Date(),
+                changeFrequency: 'weekly',
+                priority: 0.65
+            })
+        })
+    })
 
     // Dynamic generation for blog posts
     const posts = await getSortedPostsData()
