@@ -73,29 +73,30 @@ export default async function BlogPostPage({ params }: Props) {
 
     const isScholarshipPillar = slug === 'saudi-arabia-fully-funded-scholarships-guide-pakistani-students'
 
-    const faqSchema = post.faqs ? {
+    const faqSchema = post.faqs && Array.isArray(post.faqs) ? {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": post.faqs.map((f: any) => ({
             "@type": "Question",
-            "name": f.q,
+            "name": f?.q || "",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": f.a
+                "text": f?.a || ""
             }
         }))
     } : null
 
-    const howToSchema = post.howTo ? {
+    const howToData = Array.isArray(post.howTo) ? post.howTo[0] : post.howTo
+    const howToSchema = howToData && howToData.step ? {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": post.howTo.name,
-        "step": post.howTo.step.map((s: any) => ({
+        "name": howToData.name,
+        "step": howToData.step.map((s: any) => ({
             "@type": "HowToStep",
-            "name": s.name,
+            "name": s?.name || "",
             "itemListElement": [{
                 "@type": "HowToDirection",
-                "text": s.text
+                "text": s?.text || ""
             }]
         }))
     } : null
