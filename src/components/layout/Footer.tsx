@@ -39,10 +39,10 @@ export function Footer() {
                                 <li><Link href="/services/translation" className="hover:text-emerald-400 transition-colors">Arabic Translation</Link></li>
                                 <li><Link href="/services/attestation" className="hover:text-emerald-400 transition-colors">MOFA Attestation</Link></li>
                                 <li><Link href="/services/document" className="hover:text-emerald-400 transition-colors">Document Legalization</Link></li>
-                                <li><Link href="/services/translation/nikah-nama-marriage-certificate" className="hover:text-emerald-500 transition-colors text-slate-500">Nikah Nama Translation</Link></li>
-                                <li><Link href="/services/translation/birth-certificate-translation" className="hover:text-emerald-500 transition-colors text-slate-500">Birth Certificate / B-Form</Link></li>
-                                <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-emerald-500 transition-colors text-slate-500">HEC Degree & Transcript</Link></li>
-                                <li><Link href="/services/translation/police-character-certificate" className="hover:text-emerald-500 transition-colors text-slate-500">Police Character Certificate</Link></li>
+                                <li><Link href="/services/translation/nikah-nama-marriage-certificate" className="hover:text-emerald-400 transition-colors text-slate-400">Nikah Nama Translation</Link></li>
+                                <li><Link href="/services/translation/birth-certificate-translation" className="hover:text-emerald-400 transition-colors text-slate-400">Birth Certificate / B-Form</Link></li>
+                                <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-emerald-400 transition-colors text-slate-400">HEC Degree & Transcript</Link></li>
+                                <li><Link href="/services/translation/police-character-certificate" className="hover:text-emerald-400 transition-colors text-slate-400">Police Character Certificate</Link></li>
                             </ul>
                         </div>
 
@@ -107,9 +107,9 @@ export function Footer() {
                                 <Link 
                                     key={citySlug} 
                                     href={`/locations/${citySlug}`} 
-                                    className="text-[11px] text-slate-500 hover:text-emerald-400 transition-colors flex items-center gap-2 group"
+                                    className="text-[11px] text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-2 group font-medium"
                                 >
-                                    <span className="h-1 w-1 bg-slate-700 group-hover:bg-emerald-500 rounded-full transition-colors"></span>
+                                    <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-500 rounded-full transition-colors"></span>
                                     {cities[citySlug].name}
                                 </Link>
                             ))}
