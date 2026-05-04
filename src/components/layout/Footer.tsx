@@ -100,7 +100,7 @@ export function Footer() {
                     <div id="locations" className="pt-12 border-t border-slate-800">
                         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
                             <h4 className="text-white font-bold text-sm uppercase tracking-widest">Service Areas Across Pakistan</h4>
-                            <span className="text-[10px] text-slate-500 bg-slate-800 px-3 py-1 rounded-full uppercase tracking-tighter">Secure Doorstep Delivery Nationwide</span>
+                            <span className="text-[10px] text-white bg-emerald-600 px-4 py-1.5 rounded-full uppercase tracking-widest font-black shadow-lg shadow-emerald-600/30 animate-pulse">Secure Doorstep Delivery Nationwide</span>
                         </div>
                         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-3">
                             {cityList.sort().map((citySlug) => (

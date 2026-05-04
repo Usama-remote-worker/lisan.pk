@@ -39,7 +39,7 @@ export default function ServicesPage() {
                     <div className="inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-emerald-400 mb-8">
                         Institutional Standards
                     </div>
-                    <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight mb-10 leading-[1.1] font-serif max-w-5xl mx-auto">
+                    <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight mb-10 leading-[1.1] font-serif max-w-5xl mx-auto text-white">
                         Professional <span className="text-emerald-400 italic">Translation</span> Excellence
                     </h1>
                     <p className="text-xl text-emerald-50/70 mb-12 max-w-3xl mx-auto leading-relaxed font-medium">
@@ -139,7 +139,7 @@ export default function ServicesPage() {
                                     <th className="p-6 font-bold text-emerald-400">Standard Turnaround</th>
                                 </tr>
                             </thead>
-                            <tbody className="divide-y divide-white/10 text-lg">
+                            <tbody className="divide-y divide-white/10 text-lg text-emerald-50">
                                 <tr>
                                     <td className="p-6">Urdu to English (Nikkah Nama)</td>
                                     <td className="p-6">1,500 – 2,500 PKR</td>
