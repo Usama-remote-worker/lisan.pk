@@ -1,9 +1,12 @@
+import { useState } from "react"
+import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Metadata } from "next"
-import { CheckCircle2, ArrowRight, FileText, GraduationCap, MapPin, Globe, ShieldCheck, HelpCircle, ExternalLink, Clock, Users, BookOpen } from "lucide-react"
+import { CheckCircle2, ArrowRight, FileText, GraduationCap, MapPin, Globe, ShieldCheck, HelpCircle, ExternalLink, Clock, Users, BookOpen, Search, PenTool, Video, Plane } from "lucide-react"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { ServicePackages } from "@/components/home/ServicePackages"
+import { cn } from "@/lib/utils"
 
 export const metadata: Metadata = {
     title: "Saudi Scholarship for Pakistani Students 2026 | Fully Funded Guide",
@@ -15,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function SaudiScholarshipPage() {
     return (
-        <main className="min-h-screen bg-white font-sans text-slate-900 pt-20">
+        <main className="min-h-screen bg-white font-sans text-slate-900">
             <JsonLd
                 data={{
                     "@context": "https://schema.org",
@@ -31,15 +34,15 @@ export default function SaudiScholarshipPage() {
             />
 
             {/* Hero Section */}
-            <section className="relative py-20 lg:py-32 bg-slate-50 overflow-hidden">
+            <section className="relative py-10 lg:py-16 bg-slate-50 overflow-hidden">
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
                 <div className="container mx-auto px-4 relative z-10">
                     <div className="max-w-4xl mx-auto text-center">
-                        <div className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-sm font-semibold text-emerald-800 mb-6 shadow-sm">
+                        <div className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-sm font-semibold text-emerald-800 mb-4 shadow-sm">
                             <span className="flex h-2 w-2 rounded-full bg-emerald-600 mr-2 animate-pulse"></span>
                             2026–2027 Admissions Now Open
                         </div>
-                        <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-7xl mb-8 leading-tight">
+                        <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-7xl mb-6 leading-tight">
                             Saudi Arabia Scholarship 2026 – <span className="text-emerald-600">Complete Guide</span> for Pakistani Students
                         </h1>
                         <p className="text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
@@ -81,7 +84,7 @@ export default function SaudiScholarshipPage() {
                     </div>
                     <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
                         <img 
-                            src="/saudi_scholarship_pakistan_infographic_1777050989092.png" 
+                            src="/images/saudi-scholarship-infographic.png" 
                             alt="Saudi scholarship for Pakistani students infographic" 
                             className="w-full h-auto"
                         />
@@ -138,32 +141,9 @@ export default function SaudiScholarshipPage() {
                 </div>
             </section>
 
-            {/* Step-by-Step Process */}
-            <section className="py-24 container mx-auto px-4 max-w-4xl">
-                <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Step‑by‑Step Application Process</h2>
-                <div className="space-y-12">
-                    {[
-                        { step: "01", title: "Choose Your University & Program", desc: "Research HEC recognized Saudi universities and select a program that aligns with your background. Note the specific deadlines for the 2026 cycle." },
-                        { step: "02", title: "Prepare & Attest Documents", desc: "This is the most critical stage. All degrees and transcripts must be translated into Arabic by a certified service like Lisan.pk and attested by HEC, MOFA, and the Saudi Culture office." },
-                        { step: "03", title: "Online Portal Submission", desc: "Register on the 'Study in Saudi' portal or the specific university's admission website. Fill in all details with precision—errors here can lead to permanent rejection." },
-                        { step: "04", title: "Recommendation Letters & SOP", desc: "Gather 2-3 recommendation letters from your previous professors. Write a compelling Statement of Purpose (SOP) explaining why you deserve the Saudi scholarship." },
-                        { step: "05", title: "Interview (If Applicable)", desc: "Some universities conduct online interviews via Zoom or Skype. Prepare to discuss your research interests and your knowledge of Saudi culture." },
-                        { step: "06", title: "Acceptance & Visa Processing", desc: "Once you receive the 'Initial Acceptance', we assist you with the Saudi student visa process, including embassy submission and medical verification." },
-                        { step: "07", title: "Departure to KSA", desc: "Book your flights (usually provided by the university) and prepare for your journey to the Kingdom of Saudi Arabia!" }
-                    ].map((item) => (
-                        <div key={item.step} className="flex gap-8 relative">
-                            <div className="flex-shrink-0 w-16 h-16 bg-emerald-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-lg shadow-emerald-200">
-                                {item.step}
-                            </div>
-                            <div className="pb-8">
-                                <h3 className="text-2xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                                <p className="text-lg text-slate-600 leading-relaxed">{item.desc}</p>
-                            </div>
-                            {item.step !== "07" && <div className="absolute top-20 left-8 w-[2px] h-[calc(100%-60px)] bg-slate-200"></div>}
-                        </div>
-                    ))}
-                </div>
-            </section>
+            {/* Interactive Step-by-Step Process */}
+            <ProcessSection />
+
 
             {/* The Conversion Bridge: Service Packages */}
             <div className="bg-slate-50 py-12">
@@ -344,3 +324,175 @@ export default function SaudiScholarshipPage() {
         </main>
     )
 }
+
+function ProcessSection() {
+    const [activeStep, setActiveStep] = useState(0)
+
+    const steps = [
+        { 
+            id: "01", 
+            title: "Research & Selection", 
+            subtitle: "1-2 WEEKS", 
+            desc: "Research HEC recognized Saudi universities and select a program that aligns with your background. Note the specific deadlines for the 2026 cycle.",
+            icon: Search,
+            phase: "PHASE 01 — RESEARCH"
+        },
+        { 
+            id: "02", 
+            title: "Document Attestation", 
+            subtitle: "2-4 WEEKS", 
+            desc: "All degrees and transcripts must be translated into Arabic by a certified service like Lisan.pk and attested by HEC, MOFA, and the Saudi Culture office.",
+            icon: ShieldCheck,
+            phase: "PHASE 02 — LEGALIZATION"
+        },
+        { 
+            id: "03", 
+            title: "Portal Submission", 
+            subtitle: "1 WEEK", 
+            desc: "Register on the 'Study in Saudi' portal or the specific university's admission website. Fill in all details with precision—errors here can lead to permanent rejection.",
+            icon: Globe,
+            phase: "PHASE 03 — APPLICATION"
+        },
+        { 
+            id: "04", 
+            title: "Recommendation & SOP", 
+            subtitle: "2 WEEKS", 
+            desc: "Gather 2-3 recommendation letters from your previous professors. Write a compelling Statement of Purpose (SOP) explaining why you deserve the Saudi scholarship.",
+            icon: PenTool,
+            phase: "PHASE 04 — STRATEGY"
+        },
+        { 
+            id: "05", 
+            title: "Interview Prep", 
+            subtitle: "1 WEEK", 
+            desc: "Some universities conduct online interviews via Zoom or Skype. Prepare to discuss your research interests and your knowledge of Saudi culture.",
+            icon: Video,
+            phase: "PHASE 05 — EVALUATION"
+        },
+        { 
+            id: "06", 
+            title: "Visa Processing", 
+            subtitle: "2-3 WEEKS", 
+            desc: "Once you receive the 'Initial Acceptance', we assist you with the Saudi student visa process, including embassy submission and medical verification.",
+            icon: Plane,
+            phase: "PHASE 06 — EMBASSY"
+        },
+        { 
+            id: "07", 
+            title: "Departure to KSA", 
+            subtitle: "ONGOING", 
+            desc: "Book your flights (usually provided by the university) and prepare for your journey to the Kingdom of Saudi Arabia!",
+            icon: MapPin,
+            phase: "PHASE 07 — SUCCESS"
+        }
+    ]
+
+    const ActiveIcon = steps[activeStep].icon
+
+    return (
+        <section className="py-24 bg-white overflow-hidden">
+            <div className="container mx-auto px-4 max-w-6xl">
+                <div className="text-center mb-16">
+                    <div className="flex items-center justify-center gap-4 mb-4">
+                        <div className="h-[1px] w-8 bg-slate-200"></div>
+                        <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em]">Our Process</span>
+                        <div className="h-[1px] w-8 bg-slate-200"></div>
+                    </div>
+                    <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-serif tracking-tight">Your Journey With Us</h2>
+                    <p className="text-slate-500 max-w-2xl mx-auto leading-relaxed font-medium">
+                        A structured approach that ensures your application is handled with precision, 
+                        authority, and a 100% success mindset.
+                    </p>
+                </div>
+
+                <div className="grid lg:grid-cols-12 gap-12 items-start">
+                    {/* Sidebar Navigation */}
+                    <div className="lg:col-span-4 space-y-2 relative">
+                        {/* Vertical line connector */}
+                        <div className="absolute left-[27px] top-8 bottom-8 w-[2px] bg-slate-100 -z-0"></div>
+                        
+                        {steps.map((step, index) => (
+                            <button
+                                key={step.id}
+                                onClick={() => setActiveStep(index)}
+                                className={cn(
+                                    "w-full flex items-center gap-6 p-4 rounded-2xl transition-all duration-300 relative z-10",
+                                    activeStep === index 
+                                        ? "bg-white shadow-xl shadow-slate-200/50 border border-slate-100 translate-x-2" 
+                                        : "hover:bg-slate-50 border border-transparent"
+                                )}
+                            >
+                                <div className={cn(
+                                    "w-14 h-14 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 border-2",
+                                    activeStep === index 
+                                        ? "bg-slate-900 border-slate-900 text-white" 
+                                        : "bg-white border-slate-100 text-slate-400"
+                                )}>
+                                    <step.icon className="w-6 h-6" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className={cn(
+                                        "font-bold transition-colors",
+                                        activeStep === index ? "text-slate-900" : "text-slate-500"
+                                    )}>{step.title}</h4>
+                                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">{step.subtitle}</span>
+                                </div>
+                            </button>
+                        ))}
+                    </div>
+
+                    {/* Main Detail Card */}
+                    <div className="lg:col-span-8">
+                        <AnimatePresence mode="wait">
+                            <motion.div
+                                key={activeStep}
+                                initial={{ opacity: 0, x: 20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                exit={{ opacity: 0, x: -20 }}
+                                transition={{ duration: 0.4, ease: "easeOut" }}
+                                className="bg-white rounded-[3rem] p-10 md:p-20 border border-slate-100 shadow-2xl shadow-slate-200/40 relative overflow-hidden h-full min-h-[500px] flex flex-col justify-center"
+                            >
+                                {/* Background Large Number */}
+                                <div className="absolute -bottom-10 -right-10 text-[20rem] font-black text-slate-50/50 leading-none select-none pointer-events-none -z-0">
+                                    {steps[activeStep].id.replace(/^0/, '')}
+                                </div>
+
+                                <div className="relative z-10">
+                                    <div className="w-20 h-20 rounded-3xl bg-slate-50 flex items-center justify-center mb-10 border border-slate-100 shadow-sm">
+                                        <ActiveIcon className="w-10 h-10 text-slate-900" />
+                                    </div>
+
+                                    <div className="inline-block px-4 py-1.5 rounded-full bg-emerald-50 border border-emerald-100 text-[10px] font-black text-emerald-700 uppercase tracking-widest mb-8">
+                                        {steps[activeStep].phase}
+                                    </div>
+
+                                    <h3 className="text-3xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight font-serif">
+                                        {steps[activeStep].title}
+                                    </h3>
+
+                                    <p className="text-xl md:text-2xl text-slate-500 leading-relaxed font-medium max-w-2xl">
+                                        {steps[activeStep].desc}
+                                    </p>
+
+                                    {/* Progress indicator dots */}
+                                    <div className="flex gap-2 mt-12">
+                                        {steps.map((_, i) => (
+                                            <div 
+                                                key={i} 
+                                                className={cn(
+                                                    "h-1.5 rounded-full transition-all duration-300",
+                                                    i === activeStep ? "w-8 bg-slate-900" : "w-1.5 bg-slate-200"
+                                                )}
+                                            />
+                                        ))}
+                                    </div>
+                                </div>
+                            </motion.div>
+                        </AnimatePresence>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+

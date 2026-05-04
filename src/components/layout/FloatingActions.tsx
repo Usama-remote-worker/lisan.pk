@@ -27,6 +27,7 @@ export function FloatingActions() {
                     href={`https://wa.me/923044296295?text=${isScholarshipPage ? "Hi Lisan.pk, I need help with my Saudi Scholarship document translation." : "Hi Lisan.pk, I visited your website and I am interested in your translation services."}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    id="gtm-wa-float-desktop"
                     className="flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-[#128C7E] focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 group relative"
                     aria-label="Chat on WhatsApp"
                 >
@@ -41,12 +42,18 @@ export function FloatingActions() {
             <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white/95 border-t border-slate-100 p-3 shadow-[0_-10px_30px_rgba(0,0,0,0.08)] backdrop-blur-md">
                 <div className="flex gap-3 max-w-md mx-auto">
                     <Link href="https://wa.me/923044296295" className="flex-1">
-                        <button className="w-full h-12 bg-[#25D366] text-white rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-sm shadow-lg shadow-emerald-500/20">
+                        <button 
+                            id="gtm-wa-float-mobile"
+                            className="w-full h-12 bg-[#25D366] text-white rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-sm shadow-lg shadow-emerald-500/20"
+                        >
                             <WhatsAppIcon className="w-5 h-5" /> WhatsApp
                         </button>
                     </Link>
                     <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" className="flex-1">
-                        <button className="w-full h-12 bg-slate-900 text-white rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-sm shadow-lg shadow-slate-900/20">
+                        <button 
+                            id="gtm-quote-float-mobile"
+                            className="w-full h-12 bg-slate-900 text-white rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-sm shadow-lg shadow-slate-900/20"
+                        >
                             <FileUp className="w-4 h-4" /> Get Quote
                         </button>
                     </Link>

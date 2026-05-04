@@ -46,6 +46,7 @@ export function ScholarshipPopup() {
 
                         <div className="p-6 md:p-8 relative z-10">
                             <button 
+                                id="gtm-popup-close"
                                 onClick={() => setIsOpen(false)}
                                 className="absolute top-6 right-6 p-2 hover:bg-slate-100 rounded-full transition-colors"
                             >
@@ -82,12 +83,19 @@ export function ScholarshipPopup() {
 
                                 <div className="flex flex-col w-full gap-3">
                                     <Link href="/consultancy/saudi-scholarship" onClick={() => setIsOpen(false)}>
-                                        <Button className="w-full h-14 bg-emerald-600 hover:bg-emerald-700 text-white font-black rounded-xl text-md shadow-xl shadow-emerald-600/20">
+                                        <Button 
+                                            id="gtm-popup-guide"
+                                            className="w-full h-14 bg-emerald-600 hover:bg-emerald-700 text-white font-black rounded-xl text-md shadow-xl shadow-emerald-600/20"
+                                        >
                                             GET SCHOLARSHIP GUIDE
                                         </Button>
                                     </Link>
                                     <Link href="https://wa.me/923044296295" onClick={() => setIsOpen(false)}>
-                                        <Button variant="ghost" className="w-full h-10 text-emerald-700 font-bold hover:bg-emerald-50 rounded-xl text-sm">
+                                        <Button 
+                                            id="gtm-popup-wa"
+                                            variant="ghost" 
+                                            className="w-full h-10 text-emerald-700 font-bold hover:bg-emerald-50 rounded-xl text-sm"
+                                        >
                                             Chat with Expert
                                         </Button>
                                     </Link>

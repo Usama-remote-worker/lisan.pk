@@ -51,12 +51,12 @@ export function Hero() {
                         className="flex flex-col sm:flex-row justify-center gap-4 mb-16"
                     >
                         <Link href="/contact">
-                            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-12 h-16 text-sm font-bold uppercase tracking-widest shadow-2xl shadow-emerald-600/20 rounded-full transition-all duration-300">
+                            <Button id="gtm-hero-quote" size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-12 h-16 text-sm font-bold uppercase tracking-widest shadow-2xl shadow-emerald-600/20 rounded-full transition-all duration-300">
                                 Get a Free Quote
                             </Button>
                         </Link>
                         <Link href="/services">
-                            <Button variant="outline" size="lg" className="border-slate-200 text-slate-700 hover:bg-slate-50 h-16 text-sm px-12 rounded-full font-bold uppercase tracking-widest transition-all duration-300">
+                            <Button id="gtm-hero-services" variant="outline" size="lg" className="border-slate-200 text-slate-700 hover:bg-slate-50 h-16 text-sm px-12 rounded-full font-bold uppercase tracking-widest transition-all duration-300">
                                 View All Services
                             </Button>
                         </Link>
@@ -78,10 +78,10 @@ export function Hero() {
                             University portals close periodically this month. Secure your admission with our priority certified translation and attestation services. Same-day processing available.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                            <Link href="/consultancy/saudi-scholarship" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all shadow-lg shadow-emerald-600/20">
+                            <Link id="gtm-hero-scholarship-guide" href="/consultancy/saudi-scholarship" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all shadow-lg shadow-emerald-600/20">
                                 View Full Guide <ArrowRight className="h-4 w-4" />
                             </Link>
-                            <Link href="https://wa.me/923044296295" className="bg-white border border-[#25D366] text-[#25D366] hover:bg-emerald-50 px-8 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all">
+                            <Link id="gtm-hero-priority-wa" href="https://wa.me/923044296295" className="bg-white border border-[#25D366] text-[#25D366] hover:bg-emerald-50 px-8 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all">
                                 Request Priority Service
                             </Link>
                         </div>

@@ -132,7 +132,7 @@ export default async function BlogPostPage({ params }: Props) {
                     { label: "Blog", href: "/blog" },
                     { label: post.title }
                 ]}
-                className="!py-16 lg:!py-20"
+                className="!py-8 lg:!py-12"
             />
 
             <article className="py-16 container mx-auto px-4 max-w-3xl">

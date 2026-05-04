@@ -53,6 +53,7 @@ export function Header() {
                     <div className="hidden sm:flex items-center space-x-2">
                         <a
                             href="tel:03044296295"
+                            id="gtm-call-header"
                             className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"
                             aria-label="Call Us"
                         >
@@ -63,6 +64,7 @@ export function Header() {
                             href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20translation%20services."
                             target="_blank"
                             rel="noopener noreferrer"
+                            id="gtm-wa-header"
                             className="p-2.5 text-emerald-600 bg-emerald-50 hover:bg-emerald-100 rounded-full transition-colors"
                             aria-label="WhatsApp"
                         >
@@ -71,13 +73,20 @@ export function Header() {
                     </div>
 
                     <Link href="/contact" className="hidden md:block">
-                        <Button className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold px-8 h-11 shadow-[0_4px_20px_-5px_rgba(6,78,59,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-emerald-700/50">
+                        <Button 
+                            id="gtm-quote-header-desktop"
+                            className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold px-8 h-11 shadow-[0_4px_20px_-5px_rgba(6,78,59,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-emerald-700/50"
+                        >
                             Get a Free Quote
                         </Button>
                     </Link>
 
                     <Link href="/contact" className="md:hidden">
-                        <Button size="sm" className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-4 rounded-lg shadow-md">
+                        <Button 
+                            id="gtm-quote-header-mobile"
+                            size="sm" 
+                            className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-4 rounded-lg shadow-md"
+                        >
                             Quote
                         </Button>
                     </Link>
@@ -109,8 +118,11 @@ export function Header() {
                                 {item.label}
                             </Link>
                         ))}
-                        <Link href="/contact" className="pt-4">
-                            <Button className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold h-14 rounded-2xl shadow-xl transition-all active:scale-95 border border-emerald-700">
+                        <Link href="/contact" className="pt-4" onClick={() => setIsMenuOpen(false)}>
+                            <Button 
+                                id="gtm-quote-menu-mobile"
+                                className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold h-14 rounded-2xl shadow-xl transition-all active:scale-95 border border-emerald-700"
+                            >
                                 Get a Free Quote & Upload
                             </Button>
                         </Link>

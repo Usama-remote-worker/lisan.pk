@@ -2,11 +2,19 @@
 
 import { useRef, useEffect, useState } from "react"
 import { motion, useInView, useSpring, useMotionValue } from "framer-motion"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
 // Trusted Logos Data
 const logos = [
-    "UAE Embassy", "Saudi Embassy", "HEC Pakistan", "MOFA", "IBCC",
-    "Qatar Embassy", "Kuwait Embassy", "DHA", "Nadra"
+    { name: "UAE Embassy", color: "text-slate-900" },
+    { name: "Saudi Embassy", color: "text-emerald-700" },
+    { name: "HEC Pakistan", color: "text-emerald-800" },
+    { name: "MOFA", color: "text-blue-900" },
+    { name: "IBCC", color: "text-slate-800" },
+    { name: "Qatar Embassy", color: "text-rose-900" },
+    { name: "Kuwait Embassy", color: "text-blue-800" },
+    { name: "DHA", color: "text-slate-900" },
+    { name: "Nadra", color: "text-emerald-900" }
 ]
 
 function Counter({ value, suffix = "" }: { value: number, suffix?: string }) {
@@ -58,44 +66,48 @@ export function TrustSection() {
             </div>
 
             {/* Marquee Area */}
-            <div className="py-10 bg-slate-50 border-t border-slate-200">
-                <p className="text-center text-sm font-semibold text-slate-400 uppercase tracking-wider mb-8">
+            <div className="py-12 bg-slate-50 border-t border-slate-200 relative">
+                <p className="text-center text-xs font-black text-slate-500 uppercase tracking-[0.3em] mb-10">
                     Recognized & Trusted By
                 </p>
 
-                <div className="relative flex overflow-hidden group">
-                    <div className="flex animate-infinite-scroll whitespace-nowrap">
-                        {[...logos, ...logos].map((logo, index) => (
-                            <div key={index} className="mx-8 flex items-center justify-center">
-                                <span className="text-xl md:text-2xl font-bold text-slate-300 hover:text-emerald-500 transition-colors cursor-default select-none">
-                                    {logo}
-                                </span>
-                            </div>
-                        ))}
-                    </div>
-                    <div className="flex animate-infinite-scroll whitespace-nowrap" aria-hidden="true">
-                        {[...logos, ...logos].map((logo, index) => (
-                            <div key={index} className="mx-8 flex items-center justify-center">
-                                <span className="text-xl md:text-2xl font-bold text-slate-300 hover:text-emerald-500 transition-colors cursor-default select-none">
-                                    {logo}
-                                </span>
-                            </div>
-                        ))}
+                <div className="relative flex items-center group">
+                    {/* Navigation Buttons */}
+                    <button className="absolute left-4 z-30 bg-white p-3 rounded-full shadow-xl border border-slate-100 text-slate-400 hover:text-emerald-600 hover:scale-110 transition-all opacity-0 group-hover:opacity-100 hidden md:block">
+                        <ChevronLeft size={20} />
+                    </button>
+                    <button className="absolute right-4 z-30 bg-white p-3 rounded-full shadow-xl border border-slate-100 text-slate-400 hover:text-emerald-600 hover:scale-110 transition-all opacity-0 group-hover:opacity-100 hidden md:block">
+                        <ChevronRight size={20} />
+                    </button>
+
+                    <div className="flex overflow-hidden w-full">
+                        <div className="flex animate-infinite-scroll whitespace-nowrap py-4">
+                            {[...logos, ...logos, ...logos].map((logo, index) => (
+                                <div key={index} className="mx-12 flex items-center justify-center">
+                                    <span className={`text-xl md:text-2xl font-black ${logo.color} hover:text-emerald-500 transition-all cursor-default select-none hover:scale-105 inline-block`}>
+                                        {logo.name}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
                     </div>
 
                     {/* Fade Gradients for ends */}
-                    <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-slate-50 to-transparent"></div>
-                    <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-slate-50 to-transparent"></div>
+                    <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-slate-50 to-transparent z-20"></div>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-slate-50 to-transparent z-20"></div>
                 </div>
             </div>
 
             <style jsx global>{`
                 @keyframes infinite-scroll {
                     from { transform: translateX(0); }
-                    to { transform: translateX(-100%); }
+                    to { transform: translateX(-33.33%); }
                 }
                 .animate-infinite-scroll {
-                    animation: infinite-scroll 40s linear infinite;
+                    animation: infinite-scroll 60s linear infinite;
+                }
+                .animate-infinite-scroll:hover {
+                    animation-play-state: paused;
                 }
             `}</style>
         </section>
