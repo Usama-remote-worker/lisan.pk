@@ -35,7 +35,7 @@ export function WhyChooseUs() {
                         <ScrollReveal key={feature.title} delay={index * 0.1}>
                             <div className="p-8 rounded-[2rem] bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/10 hover:-translate-y-1 transition-all duration-500 border border-transparent hover:border-emerald-100 flex flex-col h-full group">
                                 <div className="mb-6">
-                                    <div className="text-5xl font-black text-emerald-600/10 mb-4 tabular-nums group-hover:text-emerald-600/20 transition-colors">
+                                    <div className="text-5xl font-black text-emerald-900/30 mb-4 tabular-nums group-hover:text-emerald-600 transition-colors">
                                         {String(index + 1).padStart(2, '0')}
                                     </div>
                                     <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">{feature.title}</h3>
