@@ -179,3 +179,8 @@ Use **Saudi Arabia scholarship translation services 2026** that understand Pakis
 - [Umm Al-Qura University International Students Scholarship Page](https://uqu.edu.sa/en/international/scholarships)
 - [Dawn Education Pakistan: Saudi Scholarships 2026 Guide](https://www.dawn.com/news/education/saudi-scholarships-2026-guide)
 - [Official Ministry of Education KSA — Unified Admission Platform](https://studyinsaudi.moe.gov.sa/)
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

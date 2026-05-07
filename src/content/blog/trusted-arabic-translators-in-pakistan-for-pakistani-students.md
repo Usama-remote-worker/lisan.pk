@@ -144,3 +144,8 @@ If you need trusted Arabic translators in Pakistan, Lisan.pk gives you a direct 
 
 **Talk to an Expert Today!**
 Need to translate your documents fast? Call us directly or send a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to get started immediately.
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

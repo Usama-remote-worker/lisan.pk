@@ -55,3 +55,8 @@ Getting your documents translated is now as easy as sending an email:
 Don't let language barriers stand in the way of your goals. Secure, professional, and accurate Arabic translation services in Pakistan are just a click away. Let our 40 years of experience work for you.
 
 > [Contact Us Now for a Fast Online Quote](/contact)
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

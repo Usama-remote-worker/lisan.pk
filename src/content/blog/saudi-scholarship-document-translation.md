@@ -77,3 +77,8 @@ You should get your documents attested by HEC and MOFA first. The translation is
 Applying for a scholarship is stressful enough; don't let the paperwork hold you back. Expert Saudi scholarship document translation ensures that your hard-earned qualifications are presented with the respect and accuracy they deserve. With 40+ years of dedicated service in Pakistan, we are committed to helping the next generation of scholars reach the Kingdom.
 
 > Ready to start your application? [Contact us today](/contact) for a free quote on your translation and attestation needs!
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

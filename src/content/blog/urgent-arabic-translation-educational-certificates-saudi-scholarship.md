@@ -113,3 +113,8 @@ We bridge that gap. Fast. Reliably. Without rejection.
 *   [Official "Study in Saudi Arabia" Portal](https://studyinsaudi.moe.gov.pk/) – Document requirements and regulations.
 *   [Islamic University of Madinah Admission Page](https://admission.iu.edu.sa/) – Scholarship deadlines and acceptance criteria.
 *   [Saudi Ministry of Education Statement](https://moe.gov.sa/) – International student document standards.
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

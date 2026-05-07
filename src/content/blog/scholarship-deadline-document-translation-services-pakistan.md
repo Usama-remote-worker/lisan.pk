@@ -198,3 +198,8 @@ For applicants who need Arabic translation, Lisan.pk provides direct expert cont
 
 **Secure Your Scholarship Application Today!**
 Don't risk missing your deadline. Send a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to start your fast-track document translation now.
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

@@ -136,3 +136,8 @@ Tell us which documents you need translated and we’ll reply with a fixed price
 - [Document Translation Pricing](/pricing)
 - [University Translation FAQs](/faq)
 - [Get a Free Quote](/contact)
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

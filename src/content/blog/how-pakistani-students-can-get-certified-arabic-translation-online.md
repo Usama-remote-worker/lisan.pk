@@ -157,3 +157,8 @@ The key is choosing a service that is fast, secure, and accurate. For students d
 
 **Ready to translate your documents?**
 Chat with an expert on our website or send us a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to get your certified Arabic translation started today.
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

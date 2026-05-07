@@ -147,3 +147,8 @@ Use an **attested translation service for Saudi Arabia scholarship** application
 - [Saudi Embassy Islamabad: Consular Services & Attestation](https://embassies.mofa.gov.sa/sites/pakistan/EN/Consulate/Pages/default.aspx)
 - [World Education Services (WES): Certified vs. Attested Documents](https://www.wes.org/partners/attestation/)
 - [NADRA: Document Legalization Information](https://www.nadra.gov.pk/identity-document-legalization/)
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

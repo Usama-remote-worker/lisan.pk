@@ -120,3 +120,8 @@ Call or WhatsApp now to get a free price quote for your document list. Mention t
 If you are racing against a deadline, don't wait. **For urgent translation, [text us at 03044296295](/contact)** or send your documents via WhatsApp. We are available 24/7.
 
 [View full contact details here →](/contact)
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

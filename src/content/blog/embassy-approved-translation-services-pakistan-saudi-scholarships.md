@@ -92,3 +92,8 @@ For Saudi scholarship applications, we commonly handle:
 For Saudi scholarship applicants, translation is not an afterthought. The official Saudi guidance emphasizes authenticated documents, certified translation for non-Arabic / non-English records, and complete, correct submissions.
 
 **Lisan.pk** is built for this: fast delivery, affordable pricing, and Saudi-compliant formatting for scholarship documents. [Contact us today](/contact) to get your documents ready for the 2026 intake.
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

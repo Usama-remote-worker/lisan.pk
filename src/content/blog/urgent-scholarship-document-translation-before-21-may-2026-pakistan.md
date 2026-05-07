@@ -186,3 +186,8 @@ Send your documents to Lisan.pk via WhatsApp and get them translated before the 
 
 **Secure Your Spot Before the Deadline**
 Don't let untranslated documents ruin your scholarship chances. Contact us immediately on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to ensure your files are ready by May 21st.
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).

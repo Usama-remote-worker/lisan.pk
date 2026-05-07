@@ -147,3 +147,8 @@ Tell us which documents you hold — Matric, FSc, Bachelor’s degree, B-form �
 - [EducationFully Funded Scholarship Deadlines of Saudi Universities 2026 (Bachelor’s, Master’s & PhD)Dreaming of a degree from Saudi Arabia? Discover all the fully funded scholarship deadlines for 2026 that are still open, and learn how to prepare your documents correctly.](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026)
 - [EducationRequired Documents for Saudi Arabia Scholarship Programs in 2026 (Full Checklist)Applying for a Saudi Arabia scholarship in 2026? Get the complete list of required documents—from certificates to SOP—plus certified Arabic translation services in Pakistan.](/blog/required-documents-saudi-scholarship-2026)
 - [EducationUpcoming Deadlines for King Saud and King Abdulaziz University 2026 (Spring 2027 Intake)Circle these dates on your calendar. If you missed the Fall 2026 window for KSU and KAU, your target is now the Spring 2027 semester. Here is the full schedule.](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027)
+
+---
+
+### Need a Certified Translation?
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
