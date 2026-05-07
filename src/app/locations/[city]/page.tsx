@@ -41,6 +41,24 @@ export default async function LocationPage({ params }: PageProps) {
         notFound()
     }
 
+    const biseText = cityData.biseName ? `the ${cityData.biseName}` : "the local Board of Intermediate and Secondary Education (BISE)";
+    const hecText = cityData.hecCenter ? `at the ${cityData.hecCenter}` : "at your regional Higher Education Commission (HEC) center";
+
+    const cityFaqs = [
+        {
+            q: `Where can I get certified Arabic translation services in ${cityData.name}?`,
+            a: `Lisan.pk is Pakistan’s leading, embassy-approved translation platform. We serve residents of ${cityData.name} (with high priority handling near ${cityData.landmark}) by providing certified Arabic translations for degrees, transcripts, birth certificates, marriage documents, and legal affidavits. Clear photos or digital scans can be sent directly via WhatsApp, and the final certified documents are delivered safely to your home via secure courier.`
+        },
+        {
+            q: `Do I need to travel to Islamabad or Lahore from ${cityData.name} for MOFA or Saudi Embassy attestation?`,
+            a: `No, you do not need to travel! Lisan.pk provides complete, end-to-end legalization services on your behalf. We manage the entire verification workflow—including coordinating with ${biseText}, HEC, and MOFA—and courier the completed, official embassy-ready documents directly back to your address in ${cityData.name}.`
+        },
+        {
+            q: `What is the turnaround time for certified translations in ${cityData.name}?`,
+            a: `Our standard translation and stamping process takes 24 to 48 hours. Once complete, we use high-speed courier partners (TCS or Leopards) to deliver the physical certified documents to your doorstep anywhere in ${cityData.name}, complete with tracking details.`
+        }
+    ];
+
     const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -90,6 +108,19 @@ export default async function LocationPage({ params }: PageProps) {
         "priceRange": "$$"
     }
 
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": cityFaqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.a
+            }
+        }))
+    }
+
     return (
         <main className="min-h-screen bg-[#fcfdfe]">
             <script
@@ -99,6 +130,10 @@ export default async function LocationPage({ params }: PageProps) {
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
             <PageHero
                 title={`Arabic Translation in ${cityData.name}`}
@@ -203,6 +238,26 @@ export default async function LocationPage({ params }: PageProps) {
                                             <span className="text-slate-700 font-medium">{step}</span>
                                         </div>
                                     ))}
+                                </div>
+
+                                {/* Localized FAQ Section */}
+                                <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm space-y-8 mt-16">
+                                    <h3 className="text-3xl font-bold text-slate-900 font-serif tracking-tight">
+                                        Frequently Asked Questions – {cityData.name}
+                                    </h3>
+                                    <div className="space-y-6">
+                                        {cityFaqs.map((faq, idx) => (
+                                            <div key={idx} className="border-b border-slate-100 pb-6 last:border-b-0 last:pb-0">
+                                                <h4 className="text-lg font-bold text-slate-900 mb-3 flex items-start gap-2">
+                                                    <span className="text-emerald-600 font-bold">Q:</span>
+                                                    {faq.q}
+                                                </h4>
+                                                <p className="text-slate-600 leading-relaxed pl-6">
+                                                    {faq.a}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>

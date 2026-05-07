@@ -12,7 +12,10 @@ export const metadata: Metadata = {
 }
 
 export default function LocationsPage() {
-    const sortedCities = Object.values(cities).sort((a, b) => a.name.localeCompare(b.name));
+    const sortedCities = Object.entries(cities).map(([slug, city]) => ({
+        slug,
+        ...city
+    })).sort((a, b) => a.name.localeCompare(b.name));
 
     return (
         <main className="min-h-screen bg-slate-50 pt-24 pb-32">
@@ -31,7 +34,7 @@ export default function LocationsPage() {
                     {sortedCities.map((city) => (
                         <Link 
                             key={city.name} 
-                            href={`/locations/${city.name.toLowerCase().replace(/\s+/g, '-')}`}
+                            href={`/locations/${city.slug}`}
                             className="group p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300"
                         >
                             <div className="flex items-start justify-between mb-4">

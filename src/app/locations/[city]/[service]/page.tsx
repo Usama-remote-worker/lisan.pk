@@ -56,9 +56,45 @@ export default async function LocalizedServicePage({ params }: PageProps) {
         notFound()
     }
 
+    const biseText = cityData.biseName ? `the ${cityData.biseName}` : "the local Board of Intermediate and Secondary Education (BISE)";
+    const hecText = cityData.hecCenter ? `at the ${cityData.hecCenter}` : "at your regional Higher Education Commission (HEC) center";
+
+    const faqs = [
+        {
+            q: `How can I get my ${serviceData.title} translated into Arabic in ${cityData.name}?`,
+            a: `To translate your ${serviceData.title} in ${cityData.name}, simply send a high-quality photo or scan of the document to Lisan.pk via WhatsApp at +92 304 4296295. Our certified Arabic translators will translate, stamp, and sign your document to meet embassy standards, and send the official hard copy to your doorstep via secure courier.`
+        },
+        {
+            q: `Is the translation of my ${serviceData.title} from ${cityData.name} accepted by the Saudi Embassy?`,
+            a: `Yes! All translations provided by Lisan.pk carry our certified translation stamp and signature, which is 100% accepted by the Saudi Embassy, MOFA (Ministry of Foreign Affairs), and the Ministry of Education for scholarship or visa portals.`
+        },
+        {
+            q: `Where do I get my ${cityData.name}-issued ${serviceData.title} verified or attested before translation?`,
+            a: `For official Saudi university or embassy submissions, personal documents should ideally be attested by MOFA, and academic documents verified by ${biseText} or ${hecText}. We then provide the certified Arabic translation complete with our registered legal stamp, ensuring seamless portal uploads.`
+        },
+        {
+            q: `How long does it take to translate and deliver my ${serviceData.title} in ${cityData.name}?`,
+            a: `We offer a rapid 24-hour express service for urgent translation needs. Once the certified copy is stamped, we ship it to your location in ${cityData.name} (serving areas near ${cityData.landmark}) via TCS or Leopards courier, reaching you in 1-2 business days.`
+        }
+    ];
+
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.a
+            }
+        }))
+    };
+
     return (
         <main className="min-h-screen bg-slate-50 font-sans">
             <JsonLd data={generateServiceSchema(cityData.name, serviceData.title)} />
+            <JsonLd data={faqSchema} />
             
             <PageHero
                 title={`${serviceData.title} in ${cityData.name}`}
@@ -152,6 +188,26 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                     <li><strong>Certified Drafting</strong>: Our qualified Arabic linguists translate and format the document to mirror the original perfectly.</li>
                                     <li><strong>Embassy Stamping</strong>: We apply our official certification seal which is recognized by the Saudi Cultural Attaché.</li>
                                 </ol>
+                            </div>
+
+                            {/* Localized FAQ Section */}
+                            <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm space-y-8">
+                                <h3 className="text-3xl font-bold text-slate-900 font-serif tracking-tight">
+                                    Frequently Asked Questions – {cityData.name}
+                                </h3>
+                                <div className="space-y-6">
+                                    {faqs.map((faq, idx) => (
+                                        <div key={idx} className="border-b border-slate-100 pb-6 last:border-b-0 last:pb-0">
+                                            <h4 className="text-lg font-bold text-slate-900 mb-3 flex items-start gap-2">
+                                                <span className="text-emerald-600 font-bold">Q:</span>
+                                                {faq.q}
+                                            </h4>
+                                            <p className="text-slate-600 leading-relaxed pl-6">
+                                                {faq.a}
+                                            </p>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
 

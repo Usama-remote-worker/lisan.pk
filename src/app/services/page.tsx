@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function ServicesPage() {
     return (
-        <main className="min-h-screen bg-white font-sans text-slate-900 pt-16">
+        <main className="min-h-screen bg-white font-sans text-slate-900">
             <JsonLd
                 data={{
                     "@context": "https://schema.org",

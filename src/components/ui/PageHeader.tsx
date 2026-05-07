@@ -11,7 +11,7 @@ interface PageHeroProps {
 
 export function PageHero({ title, description, breadcrumbs, className, badge }: PageHeroProps) {
     return (
-        <section className={`relative bg-white py-16 lg:py-24 overflow-hidden border-b border-slate-100 ${className}`}>
+        <section className={`relative bg-white pt-8 pb-12 lg:pt-10 lg:pb-16 overflow-hidden border-b border-slate-100 ${className}`}>
 
             <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-[0.03]"></div>
 

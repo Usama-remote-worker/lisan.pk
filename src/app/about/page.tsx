@@ -66,7 +66,7 @@ export default function AboutPage() {
       />
       
       {/* Hero Section */}
-      <section className="py-16 md:py-24 px-4 md:px-8 max-w-[1280px] mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700">
+      <section className="pt-8 pb-16 md:pt-10 md:pb-24 px-4 md:px-8 max-w-[1280px] mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-emerald-900 mb-6 font-serif leading-tight">
