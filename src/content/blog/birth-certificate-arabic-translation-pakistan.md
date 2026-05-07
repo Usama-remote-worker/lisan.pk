@@ -37,7 +37,7 @@ Official bodies in the Arab world, such as the Saudi Ministry of Interior (Jawaz
 
 In 2026, the requirements for family sponsorship and Iqama (residency) renewals have become more digitized and rigorous. Whether you are adding a newborn to your family registry or sponsoring your spouse, the birth certificate Arabic translation Pakistan must perfectly match the spellings on your passport and ID cards. Errors in names or date formats are the leading cause of visa delays—at Lisan.pk, our multi-layer proofreading process eliminates these risks entirely.
 
-If you are dealing with broader family visa paperwork, check out our [Family Registration Certificate (FRC) Translation](/blog/family-registration-certificate-translation-arabic) page for more information.
+If you are dealing with broader family visa paperwork, check out our [Family Registration Certificate (FRC) Translation](/blog/certified-arabic-translation-pakistan) page for more information.
 
 ---
 
@@ -45,7 +45,7 @@ If you are dealing with broader family visa paperwork, check out our [Family Reg
 
 Pakistan's NADRA system has seen significant updates in 2026 regarding the issuance of Child Registration Certificates (CRC) and computerized birth certificates. It is important to know that while a B-Form is used domestically, most foreign embassies—specifically for Saudi Arabia and the UAE—prefer the computerized NADRA birth certificate for translation.
 
-Our team stays updated on these legal shifts. We ensure that your birth certificate Arabic translation Pakistan follows the international formatting standards required for the "Study in Saudi" portal and other digital visa platforms. Looking for broader visa documentation help? Read our complete [Arabic Translation for Saudi Visa](/blog/arabic-translation-saudi-visa-pakistan) guide.
+Our team stays updated on these legal shifts. We ensure that your birth certificate Arabic translation Pakistan follows the international formatting standards required for the "Study in Saudi" portal and other digital visa platforms. Looking for broader visa documentation help? Read our complete [Arabic Translation for Saudi Visa](/blog/translation-services-accepted-by-saudi-embassy-in-pakistan) guide.
 
 ---
 
