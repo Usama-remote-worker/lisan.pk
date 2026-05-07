@@ -39,7 +39,6 @@ Whether you need translations for Saudi Arabia, UAE, Qatar, or other Arabic-spea
 
 ---
 
-![certified Arabic translation Pakistan services](/images/hero-certified-translation.jpg)
 
 ## Why Certified Arabic Translation Matters
 
@@ -65,7 +64,6 @@ Certified translations are commonly required for:
 - Employment documentation
 - Legal submissions
 
-![embassy recognized Arabic translation comparison](/images/certified-vs-non-certified-comparison.jpg)
 
 ### Why Embassies Reject Incorrect Translations
 
@@ -151,7 +149,6 @@ Clients across Pakistan can submit documents online and receive printed translat
 - Multan
 - Remote cities and towns
 
-![Arabic translation services available across Pakistan](/images/service-coverage-map-pakistan.jpg)
 
 ### Fast Turnaround and Urgent Orders
 
@@ -191,7 +188,6 @@ Professional translators prepare and review the document before certification.
 **Step 4: Delivery**
 Receive digital copies online and physical copies through courier delivery anywhere in Pakistan.
 
-![Arabic translation process with stamp and signature](/images/certified-translation-process-infographic.jpg)
 
 [Start Your Translation Today — Request a Quote](https://wa.me/923044296295)
 
@@ -249,3 +245,4 @@ If you need fast and authentic Arabic translation services in Pakistan, choosing
 
 ### Need a Certified Translation?
 To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+

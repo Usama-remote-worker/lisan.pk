@@ -23,7 +23,6 @@ howTo:
         text: "Receive your certified, embassy-approved Arabic PDF within 24 hours, ready for immediate portal submission. Hard copies can also be dispatched urgently via courier."
 ---
 
-![Urgent transcript translation for Saudi scholarship 24 hour delivery.](/images/urgent-hero-banner-24h-delivery.jpg)
 
 The deadline for your scholarship portal is closing in, and you just realized your academic documents need to be in Arabic. If you are scrambling and searching for a transcript translation for Saudi scholarship urgent service, take a deep breath—you are in exactly the right place.
 
@@ -64,7 +63,6 @@ If you also need your degree processed, check out our [Arabic Degree Translation
 
 Speed does not mean cutting corners. Every urgent translation we produce is fully certified, stamped, and officially recognized by the Saudi Embassy. We guarantee that your translated transcript will meet all the rigorous standards set by the Saudi Ministry of Education.
 
-![Certified Arabic transcript translation sample Pakistan.](/images/certified-arabic-transcript-sample.jpg)
 
 ---
 
@@ -106,3 +104,4 @@ Yes, as long as it is done by a certified, embassy-approved agency like Lisan.pk
 
 ### Need a Certified Translation?
 To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+

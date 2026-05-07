@@ -31,7 +31,6 @@ howTo:
         text: "You receive the certified translation digitally and, if needed, by courier at your address."
 ---
 
-![Saudi university admission translation urgent](/images/hero-saudi-university-admission-translation-urgent.jpg)
 
 Saudi university admission deadlines are often strict. If your documents are not translated correctly and on time, your application can be delayed or rejected. That is why students searching for Saudi university admission translation urgent services need a provider that can deliver fast, certified, and properly formatted translations.
 
@@ -74,7 +73,6 @@ A certified translation usually includes:
 
 ## Which Documents Need Translation for Saudi University Admission
 
-![Saudi university document translation checklist](/images/saudi-university-document-translation-checklist.jpg)
 
 Different universities may ask for different documents, but the most common ones are listed below.
 
@@ -146,7 +144,6 @@ When admission deadlines are close, speed matters. Lisan.pk is designed for urge
 
 ### Nationwide Courier Delivery
 
-![certified translation courier delivery Pakistan](/images/certified-translation-courier-delivery-pakistan.jpg)
 
 Students can submit documents online and receive translated copies at their doorstep through courier service. This is useful for clients in:
 
@@ -185,7 +182,6 @@ Your documents are translated carefully and checked for accuracy.
 **Step 4: Receive the Final Copy**
 You receive the certified translation digitally and, if needed, by courier at your address.
 
-![urgent Saudi university translation process](/images/urgent-saudi-university-translation-process.jpg)
 
 [Start Your Urgent Translation Today — Contact on WhatsApp](https://wa.me/923044296295)
 
@@ -249,3 +245,4 @@ Lisan.pk provides certified Arabic translation services for degrees, transcripts
 
 ### Need a Certified Translation?
 To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+

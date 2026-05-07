@@ -23,7 +23,6 @@ howTo:
         text: "Get your ready-to-upload digital files quickly, with hard copies delivered to your doorstep anywhere in Pakistan."
 ---
 
-![Certified Arabic translation badges Lisan.pk Pakistan.](/images/trust-badges-lisan.jpg)
 
 Securing admission to a prestigious Saudi university is a dream for many Pakistani students. Whether you are aiming for a Bachelor's, Master's, or PhD program, the application process is highly competitive. To guarantee your paperwork is accepted, you must meet one critical requirement: providing a flawless Arabic version of your academic records.
 
@@ -51,7 +50,6 @@ A certified translation carries legal weight. For a translation to be "embassy-a
 
 The document must feature a professional layout, an official agency stamp, and a signature from a qualified linguist. This official seal proves that the Arabic text is a 100% accurate reflection of the original degree.
 
-![HEC degree Arabic translation for Saudi university admission.](/images/translation-example-split-screen.jpg)
 
 ---
 
@@ -84,7 +82,6 @@ Getting your certified translation is incredibly easy with Lisan.pk:
 2. **Fast Processing**: Our highly qualified translators will accurately translate and format your documents, applying our official certified stamp.
 3. **Receive Your Files**: Get your ready-to-upload digital files quickly, with hard copies delivered to your doorstep anywhere in Pakistan.
 
-![3 step process to translate degree for Saudi universities.](/images/process-flowchart-3-step.jpg)
 
 ---
 
@@ -115,3 +112,4 @@ No, Saudi universities and embassies only accept certified translations from rec
 
 ### Need a Certified Translation?
 To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+

@@ -23,7 +23,6 @@ howTo:
         text: "Get your certified files via email/WhatsApp within 24 hours, with optional doorstep delivery for hard copies."
 ---
 
-![Urgent Arabic translation service for Saudi scholarship deadline May 2026.](/images/urgent-deadline-banner-may-21.jpg)
 
 The clock is ticking for the Saudi scholarship 2026 cycle. With the final submission deadline set for May 21st, thousands of students across Pakistan are rushing to finalize their portals. However, many applicants overlook a critical detail that can lead to immediate rejection: Saudi scholarship 2026 document translation.
 
@@ -41,7 +40,6 @@ Saudi Arabian universities and the Ministry of Education operate primarily in Ar
 
 ## Critical Documents That Must Be Translated
 
-![Checklist of required documents for Saudi scholarship 2026 Arabic translation.](/images/saudi-scholarship-2026-document-checklist.jpg)
 
 Before you hit "submit" on your portal, ensure the following documents have a professional Arabic counterpart:
 
@@ -63,7 +61,6 @@ Not all translations are created equal. Saudi authorities do not accept "self-tr
 
 Using an uncertified service can lead to your documents being flagged as "invalid," causing you to miss the 2026 intake entirely. An embassy-approved translation ensures that your name, dates, and academic terminology match your passport and official records perfectly, leaving no room for doubt.
 
-![Certified Arabic translation sample for Saudi university degree.](/images/certified-translation-sample-comparison.jpg)
 
 ---
 
@@ -118,3 +115,4 @@ The deadline for many major programs is May 21st, 2026. You should have your tra
 
 ### Need a Certified Translation?
 To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+
