@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import { Hero } from "@/components/home/Hero"
 import { DocumentTranslationGrid } from "@/components/home/DocumentTranslationGrid"
+import { B2BTravelSection } from "@/components/home/B2BTravelSection"
 import { AttestationList } from "@/components/home/AttestationList"
 import { TestimonialSection } from "@/components/home/TestimonialSection"
 import { FaqSection } from "@/components/home/FaqSection"
@@ -83,6 +84,9 @@ export default async function Home() {
       <TrustSection />
 
       <DocumentTranslationGrid />
+      
+      <B2BTravelSection />
+      
       <AttestationList />
       <LocationGrid />
       <TestimonialSection />
@@ -92,4 +96,5 @@ export default async function Home() {
     </main>
   )
 }
+
 

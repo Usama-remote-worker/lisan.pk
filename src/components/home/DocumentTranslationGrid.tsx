@@ -26,12 +26,6 @@ const services = [
         hasPage: true
     },
     {
-        title: "IATA & DTS Umrah Agency",
-        slug: "iata-dts-umrah-travel-agency",
-        text: "Certified Arabic translation of IATA certificates, DTS documents, and tourism licenses for Umrah operators and travel agencies.",
-        hasPage: true
-    },
-    {
         title: "Divorce Certificate",
         slug: "divorce-certificate-translation",
         text: "Legal translation of divorce deeds and effectiveness certificates for official record updates.",
@@ -74,10 +68,22 @@ const services = [
         hasPage: false
     },
     {
+        title: "Experience Certificate",
+        slug: "experience-certificate-translation",
+        text: "Certified translation of professional experience letters and employment certificates for work visa processing.",
+        hasPage: false
+    },
+    {
         title: "Saudi Scholarship",
         slug: "saudi-scholarship-translation",
         text: "Specialized translation for KSU, KAU, and Madinah University admissions and scholarships.",
         hasPage: false
+    },
+    {
+        title: "IATA & DTS Umrah Agency",
+        slug: "iata-dts-umrah-travel-agency",
+        text: "Certified Arabic translation of IATA certificates, DTS documents, and tourism licenses for Umrah operators and travel agencies.",
+        hasPage: true
     }
 ]
 
