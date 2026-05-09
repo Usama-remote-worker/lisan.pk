@@ -44,21 +44,36 @@ This is why understanding the **Saudi embassy attested document translation proc
 
 Understanding the difference between these three distinct processes can save you immense time, money, and unnecessary stress.
 
-```
-+-----------------------------------+
-| 1. ATTESTATION (Government Bodies)| --> Authenticates your original papers (HEC, IBCC, MoFA)
-+-----------------------------------+
-                  |
-                  v
-+-----------------------------------+
-| 2. TRANSLATION (Lisan.pk Certified)| --> Renders attested papers into official Saudi-compliant Arabic
-+-----------------------------------+
-                  |
-                  v
-+-----------------------------------+
-| 3. VERIFICATION (Saudi Embassy)   | --> Embassy review and final visa/scholarship approval
-+-----------------------------------+
-```
+<div class="my-8 p-6 bg-slate-50 rounded-2xl border border-slate-100 font-sans">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <!-- Step 1 -->
+        <div class="flex-1 text-center p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 font-sans">Step 1</span>
+            <h4 class="font-bold text-slate-800 mt-1 mb-2 font-sans">Original Attestation</h4>
+            <p class="text-xs text-slate-500 font-sans">Authenticates your original Pakistani papers via HEC, IBCC, and MoFA.</p>
+        </div>
+        
+        <!-- Arrow -->
+        <div class="text-slate-400 font-bold text-xl md:rotate-0 rotate-90 font-sans">→</div>
+
+        <!-- Step 2 -->
+        <div class="flex-1 text-center p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 font-sans">Step 2</span>
+            <h4 class="font-bold text-slate-800 mt-1 mb-2 font-sans">Certified Translation</h4>
+            <p class="text-xs text-slate-500 font-sans">Renders attested papers and stamps into official Saudi-compliant Arabic.</p>
+        </div>
+
+        <!-- Arrow -->
+        <div class="text-slate-400 font-bold text-xl md:rotate-0 rotate-90 font-sans">→</div>
+
+        <!-- Step 3 -->
+        <div class="flex-1 text-center p-4 bg-white rounded-xl shadow-sm border border-slate-100">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 font-sans">Step 3</span>
+            <h4 class="font-bold text-slate-800 mt-1 mb-2 font-sans">Embassy Verification</h4>
+            <p class="text-xs text-slate-500 font-sans">Final review and verification by the Saudi Embassy or Cultural Attaché.</p>
+        </div>
+    </div>
+</div>
 
 ### What Is Certified Arabic Translation?
 Certified Arabic translation means professionally converting your documents into Arabic while maintaining:
@@ -165,8 +180,8 @@ Lisan.pk is Pakistan’s leading translation agency specializing in Saudi-compli
 
 ---
 
-### 📋 Need Expert Process Guidance & Certified Translation?
+### Need Expert Process Guidance & Certified Translation?
 Do not let confusing attestation sequences delay your Saudi visa or scholarship. Submit your documents for a free process review today:
 
-👉 **[Get Process & Attestation Guidance on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20confused%20about%20the%20Saudi%20attestation%20and%20translation%20process.%20I%20need%20expert%20guidance.)**  
-🌐 **[Submit My Document Checklist for Free Review](/contact)**
+**[Get Process & Attestation Guidance on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20confused%20about%20the%20Saudi%20attestation%20and%20translation%20process.%20I%20need%20expert%20guidance.)**  
+**[Submit My Document Checklist for Free Review](/contact)**

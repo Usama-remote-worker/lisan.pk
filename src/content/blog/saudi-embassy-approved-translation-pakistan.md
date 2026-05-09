@@ -178,5 +178,5 @@ Whether you are applying for a Saudi scholarship, a family visa, or university a
 ### Need Certified Saudi-Compliant Arabic Translation?
 Get your documents reviewed by professional Arabic translation experts before submission. Contact us for same-day processing or a free quote:
 
-👉 **[Get Your Stamped & Certified Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20a%20certified%20Arabic%20translation%20for%20Saudi%20Embassy%20submission.)**  
-🌐 **[Request a Free Certified Translation Quote Online](/contact)**
+**[Get Your Stamped & Certified Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20a%20certified%20Arabic%20translation%20for%20Saudi%20Embassy%20submission.)**  
+**[Request a Free Certified Translation Quote Online](/contact)**

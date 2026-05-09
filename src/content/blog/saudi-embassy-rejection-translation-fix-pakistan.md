@@ -145,8 +145,8 @@ Many applicants become extremely cautious after facing an embassy rejection once
 
 ---
 
-### 🚨 Facing a Translation Rejection? Get it Fixed Today!
+### Facing a Translation Rejection? Get it Fixed Today!
 Do not risk a second rejection. Get your documents reviewed by certified translation experts immediately:
 
-👉 **[Fix My Rejected Saudi Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20the%20Saudi%20Embassy%20rejected%20my%20translation.%20I%20need%20urgent%20help%20to%20fix%20it.)**  
-🌐 **[Submit Rejected Files for Free Rejection Review](/contact)**
+**[Fix My Rejected Saudi Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20the%20Saudi%20Embassy%20rejected%20my%20translation.%20I%20need%20urgent%20help%20to%20fix%20it.)**  
+**[Submit Rejected Files for Free Rejection Review](/contact)**

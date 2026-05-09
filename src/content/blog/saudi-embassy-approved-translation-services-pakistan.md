@@ -185,5 +185,5 @@ For immediate assistance and instant quotes, you can share clear scans or photos
 ### Need Certified Saudi-Compliant Arabic Translation?
 Get your documents reviewed by certified translation experts. Contact us today to receive an instant quote:
 
-👉 **[Order Certified Arabic Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20with%20nationwide%20courier%20delivery.)**  
-🌐 **[Request a Free Translation Quote Online](/contact)**
+**[Order Certified Arabic Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20with%20nationwide%20courier%20delivery.)**  
+**[Request a Free Translation Quote Online](/contact)**
