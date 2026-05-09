@@ -50,15 +50,17 @@ export async function getSortedPostsData(): Promise<BlogPost[]> {
         } as BlogPost
     })
 
-    // Sort posts by date
+    // Sort posts by date (newest first)
     return allPostsData
         .filter(post => post.published !== false) // Default to published if not specified
         .sort((a, b) => {
-            if (a.date < b.date) {
-                return 1
-            } else {
-                return -1
+            const dateA = a.date ? new Date(a.date).getTime() : 0
+            const dateB = b.date ? new Date(b.date).getTime() : 0
+            
+            if (dateA !== dateB) {
+                return dateB - dateA // Newest first
             }
+            return (a.title || '').localeCompare(b.title || '')
         })
 }
 
