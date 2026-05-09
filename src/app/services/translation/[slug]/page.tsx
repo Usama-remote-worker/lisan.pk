@@ -53,6 +53,21 @@ const serviceData = {
             { q: "Is this translation valid for Saudi work visas?", a: "Yes, our certified translations are recognized by the Saudi Embassy and Cultural Attaché for all visa categories." },
             { q: "Do you translate certificates from all districts?", a: "Yes, we translate police certificates issued by any district or city across Pakistan." }
         ]
+    },
+    "iata-dts-umrah-travel-agency": {
+        title: "IATA & DTS Certificate Arabic Translation for Umrah & Travel Agencies | Lisan.pk",
+        h1: "IATA & DTS Certificate Arabic Translation Services for Umrah Companies & Travel Agencies in Pakistan",
+        description: "Certified Arabic translation of IATA certificates, DTS documents, tourism licenses, and commercial paperwork for Umrah operators, Hajj companies, and Saudi-linked travel agencies across Pakistan.",
+        content: "Umrah companies, Hajj operators, and travel agencies working with Saudi partners face strict documentation compliance requirements. Saudi authorities, tourism ministries, and B2B partners demand professionally translated Arabic versions of IATA certificates, DTS accreditation documents, company registration papers, tourism licenses, and commercial agreements. A single terminology error or formatting mistake can delay approvals, damage your credibility with Saudi partners, or halt your operations during peak Umrah and Hajj season. Lisan.pk provides specialized commercial Arabic translation built specifically for the travel and tourism industry — not generic translation, but Saudi travel documentation support with proper business terminology, official stamps, and urgent seasonal processing.",
+        features: ["IATA & DTS Specialist", "Saudi Travel Compliance", "Urgent Seasonal Processing", "B2B Commercial Terminology", "Certified Stamp & Signature", "Nationwide Courier Delivery"],
+        checklist: ["IATA Certificate or Membership Document", "DTS Accreditation Certificate", "Company Registration / NTN Certificate", "Tourism License from Ministry", "Partnership Agreements or Contracts", "Passport / CNIC of Authorized Signatory"],
+        faqs: [
+            { q: "Do you translate IATA certificates into Arabic?", a: "Yes. We provide certified Arabic translation of IATA membership certificates, accreditation letters, and related aviation/travel documentation with proper commercial terminology." },
+            { q: "Can you handle urgent translation before Umrah season?", a: "Yes. We offer same-day and 24-hour priority processing for travel agencies facing seasonal deadlines, partner demands, or Saudi approval timelines." },
+            { q: "Is machine translation acceptable for Saudi travel documents?", a: "No. Saudi authorities and B2B partners reject machine-translated commercial documents. All translations must use proper Arabic business and tourism terminology with certified stamps." },
+            { q: "Do you translate DTS certificates for Saudi compliance?", a: "Yes. We translate DTS (Destination Tourism System) certificates, tourism operator licenses, and related accreditation documents into certified Arabic for Saudi regulatory compliance." },
+            { q: "Can Umrah companies outside major cities use your services?", a: "Yes. We accept documents via WhatsApp and email from any city in Pakistan and provide certified translations with nationwide courier delivery." }
+        ]
     }
 }
 

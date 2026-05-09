@@ -467,6 +467,18 @@ export const services: Record<string, ServiceData> = {
             "Fast digital delivery",
             "Embassy recognized stamps"
         ]
+    },
+    "iata-dts-umrah-travel-agency": {
+        slug: "iata-dts-umrah-travel-agency",
+        title: "IATA & DTS Umrah Agency Translation",
+        description: "Certified Arabic translation of IATA certificates, DTS accreditation, tourism licenses, and commercial documents for Umrah operators and Saudi-linked travel agencies.",
+        engagementText: "Saudi partners and tourism authorities demand professionally translated commercial documentation. Protect your Umrah business with certified Arabic translation.",
+        benefits: [
+            "IATA & DTS certificate expertise",
+            "Saudi travel compliance formatting",
+            "Urgent Hajj/Umrah season processing",
+            "B2B commercial terminology accuracy"
+        ]
     }
 };
 
