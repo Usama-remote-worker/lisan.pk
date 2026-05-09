@@ -4,62 +4,80 @@ const services = [
     {
         title: "Birth Certificate",
         slug: "birth-certificate-translation",
-        text: "Official certified translation for NADRA records, visa applications, and immigration purposes."
+        text: "Official certified translation for NADRA records, visa applications, and immigration purposes.",
+        hasPage: true
     },
     {
         title: "Marriage Certificate (Nikah Nama)",
-        slug: "nikah-nama-translation",
-        text: "Accurate translation of marriage contracts for spouse visas and international legal recognition."
+        slug: "nikah-nama-marriage-certificate",
+        text: "Accurate translation of marriage contracts for spouse visas and international legal recognition.",
+        hasPage: true
     },
     {
         title: "Degrees & Transcripts",
-        slug: "degree-transcript-translation",
-        text: "Academic translation for foreign university admissions and equivalence certificates."
+        slug: "academic-degree-transcript",
+        text: "Academic translation for foreign university admissions and equivalence certificates.",
+        hasPage: true
     },
     {
         title: "Police Character Certificate",
-        slug: "police-character-certificate-translation",
-        text: "Translation of police clearance certificates for immigration, jobs, and travel visa requirements."
+        slug: "police-character-certificate",
+        text: "Translation of police clearance certificates for immigration, jobs, and travel visa requirements.",
+        hasPage: true
+    },
+    {
+        title: "IATA & DTS Umrah Agency",
+        slug: "iata-dts-umrah-travel-agency",
+        text: "Certified Arabic translation of IATA certificates, DTS documents, and tourism licenses for Umrah operators and travel agencies.",
+        hasPage: true
     },
     {
         title: "Divorce Certificate",
         slug: "divorce-certificate-translation",
-        text: "Legal translation of divorce deeds and effectiveness certificates for official record updates."
+        text: "Legal translation of divorce deeds and effectiveness certificates for official record updates.",
+        hasPage: false
     },
     {
         title: "Medical Reports",
         slug: "medical-report-translation",
-        text: "Precise medical translation for overseas treatment, insurance, and fitness certificates."
+        text: "Precise medical translation for overseas treatment, insurance, and fitness certificates.",
+        hasPage: false
     },
     {
         title: "Property Documents",
         slug: "property-document-translation",
-        text: "Translation of Fard, registry, sale deeds, and property documents for legal use."
+        text: "Translation of Fard, registry, sale deeds, and property documents for legal use.",
+        hasPage: false
     },
     {
         title: "Legal Document Translation",
         slug: "legal-document-translation",
-        text: "Court cases, judgments, power of attorney, affidavits, and legal agreements translated by experts."
+        text: "Court cases, judgments, power of attorney, affidavits, and legal agreements translated by experts.",
+        hasPage: false
     },
     {
         title: "Bank Statements",
         slug: "bank-statement-translation",
-        text: "Financial document translation including bank statements and salary slips for visa proofs."
+        text: "Financial document translation including bank statements and salary slips for visa proofs.",
+        hasPage: false
     },
     {
         title: "CNIC / ID Card",
         slug: "cnic-id-card-translation",
-        text: "National ID card translation for official identification in foreign countries."
+        text: "National ID card translation for official identification in foreign countries.",
+        hasPage: false
     },
     {
         title: "Business Documents",
         slug: "business-document-translation",
-        text: "Articles of association, company profiles, and tax returns for international business."
+        text: "Articles of association, company profiles, and tax returns for international business.",
+        hasPage: false
     },
     {
         title: "Saudi Scholarship",
         slug: "saudi-scholarship-translation",
-        text: "Specialized translation for KSU, KAU, and Madinah University admissions and scholarships."
+        text: "Specialized translation for KSU, KAU, and Madinah University admissions and scholarships.",
+        hasPage: false
     }
 ]
 
@@ -78,9 +96,12 @@ export function DocumentTranslationGrid() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service, index) => (
                         <Link 
-                            href={service.slug === "translation" ? "/services/translation" : `/services/translation/${service.slug}`} 
+                            href={service.hasPage 
+                                ? `/services/translation/${service.slug}` 
+                                : `https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20${encodeURIComponent(service.title)}%20translation%20services.`} 
                             key={service.title} 
                             className="group block h-full"
+                            {...(!service.hasPage ? { target: "_blank" } : {})}
                         >
                             <div className="flex flex-col p-8 rounded-2xl border border-slate-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 bg-white h-full hover:border-emerald-200">
                                 <div className="mb-6 flex items-center justify-between">
@@ -102,4 +123,3 @@ export function DocumentTranslationGrid() {
         </section>
     )
 }
-
