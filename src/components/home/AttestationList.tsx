@@ -26,13 +26,13 @@ export function AttestationList() {
                         <div className="grid sm:grid-cols-2 gap-x-8 gap-y-4 mb-12">
                             {attestations.map((item) => (
                                 <div key={item} className="flex items-center text-slate-700 font-medium py-2 border-b border-slate-200/50">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-3"></span>
+                                    <span className="w-1.5 h-1.5 rounded-full bg-brand-gold mr-3"></span>
                                     {item}
                                 </div>
                             ))}
                         </div>
                         <div>
-                            <Link href="/services/attestation" className="inline-flex items-center text-emerald-700 font-bold hover:text-emerald-800 transition-colors group">
+                            <Link href="/services/attestation" className="inline-flex items-center text-brand-gold-dark font-bold hover:text-brand-gold transition-colors group">
                                 View all attestation services 
                                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                             </Link>
@@ -46,7 +46,7 @@ export function AttestationList() {
                             </p>
                         </div>
                         {/* Decorative background element */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-50/50 to-transparent pointer-events-none"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-brand-gold-light/20 to-transparent pointer-events-none"></div>
                     </div>
                 </div>
             </div>

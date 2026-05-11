@@ -142,7 +142,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                                 <div className="grid sm:grid-cols-2 gap-6 mb-12">
                                     {data.features.map((f) => (
                                         <div key={f} className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
-                                            <div className="h-8 w-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">
+                                            <div className="h-8 w-8 rounded-full bg-brand-gold-light/20 flex items-center justify-center text-brand-gold-dark border border-brand-gold/10">
                                                 <CheckCircle2 className="w-5 h-5" />
                                             </div>
                                             <span className="font-bold text-slate-700">{f}</span>
@@ -154,8 +154,8 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                                 <ul className="space-y-4 mb-12">
                                     {data.checklist.map((item) => (
                                         <li key={item} className="flex items-start gap-3 text-slate-600">
-                                            <div className="h-6 w-6 mt-1 rounded-md bg-slate-200 flex items-center justify-center flex-shrink-0">
-                                                <FileText className="w-4 h-4 text-slate-500" />
+                                            <div className="h-6 w-6 mt-1 rounded-md bg-brand-gold-light/25 flex items-center justify-center flex-shrink-0 border border-brand-gold/10">
+                                                <FileText className="w-4 h-4 text-brand-gold-dark" />
                                             </div>
                                             <span>{item}</span>
                                         </li>
@@ -197,9 +197,9 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                             )}
 
                             {/* Interlinking to Locations */}
-                            <div className="bg-emerald-50 p-8 rounded-3xl border border-emerald-100">
-                                <h3 className="text-xl font-bold text-emerald-900 mb-4">Availability in Major Cities</h3>
-                                <p className="text-emerald-800/80 mb-6 text-sm">
+                            <div className="bg-slate-50 p-8 rounded-3xl border border-brand-gold/20">
+                                <h3 className="text-xl font-bold text-slate-900 mb-4">Availability in Major Cities</h3>
+                                <p className="text-slate-600 mb-6 text-sm">
                                     We provide this specialized service across Pakistan. Click a city to learn about local pickup and delivery options:
                                 </p>
                                 <div className="flex flex-wrap gap-2">
@@ -207,7 +207,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                                         <Link 
                                             key={city} 
                                             href={`/locations/${city}`}
-                                            className="px-4 py-2 bg-white border border-emerald-200 text-emerald-700 rounded-full text-sm font-semibold hover:bg-emerald-600 hover:text-white transition-all capitalize"
+                                            className="px-4 py-2 bg-white border border-brand-gold/30 text-brand-gold-dark rounded-full text-sm font-semibold hover:bg-brand-gold hover:text-slate-950 transition-all capitalize"
                                         >
                                             {city}
                                         </Link>
@@ -218,7 +218,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
 
                         {/* Sidebar */}
                         <div className="space-y-6">
-                            <div className="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 sticky top-24">
+                            <div className="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 border-t-4 border-t-brand-gold sticky top-24">
                                 <h3 className="font-bold text-slate-900 mb-6 text-xl">Order Professional Translation</h3>
                                 <div className="space-y-4">
                                     <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20${data.title}%20translation%20services.`} target="_blank" className="block w-full">
@@ -236,11 +236,11 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                                     <p className="text-sm text-slate-500 italic mb-4">"Trusted by 50,000+ clients over 40 years."</p>
                                     <div className="flex justify-center gap-4">
                                         <div className="text-center">
-                                            <div className="font-bold text-emerald-600">4.9/5</div>
+                                            <div className="font-bold text-brand-gold-dark">4.9/5</div>
                                             <div className="text-[10px] uppercase text-slate-400">Google Rating</div>
                                         </div>
                                         <div className="text-center">
-                                            <div className="font-bold text-emerald-600">100%</div>
+                                            <div className="font-bold text-brand-gold-dark">100%</div>
                                             <div className="text-[10px] uppercase text-slate-400">Acceptance</div>
                                         </div>
                                     </div>
