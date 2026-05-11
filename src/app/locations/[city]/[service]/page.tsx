@@ -12,7 +12,8 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { city, service } = await params
-    const cityData = cities[city.toLowerCase() as keyof typeof cities]
+    const normalizedCity = city.toLowerCase().replace(/[\s_]+/g, '-')
+    const cityData = cities[normalizedCity as keyof typeof cities]
     const serviceData = services[service.toLowerCase() as keyof typeof services]
 
     if (!cityData || !serviceData) return {}
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title,
         description,
         alternates: {
-            canonical: `/locations/${city}/${service}`,
+            canonical: `/locations/${normalizedCity}/${service.toLowerCase()}`,
         },
     }
 }
@@ -49,7 +50,8 @@ import { TestimonialSection } from "@/components/home/TestimonialSection"
 
 export default async function LocalizedServicePage({ params }: PageProps) {
     const { city, service } = await params
-    const cityData = cities[city.toLowerCase() as keyof typeof cities]
+    const normalizedCity = city.toLowerCase().replace(/[\s_]+/g, '-')
+    const cityData = cities[normalizedCity as keyof typeof cities]
     const serviceData = services[service.toLowerCase() as keyof typeof services]
 
     if (!cityData || !serviceData) {
@@ -101,7 +103,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                 description={`Fast-track, certified Arabic translation for ${cityData.name} residents. Guaranteed acceptance by Saudi portals and embassies.`}
                 breadcrumbs={[
                     { label: "Locations", href: "/locations" },
-                    { label: cityData.name, href: `/locations/${city}` },
+                    { label: cityData.name, href: `/locations/${normalizedCity}` },
                     { label: serviceData.title }
                 ]}
             />
@@ -152,6 +154,91 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 <p className="text-slate-600 leading-relaxed">
                                     {cityData.localInfo} Whether you are verifying your {serviceData.slug.includes('degree') ? 'academic credentials' : 'personal documents'} at <span className="font-bold text-slate-900">{cityData.biseName || 'the local board'}</span> or preparing for a scholarship at <span className="font-bold text-slate-900">{cityData.hecCenter || 'HEC'}</span>, we ensure your {cityData.name}-issued documents are translated into perfect Arabic with 100% technical accuracy.
                                 </p>
+                            </div>
+
+                            {/* Service attestation verification specifications */}
+                            <div className="bg-gradient-to-br from-emerald-50 to-white p-10 rounded-[2.5rem] border border-emerald-100 shadow-sm space-y-6">
+                                <h3 className="text-2xl font-bold text-slate-900 font-serif flex items-center gap-2">
+                                    <FileText className="text-emerald-700 w-6 h-6" /> Attestation Checklist for {serviceData.title} in {cityData.name}
+                                </h3>
+                                <p className="text-slate-600 leading-relaxed text-[15px]">
+                                    To guarantee that your translated <span className="font-bold text-slate-800">{serviceData.title}</span> is accepted by the Saudi Embassy, MOFA, or university admissions boards without delays, please verify the following regional steps:
+                                </p>
+                                <div className="grid gap-4">
+                                    {service.includes('degree') || service.includes('transcript') || service.includes('matric') || service.includes('intermediate') || service.includes('diploma') ? (
+                                        <>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">1</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Board / HEC Verification First</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Academic records must be verified by {cityData.biseName || 'your local BISE Board'} (for certificates) or {cityData.hecCenter || 'HEC Regional Center'} (for degrees).</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">2</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">MOFA Attestation Support</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Once verified, the document requires an active sticker attestation from the Ministry of Foreign Affairs (MOFA) in Pakistan.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">3</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Certified Arabic Translation</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Lisan.pk will draft, format, and apply certified legal stamps to your document in perfect Arabic to mirror the MOFA-attested original.</p>
+                                                </div>
+                                            </div>
+                                        </>
+                                    ) : service.includes('nikah-nama') || service.includes('birth-certificate') ? (
+                                        <>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">1</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">NADRA Registration Certificate</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Ensure your personal records are on a computerized NADRA certificate before starting the translation flow.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">2</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">MOFA Verification</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Your NADRA certificate must be attested by MOFA (Ministry of Foreign Affairs) {cityData.mofaOffice ? `at ${cityData.mofaOffice}` : 'at your nearest regional center'}.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">3</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Lisan.pk Stamp & Sign</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">We apply our certified embassy-accepted stamps and signature. This guarantees acceptance on all Saudi portals.</p>
+                                                </div>
+                                            </div>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">1</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Official Document Verification</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Confirm that your document is officially issued by the relevant municipal or federal authority in {cityData.name}.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">2</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Legal Translation Delivery</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Lisan.pk will assign a specialized translator with exact expertise in {serviceData.title.toLowerCase()} terminology to draft your file.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">3</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Secure Courier Delivery</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">We dispatch the legal translation directly to your doorstep in {cityData.name} via tracked DHL/TCS/Leopards delivery.</p>
+                                                </div>
+                                            </div>
+                                        </>
+                                    )}
+                                </div>
                             </div>
 
                             {/* Authority Data Section */}

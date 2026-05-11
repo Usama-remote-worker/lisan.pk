@@ -67,7 +67,7 @@ export function Footer() {
                                     <li><Link href="/about" className="hover:text-emerald-400 transition-colors">About Lisan.pk</Link></li>
                                     <li><Link href="/blog" className="hover:text-emerald-400 transition-colors">Blog & Resources</Link></li>
                                     <li><Link href="/contact" className="hover:text-emerald-400 transition-colors">Contact Support</Link></li>
-                                    <li><Link href="/sitemap" className="hover:text-emerald-400 transition-colors">Visual Sitemap</Link></li>
+                                    <li><Link href="/directory" className="hover:text-emerald-400 transition-colors">Visual Directory</Link></li>
                                     <li><Link href="/sitemap.xml" className="hover:text-emerald-400 transition-colors text-[10px] opacity-40">XML Sitemap</Link></li>
                                 </ul>
                             </div>

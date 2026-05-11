@@ -14,14 +14,15 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { city } = await params
-    const cityData = cities[city.toLowerCase() as keyof typeof cities]
+    const normalizedCity = city.toLowerCase().replace(/[\s_]+/g, '-')
+    const cityData = cities[normalizedCity as keyof typeof cities]
     if (!cityData) return {}
 
     return {
         title: `Arabic Translation & Certified Document Services in ${cityData.name}`,
         description: `Certified Arabic translation, attestation, and document legalization services in ${cityData.name}. Trusted for Saudi and UAE embassy applications with secure handling.`,
         alternates: {
-            canonical: `/locations/${city}`,
+            canonical: `/locations/${normalizedCity}`,
         },
     }
 }
@@ -35,7 +36,8 @@ export async function generateStaticParams() {
 
 export default async function LocationPage({ params }: PageProps) {
     const { city } = await params
-    const cityData = cities[city.toLowerCase() as keyof typeof cities]
+    const normalizedCity = city.toLowerCase().replace(/[\s_]+/g, '-')
+    const cityData = cities[normalizedCity as keyof typeof cities]
 
     if (!cityData) {
         notFound()
@@ -79,7 +81,7 @@ export default async function LocationPage({ params }: PageProps) {
                 "@type": "ListItem",
                 "position": 3,
                 "name": cityData.name,
-                "item": `https://www.lisan.pk/locations/${city}`
+                "item": `https://www.lisan.pk/locations/${normalizedCity}`
             }
         ]
     }
@@ -89,7 +91,7 @@ export default async function LocationPage({ params }: PageProps) {
         "@type": "LocalBusiness",
         "name": `Lisan.pk Arabic Translation ${cityData.name}`,
         "description": cityData.description,
-        "url": `https://www.lisan.pk/locations/${city}`,
+        "url": `https://www.lisan.pk/locations/${normalizedCity}`,
         "telephone": "+923044296295",
         "address": {
             "@type": "PostalAddress",
@@ -163,7 +165,7 @@ export default async function LocationPage({ params }: PageProps) {
                             {Object.values(services).map((item) => (
                                 <Link 
                                     key={item.slug}
-                                    href={`/locations/${city}/${item.slug}`}
+                                    href={`/locations/${normalizedCity}/${item.slug}`}
                                     className="group flex flex-col p-6 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/5 hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-emerald-100"
                                 >
                                     <div className="mb-4 flex items-start justify-between">
