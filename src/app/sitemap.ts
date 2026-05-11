@@ -20,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         '/services/translation/academic-degree-transcript',
         '/services/translation/police-character-certificate',
         '/services/translation/iata-dts-umrah-travel-agency',
+        '/services/translation/urdu-to-english-translation',
         '/consultancy/saudi-scholarship',
         '/directory',
     ].map((route) => ({

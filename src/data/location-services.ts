@@ -479,6 +479,18 @@ export const services: Record<string, ServiceData> = {
             "Urgent Hajj/Umrah season processing",
             "B2B commercial terminology accuracy"
         ]
+    },
+    "urdu-to-english-translation": {
+        slug: "urdu-to-english-translation",
+        title: "Urdu to English Translation Services",
+        description: "Certified and stamped Urdu to English document translation for UK, US, Canada, Australia, and European visa applications, academic evaluations, and legal compliance.",
+        engagementText: "When applying for global visas, immigration, or foreign university admissions, presenting a flawlessly translated English document with certified stamps is non-negotiable.",
+        benefits: [
+            "Accepted by UKVI, CIC, & US CIS",
+            "Urgent 12-hour digital delivery",
+            "Official notary stamps available",
+            "Original document structure matched"
+        ]
     }
 };
 

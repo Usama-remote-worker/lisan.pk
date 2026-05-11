@@ -55,6 +55,11 @@ export function Hero() {
                                 Get a Free Quote
                             </Button>
                         </Link>
+                        <Link href="/services/translation/urdu-to-english-translation">
+                            <Button id="gtm-hero-urdu-english" variant="outline" size="lg" className="border-emerald-200 bg-emerald-50/50 text-emerald-800 hover:bg-emerald-50 h-16 text-sm px-8 rounded-full font-bold uppercase tracking-widest transition-all duration-300 flex items-center gap-2">
+                                Urdu to English Services
+                            </Button>
+                        </Link>
                         <Link href="/services">
                             <Button id="gtm-hero-services" variant="outline" size="lg" className="border-slate-200 text-slate-700 hover:bg-slate-50 h-16 text-sm px-12 rounded-full font-bold uppercase tracking-widest transition-all duration-300">
                                 View All Services

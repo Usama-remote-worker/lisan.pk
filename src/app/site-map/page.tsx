@@ -30,6 +30,7 @@ export default async function SitemapPage() {
         { name: 'Academic Degree/HEC Translation', href: '/services/translation/academic-degree-transcript' },
         { name: 'Police Character Certificate', href: '/services/translation/police-character-certificate' },
         { name: 'IATA & DTS Umrah Translation', href: '/services/translation/iata-dts-umrah-travel-agency' },
+        { name: 'Urdu to English Translation', href: '/services/translation/urdu-to-english-translation' },
     ]
 
     return (

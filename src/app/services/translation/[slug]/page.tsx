@@ -68,6 +68,18 @@ const serviceData = {
             { q: "Do you translate DTS certificates for Saudi compliance?", a: "Yes. We translate DTS (Destination Tourism System) certificates, tourism operator licenses, and related accreditation documents into certified Arabic for Saudi regulatory compliance." },
             { q: "Can Umrah companies outside major cities use your services?", a: "Yes. We accept documents via WhatsApp and email from any city in Pakistan and provide certified translations with nationwide courier delivery." }
         ]
+    },
+    "urdu-to-english-translation": {
+        title: "Certified Urdu to English Translation Services | Lisan.pk",
+        h1: "Certified Urdu to English Document Translation Services",
+        description: "Official Urdu to English translation for academic degrees, Nikah Nama, birth certificates, and police records. Accepted globally by UKVI, USCIS, and Canadian IRCC.",
+        content: "When applying for global visas, immigration, or foreign university admissions, presenting a flawlessly translated English document with certified stamps is non-negotiable. Our certified translations are formatted to match the original structure perfectly and are accompanied by an official Certificate of Accuracy, registered stamps, and authorized signatures.",
+        features: ["UKVI & USCIS Accepted", "12-Hour Urgent Delivery", "Official Seals & Stamps", "Accuracy Certification Included"],
+        checklist: ["Original Urdu Document (clear photo or scan)", "Passport copies for exact name matching", "Target country visa specifications (if any)"],
+        faqs: [
+            { q: "Is this translation valid for UK and Canada immigration?", a: "Yes, our certified translations are accompanied by an official 'Certificate of Accuracy' containing our registry details, which is 100% accepted by UKVI, USCIS, and IRCC." },
+            { q: "Do you translate handwritten marriage deeds (Nikah Nama)?", a: "Yes, we specialize in reading traditional handwriting and drafting high-precision, formatted English transcripts that mirror the original stamps and blocks." }
+        ]
     }
 }
 

@@ -84,6 +84,12 @@ const services = [
         slug: "iata-dts-umrah-travel-agency",
         text: "Certified Arabic translation of IATA certificates, DTS documents, and tourism licenses for Umrah operators and travel agencies.",
         hasPage: true
+    },
+    {
+        title: "Urdu to English Translation",
+        slug: "urdu-to-english-translation",
+        text: "Certified Urdu to English document translation accepted globally by embassies, UKVI, USCIS, and foreign universities.",
+        hasPage: true
     }
 ]
 
