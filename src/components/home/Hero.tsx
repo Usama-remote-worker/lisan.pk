@@ -19,9 +19,9 @@ export function Hero() {
                 <div className="max-w-5xl mx-auto text-center">
                     <motion.div 
                         {...fadeInUp}
-                        className="inline-flex items-center rounded-full border border-emerald-100 bg-emerald-50/50 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-emerald-800 mb-8 shadow-sm"
+                        className="inline-flex items-center rounded-full border border-brand-gold/30 bg-brand-gold-light/20 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-brand-gold-dark mb-8 shadow-sm"
                     >
-                        <span className="flex h-2 w-2 rounded-full bg-emerald-600 mr-2 animate-pulse"></span>
+                        <span className="flex h-2 w-2 rounded-full bg-brand-gold mr-2 animate-pulse"></span>
                         Embassy Recommended Services
                     </motion.div>
                     
@@ -66,10 +66,10 @@ export function Hero() {
                         initial={{ scale: 0.95, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
                         transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] as any }}
-                        className="mt-12 p-8 bg-emerald-50 rounded-[2.5rem] border border-emerald-100 inline-block relative overflow-hidden group"
+                        className="mt-12 p-8 bg-gradient-to-br from-white to-brand-gold-light/20 rounded-[2.5rem] border border-brand-gold/20 inline-block relative overflow-hidden shadow-xl shadow-slate-100/50"
                     >
                         <div className="absolute top-0 right-0 p-3">
-                            <span className="flex h-3 w-3 rounded-full bg-emerald-600 animate-ping"></span>
+                            <span className="flex h-3 w-3 rounded-full bg-brand-gold animate-ping"></span>
                         </div>
                         <p className="text-emerald-950 font-bold text-xl mb-3 flex items-center justify-center gap-2">
                              2026 Saudi Scholarship Deadlines Approaching

@@ -180,7 +180,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
 
                             {slug === "urdu-to-english-translation" && (
                                 <div className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white p-8 rounded-3xl shadow-xl shadow-emerald-500/10 mb-8">
-                                    <span className="text-[10px] font-bold tracking-[0.2em] uppercase bg-emerald-400/30 px-3 py-1 rounded-full text-emerald-100 mb-4 inline-block">
+                                    <span className="text-[10px] font-bold tracking-[0.2em] uppercase bg-brand-gold/20 px-3 py-1 rounded-full text-brand-gold-light mb-4 inline-block border border-brand-gold/20">
                                         Highly Recommended Guide
                                     </span>
                                     <h3 className="text-2xl font-bold mb-3 font-serif">Comprehensive Urdu to English Translation Guide</h3>

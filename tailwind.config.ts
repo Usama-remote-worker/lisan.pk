@@ -11,6 +11,13 @@ const config: Config = {
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
+                brand: {
+                    gold: {
+                        DEFAULT: "#c5a059",
+                        light: "#f1e7d2",
+                        dark: "#b08a46",
+                    }
+                }
             },
             animation: {
                 'infinite-scroll': 'infinite-scroll 25s linear infinite',

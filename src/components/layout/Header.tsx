@@ -29,7 +29,7 @@ export function Header() {
                             className="h-7 w-7 object-contain"
                         />
                         <span className="font-bold text-2xl text-emerald-800 tracking-tight">
-                            Lisan.pk
+                            Lisan<span className="text-brand-gold">.pk</span>
                         </span>
                     </Link>
                 </div>

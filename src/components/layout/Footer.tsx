@@ -21,7 +21,7 @@ export function Footer() {
                                     alt="Lisan.pk Icon" 
                                     className="h-8 w-8 object-contain"
                                 />
-                                <h3 className="text-white text-xl font-bold tracking-tight">Lisan.pk</h3>
+                                <h3 className="text-white text-xl font-bold tracking-tight">Lisan<span className="text-brand-gold">.pk</span></h3>
                             </div>
                             <p className="text-sm leading-relaxed text-slate-400 max-w-xs">
                                 Pakistan’s most trusted Arabic translation and attestation platform. Specializing in Saudi university admissions and document legalization for over 40 years.
