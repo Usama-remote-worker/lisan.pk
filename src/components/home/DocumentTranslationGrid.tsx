@@ -115,13 +115,13 @@ export function DocumentTranslationGrid() {
                             className="group block h-full"
                             {...(!service.hasPage ? { target: "_blank" } : {})}
                         >
-                            <div className="flex flex-col p-8 rounded-2xl border border-slate-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 bg-white h-full hover:border-emerald-200">
+                            <div className="flex flex-col p-8 rounded-2xl border border-slate-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 bg-white h-full hover:border-brand-gold/30 hover:shadow-brand-gold/5">
                                 <div className="mb-6 flex items-center justify-between">
-                                    <span className="text-[10px] font-bold tracking-[0.2em] text-emerald-600 uppercase bg-emerald-50 px-3 py-1 rounded-full">
+                                    <span className="text-[10px] font-bold tracking-[0.2em] text-brand-gold-dark uppercase bg-brand-gold-light/20 px-3 py-1 rounded-full border border-brand-gold/10">
                                         Service {String(index + 1).padStart(2, '0')}
                                     </span>
                                 </div>
-                                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-700 transition-colors font-serif">
+                                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-gold-dark transition-colors font-serif">
                                     {service.title}
                                 </h3>
                                 <p className="text-slate-600 text-[15px] leading-relaxed">

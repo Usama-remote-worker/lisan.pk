@@ -88,7 +88,7 @@ export function Footer() {
                                 <Link 
                                     href="https://forms.gle/FnBnLrbdCQXsyjVS6" 
                                     target="_blank"
-                                    className="block w-full bg-emerald-600 hover:bg-emerald-500 text-white text-center py-3 rounded-xl font-bold transition-all transform hover:scale-[1.02]"
+                                    className="block w-full bg-brand-gold hover:bg-brand-gold-dark text-slate-950 text-center py-3 rounded-xl font-extrabold transition-all transform hover:scale-[1.02] border border-brand-gold-dark/20"
                                 >
                                     Get a Free Quote
                                 </Link>

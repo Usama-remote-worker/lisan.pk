@@ -75,7 +75,7 @@ export function Header() {
                     <Link href="/contact" className="hidden md:block">
                         <Button 
                             id="gtm-quote-header-desktop"
-                            className="bg-emerald-800 hover:bg-emerald-900 text-white font-bold px-8 h-11 shadow-[0_4px_20px_-5px_rgba(6,78,59,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-emerald-700/50"
+                            className="bg-brand-gold hover:bg-brand-gold-dark text-slate-950 font-extrabold px-8 h-11 shadow-[0_4px_20px_-5px_rgba(197,160,89,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-brand-gold-dark/30"
                         >
                             Get a Free Quote
                         </Button>
@@ -85,7 +85,7 @@ export function Header() {
                         <Button 
                             id="gtm-quote-header-mobile"
                             size="sm" 
-                            className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-4 rounded-lg shadow-md"
+                            className="bg-brand-gold hover:bg-brand-gold-dark text-slate-950 font-bold h-10 px-4 rounded-lg shadow-md border border-brand-gold-dark/30"
                         >
                             Quote
                         </Button>
@@ -121,7 +121,7 @@ export function Header() {
                         <Link href="/contact" className="pt-4" onClick={() => setIsMenuOpen(false)}>
                             <Button 
                                 id="gtm-quote-menu-mobile"
-                                className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold h-14 rounded-2xl shadow-xl transition-all active:scale-95 border border-emerald-700"
+                                className="w-full bg-brand-gold hover:bg-brand-gold-dark text-slate-950 font-extrabold h-14 rounded-2xl shadow-xl transition-all active:scale-95 border border-brand-gold-dark"
                             >
                                 Get a Free Quote & Upload
                             </Button>
