@@ -178,6 +178,24 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                                 </div>
                             </div>
 
+                            {slug === "urdu-to-english-translation" && (
+                                <div className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white p-8 rounded-3xl shadow-xl shadow-emerald-500/10 mb-8">
+                                    <span className="text-[10px] font-bold tracking-[0.2em] uppercase bg-emerald-400/30 px-3 py-1 rounded-full text-emerald-100 mb-4 inline-block">
+                                        Highly Recommended Guide
+                                    </span>
+                                    <h3 className="text-2xl font-bold mb-3 font-serif">Comprehensive Urdu to English Translation Guide</h3>
+                                    <p className="text-emerald-100 text-sm leading-relaxed mb-6">
+                                        Are you worried about name spelling mismatches, UKVI/USCIS guidelines, or embassy rejections? Read our expert, in-depth guide covering legal, immigration, and academic requirements across Pakistan.
+                                    </p>
+                                    <Link 
+                                        href="/blog/urdu-to-english-translation-services-pakistan"
+                                        className="inline-flex items-center justify-center px-6 py-3 bg-white text-emerald-800 rounded-full font-bold text-sm hover:bg-emerald-50 transition-colors shadow-md"
+                                    >
+                                        Read Guide & Avoid Rejections
+                                    </Link>
+                                </div>
+                            )}
+
                             {/* Interlinking to Locations */}
                             <div className="bg-emerald-50 p-8 rounded-3xl border border-emerald-100">
                                 <h3 className="text-xl font-bold text-emerald-900 mb-4">Availability in Major Cities</h3>
