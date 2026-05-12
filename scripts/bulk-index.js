@@ -44,12 +44,23 @@ async function main() {
   // 4. Extract URLs from the sitemap
   const urlRegex = /<loc>(.*?)<\/loc>/g;
   let match;
-  const urls = [];
+  const targetUrls = [
+    'https://www.lisan.pk/blog/saudi-scholarship-document-translation-avoid-mistakes-before-21-may',
+    'https://www.lisan.pk/blog/bachelor-scholarship-applications-2026-documents-you-need-before-21-may',
+    'https://www.lisan.pk/blog/masters-scholarship-documents-guide-2026-everything-you-need-before-deadline',
+    'https://www.lisan.pk/blog/hec-attested-degree-arabic-translation-services-pakistan',
+    'https://www.lisan.pk/blog/saudi-mofa-attested-arabic-translation-services-pakistan'
+  ];
+
+  const urls = [...targetUrls];
   while ((match = urlRegex.exec(sitemapXml)) !== null) {
-    urls.push(match[1]);
+    const sitemapUrl = match[1];
+    if (!urls.includes(sitemapUrl)) {
+      urls.push(sitemapUrl);
+    }
   }
 
-  console.log(`✅ Found ${urls.length} URLs in the sitemap.`);
+  console.log(`✅ Found ${urls.length} total URLs (including ${targetUrls.length} recent target URLs).`);
 
   if (urls.length === 0) {
     console.log('No URLs found to index. Exiting.');
@@ -68,9 +79,9 @@ async function main() {
   let successCount = 0;
   let errorCount = 0;
 
-  // 6. Submit URLs to Google Indexing API
   for (let i = 0; i < urlsToIndex.length; i++) {
-    const url = urlsToIndex[i];
+    const rawUrl = urlsToIndex[i];
+    const url = rawUrl.replace('https://www.lisan.pk', 'https://lisan.pk');
     try {
       await indexing.urlNotifications.publish({
         auth: auth,
