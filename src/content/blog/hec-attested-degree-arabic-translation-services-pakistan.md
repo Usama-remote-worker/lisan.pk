@@ -96,16 +96,15 @@ One of the biggest questions students ask us is:
 >
 > Yes! In the official **HEC verified degree Arabic translation workflow**, you should ideally complete HEC or IBCC attestation *first*. The translator must translate not only the degree contents but also the official HEC/IBCC verification stamps, barcodes, and signatures placed on the back of your original documents. Translating a document *before* attestation means the final stamps are omitted from your translated set, which may trigger resubmission requests from strict Saudi scholarship review boards.
 
-```mermaid
-graph TD
-    A[Original Degree / Transcript] --> B[HEC or IBCC Attestation]
-    B --> C[Certified Arabic Translation by Lisan.pk]
-    C --> D[MOFA Attestation in Pakistan]
-    D --> E[Saudi Culture Attache Submission]
-    E --> F[Saudi Embassy or University Portal]
-    style C fill:#d1fae5,stroke:#059669,stroke-width:2px
-    style D fill:#d1fae5,stroke:#059669,stroke-width:2px
-```
+### Official HEC Verified Degree Arabic Translation Workflow
+The recommended processing sequence for Saudi-related submissions is:
+1.  **Original Degree / Transcript:** Gather your original degree scrolls and transcript sheets.
+2.  **HEC or IBCC Attestation:** Submit your documents to the Higher Education Commission or IBCC to secure official stamps, signatures, and verification barcodes on the back of the papers.
+3.  **Certified Arabic Translation by Lisan.pk:** Submit your attested copies to our native team for professional translation, including full translation of the background text and HEC attestation stamps.
+4.  **MOFA Attestation in Pakistan:** Bring both your original documents and their certified translations to the Ministry of Foreign Affairs for final legalization.
+5.  **Saudi Culture Attache Submission:** Submit the attested folder to the Saudi Cultural Attaché for verification.
+6.  **Saudi Embassy or University Portal:** Finally, present the fully validated papers on the admissions portal or at the embassy.
+
 
 At Lisan.pk, we guide students according to their scholarship category, university requirements, embassy requirements, and current attestation status. This helps reduce workflow confusion and processing delays.
 

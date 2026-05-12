@@ -208,27 +208,14 @@ For students applying before the **21 May** window, fast and reliable communicat
 ### 7 Common Reasons Scholarship Documents Get Rejected
 According to recent application feedback, here are the top mistakes students make:
 
-```mermaid
-graph TD
-    A[Scholarship Document Submission] --> B{Rejection Triggers}
-    B --> B1[Incomplete Translation of Stamps & Seals]
-    B --> B2[Name Spelling Mismatch with Passport]
-    B --> B3[Inconsistent Academic Terminology & GPA]
-    B --> B4[Low-Quality / Blurry Scans]
-    B --> B5[Missing Pages / Incomplete File Sets]
-    B --> B6[Unofficial Translation without Stamps]
-    B --> B7[Poor Layout / Disorganized PDF Structure]
-    
-    style A fill:#047857,stroke:#065f46,color:#fff
-    style B fill:#b91c1c,stroke:#991b1b,color:#fff
-    style B1 fill:#f59e0b,stroke:#d97706,color:#000
-    style B2 fill:#f59e0b,stroke:#d97706,color:#000
-    style B3 fill:#f59e0b,stroke:#d97706,color:#000
-    style B4 fill:#f59e0b,stroke:#d97706,color:#000
-    style B5 fill:#f59e0b,stroke:#d97706,color:#000
-    style B6 fill:#f59e0b,stroke:#d97706,color:#000
-    style B7 fill:#f59e0b,stroke:#d97706,color:#000
-```
+*   **Incomplete Translation of Stamps & Seals:** Forgetting to translate back-page attestation stamps, barcodes, or background seals.
+*   **Name Spelling Mismatches:** Small spelling or spacing discrepancies between transcript names and your official passport.
+*   **Inconsistent Academic Terminology:** Machine-translating technical subjects, majors, or GPA detail grading scales.
+*   **Low-Quality / Blurry Scans:** Submitting illegible, cropped, or out-of-focus mobile phone photos instead of flatbed scans.
+*   **Missing Pages / Incomplete Sets:** Forgetting back pages of degrees or semesters in multi-page transcripts.
+*   **Unofficial Translation without Stamps:** Submitting uncertified translations lacking official registered translator seals and signatures.
+*   **Poor Layout & Disorganized PDF Structure:** Merging pages in the wrong order or submitting a confusing, disorganized file set.
+
 
 > [!TIP]
 > **Pro Tip:**

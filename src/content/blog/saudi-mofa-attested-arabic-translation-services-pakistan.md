@@ -83,17 +83,15 @@ Legalization refers to international document validation procedures for use in S
 
 The exact sequence may vary depending on the document type, but at Lisan.pk, we generally guide applicants through the following order:
 
-```mermaid
-graph TD
-    A[Step 1: Original Document Preparation] --> B[Step 2: Certified Arabic Translation]
-    B --> C[Step 3: Notarization Procedures]
-    C --> D[Step 4: HEC or IBCC Attestation]
-    D --> E[Step 5: MOFA Attestation]
-    E --> F[Step 6: Saudi Embassy Submission]
-    style B fill:#d1fae5,stroke:#059669,stroke-width:2px
-    style E fill:#d1fae5,stroke:#059669,stroke-width:2px
-    style F fill:#34d399,stroke:#047857,stroke-width:2px
-```
+### Complete Document Legalization Order
+The standard, step-by-step sequence is:
+1.  **Original Document Preparation:** Consolidate your original certificates, diplomas, marriage contracts, or business records.
+2.  **Certified Arabic Translation:** Obtain a professionally certified and stamped translation from Lisan.pk, aligning your spelling perfectly with your passport details.
+3.  **Notarization Procedures:** Get the translated files verified and stamped by a Notary Public to certify the copy.
+4.  **HEC or IBCC Attestation:** Submit educational degrees/transcripts to HEC or IBCC for verification stamps.
+5.  **MOFA Attestation:** Present both original and translated copies at the Ministry of Foreign Affairs (MOFA) counter for final legalization.
+6.  **Saudi Embassy Submission:** Submit the fully attested, translated, and certified package to the Saudi Embassy or visa center for final clearance.
+
 
 ### Step 1 — Original Document Preparation
 We review the original documents to ensure they are complete, legible, and ready for processing.

@@ -160,23 +160,15 @@ Poor scans may cause unreadable stamps, blurry signatures, cropped margins, or r
 ### 3. Name Mismatches
 Your passport, certificates, transcripts, and recommendation letters should all use the same spelling format. Even minor differences in initials or spacing can create verification problems.
 
-```mermaid
-graph TD
-    A[Check Academic Certificates] --> B{Verify Name Spellings}
-    B -- Matches Passport --> C[Scan Documents at 300 DPI]
-    B -- Spelling Mismatch --> B_Fix[Correct original certificates or request aligned translation]
-    C --> D[Send PDFs to Lisan.pk]
-    D --> E[Receive Certified Arabic Translations in 24 Hours]
-    E --> F[Organize & Sequence PDF Files]
-    F --> G[Upload to Saudi Scholarship Portal]
+### Step-by-Step Document Verification Process
+To ensure your undergraduate documents are processed perfectly, follow this simple workflow:
+1.  **Check Original Academic Certificates:** Verify that all names, dates of birth, and grade profiles on your Matric and Inter sheets are correct.
+2.  **Verify Name Spellings:** Double-check that your name on SSC, HSSC, and CNIC matches your official passport spelling exactly.
+3.  **Scan Documents at 300 DPI:** Use a flatbed scanner or professional scanning app to create clear, uncropped PDF copies of both front and back pages.
+4.  **Send PDFs to Lisan.pk:** Submit your documents online via WhatsApp for official certified Arabic translation.
+5.  **Receive Certified Translations:** Receive your stamped, signed, and portal-ready Arabic translation files within 24 hours.
+6.  **Organize and Sequence PDF files:** Group and merge files in a clean, logical folder structure before uploading them to the Saudi scholarship portal.
 
-    style A fill:#047857,stroke:#065f46,color:#fff
-    style C fill:#047857,stroke:#065f46,color:#fff
-    style E fill:#047857,stroke:#065f46,color:#fff
-    style G fill:#047857,stroke:#065f46,color:#fff
-    style B fill:#f59e0b,stroke:#d97706,color:#000
-    style B_Fix fill:#b91c1c,stroke:#991b1b,color:#fff
-```
 
 ---
 

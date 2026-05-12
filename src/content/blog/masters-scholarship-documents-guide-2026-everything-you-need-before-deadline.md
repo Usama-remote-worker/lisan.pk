@@ -154,31 +154,13 @@ Admissions committees expect elegant, easy-to-read SOP files. Mistakes include p
 ### 3. Recommendation Letter Inconsistencies
 Letters written by professors must use consistent spellings matching your passport, professional formatting, and proper translator stamps if originally written in English or Urdu.
 
-```mermaid
-graph TD
-    A[Graduate Document Prep] --> B{Document Category}
-    B --> B1[Academic Records]
-    B --> B2[Research & SOP Papers]
-    B --> B3[Identity Credentials]
-    
-    B1 --> C1[HEC Attestation of Bachelor's Degree]
-    C1 --> C2[Certified Arabic Transcript Translation]
-    
-    B2 --> D1[Translate SOP & Research Summary]
-    D1 --> D2[Verify Technical Academic Terminology]
-    
-    B3 --> E1[Align Spelling with Passport Details]
-    
-    C2 --> F[Compile and Sequence Final PDF Set]
-    D2 --> F
-    E1 --> F
-    
-    F --> G[Upload to Saudi Scholarship Portal before May 21]
+### Step-by-Step Graduate Document Preparation Workflow
+To prepare your master's scholarship applications correctly, follow this structured process:
+*   **Academic Records Category:** Get your Bachelor's Degree and semester transcripts officially attested by the Higher Education Commission (HEC) before securing certified Arabic translations.
+*   **Research & Supporting Papers Category:** Formulate your Statement of Purpose (SOP) and Research Proposals. Translate these with extreme care, ensuring precise technical academic terminology.
+*   **Identity Credentials Category:** Align all spelling variations across recommendations, degrees, and certificates to match your official passport details perfectly.
+*   **Final Merging & Sequencing:** Assemble, sequence, and merge all translated and certified files into professional high-resolution PDFs before uploading them to the Saudi scholarship portal.
 
-    style A fill:#047857,stroke:#065f46,color:#fff
-    style G fill:#047857,stroke:#065f46,color:#fff
-    style B fill:#f59e0b,stroke:#d97706,color:#000
-```
 
 ---
 
