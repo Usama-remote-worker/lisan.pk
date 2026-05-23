@@ -133,7 +133,8 @@ export const cities: Record<string, CityData> = {
         landmark: "GT Road & Gujranwala Chamber",
         localInfo: "Translate degree and transcript into Arabic in Gujranwala for Saudi university admission with doorstep delivery.",
         biseName: "BISE Gujranwala",
-        tier: 3
+        tier: 3,
+        regionalContext: "Serving University of Gujranwala and Govt. College University Lahore (Gujranwala campus) applicants. Same-day digital scans processed for students along GT Road and Satellite Town."
     },
     "hyderabad": {
         name: "Hyderabad",
@@ -143,7 +144,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Latifabad & Hyderabad Chamber",
         localInfo: "Reliable service to translate degree and transcript into Arabic in Hyderabad (Pakistan) for Saudi university admission.",
         biseName: "BISE Hyderabad",
-        tier: 3
+        tier: 3,
+        regionalContext: "Specialist support for University of Sindh and Mehran UET graduates in Hyderabad. Secure overnight TCS courier covers Latifabad, Qasimabad, and City Campus areas."
     },
     "bahawalpur": {
         name: "Bahawalpur",
@@ -153,7 +155,8 @@ export const cities: Record<string, CityData> = {
         landmark: "IUB & Cantonment",
         localInfo: "Translate degree and transcript into Arabic in Bahawalpur for Saudi university admission with ease.",
         biseName: "BISE Bahawalpur",
-        tier: 3
+        tier: 3,
+        regionalContext: "Dedicated processing for Islamia University of Bahawalpur (IUB) graduates. Express delivery covers Model Town, Satellite Town, and Cantonment areas of South Punjab."
     },
     "quetta": {
         name: "Quetta",
@@ -163,7 +166,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Serena Chowk & Balochistan Secretariat",
         localInfo: "Our Quetta service allows you to translate degree and transcript into Arabic for Saudi university admission locally.",
         biseName: "BISE Quetta",
-        tier: 3
+        tier: 3,
+        regionalContext: "Priority handling for BUITEMS and University of Balochistan applicants. Documents dispatched via tracked TCS courier to all Quetta zones including Satellite Town, Jinnah Town, and Cantt areas."
     },
     "abbottabad": {
         name: "Abbottabad",
@@ -173,7 +177,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Mandian & Cantonment",
         localInfo: "Translate degree and transcript into Arabic in Abbottabad for Saudi university admission with professional accuracy.",
         biseName: "BISE Abbottabad",
-        tier: 3
+        tier: 3,
+        regionalContext: "Serving AWKUM and Hazara University graduates from Abbottabad. Same-day processing available for students near Mandian, Cantt, and Jinnahabad areas with overnight TCS delivery."
     },
     "mardan": {
         name: "Mardan",
@@ -183,7 +188,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Mardan Chamber & Shamsi Road",
         localInfo: "Residents can now translate degree and transcript into Arabic in Mardan for Saudi university admission through our fast-track service.",
         biseName: "BISE Mardan",
-        tier: 3
+        tier: 3,
+        regionalContext: "Expert support for Abdul Wali Khan University (AWKUM) Mardan campus graduates. Certified packs dispatched to Shergarh Road, Industrial Estate, and Hoti areas with next-day courier."
     },
     "swat": {
         name: "Swat",
@@ -193,7 +199,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Mingora Bypass & Saidu Sharif",
         localInfo: "We provide specialized services to translate degree and transcript into Arabic in Swat for Saudi university admission locally.",
         biseName: "BISE Swat",
-        tier: 3
+        tier: 3,
+        regionalContext: "Specialist handling for Swat University and UoS graduates in Mingora and Saidu Sharif. Physical certified copies delivered via TCS to all Swat valley addresses within 48 hours."
     },
     "sukkur": {
         name: "Sukkur",
@@ -203,7 +210,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Military Road & Sukkur IBA area",
         localInfo: "Translate degree and transcript into Arabic in Sukkur for Saudi university admission with verified embassy formatting.",
         biseName: "BISE Sukkur",
-        tier: 3
+        tier: 3,
+        regionalContext: "Priority translation support for Sukkur IBA University and Shah Abdul Latif University graduates. Serving Interior Sindh with courier delivery to Sukkur, Rohri, and Khairpur districts."
     },
     "larkana": {
         name: "Larkana",
@@ -213,7 +221,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Larkana Chamber & Station Road",
         localInfo: "Our Larkana office helps you translate degree and transcript into Arabic for Saudi university admission with ease.",
         biseName: "BISE Larkana",
-        tier: 3
+        tier: 3,
+        regionalContext: "Serving Shaeed Benazir Bhutto University (SBBU) Larkana graduates applying to Saudi scholarship programs. Courier delivery covers Larkana, Shikarpur, and Jacobabad districts."
     },
     "sahiwal": {
         name: "Sahiwal",
@@ -223,7 +232,8 @@ export const cities: Record<string, CityData> = {
         landmark: "High Street & Sahiwal Chamber",
         localInfo: "Easily translate degree and transcript into Arabic in Sahiwal for Saudi university admission without visiting Lahore.",
         biseName: "BISE Sahiwal",
-        tier: 3
+        tier: 3,
+        regionalContext: "Dedicated support for COMSATS Sahiwal and University of Sahiwal graduates. Certified translations couriered to all Sahiwal city zones including High Street, Farid Town, and Chichawatni."
     },
     "gujrat": {
         name: "Gujrat",
@@ -233,7 +243,8 @@ export const cities: Record<string, CityData> = {
         landmark: "GT Road & University of Gujrat",
         localInfo: "Translate degree and transcript into Arabic in Gujrat for Saudi university admission with professional linguistic support.",
         biseName: "BISE Gujrat",
-        tier: 3
+        tier: 3,
+        regionalContext: "Expert processing for University of Gujrat (UOG) graduates and BISE Gujrat board candidates. Same-day digital pickup with physical certified copy delivery across GT Road and Peoples Colony."
     },
     "jhelum": {
         name: "Jhelum",
@@ -242,7 +253,9 @@ export const cities: Record<string, CityData> = {
         lng: 73.7265,
         landmark: "Civil Lines & Jhelum Cantt",
         localInfo: "Looking to translate degree and transcript into Arabic in Jhelum for Saudi university admission? We offer rapid results locally.",
-        tier: 3
+        biseName: "BISE Gujranwala",
+        tier: 3,
+        regionalContext: "Serving Jhelum students applying to Saudi Arabia with certified translation packs. Coverage includes Civil Lines, Raja Bazar, and Cantt — with next-day Leopards courier dispatch."
     },
     "mirpur": {
         name: "Mirpur (AJK)",
@@ -252,7 +265,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Chowk Shaheedan & Mirpur Chamber",
         localInfo: "We assist AJK residents to translate degree and transcript into Arabic for Saudi university admission with embassy-recognized stamps.",
         biseName: "BISE Mirpur",
-        tier: 3
+        tier: 3,
+        regionalContext: "Priority service for University of Mirpur (UoM) AJK graduates and overseas Pakistani families in the UK diaspora. Documents couriered across New Mirpur City, Allama Iqbal Town, and Chakswari."
     },
     "muzaffarabad": {
         name: "Muzaffarabad",
@@ -261,7 +275,9 @@ export const cities: Record<string, CityData> = {
         lng: 73.4714,
         landmark: "Bank Road & Secretariat",
         localInfo: "Translate degree and transcript into Arabic in Muzaffarabad for Saudi university admission with reliable certification.",
-        tier: 3
+        biseName: "BISE Mirpur",
+        tier: 3,
+        regionalContext: "Serving University of AJK and Shaheed Zulfikar Ali Bhutto University graduates in Muzaffarabad. Physical certified documents delivered via TCS to Bank Road, Chattar campus, and Gulshanabad areas."
     },
     "rahim-yar-khan": {
         name: "Rahim Yar Khan",
@@ -270,7 +286,9 @@ export const cities: Record<string, CityData> = {
         lng: 70.2989,
         landmark: "Chowk Pathan & RYK Chamber",
         localInfo: "Securely translate degree and transcript into Arabic in Rahim Yar Khan for Saudi university admission with our fast-track service.",
-        tier: 3
+        biseName: "BISE Bahawalpur",
+        tier: 3,
+        regionalContext: "Specialist translation support for Islamia University Bahawalpur RYK Campus graduates. Courier delivery covers Chowk Pathan, Khan Bela, and Model Town areas of South Punjab."
     },
     "dera-ghazi-khan": {
         name: "Dera Ghazi Khan",
@@ -280,7 +298,8 @@ export const cities: Record<string, CityData> = {
         landmark: "College Road & DGK Chamber",
         localInfo: "Translate degree and transcript into Arabic in Dera Ghazi Khan for Saudi university admission locally.",
         biseName: "BISE DG Khan",
-        tier: 3
+        tier: 3,
+        regionalContext: "Expert support for Ghazi University DG Khan graduates and BISE DG Khan board candidates applying to Saudi universities. Fast-track courier dispatch covers College Road, Haiderabad Colony, and Model Town."
     },
     "kohat": {
         name: "Kohat",
@@ -290,7 +309,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Kohat Chamber & Cantt",
         localInfo: "Residents of Kohat can now translate degree and transcript into Arabic for Saudi university admission with professional ease.",
         biseName: "BISE Kohat",
-        tier: 3
+        tier: 3,
+        regionalContext: "Dedicated processing for Kohat University of Science and Technology (KUST) graduates. Certified translation packs delivered to Cantt, Lachi Road, and Hangu Road areas with Leopards courier."
     },
     "nawabshah": {
         name: "Nawabshah",
@@ -299,7 +319,9 @@ export const cities: Record<string, CityData> = {
         lng: 68.4096,
         landmark: "Sakrand Road & SBA Chamber",
         localInfo: "Translate degree and transcript into Arabic in Nawabshah for Saudi university admission through our verified service.",
-        tier: 3
+        biseName: "BISE Hyderabad",
+        tier: 3,
+        regionalContext: "Serving Shaheed Benazir Bhutto University Nawabshah (BBUSBA) graduates. Certified Arabic document packs delivered across Nawabshah, Sakrand, and Sanghar districts via secure courier."
     },
     "mirpur-khas": {
         name: "Mirpur Khas",
@@ -309,7 +331,8 @@ export const cities: Record<string, CityData> = {
         landmark: "M.A. Jinnah Road",
         localInfo: "We provide localized support to translate degree and transcript into Arabic in Mirpur Khas for Saudi university admission.",
         biseName: "BISE Mirpur Khas",
-        tier: 3
+        tier: 3,
+        regionalContext: "Supporting Sindh Agriculture University Tando Jam students and BISE Mirpur Khas board graduates. TCS courier covers M.A. Jinnah Road, New Mirpur Khas, and Kot Ghulam Muhammad areas."
     },
     "bannu": {
         name: "Bannu",
@@ -319,7 +342,8 @@ export const cities: Record<string, CityData> = {
         landmark: "Bannu Chamber of Commerce",
         localInfo: "Translate degree and transcript into Arabic in Bannu for Saudi university admission with official accuracy.",
         biseName: "BISE Bannu",
-        tier: 3
+        tier: 3,
+        regionalContext: "Expert document support for Bannu University graduates and BISE Bannu candidates applying for Saudi scholarships. Physical certified packs dispatched to Bannu City, Domel, and Lakki Marwat via TCS."
     }
 };
 
