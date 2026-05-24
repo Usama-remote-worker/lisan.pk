@@ -1,26 +1,12 @@
 import { Metadata } from "next"
 import Link from "next/link"
-import { 
-    CheckCircle2, 
-    GraduationCap, 
-    ArrowRight, 
-    ShieldCheck, 
-    MapPin, 
-    Phone, 
-    Building2, 
-    Star, 
-    FileText, 
-    Users, 
-    Zap, 
-    Award,
-    Globe,
-    MessageSquare
-} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { LeadForm } from "@/components/turkey/LeadForm"
 import { ExitPopup } from "@/components/turkey/ExitPopup"
 import { StickyMobileCTA } from "@/components/turkey/StickyMobileCTA"
 import { ServicePackages } from "@/components/home/ServicePackages"
+import { UniversitySection } from "@/components/turkey/UniversitySection"
+import { TurkeyFaq } from "@/components/turkey/TurkeyFaq"
 
 export const metadata: Metadata = {
     title: "Study in Turkey from Pakistan 2026 | Direct Admission Consultants | Lisan.pk",
@@ -106,51 +92,52 @@ export default function StudyInTurkeyHub() {
             <ExitPopup />
             <StickyMobileCTA />
 
-            {/* 1. HERO SECTION & INTEGRATED FORM */}
+            {/* 1. HERO SECTION */}
             <section className="relative bg-slate-950 text-white py-24 md:py-32 overflow-hidden">
-                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-red-950/40 via-slate-950 to-slate-950 z-0"></div>
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-950/40 via-slate-950 to-slate-950 z-0"></div>
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-[0.03] z-0"></div>
                 
                 <div className="container mx-auto px-4 max-w-7xl relative z-10">
                     <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-                        {/* Text Col */}
+                        
+                        {/* Hero Copy */}
                         <div className="lg:col-span-7 space-y-8 text-center lg:text-left">
-                            <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-500/10 text-red-400 rounded-full text-xs font-black uppercase tracking-[0.2em] border border-red-500/20 mx-auto lg:mx-0 shadow-inner">
-                                <GraduationCap className="w-4 h-4 text-red-500" /> Direct University Affiliation Desk
+                            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-emerald-500/10 text-emerald-700 rounded-full text-xs font-black uppercase tracking-[0.2em] mx-auto lg:mx-0 shadow-inner">
+                                Direct Admissions Partner
                             </div>
                             
                             <h1 className="text-4xl sm:text-5xl md:text-6xl font-black font-serif leading-[1.1] text-slate-100">
-                                Study in Turkey with <br />
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-rose-400 font-extrabold">Direct Affiliations</span>
+                                Study abroad from Pakistan to <br />
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-400 font-extrabold">Turkey Universities</span>
                             </h1>
                             
-                            <p className="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                                Guaranteed admission support for eligible Pakistani students with minimal documentation, flat scholarship waivers, and on-ground support via our physical Yozgat Technopark office.
+                            <p className="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-sans">
+                                Unlock guaranteed Turkey admission paths at top foundation and private campuses. Get certified scholarship packages directly with zero hidden agent fees.
                             </p>
 
-                            <div className="grid sm:grid-cols-3 gap-6 pt-4 max-w-xl mx-auto lg:mx-0">
+                            <div className="grid sm:grid-cols-3 gap-4 pt-4 max-w-xl mx-auto lg:mx-0">
                                 {[
-                                    { title: "Physical Turkey HQ", desc: "Registered Technopark office" },
-                                    { title: "Flat 50% Waivers", desc: "No complex merit exams" },
-                                    { title: "No IELTS Needed", desc: "High school certificates accepted" }
+                                    { title: "Physical Turkey HQ", desc: "Technopark registered desk" },
+                                    { title: "Up to 75% Scholarships", desc: "Automatic fee reductions" },
+                                    { title: "No IELTS Mandatory", desc: "English Medium accepted" }
                                 ].map((item, idx) => (
                                     <div key={idx} className="p-4 bg-white/5 border border-white/10 rounded-2xl text-center shadow-md">
-                                        <h4 className="font-extrabold text-red-400 text-sm">{item.title}</h4>
+                                        <h4 className="font-extrabold text-emerald-400 text-sm">{item.title}</h4>
                                         <p className="text-[10px] text-slate-400 mt-1">{item.desc}</p>
                                     </div>
                                 ))}
                             </div>
 
-                            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs font-bold text-slate-400 pt-2">
-                                <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-red-500" /> 100% Secure System</span>
+                            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs font-bold text-slate-400 pt-2 font-sans">
+                                <span className="flex items-center gap-1.5"><span className="text-emerald-500 font-extrabold">✓</span> 100% Direct Verification</span>
                                 <span className="hidden sm:inline">•</span>
-                                <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-emerald-500" /> Airport Reception Guides</span>
+                                <span className="flex items-center gap-1.5"><span className="text-emerald-500 font-extrabold">✓</span> Airport Pickup Teams</span>
                                 <span className="hidden sm:inline">•</span>
-                                <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-yellow-500" /> Ministry Recognized</span>
+                                <span className="flex items-center gap-1.5"><span className="text-emerald-500 font-extrabold">✓</span> Ministry Recognized</span>
                             </div>
                         </div>
 
-                        {/* Form Col */}
+                        {/* Interactive Lead Capture Form */}
                         <div id="turkey-lead-form" className="lg:col-span-5 w-full max-w-md mx-auto relative z-20">
                             <LeadForm />
                         </div>
@@ -158,15 +145,15 @@ export default function StudyInTurkeyHub() {
                 </div>
             </section>
 
-            {/* 2. TRUST / STATS SECTION */}
-            <section className="py-12 bg-slate-50 border-b border-slate-200">
+            {/* 2. TRUST / STATS INDICATORS */}
+            <section className="py-12 bg-slate-50 border-b border-slate-200/60">
                 <div className="container mx-auto px-4 max-w-6xl">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center font-sans">
                         {[
-                            { val: "100%", label: "Direct Campus Routes" },
-                            { val: "Yozgat Tech", label: "Registered Turkey HQ" },
-                            { val: "03-05 Days", label: "Admission CAL Speed" },
-                            { val: "Bologna", label: "Degrees EU Equivalency" }
+                            { val: "50+", label: "Turkey Universities" },
+                            { val: "Bozok Tech", label: "Registered Turkey HQ" },
+                            { val: "3-5 Days", label: "Acceptance Letter Speed" },
+                            { val: "Bologna", label: "EU Degree Equivalency" }
                         ].map((stat, i) => (
                             <div key={i} className="space-y-1">
                                 <p className="text-3xl md:text-4xl font-black text-slate-900 font-serif">{stat.val}</p>
@@ -177,139 +164,132 @@ export default function StudyInTurkeyHub() {
                 </div>
             </section>
 
-            {/* 3. CORE VALUE PROPOSITION COMPARISON */}
-            <section className="py-24 container mx-auto px-4 max-w-6xl">
+            {/* 3. WHY STUDY IN TURKEY */}
+            <section className="py-24 container mx-auto px-4 max-w-6xl font-sans">
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-500/5 text-emerald-700 rounded-full text-xs font-semibold tracking-wider uppercase border border-emerald-500/10">
+                        High EEAT Standards
+                    </div>
                     <h2 className="text-3xl md:text-5xl font-black text-slate-900 font-serif leading-tight">
-                        Our Absolute Advantage vs. Virtual Agents
+                        Why Choose Study in Turkey?
                     </h2>
                     <p className="text-slate-500 leading-relaxed text-sm md:text-base">
-                        Don't risk your future with external commission-based agents who disappear once you land in Istanbul. Lisan.pk operates with full local registry.
+                        Turkey has quickly risen as a premier global hub for international scholars, offering premium European-standard training models without complex entrance tests.
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8">
-                    {/* The Lisan Way */}
-                    <div className="bg-emerald-950 text-white rounded-[2.5rem] p-10 border border-emerald-900 shadow-xl relative overflow-hidden group hover:scale-[1.01] transition-all">
-                        <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl"></div>
-                        <h3 className="text-2xl font-black mb-6 font-serif flex items-center gap-2 text-emerald-400">
-                            <Award className="w-7 h-7" /> Direct Affiliated Path (Lisan.pk)
-                        </h3>
-                        <ul className="space-y-4">
-                            {[
-                                "Physical registered office in Turkey (Yozgat Technopark)",
-                                "Direct dashboard access to University Admissions Offices",
-                                "Guaranteed flat-rate scholarships pre-verified on invoices",
-                                "On-ground Airport reception & residence permit assistance",
-                                "Full embassy attestation documentation packages handled in Pakistan"
-                            ].map((item, idx) => (
-                                <li key={idx} className="flex items-start gap-3 text-sm font-medium text-emerald-100">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {[
+                        {
+                            title: "Internationally Recognized",
+                            desc: "Diplomas hold direct Bologna Process integration, making credit transfers to Europe, US, or Gulf countries seamless.",
+                            tag: "Global Degree"
+                        },
+                        {
+                            title: "No IELTS Compulsory",
+                            desc: "Bypass costly exam routines. Many private campuses accept high school English proficiency certificates.",
+                            tag: "Zero Exam stress"
+                        },
+                        {
+                            title: "Affordable Tuitions",
+                            desc: "Enjoy top-tier private university standards starting from only $1,800 per year, far more budget-friendly than Europe.",
+                            tag: "Saves up to 60%"
+                        },
+                        {
+                            title: "On-Ground Trust Desk",
+                            desc: "Our registered operational office is located inside Yozgat Technopark, Turkey, ensuring 100% safe verified enrollments.",
+                            tag: "Physical Security"
+                        }
+                    ].map((item, idx) => (
+                        <div key={idx} className="p-6 bg-white border border-slate-200 rounded-3xl space-y-4 flex flex-col justify-between hover:shadow-lg transition-all group">
+                            <div className="space-y-3">
+                                <span className="text-[10px] text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-full font-bold uppercase tracking-wider">
+                                    {item.tag}
+                                </span>
+                                <h4 className="text-lg font-black text-slate-950 group-hover:text-emerald-700 transition-colors">
+                                    {item.title}
+                                </h4>
+                                <p className="text-xs text-slate-500 leading-relaxed">
+                                    {item.desc}
+                                </p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
 
-                    {/* Standard Agents */}
-                    <div className="bg-slate-50 text-slate-900 rounded-[2.5rem] p-10 border border-slate-200/60 shadow-sm hover:scale-[1.01] transition-all">
-                        <h3 className="text-2xl font-black mb-6 font-serif flex items-center gap-2 text-slate-700">
-                            <Building2 className="w-7 h-7" /> Commission-Based Agents
-                        </h3>
-                        <ul className="space-y-4">
-                            {[
-                                "No physical presence in Turkey (operate purely online)",
-                                "Rely on third-party channels causing long delay times",
-                                "Inflated tuition claims with hidden consultancy fee add-ons",
-                                "Provide zero on-ground guidance or student permit setups",
-                                "Cannot provide local certified translation packages"
-                            ].map((item, idx) => (
-                                <li key={idx} className="flex items-start gap-3 text-sm font-medium text-slate-600">
-                                    <span className="text-red-500 font-bold shrink-0 text-lg mt-0.5">✕</span>
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                <div className="mt-12 text-center">
+                    <a href="#turkey-lead-form">
+                        <Button className="h-12 bg-slate-900 hover:bg-emerald-700 text-white font-extrabold rounded-xl transition-all shadow-md">
+                            Check My Eligibility Now
+                        </Button>
+                    </a>
                 </div>
             </section>
 
-            {/* 4. UNIVERSITIES SECTION */}
-            <section className="py-24 bg-slate-50 border-y border-slate-200">
-                <div className="container mx-auto px-4 max-w-7xl">
+            {/* 4. DYNAMIC UNIVERSITY MATRIX SHOWCASE */}
+            <UniversitySection />
+
+            {/* 5. HOT PROGRAMS SECTION */}
+            <section id="tuition" className="py-24 bg-white border-b border-slate-200/60 font-sans">
+                <div className="container mx-auto px-4 max-w-6xl">
                     <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                        <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-500/5 text-emerald-700 rounded-full text-xs font-semibold tracking-wider uppercase border border-emerald-500/10">
+                            Dynamic Specializations
+                        </div>
                         <h2 className="text-3xl md:text-5xl font-black text-slate-900 font-serif leading-tight">
-                            Select Your Preferred Turkish University
+                            Popular English-Taught Programs
                         </h2>
-                        <p className="text-slate-500 leading-relaxed text-sm">
-                            Click on any university to view popular programs, complete fees structures, direct scholarships, and checklist requirements.
+                        <p className="text-slate-500 leading-relaxed text-sm md:text-base">
+                            Select specialized disciplines taught entirely in English, featuring modern, hands-on lab environments and globally accepted degree models.
                         </p>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
                         {[
                             {
-                                slug: "beykoz-university",
-                                name: "Beykoz University",
-                                loc: "Istanbul",
-                                fee: "$2,000 - $3,500/year",
-                                disc: "Guaranteed 50% Waiver",
-                                tag: "Best for tech & logistics career models",
-                                programs: ["Computer Engineering", "Software Engineering", "Business Admin"]
+                                title: "Health Sciences & Dentistry",
+                                desc: "Highly premium medical & dental degrees featuring Taksim/Istanbul simulator labs with direct European clinical equivalency.",
+                                list: ["Doctor of Dentistry (DDS)", "Nursing & Midwifery", "Pharmacy (Pharm.D)"],
+                                cost: "Cost: $4,000 - $12,000 / year"
                             },
                             {
-                                slug: "kent-university",
-                                name: "Istanbul Kent University",
-                                loc: "Istanbul (Taksim)",
-                                fee: "$2,500 - $4,500/year",
-                                disc: "Up to 50% Partner Discount",
-                                tag: "Specialized dentistry simulators & health science campus",
-                                programs: ["Doctor of Dentistry", "Software Engineering", "Nursing (English)"]
+                                title: "Engineering & Technology",
+                                desc: "Practical computer labs operating under global tech incubators, ideal for software developers and research engineers.",
+                                list: ["Computer Engineering", "Software Engineering", "Artificial Intelligence"],
+                                cost: "Cost: $2,000 - $3,500 / year"
                             },
                             {
-                                slug: "topkapi-university",
-                                name: "Istanbul Topkapi University",
-                                loc: "Istanbul",
-                                fee: "$1,800 - $3,200/year",
-                                disc: "Flat budget packages",
-                                tag: "Exceptionally affordable, practical arts & gastronomy training",
-                                programs: ["Gastronomy & Culinary Arts", "Architecture", "Software Engineering"]
+                                title: "Business & Gastronomy",
+                                desc: "Focuses on active career tracks, featuring state-of-the-art culinary art academies and corporate management systems.",
+                                list: ["Gastronomy & Culinary Arts", "Business Administration", "International Trade"],
+                                cost: "Cost: $1,800 - $3,000 / year"
                             }
-                        ].map((uni, idx) => (
-                            <div key={idx} className="bg-white border border-slate-200 rounded-[2.5rem] overflow-hidden shadow-sm hover:shadow-xl transition-all flex flex-col group">
-                                <div className="p-8 space-y-6 flex-1">
-                                    <div className="inline-block px-3 py-1 bg-red-50 text-red-600 rounded-full text-[10px] font-black uppercase tracking-wider">
-                                        📍 {uni.loc}
-                                    </div>
-                                    <h3 className="text-2xl font-black text-slate-900 font-serif leading-tight">{uni.name}</h3>
-                                    <p className="text-xs text-slate-500 italic leading-relaxed">{uni.tag}</p>
+                        ].map((pkg, idx) => (
+                            <div key={idx} className="bg-slate-50 border border-slate-200/60 rounded-[2.2rem] p-8 flex flex-col justify-between shadow-sm hover:scale-[1.01] transition-transform">
+                                <div className="space-y-6">
+                                    <h4 className="text-xl font-black text-slate-900 font-serif leading-snug">
+                                        {pkg.title}
+                                    </h4>
+                                    <p className="text-xs text-slate-500 leading-relaxed">
+                                        {pkg.desc}
+                                    </p>
                                     
-                                    <div className="border-y border-slate-100 py-4 space-y-3">
-                                        <div className="flex justify-between text-xs font-bold text-slate-700">
-                                            <span>Tuition Fee Range:</span>
-                                            <span className="text-red-600 font-black">{uni.fee}</span>
-                                        </div>
-                                        <div className="flex justify-between text-xs font-bold text-slate-700">
-                                            <span>Lisan Scholarship:</span>
-                                            <span className="text-emerald-600 font-black">{uni.disc}</span>
-                                        </div>
-                                    </div>
-
-                                    <div className="space-y-2">
-                                        <p className="text-xs font-bold text-slate-800">Popular Programs:</p>
+                                    <div className="border-t border-slate-200/60 pt-4 space-y-2">
+                                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Top Major Options:</p>
                                         <div className="flex flex-wrap gap-1.5">
-                                            {uni.programs.map((p, i) => (
-                                                <span key={i} className="px-2.5 py-1 bg-slate-50 border border-slate-100 rounded-lg text-[10px] text-slate-600 font-medium">{p}</span>
+                                            {pkg.list.map((item, i) => (
+                                                <span key={i} className="px-3 py-1 bg-white border border-slate-200/80 rounded-lg text-[10px] font-bold text-slate-700">{item}</span>
                                             ))}
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <div className="p-8 pt-0">
-                                    <Link href={`/study-in-turkey/${uni.slug}`} className="block">
-                                        <Button className="w-full h-12 bg-slate-900 hover:bg-red-600 text-white font-extrabold rounded-xl transition-all flex items-center justify-center gap-2">
-                                            Explore Programs & Apply <ArrowRight className="w-4 h-4" />
-                                        </Button>
+
+                                <div className="border-t border-slate-200/60 pt-4 mt-8 flex justify-between items-center">
+                                    <span className="text-xs font-black text-emerald-700">{pkg.cost}</span>
+                                    <Link href="#turkey-lead-form">
+                                        <button className="text-xs font-extrabold text-slate-700 hover:text-emerald-700 flex items-center gap-1 transition-colors">
+                                            Apply Now
+                                        </button>
                                     </Link>
                                 </div>
                             </div>
@@ -318,66 +298,194 @@ export default function StudyInTurkeyHub() {
                 </div>
             </section>
 
-            {/* 5. ELIGIBILITY & DOCUMENT PACKAGE */}
-            <section className="py-24 container mx-auto px-4 max-w-6xl">
-                <div className="grid lg:grid-cols-2 gap-16 items-start">
-                    {/* Minimum Eligibility */}
-                    <div className="bg-red-50/50 border border-red-100 rounded-[2.5rem] p-10 space-y-8 font-sans">
-                        <div className="w-12 h-12 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center shadow-inner scale-105">
-                            <Zap className="w-6 h-6" />
+            {/* 6. STEP-BY-STEP ADMISSION PROCESS */}
+            <section id="process" className="py-24 bg-white font-sans border-b border-slate-200/60">
+                <div className="container mx-auto px-4 max-w-6xl space-y-16">
+                    
+                    {/* Section Header */}
+                    <div className="text-center max-w-3xl mx-auto space-y-4">
+                        <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-500/5 text-emerald-700 rounded-full text-xs font-semibold tracking-wider uppercase border border-emerald-500/10">
+                            Step-by-Step Pathway
                         </div>
-                        <div>
-                            <h3 className="text-3xl font-black text-slate-900 font-serif mb-2">Minimum Eligibility Criteria</h3>
-                            <p className="text-slate-600 text-sm">We provide an extremely high-acceptance environment. You don't need highly complex portfolios to secure admissions.</p>
-                        </div>
-                        <ul className="space-y-4">
-                            {[
-                                "Minimum 50% marks in Intermediate (Pre-Med, Pre-Eng, ICS, I.Com, Arts) or equivalent O/A levels.",
-                                "A valid International Passport copy with at least 6 months validity.",
-                                "Clear copies of Matric & Intermediate certificates and transcripts.",
-                                "Active student email address and mother's maiden name.",
-                                "No IELTS or entry test scores needed—English Proficiency certificates accepted."
-                            ].map((item, idx) => (
-                                <li key={idx} className="flex items-start gap-3 text-sm text-slate-700 leading-relaxed font-semibold">
-                                    <CheckCircle2 className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
+                        <h2 className="text-3xl md:text-5xl font-black text-slate-900 font-serif leading-tight">
+                            Simple Step-by-Step Enrollment Flow
+                        </h2>
+                        <p className="text-slate-500 leading-relaxed text-sm md:text-base">
+                            Experience a completely optimized, guided registration. No confusing virtual channels or missing records.
+                        </p>
                     </div>
 
-                    {/* Required Documents */}
-                    <div className="bg-emerald-50/50 border border-emerald-100 rounded-[2.5rem] p-10 space-y-8 font-sans">
-                        <div className="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center shadow-inner scale-105">
-                            <FileText className="w-6 h-6" />
+                    <div className="grid lg:grid-cols-12 gap-12 items-start">
+                        
+                        {/* Left Side: Step-by-Step Flow (7 cols) */}
+                        <div className="lg:col-span-7 space-y-8">
+                            <h3 className="text-2xl font-black text-slate-900 font-serif flex items-center gap-2">
+                                Admission Journey Map
+                            </h3>
+                            
+                            <div className="relative border-l border-slate-100 pl-6 ml-3 space-y-8">
+                                {[
+                                    {
+                                        step: "01",
+                                        title: "Submit Initial Documents",
+                                        desc: "Share your high school diploma / Intermediate marksheets and basic info. No application fee is required to initiate the process."
+                                    },
+                                    {
+                                        step: "02",
+                                        title: "Direct Campus Verification",
+                                        desc: "Our on-ground Technopark team submits credentials directly to your selected Turkish university's international relations portal."
+                                    },
+                                    {
+                                        step: "03",
+                                        title: "Conditional Acceptance (CAL)",
+                                        desc: "Secure your official conditional admission letter and certified scholarship rate directly on the invoice within 3 to 5 business days."
+                                    },
+                                    {
+                                        step: "04",
+                                        title: "Embassy Visa & Settle-In",
+                                        desc: "Lisan.pk provides complete verified translation files for embassy submission, coordinates airport reception, dorm bookings, and residency setup."
+                                    }
+                                ].map((step, idx) => (
+                                    <div key={idx} className="relative group">
+                                        <span className="absolute -left-[35px] top-0 flex items-center justify-center w-6 h-6 rounded-full bg-slate-900 text-[10px] font-black text-white border-4 border-white shadow-sm group-hover:bg-emerald-700 transition-colors">
+                                            {step.step}
+                                        </span>
+                                        
+                                        <div className="space-y-1">
+                                            <h4 className="font-extrabold text-slate-900 text-base group-hover:text-emerald-700 transition-colors">
+                                                {step.title}
+                                            </h4>
+                                            <p className="text-slate-500 text-xs leading-relaxed max-w-xl">
+                                                {step.desc}
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+
+                            <div className="pt-4">
+                                <a href="#turkey-lead-form">
+                                    <Button className="h-12 bg-slate-900 hover:bg-emerald-700 text-white font-extrabold rounded-xl transition-all flex items-center justify-center gap-2">
+                                        Initiate Free Application
+                                    </Button>
+                                </a>
+                            </div>
                         </div>
-                        <div>
-                            <h3 className="text-3xl font-black text-slate-900 font-serif mb-2">Required Paperwork</h3>
-                            <p className="text-slate-600 text-sm">Ensure your scans are high-resolution PDFs. Blurry phone photographs can cause instant portal registration flags.</p>
+
+                        {/* Right Side: Required Documents Checklist (5 cols) */}
+                        <div id="documentation" className="lg:col-span-5 space-y-8">
+                            
+                            <div className="bg-slate-900 text-white rounded-[2rem] p-8 border border-slate-800 shadow-xl relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl"></div>
+                                
+                                <h3 className="text-xl font-black mb-1 font-serif text-white flex items-center gap-2">
+                                    Initially Required Documents
+                                </h3>
+                                <p className="text-[10px] text-slate-400 mb-6 uppercase tracking-wider font-extrabold">No initial embassy attestations needed</p>
+                                
+                                <ul className="space-y-3.5">
+                                    {[
+                                        "Valid Passport Copy (Clear scan of photo & data page)",
+                                        "Matriculation (Secondary) Result / Certificate",
+                                        "Intermediate (Higher Secondary) Result / Certificate",
+                                        "Passport Size Photograph (Plain white background)",
+                                        "Mother's Maiden Name (Required for portal registration)"
+                                    ].map((item, idx) => (
+                                        <li key={idx} className="flex items-start gap-2.5 text-xs text-slate-200 leading-relaxed font-semibold">
+                                            <span className="text-emerald-400 shrink-0 mt-0.5">✓</span>
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <div className="bg-slate-50 border border-slate-200/60 rounded-[2rem] p-8 space-y-6">
+                                <h4 className="text-xs font-black uppercase tracking-wider text-slate-400">Exclusive 2026 Intake Highlights</h4>
+                                
+                                <div className="space-y-4">
+                                    {[
+                                        { title: "World-Class Campuses", text: "Degrees completely recognized across EU, US, and Middle East under Bologna equivalency." },
+                                        { title: "No IELTS Mandatory", text: "Avoid exam stress and charges; official English medium certification is fully accepted." },
+                                        { title: "No Entrance Exams", text: "Secure admission into elite engineering, medical, or business tracks solely with high school records." },
+                                        { title: "100% Free Processing", text: "Zero tuition markups, zero agency charges, and zero processing fees from start to finish." }
+                                    ].map((item, idx) => (
+                                        <div key={idx} className="flex items-start gap-3">
+                                            <div className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-700 font-extrabold text-[10px] shrink-0 mt-0.5">
+                                                ✓
+                                            </div>
+                                            <div>
+                                                <h5 className="font-extrabold text-slate-900 text-xs">{item.title}</h5>
+                                                <p className="text-slate-500 text-[10px] leading-relaxed mt-0.5">{item.text}</p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
                         </div>
-                        <ul className="space-y-4">
-                            {[
-                                "Valid Passport Page Scan (Full identity blocks clear)",
-                                "Matriculation (Secondary School) Certificate & Result Card",
-                                "Intermediate (Higher Secondary) Certificate & Result Card",
-                                "Passport Size Photo with clean white background",
-                                "English Medium Proficiency Certificate (secured from high school)",
-                                "NADRA Birth Certificate (with authorized certified English/Turkish translation if requested)"
-                            ].map((item, idx) => (
-                                <li key={idx} className="flex items-start gap-3 text-sm text-slate-700 leading-relaxed font-semibold">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
+
                     </div>
                 </div>
             </section>
 
-            {/* 6. TURKEY HEADQUARTERS & CONTACT EMBED */}
+            {/* 7. SCHOLARSHIPS & COSTS SECTION */}
+            <section id="scholarships" className="py-24 bg-slate-950 text-white relative overflow-hidden font-sans border-b border-slate-900">
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-950/20 via-slate-950 to-slate-950 z-0"></div>
+                <div className="container mx-auto px-4 max-w-6xl relative z-10">
+                    <div className="grid lg:grid-cols-2 gap-16 items-center">
+                        <div className="space-y-8">
+                            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-500/10 text-emerald-400 rounded-full text-xs font-semibold tracking-wider uppercase border border-emerald-500/20">
+                                Flat Scholarship waivers
+                            </div>
+                            <h2 className="text-3xl md:text-5xl font-black font-serif leading-tight">
+                                Premium Turkish Scholarships Up to 75% On-The-Spot
+                            </h2>
+                            <p className="text-slate-300 leading-relaxed text-sm md:text-base">
+                                No complex merit exams or highly competitive score structures required. Direct affiliated private campuses integrate flat scholarship waivers directly onto your tuition invoice sheets, secured completely via Lisan.pk.
+                            </p>
+                            <div className="space-y-4">
+                                {[
+                                    "Flat 50% discount automatically applied upon credential verification.",
+                                    "Specialized medicine, dental, and health sciences partner rates.",
+                                    "No tuition fees markups or premium add-ons—transparent direct invoicing.",
+                                    "100% FREE application processing with zero hidden consultancy costs."
+                                ].map((item, idx) => (
+                                    <div key={idx} className="flex items-start gap-3 text-sm">
+                                        <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5">✓</span>
+                                        <span className="text-slate-200">{item}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="bg-slate-900 border border-slate-800 rounded-[2.5rem] p-10 space-y-6">
+                            <h4 className="text-xs font-black uppercase tracking-wider text-slate-400">Guaranteed placement window</h4>
+                            <h3 className="text-2xl font-black font-serif">Secure Acceptance and Scholarship Guidance Today</h3>
+                            <p className="text-xs text-slate-400 leading-relaxed">
+                                Seat quotas for active English-medium tracks fill exceptionally fast. Start your direct evaluation now with our Technopark verified desk.
+                            </p>
+                            <div className="pt-4 space-y-3">
+                                <a href="#turkey-lead-form" className="block">
+                                    <Button className="w-full h-12 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold rounded-xl transition-all">
+                                        Get Scholarship Guidance
+                                    </Button>
+                                </a>
+                                <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20get%20Turkish%20Scholarship%20guidance." target="_blank" className="block">
+                                    <Button variant="ghost" className="w-full h-12 bg-white/5 hover:bg-white/10 text-white border border-white/10 font-bold rounded-xl">
+                                        Consult on WhatsApp
+                                    </Button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* 8. STUDENT BENEFITS & PHYSICAL HQ */}
             <section className="py-24 bg-slate-900 text-white border-y border-slate-800">
                 <div className="container mx-auto px-4 max-w-7xl">
                     <div className="grid lg:grid-cols-12 gap-16 items-center">
+                        
                         {/* Maps Column */}
                         <div className="lg:col-span-6 rounded-[2.5rem] overflow-hidden border-2 border-slate-700 shadow-2xl h-[450px] relative">
                             <iframe 
@@ -396,7 +504,7 @@ export default function StudyInTurkeyHub() {
                         {/* Location Details Column */}
                         <div className="lg:col-span-6 space-y-8 font-sans">
                             <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full text-xs font-black uppercase tracking-wider border border-emerald-500/20">
-                                <Globe className="w-4 h-4" /> Physical Turkey Operations Desk
+                                Physical Turkey Operations Desk
                             </div>
                             
                             <h2 className="text-3xl md:text-5xl font-black text-slate-100 font-serif leading-tight">
@@ -408,7 +516,6 @@ export default function StudyInTurkeyHub() {
 
                             <div className="space-y-4">
                                 <div className="flex items-start gap-4 p-5 bg-white/5 border border-white/10 rounded-2xl">
-                                    <MapPin className="w-6 h-6 text-red-500 shrink-0 mt-0.5" />
                                     <div>
                                         <h4 className="font-extrabold text-slate-200 text-sm">Turkey Office Address:</h4>
                                         <p className="text-xs text-slate-400 mt-1">Yozgat Bozok University, Bozok Technopark, Yozgat / Turkey</p>
@@ -417,15 +524,13 @@ export default function StudyInTurkeyHub() {
 
                                 <div className="grid sm:grid-cols-2 gap-4">
                                     <a href="tel:+905525677164" className="flex items-start gap-4 p-5 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-all">
-                                        <Phone className="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
                                         <div>
                                             <h4 className="font-extrabold text-slate-200 text-xs">Turkey Contact Line:</h4>
-                                            <p className="text-sm text-red-400 font-black mt-1">+90 552 567 7164</p>
+                                            <p className="text-sm text-emerald-400 font-black mt-1">+90 552 567 7164</p>
                                         </div>
                                     </a>
 
                                     <a href="tel:03044296295" className="flex items-start gap-4 p-5 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-all">
-                                        <Phone className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                                         <div>
                                             <h4 className="font-extrabold text-slate-200 text-xs">Pakistan Coordination:</h4>
                                             <p className="text-sm text-emerald-400 font-black mt-1">0304 4296295</p>
@@ -434,11 +539,12 @@ export default function StudyInTurkeyHub() {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
 
-            {/* 7. STUDENT TESTIMONIALS */}
+            {/* 9. TESTIMONIALS */}
             <section className="py-24 container mx-auto px-4 max-w-6xl font-sans">
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <h2 className="text-3xl md:text-5xl font-black text-slate-900 font-serif leading-tight">
@@ -471,12 +577,12 @@ export default function StudyInTurkeyHub() {
                         }
                     ].map((t, idx) => (
                         <div key={idx} className="p-8 bg-slate-50 border border-slate-200/60 rounded-[2.5rem] space-y-6 relative shadow-sm">
-                            <div className="flex gap-1 text-yellow-500">
-                                {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-yellow-500" />)}
+                            <div className="text-yellow-500 tracking-wide text-xs select-none">
+                                ★★★★★
                             </div>
                             <p className="text-slate-600 leading-relaxed text-xs italic">"{t.text}"</p>
                             <div className="border-t border-slate-200/60 pt-4 flex items-center gap-3">
-                                <div className="w-10 h-10 bg-red-100 text-red-700 rounded-full flex items-center justify-center font-black text-sm shrink-0">
+                                <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-black text-sm shrink-0">
                                     {t.name[0]}
                                 </div>
                                 <div>
@@ -489,40 +595,18 @@ export default function StudyInTurkeyHub() {
                 </div>
             </section>
 
-            {/* 8. FAQ SECTION */}
-            <section className="py-24 bg-slate-50 border-t border-slate-200">
-                <div className="container mx-auto px-4 max-w-4xl font-sans">
-                    <h2 className="text-3xl md:text-5xl font-black text-center mb-16 font-serif leading-tight text-slate-900">
-                        Frequently Asked Questions
-                    </h2>
-                    <div className="space-y-8">
-                        {[
-                            { q: "Can Pakistani students study in Turkey?", a: "Yes, absolutely! Turkish private and public universities are highly welcoming of Pakistani academic profiles. Private universities offer extremely competitive English-taught tracks in health sciences, software engineering, and business." },
-                            { q: "What is the minimum percentage required for admission?", a: "To secure a guaranteed direct admission track through Lisan.pk, you must maintain at least 50% marks in your Intermediate (HSSC) or equivalent high school transcript sheets." },
-                            { q: "Is IELTS mandatory to study in Turkey?", a: "No. For private affiliated universities like Beykoz, Kent, or Topkapi, an IELTS certificate is not mandatory. We secure an official English Medium Proficiency Certificate issued from your intermediate school or college, which is fully accepted by admission committees." },
-                            { q: "How much does it cost to study in Turkey?", a: "For our direct affiliated partner universities, annual English Bachelor's tuition ranges from $1,800 to $4,500. Highly specialized health tracks like the English Doctor of Dentistry cost around $12,000 per year. Living expenses in Turkey are exceptionally reasonable, usually ranging from $250 to $350 per month." },
-                            { q: "Can international students work in Turkey?", a: "Yes. International undergraduate students are legally permitted to work part-time (up to 24 hours per week) after completing their first academic year. Digital, freelance, and language-specific roles in Istanbul represent highly lucrative opportunities for foreign students." },
-                            { q: "How long does the admission CAL processing take?", a: "Because we submit documents directly into university partner databases, conditional acceptance letters (CAL) are issued within 3 to 5 business working days. General visa processing via Embassy offices in Islamabad, Karachi, or Lahore takes 3 to 6 weeks." }
-                        ].map((faq, idx) => (
-                            <div key={idx} className="bg-white p-8 rounded-3xl border border-slate-200/60 shadow-sm space-y-3 hover:scale-[1.005] transition-transform">
-                                <h4 className="text-lg font-black text-slate-900 flex items-start gap-2">
-                                    <span className="text-red-500 font-extrabold shrink-0">Q:</span>
-                                    {faq.q}
-                                </h4>
-                                <p className="text-slate-600 leading-relaxed text-sm pl-6">{faq.a}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+            {/* 10. COLLAPSIBLE ACCORDION FAQ */}
+            <div id="visa">
+                <TurkeyFaq />
+            </div>
 
-            {/* 9. BOTTOM CONVERSION ACTION BLOCK */}
-            <section className="py-24 bg-gradient-to-br from-slate-950 via-slate-900 to-red-950 text-center text-white relative overflow-hidden">
+            {/* 11. FINAL HIGH-CONVERTING CALL TO ACTION BLOCK */}
+            <section className="py-24 bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950 text-center text-white relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-[0.03]"></div>
                 
                 <div className="container mx-auto px-4 max-w-4xl relative z-10 space-y-8">
-                    <div className="w-16 h-16 bg-red-500/10 text-red-500 rounded-full flex items-center justify-center mx-auto border border-red-500/20 scale-110">
-                        <Zap className="w-8 h-8 text-red-500" />
+                    <div className="w-16 h-16 bg-emerald-500/10 text-emerald-500 rounded-full flex items-center justify-center mx-auto border border-emerald-500/20 scale-110 font-bold text-xl select-none">
+                        ★
                     </div>
                     
                     <h2 className="text-4xl sm:text-5xl font-black font-serif leading-tight text-slate-100">
@@ -530,13 +614,13 @@ export default function StudyInTurkeyHub() {
                     </h2>
                     
                     <p className="text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto font-sans">
-                        Don't let deadlines catch you off-guard. Get direct access to the Turkish university student admission matrix immediately.
+                        Quotas for direct entry foundation and private universities are filling rapidly. Initiate your evaluation free with Lisan.pk today.
                     </p>
 
                     <div className="pt-4 flex flex-col sm:flex-row justify-center gap-4 max-w-lg mx-auto font-sans">
                         <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20direct%20admissions%20at%20Turkey%20Universities." target="_blank" className="block w-full sm:w-auto">
                             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold h-16 px-10 rounded-2xl w-full text-lg shadow-xl transition-all flex items-center justify-center gap-2">
-                                Chat on WhatsApp <MessageSquare className="w-5 h-5" />
+                                Chat on WhatsApp
                             </Button>
                         </Link>
                         
@@ -544,17 +628,16 @@ export default function StudyInTurkeyHub() {
                             href="#turkey-lead-form"
                             className="bg-white hover:bg-slate-50 text-slate-900 font-extrabold h-16 px-10 rounded-2xl w-full sm:w-auto text-lg shadow-md transition-all flex items-center justify-center gap-2 border border-slate-200"
                         >
-                            Start Online Form <ArrowRight className="w-5 h-5 text-slate-700" />
+                            Start Online Form
                         </a>
                     </div>
 
-                    <p className="text-red-400 font-bold italic animate-pulse text-sm pt-2">
-                        📞 On-Ground Support Desk Helpline: 0304 4296295
+                    <p className="text-emerald-400 font-bold italic text-sm pt-2">
+                        On-Ground Support Desk Helpline: 0304 4296295
                     </p>
                 </div>
             </section>
 
-            {/* 10. PACKAGES SECTION */}
             <div className="border-t border-slate-200">
                 <ServicePackages />
             </div>

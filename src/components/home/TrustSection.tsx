@@ -1,8 +1,7 @@
 "use client"
 
-import { useRef, useEffect, useState } from "react"
-import { motion, useInView, useSpring, useMotionValue } from "framer-motion"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { useRef, useEffect } from "react"
+import { useInView, useSpring, useMotionValue } from "framer-motion"
 
 // Trusted Logos Data
 const logos = [
@@ -30,19 +29,19 @@ function Counter({ value, suffix = "" }: { value: number, suffix?: string }) {
     }, [isInView, value, motionValue])
 
     useEffect(() => {
-        springValue.on("change", (latest) => {
+        return springValue.on("change", (latest) => {
             if (ref.current) {
                 ref.current.textContent = Intl.NumberFormat("en-US").format(Math.round(latest)) + suffix
             }
         })
     }, [springValue, suffix])
 
-    return <span ref={ref} className="text-4xl md:text-5xl font-bold text-emerald-600 block mb-2" />
+    return <span ref={ref} className="text-4xl md:text-5xl font-bold text-emerald-600 block mb-2 font-serif" />
 }
 
 export function TrustSection() {
     return (
-        <section className="border-y border-slate-200 bg-white overflow-hidden">
+        <section className="border-y border-slate-200 bg-white overflow-hidden font-sans">
             {/* Stats Area */}
             <div className="container mx-auto px-4 py-16">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-slate-100">
@@ -73,11 +72,11 @@ export function TrustSection() {
 
                 <div className="relative flex items-center group">
                     {/* Navigation Buttons */}
-                    <button className="absolute left-4 z-30 bg-white p-3 rounded-full shadow-xl border border-slate-100 text-slate-400 hover:text-emerald-600 hover:scale-110 transition-all opacity-0 group-hover:opacity-100 hidden md:block">
-                        <ChevronLeft size={20} />
+                    <button className="absolute left-4 z-30 bg-white p-3 rounded-full shadow-xl border border-slate-100 text-slate-400 hover:text-emerald-600 hover:scale-110 transition-all opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center font-bold text-xs">
+                        ◀
                     </button>
-                    <button className="absolute right-4 z-30 bg-white p-3 rounded-full shadow-xl border border-slate-100 text-slate-400 hover:text-emerald-600 hover:scale-110 transition-all opacity-0 group-hover:opacity-100 hidden md:block">
-                        <ChevronRight size={20} />
+                    <button className="absolute right-4 z-30 bg-white p-3 rounded-full shadow-xl border border-slate-100 text-slate-400 hover:text-emerald-600 hover:scale-110 transition-all opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center font-bold text-xs">
+                        ▶
                     </button>
 
                     <div className="flex overflow-hidden w-full">

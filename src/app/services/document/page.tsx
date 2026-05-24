@@ -1,5 +1,4 @@
 import { PageHero } from "@/components/ui/PageHeader"
-import { ShieldCheck, Award, Lock, Clock, FileText, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Metadata } from "next"
 
@@ -14,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function DocumentServicesPage() {
     return (
-        <main className="min-h-screen bg-slate-50">
+        <main className="min-h-screen bg-slate-50 font-sans">
             <PageHero
                 title="Document Services"
                 description="Police Clearance, NADRA services, Visa documentation and more."
@@ -25,42 +24,34 @@ export default function DocumentServicesPage() {
             />
 
             {/* Trust Signals */}
-            <section className="py-12 bg-white border-b border-slate-100">
+            <section className="py-12 bg-white border-b border-slate-100 font-sans">
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 font-sans">
                         <div className="flex flex-col items-center text-center space-y-3">
-                            <div className="p-3 bg-blue-50 text-blue-600 rounded-full">
-                                <Clock className="w-6 h-6" />
-                            </div>
+                            <div className="w-12 h-12 rounded-full bg-emerald-50 text-emerald-800 font-extrabold flex items-center justify-center select-none text-lg">✓</div>
                             <div>
-                                <h3 className="font-semibold text-slate-900">Fast Processing</h3>
+                                <h3 className="font-semibold text-slate-900 font-serif">Fast Processing</h3>
                                 <p className="text-sm text-slate-500">24-48hr turnaround</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center text-center space-y-3">
-                            <div className="p-3 bg-emerald-50 text-emerald-600 rounded-full">
-                                <ShieldCheck className="w-6 h-6" />
-                            </div>
+                            <div className="w-12 h-12 rounded-full bg-emerald-50 text-emerald-800 font-extrabold flex items-center justify-center select-none text-lg">✓</div>
                             <div>
-                                <h3 className="font-semibold text-slate-900">Secure Handling</h3>
+                                <h3 className="font-semibold text-slate-900 font-serif">Secure Handling</h3>
                                 <p className="text-sm text-slate-500">100% Confidential</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center text-center space-y-3">
-                            <div className="p-3 bg-purple-50 text-purple-600 rounded-full">
-                                <Award className="w-6 h-6" />
-                            </div>
+                            <div className="w-12 h-12 rounded-full bg-emerald-50 text-emerald-800 font-extrabold flex items-center justify-center select-none text-lg">✓</div>
                             <div>
-                                <h3 className="font-semibold text-slate-900">Expertise</h3>
+                                <h3 className="font-semibold text-slate-900 font-serif">Expertise</h3>
                                 <p className="text-sm text-slate-500">Years of experience</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center text-center space-y-3">
-                            <div className="p-3 bg-amber-50 text-amber-600 rounded-full">
-                                <Lock className="w-6 h-6" />
-                            </div>
+                            <div className="w-12 h-12 rounded-full bg-emerald-50 text-emerald-800 font-extrabold flex items-center justify-center select-none text-lg">✓</div>
                             <div>
-                                <h3 className="font-semibold text-slate-900">Data Privacy</h3>
+                                <h3 className="font-semibold text-slate-900 font-serif">Data Privacy</h3>
                                 <p className="text-sm text-slate-500">Guaranteed protection</p>
                             </div>
                         </div>
@@ -69,39 +60,37 @@ export default function DocumentServicesPage() {
             </section>
 
             {/* Service Sections */}
-            <section className="py-16">
+            <section className="py-16 font-sans">
                 <div className="container mx-auto px-4 max-w-4xl space-y-16">
                     {/* Police Clearance */}
-                    <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
-                        <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center">
-                            <FileText className="mr-3 text-emerald-600" />
+                    <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 font-sans">
+                        <h2 className="text-2xl font-bold text-slate-900 mb-6 font-serif">
                             Police Clearance Certificate
                         </h2>
-                        <p className="text-slate-600 mb-6">
+                        <p className="text-slate-600 mb-6 leading-relaxed text-sm">
                             We assist in obtaining Police Character Certificates from Pakistan for visa and immigration purposes.
                             Our service handles the application, follow-up, and collection.
                         </p>
-                        <Button variant="outline" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50">
-                            Learn Requirements <ChevronRight className="ml-2 w-4 h-4" />
+                        <Button variant="outline" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 font-bold">
+                            Learn Requirements →
                         </Button>
                     </div>
 
                     {/* NADRA */}
-                    <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
-                        <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center">
-                            <FileText className="mr-3 text-emerald-600" />
+                    <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 font-sans">
+                        <h2 className="text-2xl font-bold text-slate-900 mb-6 font-serif">
                             NADRA Services
                         </h2>
-                        <ul className="space-y-3 mb-6">
-                            <li className="flex items-center text-slate-600"><div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mr-3"></div>CNIC Translation</li>
-                            <li className="flex items-center text-slate-600"><div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mr-3"></div>Family Registration Certificate (FRC)</li>
-                            <li className="flex items-center text-slate-600"><div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mr-3"></div>Birth Certificate Processing</li>
+                        <ul className="space-y-3 mb-6 text-sm">
+                            <li className="flex items-center text-slate-600 font-medium"><span className="text-emerald-600 font-extrabold mr-3 select-none">✓</span>CNIC Translation</li>
+                            <li className="flex items-center text-slate-600 font-medium"><span className="text-emerald-600 font-extrabold mr-3 select-none">✓</span>Family Registration Certificate (FRC)</li>
+                            <li className="flex items-center text-slate-600 font-medium"><span className="text-emerald-600 font-extrabold mr-3 select-none">✓</span>Birth Certificate Processing</li>
                         </ul>
                     </div>
 
                     {/* How It Works */}
-                    <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white">
-                        <h2 className="text-3xl font-bold mb-12 text-center">Process Workflow</h2>
+                    <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white font-sans">
+                        <h2 className="text-3xl font-bold mb-12 text-center font-serif">Process Workflow</h2>
                         <div className="grid md:grid-cols-4 gap-8">
                             {[
                                 { step: "01", title: "Submit", desc: "Send documents via WhatsApp" },
@@ -110,25 +99,26 @@ export default function DocumentServicesPage() {
                                 { step: "04", title: "Deliver", desc: "To your doorstep" }
                             ].map((item) => (
                                 <div key={item.step} className="relative">
-                                    <div className="text-5xl font-bold text-slate-800 mb-4">{item.step}</div>
-                                    <h3 className="text-xl font-bold text-emerald-400 mb-2">{item.title}</h3>
-                                    <p className="text-slate-400 text-sm">{item.desc}</p>
+                                    <div className="text-5xl font-bold text-slate-800 mb-4 font-serif">{item.step}</div>
+                                    <h3 className="text-xl font-bold text-emerald-400 mb-2 font-serif">{item.title}</h3>
+                                    <p className="text-slate-400 text-sm leading-relaxed">{item.desc}</p>
                                 </div>
                             ))}
                         </div>
                     </div>
+
                     {/* Document FAQ Section */}
-                    <div className="py-12">
-                        <h2 className="text-3xl font-bold text-center mb-12 text-slate-900">Document Services FAQ</h2>
+                    <div className="py-12 font-sans">
+                        <h2 className="text-3xl font-bold text-center mb-12 text-slate-900 font-serif">Document Services FAQ</h2>
                         <div className="grid gap-6">
                             {[
                                 { q: "How can I apply for a character certificate in Pakistan?", a: "To apply for a Police Character Certificate, you typically need to provide a copy of your CNIC, Passport, and a photo. We can handle the verification through the local police station and the DPO/CPO office on your behalf." },
                                 { q: "What is an FRC and why is it needed for visas?", a: "A Family Registration Certificate (FRC) shows your family structure. Most embassies, including Saudi Arabia and the UK, require it to verify your lineage or marital status during the visa process." },
                                 { q: "Do you provide attested translations for NADRA documents?", a: "Yes, we translate NADRA birth certificates, Nikah Namas, and Death certificates into English or Arabic, followed by official certification and notary stamps." }
                             ].map((f, i) => (
-                                <div key={i} className="bg-white p-6 rounded-2xl border border-slate-100 italic">
-                                    <p className="font-bold text-slate-900 not-italic mb-2">"{f.q}"</p>
-                                    <p className="text-slate-600 not-italic">{f.a}</p>
+                                <div key={i} className="bg-white p-6 rounded-2xl border border-slate-100 text-sm">
+                                    <p className="font-bold text-slate-900 mb-2 font-serif">"{f.q}"</p>
+                                    <p className="text-slate-600 leading-relaxed">{f.a}</p>
                                 </div>
                             ))}
                         </div>

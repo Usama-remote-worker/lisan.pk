@@ -4,7 +4,6 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { CheckCircle2, ArrowRight, FileText, GraduationCap, MapPin, Globe, ShieldCheck, HelpCircle, ExternalLink, Clock, Users, BookOpen, Search, PenTool, Video, Plane } from "lucide-react"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { ServicePackages } from "@/components/home/ServicePackages"
 import { cn } from "@/lib/utils"
@@ -45,7 +44,6 @@ export default function ScholarshipPageClient() {
                             <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Saudi%20Scholarship%20consultancy." target="_blank">
                                 <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-10 h-16 text-lg shadow-xl">
                                     Book Free Consultation
-                                    <ArrowRight className="ml-2 h-5 w-5" />
                                 </Button>
                             </Link>
                             <Link href="/services">
@@ -59,7 +57,7 @@ export default function ScholarshipPageClient() {
             </section>
 
             {/* Overview Section */}
-            <section className="py-20 container mx-auto px-4 max-w-5xl">
+            <section id="scholarships" className="py-20 container mx-auto px-4 max-w-5xl">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                     <div>
                         <h2 className="text-3xl font-bold text-slate-900 mb-6">Overview of Saudi Scholarship Programs 2026</h2>
@@ -95,37 +93,37 @@ export default function ScholarshipPageClient() {
                     
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-                            <GraduationCap className="w-12 h-12 text-emerald-600 mb-6" />
+                            <div className="w-12 h-12 bg-emerald-50 text-emerald-700 rounded-2xl flex items-center justify-center font-black text-xl mb-6">🎓</div>
                             <h3 className="text-xl font-bold mb-4">Academic Requirements</h3>
                             <ul className="space-y-3 text-slate-600">
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+                                    <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
                                     <span>Minimum 80% marks in Matric/FSc for Bachelors.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+                                    <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
                                     <span>Strong CGPA (3.0+) for Masters and PhD programs.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+                                    <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
                                     <span>Degrees must be verified by <Link href="https://www.hec.gov.pk" target="_blank" className="text-emerald-700 underline">HEC</Link> and MOFA.</span>
                                 </li>
                             </ul>
                         </div>
                         <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-                            <Users className="w-12 h-12 text-emerald-600 mb-6" />
+                            <div className="w-12 h-12 bg-emerald-50 text-emerald-700 rounded-2xl flex items-center justify-center font-black text-xl mb-6">👥</div>
                             <h3 className="text-xl font-bold mb-4">Personal & Medical</h3>
                             <ul className="space-y-3 text-slate-600">
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+                                    <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
                                     <span>Age limit: 17-25 (Bachelors), under 30 (Masters), under 35 (PhD).</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+                                    <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
                                     <span>Applicant must have a clean criminal record.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <CheckCircle2 className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+                                    <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
                                     <span>Medical fitness certificate is mandatory.</span>
                                 </li>
                             </ul>
@@ -137,14 +135,13 @@ export default function ScholarshipPageClient() {
             {/* Interactive Step-by-Step Process */}
             <ProcessSection />
 
-
             {/* The Conversion Bridge: Service Packages */}
             <div className="bg-slate-50 py-12">
                 <ServicePackages />
             </div>
 
             {/* Required Documents Checklist */}
-            <section className="py-20 bg-emerald-900 text-white">
+            <section id="documentation" className="py-20 bg-emerald-900 text-white">
                 <div className="container mx-auto px-4 max-w-4xl">
                     <div className="bg-white/10 backdrop-blur-md p-10 md:p-16 rounded-[3rem] border border-white/20 shadow-2xl">
                         <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
@@ -156,15 +153,15 @@ export default function ScholarshipPageClient() {
                                 <h4 className="text-xl font-bold text-emerald-400">Primary Documents</h4>
                                 <ul className="space-y-4">
                                     <li className="flex items-center gap-4">
-                                        <div className="w-6 h-6 bg-emerald-500 rounded flex items-center justify-center"><CheckCircle2 className="w-4 h-4 text-white" /></div>
+                                        <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
                                         <span>Passport (Valid for at least 1 year)</span>
                                     </li>
                                     <li className="flex items-center gap-4">
-                                        <div className="w-6 h-6 bg-emerald-500 rounded flex items-center justify-center"><CheckCircle2 className="w-4 h-4 text-white" /></div>
+                                        <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
                                         <span>Recent Passport Size Photos (White BG)</span>
                                     </li>
                                     <li className="flex items-center gap-4">
-                                        <div className="w-6 h-6 bg-emerald-500 rounded flex items-center justify-center"><CheckCircle2 className="w-4 h-4 text-white" /></div>
+                                        <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
                                         <span>CNIC or Form-B</span>
                                     </li>
                                 </ul>
@@ -173,15 +170,15 @@ export default function ScholarshipPageClient() {
                                 <h4 className="text-xl font-bold text-emerald-400">Educational & Legal</h4>
                                 <ul className="space-y-4">
                                     <li className="flex items-center gap-4">
-                                        <div className="w-6 h-6 bg-emerald-500 rounded flex items-center justify-center"><CheckCircle2 className="w-4 h-4 text-white" /></div>
+                                        <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
                                         <span>Attested Educational Degrees (HEC/MOFA)</span>
                                     </li>
                                     <li className="flex items-center gap-4">
-                                        <div className="w-6 h-6 bg-emerald-500 rounded flex items-center justify-center"><CheckCircle2 className="w-4 h-4 text-white" /></div>
+                                        <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
                                         <span>Certified Arabic Translations of Degrees</span>
                                     </li>
                                     <li className="flex items-center gap-4">
-                                        <div className="w-6 h-6 bg-emerald-500 rounded flex items-center justify-center"><CheckCircle2 className="w-4 h-4 text-white" /></div>
+                                        <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
                                         <span>Police Character Certificate</span>
                                     </li>
                                 </ul>
@@ -198,7 +195,7 @@ export default function ScholarshipPageClient() {
             </section>
 
             {/* Top Universities */}
-            <section className="py-24 container mx-auto px-4 max-w-6xl">
+            <section id="universities" className="py-24 container mx-auto px-4 max-w-6xl">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Top HEC Recognized Saudi Universities</h2>
                     <p className="text-slate-600 max-w-2xl mx-auto">These institutions are part of the <strong>fully funded scholarship Saudi</strong> initiative.</p>
@@ -214,7 +211,7 @@ export default function ScholarshipPageClient() {
                     ].map((uni, i) => (
                         <div key={i} className="group p-8 rounded-3xl bg-white border border-slate-200 hover:border-emerald-600 hover:shadow-xl transition-all duration-300">
                             <div className="flex justify-between items-start mb-6">
-                                <MapPin className="w-8 h-8 text-emerald-600" />
+                                <span className="text-emerald-600 font-extrabold text-[10px] uppercase tracking-wider">KSA CAMPUS</span>
                                 <span className="bg-emerald-50 text-emerald-700 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">{uni.rank}</span>
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mb-2">{uni.name}</h3>
@@ -230,11 +227,11 @@ export default function ScholarshipPageClient() {
             </section>
 
             {/* How Lisan Can Help */}
-            <section className="py-24 bg-emerald-50">
+            <section id="support" className="py-24 bg-emerald-50">
                 <div className="container mx-auto px-4 max-w-4xl">
                     <div className="bg-white p-12 rounded-[3rem] shadow-xl border border-emerald-100">
                         <div className="flex items-center gap-6 mb-8">
-                            <ShieldCheck className="w-16 h-16 text-emerald-600" />
+                            <div className="w-16 h-16 bg-emerald-50 text-emerald-700 rounded-3xl flex items-center justify-center font-black text-3xl shrink-0">✓</div>
                             <h2 className="text-3xl font-bold text-slate-900">How Lisan Can Help You (Our Consultancy)</h2>
                         </div>
                         <p className="text-lg text-slate-600 mb-10 leading-relaxed">
@@ -268,7 +265,7 @@ export default function ScholarshipPageClient() {
             </section>
 
             {/* FAQ Section */}
-            <section className="py-24 bg-white">
+            <section id="visa" className="py-24 bg-white">
                 <div className="container mx-auto px-4 max-w-3xl">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Frequently Asked Questions</h2>
                     <div className="space-y-6">
@@ -286,7 +283,7 @@ export default function ScholarshipPageClient() {
                         ].map((faq, i) => (
                             <div key={i} className="border-b border-slate-100 pb-6">
                                 <h4 className="text-lg font-bold text-slate-900 mb-3 flex gap-3">
-                                    <HelpCircle className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-1" />
+                                    <span className="text-emerald-600 font-extrabold flex-shrink-0">Q.</span>
                                     {faq.q}
                                 </h4>
                                 <p className="text-slate-600 leading-relaxed pl-8">{faq.a}</p>
@@ -296,7 +293,7 @@ export default function ScholarshipPageClient() {
                     <div className="mt-12 text-center p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
                         <p className="text-emerald-900 font-semibold mb-2">Need a sample of a certified translation and attestation process?</p>
                         <Link href="/blog/arabic-translation-services-saudi-scholarship-pakistan" className="text-emerald-700 font-bold hover:underline flex justify-center items-center gap-2">
-                            Check out our blog post on Saudi Scholarship Document Translation <ArrowRight className="w-4 h-4" />
+                            Check out our blog post on Saudi Scholarship Document Translation
                         </Link>
                     </div>
                 </div>
@@ -327,7 +324,6 @@ function ProcessSection() {
             title: "Research & Selection", 
             subtitle: "1-2 WEEKS", 
             desc: "Research HEC recognized Saudi universities and select a program that aligns with your background. Note the specific deadlines for the 2026 cycle.",
-            icon: Search,
             phase: "PHASE 01 — RESEARCH"
         },
         { 
@@ -335,7 +331,6 @@ function ProcessSection() {
             title: "Document Attestation", 
             subtitle: "2-4 WEEKS", 
             desc: "All degrees and transcripts must be translated into Arabic by a certified service like Lisan.pk and attested by HEC, MOFA, and the Saudi Culture office.",
-            icon: ShieldCheck,
             phase: "PHASE 02 — LEGALIZATION"
         },
         { 
@@ -343,7 +338,6 @@ function ProcessSection() {
             title: "Portal Submission", 
             subtitle: "1 WEEK", 
             desc: "Register on the 'Study in Saudi' portal or the specific university's admission website. Fill in all details with precision—errors here can lead to permanent rejection.",
-            icon: Globe,
             phase: "PHASE 03 — APPLICATION"
         },
         { 
@@ -351,7 +345,6 @@ function ProcessSection() {
             title: "Recommendation & SOP", 
             subtitle: "2 WEEKS", 
             desc: "Gather 2-3 recommendation letters from your previous professors. Write a compelling Statement of Purpose (SOP) explaining why you deserve the Saudi scholarship.",
-            icon: PenTool,
             phase: "PHASE 04 — STRATEGY"
         },
         { 
@@ -359,7 +352,6 @@ function ProcessSection() {
             title: "Interview Prep", 
             subtitle: "1 WEEK", 
             desc: "Some universities conduct online interviews via Zoom or Skype. Prepare to discuss your research interests and your knowledge of Saudi culture.",
-            icon: Video,
             phase: "PHASE 05 — EVALUATION"
         },
         { 
@@ -367,7 +359,6 @@ function ProcessSection() {
             title: "Visa Processing", 
             subtitle: "2-3 WEEKS", 
             desc: "Once you receive the 'Initial Acceptance', we assist you with the Saudi student visa process, including embassy submission and medical verification.",
-            icon: Plane,
             phase: "PHASE 06 — EMBASSY"
         },
         { 
@@ -375,18 +366,15 @@ function ProcessSection() {
             title: "Departure to KSA", 
             subtitle: "ONGOING", 
             desc: "Book your flights (usually provided by the university) and prepare for your journey to the Kingdom of Saudi Arabia!",
-            icon: MapPin,
             phase: "PHASE 07 — SUCCESS"
         }
     ]
 
-    const ActiveIcon = steps[activeStep].icon
-
     return (
-        <section className="py-24 bg-white overflow-hidden">
+        <section id="process" className="py-24 bg-white overflow-hidden font-sans">
             <div className="container mx-auto px-4 max-w-6xl">
                 <div className="text-center mb-16">
-                    <div className="flex items-center justify-center gap-4 mb-4">
+                    <div className="flex items-center justify-center gap-4 mb-4 font-sans">
                         <div className="h-[1px] w-8 bg-slate-200"></div>
                         <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em]">Our Process</span>
                         <div className="h-[1px] w-8 bg-slate-200"></div>
@@ -406,7 +394,6 @@ function ProcessSection() {
                         
                         {steps.map((step, index) => (
                             <button
-                                key={step.id}
                                 onClick={() => setActiveStep(index)}
                                 className={cn(
                                     "w-full flex items-center gap-6 p-4 rounded-2xl transition-all duration-300 relative z-10",
@@ -414,14 +401,15 @@ function ProcessSection() {
                                         ? "bg-white shadow-xl shadow-slate-200/50 border border-slate-100 translate-x-2" 
                                         : "hover:bg-slate-50 border border-transparent"
                                 )}
+                                key={step.id}
                             >
                                 <div className={cn(
-                                    "w-14 h-14 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 border-2",
+                                    "w-14 h-14 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 border-2 font-black text-sm",
                                     activeStep === index 
                                         ? "bg-emerald-600 border-emerald-600 text-white shadow-lg shadow-emerald-200/50" 
                                         : "bg-white border-slate-100 text-slate-400"
                                 )}>
-                                    <step.icon className="w-6 h-6" />
+                                    {step.id}
                                 </div>
                                 <div className="text-left">
                                     <h4 className={cn(
@@ -443,7 +431,7 @@ function ProcessSection() {
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: -20 }}
                                 transition={{ duration: 0.4, ease: "easeOut" }}
-                                className="bg-white rounded-[3rem] p-10 md:p-20 border border-slate-100 shadow-2xl shadow-slate-200/40 relative overflow-hidden h-full min-h-[500px] flex flex-col justify-center"
+                                className="bg-white rounded-[3rem] p-10 md:p-20 border border-slate-100 shadow-2xl shadow-slate-200/40 relative overflow-hidden h-full min-h-[500px] flex flex-col justify-center font-sans"
                             >
                                 {/* Background Large Number */}
                                 <div className="absolute -bottom-10 -right-10 text-[20rem] font-black text-slate-50/50 leading-none select-none pointer-events-none -z-0">
@@ -451,8 +439,8 @@ function ProcessSection() {
                                 </div>
 
                                 <div className="relative z-10">
-                                    <div className="w-20 h-20 rounded-3xl bg-emerald-50 flex items-center justify-center mb-10 border border-emerald-100 shadow-sm">
-                                        <ActiveIcon className="w-10 h-10 text-emerald-600" />
+                                    <div className="w-20 h-20 rounded-3xl bg-emerald-50 flex items-center justify-center mb-10 border border-emerald-100 shadow-sm font-black text-2xl text-emerald-600 select-none">
+                                        {steps[activeStep].id}
                                     </div>
 
                                     <div className="inline-block px-4 py-1.5 rounded-full bg-emerald-50 border border-emerald-100 text-[10px] font-black text-emerald-700 uppercase tracking-widest mb-8">

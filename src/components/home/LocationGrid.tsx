@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { MapPin } from "lucide-react"
 
 const cities = [
     { name: 'Lahore', slug: 'lahore' },
@@ -16,7 +15,7 @@ const cities = [
 
 export function LocationGrid() {
     return (
-        <section className="py-24 bg-slate-900 text-white overflow-hidden">
+        <section className="py-24 bg-slate-900 text-white overflow-hidden font-sans">
             <div className="container mx-auto px-4 max-w-7xl">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold font-serif mb-6 text-white">Our Nationwide Presence</h2>
@@ -32,8 +31,7 @@ export function LocationGrid() {
                             href={`/locations/${city.slug}`}
                             className="group p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-emerald-600 hover:border-emerald-500 transition-all duration-300 text-center"
                         >
-                            <MapPin className="w-6 h-6 mx-auto mb-3 text-emerald-500 group-hover:text-white transition-colors" />
-                            <h3 className="font-bold text-lg text-white group-hover:text-emerald-400 transition-colors">{city.name}</h3>
+                            <h3 className="font-bold text-lg text-white group-hover:text-emerald-400 transition-colors mb-1">{city.name}</h3>
                             <span className="text-[10px] uppercase tracking-widest text-slate-500 group-hover:text-emerald-100">Translation Service</span>
                         </Link>
                     ))}

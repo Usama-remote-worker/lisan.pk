@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
 import { PageHero } from "@/components/ui/PageHeader"
-import { CheckCircle2, MapPin, Phone, MessageSquare, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -124,7 +123,7 @@ export default async function LocationPage({ params }: PageProps) {
     }
 
     return (
-        <main className="min-h-screen bg-[#fcfdfe]">
+        <main className="min-h-screen bg-[#fcfdfe] font-sans">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
@@ -147,11 +146,11 @@ export default async function LocationPage({ params }: PageProps) {
             />
 
             {/* Service Grid - The "Catalog" */}
-            <section className="py-20 -mt-10 relative z-20">
+            <section className="py-20 -mt-10 relative z-20 font-sans">
                 <div className="container mx-auto px-4 max-w-7xl">
                     <div className="bg-white rounded-[3rem] shadow-xl border border-slate-100 p-8 md:p-12">
                         <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-                            <div className="max-w-2xl">
+                            <div className="max-w-2xl font-sans">
                                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 font-serif">Service Catalog: {cityData.name}</h2>
                                 <p className="text-slate-500 text-lg">Select a service below to see specific requirements and pricing for {cityData.name}.</p>
                             </div>
@@ -169,10 +168,10 @@ export default async function LocationPage({ params }: PageProps) {
                                     className="group flex flex-col p-6 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/5 hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-emerald-100"
                                 >
                                     <div className="mb-4 flex items-start justify-between">
-                                        <div className="p-3 bg-white rounded-xl shadow-sm group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-                                            <CheckCircle2 className="w-6 h-6 text-emerald-600 group-hover:text-white" />
+                                        <div className="p-3 bg-white rounded-xl shadow-sm group-hover:bg-emerald-600 group-hover:text-white transition-colors text-emerald-600 font-bold select-none text-sm">
+                                            ✓
                                         </div>
-                                        <ArrowRight className="w-5 h-5 text-slate-300 group-hover:text-emerald-600 transition-colors" />
+                                        <span className="text-slate-300 group-hover:text-emerald-600 transition-colors font-bold">→</span>
                                     </div>
                                     <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-emerald-800 transition-colors">{item.title}</h3>
                                     <p className="text-slate-500 text-sm leading-relaxed line-clamp-2">
@@ -188,7 +187,7 @@ export default async function LocationPage({ params }: PageProps) {
             {/* Service Packages Section */}
             <ServicePackages />
 
-            <section className="pb-32">
+            <section className="pb-32 font-sans">
                 <div className="container mx-auto px-4 max-w-7xl">
                     <div className="grid lg:grid-cols-3 gap-16 items-start">
                         {/* Main Content */}
@@ -203,7 +202,7 @@ export default async function LocationPage({ params }: PageProps) {
                                     <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm relative overflow-hidden group">
                                         <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-50 rounded-full -mr-12 -mt-12 transition-transform group-hover:scale-110"></div>
                                         <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2 relative">
-                                            <MapPin className="text-emerald-600" /> Local Knowledge
+                                            Local Knowledge
                                         </h3>
                                         <p className="text-slate-500 text-[15px] leading-relaxed relative italic">
                                             Serving all areas near {cityData.landmark}. {cityData.localInfo}
@@ -212,7 +211,7 @@ export default async function LocationPage({ params }: PageProps) {
                                     <div className="bg-slate-900 p-8 rounded-3xl text-white relative overflow-hidden">
                                         <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full -ml-12 -mb-12"></div>
                                         <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                                            <Phone className="text-emerald-400" /> Express Support
+                                            Express Support
                                         </h3>
                                         <p className="text-slate-400 text-[15px] leading-relaxed mb-6">
                                             Our {cityData.name} division offers direct priority processing for urgent embassy deadlines.
@@ -234,7 +233,7 @@ export default async function LocationPage({ params }: PageProps) {
                                         "Safe return delivery with tracking"
                                     ].map((step, idx) => (
                                         <div key={idx} className="flex items-center gap-4 p-4 bg-white rounded-xl border border-slate-50">
-                                            <div className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 text-xs font-bold">
+                                            <div className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 text-xs font-bold select-none">
                                                 {idx + 1}
                                             </div>
                                             <span className="text-slate-700 font-medium">{step}</span>
@@ -272,22 +271,19 @@ export default async function LocationPage({ params }: PageProps) {
                                 <p className="text-slate-500 mb-8 text-sm leading-relaxed">
                                     Upload your documents via WhatsApp for a precise quote within 10 minutes. 100% data privacy guaranteed.
                                 </p>
-                                <div className="space-y-4">
+                                <div className="space-y-4 font-sans">
                                     <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20translation%20services%20in%20${cityData.name}.`} target="_blank" className="block w-full">
                                         <Button className="w-full bg-emerald-600 hover:bg-emerald-700 h-16 text-lg rounded-2xl shadow-lg transition-transform hover:-translate-y-1 active:scale-95">
-                                            <MessageSquare className="mr-2 h-5 w-5" /> WhatsApp Now
+                                            WhatsApp Now
                                         </Button>
                                     </Link>
                                     <Link href="tel:+923044296295" className="block w-full">
                                         <Button variant="outline" className="w-full h-16 text-lg border-slate-200 rounded-2xl hover:bg-slate-50 transition-colors">
-                                            <Phone className="mr-2 h-5 w-5" /> Call Agent
+                                            Call Agent
                                         </Button>
                                     </Link>
                                 </div>
-                                <div className="mt-8 pt-8 border-t border-slate-100 flex items-center gap-4 text-slate-400">
-                                    <div className="p-3 bg-slate-50 rounded-full">
-                                        <MapPin className="w-5 h-5" />
-                                    </div>
+                                <div className="mt-8 pt-8 border-t border-slate-100 flex items-center gap-4 text-slate-400 font-sans">
                                     <span className="text-[11px] font-bold uppercase tracking-wider">Serving all zones in {cityData.name}.</span>
                                 </div>
                             </div>
@@ -302,7 +298,7 @@ export default async function LocationPage({ params }: PageProps) {
                                         "Verified Legal Stamps"
                                     ].map(t => (
                                         <li key={t} className="flex items-center gap-3 text-sm font-bold">
-                                            <CheckCircle2 className="w-4 h-4 text-emerald-400" /> {t}
+                                            <span className="text-emerald-400 font-extrabold">✓</span> {t}
                                         </li>
                                     ))}
                                 </ul>

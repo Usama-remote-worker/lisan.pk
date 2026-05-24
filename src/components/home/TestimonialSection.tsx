@@ -1,7 +1,6 @@
 "use client"
 
 import { ScrollReveal } from "@/components/animations/ScrollReveal"
-import { Star, Quote, ShieldAlert, Lock, X, ZoomIn } from "lucide-react"
 import Image from "next/image"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -49,7 +48,7 @@ export function TestimonialSection() {
     const [selectedDoc, setSelectedDoc] = useState<typeof sampleDocs[0] | null>(null)
 
     return (
-        <section className="py-24 bg-white overflow-hidden select-none">
+        <section className="py-24 bg-white overflow-hidden select-none font-sans">
             <div className="container mx-auto px-4 max-w-7xl">
                 <ScrollReveal>
                     <div className="text-center mb-16">
@@ -64,7 +63,7 @@ export function TestimonialSection() {
                 <div className="mb-24">
                     <ScrollReveal>
                         <div className="flex items-center gap-3 mb-10 p-4 bg-emerald-50 border border-emerald-100 rounded-2xl">
-                            <ShieldAlert className="w-5 h-5 text-emerald-600" />
+                            <span className="text-emerald-600 font-extrabold text-sm">✓</span>
                             <p className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest">
                                 Secure Portfolio: Interactive samples protected by Lisan.pk Security protocols.
                             </p>
@@ -101,15 +100,15 @@ export function TestimonialSection() {
 
                                         {/* Hover Interaction */}
                                         <div className="absolute inset-0 bg-emerald-900/0 group-hover:bg-emerald-900/10 transition-colors z-25 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                                            <div className="bg-white p-4 rounded-full shadow-xl">
-                                                <ZoomIn className="w-6 h-6 text-emerald-600" />
+                                            <div className="bg-white p-4 rounded-full shadow-xl font-bold text-lg text-emerald-600">
+                                                🔎
                                             </div>
                                         </div>
                                         
                                         {/* Protection Banner */}
                                         <div className="absolute bottom-0 left-0 right-0 p-4 bg-slate-900/90 backdrop-blur-md z-30 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                                             <div className="flex items-center justify-center gap-2 text-white text-[10px] font-bold uppercase tracking-tighter">
-                                                <Lock className="w-3 h-3 text-emerald-400" /> Protected Sample
+                                                ✓ Protected Sample
                                             </div>
                                         </div>
                                     </div>
@@ -134,8 +133,8 @@ export function TestimonialSection() {
                             className="fixed inset-0 z-[100] bg-slate-950/90 backdrop-blur-xl flex items-center justify-center p-4 md:p-12"
                             onClick={() => setSelectedDoc(null)}
                         >
-                            <button className="absolute top-8 right-8 text-white hover:text-emerald-400 transition-colors z-[110]">
-                                <X className="w-10 h-10" />
+                            <button className="absolute top-8 right-8 text-white hover:text-emerald-400 transition-colors z-[110] font-bold text-sm bg-white/10 px-4 py-2 rounded-full">
+                                ✕ Close
                             </button>
 
                             <motion.div 
@@ -169,11 +168,9 @@ export function TestimonialSection() {
                     {testimonials.map((t, index) => (
                         <ScrollReveal key={index} delay={index * 0.1}>
                             <div className="p-8 rounded-[3rem] bg-slate-50 border border-slate-100 relative group hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/10 transition-all duration-500">
-                                <Quote className="absolute top-8 right-8 w-12 h-12 text-emerald-600/5 group-hover:text-emerald-600/10 transition-colors" />
-                                
                                 <div className="flex gap-1 mb-6">
                                     {[...Array(5)].map((_, i) => (
-                                        <Star key={i} className="w-4 h-4 fill-emerald-500 text-emerald-500" />
+                                        <span key={i} className="text-emerald-500 text-sm">★</span>
                                     ))}
                                 </div>
 
@@ -182,7 +179,7 @@ export function TestimonialSection() {
                                 </p>
 
                                 <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-white font-bold text-xl">
+                                    <div className="w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-white font-bold text-xl select-none">
                                         {t.name[0]}
                                     </div>
                                     <div>

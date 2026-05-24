@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
 import { PageHero } from "@/components/ui/PageHeader"
-import { CheckCircle2, MapPin, Phone, MessageSquare, GraduationCap, FileText, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -108,12 +107,12 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                 ]}
             />
 
-            <section className="py-20">
+            <section className="py-20 font-sans">
                 <div className="container mx-auto px-4 max-w-5xl">
                     <div className="grid md:grid-cols-3 gap-12">
                         {/* Main Content */}
                         <div className="md:col-span-2 space-y-12">
-                            <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm">
+                            <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm font-sans">
                                 <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight font-serif tracking-tight text-balance">
                                     {service === 'degree-transcript-translation' 
                                         ? `Translate degree and transcript into Arabic in ${cityData.name} for Saudi university admission`
@@ -129,9 +128,6 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 
                                 {cityData.regionalContext && (
                                     <div className="mb-10 p-8 bg-emerald-950 rounded-[2.5rem] text-white relative overflow-hidden group">
-                                        <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:rotate-12 transition-transform">
-                                            <MapPin className="w-24 h-24" />
-                                        </div>
                                         <p className="text-emerald-400 font-bold mb-3 uppercase tracking-widest text-xs flex items-center gap-2">
                                             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                                             {cityData.name} Logistics Update
@@ -145,7 +141,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 <div className="grid sm:grid-cols-2 gap-6 my-10">
                                     {serviceData.benefits.map((benefit) => (
                                         <div key={benefit} className="flex items-center gap-3 p-4 bg-emerald-50 rounded-2xl border border-emerald-100/50">
-                                            <CheckCircle2 className="text-emerald-600 w-5 h-5 shrink-0" />
+                                            <span className="text-emerald-600 font-extrabold select-none">✓</span>
                                             <span className="font-semibold text-emerald-950 text-[15px]">{benefit}</span>
                                         </div>
                                     ))}
@@ -158,8 +154,8 @@ export default async function LocalizedServicePage({ params }: PageProps) {
 
                             {/* Service attestation verification specifications */}
                             <div className="bg-gradient-to-br from-emerald-50 to-white p-10 rounded-[2.5rem] border border-emerald-100 shadow-sm space-y-6">
-                                <h3 className="text-2xl font-bold text-slate-900 font-serif flex items-center gap-2">
-                                    <FileText className="text-emerald-700 w-6 h-6" /> Attestation Checklist for {serviceData.title} in {cityData.name}
+                                <h3 className="text-2xl font-bold text-slate-900 font-serif">
+                                    Attestation Checklist for {serviceData.title} in {cityData.name}
                                 </h3>
                                 <p className="text-slate-600 leading-relaxed text-[15px]">
                                     To guarantee that your translated <span className="font-bold text-slate-800">{serviceData.title}</span> is accepted by the Saudi Embassy, MOFA, or university admissions boards without delays, please verify the following regional steps:
@@ -168,21 +164,21 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                     {service.includes('degree') || service.includes('transcript') || service.includes('matric') || service.includes('intermediate') || service.includes('diploma') ? (
                                         <>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">1</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">Board / HEC Verification First</h4>
                                                     <p className="text-slate-500 text-sm mt-1">Academic records must be verified by {cityData.biseName || 'your local BISE Board'} (for certificates) or {cityData.hecCenter || 'HEC Regional Center'} (for degrees).</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">2</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">MOFA Attestation Support</h4>
                                                     <p className="text-slate-500 text-sm mt-1">Once verified, the document requires an active sticker attestation from the Ministry of Foreign Affairs (MOFA) in Pakistan.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">3</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">Certified Arabic Translation</h4>
                                                     <p className="text-slate-500 text-sm mt-1">Lisan.pk will draft, format, and apply certified legal stamps to your document in perfect Arabic to mirror the MOFA-attested original.</p>
@@ -192,21 +188,21 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                     ) : service.includes('nikah-nama') || service.includes('birth-certificate') ? (
                                         <>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">1</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">NADRA Registration Certificate</h4>
                                                     <p className="text-slate-500 text-sm mt-1">Ensure your personal records are on a computerized NADRA certificate before starting the translation flow.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">2</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">MOFA Verification</h4>
                                                     <p className="text-slate-500 text-sm mt-1">Your NADRA certificate must be attested by MOFA (Ministry of Foreign Affairs) {cityData.mofaOffice ? `at ${cityData.mofaOffice}` : 'at your nearest regional center'}.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">3</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">Lisan.pk Stamp & Sign</h4>
                                                     <p className="text-slate-500 text-sm mt-1">We apply our certified embassy-accepted stamps and signature. This guarantees acceptance on all Saudi portals.</p>
@@ -216,21 +212,21 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                     ) : (
                                         <>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">1</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">Official Document Verification</h4>
                                                     <p className="text-slate-500 text-sm mt-1">Confirm that your document is officially issued by the relevant municipal or federal authority in {cityData.name}.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">2</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">Legal Translation Delivery</h4>
                                                     <p className="text-slate-500 text-sm mt-1">Lisan.pk will assign a specialized translator with exact expertise in {serviceData.title.toLowerCase()} terminology to draft your file.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0">3</div>
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
                                                 <div>
                                                     <h4 className="font-bold text-slate-900 text-[15px]">Secure Courier Delivery</h4>
                                                     <p className="text-slate-500 text-sm mt-1">We dispatch the legal translation directly to your doorstep in {cityData.name} via tracked DHL/TCS/Leopards delivery.</p>
@@ -242,10 +238,10 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                             </div>
 
                             {/* Authority Data Section */}
-                            <div className="grid sm:grid-cols-2 gap-8">
+                            <div className="grid sm:grid-cols-2 gap-8 font-sans">
                                 <div className="p-8 bg-slate-900 rounded-[2rem] text-white">
-                                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2 font-serif">
-                                        <MapPin className="text-emerald-400" /> Serving {cityData.name}
+                                    <h3 className="text-xl font-bold mb-4 font-serif">
+                                        Serving {cityData.name}
                                     </h3>
                                     <ul className="space-y-3 opacity-90">
                                         <li className="text-sm">✓ High Priority Service in {cityData.name}</li>
@@ -255,8 +251,8 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                     </ul>
                                 </div>
                                 <div className="p-8 bg-emerald-600 rounded-[2rem] text-white">
-                                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2 font-serif">
-                                        <Phone className="text-white" /> Quick Connect
+                                    <h3 className="text-xl font-bold mb-4 font-serif">
+                                        Quick Connect
                                     </h3>
                                     <p className="text-sm mb-6 opacity-90">Get a response in under 10 minutes for {cityData.name} service requests.</p>
                                     <Link href="tel:+923044296295" className="font-bold text-lg hover:underline block mb-2">+92 304 4296295</Link>
@@ -299,7 +295,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                         </div>
 
                         {/* Sidebar CTA */}
-                        <div className="space-y-6">
+                        <div className="space-y-6 font-sans">
                             <div className="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100 sticky top-24">
                                 <h3 className="font-bold text-slate-900 mb-6 text-xl font-serif">Start Your Process</h3>
                                 <div className="space-y-4">
@@ -314,10 +310,9 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                         </Button>
                                     </Link>
                                 </div>
-                                <div className="mt-8 pt-8 border-t border-slate-100 text-center">
+                                <div className="mt-8 pt-8 border-t border-slate-100 text-center font-sans">
                                     <div className="flex items-center justify-center gap-3 text-slate-500 mb-4">
-                                        <Clock className="w-5 h-5 text-emerald-500" />
-                                        <span className="text-sm font-bold">Available Now</span>
+                                        <span className="text-sm font-bold">● Available Now</span>
                                     </div>
                                     <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold">100% Embassy Acceptance</p>
                                 </div>
@@ -329,11 +324,11 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 <div className="space-y-3">
                                     <Link href="/consultancy/saudi-scholarship" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
                                         Saudi Scholarship 2026 Guide
-                                        <ArrowRight className="w-4 h-4 text-emerald-400" />
+                                        <span className="text-emerald-400">→</span>
                                     </Link>
                                     <Link href="/blog/fully-funded-scholarship-deadlines-saudi-universities-2026" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
                                         KSU & KAU Deadlines
-                                        <ArrowRight className="w-4 h-4 text-emerald-400" />
+                                        <span className="text-emerald-400">→</span>
                                     </Link>
                                 </div>
                             </div>
@@ -345,7 +340,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
             <TestimonialSection />
 
             {/* Global Links to Home/About/Contact */}
-            <section className="py-12 bg-white border-t border-slate-100">
+            <section className="py-12 bg-white border-t border-slate-100 font-sans">
                 <div className="container mx-auto px-4 text-center">
                     <div className="flex flex-wrap justify-center gap-8 text-sm font-bold text-slate-400 uppercase tracking-widest">
                         <Link href="/" className="hover:text-emerald-600 transition-colors">Home</Link>
@@ -356,25 +351,5 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                 </div>
             </section>
         </main>
-    )
-}
-
-function Clock(props: any) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <circle cx="12" cy="12" r="10" />
-            <polyline points="12 6 12 12 16 14" />
-        </svg>
     )
 }

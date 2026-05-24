@@ -10,7 +10,7 @@ export function Footer() {
     return (
         <>
             <WhyChooseUs />
-            <footer className="bg-slate-900 text-slate-300 py-16 border-t border-slate-800">
+            <footer className="bg-slate-900 text-slate-300 py-16 border-t border-slate-800 font-sans">
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                         {/* Brand Section */}
@@ -21,9 +21,9 @@ export function Footer() {
                                     alt="Lisan.pk Icon" 
                                     className="h-8 w-8 object-contain"
                                 />
-                                <h3 className="text-white text-xl font-bold tracking-tight">Lisan<span className="text-brand-gold">.pk</span></h3>
+                                <h3 className="text-white text-xl font-bold tracking-tight font-serif">Lisan<span className="text-emerald-500">.pk</span></h3>
                             </div>
-                            <p className="text-sm leading-relaxed text-slate-400 max-w-xs">
+                            <p className="text-sm leading-relaxed text-slate-400 max-w-xs font-sans">
                                 Pakistan’s most trusted Arabic translation and attestation platform. Specializing in Saudi university admissions and document legalization for over 40 years.
                             </p>
                             <div className="pt-4 border-t border-slate-800">
@@ -35,7 +35,7 @@ export function Footer() {
                         {/* Services Section */}
                         <div>
                             <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Our Services</h4>
-                            <ul className="space-y-3 text-sm">
+                            <ul className="space-y-3 text-sm font-sans">
                                 <li><Link href="/services/translation" className="hover:text-emerald-400 transition-colors">Arabic Translation</Link></li>
                                 <li><Link href="/services/attestation" className="hover:text-emerald-400 transition-colors">MOFA Attestation</Link></li>
                                 <li><Link href="/services/document" className="hover:text-emerald-400 transition-colors">Document Legalization</Link></li>
@@ -50,7 +50,7 @@ export function Footer() {
                         <div className="space-y-12">
                             <div>
                                 <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Scholarships 2026</h4>
-                                <ul className="space-y-3 text-sm">
+                                <ul className="space-y-3 text-sm font-sans">
                                     {universityList.map(([slug, uni]) => (
                                         <li key={slug}>
                                             <Link href={`/scholarships/${slug}`} className="hover:text-emerald-400 transition-colors text-emerald-500 font-medium italic">
@@ -63,7 +63,7 @@ export function Footer() {
                             </div>
                             <div>
                                 <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Company</h4>
-                                <ul className="space-y-3 text-sm">
+                                <ul className="space-y-3 text-sm font-sans">
                                     <li><Link href="/about" className="hover:text-emerald-400 transition-colors">About Lisan.pk</Link></li>
                                     <li><Link href="/blog" className="hover:text-emerald-400 transition-colors">Blog & Resources</Link></li>
                                     <li><Link href="/contact" className="hover:text-emerald-400 transition-colors">Contact Support</Link></li>
@@ -74,21 +74,21 @@ export function Footer() {
                         </div>
 
                         {/* Contact Section */}
-                        <div className="bg-slate-800/50 p-8 rounded-3xl border border-slate-700/50">
+                        <div className="bg-slate-800/50 p-8 rounded-3xl border border-slate-700/50 font-sans">
                             <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest text-center">Get in Touch</h4>
                             <div className="space-y-6">
                                 <div className="text-center">
                                     <span className="block text-[10px] text-slate-500 uppercase tracking-widest mb-1">WhatsApp/Phone</span>
-                                    <a href="tel:03044296295" className="text-xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors">0304-4296295</a>
+                                    <a href="tel:03044296295" className="text-xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors font-mono">0304-4296295</a>
                                 </div>
                                 <div className="text-center">
                                     <span className="block text-[10px] text-slate-500 uppercase tracking-widest mb-1">Email Support</span>
-                                    <a href="mailto:lisan.pk.services@gmail.com" className="text-sm hover:text-emerald-400 transition-colors break-all">lisan.pk.services@gmail.com</a>
+                                    <a href="mailto:lisan.pk.services@gmail.com" className="text-sm hover:text-emerald-400 transition-colors break-all font-mono">lisan.pk.services@gmail.com</a>
                                 </div>
                                 <Link 
                                     href="https://forms.gle/FnBnLrbdCQXsyjVS6" 
                                     target="_blank"
-                                    className="block w-full bg-brand-gold hover:bg-brand-gold-dark text-slate-950 text-center py-3 rounded-xl font-extrabold transition-all transform hover:scale-[1.02] border border-brand-gold-dark/20"
+                                    className="block w-full bg-emerald-700 hover:bg-emerald-800 text-white text-center py-3 rounded-xl font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-800/20"
                                 >
                                     Get a Free Quote
                                 </Link>
@@ -97,12 +97,12 @@ export function Footer() {
                     </div>
 
                     {/* Expandable/Comprehensive Locations Section */}
-                    <div id="locations" className="pt-12 border-t border-slate-800">
-                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+                    <div id="locations" className="pt-12 border-t border-slate-800 font-sans">
+                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4 font-sans">
                             <h4 className="text-white font-bold text-sm uppercase tracking-widest">Service Areas Across Pakistan</h4>
                             <span className="text-[10px] text-white bg-emerald-600 px-4 py-1.5 rounded-full uppercase tracking-widest font-black shadow-lg shadow-emerald-600/30 animate-pulse">Secure Doorstep Delivery Nationwide</span>
                         </div>
-                        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-3">
+                        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-3 font-sans">
                             {cityList.sort().map((citySlug) => (
                                 <Link 
                                     key={citySlug} 
@@ -116,7 +116,7 @@ export function Footer() {
                         </div>
                     </div>
 
-                    <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+                    <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 font-sans">
                         <p>© {new Date().getFullYear()} Lisan.pk. All rights reserved.</p>
                         <div className="flex gap-6">
                             <Link href="/services/translation" className="hover:text-slate-300">Terms of Service</Link>

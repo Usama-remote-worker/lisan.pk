@@ -95,17 +95,16 @@ const services = [
 
 export function DocumentTranslationGrid() {
     return (
-        <section className="py-20 bg-white">
-
+        <section className="py-20 bg-white font-sans text-slate-900">
             <div className="container mx-auto px-4 max-w-7xl">
                 <div className="max-w-3xl mb-16">
                     <h2 className="text-4xl font-bold text-slate-900 mb-6 font-serif">Comprehensive Translation Services</h2>
-                    <p className="text-slate-600 text-lg leading-relaxed">
+                    <p className="text-slate-600 text-lg leading-relaxed font-sans">
                         We provide certified Arabic translations for a complete range of personal, educational, and legal documents, recognized by all major authorities.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-sans">
                     {services.map((service, index) => (
                         <Link 
                             href={service.hasPage 
@@ -115,13 +114,13 @@ export function DocumentTranslationGrid() {
                             className="group block h-full"
                             {...(!service.hasPage ? { target: "_blank" } : {})}
                         >
-                            <div className="flex flex-col p-8 rounded-2xl border border-slate-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 bg-white h-full hover:border-brand-gold/30 hover:shadow-brand-gold/5">
+                            <div className="flex flex-col p-8 rounded-2xl border border-slate-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 bg-white h-full hover:border-emerald-200">
                                 <div className="mb-6 flex items-center justify-between">
-                                    <span className="text-[10px] font-bold tracking-[0.2em] text-brand-gold-dark uppercase bg-brand-gold-light/20 px-3 py-1 rounded-full border border-brand-gold/10">
+                                    <span className="text-[10px] font-bold tracking-[0.2em] text-emerald-700 uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100 select-none">
                                         Service {String(index + 1).padStart(2, '0')}
                                     </span>
                                 </div>
-                                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-gold-dark transition-colors font-serif">
+                                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-700 transition-colors font-serif">
                                     {service.title}
                                 </h3>
                                 <p className="text-slate-600 text-[15px] leading-relaxed">

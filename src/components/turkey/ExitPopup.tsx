@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState, useEffect } from "react"
-import { X, Gift, ArrowRight, MessageSquare } from "lucide-react"
 
 export function ExitPopup() {
     const [isOpen, setIsOpen] = useState(false)
@@ -42,20 +41,20 @@ export function ExitPopup() {
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-fade-in font-sans">
             <div className="relative bg-white border border-slate-100 rounded-3xl p-8 max-w-md w-full shadow-2xl overflow-hidden text-center">
                 {/* Decorative border */}
-                <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-red-600 via-rose-500 to-emerald-600"></div>
+                <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-emerald-700 via-emerald-600 to-emerald-800"></div>
 
                 {/* Close Button */}
                 <button 
                     onClick={handleClose} 
-                    className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-50 rounded-xl transition-all"
+                    className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-50 rounded-xl transition-all font-bold text-xs"
                     aria-label="Close dialog"
                 >
-                    <X className="w-5 h-5" />
+                    ✕
                 </button>
 
-                {/* Icon block */}
-                <div className="w-16 h-16 bg-red-50 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-6 scale-110 shadow-inner">
-                    <Gift className="w-8 h-8 animate-bounce" />
+                {/* Typography Badge instead of icon */}
+                <div className="w-16 h-16 bg-emerald-50 text-emerald-700 rounded-2xl flex items-center justify-center mx-auto mb-6 scale-110 shadow-inner font-extrabold text-sm select-none">
+                    FREE
                 </div>
 
                 {/* Text Context */}
@@ -70,9 +69,9 @@ export function ExitPopup() {
                 <div className="space-y-3">
                     <button 
                         onClick={handleWhatsAppRedirect}
-                        className="w-full h-13 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm rounded-xl transition-all shadow-md flex items-center justify-center gap-2"
+                        className="w-full h-12 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm rounded-xl transition-all shadow-md flex items-center justify-center"
                     >
-                        <MessageSquare className="w-4 h-4" /> Start Free Assessment via WhatsApp
+                        Start Free Assessment via WhatsApp
                     </button>
                     
                     <button 
@@ -84,9 +83,9 @@ export function ExitPopup() {
                                 formElement.scrollIntoView({ behavior: "smooth" })
                             }
                         }}
-                        className="w-full h-11 bg-slate-50 hover:bg-slate-100 text-slate-700 font-bold text-xs rounded-xl transition-all flex items-center justify-center gap-2"
+                        className="w-full h-11 bg-slate-50 hover:bg-slate-100 text-slate-700 font-bold text-xs rounded-xl transition-all flex items-center justify-center"
                     >
-                        No, I'll fill the form on-page <ArrowRight className="w-3.5 h-3.5" />
+                        No, I'll fill the form on-page
                     </button>
                 </div>
 

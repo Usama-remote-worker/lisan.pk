@@ -4,7 +4,6 @@ import React, { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Send, CheckCircle2, GraduationCap, ArrowRight } from "lucide-react"
 
 interface LeadFormProps {
     defaultUniversity?: string;
@@ -29,7 +28,7 @@ export function LeadForm({ defaultUniversity = "" }: LeadFormProps) {
 
         setLoading(true)
         
-        // Save to LocalStorage as a local backup CRM capture
+        // Save to LocalStorage as a local CRM capture
         const newLead = { name, phone, email, qualification, percentage, university, date: new Date().toISOString() }
         const currentLeads = JSON.parse(localStorage.getItem("turkey_leads") || "[]")
         currentLeads.push(newLead)
@@ -59,8 +58,8 @@ Please let me know my eligibility and scholarship tier!`
     if (isSubmitted) {
         return (
             <div className="bg-emerald-50 border border-emerald-100 rounded-3xl p-8 text-center space-y-6 shadow-sm animate-fade-in font-sans">
-                <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto scale-110 shadow-inner">
-                    <CheckCircle2 className="w-10 h-10" />
+                <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto scale-110 shadow-inner font-extrabold text-2xl">
+                    ✓
                 </div>
                 <h3 className="text-2xl font-extrabold text-emerald-950 font-serif">Assessment Details Sent!</h3>
                 <p className="text-emerald-800 leading-relaxed max-w-md mx-auto text-sm">
@@ -73,9 +72,9 @@ Please let me know my eligibility and scholarship tier!`
                             `Hi Lisan.pk, my name is ${name}. I just filled the Turkey Admission Assessment form and want to follow up.`
                         )}`}
                         target="_blank"
-                        className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-md text-sm"
+                        className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-md text-sm w-full"
                     >
-                        Click to Chat on WhatsApp <ArrowRight className="w-4 h-4" />
+                        Click to Chat on WhatsApp
                     </a>
                 </div>
             </div>
@@ -85,11 +84,11 @@ Please let me know my eligibility and scholarship tier!`
     return (
         <div className="bg-white border border-slate-100 rounded-3xl p-8 shadow-2xl relative overflow-hidden font-sans">
             {/* Header Design */}
-            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-red-600 via-rose-500 to-emerald-600"></div>
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-emerald-700 via-emerald-600 to-emerald-800"></div>
             
             <div className="flex items-center gap-2 mb-6">
-                <span className="w-8 h-8 bg-red-100 text-red-600 rounded-xl flex items-center justify-center shrink-0">
-                    <GraduationCap className="w-5 h-5" />
+                <span className="w-8 h-8 bg-emerald-100 text-emerald-700 rounded-xl flex items-center justify-center shrink-0 font-bold text-sm">
+                    ★
                 </span>
                 <div>
                     <h3 className="text-lg font-black text-slate-900 leading-tight">Free Admission Assessment</h3>
@@ -107,7 +106,7 @@ Please let me know my eligibility and scholarship tier!`
                         required 
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        className="h-11 rounded-xl border-slate-200 focus:border-red-500 focus:ring-red-500/20 text-slate-900"
+                        className="h-11 rounded-xl border-slate-200 focus:border-emerald-600 focus:ring-emerald-600/20 text-slate-900"
                     />
                 </div>
 
@@ -121,7 +120,7 @@ Please let me know my eligibility and scholarship tier!`
                             required 
                             value={phone}
                             onChange={(e) => setPhone(e.target.value)}
-                            className="h-11 rounded-xl border-slate-200 focus:border-red-500 focus:ring-red-500/20 text-slate-900"
+                            className="h-11 rounded-xl border-slate-200 focus:border-emerald-600 focus:ring-emerald-600/20 text-slate-900"
                         />
                     </div>
                     <div>
@@ -133,7 +132,7 @@ Please let me know my eligibility and scholarship tier!`
                             required 
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="h-11 rounded-xl border-slate-200 focus:border-red-500 focus:ring-red-500/20 text-slate-900"
+                            className="h-11 rounded-xl border-slate-200 focus:border-emerald-600 focus:ring-emerald-600/20 text-slate-900"
                         />
                     </div>
                 </div>
@@ -145,7 +144,7 @@ Please let me know my eligibility and scholarship tier!`
                             id="qualification"
                             value={qualification}
                             onChange={(e) => setQualification(e.target.value)}
-                            className="w-full h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-900 focus:border-red-500 focus:ring-red-500/20 outline-none"
+                            className="w-full h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-900 focus:border-emerald-600 focus:ring-emerald-600/20 outline-none"
                         >
                             <option value="Matric / O-Level">Matric / O-Level</option>
                             <option value="Intermediate">Intermediate / A-Level</option>
@@ -164,7 +163,7 @@ Please let me know my eligibility and scholarship tier!`
                             max="100"
                             value={percentage}
                             onChange={(e) => setPercentage(e.target.value)}
-                            className="h-11 rounded-xl border-slate-200 focus:border-red-500 focus:ring-red-500/20 text-slate-900"
+                            className="h-11 rounded-xl border-slate-200 focus:border-emerald-600 focus:ring-emerald-600/20 text-slate-900"
                         />
                     </div>
                 </div>
@@ -175,7 +174,7 @@ Please let me know my eligibility and scholarship tier!`
                         id="university"
                         value={university}
                         onChange={(e) => setUniversity(e.target.value)}
-                        className="w-full h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-900 focus:border-red-500 focus:ring-red-500/20 outline-none"
+                        className="w-full h-11 rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-900 focus:border-emerald-600 focus:ring-emerald-600/20 outline-none"
                     >
                         <option value="Beykoz University">Beykoz University (Istanbul - up to 50% discount)</option>
                         <option value="Istanbul Kent University">Istanbul Kent University (Taksim, Istanbul - Dentistry/Software)</option>
@@ -187,15 +186,9 @@ Please let me know my eligibility and scholarship tier!`
                     <Button 
                         type="submit" 
                         disabled={loading}
-                        className="w-full h-12 bg-red-600 hover:bg-red-700 text-white font-extrabold text-sm rounded-xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
+                        className="w-full h-12 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm rounded-xl transition-all shadow-md hover:shadow-lg flex items-center justify-center"
                     >
-                        {loading ? (
-                            "Analyzing Profile..."
-                        ) : (
-                            <>
-                                Secure Free Assessment <Send className="w-4 h-4" />
-                            </>
-                        )}
+                        {loading ? "Analyzing Profile..." : "Secure Free Assessment"}
                     </Button>
                 </div>
 

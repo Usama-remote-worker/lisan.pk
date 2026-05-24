@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState, useEffect } from "react"
-import { MessageSquare, Phone, Send } from "lucide-react"
 
 export function StickyMobileCTA() {
     const [isVisible, setIsVisible] = useState(false)
@@ -43,25 +42,25 @@ export function StickyMobileCTA() {
                 {/* Call Helpline */}
                 <a 
                     href="tel:+923044296295"
-                    className="flex-1 h-12 bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-extrabold text-xs rounded-xl flex items-center justify-center gap-1.5 active:scale-95 transition-all"
+                    className="flex-1 h-12 bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-extrabold text-xs rounded-xl flex items-center justify-center active:scale-95 transition-all"
                 >
-                    <Phone className="w-4 h-4 text-slate-500" /> Call
+                    Call
                 </a>
 
                 {/* WhatsApp Chat */}
                 <button 
                     onClick={handleWhatsAppRedirect}
-                    className="flex-1.5 h-12 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-1.5 active:scale-95 transition-all"
+                    className="flex-1.5 h-12 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs rounded-xl flex items-center justify-center active:scale-95 transition-all"
                 >
-                    <MessageSquare className="w-4 h-4" /> WhatsApp
+                    WhatsApp
                 </button>
 
                 {/* Apply Inline */}
                 <button 
                     onClick={scrollToForm}
-                    className="flex-1.2 h-12 bg-red-600 hover:bg-red-700 text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-1.5 active:scale-95 transition-all"
+                    className="flex-1.2 h-12 bg-emerald-800 hover:bg-emerald-950 text-white font-extrabold text-xs rounded-xl flex items-center justify-center active:scale-95 transition-all"
                 >
-                    <Send className="w-4 h-4" /> Apply
+                    Apply Form
                 </button>
             </div>
         </div>

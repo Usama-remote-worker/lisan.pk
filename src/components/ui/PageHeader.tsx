@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ChevronRight } from "lucide-react"
 
 interface PageHeroProps {
     title: string
@@ -11,7 +10,7 @@ interface PageHeroProps {
 
 export function PageHero({ title, description, breadcrumbs, className, badge }: PageHeroProps) {
     return (
-        <section className={`relative bg-white pt-8 pb-12 lg:pt-10 lg:pb-16 overflow-hidden border-b border-slate-100 ${className}`}>
+        <section className={`relative bg-white pt-8 pb-12 lg:pt-10 lg:pb-16 overflow-hidden border-b border-slate-100 font-sans ${className}`}>
 
             <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-[0.03]"></div>
 
@@ -27,7 +26,7 @@ export function PageHero({ title, description, breadcrumbs, className, badge }: 
                                 </div>
                             ) : (
                                 breadcrumbs && (
-                                    <nav className="flex items-center space-x-3 text-[11px] font-bold uppercase tracking-widest text-slate-400">
+                                    <nav className="flex items-center space-x-3 text-[11px] font-bold uppercase tracking-widest text-slate-400 font-sans">
                                         <Link href="/" className="hover:text-emerald-600 transition-colors">Home</Link>
                                         {breadcrumbs.map((crumb, index) => (
                                             <div key={index} className="flex items-center">
@@ -52,7 +51,7 @@ export function PageHero({ title, description, breadcrumbs, className, badge }: 
                     </h1>
 
                     {description && (
-                        <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animate-delay-200 font-medium">
+                        <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animate-delay-200 font-medium font-sans">
                             {description}
                         </p>
                     )}
@@ -61,4 +60,3 @@ export function PageHero({ title, description, breadcrumbs, className, badge }: 
         </section>
     )
 }
-

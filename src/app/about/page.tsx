@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Metadata } from "next"
-import { ShieldCheck, Award, Clock, Users, CheckCircle, Search, FileText, Check, ArrowRight, ExternalLink } from "lucide-react"
 
 export const metadata: Metadata = {
     title: "About Lisan.pk: 40+ Years of Arabic Translation Expertise",
@@ -72,13 +71,13 @@ export default function AboutPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-emerald-900 mb-6 font-serif leading-tight">
               40+ Years of Certified Arabic Translation in Pakistan – MA Arabic Qualified
             </h1>
-            <p className="text-xl md:text-2xl text-slate-700 mb-6 font-medium leading-relaxed max-w-xl">
+            <p className="text-xl md:text-2xl text-slate-700 mb-6 font-medium leading-relaxed max-w-xl font-sans">
               We translate nikah nama, degrees, and police certificates for Saudi, UAE, and Gulf visas – with a 200% guarantee if rejected due to our error.
             </p>
-            <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-xl">
+            <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-xl font-sans">
               Lisan (لسان) – meaning "tongue" or "language" in Arabic. For over 40 years, we have been Pakistan's trusted voice for embassy‑ready translation.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 font-sans">
               <Link href="/services" className="w-full sm:w-auto">
                 <Button className="w-full bg-emerald-700 hover:bg-emerald-800 text-white min-w-[200px] h-14 text-lg font-bold shadow-lg hover:shadow-xl transition-all">
                   Our Certified Services
@@ -102,23 +101,23 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Banner */}
-      <section className="bg-white py-16 border-y border-slate-200">
+      <section className="bg-white py-16 border-y border-slate-200 font-sans">
         <div className="container mx-auto px-4 max-w-[1280px]">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center animate-in fade-in zoom-in duration-700 delay-100">
-              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2">40+</div>
+              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2 font-serif">40+</div>
               <div className="text-slate-600 font-medium tracking-wide">Years Experience</div>
             </div>
             <div className="text-center animate-in fade-in zoom-in duration-700 delay-200">
-              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2">10,000+</div>
+              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2 font-serif">10,000+</div>
               <div className="text-slate-600 font-medium tracking-wide">Documents Translated</div>
             </div>
             <div className="text-center animate-in fade-in zoom-in duration-700 delay-300">
-              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2">100%<span className="text-2xl align-top">*</span></div>
+              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2 font-serif">100%<span className="text-2xl align-top">*</span></div>
               <div className="text-slate-600 font-medium tracking-wide">Embassy Acceptance</div>
             </div>
             <div className="text-center animate-in fade-in zoom-in duration-700 delay-400">
-              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2">4.9/5</div>
+              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2 font-serif">4.9/5</div>
               <div className="text-slate-600 font-medium tracking-wide">Client Rating</div>
             </div>
           </div>
@@ -129,20 +128,20 @@ export default function AboutPage() {
       </section>
 
       {/* Founder Legacy Section */}
-      <section className="py-24 container mx-auto px-4 max-w-[1280px]">
+      <section className="py-24 container mx-auto px-4 max-w-[1280px] font-sans">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="order-2 lg:order-1 animate-in fade-in slide-in-from-left-8 duration-700">
+          <div className="order-2 lg:order-1 animate-in fade-in slide-in-from-left-8 duration-700 font-sans">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-emerald-900 mb-8 font-serif leading-tight">
               The Legacy of Muhammad Iftikhar Zahid – MA Arabic & Islamiyat
             </h2>
-            <div className="prose prose-lg text-slate-700 max-w-none">
-              <p>
+            <div className="prose prose-lg text-slate-700 max-w-none leading-relaxed text-sm font-medium">
+              <p className="mb-4">
                 Born in Sargodha, Pakistan, Muhammad Iftikhar Zahid’s passion for Arabic emerged early in life. This deep devotion led him to Lahore, where he pursued an MA in Arabic and an MA in Islamiyat, mastering the intricacies of a language that would define his life's work.
               </p>
-              <p>
+              <p className="mb-4">
                 In the late 1980s, his exceptional linguistic command drew the attention of Arab professionals and companies operating in Pakistan. What began as a personal passion soon blossomed into a vital link between two cultures.
               </p>
-              <p>
+              <p className="mb-4">
                 Over four decades later, Mr. Zahid continues to personally oversee Lisan.pk. Every Arabic translation is still reviewed by Mr. Zahid – an MA Arabic holder. He maintains a family-like tradition of service, treating every client's document with the utmost confidentiality, precision, and care. His signature on a translation guarantees uncompromising quality and undisputed acceptance.
               </p>
             </div>
@@ -158,60 +157,56 @@ export default function AboutPage() {
       </section>
 
       {/* The 200% Guarantee Section */}
-      <section className="bg-emerald-50 py-24">
-        <div className="max-w-[1280px] mx-auto px-8">
+      <section className="bg-emerald-50 py-24 font-sans">
+        <div className="max-w-[1280px] mx-auto px-8 font-sans">
           <div className="border-2 border-emerald-500 bg-white p-10 md:p-16 rounded-2xl shadow-xl relative max-w-5xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700">
             <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-emerald-600 text-white font-bold py-2 px-6 rounded-full text-sm uppercase tracking-wider shadow-md whitespace-nowrap">
               Industry Exclusive
             </div>
             <div className="text-center mb-10">
-              <ShieldCheck className="w-16 h-16 text-emerald-700 mx-auto mb-6" />
+              <div className="w-16 h-16 rounded-full bg-emerald-50 text-emerald-800 font-extrabold flex items-center justify-center mx-auto mb-6 text-2xl select-none">✓</div>
               <h2 className="text-3xl md:text-5xl font-bold font-serif text-emerald-900 mb-6">The 200% Guarantee – No Risk to You</h2>
               <p className="text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed font-medium">
                 We stand firmly behind our work. If your translated document is rejected by a Saudi or UAE embassy due to our error, we will:
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="grid md:grid-cols-2 gap-8 mb-8 font-sans">
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 hover:border-emerald-300 transition-colors">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="bg-emerald-100 p-2 rounded-full">
-                    <Check className="w-6 h-6 text-emerald-700" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-emerald-900">100% Protection</h3>
+                  <span className="text-emerald-600 font-extrabold select-none">✓</span>
+                  <h3 className="text-2xl font-bold text-emerald-900 font-serif">100% Protection</h3>
                 </div>
-                <p className="text-slate-700 text-lg">Correct the translation immediately and refund that portion of your project.</p>
+                <p className="text-slate-700 text-sm leading-relaxed">Correct the translation immediately and refund that portion of your project.</p>
               </div>
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 hover:border-emerald-300 transition-colors">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="bg-emerald-100 p-2 rounded-full">
-                    <Check className="w-6 h-6 text-emerald-700" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-emerald-900">200% Commitment</h3>
+                  <span className="text-emerald-600 font-extrabold select-none">✓</span>
+                  <h3 className="text-2xl font-bold text-emerald-900 font-serif">200% Commitment</h3>
                 </div>
-                <p className="text-slate-700 text-lg">Refund double your payment or redo the translation for free + pay your courier costs.</p>
+                <p className="text-slate-700 text-sm leading-relaxed">Refund double your payment or redo the translation for free + pay your courier costs.</p>
               </div>
             </div>
             
-            <p className="text-center text-xl font-bold text-emerald-800">Absolute accuracy is our standard, not a premium feature.</p>
+            <p className="text-center text-xl font-bold text-emerald-800 font-serif">Absolute accuracy is our standard, not a premium feature.</p>
           </div>
         </div>
       </section>
 
       {/* The Truth About "Certified" Translation in Pakistan */}
-      <section className="bg-emerald-900 text-white py-24 relative overflow-hidden">
+      <section className="bg-emerald-900 text-white py-24 relative overflow-hidden font-sans">
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
         <div className="container mx-auto px-4 relative z-10 max-w-[1280px]">
           <div className="max-w-4xl mx-auto bg-black/20 backdrop-blur border border-white/10 p-8 md:p-12 rounded-3xl animate-in fade-in slide-in-from-bottom-8 duration-700">
             <div id="why-no-license" className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-8">
-              <Award className="w-12 h-12 text-emerald-400 flex-shrink-0" />
+              <div className="w-12 h-12 rounded-full bg-emerald-800 text-emerald-400 font-extrabold flex items-center justify-center select-none text-xl flex-shrink-0">★</div>
               <h2 className="text-3xl md:text-4xl font-bold font-serif leading-tight">The Truth About "Certified" Translation in Pakistan</h2>
             </div>
-            <div className="prose prose-lg prose-invert max-w-none">
-              <p className="text-xl text-emerald-50 mb-6 leading-relaxed">
+            <div className="prose prose-lg prose-invert max-w-none text-emerald-50">
+              <p className="text-xl mb-6 leading-relaxed">
                 Unlike the UK, US, or Australia, the Government of Pakistan does not issue an official license for "Sworn Translators." There is no national registry or specific government badge for translators.
               </p>
-              <p className="text-xl text-emerald-50 mb-8 leading-relaxed">
+              <p className="text-xl mb-8 leading-relaxed">
                 Instead, a translation is deemed "certified" based purely on the credibility, academic qualifications, and reputation of the translator as stamped on their official letterhead.
               </p>
               <div className="bg-white/10 rounded-2xl p-6 border-l-4 border-emerald-400 mb-8">
@@ -228,18 +223,18 @@ export default function AboutPage() {
       </section>
 
       {/* Officially Recognized & Accepted By */}
-      <section className="py-24 bg-white border-b border-slate-200">
+      <section className="py-24 bg-white border-b border-slate-200 font-sans">
         <div className="container mx-auto px-4 max-w-[1280px]">
            <div className="text-center animate-in fade-in slide-in-from-bottom-8 duration-700">
                <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 mb-12 font-serif">Officially Recognized & Accepted By</h2>
-               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto text-sm">
                  {['MOFA Pakistan', 'HEC Pakistan', 'Saudi Embassy', 'UAE Embassy', 'Qatar Embassy', 'Oman Embassy', 'German Embassy', 'Turkish Embassy'].map((auth, i) => (
-                    <div key={i} className="p-6 bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-emerald-900 font-bold text-lg flex items-center justify-center text-center hover:border-emerald-500 hover:shadow-md transition-all">
+                    <div key={i} className="p-6 bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-emerald-900 font-bold flex items-center justify-center text-center hover:border-emerald-500 hover:shadow-md transition-all font-serif">
                       {auth}
                     </div>
                  ))}
                </div>
-               <p className="mt-10 text-slate-500 italic max-w-3xl mx-auto">
+               <p className="mt-10 text-slate-500 italic max-w-3xl mx-auto text-xs">
                  Our translations comply fully with the strict regulations of these domestic ministries and international diplomatic missions.
                </p>
            </div>
@@ -247,75 +242,67 @@ export default function AboutPage() {
       </section>
 
       {/* Our 4-Step Quality Process */}
-      <section className="py-24 container mx-auto px-4 max-w-[1280px]">
+      <section className="py-24 container mx-auto px-4 max-w-[1280px] font-sans">
         <div className="text-center max-w-3xl mx-auto mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 mb-6 font-serif">Our 4-Step Quality Process – Zero Room for Error</h2>
         </div>
         
-        <div className="grid md:grid-cols-4 gap-8 relative max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-8 relative max-w-6xl mx-auto text-sm">
           {/* Connector Line (Desktop) */}
           <div className="hidden md:block absolute top-[4.5rem] left-[10%] w-[80%] h-[2px] bg-slate-200 -z-10 rounded-full"></div>
           
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative z-10 text-center transition-transform hover:-translate-y-2">
-            <div className="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white">
-              <FileText className="w-8 h-8" />
-            </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-3">Assessment</h3>
+            <div className="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white font-extrabold text-2xl select-none">1</div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3 font-serif">Assessment</h3>
             <p className="text-slate-600 leading-relaxed">We analyze your document's structure, legal nuances, and the exact target country requirements.</p>
           </div>
           
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative z-10 text-center transition-transform hover:-translate-y-2">
-             <div className="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white">
-              <Users className="w-8 h-8" />
-            </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-3">Translation</h3>
+             <div className="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white font-extrabold text-2xl select-none">2</div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3 font-serif">Translation</h3>
             <p className="text-slate-600 leading-relaxed">Drafting is meticulously handled by our MA-qualified experts with deep cultural contextual knowledge.</p>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative z-10 text-center transition-transform hover:-translate-y-2">
-             <div className="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white">
-              <Search className="w-8 h-8" />
-            </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-3">Proofreading</h3>
+             <div className="w-20 h-20 bg-emerald-50 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white font-extrabold text-2xl select-none">3</div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3 font-serif">Proofreading</h3>
             <p className="text-slate-600 leading-relaxed">Names, dates, and sensitive details are rigorously double-checked against passports, ID cards, and official data.</p>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative z-10 text-center transition-transform hover:-translate-y-2">
-             <div className="w-20 h-20 bg-emerald-700 text-white rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white shadow-md">
-              <CheckCircle className="w-8 h-8" />
-            </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-3">Certification</h3>
+             <div className="w-20 h-20 bg-emerald-700 text-white rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white shadow-md font-extrabold text-2xl select-none">4</div>
+            <h3 className="text-xl font-bold text-slate-900 mb-3 font-serif">Certification</h3>
             <p className="text-slate-600 leading-relaxed">The final document is stamped, signed on official letterhead, sealed, and securely delivered to you.</p>
           </div>
         </div>
       </section>
 
       {/* What Drives Us (Core Values) */}
-      <section className="bg-slate-100 py-24">
+      <section className="bg-slate-100 py-24 font-sans">
         <div className="container mx-auto px-4 max-w-[1280px]">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
             <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 mb-6 font-serif">What Drives Us</h2>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
             <div className="bg-white p-8 rounded-3xl hover:shadow-xl transition-all duration-300 border border-slate-200 hover:border-emerald-300 group">
-              <ShieldCheck className="w-12 h-12 text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500" />
-              <h3 className="text-xl font-bold text-emerald-900 mb-3">Absolute Accuracy</h3>
+              <span className="text-3xl block text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500 select-none">✓</span>
+              <h3 className="text-xl font-bold text-emerald-900 mb-3 font-serif">Absolute Accuracy</h3>
               <p className="text-slate-700">A single typo can ruin a visa application. We translate with pinpoint precision and zero compromises.</p>
             </div>
             <div className="bg-white p-8 rounded-3xl hover:shadow-xl transition-all duration-300 border border-slate-200 hover:border-emerald-300 group">
-              <Award className="w-12 h-12 text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500" />
-              <h3 className="text-xl font-bold text-emerald-900 mb-3">Cultural Nuance</h3>
+              <span className="text-3xl block text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500 select-none">★</span>
+              <h3 className="text-xl font-bold text-emerald-900 mb-3 font-serif">Cultural Nuance</h3>
               <p className="text-slate-700">We don't just translate words; we adapt legal conventions and academic phrasing perfectly for the target.</p>
             </div>
             <div className="bg-white p-8 rounded-3xl hover:shadow-xl transition-all duration-300 border border-slate-200 hover:border-emerald-300 group">
-              <Clock className="w-12 h-12 text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500" />
-              <h3 className="text-xl font-bold text-emerald-900 mb-3">Rapid Turnaround</h3>
+              <span className="text-3xl block text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500 select-none">⏱</span>
+              <h3 className="text-xl font-bold text-emerald-900 mb-3 font-serif">Rapid Turnaround</h3>
               <p className="text-slate-700">Flight deadlines matter. We deliver on time, supporting urgent and same-day cases.</p>
             </div>
             <div className="bg-white p-8 rounded-3xl hover:shadow-xl transition-all duration-300 border border-slate-200 hover:border-emerald-300 group">
-              <Users className="w-12 h-12 text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500" />
-              <h3 className="text-xl font-bold text-emerald-900 mb-3">Total Confidentiality</h3>
+              <span className="text-3xl block text-emerald-600 mb-6 group-hover:scale-110 transition-transform duration-500 select-none">👤</span>
+              <h3 className="text-xl font-bold text-emerald-900 mb-3 font-serif">Total Confidentiality</h3>
               <p className="text-slate-700">Your sensitive documents (FRC, Police Records, degrees) are safe with us. We maintain absolute privacy.</p>
             </div>
           </div>
@@ -323,44 +310,44 @@ export default function AboutPage() {
       </section>
 
       {/* Explore Our Certified Services */}
-      <section className="py-24 container mx-auto px-4 max-w-[1280px]">
+      <section className="py-24 container mx-auto px-4 max-w-[1280px] font-sans">
          <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 mb-6 font-serif">Explore Our Certified Services</h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto text-sm">
              <Link href="/services/translation/nikah-nama-marriage-certificate" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
-                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Nikah Nama Translation for Saudi Visa</span>
-                <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
+                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors font-serif">Nikah Nama Translation for Saudi Visa</span>
+                <span className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform font-bold">→</span>
              </Link>
              <Link href="/services/attestation" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
-                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Degree Attestation for UAE</span>
-                <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
+                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors font-serif">Degree Attestation for UAE</span>
+                <span className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform font-bold">→</span>
              </Link>
              <Link href="/services/translation/police-character-certificate" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
-                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Police Certificate Translation for Qatar</span>
-                <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
+                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors font-serif">Police Certificate Translation for Qatar</span>
+                <span className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform font-bold">→</span>
              </Link>
              <Link href="/services/translation/birth-certificate-translation" className="group p-8 border border-slate-200 rounded-2xl flex items-center justify-between hover:border-emerald-600 hover:shadow-lg transition-all duration-300 bg-white">
-                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors">Birth Certificate (FRC) Translation</span>
-                <ArrowRight className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform w-6 h-6" />
+                <span className="font-bold text-xl text-slate-800 group-hover:text-emerald-700 transition-colors font-serif">Birth Certificate (FRC) Translation</span>
+                <span className="text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-2 transition-transform font-bold">→</span>
              </Link>
              
              <Link href="/services/translation" className="group md:col-span-2 mt-6 text-center text-emerald-800 font-bold text-xl hover:text-emerald-900 transition-colors py-6 rounded-2xl bg-emerald-50 hover:bg-emerald-100 flex items-center justify-center gap-2">
-                 View All Services & Languages <ExternalLink className="w-5 h-5" />
+                 View All Services & Languages →
              </Link>
           </div>
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 bg-white border-t border-slate-100">
+      <section className="py-24 bg-white border-t border-slate-100 font-sans">
         <div className="container mx-auto px-4 max-w-[1280px]">
           <div className="bg-[#064E3B] rounded-[2.5rem] p-10 md:p-20 text-center text-white relative overflow-hidden shadow-2xl">
             <div className="relative z-10 max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-bold mb-6 font-serif">Trust 40 Years of Excellence</h2>
-              <p className="text-xl text-emerald-50 mb-12 leading-relaxed max-w-3xl mx-auto">
+              <p className="text-xl text-emerald-50 mb-12 leading-relaxed max-w-3xl mx-auto font-sans">
                 Don't risk visa rejections or delays with unverified translators. Partner with the most trusted name in certified Arabic translation in Pakistan.
               </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-6 font-sans">
               <Link href="/contact" className="w-full sm:w-auto">
                 <Button className="w-full bg-white text-emerald-900 hover:bg-slate-100 min-w-[220px] h-14 text-lg font-bold shadow-lg transition-all">
                   Reach out to us

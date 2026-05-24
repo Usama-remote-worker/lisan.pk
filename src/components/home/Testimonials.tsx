@@ -1,6 +1,5 @@
 "use client"
 
-import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react"
 import { useRef } from "react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -72,7 +71,7 @@ export function Testimonials() {
     }
 
     return (
-        <section className="py-24 bg-white border-t border-slate-100 overflow-hidden">
+        <section className="py-24 bg-white border-t border-slate-100 overflow-hidden font-sans">
             <div className="container mx-auto px-4 max-w-7xl">
                 <div className="flex flex-col lg:flex-row justify-between items-end mb-16 gap-8">
                     <div className="max-w-2xl">
@@ -99,17 +98,17 @@ export function Testimonials() {
                             variant="outline"
                             size="icon"
                             onClick={() => scroll("left")}
-                            className="rounded-full w-14 h-14 border-slate-200 hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200 transition-all duration-300"
+                            className="rounded-full w-14 h-14 border-slate-200 hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200 transition-all duration-300 flex items-center justify-center font-bold text-xs"
                         >
-                            <ChevronLeft className="h-6 w-6" />
+                            ◀
                         </Button>
                         <Button
                             variant="outline"
                             size="icon"
                             onClick={() => scroll("right")}
-                            className="rounded-full w-14 h-14 border-slate-200 hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200 transition-all duration-300"
+                            className="rounded-full w-14 h-14 border-slate-200 hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-200 transition-all duration-300 flex items-center justify-center font-bold text-xs"
                         >
-                            <ChevronRight className="h-6 w-6" />
+                            ▶
                         </Button>
                     </div>
                 </div>
@@ -134,7 +133,7 @@ export function Testimonials() {
                                 </div>
 
                                 <div className="flex items-center gap-4 mt-auto pt-8 border-t border-slate-50">
-                                    <div className="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-bold shrink-0 text-lg">
+                                    <div className="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-bold shrink-0 text-lg select-none">
                                         {review.avatar}
                                     </div>
                                     <div>
@@ -150,5 +149,3 @@ export function Testimonials() {
         </section>
     )
 }
-
-

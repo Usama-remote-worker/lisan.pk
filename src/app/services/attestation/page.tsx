@@ -1,5 +1,4 @@
 import { PageHero } from "@/components/ui/PageHeader"
-import { CheckCircle2 } from "lucide-react"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function AttestationPage() {
     return (
-        <main className="min-h-screen bg-slate-50">
+        <main className="min-h-screen bg-slate-50 font-sans">
             <PageHero
                 title="Document Attestation Services"
                 description="Complete attestation support for MOFA, HEC, IBCC, and foreign embassies in Pakistan."
@@ -23,19 +22,19 @@ export default function AttestationPage() {
                 ]}
             />
 
-            <section className="py-16">
+            <section className="py-16 font-sans">
                 <div className="container mx-auto px-4 max-w-5xl">
                     <div className="prose prose-slate max-w-none">
                         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
                             <div>
-                                <h2 className="text-3xl font-bold text-slate-900 mb-6">Hassle-Free Attestation Support</h2>
-                                <p className="text-lg text-slate-600 mb-6">
+                                <h2 className="text-3xl font-bold text-slate-900 mb-6 font-serif">Hassle-Free Attestation Support</h2>
+                                <p className="text-lg text-slate-600 mb-6 leading-relaxed">
                                     Navigating government offices for document attestation can be a logistical nightmare. Between long queues and complex requirements, many applicants face delays or rejections. Lisan.pk handles the entire cycle—from HEC verification to Saudi Embassy legalization—ensuring your documents are ready for visa and legal use.
                                 </p>
                             </div>
                             <div className="bg-emerald-50 p-8 rounded-3xl border border-emerald-100 shadow-sm">
-                                <h3 className="text-xl font-bold text-emerald-900 mb-4">Official Verification Nodes</h3>
-                                <div className="space-y-4">
+                                <h3 className="text-xl font-bold text-emerald-900 mb-4 font-serif">Official Verification Nodes</h3>
+                                <div className="space-y-4 font-sans">
                                     {[
                                         { t: "MOFA", d: "Ministry of Foreign Affairs (Islamabad, Lahore, Karachi, Peshawar, Quetta)." },
                                         { t: "HEC", d: "Higher Education Commission (Degree verification & equivalence)." },
@@ -51,29 +50,29 @@ export default function AttestationPage() {
                             </div>
                         </div>
 
-                        <div className="grid md:grid-cols-3 gap-8 my-16">
+                        <div className="grid md:grid-cols-3 gap-8 my-16 font-sans">
                             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-                                <h3 className="text-xl font-bold text-slate-900 mb-4">HEC Attestation</h3>
+                                <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">HEC Attestation</h3>
                                 <p className="text-sm text-slate-600 leading-relaxed">
                                     For educational degrees, HEC verification is the first step. We provide consultancy on the e-portal application, courier logistics, and physical representation for degree verification.
                                 </p>
                             </div>
                             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-                                <h3 className="text-xl font-bold text-slate-900 mb-4">MOFA Legalization</h3>
+                                <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">MOFA Legalization</h3>
                                 <p className="text-sm text-slate-600 leading-relaxed">
                                     The Ministry of Foreign Affairs verifies the authenticity of documents. We handle the submission at all major MOFA camps, saving you days of travel and waiting time.
                                 </p>
                             </div>
                             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-                                <h3 className="text-xl font-bold text-slate-900 mb-4">Saudi Embassy</h3>
+                                <h3 className="text-xl font-bold text-slate-900 mb-4 font-serif">Saudi Embassy</h3>
                                 <p className="text-sm text-slate-600 leading-relaxed">
                                     Required for work and family visas. We process documents through authorized drop-off centers, ensuring all stamps are genuine and embassy-compliant.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="bg-slate-900 text-white p-10 rounded-3xl mb-16">
-                            <h2 className="text-2xl font-bold mb-8">Common Attestation Rejections (How we avoid them)</h2>
+                        <div className="bg-slate-900 text-white p-10 rounded-3xl mb-16 font-sans">
+                            <h2 className="text-2xl font-bold mb-8 font-serif">Common Attestation Rejections (How we avoid them)</h2>
                             <div className="grid sm:grid-cols-2 gap-8">
                                 <div className="space-y-4">
                                     <h4 className="text-emerald-400 font-bold">1. Mismatched Names</h4>
@@ -94,8 +93,8 @@ export default function AttestationPage() {
                             </div>
                         </div>
 
-                        <h2 className="text-2xl font-bold text-slate-900 mb-8">Attestation FAQs</h2>
-                        <div className="space-y-4 mb-12">
+                        <h2 className="text-2xl font-bold text-slate-900 mb-8 font-serif">Attestation FAQs</h2>
+                        <div className="space-y-4 mb-12 font-sans">
                             {[
                                 { q: "Do I need to send my original documents?", a: "Yes, for attestation, government authorities require the physical original documents. We use trackable, secure courier services for all shipments." },
                                 { q: "How long does the whole process take?", a: "MOFA attestation usually takes 2-3 working days. Saudi Embassy attestation can take 7-10 working days depending on current embassy volume." },
@@ -113,4 +112,3 @@ export default function AttestationPage() {
         </main>
     )
 }
-

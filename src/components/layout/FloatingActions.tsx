@@ -1,7 +1,6 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import { FileUp } from "lucide-react"
 import Link from "next/link"
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -32,14 +31,14 @@ export function FloatingActions() {
                     aria-label="Chat on WhatsApp"
                 >
                     <WhatsAppIcon className="h-10 w-10" />
-                    <span className="absolute right-full mr-4 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+                    <span className="absolute right-full mr-4 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none font-sans">
                         {isScholarshipPage ? "Scholarship Help" : "Chat with Expert"}
                     </span>
                 </a>
             </div>
 
             {/* Mobile Sticky Bar */}
-            <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white/95 border-t border-slate-100 p-3 shadow-[0_-10px_30px_rgba(0,0,0,0.08)] backdrop-blur-md">
+            <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white/95 border-t border-slate-100 p-3 shadow-[0_-10px_30px_rgba(0,0,0,0.08)] backdrop-blur-md font-sans">
                 <div className="flex gap-3 max-w-md mx-auto">
                     <Link href="https://wa.me/923044296295" className="flex-1">
                         <button 
@@ -54,7 +53,7 @@ export function FloatingActions() {
                             id="gtm-quote-float-mobile"
                             className="w-full h-12 bg-slate-900 text-white rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-sm shadow-lg shadow-slate-900/20"
                         >
-                            <FileUp className="w-4 h-4" /> Get Quote
+                            Get Quote
                         </button>
                     </Link>
                 </div>

@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { MessageCircle, HelpCircle } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { faqs as defaultFaqs, type Faq } from "@/data/faqs"
@@ -14,7 +13,7 @@ export function FaqSection({ faqs = defaultFaqs }: { faqs?: Faq[] }) {
     const activeFaq = faqs.find(f => f.id === selectedId) || displayFaqs[0]
 
     return (
-        <section className="py-24 bg-white overflow-hidden relative">
+        <section className="py-24 bg-white overflow-hidden relative font-sans">
             <div className="container px-4 md:px-6 mx-auto max-w-6xl relative z-10">
                 {/* Support Label */}
                 <div className="flex items-center justify-center gap-4 mb-8">
@@ -61,8 +60,8 @@ export function FaqSection({ faqs = defaultFaqs }: { faqs?: Faq[] }) {
                         transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                         className="bg-white rounded-[3.5rem] p-10 md:p-20 border border-slate-100 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.05)] max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-start"
                     >
-                        <div className="w-20 h-20 rounded-3xl bg-slate-50 flex items-center justify-center shrink-0 border border-slate-100 shadow-sm">
-                            <MessageCircle className="w-10 h-10 text-slate-900" />
+                        <div className="w-20 h-20 rounded-3xl bg-slate-50 flex items-center justify-center shrink-0 border border-slate-100 shadow-sm font-black text-2xl text-slate-900 select-none">
+                            Q
                         </div>
                         
                         <div className="flex-1">
@@ -84,4 +83,3 @@ export function FaqSection({ faqs = defaultFaqs }: { faqs?: Faq[] }) {
         </section>
     )
 }
-

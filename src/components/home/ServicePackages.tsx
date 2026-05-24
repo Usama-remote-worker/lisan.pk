@@ -1,18 +1,16 @@
-import { Check, ShieldCheck, Zap, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { packages } from "@/data/location-services"
-
 import { ScrollReveal } from "@/components/animations/ScrollReveal"
 
 export function ServicePackages() {
     return (
-        <section className="py-24 bg-[#f8fafc]">
+        <section className="py-24 bg-[#f8fafc] font-sans">
             <div className="container mx-auto px-4 max-w-7xl">
                 <ScrollReveal>
                     <div className="text-center mb-16">
                         <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-700 rounded-full text-xs font-bold uppercase tracking-widest mb-6 border border-emerald-100">
-                            <Sparkles className="w-4 h-4" /> Best Value Bundles
+                            Best Value Bundles
                         </div>
                         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-serif">Complete Scholarship Packages</h2>
                         <p className="text-slate-500 text-lg max-w-2xl mx-auto">
@@ -41,9 +39,7 @@ export function ServicePackages() {
                                     <p className="text-xs font-bold text-emerald-600 uppercase tracking-widest">Includes:</p>
                                     {pkg.includes.map((item, i) => (
                                         <div key={i} className="flex items-start gap-3">
-                                            <div className="p-1 bg-emerald-50 rounded-full mt-0.5">
-                                                <Check className="w-3 h-3 text-emerald-600" />
-                                            </div>
+                                            <span className="text-emerald-600 font-bold text-sm">✓</span>
                                             <span className="text-sm text-slate-700 font-medium">{item}</span>
                                         </div>
                                     ))}
@@ -77,7 +73,7 @@ export function ServicePackages() {
                                     "24/7 Support"
                                 ].map((item) => (
                                     <div key={item} className="flex items-center gap-3">
-                                        <ShieldCheck className="w-5 h-5 text-emerald-400" />
+                                        <span className="text-emerald-400 font-bold">✓</span>
                                         <span className="text-emerald-100 font-medium">{item}</span>
                                     </div>
                                 ))}

@@ -3,6 +3,7 @@ import { Hero } from "@/components/home/Hero"
 import { DocumentTranslationGrid } from "@/components/home/DocumentTranslationGrid"
 import { B2BTravelSection } from "@/components/home/B2BTravelSection"
 import { AttestationList } from "@/components/home/AttestationList"
+import { StudyAbroadPromo } from "@/components/home/StudyAbroadPromo"
 import { TestimonialSection } from "@/components/home/TestimonialSection"
 import { FaqSection } from "@/components/home/FaqSection"
 import { BlogPreview } from "@/components/home/BlogPreview"
@@ -88,6 +89,10 @@ export default async function Home() {
       <B2BTravelSection />
       
       <AttestationList />
+
+      {/* Premium Study Abroad Turkey Section */}
+      <StudyAbroadPromo />
+
       <LocationGrid />
       <TestimonialSection />
       <FaqSection />
@@ -96,5 +101,3 @@ export default async function Home() {
     </main>
   )
 }
-
-
