@@ -15,6 +15,12 @@ export function AnnouncementBar() {
             href: "/consultancy/saudi-scholarship"
         },
         {
+            iconText: "🇹🇷",
+            text: "Admissions Open: 2026 Foundation & Private Turkey Universities",
+            linkText: "Apply Free",
+            href: "/study-in-turkey"
+        },
+        {
             iconText: "%",
             text: "Student Policy: Flat Discounts on Certified Arabic Translation",
             linkText: "Avail Discount",
@@ -25,6 +31,12 @@ export function AnnouncementBar() {
             text: "Important: Saudi Scholarship Deadlines Approaching",
             linkText: "View Schedule",
             href: "/consultancy/saudi-scholarship"
+        },
+        {
+            iconText: "🎓",
+            text: "Turkey 2026 Intake: Apply Without IELTS Using High School Diploma",
+            linkText: "Learn More",
+            href: "/study-in-turkey"
         }
     ]
 
@@ -33,7 +45,7 @@ export function AnnouncementBar() {
             setCurrentIndex((prev) => (prev + 1) % announcements.length)
         }, 5000)
         return () => clearInterval(timer)
-    }, [])
+    }, [announcements.length])
 
     if (!isVisible) return null
 
