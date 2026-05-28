@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title,
         description,
         alternates: {
-            canonical: `/locations/${normalizedCity}/${service.toLowerCase()}`,
+            canonical: `https://www.lisan.pk/locations/${normalizedCity}/${service.toLowerCase()}`,
         },
     }
 }
@@ -329,6 +329,42 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                     <Link href="/blog/fully-funded-scholarship-deadlines-saudi-universities-2026" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
                                         KSU & KAU Deadlines
                                         <span className="text-emerald-400">→</span>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            {/* Study in Turkey Cross-Linking Widget */}
+                            <div className="p-8 bg-gradient-to-br from-emerald-950 to-slate-900 rounded-[2.5rem] text-white border border-emerald-900/50 relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl" />
+                                <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-full text-[10px] font-black uppercase tracking-[0.15em] mb-4">
+                                    Study Abroad from {cityData.name}
+                                </div>
+                                <h4 className="text-lg font-black text-white leading-snug mb-3 font-serif">
+                                    Study in Turkey — Up to 75% Scholarship
+                                </h4>
+                                <p className="text-slate-400 text-xs leading-relaxed mb-5">
+                                    Students from {cityData.name} are now securing guaranteed university admissions in Istanbul with zero IELTS requirement. Our physical Bozok Technopark desk handles all on-ground support.
+                                </p>
+                                <ul className="space-y-2 mb-6">
+                                    {["No IELTS mandatory", "50%+ flat scholarship waiver", "Physical Turkey HQ verified", "Free application processing"].map(item => (
+                                        <li key={item} className="flex items-center gap-2 text-xs font-bold text-slate-200">
+                                            <span className="text-emerald-400 shrink-0">✓</span> {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                                <div className="space-y-2">
+                                    <Link
+                                        href="/study-in-turkey"
+                                        className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-xl font-extrabold text-sm transition-all"
+                                    >
+                                        Explore Turkey Admissions →
+                                    </Link>
+                                    <Link
+                                        href={`https://wa.me/923044296295?text=Hi%20Lisan.pk%2C%20I%20am%20from%20${encodeURIComponent(cityData.name)}%20and%20want%20to%20know%20about%20Study%20in%20Turkey%20admissions.`}
+                                        target="_blank"
+                                        className="block w-full bg-white/5 hover:bg-white/10 border border-white/10 text-white text-center py-3 rounded-xl font-bold text-xs transition-all"
+                                    >
+                                        WhatsApp Turkey Desk
                                     </Link>
                                 </div>
                             </div>

@@ -50,9 +50,29 @@ export default async function TurkeyUniversityPage({ params }: PageProps) {
         }))
     }
 
+    const organizationSchema = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.lisan.pk#organization",
+        "name": "Lisan.pk",
+        "url": "https://www.lisan.pk",
+        "description": "Pakistan's most trusted Arabic translation and international education consultancy. 40+ years of expertise led by MA Arabic & Islamiyat qualified founder.",
+        "telephone": "+923044296295",
+        "email": "lisan.pk.services@gmail.com",
+        "foundingDate": "1984",
+        "founder": {
+            "@type": "Person",
+            "name": "Muhammad Iftikhar Zahid",
+            "jobTitle": "Founder & Head Translator"
+        }
+    }
+
     const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        "publisher": {
+            "@id": "https://www.lisan.pk#organization"
+        },
         "itemListElement": [
             {
                 "@type": "ListItem",
@@ -77,6 +97,7 @@ export default async function TurkeyUniversityPage({ params }: PageProps) {
 
     return (
         <main className="min-h-screen bg-white pt-24 font-sans overflow-x-hidden">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             

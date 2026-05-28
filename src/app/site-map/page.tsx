@@ -2,11 +2,15 @@ import Link from 'next/link'
 import { getSortedPostsData } from '@/lib/blog'
 import { cities, services } from '@/data/location-services'
 import { universities } from '@/data/scholarship-universities'
+import { turkeyUniversities } from '@/data/turkey-universities'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Sitemap - All Services & Locations',
-    description: 'Complete directory of Lisan.pk services, locations, and scholarship guides across Pakistan.',
+    title: 'Sitemap - All Services & Locations | Lisan.pk',
+    description: 'Complete directory of Lisan.pk services, locations, scholarship guides, and Study in Turkey admissions across Pakistan.',
+    alternates: {
+        canonical: 'https://www.lisan.pk/site-map',
+    },
 }
 
 export default async function SitemapPage() {
@@ -19,6 +23,7 @@ export default async function SitemapPage() {
         { name: 'Blog & Guides', href: '/blog' },
         { name: 'Contact Support', href: '/contact' },
         { name: 'Saudi Scholarship Consultancy', href: '/consultancy/saudi-scholarship' },
+        { name: 'Study in Turkey Hub', href: '/study-in-turkey' },
     ]
 
     const serviceLinks = [
@@ -81,13 +86,35 @@ export default async function SitemapPage() {
                         <section>
                             <h2 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
                                 <span className="h-2 w-2 bg-emerald-500 rounded-full"></span>
-                                Scholarship Guides
+                                Saudi Scholarship Guides
                             </h2>
                             <ul className="space-y-3">
                                 {Object.entries(universities).map(([slug, uni]: [string, any]) => (
                                     <li key={slug}>
                                         <Link href={`/scholarships/${slug}`} className="text-slate-600 hover:text-emerald-600 transition-colors">
                                             {uni.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+
+                        {/* Study in Turkey */}
+                        <section>
+                            <h2 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                                <span className="h-2 w-2 bg-emerald-500 rounded-full"></span>
+                                Study in Turkey Admissions
+                            </h2>
+                            <ul className="space-y-3">
+                                <li>
+                                    <Link href="/study-in-turkey" className="text-emerald-700 font-bold hover:text-emerald-600 transition-colors">
+                                        Turkey Admissions Hub
+                                    </Link>
+                                </li>
+                                {Object.entries(turkeyUniversities).map(([slug, uni]) => (
+                                    <li key={slug}>
+                                        <Link href={`/study-in-turkey/${slug}`} className="text-slate-600 hover:text-emerald-600 transition-colors">
+                                            {uni.name} — Istanbul
                                         </Link>
                                     </li>
                                 ))}
@@ -120,8 +147,8 @@ export default async function SitemapPage() {
                             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
                                 {Object.values(cities).map(city => (
                                     <div key={city.name} className="space-y-2">
-                                        <Link 
-                                            href={`/locations/${city.name.toLowerCase()}`} 
+                                        <Link
+                                            href={`/locations/${city.name.toLowerCase()}`}
                                             className="font-semibold text-slate-800 hover:text-emerald-600 block"
                                         >
                                             {city.name}
@@ -129,7 +156,7 @@ export default async function SitemapPage() {
                                         <ul className="space-y-1">
                                             {Object.keys(services).slice(0, 2).map(serviceKey => (
                                                 <li key={serviceKey}>
-                                                    <Link 
+                                                    <Link
                                                         href={`/locations/${city.name.toLowerCase()}/${serviceKey}`}
                                                         className="text-[10px] text-slate-500 hover:text-emerald-500"
                                                     >
@@ -148,3 +175,4 @@ export default async function SitemapPage() {
         </main>
     )
 }
+

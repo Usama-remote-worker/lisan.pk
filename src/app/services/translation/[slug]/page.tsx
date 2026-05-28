@@ -167,7 +167,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: `${data.title} | Lisan.pk`,
         description: data.description,
         alternates: {
-            canonical: `/services/translation/${slug}`,
+            canonical: `https://www.lisan.pk/services/translation/${slug}`,
         },
     }
 }

@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: `Arabic Translation & Certified Document Services in ${cityData.name}`,
         description: `Certified Arabic translation, attestation, and document legalization services in ${cityData.name}. Trusted for Saudi and UAE embassy applications with secure handling.`,
         alternates: {
-            canonical: `/locations/${normalizedCity}`,
+            canonical: `https://www.lisan.pk/locations/${normalizedCity}`,
         },
     }
 }

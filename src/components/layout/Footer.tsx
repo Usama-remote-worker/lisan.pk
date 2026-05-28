@@ -46,10 +46,10 @@ export function Footer() {
                             </ul>
                         </div>
 
-                        {/* Scholarships & Company Section */}
-                        <div className="space-y-12">
+                        {/* Study Abroad Hub Section */}
+                        <div className="space-y-10">
                             <div>
-                                <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Scholarships 2026</h4>
+                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-widest">Saudi Scholarships</h4>
                                 <ul className="space-y-3 text-sm font-sans">
                                     {universityList.map(([slug, uni]) => (
                                         <li key={slug}>
@@ -62,7 +62,16 @@ export function Footer() {
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Company</h4>
+                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-widest">Study in Turkey</h4>
+                                <ul className="space-y-3 text-sm font-sans">
+                                    <li><Link href="/study-in-turkey" className="hover:text-emerald-400 transition-colors font-bold text-emerald-400">Turkey Admissions Hub</Link></li>
+                                    <li><Link href="/study-in-turkey/beykoz-university" className="hover:text-emerald-400 transition-colors text-slate-400">Beykoz University Istanbul</Link></li>
+                                    <li><Link href="/study-in-turkey/kent-university" className="hover:text-emerald-400 transition-colors text-slate-400">Istanbul Kent University</Link></li>
+                                    <li><Link href="/study-in-turkey/topkapi-university" className="hover:text-emerald-400 transition-colors text-slate-400">Istanbul Topkapi University</Link></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-widest">Company</h4>
                                 <ul className="space-y-3 text-sm font-sans">
                                     <li><Link href="/about" className="hover:text-emerald-400 transition-colors">About Lisan.pk</Link></li>
                                     <li><Link href="/blog" className="hover:text-emerald-400 transition-colors">Blog & Resources</Link></li>

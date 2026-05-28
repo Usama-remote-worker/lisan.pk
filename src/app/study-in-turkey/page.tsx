@@ -64,13 +64,40 @@ export default function StudyInTurkeyHub() {
         ]
     }
 
+    const organizationSchema = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.lisan.pk#organization",
+        "name": "Lisan.pk",
+        "url": "https://www.lisan.pk",
+        "logo": "https://www.lisan.pk/logo-icon-white.svg",
+        "description": "Pakistan's most trusted Arabic translation and international education consultancy platform. 40+ years of excellence led by MA Arabic & Islamiyat qualified experts.",
+        "telephone": "+923044296295",
+        "email": "lisan.pk.services@gmail.com",
+        "foundingDate": "1984",
+        "founder": {
+            "@type": "Person",
+            "name": "Muhammad Iftikhar Zahid",
+            "jobTitle": "Founder & Head Translator",
+            "knowsAbout": ["Arabic Translation", "MOFA Attestation", "Saudi University Admissions", "International Education Consultancy"]
+        },
+        "areaServed": "PK",
+        "sameAs": [
+            "https://wa.me/923044296295"
+        ]
+    }
+
     const localBusinessSchema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://www.lisan.pk/study-in-turkey#turkey-hub",
         "name": "Lisan.pk Study in Turkey Admissions Hub",
         "image": "https://www.lisan.pk/images/blog/saudi-scholarship-certified-arabic-translation.png",
         "telephone": "+923044296295",
         "email": "lisan.pk.services@gmail.com",
+        "parentOrganization": {
+            "@id": "https://www.lisan.pk#organization"
+        },
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Bozok Technopark, Yozgat Bozok University Campus",
@@ -86,6 +113,7 @@ export default function StudyInTurkeyHub() {
 
     return (
         <main className="min-h-screen bg-white pt-24 overflow-x-hidden font-sans">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
             
