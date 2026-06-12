@@ -175,7 +175,7 @@ While translation quality matters, document preparation also heavily affects you
 
 ### 1. PDF Naming Conventions
 Use clear, professional file names. Avoid random scanner outputs.
-*   **Good:** `Passport-Usama.pdf`, `BSCS-Transcript.pdf`, `SOP-SaudiScholarship.pdf`
+*   **Good:** `Passport-Ali.pdf`, `BSCS-Transcript.pdf`, `SOP-SaudiScholarship.pdf`
 *   **Bad:** `scan123.pdf`, `newfile2.pdf`, `doc-final-v3.pdf`
 
 ### 2. Scan Quality

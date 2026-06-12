@@ -3,7 +3,7 @@ title: "USCIS Certified Translation Services: Complete Guide for Immigration App
 date: "2026-06-12"
 summary: "A complete guide to USCIS certified translation services, explaining 8 CFR 103.2(b)(3) requirements, common mistakes, costs, and how to choose a reliable provider for your immigration applications."
 category: "Translation"
-author: "Usama"
+author: "Lisan.pk Editorial Team"
 readingTime: "8 min"
 published: true
 tags: ["USCIS", "Certified Translation", "Immigration Translation", "Document Translation", "USA"]
@@ -240,8 +240,7 @@ Get a free quote and ensure your documents are ready for submission.
 
 ---
 
-### About the Author
-**Usama** leads content strategy and international language services initiatives at Lisan.pk. With extensive experience in multilingual communication, translation workflows, and immigration document localization, he helps individuals and organizations navigate cross-border documentation requirements with confidence.
+
 
 ### Internal Link Recommendations
 * [Certified Translation Services](/services/translation/certified-translation)
