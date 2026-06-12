@@ -112,7 +112,7 @@ export default function StudyInTurkeyHub() {
     }
 
     return (
-        <main className="min-h-screen bg-white pt-24 overflow-x-hidden font-sans">
+        <main className="min-h-screen bg-white overflow-x-hidden font-sans">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
@@ -120,8 +120,34 @@ export default function StudyInTurkeyHub() {
             <ExitPopup />
             <StickyMobileCTA />
 
+            {/* Page Navigation Bar */}
+            <div className="hidden md:block sticky top-16 z-40 bg-white border-b border-slate-100 shadow-sm">
+                <div className="container mx-auto px-4 max-w-7xl">
+                    <div className="flex items-center gap-6 h-12 overflow-x-auto scrollbar-hide">
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-widest shrink-0">Quick Nav:</span>
+                        {[
+                            { label: "Why Turkey", href: "#why-turkey" },
+                            { label: "Universities", href: "#universities" },
+                            { label: "Programs", href: "#tuition" },
+                            { label: "Process", href: "#process" },
+                            { label: "Scholarships", href: "#scholarships" },
+                            { label: "Turkey Office", href: "#office" },
+                            { label: "Testimonials", href: "#testimonials" },
+                            { label: "FAQ", href: "#visa" },
+                        ].map((item) => (
+                            <a key={item.label} href={item.href} className="text-xs font-bold text-slate-600 hover:text-emerald-700 transition-colors shrink-0 border-b-2 border-transparent hover:border-emerald-600 pb-1">
+                                {item.label}
+                            </a>
+                        ))}
+                        <a href="#turkey-lead-form" className="ml-auto shrink-0 text-xs font-extrabold bg-emerald-700 text-white px-4 py-1.5 rounded-lg hover:bg-emerald-800 transition-colors">
+                            Apply Free →
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             {/* 1. HERO SECTION */}
-            <section className="relative bg-slate-950 text-white py-24 md:py-32 overflow-hidden">
+            <section className="relative bg-slate-950 text-white py-20 md:py-28 overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-950/40 via-slate-950 to-slate-950 z-0"></div>
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-[0.03] z-0"></div>
                 
@@ -174,7 +200,7 @@ export default function StudyInTurkeyHub() {
             </section>
 
             {/* 2. TRUST / STATS INDICATORS */}
-            <section className="py-12 bg-slate-50 border-b border-slate-200/60">
+            <section className="py-10 bg-slate-50 border-b border-slate-200/60">
                 <div className="container mx-auto px-4 max-w-6xl">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center font-sans">
                         {[
@@ -193,7 +219,7 @@ export default function StudyInTurkeyHub() {
             </section>
 
             {/* 3. WHY STUDY IN TURKEY */}
-            <section className="py-24 container mx-auto px-4 max-w-6xl font-sans">
+            <section id="why-turkey" className="py-16 container mx-auto px-4 max-w-6xl font-sans">
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-500/5 text-emerald-700 rounded-full text-xs font-semibold tracking-wider uppercase border border-emerald-500/10">
                         High EEAT Standards
@@ -255,10 +281,12 @@ export default function StudyInTurkeyHub() {
             </section>
 
             {/* 4. DYNAMIC UNIVERSITY MATRIX SHOWCASE */}
-            <UniversitySection />
+            <div id="universities">
+                <UniversitySection />
+            </div>
 
             {/* 5. HOT PROGRAMS SECTION */}
-            <section id="tuition" className="py-24 bg-white border-b border-slate-200/60 font-sans">
+            <section id="tuition" className="py-16 bg-white border-b border-slate-200/60 font-sans">
                 <div className="container mx-auto px-4 max-w-6xl">
                     <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                         <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-500/5 text-emerald-700 rounded-full text-xs font-semibold tracking-wider uppercase border border-emerald-500/10">
@@ -327,7 +355,7 @@ export default function StudyInTurkeyHub() {
             </section>
 
             {/* 6. STEP-BY-STEP ADMISSION PROCESS */}
-            <section id="process" className="py-24 bg-white font-sans border-b border-slate-200/60">
+            <section id="process" className="py-16 bg-slate-50 font-sans border-b border-slate-200/60">
                 <div className="container mx-auto px-4 max-w-6xl space-y-16">
                     
                     {/* Section Header */}
@@ -457,7 +485,7 @@ export default function StudyInTurkeyHub() {
             </section>
 
             {/* 7. SCHOLARSHIPS & COSTS SECTION */}
-            <section id="scholarships" className="py-24 bg-slate-950 text-white relative overflow-hidden font-sans border-b border-slate-900">
+            <section id="scholarships" className="py-16 bg-slate-950 text-white relative overflow-hidden font-sans border-b border-slate-900">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-950/20 via-slate-950 to-slate-950 z-0"></div>
                 <div className="container mx-auto px-4 max-w-6xl relative z-10">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -510,7 +538,7 @@ export default function StudyInTurkeyHub() {
             </section>
 
             {/* 8. STUDENT BENEFITS & PHYSICAL HQ */}
-            <section className="py-24 bg-slate-900 text-white border-y border-slate-800">
+            <section id="office" className="py-16 bg-slate-900 text-white border-y border-slate-800">
                 <div className="container mx-auto px-4 max-w-7xl">
                     <div className="grid lg:grid-cols-12 gap-16 items-center">
                         
@@ -573,7 +601,7 @@ export default function StudyInTurkeyHub() {
             </section>
 
             {/* 9. TESTIMONIALS */}
-            <section className="py-24 container mx-auto px-4 max-w-6xl font-sans">
+            <section id="testimonials" className="py-16 container mx-auto px-4 max-w-6xl font-sans">
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <h2 className="text-3xl md:text-5xl font-black text-slate-900 font-serif leading-tight">
                         Student Success Stories

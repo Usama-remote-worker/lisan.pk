@@ -27,14 +27,7 @@ export function Header() {
                 { label: "Study in Saudi Arabia", href: "/consultancy/saudi-scholarship" }
             ]
         },
-        { 
-            label: "Blog", 
-            children: [
-                { label: "Translation Blogs", href: "/blog?category=translation" },
-                { label: "Turkey Blogs", href: "/blog?category=turkey" },
-                { label: "Saudi Blogs", href: "/blog?category=saudi" }
-            ]
-        },
+        { label: "Blog", href: "/blog" },
         { label: "Contact", href: "/contact" }
     ]
 

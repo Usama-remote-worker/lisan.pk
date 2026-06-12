@@ -1,19 +1,67 @@
 import Link from "next/link"
 import { WhyChooseUs } from "@/components/home/WhyChooseUs"
+import { TranslationProcess } from "@/components/layout/TranslationProcess"
 import { cities } from "@/data/location-services"
 import { universities } from "@/data/scholarship-universities"
 
 export function Footer() {
-    const cityList = Object.keys(cities);
     const universityList = Object.entries(universities);
+
+    // Curated top Pakistan cities for the location architecture
+    const topPakistanCities = [
+        "karachi", "lahore", "islamabad", "rawalpindi", "faisalabad", 
+        "multan", "sialkot", "peshawar", "gujranwala", "quetta", "hyderabad", "bahawalpur"
+    ];
+
+    const internationalLocations = [
+        { name: "USA", href: "/countries/usa" },
+        { name: "UK", href: "/countries/uk" },
+        { name: "Canada", href: "/countries/canada" },
+        { name: "Australia", href: "/countries/australia" },
+        { name: "UAE", href: "/countries/uae" },
+        { name: "Saudi Arabia", href: "/countries/saudi-arabia" },
+        { name: "Qatar", href: "/countries/qatar" },
+        { name: "Turkey", href: "/countries/turkey" },
+        { name: "Germany", href: "/countries/germany" },
+        { name: "France", href: "/countries/france" }
+    ];
+
+    const trustFeatures = [
+        { label: "Certified Translations", desc: "100% Embassy Accepted" },
+        { label: "100+ Languages", desc: "Global Coverage" },
+        { label: "Worldwide Delivery", desc: "Secure Tracked Courier" },
+        { label: "Native Linguists", desc: "Professional Accuracy" },
+        { label: "Secure & Confidential", desc: "Strict Data Protection" },
+        { label: "Fast Turnaround", desc: "Same-Day Express Available" }
+    ];
 
     return (
         <>
             <WhyChooseUs />
-            <footer className="bg-slate-900 text-slate-300 py-16 border-t border-slate-800 font-sans">
-                <div className="container mx-auto px-4">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-                        {/* Brand Section */}
+            <TranslationProcess />
+            <footer className="bg-[#050505] text-zinc-300 py-16 border-t border-zinc-900 font-sans">
+                <div className="container mx-auto px-4 max-w-7xl">
+                    
+                    {/* Horizontal Trust Banner (Why Lisan.pk) */}
+                    <div className="border-b border-zinc-900 pb-10 mb-12">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                            {trustFeatures.map((feat) => (
+                                <div 
+                                    key={feat.label} 
+                                    className="p-5 bg-zinc-900/40 rounded-2xl border border-zinc-800/60 hover:border-emerald-500/30 transition-all duration-300 flex flex-col items-center text-center group"
+                                >
+                                    <span className="text-emerald-500 text-lg mb-2 font-bold select-none group-hover:scale-110 transition-transform">✓</span>
+                                    <h5 className="text-white text-xs font-bold mb-1 tracking-tight">{feat.label}</h5>
+                                    <p className="text-[10px] text-zinc-400 font-medium">{feat.desc}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Main Grid with Custom Proportions (3fr, 2fr, 2fr, 2fr, 2fr, 3fr) */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-[3fr_2fr_2fr_2fr_2fr_3fr] gap-8 mb-14 pb-14 border-b border-zinc-900">
+                        
+                        {/* Column 1: About Lisan.pk */}
                         <div className="space-y-6">
                             <div className="flex items-center space-x-2">
                                 <img 
@@ -23,113 +71,170 @@ export function Footer() {
                                 />
                                 <h3 className="text-white text-xl font-bold tracking-tight font-serif">Lisan<span className="text-emerald-500">.pk</span></h3>
                             </div>
-                            <p className="text-sm leading-relaxed text-slate-400 max-w-xs font-sans">
-                                Pakistan’s most trusted Arabic translation and attestation platform. Specializing in Saudi university admissions and document legalization for over 40 years.
+                            <p className="text-xs leading-relaxed text-zinc-400 font-medium">
+                                Lisan.pk is a professional multilingual translation agency providing certified translation services in 100+ languages for individuals, businesses, universities, immigration applications, legal matters, and international organizations worldwide.
                             </p>
-                            <div className="pt-4 border-t border-slate-800">
-                                <h4 className="text-white text-xs font-bold uppercase tracking-widest mb-3">Office Status</h4>
-                                <p className="text-xs text-slate-500">Serving Nationwide Pakistan via secure courier – No physical office visits required.</p>
+                            <div className="pt-4 border-t border-zinc-900">
+                                <h4 className="text-white text-[10px] font-bold uppercase tracking-widest mb-1.5">Office Status</h4>
+                                <p className="text-[11px] text-zinc-400 font-medium leading-relaxed">Serving Nationwide Pakistan & International Markets via secure courier & digital delivery.</p>
                             </div>
                         </div>
 
-                        {/* Services Section */}
+                        {/* Column 2: Translation Services */}
                         <div>
-                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Our Services</h4>
-                            <ul className="space-y-3 text-sm font-sans">
-                                <li><Link href="/services/translation" className="hover:text-emerald-400 transition-colors">Arabic Translation</Link></li>
-                                <li><Link href="/services/attestation" className="hover:text-emerald-400 transition-colors">MOFA Attestation</Link></li>
-                                <li><Link href="/services/document" className="hover:text-emerald-400 transition-colors">Document Legalization</Link></li>
-                                <li><Link href="/services/translation/nikah-nama-marriage-certificate" className="hover:text-emerald-400 transition-colors text-slate-400">Nikah Nama Translation</Link></li>
-                                <li><Link href="/services/translation/birth-certificate-translation" className="hover:text-emerald-400 transition-colors text-slate-400">Birth Certificate / B-Form</Link></li>
-                                <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-emerald-400 transition-colors text-slate-400">HEC Degree & Transcript</Link></li>
-                                <li><Link href="/services/translation/police-character-certificate" className="hover:text-emerald-400 transition-colors text-slate-400">Police Character Certificate</Link></li>
+                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-wider">Services</h4>
+                            <ul className="space-y-3 text-xs font-medium text-zinc-400">
+                                <li><Link href="/services/translation/certified-translation" className="hover:text-white transition-colors">Certified Translation</Link></li>
+                                <li><Link href="/services/translation/legal-translation" className="hover:text-white transition-colors">Legal Translation</Link></li>
+                                <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-white transition-colors">Academic Translation</Link></li>
+                                <li><Link href="/services/uscis-certified-translation" className="hover:text-white transition-colors">Immigration Translation</Link></li>
+                                <li><Link href="/services/translation/iata-dts-umrah-travel-agency" className="hover:text-white transition-colors">Business Translation</Link></li>
+                                <li><Link href="/services/document" className="hover:text-white transition-colors">Document Legalization</Link></li>
+                                <li><Link href="/services/attestation" className="hover:text-white transition-colors">MOFA Attestation</Link></li>
                             </ul>
                         </div>
 
-                        {/* Study Abroad Hub Section */}
-                        <div className="space-y-10">
+                        {/* Column 3: Languages */}
+                        <div>
+                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-wider">Languages</h4>
+                            <ul className="space-y-3 text-xs font-medium text-zinc-400">
+                                <li><Link href="/services/translation/arabic-translation" className="hover:text-white transition-colors">Arabic Translation</Link></li>
+                                <li><Link href="/services/translation/urdu-to-english-translation" className="hover:text-white transition-colors">Urdu Translation</Link></li>
+                                <li><Link href="/services/translation/english-translation" className="hover:text-white transition-colors">English Translation</Link></li>
+                                <li><Link href="/services/translation/turkish-translation" className="hover:text-white transition-colors">Turkish Translation</Link></li>
+                                <li><Link href="/services/translation/spanish-translation" className="hover:text-white transition-colors">Spanish Translation</Link></li>
+                                <li><Link href="/services/translation/french-translation" className="hover:text-white transition-colors">French Translation</Link></li>
+                                <li><Link href="/services/translation/german-translation" className="hover:text-white transition-colors">German Translation</Link></li>
+                                <li><Link href="/services/translation/chinese-translation" className="hover:text-white transition-colors">Chinese Translation</Link></li>
+                                <li><Link href="/services/translation/russian-translation" className="hover:text-white transition-colors">Russian Translation</Link></li>
+                                <li><Link href="/services/translation/italian-translation" className="hover:text-white transition-colors">Italian Translation</Link></li>
+                            </ul>
+                        </div>
+
+                        {/* Column 4: Countries Served */}
+                        <div>
+                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-wider">Countries</h4>
+                            <ul className="space-y-3 text-xs font-medium text-zinc-400">
+                                <li><Link href="/countries/usa" className="hover:text-white transition-colors">United States</Link></li>
+                                <li><Link href="/countries/uk" className="hover:text-white transition-colors">United Kingdom</Link></li>
+                                <li><Link href="/countries/canada" className="hover:text-white transition-colors">Canada</Link></li>
+                                <li><Link href="/countries/australia" className="hover:text-white transition-colors">Australia</Link></li>
+                                <li><Link href="/countries/saudi-arabia" className="hover:text-white transition-colors">Saudi Arabia</Link></li>
+                                <li><Link href="/countries/uae" className="hover:text-white transition-colors">UAE</Link></li>
+                                <li><Link href="/countries/qatar" className="hover:text-white transition-colors">Qatar</Link></li>
+                                <li><Link href="/countries/turkey" className="hover:text-white transition-colors">Turkey</Link></li>
+                                <li><Link href="/countries/germany" className="hover:text-white transition-colors">Germany</Link></li>
+                                <li><Link href="/countries/france" className="hover:text-white transition-colors">France</Link></li>
+                            </ul>
+                        </div>
+
+                        {/* Column 5: Resources & Study Abroad */}
+                        <div className="space-y-8">
                             <div>
-                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-widest">Saudi Scholarships</h4>
-                                <ul className="space-y-3 text-sm font-sans">
+                                <h4 className="text-white font-bold mb-5 uppercase text-xs tracking-wider">Resources</h4>
+                                <ul className="space-y-3 text-xs font-medium text-zinc-400">
+                                    <li><Link href="/blog" className="hover:text-white transition-colors">Blog & Resources</Link></li>
+                                    <li><Link href="/contact" className="hover:text-white transition-colors">Contact Support</Link></li>
+                                    <li><Link href="/directory" className="hover:text-white transition-colors">Visual Directory</Link></li>
+                                    <li><Link href="/sitemap.xml" className="hover:text-white transition-colors text-[10px] opacity-30">XML Sitemap</Link></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-wider">Study Abroad</h4>
+                                <ul className="space-y-2.5 text-xs">
+                                    <li><Link href="/consultancy/saudi-scholarship" className="hover:text-emerald-400 transition-colors font-bold text-white">All Saudi Scholarships</Link></li>
+                                    <li><Link href="/study-in-turkey" className="hover:text-emerald-400 transition-colors font-bold text-emerald-400">Turkey Admissions Hub</Link></li>
                                     {universityList.map(([slug, uni]) => (
                                         <li key={slug}>
-                                            <Link href={`/scholarships/${slug}`} className="hover:text-emerald-400 transition-colors text-emerald-500 font-medium italic">
+                                            <Link href={`/scholarships/${slug}`} className="hover:text-emerald-400 transition-colors text-emerald-500 font-medium italic text-[11px]">
                                                 {uni.name} Guide
                                             </Link>
                                         </li>
                                     ))}
-                                    <li><Link href="/consultancy/saudi-scholarship" className="hover:text-emerald-400 transition-colors font-bold text-white">All Saudi Scholarships</Link></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-widest">Study in Turkey</h4>
-                                <ul className="space-y-3 text-sm font-sans">
-                                    <li><Link href="/study-in-turkey" className="hover:text-emerald-400 transition-colors font-bold text-emerald-400">Turkey Admissions Hub</Link></li>
-                                    <li><Link href="/study-in-turkey/beykoz-university" className="hover:text-emerald-400 transition-colors text-slate-400">Beykoz University Istanbul</Link></li>
-                                    <li><Link href="/study-in-turkey/kent-university" className="hover:text-emerald-400 transition-colors text-slate-400">Istanbul Kent University</Link></li>
-                                    <li><Link href="/study-in-turkey/topkapi-university" className="hover:text-emerald-400 transition-colors text-slate-400">Istanbul Topkapi University</Link></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-widest">Company</h4>
-                                <ul className="space-y-3 text-sm font-sans">
-                                    <li><Link href="/about" className="hover:text-emerald-400 transition-colors">About Lisan.pk</Link></li>
-                                    <li><Link href="/blog" className="hover:text-emerald-400 transition-colors">Blog & Resources</Link></li>
-                                    <li><Link href="/contact" className="hover:text-emerald-400 transition-colors">Contact Support</Link></li>
-                                    <li><Link href="/directory" className="hover:text-emerald-400 transition-colors">Visual Directory</Link></li>
-                                    <li><Link href="/sitemap.xml" className="hover:text-emerald-400 transition-colors text-[10px] opacity-40">XML Sitemap</Link></li>
                                 </ul>
                             </div>
                         </div>
 
-                        {/* Contact Section */}
-                        <div className="bg-slate-800/50 p-8 rounded-3xl border border-slate-700/50 font-sans">
-                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-widest text-center">Get in Touch</h4>
-                            <div className="space-y-6">
-                                <div className="text-center">
-                                    <span className="block text-[10px] text-slate-500 uppercase tracking-widest mb-1">WhatsApp/Phone</span>
-                                    <a href="tel:03044296295" className="text-xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors font-mono">0304-4296295</a>
+                        {/* Column 6: Contact & Call to Action (Symmetrical Card) */}
+                        <div>
+                            <div className="bg-zinc-900/60 p-6 rounded-2xl border border-zinc-800/80 font-sans space-y-5">
+                                <h4 className="text-white font-bold uppercase text-xs tracking-wider">Get in Touch</h4>
+                                <div className="space-y-3">
+                                    <div>
+                                        <span className="block text-[9px] text-zinc-500 uppercase tracking-widest font-bold mb-0.5">WhatsApp / Call</span>
+                                        <a href="tel:03044296295" className="text-base font-extrabold text-white hover:text-emerald-400 transition-colors font-mono tracking-tight">0304-4296295</a>
+                                    </div>
+                                    <div>
+                                        <span className="block text-[9px] text-zinc-500 uppercase tracking-widest font-bold mb-0.5">Email Support</span>
+                                        <a href="mailto:lisan.pk.services@gmail.com" className="text-[11px] font-semibold text-zinc-300 hover:text-white transition-colors break-all font-mono">lisan.pk.services@gmail.com</a>
+                                    </div>
                                 </div>
-                                <div className="text-center">
-                                    <span className="block text-[10px] text-slate-500 uppercase tracking-widest mb-1">Email Support</span>
-                                    <a href="mailto:lisan.pk.services@gmail.com" className="text-sm hover:text-emerald-400 transition-colors break-all font-mono">lisan.pk.services@gmail.com</a>
+                                <div className="pt-2">
+                                    <Link 
+                                        href="https://forms.gle/FnBnLrbdCQXsyjVS6" 
+                                        target="_blank"
+                                        className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-xl text-xs font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-500/20 shadow-md shadow-emerald-950/20"
+                                    >
+                                        Get a Free Quote
+                                    </Link>
                                 </div>
-                                <Link 
-                                    href="https://forms.gle/FnBnLrbdCQXsyjVS6" 
-                                    target="_blank"
-                                    className="block w-full bg-emerald-700 hover:bg-emerald-800 text-white text-center py-3 rounded-xl font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-800/20"
-                                >
-                                    Get a Free Quote
-                                </Link>
                             </div>
                         </div>
                     </div>
 
-                    {/* Expandable/Comprehensive Locations Section */}
-                    <div id="locations" className="pt-12 border-t border-slate-800 font-sans">
-                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4 font-sans">
-                            <h4 className="text-white font-bold text-sm uppercase tracking-widest">Service Areas Across Pakistan</h4>
-                            <span className="text-[10px] text-white bg-emerald-600 px-4 py-1.5 rounded-full uppercase tracking-widest font-black shadow-lg shadow-emerald-600/30 animate-pulse">Secure Doorstep Delivery Nationwide</span>
-                        </div>
-                        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-3 font-sans">
-                            {cityList.sort().map((citySlug) => (
-                                <Link 
-                                    key={citySlug} 
-                                    href={`/locations/${citySlug}`} 
-                                    className="text-[11px] text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-2 group font-medium"
-                                >
-                                    <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-500 rounded-full transition-colors"></span>
-                                    {cities[citySlug].name}
-                                </Link>
-                            ))}
+                    {/* Symmetrical Location Architecture Section */}
+                    <div id="locations" className="pt-10 border-t border-zinc-900 font-sans">
+                        <div className="grid md:grid-cols-12 gap-8">
+                            {/* Pakistan Locations */}
+                            <div className="md:col-span-6 lg:col-span-7 space-y-4">
+                                <h4 className="text-white font-bold text-xs uppercase tracking-wider">Pakistan Locations</h4>
+                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 gap-y-2.5">
+                                    {topPakistanCities.map((citySlug) => (
+                                        <Link 
+                                            key={citySlug} 
+                                            href={`/locations/${citySlug}`} 
+                                            className="text-[11px] text-zinc-400 hover:text-white transition-colors flex items-center gap-1.5 group font-medium"
+                                        >
+                                            <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-500 rounded-full transition-colors"></span>
+                                            {cities[citySlug]?.name || citySlug}
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* International Locations */}
+                            <div className="md:col-span-6 lg:col-span-5 space-y-4">
+                                <div>
+                                    <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-1">Global Services</h4>
+                                    <p className="text-[10px] text-zinc-500 leading-tight">We serve international clients globally via Email & WhatsApp (no physical offices in these regions).</p>
+                                </div>
+                                <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2.5 mt-3">
+                                    {internationalLocations.map((loc) => (
+                                        <Link 
+                                            key={loc.name} 
+                                            href={loc.href} 
+                                            className="text-[11px] text-zinc-400 hover:text-white transition-colors flex items-center gap-1.5 group font-medium"
+                                        >
+                                            <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-500 rounded-full transition-colors"></span>
+                                            {loc.name}
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 font-sans">
-                        <p>© {new Date().getFullYear()} Lisan.pk. All rights reserved.</p>
-                        <div className="flex gap-6">
-                            <Link href="/services/translation" className="hover:text-slate-300">Terms of Service</Link>
-                            <Link href="/about" className="hover:text-slate-300">Privacy Policy</Link>
+                    {/* Footer Text Block for SEO / Entity Recognition */}
+                    <div className="border-t border-zinc-900 pt-8 mt-12 text-center text-xs text-zinc-500 font-sans leading-relaxed max-w-4xl mx-auto">
+                        Lisan.pk is a professional multilingual translation agency serving clients across Pakistan, the United States, Canada, the United Kingdom, Australia, Saudi Arabia, the UAE, and other international markets. We provide certified translation services, legal translation, academic translation, immigration translation, website localization, and document translation in over 100 languages.
+                    </div>
+
+                    {/* Bottom Bar */}
+                    <div className="mt-8 pt-6 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-zinc-500 font-sans">
+                        <p>&copy; {new Date().getFullYear()} Lisan.pk. All rights reserved. Multilingual translation services in 100+ languages worldwide.</p>
+                        <div className="flex gap-6 font-semibold">
+                            <Link href="/services/translation/certified-translation" className="hover:text-white transition-colors">Terms of Service</Link>
+                            <Link href="/about" className="hover:text-white transition-colors">Privacy Policy</Link>
                         </div>
                     </div>
                 </div>

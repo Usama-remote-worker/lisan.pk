@@ -27,13 +27,13 @@ function normaliseCategory(raw: string): string {
 
 // Category display metadata
 const CATEGORY_META: Record<string, { icon: string }> = {
-    "All Posts":            { icon: "📚" },
-    "Translation Services": { icon: "🌐" },
-    "Scholarship Guides":   { icon: "🎓" },
-    "Scholarship Updates":  { icon: "🇸🇦" },
-    "Education":            { icon: "📖" },
-    "Visa & Immigration":   { icon: "✈️" },
-    "General":              { icon: "📄" },
+    "All Posts":            { icon: "≡" },
+    "Translation Services": { icon: "T" },
+    "Scholarship Guides":   { icon: "◆" },
+    "Scholarship Updates":  { icon: "SA" },
+    "Education":            { icon: "E" },
+    "Visa & Immigration":   { icon: "V" },
+    "General":              { icon: "G" },
 }
 
 function sortPosts(posts: Post[], order: "newest" | "oldest"): Post[] {
@@ -126,7 +126,6 @@ export function BlogClient({ posts }: { posts: Post[] }) {
                                         }`}
                                     >
                                         <span className="flex items-center gap-2">
-                                            <span className="text-base leading-none">{icon}</span>
                                             {label}
                                         </span>
                                         <span
@@ -215,7 +214,7 @@ export function BlogClient({ posts }: { posts: Post[] }) {
                 {/* No results */}
                 {visiblePosts.length === 0 && (
                     <div className="py-20 text-center">
-                        <div className="text-5xl mb-4">🔍</div>
+                        <div className="text-5xl mb-4 text-slate-300 font-serif">∅</div>
                         <h3 className="text-xl font-bold text-slate-800 mb-2">No articles found</h3>
                         <p className="text-slate-500 mb-6">Try a different category or search term.</p>
                         <button
@@ -241,7 +240,7 @@ export function BlogClient({ posts }: { posts: Post[] }) {
                                             onClick={() => { setActiveCategory(cat); setSearchQuery("") }}
                                             className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-100 hover:bg-emerald-100 transition-colors"
                                         >
-                                            {icon} {cat}
+                                            {cat}
                                         </button>
                                         <span className="text-[11px] text-slate-400">
                                             {new Date(post.date).toLocaleDateString("en-GB", {

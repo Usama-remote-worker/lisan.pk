@@ -38,6 +38,16 @@ export default async function SitemapPage() {
         { name: 'Urdu to English Translation', href: '/services/translation/urdu-to-english-translation' },
     ]
 
+    const uscisLinks = [
+        { name: 'USCIS Certified Translation (Pillar Page)', href: '/services/uscis-certified-translation' },
+        { name: 'USCIS Translation Requirements', href: '/services/uscis-certified-translation/requirements' },
+        { name: 'USCIS Birth Certificate Translation', href: '/services/uscis-certified-translation/birth-certificate' },
+        { name: 'USCIS Marriage Certificate Translation', href: '/services/uscis-certified-translation/marriage-certificate' },
+        { name: 'USCIS Academic Document Translation', href: '/services/uscis-certified-translation/academic-documents' },
+        { name: 'USCIS Translation Cost & Pricing', href: '/services/uscis-certified-translation/cost' },
+        { name: 'USCIS Translation FAQs', href: '/services/uscis-certified-translation/faq' },
+    ]
+
     return (
         <main className="min-h-screen bg-slate-50 py-16 pt-32">
             <div className="container mx-auto px-4">
@@ -73,6 +83,23 @@ export default async function SitemapPage() {
                             </h2>
                             <ul className="space-y-3">
                                 {serviceLinks.map(link => (
+                                    <li key={link.href}>
+                                        <Link href={link.href} className="text-slate-600 hover:text-emerald-600 transition-colors">
+                                            {link.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+
+                        {/* USCIS Certified Translation Hub */}
+                        <section>
+                            <h2 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                                <span className="h-2 w-2 bg-emerald-500 rounded-full"></span>
+                                USCIS Translation Hub
+                            </h2>
+                            <ul className="space-y-3">
+                                {uscisLinks.map(link => (
                                     <li key={link.href}>
                                         <Link href={link.href} className="text-slate-600 hover:text-emerald-600 transition-colors">
                                             {link.name}

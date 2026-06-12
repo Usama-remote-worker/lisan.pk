@@ -61,30 +61,6 @@ export function Hero() {
                         </Link>
                     </motion.div>
 
-                    <motion.div 
-                        initial={{ scale: 0.95, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] as any }}
-                        className="mt-12 p-8 bg-gradient-to-br from-white to-emerald-50/20 rounded-[2.5rem] border border-emerald-100/50 inline-block relative overflow-hidden shadow-xl shadow-slate-100/50 animate-fade-in text-left sm:text-center"
-                    >
-                        <div className="absolute top-0 right-0 p-3">
-                            <span className="flex h-3 w-3 rounded-full bg-emerald-500 animate-ping"></span>
-                        </div>
-                        <p className="text-emerald-950 font-bold text-xl mb-3 flex items-center justify-center gap-2 font-serif">
-                             2026 Saudi Scholarship Deadlines Approaching
-                        </p>
-                        <p className="text-slate-600 text-sm mb-6 max-w-xl mx-auto font-medium">
-                             University portals close periodically this month. Secure your admission with our priority certified translation and attestation services. Same-day processing available.
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                            <Link id="gtm-hero-scholarship-guide" href="/consultancy/saudi-scholarship" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-xl font-extrabold flex items-center justify-center gap-2 transition-all shadow-lg shadow-emerald-600/20 border border-emerald-700/20">
-                                View Full Guide
-                            </Link>
-                            <Link id="gtm-hero-priority-wa" href="https://wa.me/923044296295" className="bg-white border border-[#25D366] text-[#25D366] hover:bg-emerald-50 px-8 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition-all">
-                                Request Priority Service
-                            </Link>
-                        </div>
-                    </motion.div>
 
                     <div className="mt-20 flex flex-wrap items-center justify-center gap-x-12 gap-y-6 text-xs font-bold text-slate-400 uppercase tracking-widest border-t border-slate-50 pt-12">
                         <div className="flex items-center gap-1.5">

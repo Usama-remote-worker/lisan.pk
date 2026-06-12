@@ -21,31 +21,31 @@ export default function ContactPage() {
             />
 
             {/* Section 1: Direct Contact (Above the Fold) */}
-            <section className="py-20 container mx-auto px-4 max-w-6xl font-sans">
+            <section className="py-16 container mx-auto px-4 max-w-6xl font-sans">
                 <div className="grid lg:grid-cols-2 gap-12 items-start font-sans">
                     <div className="space-y-8 font-sans">
                         <div>
-                            <h2 className="text-4xl font-bold text-slate-900 mb-6 font-serif">Reach Out Directly</h2>
-                            <p className="text-xl text-emerald-800 font-medium leading-relaxed mb-8 font-sans">
-                                💬 We are just a text away. No office visits needed.
+                            <h2 className="text-4xl font-bold text-slate-900 mb-4 font-serif">Reach Out Directly</h2>
+                            <p className="text-lg text-slate-600 font-medium leading-relaxed mb-8 font-sans">
+                                We are just a text away. No office visits needed.
                             </p>
                         </div>
 
                         <div className="grid sm:grid-cols-2 gap-6 font-sans">
-                            <a href="tel:03044296295" className="p-8 bg-slate-50 rounded-3xl border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50 transition-all group flex flex-col justify-between">
+                            <a href="tel:03044296295" className="p-8 bg-slate-50 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50 transition-all group flex flex-col justify-between">
                                 <div>
-                                    <div className="w-14 h-14 bg-emerald-100 text-emerald-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform font-bold select-none text-xl">
-                                        📞
+                                    <div className="w-12 h-12 bg-emerald-700 text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.56 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17.92z"/></svg>
                                     </div>
                                     <h4 className="font-bold text-slate-900 mb-1 font-serif">Call / WhatsApp</h4>
                                 </div>
                                 <p className="text-lg text-emerald-700 font-bold font-mono">0304-4296295</p>
                             </a>
 
-                            <a href="mailto:lisan.pk.services@gmail.com" className="p-8 bg-slate-50 rounded-3xl border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50 transition-all group flex flex-col justify-between">
+                            <a href="mailto:lisan.pk.services@gmail.com" className="p-8 bg-slate-50 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50 transition-all group flex flex-col justify-between">
                                 <div>
-                                    <div className="w-14 h-14 bg-blue-100 text-blue-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform font-bold select-none text-xl">
-                                        ✉
+                                    <div className="w-12 h-12 bg-slate-700 text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                                     </div>
                                     <h4 className="font-bold text-slate-900 mb-1 font-serif">Email Support</h4>
                                 </div>
@@ -53,8 +53,10 @@ export default function ContactPage() {
                             </a>
                         </div>
 
-                        <div className="flex items-center gap-4 p-6 bg-emerald-900 text-white rounded-3xl shadow-xl font-sans">
-                            <div className="text-2xl font-bold select-none">⏱</div>
+                        <div className="flex items-center gap-4 p-6 bg-emerald-900 text-white rounded-2xl shadow-xl font-sans">
+                            <div className="w-10 h-10 bg-emerald-800 rounded-lg flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-400"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
                             <div>
                                 <h4 className="font-bold font-serif">Response: 24/7</h4>
                                 <p className="text-emerald-100 text-sm font-sans">We reply within minutes – even on weekends and at 2 AM.</p>
@@ -62,13 +64,13 @@ export default function ContactPage() {
                         </div>
                     </div>
 
-                    {/* Section 2 & 3: Service Area & Trust (Simplified) */}
+                    {/* Section 2: Service Area */}
                     <div className="space-y-8 font-sans">
-                        <div className="p-10 bg-slate-50 rounded-[3rem] border border-slate-200 font-sans">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-8 font-serif">
-                                📍 Serving all over Pakistan
+                        <div className="p-10 bg-slate-50 rounded-2xl border border-slate-200 font-sans">
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4 font-serif">
+                                Serving All Over Pakistan
                             </h3>
-                            <p className="text-slate-600 text-lg leading-relaxed mb-8 font-sans">
+                            <p className="text-slate-600 text-base leading-relaxed mb-8 font-sans">
                                 From Karachi to Islamabad, Lahore to Multan – we bring certified translation to your doorstep. No location restrictions. No travel needed.
                             </p>
                             
@@ -135,27 +137,26 @@ export default function ContactPage() {
             </section>
 
             {/* Section 6: Call to Action (Final) */}
-            <section className="py-24 bg-emerald-50 text-center border-t border-emerald-100 font-sans">
+            <section className="py-20 bg-slate-900 text-center border-t border-slate-800 font-sans">
                 <div className="container mx-auto px-4 max-w-3xl font-sans">
-                    <div className="text-4xl block text-emerald-600 mb-6 select-none">⚡</div>
-                    <h2 className="text-4xl font-bold text-slate-900 mb-6 font-serif">📲 Ready to start?</h2>
-                    <p className="text-xl text-slate-600 mb-12 font-sans">
-                        Send your document list via WhatsApp: <span className="font-bold text-emerald-800 underline">0304-4296295</span><br/>
-                        Or email: <span className="font-bold text-emerald-800 underline">lisan.pk.services@gmail.com</span>
+                    <h2 className="text-4xl font-bold text-white mb-4 font-serif">Ready to Get Started?</h2>
+                    <p className="text-lg text-slate-400 mb-10 font-sans">
+                        Send your document list via WhatsApp: <a href="tel:03044296295" className="font-bold text-emerald-400 hover:text-emerald-300">0304-4296295</a><br/>
+                        Or email: <a href="mailto:lisan.pk.services@gmail.com" className="font-bold text-emerald-400 hover:text-emerald-300">lisan.pk.services@gmail.com</a>
                     </p>
-                    <div className="flex flex-col sm:flex-row justify-center gap-6 font-sans">
+                    <div className="flex flex-col sm:flex-row justify-center gap-4 font-sans">
                         <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20contacting%20you%20from%20your%20website%20Contact%20page." target="_blank" className="w-full sm:w-auto">
-                            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-10 h-16 text-xl rounded-2xl shadow-xl w-full">
+                            <Button size="lg" className="bg-emerald-700 hover:bg-emerald-800 text-white px-10 h-14 text-lg rounded-xl shadow-xl w-full font-extrabold border border-emerald-800/30">
                                 WhatsApp Now
                             </Button>
                         </Link>
                         <Link href="mailto:lisan.pk.services@gmail.com" className="w-full sm:w-auto">
-                            <Button variant="outline" size="lg" className="px-10 h-16 text-xl rounded-2xl border-slate-300 w-full bg-white text-slate-800 hover:bg-slate-50">
+                            <Button variant="outline" size="lg" className="px-10 h-14 text-lg rounded-xl border-slate-600 w-full bg-transparent text-white hover:bg-white/10">
                                 Email Us
                             </Button>
                         </Link>
                     </div>
-                    <p className="mt-8 text-emerald-700 font-bold italic animate-pulse font-sans">We reply within minutes – even at 2 AM.</p>
+                    <p className="mt-8 text-emerald-500 font-semibold text-sm font-sans">We reply within minutes – even at 2 AM.</p>
                 </div>
             </section>
 
