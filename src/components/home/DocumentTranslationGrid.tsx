@@ -29,55 +29,55 @@ const services = [
         title: "Divorce Certificate",
         slug: "divorce-certificate-translation",
         text: "Legal translation of divorce deeds and effectiveness certificates for official record updates.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "Medical Reports",
         slug: "medical-report-translation",
         text: "Precise medical translation for overseas treatment, insurance, and fitness certificates.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "Property Documents",
         slug: "property-document-translation",
         text: "Translation of Fard, registry, sale deeds, and property documents for legal use.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "Legal Document Translation",
         slug: "legal-document-translation",
         text: "Court cases, judgments, power of attorney, affidavits, and legal agreements translated by experts.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "Bank Statements",
         slug: "bank-statement-translation",
         text: "Financial document translation including bank statements and salary slips for visa proofs.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "CNIC / ID Card",
         slug: "cnic-id-card-translation",
         text: "National ID card translation for official identification in foreign countries.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "Business Documents",
         slug: "business-document-translation",
         text: "Articles of association, company profiles, and tax returns for international business.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "Experience Certificate",
         slug: "experience-certificate-translation",
         text: "Certified translation of professional experience letters and employment certificates for work visa processing.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "Saudi Scholarship",
         slug: "saudi-scholarship-translation",
         text: "Specialized translation for KSU, KAU, and Madinah University admissions and scholarships.",
-        hasPage: false
+        hasPage: true
     },
     {
         title: "IATA & DTS Umrah Agency",

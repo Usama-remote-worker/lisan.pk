@@ -39,114 +39,114 @@ export function Footer() {
         <>
             <WhyChooseUs />
             <TranslationProcess />
-            <footer className="bg-[#050505] text-zinc-300 py-16 border-t border-zinc-900 font-sans">
+            <footer className="bg-slate-100 text-slate-600 py-16 border-t border-slate-200 font-sans">
                 <div className="container mx-auto px-4 max-w-7xl">
                     
                     {/* Horizontal Trust Banner (Why Lisan.pk) */}
-                    <div className="border-b border-zinc-900 pb-10 mb-12">
+                    <div className="border-b border-slate-200 pb-10 mb-12">
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
                             {trustFeatures.map((feat) => (
                                 <div 
                                     key={feat.label} 
-                                    className="p-5 bg-zinc-900/40 rounded-2xl border border-zinc-800/60 hover:border-emerald-500/30 transition-all duration-300 flex flex-col items-center text-center group"
+                                    className="p-5 bg-slate-50 rounded-2xl border border-slate-200 hover:border-emerald-500/50 transition-all duration-300 flex flex-col items-center text-center group"
                                 >
-                                    <span className="text-emerald-500 text-lg mb-2 font-bold select-none group-hover:scale-110 transition-transform">✓</span>
-                                    <h5 className="text-white text-xs font-bold mb-1 tracking-tight">{feat.label}</h5>
-                                    <p className="text-[10px] text-zinc-400 font-medium">{feat.desc}</p>
+                                    <span className="text-emerald-600 text-lg mb-2 font-bold select-none group-hover:scale-110 transition-transform">✓</span>
+                                    <h5 className="text-slate-900 text-xs font-bold mb-1 tracking-tight">{feat.label}</h5>
+                                    <p className="text-[10px] text-slate-500 font-medium">{feat.desc}</p>
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    {/* Main Grid with Custom Proportions (3fr, 2fr, 2fr, 2fr, 2fr, 3fr) */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-[3fr_2fr_2fr_2fr_2fr_3fr] gap-8 mb-14 pb-14 border-b border-zinc-900">
+                    {/* Main Grid with Custom Proportions */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-[3fr_2fr_2fr_2fr_2fr_3fr] gap-8 mb-14 pb-14 border-b border-slate-200">
                         
                         {/* Column 1: About Lisan.pk */}
                         <div className="space-y-6">
                             <div className="flex items-center space-x-2">
                                 <img 
-                                    src="/logo-icon-white.svg" 
+                                    src="/logo-icon.svg" 
                                     alt="Lisan.pk Icon" 
                                     className="h-8 w-8 object-contain"
                                 />
-                                <h3 className="text-white text-xl font-bold tracking-tight font-serif">Lisan<span className="text-emerald-500">.pk</span></h3>
+                                <h3 className="text-slate-900 text-xl font-bold tracking-tight font-serif">Lisan<span className="text-emerald-600">.pk</span></h3>
                             </div>
-                            <p className="text-xs leading-relaxed text-zinc-400 font-medium">
+                            <p className="text-xs leading-relaxed text-slate-600 font-medium">
                                 Lisan.pk is a professional multilingual translation agency providing certified translation services in 100+ languages for individuals, businesses, universities, immigration applications, legal matters, and international organizations worldwide.
                             </p>
-                            <div className="pt-4 border-t border-zinc-900">
-                                <h4 className="text-white text-[10px] font-bold uppercase tracking-widest mb-1.5">Office Status</h4>
-                                <p className="text-[11px] text-zinc-400 font-medium leading-relaxed">Serving Nationwide Pakistan & International Markets via secure courier & digital delivery.</p>
+                            <div className="pt-4 border-t border-slate-200">
+                                <h4 className="text-slate-900 text-[10px] font-bold uppercase tracking-widest mb-1.5">Office Status</h4>
+                                <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Serving Nationwide Pakistan & International Markets via secure courier & digital delivery.</p>
                             </div>
                         </div>
 
                         {/* Column 2: Translation Services */}
                         <div>
-                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-wider">Services</h4>
-                            <ul className="space-y-3 text-xs font-medium text-zinc-400">
-                                <li><Link href="/services/translation/certified-translation" className="hover:text-white transition-colors">Certified Translation</Link></li>
-                                <li><Link href="/services/translation/legal-translation" className="hover:text-white transition-colors">Legal Translation</Link></li>
-                                <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-white transition-colors">Academic Translation</Link></li>
-                                <li><Link href="/services/uscis-certified-translation" className="hover:text-white transition-colors">Immigration Translation</Link></li>
-                                <li><Link href="/services/translation/iata-dts-umrah-travel-agency" className="hover:text-white transition-colors">Business Translation</Link></li>
-                                <li><Link href="/services/document" className="hover:text-white transition-colors">Document Legalization</Link></li>
-                                <li><Link href="/services/attestation" className="hover:text-white transition-colors">MOFA Attestation</Link></li>
+                            <h4 className="text-slate-900 font-bold mb-6 uppercase text-xs tracking-wider">Services</h4>
+                            <ul className="space-y-3 text-xs font-medium text-slate-600">
+                                <li><Link href="/services/translation/certified-translation" className="hover:text-emerald-700 transition-colors">Certified Translation</Link></li>
+                                <li><Link href="/services/translation/legal-translation" className="hover:text-emerald-700 transition-colors">Legal Translation</Link></li>
+                                <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-emerald-700 transition-colors">Academic Translation</Link></li>
+                                <li><Link href="/services/uscis-certified-translation" className="hover:text-emerald-700 transition-colors">Immigration Translation</Link></li>
+                                <li><Link href="/services/translation/iata-dts-umrah-travel-agency" className="hover:text-emerald-700 transition-colors">Business Translation</Link></li>
+                                <li><Link href="/services/document" className="hover:text-emerald-700 transition-colors">Document Legalization</Link></li>
+                                <li><Link href="/services/attestation" className="hover:text-emerald-700 transition-colors">MOFA Attestation</Link></li>
                             </ul>
                         </div>
 
                         {/* Column 3: Languages */}
                         <div>
-                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-wider">Languages</h4>
-                            <ul className="space-y-3 text-xs font-medium text-zinc-400">
-                                <li><Link href="/services/translation/arabic-translation" className="hover:text-white transition-colors">Arabic Translation</Link></li>
-                                <li><Link href="/services/translation/urdu-to-english-translation" className="hover:text-white transition-colors">Urdu Translation</Link></li>
-                                <li><Link href="/services/translation/english-translation" className="hover:text-white transition-colors">English Translation</Link></li>
-                                <li><Link href="/services/translation/turkish-translation" className="hover:text-white transition-colors">Turkish Translation</Link></li>
-                                <li><Link href="/services/translation/spanish-translation" className="hover:text-white transition-colors">Spanish Translation</Link></li>
-                                <li><Link href="/services/translation/french-translation" className="hover:text-white transition-colors">French Translation</Link></li>
-                                <li><Link href="/services/translation/german-translation" className="hover:text-white transition-colors">German Translation</Link></li>
-                                <li><Link href="/services/translation/chinese-translation" className="hover:text-white transition-colors">Chinese Translation</Link></li>
-                                <li><Link href="/services/translation/russian-translation" className="hover:text-white transition-colors">Russian Translation</Link></li>
-                                <li><Link href="/services/translation/italian-translation" className="hover:text-white transition-colors">Italian Translation</Link></li>
+                            <h4 className="text-slate-900 font-bold mb-6 uppercase text-xs tracking-wider">Languages</h4>
+                            <ul className="space-y-3 text-xs font-medium text-slate-600">
+                                <li><Link href="/services/translation/arabic-translation" className="hover:text-emerald-700 transition-colors">Arabic Translation</Link></li>
+                                <li><Link href="/services/translation/urdu-to-english-translation" className="hover:text-emerald-700 transition-colors">Urdu Translation</Link></li>
+                                <li><Link href="/services/translation/english-translation" className="hover:text-emerald-700 transition-colors">English Translation</Link></li>
+                                <li><Link href="/services/translation/turkish-translation" className="hover:text-emerald-700 transition-colors">Turkish Translation</Link></li>
+                                <li><Link href="/services/translation/spanish-translation" className="hover:text-emerald-700 transition-colors">Spanish Translation</Link></li>
+                                <li><Link href="/services/translation/french-translation" className="hover:text-emerald-700 transition-colors">French Translation</Link></li>
+                                <li><Link href="/services/translation/german-translation" className="hover:text-emerald-700 transition-colors">German Translation</Link></li>
+                                <li><Link href="/services/translation/chinese-translation" className="hover:text-emerald-700 transition-colors">Chinese Translation</Link></li>
+                                <li><Link href="/services/translation/russian-translation" className="hover:text-emerald-700 transition-colors">Russian Translation</Link></li>
+                                <li><Link href="/services/translation/italian-translation" className="hover:text-emerald-700 transition-colors">Italian Translation</Link></li>
                             </ul>
                         </div>
 
                         {/* Column 4: Countries Served */}
                         <div>
-                            <h4 className="text-white font-bold mb-6 uppercase text-xs tracking-wider">Countries</h4>
-                            <ul className="space-y-3 text-xs font-medium text-zinc-400">
-                                <li><Link href="/countries/usa" className="hover:text-white transition-colors">United States</Link></li>
-                                <li><Link href="/countries/uk" className="hover:text-white transition-colors">United Kingdom</Link></li>
-                                <li><Link href="/countries/canada" className="hover:text-white transition-colors">Canada</Link></li>
-                                <li><Link href="/countries/australia" className="hover:text-white transition-colors">Australia</Link></li>
-                                <li><Link href="/countries/saudi-arabia" className="hover:text-white transition-colors">Saudi Arabia</Link></li>
-                                <li><Link href="/countries/uae" className="hover:text-white transition-colors">UAE</Link></li>
-                                <li><Link href="/countries/qatar" className="hover:text-white transition-colors">Qatar</Link></li>
-                                <li><Link href="/countries/turkey" className="hover:text-white transition-colors">Turkey</Link></li>
-                                <li><Link href="/countries/germany" className="hover:text-white transition-colors">Germany</Link></li>
-                                <li><Link href="/countries/france" className="hover:text-white transition-colors">France</Link></li>
+                            <h4 className="text-slate-900 font-bold mb-6 uppercase text-xs tracking-wider">Countries</h4>
+                            <ul className="space-y-3 text-xs font-medium text-slate-600">
+                                <li><Link href="/countries/usa" className="hover:text-emerald-700 transition-colors">United States</Link></li>
+                                <li><Link href="/countries/uk" className="hover:text-emerald-700 transition-colors">United Kingdom</Link></li>
+                                <li><Link href="/countries/canada" className="hover:text-emerald-700 transition-colors">Canada</Link></li>
+                                <li><Link href="/countries/australia" className="hover:text-emerald-700 transition-colors">Australia</Link></li>
+                                <li><Link href="/countries/saudi-arabia" className="hover:text-emerald-700 transition-colors">Saudi Arabia</Link></li>
+                                <li><Link href="/countries/uae" className="hover:text-emerald-700 transition-colors">UAE</Link></li>
+                                <li><Link href="/countries/qatar" className="hover:text-emerald-700 transition-colors">Qatar</Link></li>
+                                <li><Link href="/countries/turkey" className="hover:text-emerald-700 transition-colors">Turkey</Link></li>
+                                <li><Link href="/countries/germany" className="hover:text-emerald-700 transition-colors">Germany</Link></li>
+                                <li><Link href="/countries/france" className="hover:text-emerald-700 transition-colors">France</Link></li>
                             </ul>
                         </div>
 
                         {/* Column 5: Resources & Study Abroad */}
                         <div className="space-y-8">
                             <div>
-                                <h4 className="text-white font-bold mb-5 uppercase text-xs tracking-wider">Resources</h4>
-                                <ul className="space-y-3 text-xs font-medium text-zinc-400">
-                                    <li><Link href="/blog" className="hover:text-white transition-colors">Blog & Resources</Link></li>
-                                    <li><Link href="/contact" className="hover:text-white transition-colors">Contact Support</Link></li>
-                                    <li><Link href="/directory" className="hover:text-white transition-colors">Visual Directory</Link></li>
-                                    <li><Link href="/sitemap.xml" className="hover:text-white transition-colors text-[10px] opacity-30">XML Sitemap</Link></li>
+                                <h4 className="text-slate-900 font-bold mb-5 uppercase text-xs tracking-wider">Resources</h4>
+                                <ul className="space-y-3 text-xs font-medium text-slate-600">
+                                    <li><Link href="/blog" className="hover:text-emerald-700 transition-colors">Blog & Resources</Link></li>
+                                    <li><Link href="/contact" className="hover:text-emerald-700 transition-colors">Contact Support</Link></li>
+                                    <li><Link href="/directory" className="hover:text-emerald-700 transition-colors">Visual Directory</Link></li>
+                                    <li><Link href="/sitemap.xml" className="hover:text-emerald-700 transition-colors text-[10px] opacity-30">XML Sitemap</Link></li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="text-white font-bold mb-4 uppercase text-xs tracking-wider">Study Abroad</h4>
+                                <h4 className="text-slate-900 font-bold mb-4 uppercase text-xs tracking-wider">Study Abroad</h4>
                                 <ul className="space-y-2.5 text-xs">
-                                    <li><Link href="/consultancy/saudi-scholarship" className="hover:text-emerald-400 transition-colors font-bold text-white">All Saudi Scholarships</Link></li>
-                                    <li><Link href="/study-in-turkey" className="hover:text-emerald-400 transition-colors font-bold text-emerald-400">Turkey Admissions Hub</Link></li>
+                                    <li><Link href="/consultancy/saudi-scholarship" className="hover:text-emerald-700 transition-colors font-bold text-slate-900">All Saudi Scholarships</Link></li>
+                                    <li><Link href="/study-in-turkey" className="hover:text-emerald-700 transition-colors font-bold text-emerald-600">Turkey Admissions Hub</Link></li>
                                     {universityList.map(([slug, uni]) => (
                                         <li key={slug}>
-                                            <Link href={`/scholarships/${slug}`} className="hover:text-emerald-400 transition-colors text-emerald-500 font-medium italic text-[11px]">
+                                            <Link href={`/scholarships/${slug}`} className="hover:text-emerald-700 transition-colors text-emerald-600 font-medium italic text-[11px]">
                                                 {uni.name} Guide
                                             </Link>
                                         </li>
@@ -155,25 +155,25 @@ export function Footer() {
                             </div>
                         </div>
 
-                        {/* Column 6: Contact & Call to Action (Symmetrical Card) */}
+                        {/* Column 6: Contact & Call to Action */}
                         <div>
-                            <div className="bg-zinc-900/60 p-6 rounded-2xl border border-zinc-800/80 font-sans space-y-5">
-                                <h4 className="text-white font-bold uppercase text-xs tracking-wider">Get in Touch</h4>
+                            <div className="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100 font-sans space-y-5">
+                                <h4 className="text-slate-900 font-bold uppercase text-xs tracking-wider">Get in Touch</h4>
                                 <div className="space-y-3">
                                     <div>
-                                        <span className="block text-[9px] text-zinc-500 uppercase tracking-widest font-bold mb-0.5">WhatsApp / Call</span>
-                                        <a href="tel:03044296295" className="text-base font-extrabold text-white hover:text-emerald-400 transition-colors font-mono tracking-tight">0304-4296295</a>
+                                        <span className="block text-[9px] text-slate-500 uppercase tracking-widest font-bold mb-0.5">WhatsApp / Call</span>
+                                        <a href="tel:03044296295" className="text-base font-extrabold text-slate-900 hover:text-emerald-700 transition-colors font-mono tracking-tight">0304-4296295</a>
                                     </div>
                                     <div>
-                                        <span className="block text-[9px] text-zinc-500 uppercase tracking-widest font-bold mb-0.5">Email Support</span>
-                                        <a href="mailto:lisan.pk.services@gmail.com" className="text-[11px] font-semibold text-zinc-300 hover:text-white transition-colors break-all font-mono">lisan.pk.services@gmail.com</a>
+                                        <span className="block text-[9px] text-slate-500 uppercase tracking-widest font-bold mb-0.5">Email Support</span>
+                                        <a href="mailto:lisan.pk.services@gmail.com" className="text-[11px] font-semibold text-slate-600 hover:text-emerald-700 transition-colors break-all font-mono">lisan.pk.services@gmail.com</a>
                                     </div>
                                 </div>
                                 <div className="pt-2">
                                     <Link 
                                         href="https://forms.gle/FnBnLrbdCQXsyjVS6" 
                                         target="_blank"
-                                        className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-xl text-xs font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-500/20 shadow-md shadow-emerald-950/20"
+                                        className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-xl text-xs font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-500/20 shadow-md shadow-emerald-900/10"
                                     >
                                         Get a Free Quote
                                     </Link>
@@ -183,19 +183,19 @@ export function Footer() {
                     </div>
 
                     {/* Symmetrical Location Architecture Section */}
-                    <div id="locations" className="pt-10 border-t border-zinc-900 font-sans">
+                    <div id="locations" className="pt-10 border-t border-slate-200 font-sans">
                         <div className="grid md:grid-cols-12 gap-8">
                             {/* Pakistan Locations */}
                             <div className="md:col-span-6 lg:col-span-7 space-y-4">
-                                <h4 className="text-white font-bold text-xs uppercase tracking-wider">Pakistan Locations</h4>
+                                <h4 className="text-slate-900 font-bold text-xs uppercase tracking-wider">Pakistan Locations</h4>
                                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 gap-y-2.5">
                                     {topPakistanCities.map((citySlug) => (
                                         <Link 
                                             key={citySlug} 
                                             href={`/locations/${citySlug}`} 
-                                            className="text-[11px] text-zinc-400 hover:text-white transition-colors flex items-center gap-1.5 group font-medium"
+                                            className="text-[11px] text-slate-600 hover:text-emerald-700 transition-colors flex items-center gap-1.5 group font-medium"
                                         >
-                                            <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-500 rounded-full transition-colors"></span>
+                                            <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-600 rounded-full transition-colors"></span>
                                             {cities[citySlug]?.name || citySlug}
                                         </Link>
                                     ))}
@@ -205,17 +205,17 @@ export function Footer() {
                             {/* International Locations */}
                             <div className="md:col-span-6 lg:col-span-5 space-y-4">
                                 <div>
-                                    <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-1">Global Services</h4>
-                                    <p className="text-[10px] text-zinc-500 leading-tight">We serve international clients globally via Email & WhatsApp (no physical offices in these regions).</p>
+                                    <h4 className="text-slate-900 font-bold text-xs uppercase tracking-wider mb-1">Global Services</h4>
+                                    <p className="text-[10px] text-slate-500 leading-tight">We serve international clients globally via Email & WhatsApp (no physical offices in these regions).</p>
                                 </div>
                                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2.5 mt-3">
                                     {internationalLocations.map((loc) => (
                                         <Link 
                                             key={loc.name} 
                                             href={loc.href} 
-                                            className="text-[11px] text-zinc-400 hover:text-white transition-colors flex items-center gap-1.5 group font-medium"
+                                            className="text-[11px] text-slate-600 hover:text-emerald-700 transition-colors flex items-center gap-1.5 group font-medium"
                                         >
-                                            <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-500 rounded-full transition-colors"></span>
+                                            <span className="h-1 w-1 bg-emerald-500/40 group-hover:bg-emerald-600 rounded-full transition-colors"></span>
                                             {loc.name}
                                         </Link>
                                     ))}
@@ -225,16 +225,16 @@ export function Footer() {
                     </div>
 
                     {/* Footer Text Block for SEO / Entity Recognition */}
-                    <div className="border-t border-zinc-900 pt-8 mt-12 text-center text-xs text-zinc-500 font-sans leading-relaxed max-w-4xl mx-auto">
+                    <div className="border-t border-slate-200 pt-8 mt-12 text-center text-xs text-slate-500 font-sans leading-relaxed max-w-4xl mx-auto">
                         Lisan.pk is a professional multilingual translation agency serving clients across Pakistan, the United States, Canada, the United Kingdom, Australia, Saudi Arabia, the UAE, and other international markets. We provide certified translation services, legal translation, academic translation, immigration translation, website localization, and document translation in over 100 languages.
                     </div>
 
                     {/* Bottom Bar */}
-                    <div className="mt-8 pt-6 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-zinc-500 font-sans">
+                    <div className="mt-8 pt-6 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 font-sans">
                         <p>&copy; {new Date().getFullYear()} Lisan.pk. All rights reserved. Multilingual translation services in 100+ languages worldwide.</p>
                         <div className="flex gap-6 font-semibold">
-                            <Link href="/services/translation/certified-translation" className="hover:text-white transition-colors">Terms of Service</Link>
-                            <Link href="/about" className="hover:text-white transition-colors">Privacy Policy</Link>
+                            <Link href="/services/translation/certified-translation" className="hover:text-emerald-700 transition-colors">Terms of Service</Link>
+                            <Link href="/about" className="hover:text-emerald-700 transition-colors">Privacy Policy</Link>
                         </div>
                     </div>
                 </div>
