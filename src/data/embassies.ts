@@ -1,0 +1,55 @@
+export interface Embassy {
+    slug: string;
+    country: string;
+    demonym: string;
+    type: "embassy" | "consulate";
+    city: "Islamabad" | "Karachi" | "Lahore" | "Peshawar";
+}
+
+export const embassies: Embassy[] = [
+    { slug: "saudi-arabian-embassy-in-islamabad", country: "Saudi Arabia", demonym: "Saudi Arabian", type: "embassy", city: "Islamabad" },
+    { slug: "saudi-arabian-consulate-in-karachi", country: "Saudi Arabia", demonym: "Saudi Arabian", type: "consulate", city: "Karachi" },
+    { slug: "italian-embassy-in-islamabad", country: "Italy", demonym: "Italian", type: "embassy", city: "Islamabad" },
+    { slug: "italian-consulate-in-karachi", country: "Italy", demonym: "Italian", type: "consulate", city: "Karachi" },
+    { slug: "american-embassy-in-islamabad", country: "United States", demonym: "American", type: "embassy", city: "Islamabad" },
+    { slug: "american-consulate-in-lahore", country: "United States", demonym: "American", type: "consulate", city: "Lahore" },
+    { slug: "german-embassy-in-islamabad", country: "Germany", demonym: "German", type: "embassy", city: "Islamabad" },
+    { slug: "cypriot-consulate-in-islamabad", country: "Cyprus", demonym: "Cypriot", type: "consulate", city: "Islamabad" },
+    { slug: "cypriot-consulate-in-karachi", country: "Cyprus", demonym: "Cypriot", type: "consulate", city: "Karachi" },
+    { slug: "greek-embassy-in-islamabad", country: "Greece", demonym: "Greek", type: "embassy", city: "Islamabad" },
+    { slug: "bangladesh-embassy-in-karachi", country: "Bangladesh", demonym: "Bangladeshi", type: "embassy", city: "Karachi" },
+    { slug: "uae-embassy-in-islamabad", country: "UAE", demonym: "UAE", type: "embassy", city: "Islamabad" },
+    { slug: "polish-embassy-in-islamabad", country: "Poland", demonym: "Polish", type: "embassy", city: "Islamabad" },
+    { slug: "kiwi-consulate-in-karachi", country: "New Zealand", demonym: "New Zealand", type: "consulate", city: "Karachi" },
+    { slug: "malaysian-consulate-in-karachi", country: "Malaysia", demonym: "Malaysian", type: "consulate", city: "Karachi" },
+    { slug: "malaysian-consulate-in-islamabad", country: "Malaysia", demonym: "Malaysian", type: "consulate", city: "Islamabad" },
+    { slug: "british-consulate-in-islamabad", country: "United Kingdom", demonym: "British", type: "consulate", city: "Islamabad" },
+    { slug: "brazilian-embassy-in-islamabad", country: "Brazil", demonym: "Brazilian", type: "embassy", city: "Islamabad" },
+    { slug: "czech-embassy-in-islamabad", country: "Czech Republic", demonym: "Czech", type: "embassy", city: "Islamabad" },
+    { slug: "egyptian-embassy-in-islamabad", country: "Egypt", demonym: "Egyptian", type: "embassy", city: "Islamabad" },
+    { slug: "romanian-embassy-in-islamabad", country: "Romania", demonym: "Romanian", type: "embassy", city: "Islamabad" },
+    { slug: "argentinian-embassy-in-islamabad", country: "Argentina", demonym: "Argentinian", type: "embassy", city: "Islamabad" },
+    { slug: "qatari-consulate-in-karachi", country: "Qatar", demonym: "Qatari", type: "consulate", city: "Karachi" },
+    { slug: "qatari-embassy-in-islamabad", country: "Qatar", demonym: "Qatari", type: "embassy", city: "Islamabad" },
+    { slug: "chinese-consulate-in-karachi", country: "China", demonym: "Chinese", type: "consulate", city: "Karachi" },
+    { slug: "chinese-embassy-in-islamabad", country: "China", demonym: "Chinese", type: "embassy", city: "Islamabad" },
+    { slug: "bahraini-embassy-in-islamabad", country: "Bahrain", demonym: "Bahraini", type: "embassy", city: "Islamabad" },
+    { slug: "irish-consulate-in-karachi", country: "Ireland", demonym: "Irish", type: "consulate", city: "Karachi" },
+    { slug: "mexican-consulate-in-karachi", country: "Mexico", demonym: "Mexican", type: "consulate", city: "Karachi" },
+    { slug: "french-embassy-in-islamabad", country: "France", demonym: "French", type: "embassy", city: "Islamabad" },
+    { slug: "belgian-embassy-in-islamabad", country: "Belgium", demonym: "Belgian", type: "embassy", city: "Islamabad" },
+    { slug: "belgian-consulate-in-lahore", country: "Belgium", demonym: "Belgian", type: "consulate", city: "Lahore" },
+    { slug: "austrian-embassy-in-islamabad", country: "Austria", demonym: "Austrian", type: "embassy", city: "Islamabad" },
+    { slug: "australian-consulate-in-islamabad", country: "Australia", demonym: "Australian", type: "consulate", city: "Islamabad" },
+    { slug: "australian-consulate-in-karachi", country: "Australia", demonym: "Australian", type: "consulate", city: "Karachi" },
+    { slug: "bosnian-embassy-in-islamabad", country: "Bosnia and Herzegovina", demonym: "Bosnian", type: "embassy", city: "Islamabad" },
+    { slug: "maltese-consulate-in-karachi", country: "Malta", demonym: "Maltese", type: "consulate", city: "Karachi" },
+    { slug: "turkish-embassy-in-islamabad", country: "Turkey", demonym: "Turkish", type: "embassy", city: "Islamabad" },
+    { slug: "turkish-consulate-in-karachi", country: "Turkey", demonym: "Turkish", type: "consulate", city: "Karachi" },
+    { slug: "omani-embassy-in-islamabad", country: "Oman", demonym: "Omani", type: "embassy", city: "Islamabad" },
+    { slug: "bulgarian-embassy-in-islamabad", country: "Bulgaria", demonym: "Bulgarian", type: "embassy", city: "Islamabad" },
+    { slug: "norwegian-embassy-in-islamabad", country: "Norway", demonym: "Norwegian", type: "embassy", city: "Islamabad" },
+    { slug: "finnish-embassy-in-islamabad", country: "Finland", demonym: "Finnish", type: "embassy", city: "Islamabad" },
+    { slug: "danish-embassy-in-islamabad", country: "Denmark", demonym: "Danish", type: "embassy", city: "Islamabad" },
+    { slug: "afghani-consulate-in-peshawar", country: "Afghanistan", demonym: "Afghani", type: "consulate", city: "Peshawar" },
+];

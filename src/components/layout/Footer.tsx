@@ -84,7 +84,7 @@ export function Footer() {
                         <div>
                             <h4 className="text-slate-900 font-bold mb-6 uppercase text-xs tracking-wider">Services</h4>
                             <ul className="space-y-3 text-xs font-medium text-slate-600">
-                                <li><Link href="/services/translation/certified-translation" className="hover:text-emerald-700 transition-colors">Certified Translation</Link></li>
+                                <li><Link href="/certified-document-translation" className="hover:text-emerald-700 transition-colors font-bold text-slate-900">Embassy Document Hub</Link></li>
                                 <li><Link href="/services/translation/legal-translation" className="hover:text-emerald-700 transition-colors">Legal Translation</Link></li>
                                 <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-emerald-700 transition-colors">Academic Translation</Link></li>
                                 <li><Link href="/services/uscis-certified-translation" className="hover:text-emerald-700 transition-colors">Immigration Translation</Link></li>
@@ -98,6 +98,9 @@ export function Footer() {
                         <div>
                             <h4 className="text-slate-900 font-bold mb-6 uppercase text-xs tracking-wider">Languages</h4>
                             <ul className="space-y-3 text-xs font-medium text-slate-600">
+                                <li><Link href="/english-to-indonesian-translators" className="hover:text-emerald-700 transition-colors font-bold text-slate-900">English to Indonesian</Link></li>
+                                <li><Link href="/translation-english-to-arabic" className="hover:text-emerald-700 transition-colors font-bold text-slate-900">English to Arabic</Link></li>
+                                <li><Link href="/chinese-language-translation-in-urdu" className="hover:text-emerald-700 transition-colors font-bold text-slate-900">Chinese to Urdu</Link></li>
                                 <li><Link href="/services/translation/arabic-translation" className="hover:text-emerald-700 transition-colors">Arabic Translation</Link></li>
                                 <li><Link href="/services/translation/urdu-to-english-translation" className="hover:text-emerald-700 transition-colors">Urdu Translation</Link></li>
                                 <li><Link href="/services/translation/english-translation" className="hover:text-emerald-700 transition-colors">English Translation</Link></li>
@@ -105,9 +108,6 @@ export function Footer() {
                                 <li><Link href="/services/translation/spanish-translation" className="hover:text-emerald-700 transition-colors">Spanish Translation</Link></li>
                                 <li><Link href="/services/translation/french-translation" className="hover:text-emerald-700 transition-colors">French Translation</Link></li>
                                 <li><Link href="/services/translation/german-translation" className="hover:text-emerald-700 transition-colors">German Translation</Link></li>
-                                <li><Link href="/services/translation/chinese-translation" className="hover:text-emerald-700 transition-colors">Chinese Translation</Link></li>
-                                <li><Link href="/services/translation/russian-translation" className="hover:text-emerald-700 transition-colors">Russian Translation</Link></li>
-                                <li><Link href="/services/translation/italian-translation" className="hover:text-emerald-700 transition-colors">Italian Translation</Link></li>
                             </ul>
                         </div>
 
