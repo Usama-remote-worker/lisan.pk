@@ -12,7 +12,7 @@ export function Hero() {
     }
 
     return (
-        <section className="relative bg-white py-16 lg:py-24 overflow-hidden border-b border-slate-100 font-sans">
+        <section className="relative bg-white pt-8 pb-16 lg:pt-12 lg:pb-24 overflow-hidden border-b border-slate-100 font-sans">
             <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-[0.03]"></div>
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-5xl mx-auto text-center">
@@ -28,7 +28,7 @@ export function Hero() {
                         initial={{ y: 30, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] as any }}
-                        className="text-5xl font-bold tracking-tight text-slate-900 sm:text-6xl lg:text-8xl mb-8 font-serif leading-none"
+                        className="text-5xl font-bold tracking-tight text-slate-900 sm:text-6xl lg:text-8xl mb-8 font-sans leading-none"
                     >
                         Pakistan’s #1 <br />
                         <span className="text-emerald-600">Translation Services</span>

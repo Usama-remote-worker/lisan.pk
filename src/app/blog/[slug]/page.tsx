@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!post) return {}
 
     return {
-        title: `${post.title} | Lisan.pk`,
+        title: post.title,
         description: post.summary,
         alternates: {
             canonical: `https://www.lisan.pk/blog/${slug}`,

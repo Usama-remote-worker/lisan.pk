@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!university) return { title: "University Not Found" }
 
     return {
-        title: `${university.name} Scholarship for Pakistani Students 2026 | Lisan.pk`,
+        title: `${university.name} Scholarship 2026 Guide`,
         description: `Complete documentation guide, translation requirements, and application checklist for ${university.name} fully funded scholarship 2026. Certified Arabic translation support for Pakistani students.`,
         alternates: {
             canonical: `https://www.lisan.pk/scholarships/${slug}`,

@@ -27,7 +27,7 @@
   }
 
   .font-serif {
-    font-family: var(--font-serif), serif !important;
+    font-family: var(--font-outfit), sans-serif !important;
   }
 }
 

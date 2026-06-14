@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Document Services | Professional Legalization & Notary | Lisan.pk",
+    title: "Document Services | Professional Legalization & Notary",
     description: "Assistance with Police Clearance Certificates, NADRA Family Registration (FRC), Birth Certificates, and legal documentation for international use.",
     alternates: {
         canonical: '/services/document',

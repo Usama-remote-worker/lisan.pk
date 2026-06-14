@@ -14,16 +14,16 @@ export function Footer() {
     ];
 
     const internationalLocations = [
-        { name: "USA", href: "/countries/usa" },
-        { name: "UK", href: "/countries/uk" },
-        { name: "Canada", href: "/countries/canada" },
-        { name: "Australia", href: "/countries/australia" },
-        { name: "UAE", href: "/countries/uae" },
-        { name: "Saudi Arabia", href: "/countries/saudi-arabia" },
-        { name: "Qatar", href: "/countries/qatar" },
-        { name: "Turkey", href: "/countries/turkey" },
-        { name: "Germany", href: "/countries/germany" },
-        { name: "France", href: "/countries/france" }
+        { name: "USA", href: "/contact" },
+        { name: "UK", href: "/contact" },
+        { name: "Canada", href: "/contact" },
+        { name: "Australia", href: "/contact" },
+        { name: "UAE", href: "/contact" },
+        { name: "Saudi Arabia", href: "/contact" },
+        { name: "Qatar", href: "/contact" },
+        { name: "Turkey", href: "/contact" },
+        { name: "Germany", href: "/contact" },
+        { name: "France", href: "/contact" }
     ];
 
     const trustFeatures = [
@@ -115,16 +115,16 @@ export function Footer() {
                         <div>
                             <h4 className="text-slate-900 font-bold mb-6 uppercase text-xs tracking-wider">Countries</h4>
                             <ul className="space-y-3 text-xs font-medium text-slate-600">
-                                <li><Link href="/countries/usa" className="hover:text-emerald-700 transition-colors">United States</Link></li>
-                                <li><Link href="/countries/uk" className="hover:text-emerald-700 transition-colors">United Kingdom</Link></li>
-                                <li><Link href="/countries/canada" className="hover:text-emerald-700 transition-colors">Canada</Link></li>
-                                <li><Link href="/countries/australia" className="hover:text-emerald-700 transition-colors">Australia</Link></li>
-                                <li><Link href="/countries/saudi-arabia" className="hover:text-emerald-700 transition-colors">Saudi Arabia</Link></li>
-                                <li><Link href="/countries/uae" className="hover:text-emerald-700 transition-colors">UAE</Link></li>
-                                <li><Link href="/countries/qatar" className="hover:text-emerald-700 transition-colors">Qatar</Link></li>
-                                <li><Link href="/countries/turkey" className="hover:text-emerald-700 transition-colors">Turkey</Link></li>
-                                <li><Link href="/countries/germany" className="hover:text-emerald-700 transition-colors">Germany</Link></li>
-                                <li><Link href="/countries/france" className="hover:text-emerald-700 transition-colors">France</Link></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">United States</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">United Kingdom</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">Canada</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">Australia</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">Saudi Arabia</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">UAE</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">Qatar</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">Turkey</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">Germany</span></li>
+                                <li><span className="hover:text-emerald-700 transition-colors">France</span></li>
                             </ul>
                         </div>
 

@@ -2,7 +2,7 @@ import { PageHero } from "@/components/ui/PageHeader"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Document Attestation Services | MOFA, HEC, & Saudi Embassy | Lisan.pk",
+    title: "Document Attestation Services | MOFA, HEC, & Saudi Embassy",
     description: "Reliable document attestation for MOFA, HEC, and IBCC in Pakistan. Specializing in Saudi Embassy attestation with door-to-door service.",
     alternates: {
         canonical: '/services/attestation',

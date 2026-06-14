@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!cityData || !serviceData) return {}
 
     const title = service === 'degree-transcript-translation'
-        ? `Translate degree and transcript into Arabic in ${cityData.name} for Saudi university admission`
-        : `${serviceData.title} in ${cityData.name} | Certified Arabic Translation`
+        ? `Arabic Degree Translation in ${cityData.name}`
+        : `${serviceData.title} in ${cityData.name}`
 
     const description = service === 'degree-transcript-translation'
         ? `Professional service to translate degree and transcript into Arabic in ${cityData.name} for Saudi university admission. 100% embassy accepted.`

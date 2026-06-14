@@ -56,7 +56,6 @@ export function Header() {
                                 <div key={item.label} className="relative group py-2">
                                     <button className="flex items-center gap-1 transition-colors hover:text-emerald-600 focus:outline-none font-bold">
                                         {item.label}
-                                        <span className="text-[9px] leading-none select-none opacity-60">▼</span>
                                     </button>
                                     
                                     {/* Dropdown Menu */}

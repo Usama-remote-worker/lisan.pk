@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Expert Arabic Translation & Embassy Attestation Services | Lisan.pk",
+    title: "Expert Arabic Translation & Embassy Attestation Services",
     description: "Verified Arabic Translation, MOFA Attestation, and HEC Degree Verification services. Trusted by 100k+ clients for Saudi Embassy & Gulf document legalization.",
 }
 

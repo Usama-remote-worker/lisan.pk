@@ -5,7 +5,7 @@ import { universities } from "@/data/scholarship-universities"
 import { getSortedPostsData } from "@/lib/blog"
 
 export const metadata: Metadata = {
-    title: "Visual Directory & Service Sitemap | Lisan.pk",
+    title: "Visual Directory & Service Sitemap",
     description: "Navigate all pages, services, local branches, and guide maps of Lisan.pk. Access certified Arabic translations across Pakistan.",
     alternates: {
         canonical: "https://www.lisan.pk/directory",

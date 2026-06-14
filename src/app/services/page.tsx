@@ -6,7 +6,7 @@ import { ServicePackages } from "@/components/home/ServicePackages"
 import { services } from "@/data/location-services"
 
 export const metadata: Metadata = {
-    title: "Professional Translation Services in Pakistan | Lisan.pk",
+    title: "Professional Translation Services in Pakistan",
     description: "Certified document translation services in Pakistan. Specialist in Arabic, Urdu & English. Accepted by MOFA, HEC & all foreign embassies. Fast turnaround.",
     alternates: {
         canonical: "https://www.lisan.pk/services",

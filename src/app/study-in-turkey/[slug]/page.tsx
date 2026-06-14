@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!university) return { title: "University Not Found" }
 
     return {
-        title: `${university.name} Admission for Pakistani Students 2026 | Lisan.pk`,
+        title: `${university.name} Admission 2026 Pakistan`,
         description: `Apply for ${university.name} in Istanbul, Turkey. Tuition fee range: ${university.tuitionRange}, popular courses, and direct admissions support with 50% scholarship.`,
         alternates: {
             canonical: `https://www.lisan.pk/study-in-turkey/${slug}`,

@@ -286,7 +286,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!data) return {}
 
     return {
-        title: `${data.title} | Lisan.pk`,
+        title: data.title.replace(' | Lisan.pk', ''),
         description: data.description,
         alternates: {
             canonical: `https://www.lisan.pk/services/translation/${slug}`,
