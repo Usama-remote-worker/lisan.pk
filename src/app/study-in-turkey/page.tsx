@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { LeadForm } from "@/components/turkey/LeadForm"
 import { ExitPopup } from "@/components/turkey/ExitPopup"
 import { StickyMobileCTA } from "@/components/turkey/StickyMobileCTA"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 import { UniversitySection } from "@/components/turkey/UniversitySection"
 import { TurkeyFaq } from "@/components/turkey/TurkeyFaq"
 
@@ -695,7 +695,7 @@ export default function StudyInTurkeyHub() {
             </section>
 
             <div className="border-t border-slate-200">
-                <ServicePackages />
+
             </div>
         </main>
     )

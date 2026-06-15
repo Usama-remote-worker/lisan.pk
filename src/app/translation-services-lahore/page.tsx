@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 
 export const metadata: Metadata = {
     title: "Certified Translation Services in Lahore | Legal & Corporate",
@@ -92,7 +92,7 @@ export default function LahoreTranslationPage() {
                 </div>
             </section>
 
-            <ServicePackages />
+
         </main>
     )
 }

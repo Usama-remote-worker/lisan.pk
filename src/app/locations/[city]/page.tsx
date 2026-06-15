@@ -3,7 +3,7 @@ import { PageHero } from "@/components/ui/PageHeader"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 
 import { cities, services } from "@/data/location-services"
 
@@ -185,7 +185,7 @@ export default async function LocationPage({ params }: PageProps) {
             </section>
 
             {/* Service Packages Section */}
-            <ServicePackages />
+
 
             <section className="pb-32 font-sans">
                 <div className="container mx-auto px-4 max-w-7xl">

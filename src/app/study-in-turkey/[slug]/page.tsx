@@ -6,7 +6,7 @@ import { turkeyUniversities } from "@/data/turkey-universities"
 import { LeadForm } from "@/components/turkey/LeadForm"
 import { ExitPopup } from "@/components/turkey/ExitPopup"
 import { StickyMobileCTA } from "@/components/turkey/StickyMobileCTA"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 
 interface PageProps {
     params: Promise<{ slug: string }>
@@ -295,7 +295,7 @@ export default async function TurkeyUniversityPage({ params }: PageProps) {
 
             {/* Bottom Packages Segment */}
             <div className="border-t border-slate-200">
-                <ServicePackages />
+
             </div>
         </main>
     )

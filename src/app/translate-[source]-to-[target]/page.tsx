@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { languages, generateLanguagePairs } from "@/data/languages"
 import { notFound } from "next/navigation"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 
 type Props = {
     params: { source: string; target: string }
@@ -124,7 +124,7 @@ export default function LanguagePairPage({ params }: Props) {
                 </div>
             </section>
 
-            <ServicePackages />
+
         </main>
     )
 }

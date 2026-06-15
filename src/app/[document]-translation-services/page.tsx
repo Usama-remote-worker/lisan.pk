@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { documents } from "@/data/documents"
 import { notFound } from "next/navigation"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 
 type Props = {
     params: { document: string }
@@ -120,7 +120,7 @@ export default function DocumentTranslationPage({ params }: Props) {
                 </div>
             </section>
 
-            <ServicePackages />
+
         </main>
     )
 }

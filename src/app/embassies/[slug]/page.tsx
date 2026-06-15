@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { embassies } from "@/data/embassies"
 import { notFound } from "next/navigation"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 
 type Props = {
     params: { slug: string }
@@ -127,7 +127,7 @@ export default function EmbassyPage({ params }: Props) {
                 </div>
             </section>
 
-            <ServicePackages />
+
         </main>
     )
 }

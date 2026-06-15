@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Metadata } from "next"
 import { JsonLd } from "@/components/seo/JsonLd"
-import { ServicePackages } from "@/components/home/ServicePackages"
+
 import { services } from "@/data/location-services"
 
 export const metadata: Metadata = {
@@ -64,7 +64,7 @@ export default function ServicesPage() {
 
 
             {/* Service Packages */}
-            <ServicePackages />
+
 
             {/* Specialties Section - Expanded Catalog */}
             <section className="py-32 bg-white font-sans">
