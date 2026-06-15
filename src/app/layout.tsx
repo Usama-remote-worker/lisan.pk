@@ -6,7 +6,6 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingActions } from "@/components/layout/FloatingActions";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
-import { ScholarshipPopup } from "@/components/modals/ScholarshipPopup";
 import { Toaster } from "react-hot-toast";
 // Removed WhyChooseUs import as it is now inside Footer
 
@@ -122,7 +121,6 @@ export default function RootLayout({
         {children}
         <Footer />
         <FloatingActions />
-        <ScholarshipPopup />
         <Toaster position="bottom-right" />
       </body>
     </html>
