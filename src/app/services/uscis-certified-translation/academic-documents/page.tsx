@@ -15,7 +15,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "USCIS Academic Document Translation Services | Lisan.pk",
+  title: "USCIS Academic Degree Translation Services | Lisan.pk",
   description: "Certified translation of degrees, transcripts & diplomas for USCIS. HEC & credential evaluation (WES, ECE) aligned translations.",
   alternates: { canonical: "https://www.lisan.pk/services/uscis-certified-translation/academic-documents" },
   openGraph: {

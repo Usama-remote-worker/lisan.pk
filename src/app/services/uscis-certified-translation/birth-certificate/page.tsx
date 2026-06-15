@@ -15,7 +15,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "USCIS Birth Certificate Translation Services | Lisan.pk",
+  title: "USCIS Birth Certificate & FRC Translation | Lisan.pk",
   description: "Certified translation of Urdu, Arabic & foreign birth certificates for USCIS. 100% acceptance guaranteed for green card & visa applications.",
   alternates: { canonical: "https://www.lisan.pk/services/uscis-certified-translation/birth-certificate" },
   openGraph: {

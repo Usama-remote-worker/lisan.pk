@@ -25,14 +25,24 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "UKVI Certified Translation Services | Lisan.pk",
-  description: "UKVI & Home Office certified translation services online. Accepted for UK Spouse Visa, Student Visa, and ILR. Fast 24-hour delivery.",
+  title: "UKVI Certified Translation Services in Pakistan | Online Agency",
+  description: "Certified translation services for UK Visa and Immigration (UKVI). Accepted by the Home Office. Fast, accurate, and fully compliant with UK guidelines.",
   alternates: { canonical: "https://www.lisan.pk/services/ukvi-certified-translation" },
   openGraph: {
     title: "UKVI Certified Translation Services | Lisan.pk",
-    description: "Professional Home Office certified translation. Accepted for all UKVI immigration applications. 24-hour delivery.",
+    description: "Certified translation services for UK Visa and Immigration (UKVI). Accepted by the Home Office.",
     url: "https://www.lisan.pk/services/ukvi-certified-translation",
-    siteName: "Lisan.pk", type: "website",
+    siteName: "Lisan.pk",
+    images: [
+      {
+        url: "https://www.lisan.pk/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UKVI Certified Translation Services",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
   },
   twitter: { card: "summary_large_image", title: "UKVI Certified Translation | Lisan.pk", description: "Home Office accepted certified translation services online." },
 }

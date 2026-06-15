@@ -25,7 +25,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "USCIS Certified Translation Services | Lisan.pk",
+  title: "USCIS Certified Translation Services for Immigration | Lisan.pk",
   description: "USCIS certified translation services online. Accepted for green card, citizenship & immigration. Birth certificate, marriage certificate & more. Fast delivery.",
   alternates: { canonical: "https://www.lisan.pk/services/uscis-certified-translation" },
   openGraph: {
