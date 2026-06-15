@@ -1,332 +1,257 @@
 import { Metadata } from 'next'
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
-import { ServicePackages } from "@/components/home/ServicePackages"
-import { CheckCircle2, Shield, Clock, BookOpen, GraduationCap, Building2, Scale, Star, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
     title: "Certified Translation Services in Islamabad | Embassy Approved",
-    description: "Looking for certified translation services in Islamabad? We provide MOFA, HEC, and embassy-compliant translations with 24-48 hour turnaround. Get a quote today.",
+    description: "Approved certified translation services in Islamabad. Fast turnaround for legal, corporate, and official documents near Blue Area & international embassies.",
     alternates: {
         canonical: "https://www.lisan.pk/translation-services-islamabad",
     },
 }
 
-const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "Will your translations be accepted by embassies in Islamabad?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Our certified translations include a formal certificate of accuracy, official stamps, and credentials that fulfill the strict verification criteria of foreign embassies, MOFA, and educational boards."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How long does it take to get a document translated?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most standard legal or personal documents (birth certificates, degrees) are processed within 24 to 48 hours. Express options are available for urgent visa deadlines."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Do I need to submit original physical documents?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No, clear scanned copies or high-resolution photos sent via email or WhatsApp are perfectly sufficient for us to begin the certified translation process."
-            }
-        }
-    ]
-}
-
 export default function IslamabadTranslationPage() {
     return (
-        <main className="min-h-screen bg-[#fafafa] font-sans">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-
-            {/* HERO SECTION */}
-            <section className="bg-[#064e3b] text-white pt-24 pb-20 px-4 md:px-8 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
-                <div className="max-w-6xl mx-auto relative z-10 flex flex-col md:flex-row items-center gap-12">
-                    <div className="flex-1 text-center md:text-left">
-                        <span className="inline-block bg-[#a7f3d0] text-[#064e3b] font-bold px-4 py-1.5 rounded-full text-sm mb-6">
-                            Lisan.pk | Serving the Capital
-                        </span>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 tracking-tight">
-                            Certified Translation Services in Islamabad
-                        </h1>
-                        <p className="text-emerald-50 text-lg md:text-xl mb-10 max-w-2xl leading-relaxed">
-                            Accurate, legally recognized translations for visas, immigration, and legal affairs. Accepted by foreign embassies, NADRA, MOFA, and ministries across Pakistan.
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20services%20in%20Islamabad.">
-                                <Button className="w-full sm:w-auto bg-[#a7f3d0] hover:bg-[#86efac] text-[#064e3b] h-14 px-8 text-base font-bold rounded-xl transition-all shadow-lg shadow-[#a7f3d0]/20">
-                                    Start Your Project
-                                </Button>
-                            </Link>
-                            <Link href="/contact">
-                                <Button variant="outline" className="w-full sm:w-auto border-[#a7f3d0] text-[#a7f3d0] hover:bg-[#064e3b] hover:text-white bg-transparent h-14 px-8 text-base font-bold rounded-xl transition-all">
-                                    View Our Services
-                                </Button>
-                            </Link>
-                        </div>
+        <>
+            <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+            
+            <main className="bg-[#faf8ff] text-[#131b2e] overflow-x-hidden font-sans">
+                {/* Hero Section with Localized Imagery */}
+                <section className="relative w-full min-h-[707px] flex items-center overflow-hidden bg-[#064E3B]">
+                    <div className="absolute inset-0 z-0">
+                        <img className="w-full h-full object-cover opacity-30 mix-blend-overlay" alt="Islamabad Faisal Mosque" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDra1Ao8aSpWMcj3HWQ-ZAkJaRG4AJalvp-KbQbTV-IAM9cx77-LP1sfLFYchf-kQjDegUsxv8gRnMo-glz052juM6AOapDeOcJiuwWojWg_lItvzB3NITHa67OcFgoXyjVzZBmSl2Nkg60Q57hD--WyqiuT44mbY9jJv9dS-ennSUQqlTHGRdLr6DuA_AkzKQoXQf1i9hBv_xMLjoGuJc22W66V-WA2qe9V1W2_lYk2DQVra6WsBKkvkE-aOD7b88PiFOKbcQ4ElZe" />
+                        <div className="absolute inset-0 bg-gradient-to-r from-[#064E3B] via-[#064E3B]/80 to-transparent"></div>
                     </div>
-                </div>
-            </section>
-
-            {/* ECOSYSTEM SECTION (The Institutional Compliance) */}
-            <section className="py-20 px-4 md:px-8 bg-white">
-                <div className="max-w-4xl mx-auto">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">The Compliance Translation Ecosystem</h2>
-                        <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                            Our specialized divisions ensure that every word passes rigorous embassy and cultural ministry mandates.
-                        </p>
-                    </div>
-
-                    <div className="space-y-6">
-                        {/* Card 1 */}
-                        <div className="bg-[#f8fafc] rounded-3xl p-8 md:p-10 border border-slate-100 shadow-sm">
-                            <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-[#064e3b]">
-                                <Building2 size={24} />
-                            </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-3">Embassy Submissions & Visa Papers</h3>
-                            <p className="text-slate-600 mb-6 leading-relaxed">
-                                Full compliance for the Diplomatic Enclave. Our certifications meet strict requirements for the UK, US, Eurozone, Canadian, and Australian embassies. Guaranteed acceptance.
-                            </p>
-                            <ul className="space-y-3 mb-8">
-                                <li className="flex items-center gap-3 text-slate-700 font-medium">
-                                    <CheckCircle2 size={18} className="text-[#064e3b]" /> MOFA verification ready documentation
-                                </li>
-                                <li className="flex items-center gap-3 text-slate-700 font-medium">
-                                    <CheckCircle2 size={18} className="text-[#064e3b]" /> Formal Certificate of Accuracy included
-                                </li>
-                            </ul>
-                            <div className="h-48 bg-slate-200 rounded-2xl w-full relative overflow-hidden group">
-                                <div className="absolute inset-0 bg-[#064e3b]/10 group-hover:bg-transparent transition-all z-10"></div>
-                                <Image src="/images/legal-signing.png" alt="Legal document signing" fill className="object-cover" />
-                            </div>
-                        </div>
-
-                        {/* Card 2 */}
-                        <div className="bg-[#064e3b] rounded-3xl p-8 md:p-10 text-white shadow-xl shadow-[#064e3b]/10 relative overflow-hidden">
-                            <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
-                            <div className="w-12 h-12 bg-[#064e3b] border border-white/20 rounded-xl flex items-center justify-center mb-6 text-[#a7f3d0]">
-                                <GraduationCap size={24} />
-                            </div>
-                            <h3 className="text-2xl font-bold text-white mb-3">Academic Credentials (HEC & WES)</h3>
-                            <p className="text-emerald-50/80 leading-relaxed max-w-2xl">
-                                Expanding your education beyond Pakistan? We perfectly format your degrees, diplomas, and transcripts for HEC attestation and international WES evaluations.
-                            </p>
-                            <div className="mt-8 bg-white/10 rounded-xl p-4 flex items-start gap-4 max-w-md backdrop-blur-sm">
-                                <Shield className="text-[#a7f3d0] shrink-0 mt-1" size={20} />
-                                <p className="text-sm text-emerald-50">Translated directly from the original HEC verified Arabic/English formats.</p>
-                            </div>
-                        </div>
-
-                        {/* Card 3 */}
-                        <div className="bg-[#f1f5f9] rounded-3xl p-8 md:p-10 border border-slate-200 shadow-sm">
-                            <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-slate-700">
-                                <BookOpen size={24} />
-                            </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-3">Corporate & Diplomatic</h3>
-                            <p className="text-slate-600 leading-relaxed mb-6">
-                                Flawless translation of corporate contracts, B2B agreements, MOU drafts for international organizations, and formal embassy correspondence.
-                            </p>
-                            <div className="text-sm font-bold text-slate-500 uppercase tracking-wider flex items-center gap-2">
-                                ISO 9001:2015 <ArrowRight size={16} />
-                            </div>
-                        </div>
-
-                        {/* Card 4 */}
-                        <div className="bg-[#f5f3ff] rounded-3xl p-8 md:p-10 border border-purple-100 shadow-sm">
-                            <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-purple-700">
-                                <Scale size={24} />
-                            </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-3">Legal & Civil Documentation</h3>
-                            <p className="text-slate-600 leading-relaxed mb-8">
-                                Complete packages for personal documentation. Nikkah Nama, birth certificates, Family Registration Certificates (FRC), and legal affidavits verified for NADRA.
+                    <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-[40px] py-[80px]">
+                        <div className="max-w-2xl">
+                            <span className="inline-block py-1 px-4 rounded-full bg-[#D1FAE5] text-[#004e3a] text-[12px] font-semibold mb-6 uppercase tracking-wider">Trusted in Islamabad</span>
+                            <h1 className="text-[36px] md:text-[48px] leading-[1.2] md:leading-[1.1] tracking-[-0.02em] font-bold text-white mb-6">
+                                Certified Translation Services in Islamabad – Embassy & MOFA Compliant
+                            </h1>
+                            <p className="text-[18px] leading-[1.6] text-[#D1FAE5]/80 mb-10">
+                                Accurate, legally recognized translations for visas, immigration, and legal affairs. Accepted by foreign embassies, NADRA, and ministries across Islamabad.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <Link href="/contact" className="flex-1">
-                                    <Button className="w-full bg-purple-100 hover:bg-purple-200 text-purple-800 h-14 rounded-xl font-bold transition-colors">
-                                        Get Details
-                                    </Button>
+                                <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20services%20in%20Islamabad.">
+                                    <button className="bg-[#D1FAE5] text-[#004e3a] text-[20px] font-semibold px-8 py-4 rounded-xl hover:shadow-[0_0_20px_rgba(209,250,229,0.3)] transition-all w-full sm:w-auto">Start Your Project</button>
                                 </Link>
-                                <Link href="https://wa.me/923044296295" className="flex-1">
-                                    <Button className="w-full bg-[#064e3b] hover:bg-[#047857] text-white h-14 rounded-xl font-bold transition-all shadow-lg">
-                                        Start Translation
-                                    </Button>
+                                <Link href="/contact">
+                                    <button className="border border-[#D1FAE5] text-[#D1FAE5] text-[20px] font-semibold px-8 py-4 rounded-xl hover:bg-white/5 transition-all w-full sm:w-auto">View Our Services</button>
                                 </Link>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            {/* PROCESS STEPS SECTION */}
-            <section className="py-20 px-4 md:px-8 bg-slate-50 border-y border-slate-200">
-                <div className="max-w-5xl mx-auto">
+                {/* Bento Grid Services Deep-Dive */}
+                <section className="py-[80px] max-w-[1280px] mx-auto px-4 md:px-[40px]">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">How It Works</h2>
-                        <p className="text-lg text-slate-600">A seamless, fully digital process designed for your convenience.</p>
+                        <h2 className="text-[30px] font-semibold text-[#004e3a] mb-4">Precision Translation Ecosystem</h2>
+                        <p className="text-[18px] text-[#3f4944] max-w-2xl mx-auto">Our specialized divisions ensure that every word carries the exact weight and cultural nuance intended.</p>
                     </div>
                     
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative">
-                            <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-lg mb-4">1</div>
-                            <h3 className="font-bold text-slate-900 mb-2">Send Document</h3>
-                            <p className="text-slate-600 text-sm">Send a clear scan or photo of your document via WhatsApp or email.</p>
+                    <div className="grid grid-cols-12 gap-6">
+                        {/* Main Service 1 */}
+                        <div className="col-span-12 md:col-span-8 rounded-[1.5rem] p-8 bg-[#f2f3ff] border border-[#D1FAE5]/20 group hover:border-[#004e3a] transition-all duration-300">
+                            <div className="flex flex-col h-full justify-between">
+                                <div>
+                                    <span className="material-symbols-outlined text-4xl text-[#004e3a] mb-6">verified_user</span>
+                                    <h3 className="text-[30px] font-semibold text-[#004e3a] mb-4">Embassy Submissions & Visa Papers</h3>
+                                    <p className="text-[16px] text-[#3f4944] leading-relaxed mb-6">
+                                        Our certifications meet the strict requirements for the Diplomatic Enclave, including the UK, US, Eurozone (Schengen), Canadian, and Australian embassies.
+                                    </p>
+                                    <ul className="space-y-3">
+                                        <li className="flex items-center gap-3 text-[#004e3a] font-medium">
+                                            <span className="material-symbols-outlined text-sm">check_circle</span> Official Translator's Stamp & Signature
+                                        </li>
+                                        <li className="flex items-center gap-3 text-[#004e3a] font-medium">
+                                            <span className="material-symbols-outlined text-sm">check_circle</span> Formal Certificate of Accuracy
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="mt-8 rounded-lg w-full h-48 relative overflow-hidden group-hover:scale-[1.02] transition-transform">
+                                    <Image src="/images/legal-signing.png" alt="Legal signing" fill className="object-cover" />
+                                </div>
+                            </div>
                         </div>
-                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative">
-                            <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-lg mb-4">2</div>
-                            <h3 className="font-bold text-slate-900 mb-2">Quotation & Payment</h3>
-                            <p className="text-slate-600 text-sm">Get an instant, transparent quote. Make a secure online payment to start.</p>
+
+                        {/* Secondary Service 2 */}
+                        <div className="col-span-12 md:col-span-4 rounded-[1.5rem] p-8 bg-[#064E3B] text-white">
+                            <span className="material-symbols-outlined text-4xl text-[#D1FAE5] mb-6">translate</span>
+                            <h3 className="text-[20px] font-semibold mb-4">Academic Credentials</h3>
+                            <p className="text-[16px] text-[#D1FAE5]/70 leading-relaxed mb-8">
+                                Degrees, diplomas, and transcripts formatted precisely for HEC and WES evaluations.
+                            </p>
+                            <div className="p-6 bg-white/10 rounded-xl">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <span className="material-symbols-outlined text-[#D1FAE5]">language</span>
+                                    <span className="text-[14px] font-medium">Global Reach</span>
+                                </div>
+                                <p className="text-sm text-[#D1FAE5]/60">Supporting over 50+ language pairs.</p>
+                            </div>
                         </div>
-                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative">
-                            <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-lg mb-4">3</div>
-                            <h3 className="font-bold text-slate-900 mb-2">Translation & Review</h3>
-                            <p className="text-slate-600 text-sm">Our MA-qualified linguists translate and format. You review the draft for spelling accuracy.</p>
+
+                        {/* Tertiary Service 3 */}
+                        <div className="col-span-12 md:col-span-4 rounded-[1.5rem] p-8 bg-[#D1FAE5]/20 border border-[#D1FAE5] group">
+                            <span className="material-symbols-outlined text-4xl text-[#004e3a] mb-6">medical_services</span>
+                            <h3 className="text-[20px] font-semibold text-[#004e3a] mb-4">Corporate & Diplomatic</h3>
+                            <p className="text-[16px] text-[#3f4944] mb-6">B2B contracts, MOU translations for international organizations, and embassy correspondence.</p>
+                            <a className="text-[#004e3a] font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="/contact">Learn more <span className="material-symbols-outlined">arrow_forward</span></a>
                         </div>
-                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative">
-                            <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-lg mb-4">4</div>
-                            <h3 className="font-bold text-slate-900 mb-2">Certified Delivery</h3>
-                            <p className="text-slate-600 text-sm">Receive digital copies immediately, and stamped hard copies via courier to your doorstep.</p>
+
+                        {/* Tertiary Service 4 */}
+                        <div className="col-span-12 md:col-span-8 rounded-[1.5rem] p-8 bg-[#faf8ff] border border-[#bec9c2] flex flex-col md:flex-row gap-8 items-center">
+                            <div className="flex-1">
+                                <span className="material-symbols-outlined text-4xl text-[#006c4e] mb-6">history_edu</span>
+                                <h3 className="text-[30px] font-semibold text-[#004e3a] mb-4">Legal & Civil Documents</h3>
+                                <p className="text-[16px] text-[#3f4944]">Nikkah Nama, birth certificates, and affidavits verified for official registration.</p>
+                            </div>
+                            <div className="flex-1 w-full grid grid-cols-2 gap-4">
+                                <div className="h-32 bg-[#e2e7ff] rounded-xl flex items-center justify-center font-bold text-[#004e3a] text-center px-4">MOFA Compliant</div>
+                                <div className="h-32 bg-[#006c4e] text-white rounded-xl flex items-center justify-center font-bold text-center px-4">Fast Turnaround</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            {/* WHY CHOOSE LISAN SECTION */}
-            <section className="py-20 px-4 md:px-8 bg-white">
-                <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-                    <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-10">Why Choose Lisan in Islamabad?</h2>
+                {/* PROCESS STEPS SECTION */}
+                <section className="py-[80px] px-4 md:px-[40px] bg-[#f2f3ff] border-y border-[#bec9c2]/30">
+                    <div className="max-w-[1280px] mx-auto">
+                        <div className="text-center mb-16">
+                            <h2 className="text-[30px] font-semibold text-[#004e3a] mb-4">How It Works</h2>
+                            <p className="text-[18px] text-[#3f4944]">A seamless, fully digital process designed for your convenience.</p>
+                        </div>
                         
-                        <div className="space-y-8">
-                            <div className="flex gap-4">
-                                <div className="w-12 h-12 bg-[#064e3b] text-[#a7f3d0] rounded-full flex items-center justify-center shrink-0">
-                                    <Shield size={24} />
-                                </div>
-                                <div>
-                                    <h3 className="font-bold text-slate-900 text-xl mb-2">Embassy Approved Expertise</h3>
-                                    <p className="text-slate-600 leading-relaxed">Deep understanding of local jurisdictional requirements, embassy protocols, and MOFA translation guidelines.</p>
-                                </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <div className="bg-white p-6 rounded-2xl shadow-sm border border-[#D1FAE5] relative">
+                                <div className="w-10 h-10 bg-[#D1FAE5] text-[#004e3a] rounded-full flex items-center justify-center font-bold text-lg mb-4">1</div>
+                                <h3 className="font-bold text-[#131b2e] mb-2">Send Document</h3>
+                                <p className="text-[#3f4944] text-sm">Send a clear scan or photo of your document via WhatsApp or email.</p>
                             </div>
-                            
-                            <div className="flex gap-4">
-                                <div className="w-12 h-12 bg-[#064e3b] text-[#a7f3d0] rounded-full flex items-center justify-center shrink-0">
-                                    <Clock size={24} />
-                                </div>
-                                <div>
-                                    <h3 className="font-bold text-slate-900 text-xl mb-2">Same Day Delivery</h3>
-                                    <p className="text-slate-600 leading-relaxed">Rapid translation services available for critical visa applications or urgent immigration timelines.</p>
-                                </div>
+                            <div className="bg-white p-6 rounded-2xl shadow-sm border border-[#D1FAE5] relative">
+                                <div className="w-10 h-10 bg-[#D1FAE5] text-[#004e3a] rounded-full flex items-center justify-center font-bold text-lg mb-4">2</div>
+                                <h3 className="font-bold text-[#131b2e] mb-2">Quotation & Payment</h3>
+                                <p className="text-[#3f4944] text-sm">Get an instant, transparent quote. Make a secure online payment to start.</p>
                             </div>
+                            <div className="bg-white p-6 rounded-2xl shadow-sm border border-[#D1FAE5] relative">
+                                <div className="w-10 h-10 bg-[#D1FAE5] text-[#004e3a] rounded-full flex items-center justify-center font-bold text-lg mb-4">3</div>
+                                <h3 className="font-bold text-[#131b2e] mb-2">Translation & Review</h3>
+                                <p className="text-[#3f4944] text-sm">Our qualified linguists translate and format. You review the draft for spelling accuracy.</p>
+                            </div>
+                            <div className="bg-white p-6 rounded-2xl shadow-sm border border-[#D1FAE5] relative">
+                                <div className="w-10 h-10 bg-[#D1FAE5] text-[#004e3a] rounded-full flex items-center justify-center font-bold text-lg mb-4">4</div>
+                                <h3 className="font-bold text-[#131b2e] mb-2">Certified Delivery</h3>
+                                <p className="text-[#3f4944] text-sm">Receive digital copies immediately, and stamped hard copies via courier to your doorstep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-                            <div className="flex gap-4">
-                                <div className="w-12 h-12 bg-[#064e3b] text-[#a7f3d0] rounded-full flex items-center justify-center shrink-0">
-                                    <CheckCircle2 size={24} />
+                {/* Why Choose Section */}
+                <section className="py-[80px] bg-[#F8FAFC] relative overflow-hidden">
+                    <div className="max-w-[1280px] mx-auto px-4 md:px-[40px] flex flex-col md:flex-row items-center gap-16">
+                        <div className="flex-1">
+                            <h2 className="text-[30px] font-semibold text-[#004e3a] mb-8">Why Choose Lisan in Islamabad?</h2>
+                            <div className="space-y-8">
+                                <div className="flex gap-6">
+                                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#004e3a] text-white flex items-center justify-center">
+                                        <span className="material-symbols-outlined">location_on</span>
+                                    </div>
+                                    <div>
+                                        <h4 className="text-[20px] font-semibold text-[#004e3a] mb-2">Localized Expertise</h4>
+                                        <p className="text-[#3f4944]">Address Islamabad's specific audience—expats, foreign mission staff, international NGO workers, and students applying for foreign scholarships.</p>
+                                    </div>
                                 </div>
+                                <div className="flex gap-6">
+                                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#006c4e] text-white flex items-center justify-center">
+                                        <span className="material-symbols-outlined">speed</span>
+                                    </div>
+                                    <div>
+                                        <h4 className="text-[20px] font-semibold text-[#004e3a] mb-2">Fast Doorstep Delivery</h4>
+                                        <p className="text-[#3f4944]">Serving sectors E, F, G, H, I, DHA, and Bahria Town. Enjoy secure digital delivery or swift courier tracking straight to your doorstep across Islamabad and Rawalpindi.</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-6">
+                                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#D1FAE5] text-[#004e3a] flex items-center justify-center">
+                                        <span className="material-symbols-outlined">lock</span>
+                                    </div>
+                                    <div>
+                                        <h4 className="text-[20px] font-semibold text-[#004e3a] mb-2">Total Confidentiality</h4>
+                                        <p className="text-[#3f4944]">NDA-backed processes for sensitive government and corporate documentation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex-1 relative w-full">
+                            <div className="aspect-square bg-[#D1FAE5] rounded-[1.5rem] overflow-hidden shadow-2xl relative w-full">
+                                <Image className="w-full h-full object-cover" src="/images/office-meeting.png" alt="Office meeting" fill />
+                            </div>
+                            <div className="absolute -bottom-8 -left-8 bg-white/70 backdrop-blur-md p-8 rounded-2xl border border-white/50 shadow-xl max-w-xs">
+                                <p className="text-[#004e3a] font-bold text-3xl mb-1">100%</p>
+                                <p className="text-[#3f4944] text-[14px] font-medium">Acceptance Rate for Embassy Submissions in Islamabad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Testimonials */}
+                <section className="py-[80px] max-w-[1280px] mx-auto px-4 md:px-[40px]">
+                    <h2 className="text-[30px] font-semibold text-[#004e3a] text-center mb-16">Trusted by Local Leaders</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div className="p-8 rounded-[1.5rem] bg-[#faf8ff] border border-[#bec9c2] hover:shadow-lg transition-all">
+                            <div className="flex gap-1 text-yellow-500 mb-6">
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                            </div>
+                            <p className="italic text-[#3f4944] mb-8">"Lisan.pk handled our corporate bylaws translation for our expansion into Saudi Arabia. The quality was impeccable, and they understood the legal terminology perfectly."</p>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-[#97f5cc]"></div>
                                 <div>
-                                    <h3 className="font-bold text-slate-900 text-xl mb-2">Strict Confidentiality</h3>
-                                    <p className="text-slate-600 leading-relaxed">NDA-backed processes for sensitive personal documents and classified corporate communications.</p>
+                                    <p className="font-bold text-[#004e3a]">Asad Mehmood</p>
+                                    <p className="text-sm text-[#3f4944]">Director, Blue Area Tech</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-8 rounded-[1.5rem] bg-[#004e3a] text-white shadow-xl">
+                            <div className="flex gap-1 text-[#D1FAE5] mb-6">
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                            </div>
+                            <p className="italic mb-8">"Highly professional service for embassy document translation. They were faster than any other agency in Islamabad and very transparent about pricing."</p>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-white/20"></div>
+                                <div>
+                                    <p className="font-bold">Sara Khan</p>
+                                    <p className="text-sm text-[#D1FAE5]/80">Visa Applicant, F-8 Markaz</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-8 rounded-[1.5rem] bg-[#faf8ff] border border-[#bec9c2] hover:shadow-lg transition-all">
+                            <div className="flex gap-1 text-yellow-500 mb-6">
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                                <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
+                            </div>
+                            <p className="italic text-[#3f4944] mb-8">"Their technical translation team is top-notch. We've used them for several engineering manuals and the feedback from our partners has been excellent."</p>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-[#97f5cc]"></div>
+                                <div>
+                                    <p className="font-bold text-[#004e3a]">Dr. Irfan Malik</p>
+                                    <p className="text-sm text-[#3f4944]">Lead Engineer, Sector F-7</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div className="relative">
-                        <div className="bg-[#064e3b] rounded-t-[3rem] rounded-b-[1rem] p-4 pt-12 relative overflow-hidden">
-                            <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10"></div>
-                            <div className="relative z-10 w-full aspect-square bg-white rounded-full p-2">
-                                <div className="w-full h-full rounded-full bg-slate-200 overflow-hidden relative">
-                                     <Image src="/images/office-meeting.png" alt="Professionals in meeting" fill className="object-cover" />
-                                </div>
-                            </div>
-                            <div className="absolute bottom-10 left-0 bg-white p-4 pr-8 rounded-r-xl shadow-xl z-20">
-                                <h4 className="font-bold text-slate-900 text-xl">100%</h4>
-                                <p className="text-slate-500 text-sm font-medium">Acceptance Rate for<br/>Embassy Submissions</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* TESTIMONIALS SECTION */}
-            <section className="py-20 px-4 md:px-8 bg-slate-50">
-                <div className="max-w-6xl mx-auto">
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Trusted by Local Leaders</h2>
-                    </div>
-
-                    <div className="grid md:grid-cols-3 gap-6">
-                        <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-                            <div className="flex text-amber-400 mb-4">
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                            </div>
-                            <p className="text-slate-700 italic mb-6">"Lisan.pk translated our corporate documentation for our expansion into Saudi Arabia. Completely MOFA acceptable, and they understood the legal terminology perfectly."</p>
-                            <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 bg-emerald-100 rounded-full"></div>
-                                <div>
-                                    <h4 className="font-bold text-slate-900 text-sm">Tariq Mahmood</h4>
-                                    <p className="text-slate-500 text-xs">Corporate Client, Blue Area</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-[#064e3b] text-white p-8 rounded-2xl shadow-xl">
-                            <div className="flex text-amber-400 mb-4">
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                            </div>
-                            <p className="text-emerald-50 italic mb-6">"Highly professional service for embassy document translation. They were faster than any other agency in Islamabad and 100% transparent about pricing."</p>
-                            <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 bg-[#a7f3d0] rounded-full"></div>
-                                <div>
-                                    <h4 className="font-bold text-white text-sm">Sana Khan</h4>
-                                    <p className="text-emerald-100/80 text-xs">Visa Applicant, F-8 Markaz</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm">
-                            <div className="flex text-amber-400 mb-4">
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                                <Star fill="currentColor" size={18} />
-                            </div>
-                            <p className="text-slate-700 italic mb-6">"Their technical translation team is top-notch. We rely on them for sensitive policy documents and the feedback from our partners has been excellent."</p>
-                            <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 bg-emerald-100 rounded-full"></div>
-                                <div>
-                                    <h4 className="font-bold text-slate-900 text-sm">Ali Rehman</h4>
-                                    <p className="text-slate-500 text-xs">NGO Director, Sector G-11</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <ServicePackages />
-        </main>
+                </section>
+            </main>
+        </>
     )
 }
