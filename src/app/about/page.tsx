@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Metadata } from "next"
+import Image from "next/image"
 
 export const metadata: Metadata = {
     title: "About Lisan.pk: 40+ Years of Arabic Translation Expertise",
@@ -91,10 +92,11 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="h-64 md:h-[450px] rounded-2xl bg-emerald-50 overflow-hidden relative shadow-lg">
-            <img 
-              alt="Vintage typewriter marking 40+ years of translation legacy" 
-              className="w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-105" 
+            <Image 
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKiscN2FFIY96QUQBv1Nmywfnk68AK8qtOU3sJUKXqYRn0SU15fe8_TgpCmWfUDUwfCqA3q2Jf0jl1dn0Imzfgfy-bhjdrm2em0giaB-T9DTrhkYHWCJX3vx7KDd_VqpEScz5Yl0OWQcq6iRBFnx-ibdT2LGSyosJEdzJLlSUxZ5OYzFGDCeS93JzuJVAwf4J9veQatxrAiDrQIc-4DpiG1fT9HTX1fwfi-rx_HWjIn_fffX3RnT2kdF0kwagDbqmTgrfz53cbxbE"
+              alt="Vintage typewriter marking 40+ years of translation legacy" 
+              fill
+              className="object-cover opacity-90 transition-transform duration-700 hover:scale-105" 
             />
           </div>
         </div>
@@ -147,10 +149,11 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="order-1 lg:order-2 rounded-3xl overflow-hidden shadow-2xl border border-slate-200 h-[500px] relative animate-in fade-in zoom-in duration-700">
-            <img
+            <Image
               src="/images/about-story-elegant.png"
               alt="Muhammad Iftikhar Zahid working"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
         </div>

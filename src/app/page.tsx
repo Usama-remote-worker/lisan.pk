@@ -1,17 +1,20 @@
 import { Metadata } from "next"
+import dynamic from "next/dynamic"
 import { Hero } from "@/components/home/Hero"
-import { DocumentTranslationGrid } from "@/components/home/DocumentTranslationGrid"
-import { B2BTravelSection } from "@/components/home/B2BTravelSection"
-import { AttestationList } from "@/components/home/AttestationList"
-import { StudyAbroadPromo } from "@/components/home/StudyAbroadPromo"
-import { TestimonialSection } from "@/components/home/TestimonialSection"
-import { FaqSection } from "@/components/home/FaqSection"
-import { BlogPreview } from "@/components/home/BlogPreview"
-import { TrustSection } from "@/components/home/TrustSection"
-import { LocationGrid } from "@/components/home/LocationGrid"
 import { FadeIn } from "@/components/ui/fade-in"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { getSortedPostsData } from "@/lib/blog"
+
+// Dynamically import below-the-fold components to improve mobile LCP and TTI
+const DocumentTranslationGrid = dynamic(() => import("@/components/home/DocumentTranslationGrid").then(mod => mod.DocumentTranslationGrid))
+const B2BTravelSection = dynamic(() => import("@/components/home/B2BTravelSection").then(mod => mod.B2BTravelSection))
+const AttestationList = dynamic(() => import("@/components/home/AttestationList").then(mod => mod.AttestationList))
+const StudyAbroadPromo = dynamic(() => import("@/components/home/StudyAbroadPromo").then(mod => mod.StudyAbroadPromo))
+const TestimonialSection = dynamic(() => import("@/components/home/TestimonialSection").then(mod => mod.TestimonialSection))
+const FaqSection = dynamic(() => import("@/components/home/FaqSection").then(mod => mod.FaqSection))
+const BlogPreview = dynamic(() => import("@/components/home/BlogPreview").then(mod => mod.BlogPreview))
+const TrustSection = dynamic(() => import("@/components/home/TrustSection").then(mod => mod.TrustSection))
+const LocationGrid = dynamic(() => import("@/components/home/LocationGrid").then(mod => mod.LocationGrid))
 
 export const metadata: Metadata = {
   alternates: {
