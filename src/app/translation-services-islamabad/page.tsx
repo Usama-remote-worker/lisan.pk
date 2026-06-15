@@ -147,6 +147,33 @@ export default function IslamabadTranslationPage() {
                     </div>
                 </section>
 
+                {/* Local SEO Paragraph Section */}
+                <section className="py-[80px] max-w-[1280px] mx-auto px-4 md:px-[40px]">
+                    <div className="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-[1.5rem] border border-[#bec9c2] shadow-sm">
+                        <h2 className="text-[24px] font-semibold text-[#004e3a] mb-6">Serving Local Businesses Across Islamabad</h2>
+                        <p className="text-[16px] text-[#3f4944] leading-relaxed mb-6">
+                            Our Islamabad-focused translation services are strategically tailored to serve the legal heart of the capital and the vibrant diplomatic corridors. Whether you are a corporate firm in Blue Area, an NGO in Sector G-11, or an individual in F-8 Markaz needing certified birth certificate translation, Lisan.pk is your authorized linguistic partner.
+                        </p>
+                        <p className="text-[16px] text-[#3f4944] leading-relaxed mb-8">
+                            We specialize in over 50+ languages, ensuring no embassy requirement is left unmet. Our rigorous quality control process involves a primary translation followed by a secondary native review, adhering to the highest MOFA and HEC standards.
+                        </p>
+                        <div className="space-y-4">
+                            <div className="flex items-center gap-3 text-[#004e3a] font-medium">
+                                <span className="material-symbols-outlined text-[#006c4e]">check_circle</span>
+                                Official Certified Translations for Diplomatic Missions
+                            </div>
+                            <div className="flex items-center gap-3 text-[#004e3a] font-medium">
+                                <span className="material-symbols-outlined text-[#006c4e]">check_circle</span>
+                                Fast Turnaround (Same Day for certain documents)
+                            </div>
+                            <div className="flex items-center gap-3 text-[#004e3a] font-medium">
+                                <span className="material-symbols-outlined text-[#006c4e]">check_circle</span>
+                                Secure Handling of Sensitive Information
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 {/* Why Choose Section */}
                 <section className="py-[80px] bg-[#F8FAFC] relative overflow-hidden">
                     <div className="max-w-[1280px] mx-auto px-4 md:px-[40px] flex flex-col md:flex-row items-center gap-16">
