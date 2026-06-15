@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 import { ServicePackages } from "@/components/home/ServicePackages"
 import { CheckCircle2, Shield, Clock, BookOpen, GraduationCap, Building2, Scale, Star, ArrowRight } from "lucide-react"
 
@@ -109,10 +110,9 @@ export default function IslamabadTranslationPage() {
                                     <CheckCircle2 size={18} className="text-[#064e3b]" /> Formal Certificate of Accuracy included
                                 </li>
                             </ul>
-                            <div className="h-48 bg-slate-200 rounded-2xl w-full object-cover relative overflow-hidden group">
-                                <div className="absolute inset-0 bg-[#064e3b]/10 group-hover:bg-transparent transition-all"></div>
-                                {/* Image placeholder reflecting the user's design */}
-                                <div className="w-full h-full bg-gradient-to-br from-slate-200 to-slate-300"></div>
+                            <div className="h-48 bg-slate-200 rounded-2xl w-full relative overflow-hidden group">
+                                <div className="absolute inset-0 bg-[#064e3b]/10 group-hover:bg-transparent transition-all z-10"></div>
+                                <Image src="/images/legal-signing.png" alt="Legal document signing" fill className="object-cover" />
                             </div>
                         </div>
 
@@ -249,9 +249,7 @@ export default function IslamabadTranslationPage() {
                             <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10"></div>
                             <div className="relative z-10 w-full aspect-square bg-white rounded-full p-2">
                                 <div className="w-full h-full rounded-full bg-slate-200 overflow-hidden relative">
-                                     <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                                        [Image: Professionals in Meeting]
-                                     </div>
+                                     <Image src="/images/office-meeting.png" alt="Professionals in meeting" fill className="object-cover" />
                                 </div>
                             </div>
                             <div className="absolute bottom-10 left-0 bg-white p-4 pr-8 rounded-r-xl shadow-xl z-20">
