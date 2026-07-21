@@ -552,3 +552,89 @@ export const packages: Record<string, PackageData> = {
     }
 };
 
+export const ALLOWLISTED_LOCATION_SUBPAGES = new Set<string>([
+    "lahore/nikah-nama-translation",
+    "karachi/nikah-nama-translation",
+    "karachi/urdu-to-english-translation",
+    "peshawar/nikah-nama-translation",
+    "rawalpindi/nikah-nama-translation",
+    "gujrat/nikah-nama-translation",
+    "lahore/urdu-to-english-translation",
+    "jhelum/urdu-to-english-translation",
+    "peshawar/birth-certificate-translation",
+    "multan/urdu-to-english-translation",
+    "islamabad/urdu-to-english-translation",
+    "islamabad/nikah-nama-translation",
+    "jhelum/nikah-nama-translation",
+    "faisalabad/urdu-to-english-translation",
+    "peshawar/urdu-to-english-translation",
+    "rahim-yar-khan/urdu-to-english-translation",
+    "bahawalpur/urdu-to-english-translation",
+    "mardan/urdu-to-english-translation",
+    "nawabshah/domicile-certificate-translation",
+    "dera-ghazi-khan/police-character-certificate-translation",
+    "islamabad/birth-certificate-translation",
+    "sahiwal/nikah-nama-translation",
+    "rawalpindi/intermediate-certificate-translation",
+    "rawalpindi/urdu-to-english-translation",
+    "gujranwala/urdu-to-english-translation",
+    "gujrat/urdu-to-english-translation",
+    "quetta/urdu-to-english-translation",
+    "dera-ghazi-khan/urdu-to-english-translation",
+    "mirpur/urdu-to-english-translation",
+    "mirpur/nikah-nama-translation",
+    "quetta/nikah-nama-translation",
+    "sukkur/iata-dts-umrah-travel-agency",
+    "dera-ghazi-khan/matric-certificate-translation",
+    "sukkur/domicile-certificate-translation",
+    "gujrat/iata-dts-umrah-travel-agency",
+    "rawalpindi/iata-dts-umrah-travel-agency",
+    "lahore/diploma-certificate-translation",
+    "faisalabad/nikah-nama-translation",
+    "quetta/iata-dts-umrah-travel-agency",
+    "hyderabad/intermediate-certificate-translation",
+    "sialkot/nikah-nama-translation",
+    "sukkur/degree-transcript-translation",
+    "mirpur/intermediate-certificate-translation",
+    "sargodha/nikah-nama-translation",
+    "gujranwala/police-character-certificate-translation",
+    "quetta/domicile-certificate-translation",
+    "faisalabad/police-character-certificate-translation",
+    "bahawalpur/degree-transcript-translation",
+    "larkana/domicile-certificate-translation",
+    "rawalpindi/birth-certificate-translation",
+    "mirpur/police-character-certificate-translation",
+    "swat/urdu-to-english-translation",
+    "hyderabad/matric-certificate-translation",
+    "swat/intermediate-certificate-translation",
+    "mardan/degree-transcript-translation",
+    "multan/nikah-nama-translation",
+    "multan/domicile-certificate-translation",
+    "multan/ksu-admission-set",
+    "hyderabad/degree-transcript-translation",
+    "larkana/diploma-certificate-translation",
+    "dera-ghazi-khan/degree-transcript-translation",
+    "swat/iata-dts-umrah-travel-agency",
+    "multan/birth-certificate-translation",
+    "larkana/saudi-scholarship-translation",
+    "dera-ghazi-khan/saudi-scholarship-translation",
+    "gujranwala/saudi-scholarship-translation"
+]);
+
+export function isAllowlistedSubPage(citySlug: string, serviceSlug: string): boolean {
+    const key = `${citySlug.toLowerCase()}/${serviceSlug.toLowerCase()}`;
+    return ALLOWLISTED_LOCATION_SUBPAGES.has(key);
+}
+
+export function getAllowlistedSubPagesForCity(citySlug: string): string[] {
+    const prefix = `${citySlug.toLowerCase()}/`;
+    const result: string[] = [];
+    ALLOWLISTED_LOCATION_SUBPAGES.forEach((item) => {
+        if (item.startsWith(prefix)) {
+            result.push(item.substring(prefix.length));
+        }
+    });
+    return result;
+}
+
+

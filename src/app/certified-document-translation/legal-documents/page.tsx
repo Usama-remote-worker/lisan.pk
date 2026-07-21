@@ -68,9 +68,42 @@ export default function LegalTranslationPage() {
                                 </Button>
                             </Link>
                         </div>
+
+                        {/* Contextual City Links for Legal & Police Certificates */}
+                        <div className="mt-16 p-8 bg-slate-900 rounded-3xl text-white">
+                            <h3 className="text-xl font-bold mb-4 font-serif">Legal & Police Clearance Translation by City</h3>
+                            <p className="text-slate-400 text-sm mb-6">Select your city for localized legal document translation and police character certificate services:</p>
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-bold">
+                                <Link href="/locations/dera-ghazi-khan/police-character-certificate-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    DG Khan Police Cert →
+                                </Link>
+                                <Link href="/locations/gujranwala/police-character-certificate-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Gujranwala Police Cert →
+                                </Link>
+                                <Link href="/locations/faisalabad/police-character-certificate-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Faisalabad Police Cert →
+                                </Link>
+                                <Link href="/locations/mirpur/police-character-certificate-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Mirpur Police Cert →
+                                </Link>
+                                <Link href="/locations/lahore" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Lahore Legal Hub →
+                                </Link>
+                                <Link href="/locations/karachi" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Karachi Legal Hub →
+                                </Link>
+                                <Link href="/locations/islamabad" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Islamabad Legal Hub →
+                                </Link>
+                                <Link href="/locations/rawalpindi" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Rawalpindi Legal Hub →
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
     )
 }
+

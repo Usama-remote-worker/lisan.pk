@@ -69,9 +69,42 @@ export default function DegreeTranslationPage() {
                                 </Button>
                             </Link>
                         </div>
+
+                        {/* Contextual City Links for Degree Translation */}
+                        <div className="mt-16 p-8 bg-slate-900 rounded-3xl text-white">
+                            <h3 className="text-xl font-bold mb-4 font-serif">Degree & Transcript Translation by City</h3>
+                            <p className="text-slate-400 text-sm mb-6">Explore local degree translation details and BISE/HEC verification workflows in key cities:</p>
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-bold">
+                                <Link href="/locations/lahore/degree-transcript-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Lahore Degrees →
+                                </Link>
+                                <Link href="/locations/karachi" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Karachi Hub →
+                                </Link>
+                                <Link href="/locations/islamabad" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Islamabad Hub →
+                                </Link>
+                                <Link href="/locations/peshawar" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Peshawar Hub →
+                                </Link>
+                                <Link href="/locations/sukkur/degree-transcript-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Sukkur Degrees →
+                                </Link>
+                                <Link href="/locations/bahawalpur/degree-transcript-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Bahawalpur Degrees →
+                                </Link>
+                                <Link href="/locations/mardan/degree-transcript-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Mardan Degrees →
+                                </Link>
+                                <Link href="/locations/dera-ghazi-khan/degree-transcript-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    DG Khan Degrees →
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
     )
 }
+

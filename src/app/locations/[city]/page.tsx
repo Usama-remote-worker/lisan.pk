@@ -3,12 +3,27 @@ import { PageHero } from "@/components/ui/PageHeader"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-
-
-import { cities, services } from "@/data/location-services"
+import { cities, services, isAllowlistedSubPage } from "@/data/location-services"
+import { generateLocalBusinessSchema } from "@/components/seo/JsonLd"
 
 interface PageProps {
     params: Promise<{ city: string }>
+}
+
+function getMainServiceUrl(serviceSlug: string): { url: string; label: string } {
+    switch (serviceSlug.toLowerCase()) {
+        case 'degree-transcript-translation':
+        case 'matric-certificate-translation':
+        case 'intermediate-certificate-translation':
+        case 'diploma-certificate-translation':
+            return { url: '/certified-document-translation/degree-transcript', label: 'Main Academic Degree Translation' }
+        case 'nikah-nama-translation':
+        case 'birth-certificate-translation':
+        case 'domicile-certificate-translation':
+            return { url: '/certified-document-translation/nadra-nikahnama', label: 'Main Marriage & Identity Translation' }
+        default:
+            return { url: '/certified-document-translation/legal-documents', label: 'Main Legal Document Translation' }
+    }
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -18,14 +33,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!cityData) return {}
 
     return {
-        title: `Arabic Translation & Certified Document Services in ${cityData.name}`,
-        description: `Certified Arabic translation, attestation, and document legalization services in ${cityData.name}. Trusted for Saudi and UAE embassy applications with secure handling.`,
+        title: `Certified Arabic Translation & Attestation Services in ${cityData.name} | Lisan.pk`,
+        description: `Embassy-approved Arabic translation & MOFA attestation services in ${cityData.name}. Express 24-48h delivery for degrees, certificates, and legal documents.`,
+        robots: { index: true, follow: true },
         alternates: {
             canonical: `https://www.lisan.pk/locations/${normalizedCity}`,
         },
     }
 }
-
 
 export async function generateStaticParams() {
     return Object.keys(cities).map((city) => ({
@@ -85,29 +100,13 @@ export default async function LocationPage({ params }: PageProps) {
         ]
     }
 
-    const localBusinessSchema = {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": `Lisan.pk Arabic Translation ${cityData.name}`,
-        "description": cityData.description,
-        "url": `https://www.lisan.pk/locations/${normalizedCity}`,
-        "telephone": "+923044296295",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": cityData.name,
-            "addressCountry": "PK"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": cityData.lat,
-            "longitude": cityData.lng
-        },
-        "areaServed": {
-            "@type": "City",
-            "name": cityData.name
-        },
-        "priceRange": "$$"
-    }
+    const localBusinessSchema = generateLocalBusinessSchema(
+        cityData.name,
+        cityData.description,
+        `https://www.lisan.pk/locations/${normalizedCity}`,
+        cityData.lat,
+        cityData.lng
+    );
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -137,7 +136,7 @@ export default async function LocationPage({ params }: PageProps) {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
             <PageHero
-                title={`Arabic Translation in ${cityData.name}`}
+                title={`Arabic Translation & Attestation Services in ${cityData.name}`}
                 description={`Certified & embassy-recognized translation services for residents of ${cityData.name}. Trusted for Saudi, UAE, and Gulf document legalization.`}
                 breadcrumbs={[
                     { label: "Locations", href: "/#locations" },
@@ -145,14 +144,16 @@ export default async function LocationPage({ params }: PageProps) {
                 ]}
             />
 
-            {/* Service Grid - The "Catalog" */}
+            {/* Service Grid - Hub & Spoke Navigation */}
             <section className="py-20 -mt-10 relative z-20 font-sans">
                 <div className="container mx-auto px-4 max-w-7xl">
                     <div className="bg-white rounded-[3rem] shadow-xl border border-slate-100 p-8 md:p-12">
                         <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
                             <div className="max-w-2xl font-sans">
-                                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 font-serif">Service Catalog: {cityData.name}</h2>
-                                <p className="text-slate-500 text-lg">Select a service below to see specific requirements and pricing for {cityData.name}.</p>
+                                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 font-serif">Service Catalog & Links: {cityData.name}</h2>
+                                <p className="text-slate-500 text-lg">
+                                    Below are the dedicated local sub-pages for {cityData.name} as well as direct links to main national service pillars.
+                                </p>
                             </div>
                             <div className="hidden md:block h-px flex-1 bg-slate-100 mx-10 mb-5"></div>
                             <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-4 py-2 rounded-full mb-2">
@@ -161,32 +162,43 @@ export default async function LocationPage({ params }: PageProps) {
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {Object.values(services).map((item) => (
-                                <Link 
-                                    key={item.slug}
-                                    href={`/locations/${normalizedCity}/${item.slug}`}
-                                    className="group flex flex-col p-6 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/5 hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-emerald-100"
-                                >
-                                    <div className="mb-4 flex items-start justify-between">
-                                        <div className="p-3 bg-white rounded-xl shadow-sm group-hover:bg-emerald-600 group-hover:text-white transition-colors text-emerald-600 font-bold select-none text-sm">
-                                            ✓
+                            {Object.values(services).map((item) => {
+                                const isKeptSubPage = isAllowlistedSubPage(normalizedCity, item.slug);
+                                const mainService = getMainServiceUrl(item.slug);
+                                const targetUrl = isKeptSubPage ? `/locations/${normalizedCity}/${item.slug}` : mainService.url;
+
+                                return (
+                                    <Link 
+                                        key={item.slug}
+                                        href={targetUrl}
+                                        className="group flex flex-col p-6 rounded-2xl bg-slate-50 hover:bg-white hover:shadow-2xl hover:shadow-emerald-900/5 hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-emerald-100"
+                                    >
+                                        <div className="mb-4 flex items-start justify-between">
+                                            <div className={`p-3 rounded-xl shadow-sm transition-colors font-bold select-none text-sm ${isKeptSubPage ? 'bg-emerald-600 text-white' : 'bg-slate-200 text-slate-700'}`}>
+                                                {isKeptSubPage ? '📍 Local' : '🌐 Main'}
+                                            </div>
+                                            <span className="text-slate-300 group-hover:text-emerald-600 transition-colors font-bold">→</span>
                                         </div>
-                                        <span className="text-slate-300 group-hover:text-emerald-600 transition-colors font-bold">→</span>
-                                    </div>
-                                    <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-emerald-800 transition-colors">{item.title}</h3>
-                                    <p className="text-slate-500 text-sm leading-relaxed line-clamp-2">
-                                        Professional Arabic translation and legalization for your {item.title.toLowerCase()} in {cityData.name}.
-                                    </p>
-                                </Link>
-                            ))}
+                                        <h3 className="font-bold text-xl text-slate-900 mb-2 group-hover:text-emerald-800 transition-colors">{item.title}</h3>
+                                        <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 mb-4">
+                                            {isKeptSubPage 
+                                                ? `Dedicated ${item.title} page for residents of ${cityData.name}.`
+                                                : `National ${item.title} service page (serving ${cityData.name} via express courier).`
+                                            }
+                                        </p>
+                                        <div className="mt-auto pt-3 border-t border-slate-200/60 text-xs font-bold text-emerald-700 flex items-center justify-between">
+                                            <span>{isKeptSubPage ? `View ${cityData.name} Page` : `View ${mainService.label}`}</span>
+                                            <span>→</span>
+                                        </div>
+                                    </Link>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Service Packages Section */}
-
-
+            {/* Main Content Section */}
             <section className="pb-32 font-sans">
                 <div className="container mx-auto px-4 max-w-7xl">
                     <div className="grid lg:grid-cols-3 gap-16 items-start">
@@ -219,6 +231,22 @@ export default async function LocationPage({ params }: PageProps) {
                                         <Link href="tel:+923044296295" className="font-bold text-emerald-400 hover:underline">+92 304 4296295</Link>
                                     </div>
                                 </div>
+
+                                {cityData.regionalContext ? (
+                                    <div className="mb-10 p-8 bg-emerald-950 rounded-[2.5rem] text-white relative overflow-hidden group">
+                                        <p className="text-emerald-400 font-bold mb-3 uppercase tracking-widest text-xs flex items-center gap-2">
+                                            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                            {cityData.name} Regional Logistics & Coverage
+                                        </p>
+                                        <p className="text-white text-lg font-medium leading-relaxed relative z-10">
+                                            {cityData.regionalContext}
+                                        </p>
+                                    </div>
+                                ) : (
+                                    <div className="mb-10 p-6 bg-amber-50/50 border border-amber-200/50 rounded-2xl text-amber-900 text-sm italic font-mono">
+                                        {"{{TODO: unique local content needed}}"}
+                                    </div>
+                                )}
 
                                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Workflow for {cityData.name} Residents</h3>
                                 <p className="text-slate-600 mb-8">
@@ -264,7 +292,7 @@ export default async function LocationPage({ params }: PageProps) {
                         </div>
 
                         {/* Sidebar CTA */}
-                        <aside className="space-y-8 lg:sticky lg:top-28">
+                        <aside className="space-y-8 lg:sticky lg:top-28 font-sans">
                             <div className="bg-white p-8 rounded-[2.5rem] shadow-2xl shadow-emerald-900/10 border border-slate-100 relative overflow-hidden">
                                 <div className="absolute top-0 left-0 w-full h-2 bg-emerald-600"></div>
                                 <h3 className="font-bold text-slate-900 mb-6 text-2xl font-serif">Instant Quote</h3>
@@ -273,18 +301,37 @@ export default async function LocationPage({ params }: PageProps) {
                                 </p>
                                 <div className="space-y-4 font-sans">
                                     <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20translation%20services%20in%20${cityData.name}.`} target="_blank" className="block w-full">
-                                        <Button className="w-full bg-emerald-600 hover:bg-emerald-700 h-16 text-lg rounded-2xl shadow-lg transition-transform hover:-translate-y-1 active:scale-95">
+                                        <Button className="w-full bg-emerald-600 hover:bg-emerald-700 h-16 text-lg rounded-2xl shadow-lg transition-transform hover:-translate-y-1 active:scale-95 font-bold">
                                             WhatsApp Now
                                         </Button>
                                     </Link>
                                     <Link href="tel:+923044296295" className="block w-full">
-                                        <Button variant="outline" className="w-full h-16 text-lg border-slate-200 rounded-2xl hover:bg-slate-50 transition-colors">
+                                        <Button variant="outline" className="w-full h-16 text-lg border-slate-200 rounded-2xl hover:bg-slate-50 transition-colors font-bold">
                                             Call Agent
                                         </Button>
                                     </Link>
                                 </div>
                                 <div className="mt-8 pt-8 border-t border-slate-100 flex items-center gap-4 text-slate-400 font-sans">
                                     <span className="text-[11px] font-bold uppercase tracking-wider">Serving all zones in {cityData.name}.</span>
+                                </div>
+                            </div>
+
+                            {/* Upward Link to Main Document Services */}
+                            <div className="p-8 bg-slate-900 rounded-[2.5rem] text-white">
+                                <h4 className="font-bold mb-4 text-emerald-400 uppercase tracking-widest text-xs">Pillar Services</h4>
+                                <div className="space-y-3">
+                                    <Link href="/certified-document-translation/degree-transcript" className="flex items-center justify-between p-3 bg-white/5 rounded-xl text-xs font-bold hover:bg-white/10 transition-colors">
+                                        <span>Degree & Transcript Translation</span>
+                                        <span>→</span>
+                                    </Link>
+                                    <Link href="/certified-document-translation/nadra-nikahnama" className="flex items-center justify-between p-3 bg-white/5 rounded-xl text-xs font-bold hover:bg-white/10 transition-colors">
+                                        <span>NADRA Nikahnama Translation</span>
+                                        <span>→</span>
+                                    </Link>
+                                    <Link href="/certified-document-translation/legal-documents" className="flex items-center justify-between p-3 bg-white/5 rounded-xl text-xs font-bold hover:bg-white/10 transition-colors">
+                                        <span>Legal & Police Certificate Translation</span>
+                                        <span>→</span>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -310,3 +357,4 @@ export default async function LocationPage({ params }: PageProps) {
         </main>
     )
 }
+

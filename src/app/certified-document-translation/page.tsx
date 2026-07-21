@@ -81,8 +81,46 @@ export default function CertifiedDocumentHub() {
                             </p>
                         </Link>
                     </div>
+
+                    {/* Contextual City Hub Links */}
+                    <div className="mt-20 p-10 bg-slate-900 rounded-[2.5rem] text-white">
+                        <div className="max-w-3xl mb-8">
+                            <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">Nationwide Coverage</span>
+                            <h3 className="text-2xl md:text-3xl font-bold mt-2 font-serif">Certified Translation in Major Cities</h3>
+                            <p className="text-slate-400 text-sm mt-2">
+                                We provide express document collection, certified translation, and MOFA attestation across Pakistan. Select your city hub:
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm font-bold">
+                            <Link href="/locations/lahore" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Lahore Hub →
+                            </Link>
+                            <Link href="/locations/karachi" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Karachi Hub →
+                            </Link>
+                            <Link href="/locations/islamabad" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Islamabad Hub →
+                            </Link>
+                            <Link href="/locations/peshawar" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Peshawar Hub →
+                            </Link>
+                            <Link href="/locations/rawalpindi" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Rawalpindi Hub →
+                            </Link>
+                            <Link href="/locations/multan" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Multan Hub →
+                            </Link>
+                            <Link href="/locations/faisalabad" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Faisalabad Hub →
+                            </Link>
+                            <Link href="/locations/gujrat" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                Gujrat Hub →
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
     )
 }
+

@@ -3,10 +3,28 @@ import { PageHero } from "@/components/ui/PageHeader"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { cities, services } from "@/data/location-services"
+import { cities, services, isAllowlistedSubPage } from "@/data/location-services"
+import { JsonLd, generateServiceSchema } from "@/components/seo/JsonLd"
+import { TestimonialSection } from "@/components/home/TestimonialSection"
 
 interface PageProps {
     params: Promise<{ city: string; service: string }>
+}
+
+function getMainServiceUrl(serviceSlug: string): { url: string; label: string } {
+    switch (serviceSlug.toLowerCase()) {
+        case 'degree-transcript-translation':
+        case 'matric-certificate-translation':
+        case 'intermediate-certificate-translation':
+        case 'diploma-certificate-translation':
+            return { url: '/certified-document-translation/degree-transcript', label: 'Main Academic Degree Translation Service' }
+        case 'nikah-nama-translation':
+        case 'birth-certificate-translation':
+        case 'domicile-certificate-translation':
+            return { url: '/certified-document-translation/nadra-nikahnama', label: 'Main Marriage & Identity Translation Service' }
+        default:
+            return { url: '/certified-document-translation/legal-documents', label: 'Main Legal Document Translation Service' }
+    }
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -17,17 +35,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     if (!cityData || !serviceData) return {}
 
-    const title = service === 'degree-transcript-translation'
-        ? `Arabic Degree Translation in ${cityData.name}`
-        : `${serviceData.title} in ${cityData.name}`
+    const isAllowlisted = isAllowlistedSubPage(normalizedCity, service)
 
-    const description = service === 'degree-transcript-translation'
-        ? `Professional service to translate degree and transcript into Arabic in ${cityData.name} for Saudi university admission. 100% embassy accepted.`
-        : `Get certified ${serviceData.title} in ${cityData.name} for Saudi scholarship and visa applications. Recognized by MOFA and HEC. 24-hour turnaround.`
+    const title = service.toLowerCase() === 'degree-transcript-translation'
+        ? `Degree & Transcript Translation into Arabic in ${cityData.name} | Embassy Accepted`
+        : `Certified ${serviceData.title} in ${cityData.name} | Embassy Accepted`
+
+    const description = `Official certified ${serviceData.title.toLowerCase()} in ${cityData.name} for Saudi scholarship and visa applications. Recognized by MOFA, HEC, and Saudi Embassy with 24h express turnaround.`
 
     return {
         title,
         description,
+        robots: isAllowlisted ? { index: true, follow: true } : { index: false, follow: true },
         alternates: {
             canonical: `https://www.lisan.pk/locations/${normalizedCity}/${service.toLowerCase()}`,
         },
@@ -44,9 +63,6 @@ export async function generateStaticParams() {
     return params
 }
 
-import { JsonLd, generateServiceSchema } from "@/components/seo/JsonLd"
-import { TestimonialSection } from "@/components/home/TestimonialSection"
-
 export default async function LocalizedServicePage({ params }: PageProps) {
     const { city, service } = await params
     const normalizedCity = city.toLowerCase().replace(/[\s_]+/g, '-')
@@ -56,6 +72,9 @@ export default async function LocalizedServicePage({ params }: PageProps) {
     if (!cityData || !serviceData) {
         notFound()
     }
+
+    const isAllowlisted = isAllowlistedSubPage(normalizedCity, service)
+    const mainService = getMainServiceUrl(service)
 
     const biseText = cityData.biseName ? `the ${cityData.biseName}` : "the local Board of Intermediate and Secondary Education (BISE)";
     const hecText = cityData.hecCenter ? `at the ${cityData.hecCenter}` : "at your regional Higher Education Commission (HEC) center";
@@ -98,8 +117,8 @@ export default async function LocalizedServicePage({ params }: PageProps) {
             <JsonLd data={faqSchema} />
             
             <PageHero
-                title={`${serviceData.title} in ${cityData.name}`}
-                description={`Fast-track, certified Arabic translation for ${cityData.name} residents. Guaranteed acceptance by Saudi portals and embassies.`}
+                title={`Certified ${serviceData.title} in ${cityData.name}`}
+                description={`Fast-track, embassy-accepted Arabic translation for ${cityData.name} residents. Guaranteed acceptance by Saudi portals, MOFA, and Gulf embassies.`}
                 breadcrumbs={[
                     { label: "Locations", href: "/locations" },
                     { label: cityData.name, href: `/locations/${normalizedCity}` },
@@ -112,6 +131,22 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                     <div className="grid md:grid-cols-3 gap-12">
                         {/* Main Content */}
                         <div className="md:col-span-2 space-y-12">
+                            {/* Hub & Spoke Back-Navigation Banner */}
+                            <div className="bg-emerald-50 border border-emerald-200/80 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4 text-sm font-sans">
+                                <div className="flex items-center gap-2 text-emerald-950 font-medium">
+                                    <span>📍 Service Hub:</span>
+                                    <Link href={`/locations/${normalizedCity}`} className="font-bold text-emerald-800 underline hover:text-emerald-950">
+                                        All Services in {cityData.name}
+                                    </Link>
+                                </div>
+                                <div className="flex items-center gap-2 text-emerald-950 font-medium">
+                                    <span>📄 Pillar Service:</span>
+                                    <Link href={mainService.url} className="font-bold text-emerald-800 underline hover:text-emerald-950">
+                                        {mainService.label}
+                                    </Link>
+                                </div>
+                            </div>
+
                             <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm font-sans">
                                 <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight font-serif tracking-tight text-balance">
                                     {service === 'degree-transcript-translation' 
@@ -126,15 +161,19 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                     </span>. Our embassy-grade services bypass the common rejection triggers of 2026.
                                 </p>
                                 
-                                {cityData.regionalContext && (
+                                {cityData.regionalContext ? (
                                     <div className="mb-10 p-8 bg-emerald-950 rounded-[2.5rem] text-white relative overflow-hidden group">
                                         <p className="text-emerald-400 font-bold mb-3 uppercase tracking-widest text-xs flex items-center gap-2">
                                             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                                            {cityData.name} Logistics Update
+                                            {cityData.name} Logistics & Local Context
                                         </p>
                                         <p className="text-white text-lg font-medium leading-relaxed relative z-10">
                                             {cityData.regionalContext}
                                         </p>
+                                    </div>
+                                ) : (
+                                    <div className="mb-10 p-6 bg-amber-50/50 border border-amber-200/50 rounded-2xl text-amber-900 text-sm italic font-mono">
+                                        {"{{TODO: unique local content needed}}"}
                                     </div>
                                 )}
 
@@ -318,6 +357,21 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 </div>
                             </div>
 
+                            {/* Spoke Navigation to Hub & Main Service */}
+                            <div className="p-8 bg-slate-900 rounded-[2.5rem] text-white space-y-4">
+                                <h4 className="font-bold text-sm uppercase tracking-wider text-emerald-400">Navigation & Spoke Links</h4>
+                                <div className="space-y-3">
+                                    <Link href={`/locations/${normalizedCity}`} className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
+                                        <span>📍 {cityData.name} Location Hub</span>
+                                        <span className="text-emerald-400">→</span>
+                                    </Link>
+                                    <Link href={mainService.url} className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
+                                        <span>📄 {mainService.label}</span>
+                                        <span className="text-emerald-400">→</span>
+                                    </Link>
+                                </div>
+                            </div>
+
                             {/* Internal Linking Spoke */}
                             <div className="p-8 bg-slate-900 rounded-[2.5rem] text-white">
                                 <h4 className="font-bold mb-6 text-sm uppercase tracking-wider text-emerald-400">Related Scholarship Guides</h4>
@@ -389,3 +443,4 @@ export default async function LocalizedServicePage({ params }: PageProps) {
         </main>
     )
 }
+

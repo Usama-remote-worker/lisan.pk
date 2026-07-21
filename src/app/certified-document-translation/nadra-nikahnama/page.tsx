@@ -67,9 +67,42 @@ export default function NikahnamaTranslationPage() {
                                 </Button>
                             </Link>
                         </div>
+
+                        {/* Contextual City Links for Nikah Nama */}
+                        <div className="mt-16 p-8 bg-slate-900 rounded-3xl text-white">
+                            <h3 className="text-xl font-bold mb-4 font-serif">Nikah Nama Translation by City</h3>
+                            <p className="text-slate-400 text-sm mb-6">Select your city for localized Nikah Nama Arabic translation and embassy attestation services:</p>
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-bold">
+                                <Link href="/locations/lahore/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Lahore Nikah Nama →
+                                </Link>
+                                <Link href="/locations/karachi/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Karachi Nikah Nama →
+                                </Link>
+                                <Link href="/locations/islamabad/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Islamabad Nikah Nama →
+                                </Link>
+                                <Link href="/locations/peshawar/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Peshawar Nikah Nama →
+                                </Link>
+                                <Link href="/locations/rawalpindi/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Rawalpindi Nikah Nama →
+                                </Link>
+                                <Link href="/locations/gujrat/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Gujrat Nikah Nama →
+                                </Link>
+                                <Link href="/locations/multan/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Multan Nikah Nama →
+                                </Link>
+                                <Link href="/locations/faisalabad/nikah-nama-translation" className="p-3 bg-white/5 hover:bg-emerald-600 rounded-xl transition-colors text-center">
+                                    Faisalabad Nikah Nama →
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
     )
 }
+
