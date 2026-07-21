@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import { PageHero } from "@/components/ui/PageHeader"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { ContactForm } from "@/components/contact/ContactForm"
 
 export const metadata: Metadata = {
     title: "Contact Lisan.pk: Certified Arabic Translation & Attestation",
@@ -64,24 +65,26 @@ export default function ContactPage() {
                         </div>
                     </div>
 
-                    {/* Section 2: Service Area */}
+                    {/* Section 2: Contact Form & Service Area */}
                     <div className="space-y-8 font-sans">
-                        <div className="p-10 bg-slate-50 rounded-2xl border border-slate-200 font-sans">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4 font-serif">
+                        <ContactForm />
+
+                        <div className="p-8 bg-slate-50 rounded-3xl border border-slate-200 font-sans">
+                            <h3 className="text-xl font-bold text-slate-900 mb-3 font-serif">
                                 Serving All Over Pakistan
                             </h3>
-                            <p className="text-slate-600 text-base leading-relaxed mb-8 font-sans">
+                            <p className="text-slate-600 text-sm leading-relaxed mb-6 font-sans">
                                 From Karachi to Islamabad, Lahore to Multan – we bring certified translation to your doorstep. No location restrictions. No travel needed.
                             </p>
                             
-                            <div className="space-y-4 font-sans text-sm">
+                            <div className="space-y-3 font-sans text-xs">
                                 {[
                                     "Certified Arabic Translator",
                                     "Embassy-accepted stamp",
                                     "Professional sign & seal",
                                     "Zero rejection guarantee"
                                 ].map((trust, i) => (
-                                    <div key={i} className="flex items-center gap-3 text-slate-800 font-bold">
+                                    <div key={i} className="flex items-center gap-2 text-slate-800 font-bold">
                                         <span className="text-emerald-600 font-extrabold select-none">✓</span>
                                         {trust}
                                     </div>
