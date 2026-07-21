@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { cities, services, isAllowlistedSubPage } from "@/data/location-services"
+import { PRIORITY1_CONTENT } from "@/data/priority1-content"
 import { JsonLd, generateServiceSchema } from "@/components/seo/JsonLd"
 import { TestimonialSection } from "@/components/home/TestimonialSection"
 
@@ -73,6 +74,8 @@ export default async function LocalizedServicePage({ params }: PageProps) {
         notFound()
     }
 
+    const key = `${normalizedCity}/${service.toLowerCase()}`
+    const priority1 = PRIORITY1_CONTENT[key]
     const isAllowlisted = isAllowlistedSubPage(normalizedCity, service)
     const mainService = getMainServiceUrl(service)
 
@@ -147,37 +150,84 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 </div>
                             </div>
 
-                            <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm font-sans">
-                                <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight font-serif tracking-tight text-balance">
-                                    {service === 'degree-transcript-translation' 
-                                        ? `Translate degree and transcript into Arabic in ${cityData.name} for Saudi university admission`
-                                        : `Certified ${serviceData.title} in ${cityData.name}`}
+                            <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm font-sans space-y-8">
+                                <h2 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight font-serif tracking-tight text-balance">
+                                    {priority1 ? `Certified ${priority1.service} in ${cityData.name}` : (service === 'degree-transcript-translation' ? `Translate degree and transcript into Arabic in ${cityData.name} for Saudi university admission` : `Certified ${serviceData.title} in ${cityData.name}`)}
                                 </h2>
-                                <p className="text-xl text-slate-600 leading-relaxed mb-10 font-medium">
-                                    {serviceData.engagementText} At <Link href="/" className="text-emerald-700 hover:underline font-bold">Lisan.pk</Link>, we provide expert <span className="font-bold text-slate-900">
-                                        {service === 'degree-transcript-translation' 
-                                            ? `degree and transcript translation into Arabic in ${cityData.name} for Saudi university admission`
-                                            : `${serviceData.title} in ${cityData.name}`}
-                                    </span>. Our embassy-grade services bypass the common rejection triggers of 2026.
+
+                                <p className="text-xl text-slate-600 leading-relaxed font-medium">
+                                    {priority1 ? priority1.intro : `${serviceData.engagementText} At Lisan.pk, we provide expert ${serviceData.title} in ${cityData.name}. Our embassy-grade services bypass common rejection triggers.`}
                                 </p>
                                 
-                                {cityData.regionalContext ? (
-                                    <div className="mb-10 p-8 bg-emerald-950 rounded-[2.5rem] text-white relative overflow-hidden group">
-                                        <p className="text-emerald-400 font-bold mb-3 uppercase tracking-widest text-xs flex items-center gap-2">
-                                            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                                            {cityData.name} Logistics & Local Context
-                                        </p>
-                                        <p className="text-white text-lg font-medium leading-relaxed relative z-10">
-                                            {cityData.regionalContext}
-                                        </p>
+                                {priority1 ? (
+                                    <div className="space-y-8 pt-4">
+                                        {/* What We Translate */}
+                                        <div className="p-8 bg-slate-50 border border-slate-200/80 rounded-[2rem]">
+                                            <h3 className="text-xl font-bold text-slate-900 mb-3 font-serif flex items-center gap-2">
+                                                <span>📑</span> Documents Covered & Certified
+                                            </h3>
+                                            <p className="text-slate-600 leading-relaxed text-[15px]">
+                                                {priority1.whatWeTranslate}
+                                            </p>
+                                        </div>
+
+                                        {/* Local Issuing Authority & Context */}
+                                        <div className="p-8 bg-emerald-950 text-white rounded-[2rem]">
+                                            <h3 className="text-xl font-bold mb-3 font-serif text-emerald-400 flex items-center gap-2">
+                                                <span>🏛️</span> Local Issuing Authorities ({cityData.name})
+                                            </h3>
+                                            <p className="text-emerald-100/90 leading-relaxed text-[15px] mb-4">
+                                                {priority1.issuingAuthority}
+                                            </p>
+                                            <span className="inline-block px-3 py-1 bg-emerald-800/80 rounded-lg text-xs font-bold uppercase tracking-wider text-emerald-300">
+                                                Factually Aligned with {cityData.name} Government Records
+                                            </span>
+                                        </div>
+
+                                        {/* Primary Use Cases */}
+                                        <div className="p-8 bg-white border border-emerald-100 rounded-[2rem] shadow-sm space-y-4">
+                                            <h3 className="text-xl font-bold text-slate-900 font-serif flex items-center gap-2">
+                                                <span>🎯</span> Primary Use-Cases & Consular Acceptance
+                                            </h3>
+                                            <div className="grid sm:grid-cols-2 gap-3">
+                                                {priority1.primaryUseCases.map((useCase, idx) => (
+                                                    <div key={idx} className="flex items-center gap-3 p-3 bg-emerald-50/60 rounded-xl text-xs font-bold text-emerald-950">
+                                                        <span className="text-emerald-600 font-black">✓</span>
+                                                        <span>{useCase}</span>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+
+                                        {/* Honest Remote Delivery Framing */}
+                                        <div className="p-8 bg-slate-900 text-white rounded-[2rem] space-y-3">
+                                            <h3 className="text-xl font-bold text-emerald-400 font-serif flex items-center gap-2">
+                                                <span>📦</span> Remote Processing & Doorstep Courier in {cityData.name}
+                                            </h3>
+                                            <p className="text-slate-300 text-sm leading-relaxed">
+                                                {priority1.courierDeliveryInfo}
+                                            </p>
+                                        </div>
                                     </div>
                                 ) : (
-                                    <div className="mb-10 p-6 bg-amber-50/50 border border-amber-200/50 rounded-2xl text-amber-900 text-sm italic font-mono">
-                                        {"{{TODO: unique local content needed}}"}
-                                    </div>
+                                    cityData.regionalContext ? (
+                                        <div className="p-8 bg-emerald-950 rounded-[2.5rem] text-white relative overflow-hidden group">
+                                            <p className="text-emerald-400 font-bold mb-3 uppercase tracking-widest text-xs flex items-center gap-2">
+                                                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                                {cityData.name} Logistics & Local Context
+                                            </p>
+                                            <p className="text-white text-lg font-medium leading-relaxed relative z-10">
+                                                {cityData.regionalContext}
+                                            </p>
+                                        </div>
+                                    ) : (
+                                        <div className="p-6 bg-amber-50/50 border border-amber-200/50 rounded-2xl text-amber-900 text-sm italic font-mono">
+                                            {"{{TODO: unique local content needed}}"}
+                                        </div>
+                                    )
                                 )}
 
-                                <div className="grid sm:grid-cols-2 gap-6 my-10">
+                                <div className="grid sm:grid-cols-2 gap-6 my-6">
                                     {serviceData.benefits.map((benefit) => (
                                         <div key={benefit} className="flex items-center gap-3 p-4 bg-emerald-50 rounded-2xl border border-emerald-100/50">
                                             <span className="text-emerald-600 font-extrabold select-none">✓</span>
