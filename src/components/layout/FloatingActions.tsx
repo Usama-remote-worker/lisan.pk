@@ -51,6 +51,7 @@ export function FloatingActions() {
                     <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" className="flex-1">
                         <button 
                             id="gtm-quote-float-mobile"
+                            data-lead="quote"
                             className="w-full h-12 bg-slate-900 text-white rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-sm shadow-lg shadow-slate-900/20"
                         >
                             Get Quote

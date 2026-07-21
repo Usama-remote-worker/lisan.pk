@@ -7,6 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 import { FloatingActions } from "@/components/layout/FloatingActions";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
 import { Toaster } from "react-hot-toast";
+import { AnalyticsTracker } from "@/components/analytics/AnalyticsTracker";
 // Removed WhyChooseUs import as it is now inside Footer
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -122,6 +123,7 @@ export default function RootLayout({
         <Footer />
         <FloatingActions />
         <Toaster position="bottom-right" />
+        <AnalyticsTracker />
       </body>
     </html>
   );

@@ -114,6 +114,7 @@ export function Header() {
                     <Link href="/contact" className="hidden md:block">
                         <Button 
                             id="gtm-quote-header-desktop"
+                            data-lead="quote"
                             className="bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold px-8 h-11 shadow-[0_4px_20px_-5px_rgba(4,120,87,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] rounded-xl border border-emerald-800/30"
                         >
                             Get a Free Quote
@@ -123,6 +124,7 @@ export function Header() {
                     <Link href="/contact" className="md:hidden">
                         <Button 
                             id="gtm-quote-header-mobile"
+                            data-lead="quote"
                             size="sm" 
                             className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-4 rounded-lg shadow-md border border-emerald-800/30"
                         >

@@ -50,7 +50,7 @@ export function Hero() {
                         className="flex flex-col sm:flex-row justify-center gap-4 mb-16"
                     >
                         <Link href="/contact">
-                            <Button id="gtm-hero-quote" size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-12 h-16 text-sm font-extrabold uppercase tracking-widest shadow-2xl shadow-emerald-600/30 rounded-full transition-all duration-300 border border-emerald-700/25">
+                            <Button id="gtm-hero-quote" data-lead="quote" size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-12 h-16 text-sm font-extrabold uppercase tracking-widest shadow-2xl shadow-emerald-600/30 rounded-full transition-all duration-300 border border-emerald-700/25">
                                 Get a Free Quote
                             </Button>
                         </Link>

@@ -4,6 +4,7 @@ import React, { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { trackLeadEvent } from "@/lib/analytics"
 
 interface LeadFormProps {
     defaultUniversity?: string;
@@ -27,6 +28,7 @@ export function LeadForm({ defaultUniversity = "" }: LeadFormProps) {
         }
 
         setLoading(true)
+        trackLeadEvent("form")
         
         // Save to LocalStorage as a local CRM capture
         const newLead = { name, phone, email, qualification, percentage, university, date: new Date().toISOString() }
