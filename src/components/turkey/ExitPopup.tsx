@@ -1,17 +1,16 @@
 "use client"
 
 import React, { useState, useEffect } from "react"
+import { trackLeadEvent } from "@/lib/analytics"
 
 export function ExitPopup() {
     const [isOpen, setIsOpen] = useState(false)
 
     useEffect(() => {
-        // Only trigger once per session
         const hasTriggered = sessionStorage.getItem("turkey_exit_triggered")
         if (hasTriggered) return
 
         const handleMouseLeave = (e: MouseEvent) => {
-            // Trigger when cursor leaves the top window boundary (usually to close tab/navigate)
             if (e.clientY < 20) {
                 setIsOpen(true)
                 sessionStorage.setItem("turkey_exit_triggered", "true")
@@ -29,6 +28,7 @@ export function ExitPopup() {
     }
 
     const handleWhatsAppRedirect = () => {
+        trackLeadEvent("whatsapp")
         const message = "Hi Lisan.pk! I am leaving the Study in Turkey page, but I want to secure my Free Admission & Scholarship Assessment. Can we discuss my eligibility on WhatsApp?"
         const whatsappUrl = `https://wa.me/923044296295?text=${encodeURIComponent(message)}`
         window.open(whatsappUrl, "_blank")

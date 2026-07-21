@@ -1,13 +1,13 @@
 "use client"
 
 import React, { useState, useEffect } from "react"
+import { trackLeadEvent } from "@/lib/analytics"
 
 export function StickyMobileCTA() {
     const [isVisible, setIsVisible] = useState(false)
 
     useEffect(() => {
         const handleScroll = () => {
-            // Show only after scrolling 300px
             if (window.scrollY > 300) {
                 setIsVisible(true)
             } else {
@@ -22,6 +22,7 @@ export function StickyMobileCTA() {
     }, [])
 
     const handleWhatsAppRedirect = () => {
+        trackLeadEvent("whatsapp")
         const message = "Hi Lisan.pk! I am visiting the Study in Turkey page on my mobile and would like to speak to an admissions specialist."
         const whatsappUrl = `https://wa.me/923044296295?text=${encodeURIComponent(message)}`
         window.open(whatsappUrl, "_blank")
