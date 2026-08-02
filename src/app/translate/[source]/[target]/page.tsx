@@ -1,31 +1,35 @@
 import { Metadata } from 'next'
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { documents } from "@/data/documents"
+import { languages, generateLanguagePairs } from "@/data/languages"
 import { notFound } from "next/navigation"
 
+export const dynamicParams = false;
 
 type Props = {
-    params: Promise<{ document: string }>
+    params: Promise<{ source: string; target: string }>
 }
 
 export function generateStaticParams() {
-    return documents.map((doc) => ({
-        document: doc.slug,
+    const pairs = generateLanguagePairs();
+    return pairs.map((pair) => ({
+        source: pair.source,
+        target: pair.target,
     }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const { document } = await params;
-    const doc = documents.find(d => d.slug === document);
+    const { source, target } = await params;
+    const sourceLang = languages.find(l => l.id === source)?.name;
+    const targetLang = languages.find(l => l.id === target)?.name;
 
-    if (!doc) return { title: 'Translation Services' };
+    if (!sourceLang || !targetLang) return { title: 'Translation Services' };
 
     return {
-        title: `Certified ${doc.name} Translation Services | Embassies Approved`,
-        description: doc.description,
+        title: `${sourceLang} to ${targetLang} Translation Services | Certified Experts`,
+        description: `Professional ${sourceLang} to ${targetLang} document translation services. 100% certified accuracy for corporate, legal, and academic documents.`,
         alternates: {
-            canonical: `https://www.lisan.pk/${document}-translation-services`,
+            canonical: `https://www.lisan.pk/translate-${source}-to-${target}`,
         },
         robots: {
             index: false,
@@ -34,11 +38,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 }
 
-export default async function DocumentTranslationPage({ params }: Props) {
-    const { document } = await params;
-    const doc = documents.find(d => d.slug === document);
+export default async function LanguagePairPage({ params }: Props) {
+    const { source, target } = await params;
+    const sourceLang = languages.find(l => l.id === source)?.name;
+    const targetLang = languages.find(l => l.id === target)?.name;
 
-    if (!doc) {
+    if (!sourceLang || !targetLang) {
         notFound();
     }
 
@@ -49,17 +54,17 @@ export default async function DocumentTranslationPage({ params }: Props) {
                 <div className="container mx-auto px-4 relative z-10">
                     <div className="max-w-4xl mx-auto text-center">
                         <span className="inline-block py-1 px-3 rounded-full bg-emerald-800/50 border border-emerald-700 text-emerald-300 text-xs font-bold tracking-widest uppercase mb-6">
-                            Official Document Translation
+                            Native Linguistic Services
                         </span>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
-                            Certified <span className="text-emerald-400">{doc.name}</span> Translation
+                            Certified <span className="text-emerald-400">{sourceLang} to {targetLang}</span> Translation Services
                         </h1>
                         <p className="text-lg md:text-xl text-emerald-100/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-                            {doc.description} We guarantee 100% acceptance by foreign embassies, HEC, MOFA, and international authorities.
+                            Need accurate {sourceLang} to {targetLang} translation? Our native linguistic experts provide fast, certified translations for business, legal, and personal documents.
                         </p>
                         
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20my%20${doc.name}%20translated.`} target="_blank" className="w-full sm:w-auto">
+                            <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20${sourceLang}%20to%20${targetLang}%20translation.`} target="_blank" className="w-full sm:w-auto">
                                 <Button className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white h-14 px-8 text-base font-bold shadow-lg shadow-[#25D366]/20 transition-all rounded-xl">
                                     Chat on WhatsApp
                                 </Button>
@@ -79,17 +84,17 @@ export default async function DocumentTranslationPage({ params }: Props) {
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div className="space-y-8">
                             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
-                                Why Professional Translation is Mandatory for {doc.name}s
+                                Zero Margin for Linguistic Errors
                             </h2>
                             <p className="text-slate-600 text-lg leading-relaxed">
-                                {doc.purpose} Consular officers and immigration authorities strictly reject self-translated or uncertified documents. Our certified translation ensures your application is never delayed due to linguistic errors.
+                                Automated translation tools cannot understand the cultural context or legal framework required for official documents. When translating from {sourceLang} to {targetLang}, native fluency is mandatory.
                             </p>
                             <ul className="space-y-4">
                                 {[
-                                    "Format strictly matches the original document layout",
-                                    "Translated by Government & Embassy approved linguists",
-                                    "Certified stamps, seals, and letterheads applied",
-                                    "Express 24-hour delivery available nationwide"
+                                    "Accepted by Embassies and Universities Worldwide",
+                                    "Processed by Native Speaking Translators",
+                                    "Strict Confidentiality and Data Protection",
+                                    "Official Stamps and Certifications Included"
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-center gap-3">
                                         <div className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 text-xs font-bold shrink-0">✓</div>
@@ -99,30 +104,28 @@ export default async function DocumentTranslationPage({ params }: Props) {
                             </ul>
                         </div>
                         <div className="bg-white p-8 md:p-10 rounded-[2.5rem] border border-slate-100 shadow-2xl shadow-emerald-900/5">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-6">How to Translate Your {doc.name}</h3>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-6">Our Translation Workflow</h3>
                             <div className="space-y-6">
                                 <div className="border-l-2 border-emerald-500 pl-6 relative">
                                     <div className="absolute w-3 h-3 bg-emerald-500 rounded-full -left-[7px] top-1.5"></div>
-                                    <h4 className="font-bold text-slate-900 mb-2">1. Share Your Document</h4>
-                                    <p className="text-slate-600 text-sm">Send a clear scan or photo of the {doc.name} via WhatsApp for a quick price quote.</p>
+                                    <h4 className="font-bold text-slate-900 mb-2">1. Send Your Document</h4>
+                                    <p className="text-slate-600 text-sm">Send a photo of the {sourceLang} document via WhatsApp for an immediate quote.</p>
                                 </div>
                                 <div className="border-l-2 border-emerald-500 pl-6 relative">
                                     <div className="absolute w-3 h-3 bg-emerald-500 rounded-full -left-[7px] top-1.5"></div>
-                                    <h4 className="font-bold text-slate-900 mb-2">2. Translation & Formatting</h4>
-                                    <p className="text-slate-600 text-sm">We carefully translate the text while retaining the exact legal layout of the original document.</p>
+                                    <h4 className="font-bold text-slate-900 mb-2">2. Expert Processing</h4>
+                                    <p className="text-slate-600 text-sm">Our linguists translate it into {targetLang} with strict legal and semantic accuracy.</p>
                                 </div>
                                 <div className="border-l-2 border-slate-200 pl-6 relative">
                                     <div className="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-1.5"></div>
-                                    <h4 className="font-bold text-slate-900 mb-2">3. Receive Certified Copies</h4>
-                                    <p className="text-slate-600 text-sm">You receive the digitally signed PDF immediately, and the stamped physical copies via courier.</p>
+                                    <h4 className="font-bold text-slate-900 mb-2">3. Direct Delivery</h4>
+                                    <p className="text-slate-600 text-sm">The certified {targetLang} copies are dispatched to your address via secure courier.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-
         </main>
     )
 }

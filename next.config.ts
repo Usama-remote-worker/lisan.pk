@@ -20,8 +20,12 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: '/sitemap',
-        destination: '/site-map',
+        source: '/translate-:source([a-z0-9-]+)-to-:target([a-z0-9-]+)',
+        destination: '/translate/:source/:target',
+      },
+      {
+        source: '/:document([a-z0-9-]+)-translation-services',
+        destination: '/services/document/:document',
       },
     ]
   },
