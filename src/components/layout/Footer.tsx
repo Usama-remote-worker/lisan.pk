@@ -105,9 +105,7 @@ export function Footer() {
                                 <li><Link href="/services/translation/urdu-to-english-translation" className="hover:text-emerald-700 transition-colors">Urdu Translation</Link></li>
                                 <li><Link href="/services/translation/english-translation" className="hover:text-emerald-700 transition-colors">English Translation</Link></li>
                                 <li><Link href="/services/translation/turkish-translation" className="hover:text-emerald-700 transition-colors">Turkish Translation</Link></li>
-                                <li><Link href="/services/translation/spanish-translation" className="hover:text-emerald-700 transition-colors">Spanish Translation</Link></li>
-                                <li><Link href="/services/translation/french-translation" className="hover:text-emerald-700 transition-colors">French Translation</Link></li>
-                                <li><Link href="/services/translation/german-translation" className="hover:text-emerald-700 transition-colors">German Translation</Link></li>
+                                <li><Link href="/english-to-spanish-translation-services" className="hover:text-emerald-700 transition-colors">Spanish Translation</Link></li>
                             </ul>
                         </div>
 
