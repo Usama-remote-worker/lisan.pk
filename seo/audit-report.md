@@ -161,26 +161,27 @@ The following **12 indexable pages** are completely orphaned, containing zero in
 
 ## 7. Post-hotfix Re-measurement
 
-A post-hotfix measurement was conducted on the compiled Next.js build after applying the parameter hydration correctness fix (Next.js 16 dynamic route params Promise resolution).
+A post-hotfix measurement was conducted on the compiled Next.js build after applying the parameter hydration correctness fix and restructuring the dynamic folders into standard nested dynamic routes (`translate/[source]/[target]` and `services/document/[document]`) with alphanumeric/hyphen rewrites.
 
 ### Cluster Metrics Comparison
 
 | Programmatic Cluster | Page Count | Median Full Word Count (Before vs After) | Median Unique Word Count (Before vs After) | Median Boilerplate % (Before vs After) | Median Links IN (Before vs After) | Status / Action |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Locations & Location Services** (`/locations/*`) | 435 | 1,527 | 969 | 36.5% | 580 → 626 | **Unchanged** |
-| **Language Pairs** (`/translate-[source]-to-[target]`) | 1 (emitted shell) | 1 → 1 | 0 → 0 | 100% | 0 → 0 | **Fixed** (Serves as active dynamic runtime shell) |
-| **Scholarships** (`/scholarships/*`) | 3 | 1,704 | 1,147 | 32.7% | 580 → 626 | **Unchanged** |
+| **Locations & Location Services** (`/locations/*`) | 435 | 1,527 | 969 | 36.5% | 580 → 807 | **Unchanged** (Inbound links increased due to layout footer expansion) |
+| **Language Pairs** (`/translate-[source]-to-[target]`) | 168 | 1 → 714 | 0 → 156 | 100% → 78.2% | 0 → 0 | **Fixed** (Statically pre-rendered under dynamic nested structure and rewritten) |
+| **Scholarships** (`/scholarships/*`) | 3 | 1,704 | 1,147 | 32.7% | 580 → 807 | **Unchanged** (Inbound links increased due to layout footer expansion) |
 | **Study in Turkey** (`/study-in-turkey/*`) | 3 | 1,406 | 848 | 39.7% | 1 → 1 | **Unchanged** |
-| **Documents** (`/[document]-translation-services`) | 1 (emitted shell) | 1 → 1 | 0 → 0 | 100% | 0 → 0 | **Fixed** (Serves as active dynamic runtime shell) |
+| **Documents** (`/[document]-translation-services`) | 13 | 1 → 685 | 0 → 127 | 100% → 81.5% | 0 → 0 | **Fixed** (Statically pre-rendered under dynamic nested structure and rewritten) |
 | **Service Detail** (`/services/translation/*`) | 21 | 901 | 344 | 61.9% → 61.8% | 12 → 12 | **Unchanged** |
 | **Embassies** (`/embassies/*`) | 45 | 1 → 722 | 0 → 164 | 100% → 77.3% | 0 → 0 | **Fixed** (Now renders real pre-rendered content) |
 
-*Note: For the dynamic runtime routes (Language Pairs and Documents), they compile to a single active template shell in the build output (`translate-[source]-to-[target].html` and `[document]-translation-services.html` respectively) which now resolves dynamic route parameters correctly on execution. The 45 embassy pages are fully pre-rendered with real content.*
+*Note: Both the Language Pairs and Documents dynamic routes are now fully statically pre-rendered (SSG) at build time. The public clean URL patterns (`/translate-english-to-arabic` and `/degree-translation-services`) match and rewrite internally to these pre-rendered files at runtime, returning a 200 OK status code. Direct nested requests are also supported. Nonsense/unmatched URLs trigger a default HTTP 404 response.*
 
 ### Invalidated Original Findings
 
-The following findings from the initial SEO audit are now **invalidated** thanks to the hotfix:
-1. **Silent 404 Pre-Rendering (Section 4a & 4f)**: The finding that 226 dynamic paths (13 documents, 168 language pairs, and 45 embassies) render as 404 shells defaulting to base boilerplate metadata is now **completely resolved**. All 45 pre-rendered embassy pages now generate real content, and the language pair and document translation routes compile successfully as active dynamic runtime templates/shells rather than 404 templates.
-2. **Thin Content in Embassies (Section 3)**: The finding that `/embassies/*` pages are thin content with median 1 word is now **invalid**. The pages render correctly with a median word count of 722 (164 unique content words).
-3. **Self-referential Canonical Gaps on 404s (Section 4b)**: Resolving the hydration error restored the dynamic metadata generation, including correct canonical declarations for all affected pages.
+The following findings from the initial SEO audit are now **invalidated** thanks to the hotfix and dynamic routing restructure:
+1. **Silent 404 Pre-Rendering (Section 4a & 4f)**: The finding that 226 dynamic paths (13 documents, 168 language pairs, and 45 embassies) render as 404 shells is now **completely resolved**. All 181 language pair and document pages, plus all 45 embassy pages, pre-render with full content and return 200 OK status codes on their active URLs.
+2. **Thin Content (Section 3)**: The finding that embassies, language pairs, and document translation templates render thin content (1 word) is now **invalid**. The pages are successfully pre-rendered with median word counts of 722, 714, and 685 respectively.
+3. **Self-referential Canonical Gaps on 404s (Section 4b)**: Dynamic parameters now resolve correctly, restoring proper canonical definitions on all generated pages.
+
 
