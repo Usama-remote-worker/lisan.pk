@@ -126,3 +126,12 @@ This backlog details the prioritized list of technical SEO issues identified dur
   - `src/components/layout/Footer.tsx`
 - **Fix Instructions**:
   - Change default body copy text sizes from `text-sm` (14px) to `text-base` (16px) on mobile viewports.
+
+---
+
+## 4. Phase 5 Deferred Items
+
+### Deferred 5.1: 45 Embassy Pages Indexing Assessment
+- **Status**: Deferred to Phase 5.
+- **Notes**: 45 embassy pages — noindex was accidental boilerplate (5679da0), not a decision. 322 median unique words, 0 inbound links. Evaluate per-page demand before indexing any.
+

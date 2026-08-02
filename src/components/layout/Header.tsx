@@ -93,7 +93,7 @@ export function Header() {
                         <a
                             href="tel:03044296295"
                             id="gtm-call-header"
-                            className="px-3.5 py-2 text-xs text-emerald-700 bg-emerald-50 hover:bg-emerald-100 rounded-xl transition-colors font-extrabold"
+                            className="px-3.5 py-2 min-h-[44px] flex items-center justify-center text-xs text-emerald-700 bg-emerald-50 hover:bg-emerald-100 rounded-xl transition-colors font-extrabold"
                             aria-label="Call Us"
                         >
                             Call
@@ -104,7 +104,7 @@ export function Header() {
                             target="_blank"
                             rel="noopener noreferrer"
                             id="gtm-wa-header"
-                            className="px-3.5 py-2 text-xs text-emerald-700 bg-emerald-50 hover:bg-emerald-100 rounded-xl transition-colors font-extrabold"
+                            className="px-3.5 py-2 min-h-[44px] flex items-center justify-center text-xs text-emerald-700 bg-emerald-50 hover:bg-emerald-100 rounded-xl transition-colors font-extrabold"
                             aria-label="WhatsApp"
                         >
                             WhatsApp
@@ -126,7 +126,7 @@ export function Header() {
                             id="gtm-quote-header-mobile"
                             data-lead="quote"
                             size="sm" 
-                            className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-10 px-4 rounded-lg shadow-md border border-emerald-800/30"
+                            className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold h-11 px-4 rounded-lg shadow-md border border-emerald-800/30 min-h-[44px]"
                         >
                             Quote
                         </Button>
@@ -136,7 +136,7 @@ export function Header() {
                         <Button
                             variant="ghost"
                             size="sm"
-                            className="px-2"
+                            className="px-3 min-h-[44px] min-w-[44px] inline-flex items-center justify-center"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                         >
                             {isMenuOpen ? <span className="font-extrabold text-xs text-slate-700">✕ Close</span> : <span className="font-extrabold text-xs text-slate-700">☰ Menu</span>}
