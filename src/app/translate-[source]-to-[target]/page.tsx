@@ -6,7 +6,7 @@ import { notFound } from "next/navigation"
 
 
 type Props = {
-    params: { source: string; target: string }
+    params: Promise<{ source: string; target: string }>
 }
 
 export function generateStaticParams() {
@@ -18,8 +18,9 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const sourceLang = languages.find(l => l.id === params.source)?.name;
-    const targetLang = languages.find(l => l.id === params.target)?.name;
+    const { source, target } = await params;
+    const sourceLang = languages.find(l => l.id === source)?.name;
+    const targetLang = languages.find(l => l.id === target)?.name;
 
     if (!sourceLang || !targetLang) return { title: 'Translation Services' };
 
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${sourceLang} to ${targetLang} Translation Services | Certified Experts`,
         description: `Professional ${sourceLang} to ${targetLang} document translation services. 100% certified accuracy for corporate, legal, and academic documents.`,
         alternates: {
-            canonical: `https://www.lisan.pk/translate-${params.source}-to-${params.target}`,
+            canonical: `https://www.lisan.pk/translate-${source}-to-${target}`,
         },
         robots: {
             index: false,
@@ -36,9 +37,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 }
 
-export default function LanguagePairPage({ params }: Props) {
-    const sourceLang = languages.find(l => l.id === params.source)?.name;
-    const targetLang = languages.find(l => l.id === params.target)?.name;
+export default async function LanguagePairPage({ params }: Props) {
+    const { source, target } = await params;
+    const sourceLang = languages.find(l => l.id === source)?.name;
+    const targetLang = languages.find(l => l.id === target)?.name;
 
     if (!sourceLang || !targetLang) {
         notFound();

@@ -6,7 +6,7 @@ import { notFound } from "next/navigation"
 
 
 type Props = {
-    params: { document: string }
+    params: Promise<{ document: string }>
 }
 
 export function generateStaticParams() {
@@ -16,7 +16,8 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const doc = documents.find(d => d.slug === params.document);
+    const { document } = await params;
+    const doc = documents.find(d => d.slug === document);
 
     if (!doc) return { title: 'Translation Services' };
 
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `Certified ${doc.name} Translation Services | Embassies Approved`,
         description: doc.description,
         alternates: {
-            canonical: `https://www.lisan.pk/${params.document}-translation-services`,
+            canonical: `https://www.lisan.pk/${document}-translation-services`,
         },
         robots: {
             index: false,
@@ -33,8 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 }
 
-export default function DocumentTranslationPage({ params }: Props) {
-    const doc = documents.find(d => d.slug === params.document);
+export default async function DocumentTranslationPage({ params }: Props) {
+    const { document } = await params;
+    const doc = documents.find(d => d.slug === document);
 
     if (!doc) {
         notFound();

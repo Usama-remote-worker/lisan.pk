@@ -6,7 +6,7 @@ import { notFound } from "next/navigation"
 
 
 type Props = {
-    params: { slug: string }
+    params: Promise<{ slug: string }>
 }
 
 export function generateStaticParams() {
@@ -16,7 +16,8 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const embassy = embassies.find(e => e.slug === params.slug);
+    const { slug } = await params;
+    const embassy = embassies.find(e => e.slug === slug);
 
     if (!embassy) return { title: 'Translation Services' };
 
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${titleStr} | Certified Translation Services`,
         description: `Need documents translated and attested for the ${titleStr}? We provide certified translation for visas, immigration, and legal use.`,
         alternates: {
-            canonical: `https://www.lisan.pk/embassies/${params.slug}`,
+            canonical: `https://www.lisan.pk/embassies/${slug}`,
         },
         robots: {
             index: false,
@@ -35,8 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 }
 
-export default function EmbassyPage({ params }: Props) {
-    const embassy = embassies.find(e => e.slug === params.slug);
+export default async function EmbassyPage({ params }: Props) {
+    const { slug } = await params;
+    const embassy = embassies.find(e => e.slug === slug);
 
     if (!embassy) {
         notFound();
