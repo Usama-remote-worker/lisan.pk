@@ -146,4 +146,9 @@ This backlog details the prioritized list of technical SEO issues identified dur
 - **Status**: Deferred to Phase 5.
 - **Decision Record**: 45 embassy pages — noindex was accidental boilerplate from commit 5679da0, not a decision. 322 median unique words, 0 inbound links. Evaluate per-page demand before indexing any. All 45 embassy pages stay noindexed and stay out of the sitemap.
 
+### Deferred 5.2: URL Renames Assessment & Decision
+- **Status**: Deferred to Phase 5 / GSC Review.
+- **Decision Record**: URL renames deferred. All 13 proposals carried Unknown impression/click data, making the risk assessments unverifiable. Three (the Lahore/Karachi/Islamabad city URLs) are content merge decisions, not URL changes, and belong in Phase 5 with GSC data. /certified-document-translation is the primary service page with likely external backlink equity — not moving it without backlink data. /site-map to /sitemap offers no benefit and risks confusion with /sitemap.xml. Revisit only if GSC data shows a specific URL underperforming for structural reasons.
+
+
 

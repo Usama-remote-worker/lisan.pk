@@ -83,34 +83,34 @@ Phase 2 focused on resolving critical crawlability, indexation, and navigation d
 - **Before**: 12 indexable URLs were completely unlinked across navigation menus and layout footers.
 - **After**: HTML sitemap (`/site-map`), UKVI certified translation page (`/services/ukvi-certified-translation`), and Spanish translation page (`/english-to-spanish-translation-services`) were integrated into the global footer layout, providing direct crawl paths and internal PageRank flow.
 
-### Item 5: Mobile Baseline CSS & Tap Targets
-- **Before**: Footer trust banner and office status blocks used sub-12px font sizes (`text-[10px]`, `text-[11px]`, `text-[9px]`). Header Call, WhatsApp, Quote, and menu toggle buttons had tap target heights below 44px (`py-2` ~32px, `h-10` 40px).
-- **After**: Footer trust banner sub-12px typography was upgraded to `text-xs` (12px). Header Call, WhatsApp, Quote, and menu toggle buttons were updated with `min-h-[44px]` and flex alignment to guarantee compliance with Google Mobile-Friendly guidelines (>=44px tap target height).
+### Item 5: URL Renames (Deferred to Phase 5 / GSC Review)
+- **Status**: **Deferred** (Rejection of 13 proposal renames).
+- **Decision Record**: URL renames deferred. All 13 proposals carried Unknown impression/click data, making the risk assessments unverifiable. Three (the Lahore/Karachi/Islamabad city URLs) are content merge decisions, not URL changes, and belong in Phase 5 with GSC data. `/certified-document-translation` is the primary service page with likely external backlink equity — not moving it without backlink data. `/site-map` to `/sitemap` offers no benefit and risks confusion with `/sitemap.xml`. Revisit only if GSC data shows a specific URL underperforming for structural reasons.
 
 ---
 
-## 5. ITEM 5 — URL Renames Proposal Table
+## 5. ITEM 5 — URL Renames Proposal & Deferral Decision
 
-The following table inventories every non-descriptive, cannibalizing, or non-standard URL identified during the audit, along with proposed clean URLs, underlying technical rationale, traffic metrics, risk evaluation, and sitemap/inbound link flags.
+The following table inventories every non-descriptive, cannibalizing, or non-standard URL identified during the audit.
 
-> [!WARNING]
-> **PROPOSAL ONLY**: No URL renames or redirects have been implemented. All current URLs remain active until this proposal is reviewed and approved.
+> [!NOTE]
+> **DECISION: DEFERRED**: All 13 proposals below have been formally deferred to Phase 5 pending Google Search Console impression/click data and backlink audit. No code or redirect changes were implemented.
 
-| Current URL | Proposed URL | Reason | Current Impressions / Clicks | Risk & Flags |
-| :--- | :--- | :--- | :--- | :--- |
-| `/translation-services-lahore` | `/locations/lahore` | Duplicates intent of `/locations/lahore` city hub (cannibalization). Should redirect to standard city route. | Low / Unknown | **High Risk**: Appears in legacy index. Needs 301 redirect to `/locations/lahore`. |
-| `/translation-services-karachi` | `/locations/karachi` | Duplicates intent of `/locations/karachi` city hub (cannibalization). | Low / Unknown | **High Risk**: Needs 301 redirect to `/locations/karachi`. |
-| `/translation-services-islamabad` | `/locations/islamabad` | Duplicates intent of `/locations/islamabad` city hub (cannibalization). | Low / Unknown | **High Risk**: Needs 301 redirect to `/locations/islamabad`. |
-| `/certified-document-translation/nadra-nikahnama` | `/services/translation/nikah-nama-marriage-certificate` | Non-standard directory hierarchy (`/certified-document-translation/` vs `/services/translation/`). Splits authority for Nikah Nama marriage certificate translation. | Moderate / Unknown | **Critical Risk**: Flagged in Sitemap, heavily linked in Footer & Homepage grids. Requires 301 redirect & inbound link updates. |
-| `/certified-document-translation/degree-transcript` | `/services/translation/academic-degree-transcript` | Inconsistent top-level path structure outside the primary `/services/translation/` cluster namespace. | Moderate / Unknown | **Critical Risk**: Flagged in Sitemap and Footer links. Requires 301 redirect. |
-| `/certified-document-translation/legal-documents` | `/services/translation/legal-translation` | Duplicate hub URL structure splitting authority with `/services/translation/legal-translation`. | Low / Unknown | **High Risk**: Flagged in Sitemap. Requires 301 redirect to legal translation hub. |
-| `/certified-document-translation` | `/services/translation/certified-translation` | Top-level standalone directory outside `/services/translation/` namespace. | High / Primary Service | **Critical Risk**: Primary sitemap URL, main navigation link, external backlinks likely. Requires 301 redirect & menu update. |
-| `/translation-english-to-arabic` | `/services/translation/arabic-translation` or `/translate/english/arabic` | Standalone root URL mixing with dynamic rewrite path `/translate-english-to-arabic`. | Moderate / Unknown | **High Risk**: Flagged in Sitemap & Footer links. Requires 301 redirect. |
-| `/english-to-spanish-translation-services` | `/services/translation/spanish-translation` | Verbose, non-standard root URL outside translation service cluster hierarchy. | Low / Orphaned previously | **Moderate Risk**: Recently added to footer. Requires 301 redirect to clean service URL. |
-| `/english-to-indonesian-translators` | `/services/translation/indonesian-translation` | Inconsistent keyword phrasing ("translators" vs "translation services") and standalone root URL. | Low / Unknown | **High Risk**: Flagged in Sitemap & Footer links. Requires 301 redirect. |
-| `/chinese-language-translation-in-urdu` | `/services/translation/chinese-to-urdu` | Non-standard, verbose keyword path phrase instead of structured language pair route. | Low / Unknown | **High Risk**: Flagged in Sitemap & Footer links. Requires 301 redirect. |
-| `/consultancy/saudi-scholarship` | `/scholarships/saudi-arabia` | Single-off `/consultancy/` namespace inconsistent with `/scholarships/*` programmatic cluster. | Low / Unknown | **High Risk**: Linked in Footer under Study Abroad section. Requires 301 redirect. |
-| `/site-map` | `/sitemap` | Inconsistent spelling between HTML sitemap (`/site-map`) and standard XML sitemap (`/sitemap.xml`). `next.config.ts` currently rewrites `/sitemap` to `/site-map`. | Low / Structural | **Low Risk**: Handled via internal rewrite. Can be canonicalized to `/sitemap`. |
+| Current URL | Proposed URL | Reason | Current Impressions / Clicks | Risk & Flags | Decision Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `/translation-services-lahore` | `/locations/lahore` | Content merge candidate with `/locations/lahore` city hub. | Low / Unknown | Content merge decision. Needs GSC data. | Deferred (Phase 5) |
+| `/translation-services-karachi` | `/locations/karachi` | Content merge candidate with `/locations/karachi` city hub. | Low / Unknown | Content merge decision. Needs GSC data. | Deferred (Phase 5) |
+| `/translation-services-islamabad` | `/locations/islamabad` | Content merge candidate with `/locations/islamabad` city hub. | Low / Unknown | Content merge decision. Needs GSC data. | Deferred (Phase 5) |
+| `/certified-document-translation/nadra-nikahnama` | `/services/translation/nikah-nama-marriage-certificate` | Non-standard directory hierarchy vs `/services/translation/`. | Moderate / Unknown | Flagged in Sitemap, heavily linked in Footer & Homepage. | Deferred (Phase 5) |
+| `/certified-document-translation/degree-transcript` | `/services/translation/academic-degree-transcript` | Inconsistent top-level path structure. | Moderate / Unknown | Flagged in Sitemap and Footer links. | Deferred (Phase 5) |
+| `/certified-document-translation/legal-documents` | `/services/translation/legal-translation` | Duplicate hub URL structure. | Low / Unknown | Flagged in Sitemap. | Deferred (Phase 5) |
+| `/certified-document-translation` | `/services/translation/certified-translation` | Primary service page with likely external backlink equity. | High / Primary Service | **Critical Risk**: Primary service page; do not move without backlink data. | Deferred (Phase 5) |
+| `/translation-english-to-arabic` | `/services/translation/arabic-translation` | Standalone root URL mixing with dynamic rewrite path. | Moderate / Unknown | Flagged in Sitemap & Footer links. | Deferred (Phase 5) |
+| `/english-to-spanish-translation-services` | `/services/translation/spanish-translation` | Verbose, non-standard root URL. | Low / Orphaned previously | Linked in footer navigation. | Deferred (Phase 5) |
+| `/english-to-indonesian-translators` | `/services/translation/indonesian-translation` | Inconsistent keyword phrasing ("translators"). | Low / Unknown | Flagged in Sitemap & Footer links. | Deferred (Phase 5) |
+| `/chinese-language-translation-in-urdu` | `/services/translation/chinese-to-urdu` | Non-standard, verbose keyword path phrase. | Low / Unknown | Flagged in Sitemap & Footer links. | Deferred (Phase 5) |
+| `/consultancy/saudi-scholarship` | `/scholarships/saudi-arabia` | Single-off `/consultancy/` namespace. | Low / Unknown | Linked in Footer under Study Abroad section. | Deferred (Phase 5) |
+| `/site-map` | `/sitemap` | Inconsistent spelling vs `/sitemap.xml`. | Low / Structural | No benefit; risks confusion with `/sitemap.xml`. | Deferred (Phase 5) |
 
 ---
 
@@ -135,6 +135,9 @@ The following table inventories every non-descriptive, cannibalizing, or non-sta
   - **Decision Recorded**: All 45 embassy pages (`/embassies/[slug]`) stay `noindex, nofollow` and stay excluded from `sitemap.ts`.
   - **Context**: `noindex` was originally applied as accidental boilerplate in commit 5679da0. Pages currently contain a median of 322 unique words and 0 inbound internal links.
   - **Phase 5 Action**: Conduct per-page Google search demand & keyword volume evaluation for individual embassy targets before enabling indexation or internal linking for any specific embassy page.
+- **Deferred 5.2: URL Renames Assessment & Decision**:
+  - **Decision Recorded**: All 13 URL rename proposals deferred. Revisit only if GSC data shows specific URLs underperforming for structural reasons or to evaluate content merges for city URLs.
+
 
 ---
 
