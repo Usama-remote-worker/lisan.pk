@@ -31,7 +31,7 @@ export function FloatingActions() {
                     aria-label="Chat on WhatsApp"
                 >
                     <WhatsAppIcon className="h-10 w-10" />
-                    <span className="absolute right-full mr-4 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none font-sans">
+                    <span className="absolute right-full mr-4 bg-slate-900 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none font-sans">
                         {isScholarshipPage ? "Scholarship Help" : "Chat with Expert"}
                     </span>
                 </a>

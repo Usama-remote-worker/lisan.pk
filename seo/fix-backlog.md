@@ -107,25 +107,36 @@ This backlog details the prioritized list of technical SEO issues identified dur
 
 ---
 
-## 3. Low Priority
+## 3. Low Priority — Tagged for Phase 3 (Mobile Baseline Remaining Audit Items)
 
-### Fix 3.1: Mobile touch target adjustments
-- **Problem**: Touches are tight and lead to misclicks on mobile.
-- **Root Cause**: Small items (10px, 12px) in directories are set close together.
-- **File Paths to Modify**:
+### Fix 3.1: Mobile touch target adjustments in page templates & directories
+- **Status**: Tagged for Phase 3 (Unfixed).
+- **Problem**: Touches are tight and lead to misclicks on mobile viewports.
+- **Root Cause**: Small items and dense lists in templates use small tap target areas (<44x44px).
+- **Affected File Paths**:
   - `src/app/site-map/page.tsx`
   - `src/app/directory/page.tsx`
-- **Fix Instructions**:
-  - Add margins and line height to link items to ensure a minimum touch target area of 48x48px.
+  - `src/components/home/LocationGrid.tsx`
+  - `src/components/home/DocumentTranslationGrid.tsx`
+  - `src/components/ui/PageHeader.tsx` (breadcrumbs)
+- **Fix Instructions (Phase 3)**:
+  - Add margins, padding, and line height to link items to ensure a minimum touch target area of 44x44px.
 
-### Fix 3.2: Mobile Font Size compliance
-- **Problem**: Body copy elements use sizes under 16px.
-- **Root Cause**: Inconsistent body class typography.
-- **File Paths to Modify**:
+### Fix 3.2: Mobile Font Size & Body Copy Compliance (sub-16px text)
+- **Status**: Tagged for Phase 3 (Unfixed).
+- **Problem**: Body copy elements and secondary UI badges use font sizes under 16px (`text-sm`, `text-xs`, `text-[10px]`).
+- **Root Cause**: Inconsistent body copy class typography across landing page components and dynamic route templates.
+- **Affected File Paths**:
   - `src/app/locations/[city]/page.tsx`
-  - `src/components/layout/Footer.tsx`
-- **Fix Instructions**:
-  - Change default body copy text sizes from `text-sm` (14px) to `text-base` (16px) on mobile viewports.
+  - `src/app/locations/[city]/[service]/page.tsx`
+  - `src/app/services/translation/[slug]/page.tsx`
+  - `src/components/home/ServicePackages.tsx`
+  - `src/components/home/TestimonialSection.tsx`
+  - `src/components/home/BlogPreview.tsx`
+  - `src/components/turkey/UniversitySection.tsx`, `LeadForm.tsx`, `TurkeyFaq.tsx`, `ExitPopup.tsx`
+  - `src/components/scholarship/ScholarshipPageClient.tsx`
+- **Fix Instructions (Phase 3)**:
+  - Update default body copy text sizes from `text-sm` (14px) / `text-xs` (12px) to `text-base` (16px) on mobile viewports (`text-sm sm:text-base` or `text-base`).
 
 ---
 
@@ -133,5 +144,6 @@ This backlog details the prioritized list of technical SEO issues identified dur
 
 ### Deferred 5.1: 45 Embassy Pages Indexing Assessment
 - **Status**: Deferred to Phase 5.
-- **Notes**: 45 embassy pages — noindex was accidental boilerplate (5679da0), not a decision. 322 median unique words, 0 inbound links. Evaluate per-page demand before indexing any.
+- **Decision Record**: 45 embassy pages — noindex was accidental boilerplate from commit 5679da0, not a decision. 322 median unique words, 0 inbound links. Evaluate per-page demand before indexing any. All 45 embassy pages stay noindexed and stay out of the sitemap.
+
 
