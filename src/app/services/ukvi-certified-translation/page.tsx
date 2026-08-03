@@ -538,11 +538,9 @@ export default function UKVICertifiedTranslationPage() {
           <p className="text-slate-500 text-center mb-10 max-w-xl mx-auto">Learn more about the specific requirements, costs, and samples for UK visa document translations.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { label: "UKVI Translation Requirements", href: "/services/ukvi-certified-translation/requirements", desc: "Detailed guide on what UKVI expects from a translation." },
-              { label: "UKVI Translation Sample", href: "/services/ukvi-certified-translation/sample", desc: "See an exact sample of a Home Office compliant certificate." },
-              { label: "UKVI Birth Certificate Translation", href: "/services/ukvi-certified-translation/birth-certificate", desc: "For family, dependent, and settlement visas." },
-              { label: "UKVI Marriage Certificate Translation", href: "/services/ukvi-certified-translation/marriage-certificate", desc: "Translate Nikah Namas for UK Spouse visas." },
-              { label: "UKVI Translation Cost", href: "/services/ukvi-certified-translation/cost", desc: "Detailed breakdown of pricing per document type." },
+              { label: "UKVI Translation Requirements", href: "/blog/ukvi-translation-requirements", desc: "Detailed guide on what UKVI expects from a translation." },
+              { label: "Birth Certificate Translation", href: "/services/translation/birth-certificate-translation", desc: "For family, dependent, and settlement visas." },
+              { label: "Marriage Certificate Translation", href: "/services/translation/nikah-nama-marriage-certificate", desc: "Translate Nikah Namas for UK Spouse visas." },
             ].map(link => (
               <Link key={link.label} href={link.href}
                 className="block bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:border-blue-500 hover:bg-blue-50/10 hover:shadow-sm transition-all duration-300">

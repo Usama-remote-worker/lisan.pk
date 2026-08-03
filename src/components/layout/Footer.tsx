@@ -52,7 +52,7 @@ export function Footer() {
                                 >
                                     <span className="text-emerald-600 text-lg mb-2 font-bold select-none group-hover:scale-110 transition-transform">✓</span>
                                     <h5 className="text-slate-900 text-xs font-bold mb-1 tracking-tight">{feat.label}</h5>
-                                    <p className="text-[10px] text-slate-500 font-medium">{feat.desc}</p>
+                                    <p className="text-xs text-slate-500 font-medium">{feat.desc}</p>
                                 </div>
                             ))}
                         </div>
@@ -75,7 +75,7 @@ export function Footer() {
                                 Lisan.pk is a professional multilingual translation agency providing certified translation services in 100+ languages for individuals, businesses, universities, immigration applications, legal matters, and international organizations worldwide.
                             </p>
                             <div className="pt-4 border-t border-slate-200">
-                                <h4 className="text-slate-900 text-[10px] font-bold uppercase tracking-widest mb-1.5">Office Status</h4>
+                                <h4 className="text-slate-900 text-xs font-bold uppercase tracking-widest mb-1.5">Office Status</h4>
                                 <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Serving Nationwide Pakistan & International Markets via secure courier & digital delivery.</p>
                             </div>
                         </div>
@@ -105,9 +105,7 @@ export function Footer() {
                                 <li><Link href="/services/translation/urdu-to-english-translation" className="hover:text-emerald-700 transition-colors">Urdu Translation</Link></li>
                                 <li><Link href="/services/translation/english-translation" className="hover:text-emerald-700 transition-colors">English Translation</Link></li>
                                 <li><Link href="/services/translation/turkish-translation" className="hover:text-emerald-700 transition-colors">Turkish Translation</Link></li>
-                                <li><Link href="/services/translation/spanish-translation" className="hover:text-emerald-700 transition-colors">Spanish Translation</Link></li>
-                                <li><Link href="/services/translation/french-translation" className="hover:text-emerald-700 transition-colors">French Translation</Link></li>
-                                <li><Link href="/services/translation/german-translation" className="hover:text-emerald-700 transition-colors">German Translation</Link></li>
+                                <li><Link href="/english-to-spanish-translation-services" className="hover:text-emerald-700 transition-colors">Spanish Translation</Link></li>
                             </ul>
                         </div>
 
@@ -136,7 +134,7 @@ export function Footer() {
                                     <li><Link href="/blog" className="hover:text-emerald-700 transition-colors">Blog & Resources</Link></li>
                                     <li><Link href="/contact" className="hover:text-emerald-700 transition-colors">Contact Support</Link></li>
                                     <li><Link href="/directory" className="hover:text-emerald-700 transition-colors">Visual Directory</Link></li>
-                                    <li><Link href="/sitemap.xml" className="hover:text-emerald-700 transition-colors text-[10px] opacity-30">XML Sitemap</Link></li>
+                                    <li><Link href="/sitemap.xml" className="hover:text-emerald-700 transition-colors text-xs opacity-50">XML Sitemap</Link></li>
                                 </ul>
                             </div>
                             <div>
@@ -161,11 +159,11 @@ export function Footer() {
                                 <h4 className="text-slate-900 font-bold uppercase text-xs tracking-wider">Get in Touch</h4>
                                 <div className="space-y-3">
                                     <div>
-                                        <span className="block text-[9px] text-slate-500 uppercase tracking-widest font-bold mb-0.5">WhatsApp / Call</span>
+                                        <span className="block text-xs text-slate-500 uppercase tracking-widest font-bold mb-0.5">WhatsApp / Call</span>
                                         <a href="tel:03044296295" className="text-base font-extrabold text-slate-900 hover:text-emerald-700 transition-colors font-mono tracking-tight">0304-4296295</a>
                                     </div>
                                     <div>
-                                        <span className="block text-[9px] text-slate-500 uppercase tracking-widest font-bold mb-0.5">Email Support</span>
+                                        <span className="block text-xs text-slate-500 uppercase tracking-widest font-bold mb-0.5">Email Support</span>
                                         <a href="mailto:lisan.pk.services@gmail.com" className="text-[11px] font-semibold text-slate-600 hover:text-emerald-700 transition-colors break-all font-mono">lisan.pk.services@gmail.com</a>
                                     </div>
                                 </div>
@@ -173,7 +171,7 @@ export function Footer() {
                                     <Link 
                                         href="https://forms.gle/FnBnLrbdCQXsyjVS6" 
                                         target="_blank"
-                                        className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-xl text-xs font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-500/20 shadow-md shadow-emerald-900/10"
+                                        className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 min-h-[44px] flex items-center justify-center rounded-xl text-xs font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-500/20 shadow-md shadow-emerald-900/10"
                                     >
                                         Get a Free Quote
                                     </Link>
@@ -206,7 +204,7 @@ export function Footer() {
                             <div className="md:col-span-6 lg:col-span-5 space-y-4">
                                 <div>
                                     <h4 className="text-slate-900 font-bold text-xs uppercase tracking-wider mb-1">Global Services</h4>
-                                    <p className="text-[10px] text-slate-500 leading-tight">We serve international clients globally via Email & WhatsApp (no physical offices in these regions).</p>
+                                    <p className="text-xs text-slate-500 leading-tight">We serve international clients globally via Email & WhatsApp (no physical offices in these regions).</p>
                                 </div>
                                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2.5 mt-3">
                                     {internationalLocations.map((loc) => (
