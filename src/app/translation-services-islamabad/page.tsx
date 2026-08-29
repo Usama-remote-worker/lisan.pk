@@ -32,7 +32,7 @@ export default function IslamabadTranslationPage() {
                                 Accurate, legally recognized translations for visas, immigration, and legal affairs. Accepted by foreign embassies, NADRA, and ministries across Islamabad.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20services%20in%20Islamabad.">
+                                <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20services%20in%20Islamabad.">
                                     <button className="bg-[#D1FAE5] text-[#004e3a] text-[20px] font-semibold px-8 py-4 rounded-xl hover:shadow-[0_0_20px_rgba(209,250,229,0.3)] transition-all w-full sm:w-auto">Start Your Project</button>
                                 </Link>
                                 <Link href="/contact">

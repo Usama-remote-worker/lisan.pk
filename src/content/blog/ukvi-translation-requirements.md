@@ -203,7 +203,7 @@ Lisan.pk provides certified translation services for:
 Our translations include the required certification elements and are prepared for immigration and visa submission purposes.
 
 **Request a Free Quote:**
-* **WhatsApp / Call:** +92 304 4296295
+* **WhatsApp / Call:** +92 328 8155866
 
 ---
 

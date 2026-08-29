@@ -30,7 +30,7 @@ export function ExitPopup() {
     const handleWhatsAppRedirect = () => {
         trackLeadEvent("whatsapp")
         const message = "Hi Lisan.pk! I am leaving the Study in Turkey page, but I want to secure my Free Admission & Scholarship Assessment. Can we discuss my eligibility on WhatsApp?"
-        const whatsappUrl = `https://wa.me/923044296295?text=${encodeURIComponent(message)}`
+        const whatsappUrl = `https://wa.me/923288155866?text=${encodeURIComponent(message)}`
         window.open(whatsappUrl, "_blank")
         setIsOpen(false)
     }

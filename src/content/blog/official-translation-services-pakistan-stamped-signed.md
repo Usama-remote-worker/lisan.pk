@@ -20,7 +20,7 @@ howTo:
   name: "How to Order Official Translation Online"
   step:
     - name: "Upload your documents"
-      text: "Send clear scans of your certificates or transcripts to our team via WhatsApp at 0304-4296295."
+      text: "Send clear scans of your certificates or transcripts to our team via WhatsApp at 0328-8155866."
     - name: "Get a quote"
       text: "Receive an instant quote and confirmed delivery timeline based on your specific document requirements."
     - name: "Confirm and receive"
@@ -90,9 +90,9 @@ Most agencies focus on translation. **We focus on approval.**
 If you’re applying for Saudi scholarships or visas, official translation services in Pakistan are mandatory. One small mistake—a missing stamp or wrong format—can cost you your entire application.
 
 **Ready to get your documents translated?**
-👉 **Contact Lisan.pk on WhatsApp at [0304-4296295](https://wa.me/923044296295)** for a free quote and get your documents submission-ready today.
+👉 **Contact Lisan.pk on WhatsApp at [0328-8155866](https://wa.me/923288155866)** for a free quote and get your documents submission-ready today.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

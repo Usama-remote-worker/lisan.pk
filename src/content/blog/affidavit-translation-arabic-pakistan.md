@@ -16,7 +16,7 @@ howTo:
   - name: "How to Order Your Certified Affidavit Translation (3 Simple Steps)"
     step:
       - name: "Send Your Document"
-        text: "WhatsApp a clear scan or photo of your affidavit to our expert at 0304-4296295."
+        text: "WhatsApp a clear scan or photo of your affidavit to our expert at 0328-8155866."
       - name: "Expert Review"
         text: "Our team will provide an instant quote and verify the legal terminology."
       - name: "Receive Your Files"
@@ -74,7 +74,7 @@ Every affidavit translation Arabic Pakistan undergoes a rigorous quality check. 
 
 We have simplified the legal translation process to save you time and stress:
 
-1. **Send Your Document**: WhatsApp a clear scan or photo of your affidavit to our expert at 0304-4296295.
+1. **Send Your Document**: WhatsApp a clear scan or photo of your affidavit to our expert at 0328-8155866.
 2. **Expert Review**: Our team will provide an instant quote and verify the legal terminology.
 3. **Receive Your Files**: Get your certified digital copy via WhatsApp/Email and your stamped hard copy via courier.
 
@@ -95,4 +95,4 @@ Get your legal documents translated by the experts today. Contact our senior tra
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

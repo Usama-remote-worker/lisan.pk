@@ -30,7 +30,7 @@ howTo:
 ---
 
 <div className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need Embassy-Approved Document Translation? — <a href="https://wa.me/923044296295" className="underline hover:text-emerald-100">WhatsApp Now: 0304-4296295</a>
+  Need Embassy-Approved Document Translation? — <a href="https://wa.me/923288155866" className="underline hover:text-emerald-100">WhatsApp Now: 0328-8155866</a>
 </div>
 
 If you're applying for a visa, scholarship, or immigration, your documents are not judged casually — they are reviewed under strict embassy rules. That’s why choosing the right translation company for embassy documents in Pakistan is critical.
@@ -173,9 +173,9 @@ With Lisan.pk, you can:
 *   Get embassy-ready translations without delays
 
 **Ready to start?**
-Contact an expert immediately through **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to get your embassy documents translated today!
+Contact an expert immediately through **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to get your embassy documents translated today!
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

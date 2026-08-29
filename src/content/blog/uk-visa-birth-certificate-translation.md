@@ -288,7 +288,7 @@ Lisan.pk provides certified translation services for applicants worldwide. We as
 
 Need a certified birth certificate translation for your UK visa application?
 
-📞 **Call or WhatsApp:** +92 304 4296295
+📞 **Call or WhatsApp:** +92 328 8155866
 
 Our team will review your document and provide a quick quotation.
 

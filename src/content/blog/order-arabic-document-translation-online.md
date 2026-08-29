@@ -90,7 +90,7 @@ We provide specialized [certified translation](/services/translation) for:
 Don't risk your scholarship or visa with amateur translations. Join 50,000+ satisfied clients who trust Lisan.pk for their most important documents.
 
 👉 **[Start Your Online Order](/contact)**  
-👉 **[WhatsApp for Express 12h Service](https://wa.me/923044296295)**  
+👉 **[WhatsApp for Express 12h Service](https://wa.me/923288155866)**  
 👉 **[View Pricing & Services](/services/translation)**
 
 ---
@@ -106,4 +106,4 @@ Don't risk your scholarship or visa with amateur translations. Join 50,000+ sati
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

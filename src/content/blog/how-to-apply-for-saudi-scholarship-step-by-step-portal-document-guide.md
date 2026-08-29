@@ -33,10 +33,10 @@ howTo:
 <div id="cta-top" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">⚡ Get Same-Day Certified Arabic Translation Online</h3>
     <p className="text-emerald-800/70 mb-1">Don't risk an automated system flag! Send your documents to Lisan.pk for accredited Arabic translation.</p>
-    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Our Helpline Directly: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20urgent%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." className="underline">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Our Helpline Directly: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20urgent%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp for Same-Day Translation</a>
-        <a href="tel:+923044296295" className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">📞 Call Directly</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp for Same-Day Translation</a>
+        <a href="tel:+923288155866" className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">📞 Call Directly</a>
     </div>
     <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-emerald-600 font-bold text-sm">
         <span>✅ Same-Day / Express Delivery</span>
@@ -130,10 +130,10 @@ To guarantee portal compliance, you require an accredited [certified arabic tran
 <div id="cta-middle" className="bg-emerald-600 p-8 rounded-3xl text-center text-white my-12 shadow-xl">
     <h3 className="text-3xl font-extrabold mb-2">🚀 Secure Your Accredited Arabic Translation Package</h3>
     <p className="text-emerald-100 mb-2">Click to share your files securely and get a detailed breakdown of our student translation tracks.</p>
-    <p className="text-emerald-200 font-bold mb-6">📞 Instant Support via Call or WhatsApp: <span className="text-white">03044296295</span></p>
+    <p className="text-emerald-200 font-bold mb-6">📞 Instant Support via Call or WhatsApp: <span className="text-white">03288155866</span></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20submitting%20my%20documents%20for%20certified%20Arabic%20translation." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp for Express Translation</a>
-        <a href="tel:+923044296295" className="inline-block border-2 border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">📞 Call Directly</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20submitting%20my%20documents%20for%20certified%20Arabic%20translation." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp for Express Translation</a>
+        <a href="tel:+923288155866" className="inline-block border-2 border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">📞 Call Directly</a>
     </div>
     <div className="mt-4 text-emerald-100 text-xs">
         ⚡ Guaranteed delivery within 12–24 hours for urgent scholarship admissions.
@@ -174,9 +174,9 @@ If you are ready to take the next step in your educational journey, get your sch
 <div id="cta-footer" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">🔥 Submit Your Documents To Lisan.pk Today</h3>
     <p className="text-emerald-800/70 mb-2">Join thousands of successful international students who relied on Lisan.pk to navigate their portal verification.</p>
-    <p className="text-emerald-700 font-bold mb-6">📲 24/7 Professional Help Desk: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20m%20submitting%20my%20documents%20for%20certified%20Arabic%20translation." className="underline">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📲 24/7 Professional Help Desk: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20m%20submitting%20my%20documents%20for%20certified%20Arabic%20translation." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%2527m%20submitting%20my%20documents%20for%20certified%20Arabic%20translation." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Submit Documents via WhatsApp</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%2527m%20submitting%20my%20documents%20for%20certified%20Arabic%20translation." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Submit Documents via WhatsApp</a>
         <a href="https://forms.gle/FnBnLrbdCQXsyjVS6" className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">Upload via Online Form</a>
     </div>
 </div>

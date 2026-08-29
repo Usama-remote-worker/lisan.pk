@@ -20,7 +20,7 @@ howTo:
   name: "How to Order Certified Arabic Translation in Pakistan"
   step:
     - name: "Send your documents"
-      text: "Upload clear scans or photos of your documents (Degrees, Transcripts, etc.) to our team via WhatsApp at 0304-4296295."
+      text: "Upload clear scans or photos of your documents (Degrees, Transcripts, etc.) to our team via WhatsApp at 0328-8155866."
     - name: "Get your quote and delivery time"
       text: "Our team will review your files and provide a fixed price and delivery timeline within minutes."
     - name: "Receive your translated files"
@@ -107,7 +107,7 @@ Students usually do not want a long service process. They want fast turnaround, 
 Getting the right **certified Arabic translation services Pakistan** can save time, reduce submission errors, and help your file look scholarship-ready from day one. 
 
 **How to order:**
-1.  **Send your documents**: Send clear scans to **WhatsApp [0304-4296295](https://wa.me/923044296295)**.
+1.  **Send your documents**: Send clear scans to **WhatsApp [0328-8155866](https://wa.me/923288155866)**.
 2.  **Get your quote**: Receive a fixed price and delivery time within minutes.
 3.  **Receive your files**: Get your submission-ready translations delivered digitally.
 
@@ -116,4 +116,4 @@ Getting the right **certified Arabic translation services Pakistan** can save ti
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

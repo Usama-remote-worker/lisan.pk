@@ -72,7 +72,7 @@ export default function StudyInTurkeyHub() {
         "url": "https://www.lisan.pk",
         "logo": "https://www.lisan.pk/logo-icon-white.svg",
         "description": "Pakistan's most trusted Arabic translation and international education consultancy platform. 40+ years of excellence led by MA Arabic & Islamiyat qualified experts.",
-        "telephone": "+923044296295",
+        "telephone": "+923288155866",
         "email": "lisan.pk.services@gmail.com",
         "foundingDate": "1984",
         "founder": {
@@ -83,7 +83,7 @@ export default function StudyInTurkeyHub() {
         },
         "areaServed": "PK",
         "sameAs": [
-            "https://wa.me/923044296295"
+            "https://wa.me/923288155866"
         ]
     }
 
@@ -93,7 +93,7 @@ export default function StudyInTurkeyHub() {
         "@id": "https://www.lisan.pk/study-in-turkey#turkey-hub",
         "name": "Lisan.pk Study in Turkey Admissions Hub",
         "image": "https://www.lisan.pk/images/blog/saudi-scholarship-certified-arabic-translation.png",
-        "telephone": "+923044296295",
+        "telephone": "+923288155866",
         "email": "lisan.pk.services@gmail.com",
         "parentOrganization": {
             "@id": "https://www.lisan.pk#organization"
@@ -526,7 +526,7 @@ export default function StudyInTurkeyHub() {
                                         Get Scholarship Guidance
                                     </Button>
                                 </a>
-                                <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20get%20Turkish%20Scholarship%20guidance." target="_blank" className="block">
+                                <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20get%20Turkish%20Scholarship%20guidance." target="_blank" className="block">
                                     <Button variant="ghost" className="w-full h-12 bg-white/5 hover:bg-white/10 text-white border border-white/10 font-bold rounded-xl">
                                         Consult on WhatsApp
                                     </Button>
@@ -586,10 +586,10 @@ export default function StudyInTurkeyHub() {
                                         </div>
                                     </a>
 
-                                    <a href="tel:03044296295" className="flex items-start gap-4 p-5 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-all">
+                                    <a href="tel:03288155866" className="flex items-start gap-4 p-5 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-all">
                                         <div>
                                             <h4 className="font-extrabold text-slate-200 text-xs">Pakistan Coordination:</h4>
-                                            <p className="text-sm text-emerald-400 font-black mt-1">0304 4296295</p>
+                                            <p className="text-sm text-emerald-400 font-black mt-1">0328 8155866</p>
                                         </div>
                                     </a>
                                 </div>
@@ -674,7 +674,7 @@ export default function StudyInTurkeyHub() {
                     </p>
 
                     <div className="pt-4 flex flex-col sm:flex-row justify-center gap-4 max-w-lg mx-auto font-sans">
-                        <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20direct%20admissions%20at%20Turkey%20Universities." target="_blank" className="block w-full sm:w-auto">
+                        <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20direct%20admissions%20at%20Turkey%20Universities." target="_blank" className="block w-full sm:w-auto">
                             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold h-16 px-10 rounded-2xl w-full text-lg shadow-xl transition-all flex items-center justify-center gap-2">
                                 Chat on WhatsApp
                             </Button>
@@ -689,7 +689,7 @@ export default function StudyInTurkeyHub() {
                     </div>
 
                     <p className="text-emerald-400 font-bold italic text-sm pt-2">
-                        On-Ground Support Desk Helpline: 0304 4296295
+                        On-Ground Support Desk Helpline: 0328 8155866
                     </p>
                 </div>
             </section>

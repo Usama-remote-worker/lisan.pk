@@ -89,7 +89,7 @@ export function ScholarshipPopup() {
                                             GET SCHOLARSHIP GUIDE
                                         </Button>
                                     </Link>
-                                    <Link href="https://wa.me/923044296295" onClick={() => setIsOpen(false)} className="w-full">
+                                    <Link href="https://wa.me/923288155866" onClick={() => setIsOpen(false)} className="w-full">
                                         <Button 
                                             id="gtm-popup-wa"
                                             variant="ghost" 

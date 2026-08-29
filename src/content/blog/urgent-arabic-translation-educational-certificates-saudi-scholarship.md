@@ -105,7 +105,7 @@ We bridge that gap. Fast. Reliably. Without rejection.
 
 [Get My Urgent Arabic Translation Now — Free Quote](/contact)
 
-*or WhatsApp [+923044296295](https://wa.me/923044296295) for instant assistance*
+*or WhatsApp [+923288155866](https://wa.me/923288155866) for instant assistance*
 
 ---
 
@@ -117,4 +117,4 @@ We bridge that gap. Fast. Reliably. Without rejection.
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

@@ -183,7 +183,7 @@ Your documents are translated carefully and checked for accuracy.
 You receive the certified translation digitally and, if needed, by courier at your address.
 
 
-[Start Your Urgent Translation Today — Contact on WhatsApp](https://wa.me/923044296295)
+[Start Your Urgent Translation Today — Contact on WhatsApp](https://wa.me/923288155866)
 
 ---
 
@@ -244,5 +244,5 @@ Lisan.pk provides certified Arabic translation services for degrees, transcripts
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
 

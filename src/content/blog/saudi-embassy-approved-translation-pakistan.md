@@ -25,7 +25,7 @@ howTo:
     - name: "Scan Your Documents"
       text: "Take clear, high-quality photos or scans of your original documents, ensuring all text, board signatures, and stamps are perfectly visible."
     - name: "Share via WhatsApp or Portal"
-      text: "Send your scanned documents to Lisan.pk via WhatsApp (+923044296295) or use our online free quote form."
+      text: "Send your scanned documents to Lisan.pk via WhatsApp (+923288155866) or use our online free quote form."
     - name: "Review Draft and Spelling"
       text: "Confirm your passport name spellings so the translated documents align perfectly with your official identity records."
     - name: "Receive Certified Translations"
@@ -178,5 +178,5 @@ Whether you are applying for a Saudi scholarship, a family visa, or university a
 ### Need Certified Saudi-Compliant Arabic Translation?
 Get your documents reviewed by professional Arabic translation experts before submission. Contact us for same-day processing or a free quote:
 
-**[Get Your Stamped & Certified Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20a%20certified%20Arabic%20translation%20for%20Saudi%20Embassy%20submission.)**  
+**[Get Your Stamped & Certified Translation on WhatsApp: +92-328-8155866](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20a%20certified%20Arabic%20translation%20for%20Saudi%20Embassy%20submission.)**  
 **[Request a Free Certified Translation Quote Online](/contact)**

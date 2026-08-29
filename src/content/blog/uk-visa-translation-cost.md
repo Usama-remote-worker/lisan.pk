@@ -227,7 +227,7 @@ Our team handles:
 
 Need a certified translation for your UK visa application? Our pricing starts at just **€15 per page**.
 
-📞 **Call or WhatsApp:** +92 304 4296295
+📞 **Call or WhatsApp:** +92 328 8155866
 
 Get a fast quote and ensure your documents meet UKVI translation requirements.
 

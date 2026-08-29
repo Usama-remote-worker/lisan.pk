@@ -18,7 +18,7 @@ howTo:
       - name: "Scan Your Document"
         text: "Take a clear photo or high-resolution scan of your NADRA birth certificate."
       - name: "WhatsApp Us"
-        text: "Send the file to our expert team at 0304-4296295 for an instant quote."
+        text: "Send the file to our expert team at 0328-8155866 for an instant quote."
       - name: "Receive Your Files"
         text: "Get your certified digital copy within 24 hours, with original hard copies delivered nationwide via premium courier."
 ---
@@ -64,7 +64,7 @@ For a translation to be truly "embassy-approved," it must often be paired with a
 Securing your birth certificate Arabic translation Pakistan is a fast and seamless process designed for busy families:
 
 1. **Scan Your Document**: Take a clear photo or high-resolution scan of your NADRA birth certificate.
-2. **WhatsApp Us**: Send the file to our expert team at 0304-4296295 for an instant quote.
+2. **WhatsApp Us**: Send the file to our expert team at 0328-8155866 for an instant quote.
 3. **Receive Your Files**: Get your certified digital copy within 24 hours, with original hard copies delivered nationwide via premium courier.
 
 ---
@@ -84,4 +84,4 @@ Don't wait for a deadline to approach. Get your birth certificate translated by 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

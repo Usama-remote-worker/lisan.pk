@@ -50,7 +50,7 @@ export default function ServicesPage() {
                                 Upload Your Document
                             </Button>
                         </Link>
-                        <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20your%20translation%20services." target="_blank">
+                        <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20your%20translation%20services." target="_blank">
                             <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white hover:text-emerald-950 px-12 h-16 text-sm font-bold uppercase tracking-widest rounded-full transition-all duration-300">
                                 Get a Free Quote
                             </Button>
@@ -97,7 +97,7 @@ export default function ServicesPage() {
                                         </li>
                                     ))}
                                 </ul>
-                                <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20${service.title}.`} className="inline-flex items-center gap-2 text-emerald-600 font-bold hover:underline transition-all font-sans text-sm">
+                                <Link href={`https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20${service.title}.`} className="inline-flex items-center gap-2 text-emerald-600 font-bold hover:underline transition-all font-sans text-sm">
                                     Order Translation →
                                 </Link>
                             </div>

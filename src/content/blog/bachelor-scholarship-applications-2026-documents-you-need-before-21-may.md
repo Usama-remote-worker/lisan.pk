@@ -29,11 +29,11 @@ howTo:
     - name: "Verify Identity Credentials"
       text: "Ensure the spelling of your name, family name, and date of birth match exactly across your passport, CNIC, and academic records."
     - name: "Submit for Certified Arabic Translation"
-      text: "Send clear high-resolution scans of your documents to Lisan.pk via WhatsApp (+92-304-4296295) to get same-day or 24-hour certified Arabic translations."
+      text: "Send clear high-resolution scans of your documents to Lisan.pk via WhatsApp (+92-328-8155866) to get same-day or 24-hour certified Arabic translations."
 ---
 
 <div class="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  🚨 undergraduate Deadline Alert: Only 9 Days Left Before May 21! Secure Certified Arabic Translation in 24 Hours — <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Bachelor%20scholarship%20and%20need%20urgent%20Arabic%20translation%20for%20my%20Matric%20and%20Inter%20certificates." class="underline hover:text-white">WhatsApp Now</a>
+  🚨 undergraduate Deadline Alert: Only 9 Days Left Before May 21! Secure Certified Arabic Translation in 24 Hours — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Bachelor%20scholarship%20and%20need%20urgent%20Arabic%20translation%20for%20my%20Matric%20and%20Inter%20certificates." class="underline hover:text-white">WhatsApp Now</a>
 </div>
 
 Many students preparing for Saudi scholarship applications are now facing the same problem: they are unsure which documents are actually required before submission closes.
@@ -222,7 +222,7 @@ With Saudi scholarship deadlines closing on **21 May**, now is the time to organ
 
 Our expert translation team is online to assist you with same-day translations, board certificate reviews, and Saudi portal compatibility checks.
 
-*   **WhatsApp Helpline:** [**0304-4296295**](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20urgent%20academic%20translation%20for%20my%20bachelor%20scholarship%20documents%20before%20the%2021%20May%20deadline.)
+*   **WhatsApp Helpline:** [**0328-8155866**](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20academic%20translation%20for%20my%20bachelor%20scholarship%20documents%20before%20the%2021%20May%20deadline.)
 *   **Get a Free Quote Online:** Submit your files through our **[Contact Form](/contact)**.
 
 ---

@@ -12,7 +12,7 @@ tags: ["Saudi Scholarship", "Study in Saudi Arabia", "Fully Funded Scholarships"
 <div id="cta" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-4">🟢 Apply with 100% Translation Acceptance Guarantee</h3>
     <p className="text-emerald-800/70 mb-6">Need your degrees, transcripts, SOP, and recommendation letters translated into Arabic or English? We provide certified translations accepted by the Saudi Embassy and all public universities.</p>
-    <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20get%20my%20documents%20translated%20for%20the%20fully%20funded%20Saudi%20Arabia%20scholarship." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Chat with us on WhatsApp (+923044296295)</a>
+    <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20get%20my%20documents%20translated%20for%20the%20fully%20funded%20Saudi%20Arabia%20scholarship." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Chat with us on WhatsApp (+923288155866)</a>
     <div className="mt-4 flex items-center justify-center gap-2 text-emerald-600 font-bold text-sm">
         <span>✅ Embassy Certified Translators</span>
         <span>•</span>
@@ -126,7 +126,7 @@ We specialize in providing official, certified, and embassy-approved translation
 * **100% Acceptance Guarantee** at all Saudi public universities and the Saudi Cultural Attaché.
 * **Professional Attestation Support** for HEC, MOFA, and Saudi Embassy stamps.
 
-👉 **Get a instant quote via WhatsApp:** [**+92-304-4296295**](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20for%20my%20Saudi%20scholarship%20application.)
+👉 **Get a instant quote via WhatsApp:** [**+92-328-8155866**](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20for%20my%20Saudi%20scholarship%20application.)
 👉 **Or fill out our online quote form:** [**Lisan.pk Document Submission Form**](https://forms.gle/FnBnLrbdCQXsyjVS6)
 
 ---

@@ -228,7 +228,7 @@ export default async function LocationPage({ params }: PageProps) {
                                         <p className="text-slate-400 text-[15px] leading-relaxed mb-6">
                                             Our {cityData.name} division offers direct priority processing for urgent embassy deadlines.
                                         </p>
-                                        <Link href="tel:+923044296295" className="font-bold text-emerald-400 hover:underline">+92 304 4296295</Link>
+                                        <Link href="tel:+923288155866" className="font-bold text-emerald-400 hover:underline">+92 328 8155866</Link>
                                     </div>
                                 </div>
 
@@ -300,12 +300,12 @@ export default async function LocationPage({ params }: PageProps) {
                                     Upload your documents via WhatsApp for a precise quote within 10 minutes. 100% data privacy guaranteed.
                                 </p>
                                 <div className="space-y-4 font-sans">
-                                    <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20translation%20services%20in%20${cityData.name}.`} target="_blank" className="block w-full">
+                                    <Link href={`https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20translation%20services%20in%20${cityData.name}.`} target="_blank" className="block w-full">
                                         <Button className="w-full bg-emerald-600 hover:bg-emerald-700 h-16 text-lg rounded-2xl shadow-lg transition-transform hover:-translate-y-1 active:scale-95 font-bold">
                                             WhatsApp Now
                                         </Button>
                                     </Link>
-                                    <Link href="tel:+923044296295" className="block w-full">
+                                    <Link href="tel:+923288155866" className="block w-full">
                                         <Button variant="outline" className="w-full h-16 text-lg border-slate-200 rounded-2xl hover:bg-slate-50 transition-colors font-bold">
                                             Call Agent
                                         </Button>

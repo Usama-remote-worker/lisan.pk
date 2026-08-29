@@ -70,7 +70,7 @@ Lisan.pk is a specialized translation agency serving Pakistani families and prof
 
 **For clients across Pakistan:** Submit your original Fard at any of our collection points, or simply have our team pick it up from your doorstep—whether you're in Lahore, Karachi, Islamabad, Peshawar, Quetta, or any city nationwide. We return the certified, sealed translation directly to your home or office, ready for submission to the US Embassy or visa application center.
 
-**For international clients (USA, UK, Canada, UAE, Australia):** Submit a clear scan of your Fard via WhatsApp at [**03044296295**](https://wa.me/923044296295). We deliver a digitally signed, USCIS-compliant certified translation directly to your inbox, ready for printing and submission to USCIS, NVC, or your local consulate.
+**For international clients (USA, UK, Canada, UAE, Australia):** Submit a clear scan of your Fard via WhatsApp at [**03288155866**](https://wa.me/923288155866). We deliver a digitally signed, USCIS-compliant certified translation directly to your inbox, ready for printing and submission to USCIS, NVC, or your local consulate.
 
 An estimated 68% of translation industry experts identify raw machine translation as a critical risk factor in legal documentation. Some agencies cut corners by running your Fard through automated software and lightly proofreading the output. We never do that. Every Fard is translated manually by a linguist trained in the Punjab Land Revenue Act's specific register.
 
@@ -85,7 +85,7 @@ Our clients include:
 Deadlines don't wait. With over 100,000 Pakistani nationals receiving US immigrant and non-immigrant visas in 2024, consular pipelines are strained. Procrastination invites panic. Here's how Lisan.pk makes it fast:
 
 **Step 1: Submit Your Fard**  
-[Visit our office](/contact), request doorstep pickup anywhere in Pakistan, or WhatsApp a clear scan at [**03044296295**](https://wa.me/923044296295). Your Fard is handled with document-chain custody protocols from the moment it reaches us.
+[Visit our office](/contact), request doorstep pickup anywhere in Pakistan, or WhatsApp a clear scan at [**03288155866**](https://wa.me/923288155866). Your Fard is handled with document-chain custody protocols from the moment it reaches us.
 
 **Step 2: Expert Translation & Certification**  
 Our legal translators manually convert every term—Khewat, Khatooni, Khasra, Marla, Kanal—into precise English, then attach your signed Certificate of Translation Accuracy.
@@ -95,7 +95,7 @@ Your certified translation package is delivered to your doorstep (Pakistan) or i
 
 Given that USCIS median processing times for certain family-based petitions now hover around 10 months, a single RFE triggered by translation errors effectively doubles your wait. That's not a risk you need to take.
 
-👉 **[WhatsApp Lisan.pk Now: 03044296295](https://wa.me/923044296295)**
+👉 **[WhatsApp Lisan.pk Now: 03288155866](https://wa.me/923288155866)**
 
 ## Frequently Asked Questions About Fard Translation for US Immigration
 
@@ -103,7 +103,7 @@ Given that USCIS median processing times for certain family-based petitions now 
 Technically yes—USCIS allows anyone competent to translate—but the certification must be legally robust. Family translations are frequently scrutinized more heavily because officers question impartiality. A third-party professional translation from Lisan.pk eliminates that doubt.
 
 **Q: How long does a certified Fard translation take?**  
-Standard turnaround at Lisan.pk is 24 to 48 hours. Urgent same-day service is available for applications facing immediate deadlines. [WhatsApp us directly](https://wa.me/923044296295) for time-sensitive requests.
+Standard turnaround at Lisan.pk is 24 to 48 hours. Urgent same-day service is available for applications facing immediate deadlines. [WhatsApp us directly](https://wa.me/923288155866) for time-sensitive requests.
 
 **Q: What does "certified" actually mean for USCIS?**  
 It means the translator has signed a legally binding statement attesting to accuracy and competence. It does not mean a government body in Pakistan has endorsed the document.
@@ -121,4 +121,4 @@ Yes. We provide nationwide doorstep pickup and delivery. Whether you're in a met
 
 An RFE steals time. A rejection steals dreams. Your Fard is a genuine, legally valid asset—but only a certified Urdu Fard translation for US immigration turns it into evidence USCIS will accept without question. From the precision of Khasra numbers to the signed certificate of accuracy, every detail matters.
 
-👉 **[WhatsApp Lisan.pk Now at 03044296295](https://wa.me/923044296295)** to begin your certified [Property Document translation](/services/translation/property-document-translation), or [visit our contact page](/contact) to speak with a specialist. Submit with confidence, not anxiety.
+👉 **[WhatsApp Lisan.pk Now at 03288155866](https://wa.me/923288155866)** to begin your certified [Property Document translation](/services/translation/property-document-translation), or [visit our contact page](/contact) to speak with a specialist. Submit with confidence, not anxiety.

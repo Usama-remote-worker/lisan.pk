@@ -24,7 +24,7 @@ export function AnnouncementBar() {
             iconText: "%",
             text: "Student Policy: Flat Discounts on Certified Arabic Translation",
             linkText: "Avail Discount",
-            href: "https://wa.me/923044296295"
+            href: "https://wa.me/923288155866"
         },
         {
             iconText: "⏱",

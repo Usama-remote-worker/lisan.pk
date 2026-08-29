@@ -47,7 +47,7 @@ export function ServicePackages() {
 
                                 <div className="pt-8 border-t border-slate-50">
                                     <p className="text-xs text-slate-400 mb-4 italic">Ideal for: {pkg.idealFor}</p>
-                                    <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20the%20${pkg.name}%20package.`} target="_blank">
+                                    <Link href={`https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20the%20${pkg.name}%20package.`} target="_blank">
                                         <Button className="w-full bg-slate-900 hover:bg-emerald-600 text-white h-14 rounded-2xl transition-all font-bold">
                                             Select Package
                                         </Button>

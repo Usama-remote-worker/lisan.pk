@@ -57,7 +57,7 @@ export default async function TurkeyUniversityPage({ params }: PageProps) {
         "name": "Lisan.pk",
         "url": "https://www.lisan.pk",
         "description": "Pakistan's most trusted Arabic translation and international education consultancy. 40+ years of expertise led by MA Arabic & Islamiyat qualified founder.",
-        "telephone": "+923044296295",
+        "telephone": "+923288155866",
         "email": "lisan.pk.services@gmail.com",
         "foundingDate": "1984",
         "founder": {
@@ -281,9 +281,9 @@ export default async function TurkeyUniversityPage({ params }: PageProps) {
                                     </li>
                                 ))}
                             </ul>
-                            <a href="tel:03044296295" className="block">
+                            <a href="tel:03288155866" className="block">
                                 <Button variant="outline" className="w-full h-12 rounded-xl border-slate-700 text-slate-300 hover:bg-slate-800 font-bold flex items-center justify-center gap-2">
-                                    Helpline: 0304 4296295
+                                    Helpline: 0328 8155866
                                 </Button>
                             </a>
                         </div>

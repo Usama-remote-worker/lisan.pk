@@ -102,7 +102,7 @@ We built our service for speed and acceptance. Here’s the process:
 
 The entire pipeline, from receiving your WhatsApp message to delivering final certified translations, is optimised for the 2026 deadline cycle.
 
-[Start My 2026 Translation — Request Quote →](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%202026%20scholarship%20translation%20services.)
+[Start My 2026 Translation — Request Quote →](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%202026%20scholarship%20translation%20services.)
 
 ---
 
@@ -145,7 +145,7 @@ We’ve delivered complete bachelor’s scholarship translation packs (Matric + 
 2.  **High-volume periods slow everything down**: The weeks immediately before a major deadline see a flood of requests. Book your translation slot now and you’re at the front of the queue — even if you finalise the documents later.
 3.  **Your mind stays clear for the actual application**: Translation stress bleeds into the rest of your submission. When your certified documents are already saved and ready, you write a better statement, contact referees more calmly, and submit without panic.
 
-[Reserve My Translation Slot Now →](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20reserve%20a%20slot%20for%20my%202026%20scholarship%20translation.)
+[Reserve My Translation Slot Now →](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20reserve%20a%20slot%20for%20my%202026%20scholarship%20translation.)
 
 ---
 
@@ -172,7 +172,7 @@ Send what you have now. We’ll translate in batches and deliver the final docum
 
 Saudi Arabia’s scholarship doors are open in 2026. The funding is there. The seats are there. The only question is whether your documents speak the language the committee reads. If they’re still in Urdu or English without a counterpart, they don’t.
 
-Use **Saudi Arabia scholarship translation services 2026** that understand Pakistani certificates, Saudi portals, and the speed these deadlines demand. [Send your documents today](https://wa.me/923044296295). Get your certified Arabic translations back fast. Then submit with total confidence.
+Use **Saudi Arabia scholarship translation services 2026** that understand Pakistani certificates, Saudi portals, and the speed these deadlines demand. [Send your documents today](https://wa.me/923288155866). Get your certified Arabic translations back fast. Then submit with total confidence.
 
 ---
 **Authority Sources & Further Reading:**
@@ -183,4 +183,4 @@ Use **Saudi Arabia scholarship translation services 2026** that understand Pakis
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

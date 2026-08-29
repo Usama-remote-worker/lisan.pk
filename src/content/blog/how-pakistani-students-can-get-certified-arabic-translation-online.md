@@ -156,9 +156,9 @@ Getting certified Arabic translation online Pakistan is one of the easiest ways 
 The key is choosing a service that is fast, secure, and accurate. For students dealing with scholarships, visas, or university admissions, online certified translation is often the most practical option. If your deadline is close, the best move is to send your documents early and get the process started immediately.
 
 **Ready to translate your documents?**
-Chat with an expert on our website or send us a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to get your certified Arabic translation started today.
+Chat with an expert on our website or send us a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to get your certified Arabic translation started today.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

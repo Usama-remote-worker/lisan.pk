@@ -12,7 +12,7 @@ tags: ["Saudi Scholarship", "Study Abroad", "Fully Funded", "Pakistani Students"
 <div id="cta" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-4">📥 Download: The 7-Step Document Checklist for Saudi Scholarships (PDF)</h3>
     <p className="text-emerald-800/70 mb-6">Get the exact list of required documents, attestation steps, and translation standards required by Saudi universities.</p>
-    <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20the%20Scholarship%20Document%20Checklist%20PDF." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Get the Checklist via WhatsApp</a>
+    <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20the%20Scholarship%20Document%20Checklist%20PDF." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Get the Checklist via WhatsApp</a>
     <div className="mt-4 flex items-center justify-center gap-2 text-emerald-600 font-bold text-sm">
         <span>✅ 100% Acceptance Guarantee</span>
         <span>•</span>
@@ -154,7 +154,7 @@ A Saudi Arabia fully funded scholarship can transform your future—but only if 
 
 Don’t let a language barrier stand between you and a world-class education.
 
-👉 **[Get a free quote for certified document translation now](https://forms.gle/FnBnLrbdCQXsyjVS6)**. Call/WhatsApp us at **03044296295** or visit our [Contact Page](/contact).
+👉 **[Get a free quote for certified document translation now](https://forms.gle/FnBnLrbdCQXsyjVS6)**. Call/WhatsApp us at **03288155866** or visit our [Contact Page](/contact).
 
 Your scholarship dream deserves perfection from the very first page.
 
@@ -173,7 +173,7 @@ Most universities require a medical fitness report as part of the initial docume
 Yes, many universities allow "Hope Certificate" applications, but you must provide certified translations of your previous semester transcripts.
 
 **Q: How much does Arabic translation cost for a full scholarship document set?**
-Prices vary based on the number of documents, but we offer a special "Scholarship Bundle" for Pakistani students. [Message us for a quote](https://wa.me/923044296295).
+Prices vary based on the number of documents, but we offer a special "Scholarship Bundle" for Pakistani students. [Message us for a quote](https://wa.me/923288155866).
 
 ---
 
@@ -195,4 +195,4 @@ Prices vary based on the number of documents, but we offer a special "Scholarshi
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

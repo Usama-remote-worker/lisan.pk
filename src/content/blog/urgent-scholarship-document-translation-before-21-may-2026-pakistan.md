@@ -30,7 +30,7 @@ howTo:
 ---
 
 <div className="bg-red-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Deadline Approaching! Need Translation Before May 21st? <a href="https://wa.me/923044296295" className="underline hover:text-red-100">WhatsApp Now: 0304-4296295</a>
+  Deadline Approaching! Need Translation Before May 21st? <a href="https://wa.me/923288155866" className="underline hover:text-red-100">WhatsApp Now: 0328-8155866</a>
 </div>
 
 If you’re applying for a Saudi scholarship in 2026, you’re already in the final stretch.
@@ -185,9 +185,9 @@ That’s the difference between applying… and missing the opportunity complete
 Send your documents to Lisan.pk via WhatsApp and get them translated before the deadline closes.
 
 **Secure Your Spot Before the Deadline**
-Don't let untranslated documents ruin your scholarship chances. Contact us immediately on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to ensure your files are ready by May 21st.
+Don't let untranslated documents ruin your scholarship chances. Contact us immediately on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to ensure your files are ready by May 21st.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

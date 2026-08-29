@@ -129,7 +129,7 @@ When reviewing your traditional Urdu marriage contract, verify that your service
 Do not jeopardize your immigration timeline with automated translations or unverified credentials. Partner with our specialist team to secure an authoritative, compliant translation of your marital records.
 
 **Business Hours:** Monday – Saturday: 9:00 AM to 6:00 PM (PKT)  
-📞 **Direct Call / WhatsApp Support:** +92 304 4296295
+📞 **Direct Call / WhatsApp Support:** +92 328 8155866
 
 Reach out via WhatsApp right now to claim your fast quotation and ensure an error-free step toward your life in the United States!
 

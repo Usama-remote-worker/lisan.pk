@@ -90,7 +90,7 @@ export default async function UniversityPage({ params }: PageProps) {
             <div className="bg-amber-50 border-b border-amber-100 py-4 font-sans">
                 <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
                     <p className="font-bold text-amber-900 text-sm">⚡ Need certified Arabic translations for {university.name}? Get same-day delivery.</p>
-                    <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." target="_blank" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2 rounded-xl font-bold text-sm transition-all whitespace-nowrap">WhatsApp Now: 03044296295</Link>
+                    <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." target="_blank" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2 rounded-xl font-bold text-sm transition-all whitespace-nowrap">WhatsApp Now: 03288155866</Link>
                 </div>
             </div>
 
@@ -205,12 +205,12 @@ export default async function UniversityPage({ params }: PageProps) {
                                     </li>
                                 ))}
                             </ul>
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." target="_blank" className="block">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20application." target="_blank" className="block">
                                 <Button className="w-full bg-emerald-500 hover:bg-emerald-400 text-emerald-950 font-black h-14 rounded-xl mb-3">WhatsApp Expert Now</Button>
                             </Link>
-                            <Link href="tel:+923044296295" className="block">
+                            <Link href="tel:+923288155866" className="block">
                                 <Button variant="outline" className="w-full h-12 rounded-xl border-slate-700 text-slate-300 hover:bg-slate-800 font-bold">
-                                    Call 03044296295
+                                    Call 03288155866
                                 </Button>
                             </Link>
                         </div>

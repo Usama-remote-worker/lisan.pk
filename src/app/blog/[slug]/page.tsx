@@ -183,7 +183,7 @@ export default async function BlogPostPage({ params }: Props) {
                     <p className="text-slate-600 mb-8 max-w-lg mx-auto">Our Saudi scholarship consultants are ready to assist you with certified translations and attestation requirements. Get a response in minutes.</p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <a 
-                            href="https://wa.me/923044296295?text=Hi Lisan.pk, I need help with my Saudi scholarship document translation." 
+                            href="https://wa.me/923288155866?text=Hi Lisan.pk, I need help with my Saudi scholarship document translation." 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-full font-bold transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 active:translate-y-0"

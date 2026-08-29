@@ -26,7 +26,7 @@ howTo:
 ---
 
 <div className="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need Translation Today? <a href="https://wa.me/923044296295" className="underline hover:text-white">Send Documents on WhatsApp Now</a>
+  Need Translation Today? <a href="https://wa.me/923288155866" className="underline hover:text-white">Send Documents on WhatsApp Now</a>
 </div>
 
 Deadlines don’t care whether your documents are ready or not.
@@ -182,9 +182,9 @@ With urgent Arabic translation for documents in Pakistan, the goal is simple:
 Send your documents to Lisan.pk via WhatsApp and get them translated without risking rejection.
 
 **Contact an Expert Today!**
-Call or send a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to ensure your documents are prepared quickly and accurately.
+Call or send a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to ensure your documents are prepared quickly and accurately.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

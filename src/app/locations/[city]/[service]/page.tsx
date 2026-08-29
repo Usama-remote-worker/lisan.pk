@@ -85,7 +85,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
     const faqs = [
         {
             q: `How can I get my ${serviceData.title} translated into Arabic in ${cityData.name}?`,
-            a: `To translate your ${serviceData.title} in ${cityData.name}, simply send a high-quality photo or scan of the document to Lisan.pk via WhatsApp at +92 304 4296295. Our certified Arabic translators will translate, stamp, and sign your document to meet embassy standards, and send the official hard copy to your doorstep via secure courier.`
+            a: `To translate your ${serviceData.title} in ${cityData.name}, simply send a high-quality photo or scan of the document to Lisan.pk via WhatsApp at +92 328 8155866. Our certified Arabic translators will translate, stamp, and sign your document to meet embassy standards, and send the official hard copy to your doorstep via secure courier.`
         },
         {
             q: `Is the translation of my ${serviceData.title} from ${cityData.name} accepted by the Saudi Embassy?`,
@@ -344,7 +344,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                         Quick Connect
                                     </h3>
                                     <p className="text-sm mb-6 opacity-90">Get a response in under 10 minutes for {cityData.name} service requests.</p>
-                                    <Link href="tel:+923044296295" className="font-bold text-lg hover:underline block mb-2">+92 304 4296295</Link>
+                                    <Link href="tel:+923288155866" className="font-bold text-lg hover:underline block mb-2">+92 328 8155866</Link>
                                     <span className="text-xs uppercase tracking-widest font-bold opacity-70">Mon - Sat: 9am - 8pm</span>
                                 </div>
                             </div>
@@ -388,7 +388,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                             <div className="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100 sticky top-24">
                                 <h3 className="font-bold text-slate-900 mb-6 text-xl font-serif">Start Your Process</h3>
                                 <div className="space-y-4">
-                                    <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20${serviceData.title}%20in%20${cityData.name}.`} target="_blank" className="block w-full">
+                                    <Link href={`https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20${serviceData.title}%20in%20${cityData.name}.`} target="_blank" className="block w-full">
                                         <Button className="w-full bg-[#25D366] hover:bg-[#128C7E] h-16 text-lg rounded-2xl shadow-lg transition-transform hover:-translate-y-1 text-white font-bold">
                                             WhatsApp Now
                                         </Button>
@@ -464,7 +464,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                         Explore Turkey Admissions →
                                     </Link>
                                     <Link
-                                        href={`https://wa.me/923044296295?text=Hi%20Lisan.pk%2C%20I%20am%20from%20${encodeURIComponent(cityData.name)}%20and%20want%20to%20know%20about%20Study%20in%20Turkey%20admissions.`}
+                                        href={`https://wa.me/923288155866?text=Hi%20Lisan.pk%2C%20I%20am%20from%20${encodeURIComponent(cityData.name)}%20and%20want%20to%20know%20about%20Study%20in%20Turkey%20admissions.`}
                                         target="_blank"
                                         className="block w-full bg-white/5 hover:bg-white/10 border border-white/10 text-white text-center py-3 rounded-xl font-bold text-xs transition-all"
                                     >

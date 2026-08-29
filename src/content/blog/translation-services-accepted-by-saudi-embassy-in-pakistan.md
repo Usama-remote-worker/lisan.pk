@@ -150,9 +150,9 @@ One mistake can delay your visa or cost you a fully funded scholarship. That’s
 👉 If you want fast, reliable, and Saudi-approved translations, visit [Lisan.pk](https://lisan.pk) today and get your documents processed without risk.
 
 **Need urgent translation assistance?**
-Chat with an expert on our website or send us a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)**.
+Chat with an expert on our website or send us a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)**.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

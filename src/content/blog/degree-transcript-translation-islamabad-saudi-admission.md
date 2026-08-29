@@ -104,9 +104,9 @@ Avoid these pitfalls to keep your application on track:
 Getting your degree and transcript translated into Arabic in Islamabad is the first and most important step towards studying at a Saudi university. Partner with **Lisan.pk** for certified, accurate, and embassy‑accepted Arabic translations.
 
 **Ready to apply?**
-👉 Chat with an expert on our website or send us a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** – we’re here to answer your questions and give you a free, no‑obligation quote. Let Lisan.pk handle the translation while you focus on your academic future in Saudi Arabia.
+👉 Chat with an expert on our website or send us a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** – we’re here to answer your questions and give you a free, no‑obligation quote. Let Lisan.pk handle the translation while you focus on your academic future in Saudi Arabia.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

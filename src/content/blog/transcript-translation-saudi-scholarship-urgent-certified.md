@@ -18,7 +18,7 @@ howTo:
       - name: "Scan Your Transcript"
         text: "Take a clear, flat, well-lit photo or scan of your English/Urdu transcript."
       - name: "Send via WhatsApp"
-        text: "Message our urgent support team at 0304-4296295 with the note 'Urgent Scholarship Translation'."
+        text: "Message our urgent support team at 0328-8155866 with the note 'Urgent Scholarship Translation'."
       - name: "Get Your Files"
         text: "Receive your certified, embassy-approved Arabic PDF within 24 hours, ready for immediate portal submission. Hard copies can also be dispatched urgently via courier."
 ---
@@ -71,7 +71,7 @@ Speed does not mean cutting corners. Every urgent translation we produce is full
 There is no time to waste. Follow these steps to get your documents translated immediately:
 
 1. **Scan Your Transcript**: Take a clear, flat, well-lit photo or scan of your English/Urdu transcript.
-2. **Send via WhatsApp**: Message our urgent support team at 0304-4296295 with the note "Urgent Scholarship Translation."
+2. **Send via WhatsApp**: Message our urgent support team at 0328-8155866 with the note "Urgent Scholarship Translation."
 3. **Get Your Files**: Receive your certified, embassy-approved Arabic PDF within 24 hours, ready for immediate portal submission. Hard copies can also be dispatched urgently via courier.
 
 ---
@@ -82,7 +82,7 @@ A strict deadline shouldn't cost you a world-class education in Saudi Arabia. Wh
 
 Don’t wait another minute. Let the certified experts at Lisan.pk handle your paperwork so you can focus on hitting that "Submit" button.
 
-Time is ticking! Click here to WhatsApp us at 0304-4296295 and start your urgent translation right now. If you need more information about the overall process, read our comprehensive guide on [How to Apply for Saudi Scholarships from Pakistan](/blog/saudi-arabia-fully-funded-scholarships-guide-pakistani-students).
+Time is ticking! Click here to WhatsApp us at 0328-8155866 and start your urgent translation right now. If you need more information about the overall process, read our comprehensive guide on [How to Apply for Saudi Scholarships from Pakistan](/blog/saudi-arabia-fully-funded-scholarships-guide-pakistani-students).
 
 ---
 
@@ -103,5 +103,5 @@ Yes, as long as it is done by a certified, embassy-approved agency like Lisan.pk
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
 

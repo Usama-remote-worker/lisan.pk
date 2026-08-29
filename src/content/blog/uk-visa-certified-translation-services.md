@@ -128,7 +128,7 @@ When compiling your UK visa application file, cross-reference your paperwork wit
 Do not risk your future in the UK by cutting corners on your documentation. Let our dedicated team handle your NADRA birth certificate translation for UK visa paths with absolute precision. Get your fully compliant, stamped, and signed documents delivered straight to your home.
 
 **Business Hours:** Monday – Saturday: 9:00 AM to 6:00 PM (PKT)  
-**Direct Call / WhatsApp:** +92 304 4296295
+**Direct Call / WhatsApp:** +92 328 8155866
 
 Get in touch today to receive your instant quotation and secure your flawless translation!
 

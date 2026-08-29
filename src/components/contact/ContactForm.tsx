@@ -51,7 +51,7 @@ export function ContactForm() {
 📑 Service Needed: ${service}
 💬 Note: ${message || "Please provide a quote."}`;
 
-    const whatsappUrl = `https://wa.me/923044296295?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/923288155866?text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
@@ -76,7 +76,7 @@ export function ContactForm() {
         </p>
         <div className="pt-2">
           <a
-            href={`https://wa.me/923044296295?text=${encodeURIComponent(
+            href={`https://wa.me/923288155866?text=${encodeURIComponent(
               `Hi Lisan.pk, my name is ${name}. Following up on my contact form inquiry.`
             )}`}
             target="_blank"
@@ -124,7 +124,7 @@ export function ContactForm() {
             <Input
               id="contact-phone"
               type="tel"
-              placeholder="e.g. 03044296295"
+              placeholder="e.g. 03288155866"
               required
               value={phone}
               onChange={(e) => setPhone(e.target.value)}

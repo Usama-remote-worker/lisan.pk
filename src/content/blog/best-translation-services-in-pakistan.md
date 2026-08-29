@@ -21,7 +21,7 @@ faqs:
 ---
 
 <div class="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm" className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need to Translate Documents Urgently? — <a href="https://wa.me/923044296295" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Lisan.pk: 0304-4296295</a>
+  Need to Translate Documents Urgently? — <a href="https://wa.me/923288155866" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Lisan.pk: 0328-8155866</a>
 </div>
 
 Most people searching for the “best translation services in Pakistan” are not actually searching for a literal word-for-word translation. 
@@ -259,7 +259,7 @@ Modern users no longer want to deal with unnecessary office visits, physical pap
 
 ### WhatsApp Ordering
 At Lisan.pk, users can submit clear documents directly through WhatsApp for instant review. 
-👉 **[Chat on WhatsApp to Get Started](https://wa.me/923044296295)**
+👉 **[Chat on WhatsApp to Get Started](https://wa.me/923288155866)**
 
 ### Same-Day & Urgent Translation
 Urgency is a major factor because most users contact translation agencies close to embassy appointments, scholarship deadlines, or visa processing dates. We provide urgent same-day handling options depending on document category and workload.
@@ -284,7 +284,7 @@ At Lisan.pk, our focus is not generic word substitution. We solve the real-world
 * **Transparent Pricing:** No hidden fees, no last-minute surprises. We confirm costs upfront.
 * **Fast Communication:** Quick WhatsApp support alone solves the biggest complaint users have with traditional translation offices in Pakistan.
 
-📞 **Speak Directly With an Expert Translator:** `03044296295`
+📞 **Speak Directly With an Expert Translator:** `03288155866`
 
 ---
 
@@ -323,7 +323,7 @@ Whether you need:
 
 Our team is ready to help.
 
-👉 **[Contact Lisan.pk on WhatsApp](https://wa.me/923044296295)**
+👉 **[Contact Lisan.pk on WhatsApp](https://wa.me/923288155866)**
 
 ---
 

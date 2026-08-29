@@ -26,7 +26,7 @@ howTo:
 ---
 
 <div className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need a Trusted Arabic Translator? — <a href="https://wa.me/923044296295" className="underline hover:text-emerald-100">WhatsApp Now: 0304-4296295</a>
+  Need a Trusted Arabic Translator? — <a href="https://wa.me/923288155866" className="underline hover:text-emerald-100">WhatsApp Now: 0328-8155866</a>
 </div>
 
 Applying for a scholarship is stressful enough. One bad translation can make the whole process harder than it needs to be. That is why many students search for trusted Arabic translators in Pakistan when preparing documents for Saudi and other Arabic-speaking scholarship applications.
@@ -143,9 +143,9 @@ If you are preparing scholarship documents, do not treat translation as an after
 If you need trusted Arabic translators in Pakistan, Lisan.pk gives you a direct way to speak to an expert and send documents through WhatsApp. Keep it simple, keep it accurate, and get your documents handled properly the first time.
 
 **Talk to an Expert Today!**
-Need to translate your documents fast? Call us directly or send a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to get started immediately.
+Need to translate your documents fast? Call us directly or send a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to get started immediately.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

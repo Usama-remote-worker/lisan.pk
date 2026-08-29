@@ -189,7 +189,7 @@ Professional translators prepare and review the document before certification.
 Receive digital copies online and physical copies through courier delivery anywhere in Pakistan.
 
 
-[Start Your Translation Today — Request a Quote](https://wa.me/923044296295)
+[Start Your Translation Today — Request a Quote](https://wa.me/923288155866)
 
 ---
 
@@ -244,5 +244,5 @@ If you need fast and authentic Arabic translation services in Pakistan, choosing
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
 

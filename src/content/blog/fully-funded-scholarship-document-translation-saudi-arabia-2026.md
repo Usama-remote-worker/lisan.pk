@@ -12,7 +12,7 @@ tags: ["Saudi Scholarship", "Arabic Translation", "Document Translation", "Pakis
 <div id="cta" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-4">🎓 Need a Full Scholarship Translation Pack?</h3>
     <p className="text-emerald-800/70 mb-6">Get your Matric, FSc, and B-Form translated and certified with our 100% acceptance guarantee for 2026 Saudi portals.</p>
-    <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20a%20full%20translation%20pack%20for%20my%20Saudi%20Scholarship%20application." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Get a Custom Quote via WhatsApp</a>
+    <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20a%20full%20translation%20pack%20for%20my%20Saudi%20Scholarship%20application." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Get a Custom Quote via WhatsApp</a>
     <div className="mt-4 flex items-center justify-center gap-2 text-emerald-600 font-bold text-sm">
         <span>✅ Stamped & Certified</span>
         <span>•</span>
@@ -83,7 +83,7 @@ Every document you send us goes through a three-layer process:
 <div className="bg-slate-900 text-white p-10 rounded-[2.5rem] my-12 text-center">
     <h3 className="text-2xl font-bold mb-4">Start Your Translation Now</h3>
     <p className="text-slate-400 mb-8">Send your documents via WhatsApp and get a fixed quote in minutes.</p>
-    <a href="https://wa.me/923044296295" className="bg-emerald-500 hover:bg-emerald-600 text-emerald-950 px-10 py-4 rounded-xl font-black text-lg transition-all">WhatsApp Free Quote</a>
+    <a href="https://wa.me/923288155866" className="bg-emerald-500 hover:bg-emerald-600 text-emerald-950 px-10 py-4 rounded-xl font-black text-lg transition-all">WhatsApp Free Quote</a>
 </div>
 
 ## Which Saudi Universities Accept Our Certified Translations?
@@ -152,7 +152,7 @@ The fully funded scholarship you’ve been working toward sits behind a single u
 Get your fully funded scholarship document translation Saudi Arabia handled today. No generic agencies. No uncertain stamps. Just a Pakistan-understanding, Saudi-focused team that makes sure your file reads complete — and your application reads ready.
 
 👉 **[Get My Free Translation Quote →](/get-a-quote)**  
-*WhatsApp us directly: [+923044296295](https://wa.me/923044296295) | response in minutes*
+*WhatsApp us directly: [+923288155866](https://wa.me/923288155866) | response in minutes*
 
 ---
 
@@ -171,4 +171,4 @@ Get your fully funded scholarship document translation Saudi Arabia handled toda
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

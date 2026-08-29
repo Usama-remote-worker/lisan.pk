@@ -18,7 +18,7 @@ howTo:
   name: "How to Get Certified Embassy Translation Online"
   step:
     - name: "WhatsApp your documents"
-      text: "Take clear photos or high-quality scans of your documents and send them directly to +92-304-4296295."
+      text: "Take clear photos or high-quality scans of your documents and send them directly to +92-328-8155866."
     - name: "Receive expert quotation"
       text: "Our translation coordinators will review your documents and provide a formal price quote and delivery timeline within minutes."
     - name: "Translation & verification"
@@ -28,7 +28,7 @@ howTo:
 ---
 
 <div class="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm" className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need Certified Translation Fast? — <a href="https://wa.me/923044296295" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Now: 0304-4296295</a>
+  Need Certified Translation Fast? — <a href="https://wa.me/923288155866" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Now: 0328-8155866</a>
 </div>
 
 Finding reliable translation services in Pakistan is harder than it looks. Most people assume all translation providers offer the exact same quality, but in reality, a small mistake can lead to embassy rejection, visa delays, or university application failure.
@@ -194,7 +194,7 @@ Choosing the right translation services in Pakistan is not about looking for the
 
 One small spelling mistake or missing stamp can cost you your visa, scholarship, or embassy approval, leading to expensive reapplications. That’s why Lisan.pk focuses strictly on certified, highly accurate, and embassy-compliant translation services designed to eliminate rejection risk completely.
 
-👉 **[Contact Lisan.pk on WhatsApp to Get Started Today](https://wa.me/923044296295)**
+👉 **[Contact Lisan.pk on WhatsApp to Get Started Today](https://wa.me/923288155866)**
 
 ---
 

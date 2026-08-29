@@ -91,7 +91,7 @@ export function Header() {
                 <div className="flex items-center space-x-2 md:space-x-4 font-sans">
                     <div className="hidden sm:flex items-center space-x-2">
                         <a
-                            href="tel:03044296295"
+                            href="tel:03288155866"
                             id="gtm-call-header"
                             className="px-3.5 py-2 min-h-[44px] flex items-center justify-center text-xs text-emerald-700 bg-emerald-50 hover:bg-emerald-100 rounded-xl transition-colors font-extrabold"
                             aria-label="Call Us"
@@ -100,7 +100,7 @@ export function Header() {
                         </a>
 
                         <a
-                            href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20translation%20services."
+                            href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20visited%20your%20website%20and%20I%20am%20interested%20in%20your%20translation%20services."
                             target="_blank"
                             rel="noopener noreferrer"
                             id="gtm-wa-header"

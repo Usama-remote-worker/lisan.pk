@@ -57,7 +57,7 @@ export function B2BTravelSection() {
                                     Explore DTS Service
                                 </button>
                             </Link>
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20commercial%20Arabic%20translation%20for%20my%20travel%20agency." target="_blank" className="inline-block w-full sm:w-auto">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20commercial%20Arabic%20translation%20for%20my%20travel%20agency." target="_blank" className="inline-block w-full sm:w-auto">
                                 <button className="w-full bg-white border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 h-14 rounded-xl transition-all flex items-center justify-center gap-2">
                                     B2B WhatsApp Support
                                 </button>
@@ -94,7 +94,7 @@ export function B2BTravelSection() {
                                     Contact us for customized corporate packages, corporate monthly billing, and instant priority digital drafts.
                                 </p>
                             </div>
-                            <Link href="tel:+923044296295" className="relative z-10 flex-shrink-0">
+                            <Link href="tel:+923288155866" className="relative z-10 flex-shrink-0">
                                 <button className="bg-emerald-600 text-white hover:bg-emerald-700 font-extrabold px-5 py-3 rounded-xl text-xs uppercase tracking-wider transition-all border border-emerald-700/25">
                                     Call Business Desk
                                 </button>

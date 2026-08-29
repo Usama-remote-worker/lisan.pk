@@ -24,7 +24,7 @@ export function StickyMobileCTA() {
     const handleWhatsAppRedirect = () => {
         trackLeadEvent("whatsapp")
         const message = "Hi Lisan.pk! I am visiting the Study in Turkey page on my mobile and would like to speak to an admissions specialist."
-        const whatsappUrl = `https://wa.me/923044296295?text=${encodeURIComponent(message)}`
+        const whatsappUrl = `https://wa.me/923288155866?text=${encodeURIComponent(message)}`
         window.open(whatsappUrl, "_blank")
     }
 
@@ -42,7 +42,7 @@ export function StickyMobileCTA() {
             <div className="flex gap-2">
                 {/* Call Helpline */}
                 <a 
-                    href="tel:+923044296295"
+                    href="tel:+923288155866"
                     className="flex-1 h-12 bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-extrabold text-xs rounded-xl flex items-center justify-center active:scale-95 transition-all"
                 >
                     Call

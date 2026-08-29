@@ -12,9 +12,9 @@ tags: ["Saudi Scholarship", "Deadline Extended", "31 May Deadline", "Scholarship
 <div id="cta-top" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">⚡ Get Same-Day Certified Arabic Translation</h3>
     <p className="text-emerald-800/70 mb-1">Don't risk portal rejection. Send your documents to Lisan.pk now for 100% embassy-approved translations.</p>
-    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Us Directly: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20missed%20the%2021%20May%20deadline%20and%20need%20urgent%20certified%20Arabic%20translation%20before%2031%20May." className="underline">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Us Directly: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20missed%20the%2021%20May%20deadline%20and%20need%20urgent%20certified%20Arabic%20translation%20before%2031%20May." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20missed%20the%2021%20May%20deadline%20and%20need%20urgent%20certified%20Arabic%20translation%20before%2031%20May." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp for Same-Day Translation</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20missed%20the%2021%20May%20deadline%20and%20need%20urgent%20certified%20Arabic%20translation%20before%2031%20May." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp for Same-Day Translation</a>
         <a href="/services/translation" className="text-emerald-700 hover:text-emerald-800 font-bold underline">View Translation Services</a>
     </div>
     <div className="mt-4 flex items-center justify-center gap-2 text-emerald-600 font-bold text-sm">
@@ -106,10 +106,10 @@ Related: [How Pakistani Students Can Get Certified Arabic Translation Online](/b
 <div id="cta-middle" className="bg-emerald-600 p-8 rounded-3xl text-center text-white my-12 shadow-xl">
     <h3 className="text-3xl font-extrabold mb-2">🚀 Order Last-Minute Translation Support</h3>
     <p className="text-emerald-100 mb-2">Click to call us directly and book your urgent Arabic translation before 31 May.</p>
-    <p className="text-emerald-200 font-bold mb-6">📞 Call or WhatsApp Lisan.pk: <span className="text-white">03044296295</span></p>
+    <p className="text-emerald-200 font-bold mb-6">📞 Call or WhatsApp Lisan.pk: <span className="text-white">03288155866</span></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20last-minute%20urgent%20translation%20before%2031%20May%20Saudi%20scholarship%20deadline." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp Us Now</a>
-        <a href="tel:+923044296295" className="inline-block border-2 border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">Call Directly</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20last-minute%20urgent%20translation%20before%2031%20May%20Saudi%20scholarship%20deadline." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp Us Now</a>
+        <a href="tel:+923288155866" className="inline-block border-2 border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">Call Directly</a>
     </div>
     <div className="mt-4 text-emerald-100 text-xs">
         ⚡ Express delivery available for all academic documents — degrees, transcripts, police clearance & more.
@@ -125,7 +125,7 @@ Students can still apply for Saudi scholarship programs, but you must keep your 
 Follow this action plan right now:
 
 1. **Compile all documents today** — degrees, transcripts, CNIC/passport, police certificate, medical report.
-2. **Send to Lisan.pk for certified translation** — WhatsApp your scans directly to **03044296295** for a free quote within minutes.
+2. **Send to Lisan.pk for certified translation** — WhatsApp your scans directly to **03288155866** for a free quote within minutes.
 3. **Review your portal profile** — Double-check that your name, date of birth, and passport number match your official passport exactly.
 4. **Keep all file sizes under 2 MB** — Compress PDFs if needed before uploading.
 5. **Upload early** — Do NOT wait for 31 May night; portals crash under peak load.
@@ -137,9 +137,9 @@ Students are highly advised to prepare [certified Arabic translations](/services
 <div id="cta-footer" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">🔥 Submit Your Documents to Lisan.pk Here</h3>
     <p className="text-emerald-800/70 mb-2">Join thousands of successful international students who trusted us to clear their portal verification.</p>
-    <p className="text-emerald-700 font-bold mb-6">📲 Instant WhatsApp Helpline: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20documents%20for%20certified%20translation%20before%2031%20May." className="underline">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📲 Instant WhatsApp Helpline: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20documents%20for%20certified%20translation%20before%2031%20May." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20documents%20for%20certified%20translation%20before%2031%20May." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Submit Documents via WhatsApp</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20documents%20for%20certified%20translation%20before%2031%20May." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Submit Documents via WhatsApp</a>
         <a href="https://forms.gle/FnBnLrbdCQXsyjVS6" className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">Upload via Online Form</a>
     </div>
 </div>

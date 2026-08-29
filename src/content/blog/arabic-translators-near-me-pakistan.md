@@ -200,7 +200,7 @@ Your documents are professionally translated, reviewed, stamped, and signed.
 Digital copies are shared online, while physical copies are delivered through courier.
 
 
-[Order Your Certified Arabic Translation Online — Connect on WhatsApp](https://wa.me/923044296295)
+[Order Your Certified Arabic Translation Online — Connect on WhatsApp](https://wa.me/923288155866)
 
 ---
 
@@ -261,5 +261,5 @@ Reliable translation is not just about converting words. It is about preparing d
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
 

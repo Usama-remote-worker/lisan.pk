@@ -35,10 +35,10 @@ howTo:
 <div id="cta-top" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm font-sans">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">⚡ Secure Your Guaranteed Turkey University Admission Today</h3>
     <p className="text-emerald-800/70 mb-1">Direct university affiliations, up to 50% scholarship waivers, and on-ground student support via Yozgat Bozok Technopark desk.</p>
-    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Admissions Desk Directly: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20apply%20for%20a%20university%20admission%20in%20Turkey%20under%20the%20scholarship%20program." className="underline font-black">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Admissions Desk Directly: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20apply%20for%20a%20university%20admission%20in%20Turkey%20under%20the%20scholarship%20program." className="underline font-black">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <a href="/study-in-turkey" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Start Free Online Assessment</a>
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20apply%20for%20a%20university%20admission%20in%20Turkey%20under%20the%20scholarship%20program." className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">💬 Chat on WhatsApp</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20apply%20for%20a%20university%20admission%20in%20Turkey%20under%20the%20scholarship%20program." className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">💬 Chat on WhatsApp</a>
     </div>
 </div>
 
@@ -147,9 +147,9 @@ We coordinate directly with three prestigious private universities in Istanbul t
 <div id="cta-middle" className="bg-emerald-600 p-8 rounded-3xl text-center text-white my-12 shadow-xl font-sans">
     <h3 className="text-3xl font-extrabold mb-2">🚀 Chat with Our Yozgat Bozok Technopark Desk</h3>
     <p className="text-emerald-100 mb-2">We provide complete support from Lahore to Istanbul, including university enrollment, health insurance, and Turkish residence permits.</p>
-    <p className="text-emerald-200 font-bold mb-6">📞 Instant Helpline Call or WhatsApp: <span className="text-white">03044296295</span></p>
+    <p className="text-emerald-200 font-bold mb-6">📞 Instant Helpline Call or WhatsApp: <span className="text-white">03288155866</span></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20submitting%20my%20documents%20for%20Turkey%20University%20Admissions." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp for Same-Day Assessment</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20submitting%20my%20documents%20for%20Turkey%20University%20Admissions." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp for Same-Day Assessment</a>
         <a href="/study-in-turkey" className="inline-block border-2 border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">📋 Apply Online</a>
     </div>
 </div>
@@ -182,9 +182,9 @@ If you are ready to unlock a high-quality higher education degree, live in the v
 <div id="cta-footer" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm font-sans">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">🔥 Apply for Your Turkey Student Assessment Today</h3>
     <p className="text-emerald-800/70 mb-2">Join hundreds of successful Pakistani students who completed their visa files with Lisan.pk.</p>
-    <p className="text-emerald-700 font-bold mb-6">📲 24/7 Professional Help Desk: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20ready%20to%20apply%20for%20Turkey%20admissions." className="underline">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📲 24/7 Professional Help Desk: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20ready%20to%20apply%20for%20Turkey%20admissions." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <a href="/study-in-turkey" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Start Online Application</a>
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20ready%20to%20apply%20for%20Turkey%20admissions." className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">Submit via WhatsApp</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20ready%20to%20apply%20for%20Turkey%20admissions." className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">Submit via WhatsApp</a>
     </div>
 </div>

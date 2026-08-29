@@ -28,7 +28,7 @@ export default function NikahnamaTranslationPage() {
                         </p>
                         
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20my%20Nikahnama%20translated." target="_blank" className="w-full sm:w-auto">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20my%20Nikahnama%20translated." target="_blank" className="w-full sm:w-auto">
                                 <Button className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white h-14 px-8 text-base font-bold shadow-lg shadow-[#25D366]/20 transition-all rounded-xl">
                                     Chat on WhatsApp
                                 </Button>
@@ -61,7 +61,7 @@ export default function NikahnamaTranslationPage() {
                         <div className="bg-emerald-900 text-white p-10 rounded-[2.5rem] text-center shadow-xl">
                             <h3 className="text-2xl font-bold mb-4">Get Your Translation Started Instantly</h3>
                             <p className="text-emerald-100 mb-8">Send us the documents on WhatsApp. Standard delivery is 24 hours.</p>
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20my%20Nikahnama%20translated." target="_blank">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20my%20Nikahnama%20translated." target="_blank">
                                 <Button className="bg-[#25D366] hover:bg-[#20bd5a] text-white h-14 px-10 text-base font-bold shadow-lg transition-all rounded-xl">
                                     Send Docs via WhatsApp
                                 </Button>

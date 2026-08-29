@@ -153,5 +153,5 @@ Don't let a poor translation become the reason for a rejection letter.
 
 📞 **Call us or visit Lisan.pk today for a free quote on your Fard translation.**
 
-👉 **[WhatsApp Lisan.pk Now: 03044296295](https://wa.me/923044296295)**  
+👉 **[WhatsApp Lisan.pk Now: 03288155866](https://wa.me/923288155866)**  
 👉 **[Contact Our Office](/contact)**

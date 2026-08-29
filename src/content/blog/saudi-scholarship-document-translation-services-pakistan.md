@@ -12,7 +12,7 @@ tags: ["Saudi Scholarship", "Arabic Translation", "Pakistan", "Document Translat
 <div id="cta" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-4">🇵🇰 Saudi Scholarship Help in Pakistan</h3>
     <p className="text-emerald-800/70 mb-6">We specialize in translating BISE boards and NADRA documents for Saudi portal acceptance. Get your certified pack today.</p>
-    <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Saudi%20Scholarship%20from%20Pakistan%20and%20need%20translation%20help." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Start Your Translation Now</a>
+    <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Saudi%20Scholarship%20from%20Pakistan%20and%20need%20translation%20help." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Start Your Translation Now</a>
 </div>
 
 Your Saudi scholarship application sits on a laptop in Karachi. Or maybe Lahore. Or a hostel in Peshawar. The forms are filled. The personal statement feels strong. But then you scroll down to the document upload section, and the portal says it clearly: Arabic versions of all non-Arabic certificates are mandatory.
@@ -40,7 +40,7 @@ We don’t guess. We translate from Pakistani certificates daily. FBISE Islamaba
 <div className="bg-slate-900 text-white p-8 rounded-3xl my-10 text-center">
     <h3 className="text-xl font-bold mb-4">Applying to Madinah or KSU?</h3>
     <p className="text-slate-400 mb-6 text-sm">Don't risk a rejection. Get embassy-certified Arabic translations for your board certificates today.</p>
-    <a href="https://wa.me/923044296295" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-emerald-950 px-8 py-3 rounded-xl font-bold transition-all">WhatsApp For Free Quote</a>
+    <a href="https://wa.me/923288155866" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-emerald-950 px-8 py-3 rounded-xl font-bold transition-all">WhatsApp For Free Quote</a>
 </div>
 
 ## What We Translate Under Our Saudi Scholarship Services
@@ -98,7 +98,7 @@ For most students, the process is fully digital. You WhatsApp us clear snaps of 
 <div className="bg-emerald-600 text-white p-8 rounded-3xl my-10 text-center shadow-xl">
     <h3 className="text-xl font-bold mb-2">Nationwide Doorstep Delivery</h3>
     <p className="mb-6 opacity-90">We translate for all 29+ Boards in Pakistan. Get started from your city today.</p>
-    <a href="https://wa.me/923044296295" className="inline-block bg-white text-emerald-800 px-8 py-3 rounded-xl font-black transition-all hover:bg-emerald-50">WhatsApp Us Now</a>
+    <a href="https://wa.me/923288155866" className="inline-block bg-white text-emerald-800 px-8 py-3 rounded-xl font-black transition-all hover:bg-emerald-50">WhatsApp Us Now</a>
 </div>
 
 ## Why Your Board and City Matter in Translation Accuracy
@@ -155,7 +155,7 @@ The next big Saudi scholarship deadline is closer than it feels. Don’t make tr
 <div id="cta" className="bg-slate-50 border-2 border-slate-200 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-slate-900 mb-4">Start Your Application Today</h3>
     <p className="text-slate-600 mb-6">Get a free, fixed quote for your document set in minutes.</p>
-    <a href="https://wa.me/923044296295" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp Free Quote</a>
+    <a href="https://wa.me/923288155866" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp Free Quote</a>
     <p className="mt-4 text-xs text-slate-400 font-medium tracking-wide">*We reply within minutes*</p>
 </div>
 
@@ -173,4 +173,4 @@ The next big Saudi scholarship deadline is closer than it feels. Don’t make tr
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

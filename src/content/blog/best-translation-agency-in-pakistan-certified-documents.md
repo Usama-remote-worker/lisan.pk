@@ -21,7 +21,7 @@ faqs:
 ---
 
 <div class="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm" className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need to Translate Documents Urgently? — <a href="https://wa.me/923044296295" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Lisan.pk: 0304-4296295</a>
+  Need to Translate Documents Urgently? — <a href="https://wa.me/923288155866" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Lisan.pk: 0328-8155866</a>
 </div>
 
 Finding the best translation agency in Pakistan is no longer just about converting words from one language into another. Today, people need translations that are officially accepted by embassies, universities, MOFA, immigration authorities, scholarship portals, and legal institutions.
@@ -223,7 +223,7 @@ This helps reduce rejection risk for embassy, MOFA, scholarship, and immigration
 ### WhatsApp-Based Ordering
 Users can submit documents directly through WhatsApp without office visits. 
 
-👉 **[Chat on WhatsApp with Translation Experts](https://wa.me/923044296295)**
+👉 **[Chat on WhatsApp with Translation Experts](https://wa.me/923288155866)**
 
 ### Nationwide Courier Delivery Across Pakistan
 We provide delivery support across all major cities, including:

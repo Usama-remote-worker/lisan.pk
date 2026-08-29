@@ -23,7 +23,7 @@ howTo:
   name: "How to Fix and Resubmit a Rejected Saudi Translation"
   step:
     - name: "Share Rejection Details"
-      text: "Send a clear photo or scan of your rejected translation and your original documents to Lisan.pk via WhatsApp (+923044296295)."
+      text: "Send a clear photo or scan of your rejected translation and your original documents to Lisan.pk via WhatsApp (+923288155866)."
     - name: "Submit Passport Bio Page"
       text: "Provide your passport copy so our professional human translators can align all translated Arabic spellings exactly with your passport records."
     - name: "Professional Retranslation & Layout Aligning"
@@ -148,5 +148,5 @@ Many applicants become extremely cautious after facing an embassy rejection once
 ### Facing a Translation Rejection? Get it Fixed Today!
 Do not risk a second rejection. Get your documents reviewed by certified translation experts immediately:
 
-**[Fix My Rejected Saudi Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20the%20Saudi%20Embassy%20rejected%20my%20translation.%20I%20need%20urgent%20help%20to%20fix%20it.)**  
+**[Fix My Rejected Saudi Translation on WhatsApp: +92-328-8155866](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20the%20Saudi%20Embassy%20rejected%20my%20translation.%20I%20need%20urgent%20help%20to%20fix%20it.)**  
 **[Submit Rejected Files for Free Rejection Review](/contact)**

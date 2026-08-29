@@ -33,14 +33,14 @@ export default function ContactPage() {
                         </div>
 
                         <div className="grid sm:grid-cols-2 gap-6 font-sans">
-                            <a href="tel:03044296295" className="p-8 bg-slate-50 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50 transition-all group flex flex-col justify-between">
+                            <a href="tel:03288155866" className="p-8 bg-slate-50 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50 transition-all group flex flex-col justify-between">
                                 <div>
                                     <div className="w-12 h-12 bg-emerald-700 text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.56 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17.92z"/></svg>
                                     </div>
                                     <h4 className="font-bold text-slate-900 mb-1 font-serif">Call / WhatsApp</h4>
                                 </div>
-                                <p className="text-lg text-emerald-700 font-bold font-mono">0304-4296295</p>
+                                <p className="text-lg text-emerald-700 font-bold font-mono">0328-8155866</p>
                             </a>
 
                             <a href="mailto:lisan.pk.services@gmail.com" className="p-8 bg-slate-50 rounded-2xl border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50 transition-all group flex flex-col justify-between">
@@ -101,7 +101,7 @@ export default function ContactPage() {
                     <h2 className="text-3xl font-bold text-center mb-16 font-serif">How We Work – 4 Simple Steps</h2>
                     <div className="grid md:grid-cols-4 gap-8 text-sm">
                         {[
-                            { step: "1", title: "Share Docs", desc: "Text or WhatsApp your document list to 03044296295" },
+                            { step: "1", title: "Share Docs", desc: "Text or WhatsApp your document list to 03288155866" },
                             { step: "2", title: "Confirmation", desc: "We confirm price and pickup (or accept scanned copies)" },
                             { step: "3", title: "Translation", desc: "Certified translation delivered to your doorstep or email" },
                             { step: "4", title: "Ready!", desc: "Ready for attestation and submission to embassies" }
@@ -144,11 +144,11 @@ export default function ContactPage() {
                 <div className="container mx-auto px-4 max-w-3xl font-sans">
                     <h2 className="text-4xl font-bold text-white mb-4 font-serif">Ready to Get Started?</h2>
                     <p className="text-lg text-slate-400 mb-10 font-sans">
-                        Send your document list via WhatsApp: <a href="tel:03044296295" className="font-bold text-emerald-400 hover:text-emerald-300">0304-4296295</a><br/>
+                        Send your document list via WhatsApp: <a href="tel:03288155866" className="font-bold text-emerald-400 hover:text-emerald-300">0328-8155866</a><br/>
                         Or email: <a href="mailto:lisan.pk.services@gmail.com" className="font-bold text-emerald-400 hover:text-emerald-300">lisan.pk.services@gmail.com</a>
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4 font-sans">
-                        <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20contacting%20you%20from%20your%20website%20Contact%20page." target="_blank" className="w-full sm:w-auto">
+                        <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20contacting%20you%20from%20your%20website%20Contact%20page." target="_blank" className="w-full sm:w-auto">
                             <Button size="lg" className="bg-emerald-700 hover:bg-emerald-800 text-white px-10 h-14 text-lg rounded-xl shadow-xl w-full font-extrabold border border-emerald-800/30">
                                 WhatsApp Now
                             </Button>

@@ -23,7 +23,7 @@ howTo:
   name: "How to Order Saudi Embassy Compliant Translation Online"
   step:
     - name: "Submit Documents Online"
-      text: "Send a clear photo or scan of your documents to Lisan.pk via WhatsApp (+923044296295) or our web portal."
+      text: "Send a clear photo or scan of your documents to Lisan.pk via WhatsApp (+923288155866) or our web portal."
     - name: "Provide Passport Spellings"
       text: "Provide the exact name spellings as shown in your passport to ensure perfect consistency across all translation files."
     - name: "Professional Human Translation"
@@ -185,5 +185,5 @@ For immediate assistance and instant quotes, you can share clear scans or photos
 ### Need Certified Saudi-Compliant Arabic Translation?
 Get your documents reviewed by certified translation experts. Contact us today to receive an instant quote:
 
-**[Order Certified Arabic Translation on WhatsApp: +92-304-4296295](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20with%20nationwide%20courier%20delivery.)**  
+**[Order Certified Arabic Translation on WhatsApp: +92-328-8155866](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation%20with%20nationwide%20courier%20delivery.)**  
 **[Request a Free Translation Quote Online](/contact)**

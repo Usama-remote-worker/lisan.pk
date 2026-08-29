@@ -30,7 +30,7 @@ const organizationSchema = {
   "logo": "https://www.lisan.pk/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+923044296295",
+    "telephone": "+923288155866",
     "contactType": "customer service",
     "areaServed": "PK",
     "availableLanguage": ["English", "Arabic", "Urdu"]
@@ -48,7 +48,7 @@ const localBusinessSchema = {
   "image": "https://www.lisan.pk/images/hero-bg.jpg",
   "@id": "https://www.lisan.pk",
   "url": "https://www.lisan.pk",
-  "telephone": "+923044296295",
+  "telephone": "+923288155866",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Lahore",

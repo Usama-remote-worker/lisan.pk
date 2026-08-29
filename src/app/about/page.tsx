@@ -84,7 +84,7 @@ export default function AboutPage() {
                   Our Certified Services
                 </Button>
               </Link>
-              <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20read%20about%20your%20services%20and%20would%20like%20to%20know%20more." target="_blank" className="w-full sm:w-auto">
+              <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20read%20about%20your%20services%20and%20would%20like%20to%20know%20more." target="_blank" className="w-full sm:w-auto">
                 <Button variant="outline" className="w-full border-2 border-emerald-700 text-emerald-800 hover:bg-emerald-50 min-w-[200px] h-14 text-lg font-bold transition-all bg-white">
                   Chat on WhatsApp
                 </Button>
@@ -356,7 +356,7 @@ export default function AboutPage() {
                   Reach out to us
                 </Button>
               </Link>
-                <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20read%20about%20your%20services%20and%20would%20like%20to%20know%20more." target="_blank" className="w-full sm:w-auto">
+                <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20read%20about%20your%20services%20and%20would%20like%20to%20know%20more." target="_blank" className="w-full sm:w-auto">
                   <Button variant="outline" className="w-full border-2 border-white text-white hover:bg-white/10 min-w-[220px] h-14 text-lg font-bold bg-transparent transition-all">
                     Chat on WhatsApp
                   </Button>

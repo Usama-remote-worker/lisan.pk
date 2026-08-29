@@ -207,9 +207,9 @@ The solution is straightforward: use certified translation, double-check your do
 If you want to avoid delays and rejections, handle your translation properly from the start.
 
 **Need certified translation that won't get rejected?**
-Chat with an expert on our website or send us a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to ensure your documents meet all Saudi embassy standards.
+Chat with an expert on our website or send us a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to ensure your documents meet all Saudi embassy standards.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

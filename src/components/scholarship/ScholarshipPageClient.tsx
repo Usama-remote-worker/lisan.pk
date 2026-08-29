@@ -41,7 +41,7 @@ export default function ScholarshipPageClient() {
                             Securing a <strong>Saudi scholarship for Pakistani students</strong> is a life-changing opportunity. This comprehensive guide covers everything from eligibility to the final student visa process.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Saudi%20Scholarship%20consultancy." target="_blank">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Saudi%20Scholarship%20consultancy." target="_blank">
                                 <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-10 h-16 text-lg shadow-xl">
                                     Book Free Consultation
                                 </Button>
@@ -255,7 +255,7 @@ export default function ScholarshipPageClient() {
                                 </ul>
                             </div>
                         </div>
-                        <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Saudi%20Scholarship%20consultancy." target="_blank" className="block text-center">
+                        <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Saudi%20Scholarship%20consultancy." target="_blank" className="block text-center">
                             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white w-full h-16 text-xl rounded-2xl shadow-lg">
                                 Start Your Application Today
                             </Button>

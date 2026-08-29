@@ -160,7 +160,7 @@ export function Footer() {
                                 <div className="space-y-3">
                                     <div>
                                         <span className="block text-xs text-slate-500 uppercase tracking-widest font-bold mb-0.5">WhatsApp / Call</span>
-                                        <a href="tel:03044296295" className="text-base font-extrabold text-slate-900 hover:text-emerald-700 transition-colors font-mono tracking-tight">0304-4296295</a>
+                                        <a href="tel:03288155866" className="text-base font-extrabold text-slate-900 hover:text-emerald-700 transition-colors font-mono tracking-tight">0328-8155866</a>
                                     </div>
                                     <div>
                                         <span className="block text-xs text-slate-500 uppercase tracking-widest font-bold mb-0.5">Email Support</span>

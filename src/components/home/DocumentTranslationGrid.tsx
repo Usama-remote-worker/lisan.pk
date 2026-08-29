@@ -109,7 +109,7 @@ export function DocumentTranslationGrid() {
                         <Link 
                             href={service.hasPage 
                                 ? `/services/translation/${service.slug}` 
-                                : `https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20${encodeURIComponent(service.title)}%20translation%20services.`} 
+                                : `https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20${encodeURIComponent(service.title)}%20translation%20services.`} 
                             key={service.title} 
                             className="group block h-full"
                             {...(!service.hasPage ? { target: "_blank" } : {})}

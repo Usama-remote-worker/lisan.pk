@@ -143,9 +143,9 @@ Same day Arabic translation Pakistan is the right solution when your Saudi appli
 The key is choosing a service that is both quick and reliable. For urgent Saudi documents, that means certified formatting, accurate Arabic translation, and on-time delivery. If your deadline is close, send your documents early and make sure the translation team understands the urgency.
 
 **Need urgent translation assistance?**
-Chat with an expert on our website or send us a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)**.
+Chat with an expert on our website or send us a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)**.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

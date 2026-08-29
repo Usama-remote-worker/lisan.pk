@@ -143,7 +143,7 @@ When compiling your civil evidence packet for NVC or USCIS submission, ensure th
 Do not risk your immigration timeline or financial investment with generic translations or unverified credentials. Partner with our specialist team to secure an authoritative, compliant translation of your Arabic records.
 
 **Business Hours:** Monday – Saturday: 9:00 AM to 6:00 PM (PKT)  
-📞 **Direct WhatsApp / Call Support:** +92 304 4296295
+📞 **Direct WhatsApp / Call Support:** +92 328 8155866
 
 Connect with us via WhatsApp right now to request your instant quote and secure a flawless submission to USCIS!
 

@@ -55,7 +55,7 @@ When you are stressed about tight deadlines, it might be tempting to drop your c
 
 Pre-departure data from regional [Migration Resource Centres (MRCs)](https://www.mrc.org.pk/) indicates that over 64% of prospective emigrants face administrative hurdles and document processing errors during compliance checks. A huge portion of those rejections comes down to poor, unverified paperwork translation.
 
-👉 **[Avoid Visa Delays: Let Our MA-Qualified Experts Handle Your Documents](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation)**
+👉 **[Avoid Visa Delays: Let Our MA-Qualified Experts Handle Your Documents](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20Arabic%20translation)**
 
 ### The Threat of Layout and Right-to-Left (RTL) Formatting Issues
 Because Arabic reads from right to left, automated tools regularly break document formatting. They misalign official seals, flip critical registration dates, or misinterpret specific legal phrasing. If the English spelling of your name on the translated page deviates even slightly from your passport copy, your file is rejected. Government offices do not accept digital "guesses"—they require authorized human signatures and physical stamps.
@@ -86,9 +86,9 @@ Whether you have a single NADRA birth certificate that needs an urgent quick tur
 **Let's Review Your Paperwork Right Now:**
 Click the button below to message our live helpline or make a direct call. Share a clean scan or photo of your documents via WhatsApp, and our desk will instantly verify your requirements and provide an upfront quotation.
 
-👉 **[Click Here to Message Us on WhatsApp](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20a%20quote%20for%20document%20translation)**
+👉 **[Click Here to Message Us on WhatsApp](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20a%20quote%20for%20document%20translation)**
 
-📞 **Call Our Team Directly:** 03044296295
+📞 **Call Our Team Directly:** 03288155866
 
 ---
 *Written by the customer compliance desk at Lisan.pk. Grounded in a 40-year legacy of elite translation services and legal documentation support, our team helps Pakistani professionals, students, and families navigate international embassy and MOFA validation steps successfully.*

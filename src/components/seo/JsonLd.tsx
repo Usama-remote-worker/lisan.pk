@@ -15,7 +15,7 @@ export function generateLocalBusinessSchema(city: string, description: string, u
         "name": `Lisan.pk Arabic Translation & Legalization - ${city}`,
         "description": description,
         "url": url,
-        "telephone": "+923044296295",
+        "telephone": "+923288155866",
         "priceRange": "$$",
         "image": "https://www.lisan.pk/logo.png",
         "address": {
@@ -53,7 +53,7 @@ export function generateServiceSchema(city: string, service: string) {
             "@type": "LocalBusiness",
             "name": "Lisan.pk",
             "url": "https://www.lisan.pk",
-            "telephone": "+923044296295",
+            "telephone": "+923288155866",
             "image": "https://www.lisan.pk/logo.png",
             "priceRange": "$$",
             "address": {

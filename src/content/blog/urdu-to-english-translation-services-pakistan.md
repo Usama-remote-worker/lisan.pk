@@ -21,7 +21,7 @@ faqs:
 ---
 
 <div class="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm" className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need Certified Urdu to English Translation? — <a href="https://wa.me/923044296295" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Lisan.pk: 0304-4296295</a>
+  Need Certified Urdu to English Translation? — <a href="https://wa.me/923288155866" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Lisan.pk: 0328-8155866</a>
 </div>
 
 Urdu to English translation is one of the most requested document services in Pakistan because thousands of people apply every year for visas, immigration, scholarships, university admissions, overseas jobs, and embassy processing.
@@ -232,7 +232,7 @@ We provide:
 ### WhatsApp Document Submission
 You do not need to visit an office. You can submit clear photos or scans of your Urdu documents directly online via WhatsApp for instant review and processing.
 
-👉 **[Chat on WhatsApp with Translation Experts](https://wa.me/923044296295)**
+👉 **[Chat on WhatsApp with Translation Experts](https://wa.me/923288155866)**
 
 ### Nationwide Courier Delivery Across Pakistan
 We support clients across all cities with door-to-door physical document delivery, including:

@@ -12,9 +12,9 @@ tags: ["Certified Translation", "Visa Documents", "Immigration Translation", "Ar
 <div id="cta-top" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">⚡ Speak with an Embassy-Accepted Translation Expert</h3>
     <p className="text-emerald-800/70 mb-1">Need express processing? Contact Lisan.pk now for guaranteed same-day certified translation.</p>
-    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Us Directly: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20for%20my%20visa%20and%20immigration%20documents." className="underline">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📞 Call or WhatsApp Us Directly: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20for%20my%20visa%20and%20immigration%20documents." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20for%20my%20visa%20and%20immigration%20documents." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp for Same-Day Translation</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20for%20my%20visa%20and%20immigration%20documents." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">WhatsApp for Same-Day Translation</a>
         <a href="/services/translation" className="text-emerald-700 hover:text-emerald-800 font-bold underline">View All Translation Services</a>
     </div>
     <div className="mt-4 flex items-center justify-center gap-2 text-emerald-600 font-bold text-sm">
@@ -70,10 +70,10 @@ The following comprehensive matrix displays the direct capabilities, processing 
 <div id="cta-middle" className="bg-emerald-600 p-8 rounded-3xl text-center text-white my-12 shadow-xl">
     <h3 className="text-3xl font-extrabold mb-2">🚀 Order Your Certified Translation Package</h3>
     <p className="text-emerald-100 mb-2">Click to share your documents securely and get a breakdown of our certified packages.</p>
-    <p className="text-emerald-200 font-bold mb-6">📞 Instant Support via Call or WhatsApp: <span className="text-white">03044296295</span></p>
+    <p className="text-emerald-200 font-bold mb-6">📞 Instant Support via Call or WhatsApp: <span className="text-white">03288155866</span></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20order%20a%20certified%20translation%20package%20for%20my%20visa%20documents." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp for a Free Quote</a>
-        <a href="tel:+923044296295" className="inline-block border-2 border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">Call Directly</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20order%20a%20certified%20translation%20package%20for%20my%20visa%20documents." className="inline-block bg-white hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-md">WhatsApp for a Free Quote</a>
+        <a href="tel:+923288155866" className="inline-block border-2 border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">Call Directly</a>
     </div>
 </div>
 
@@ -144,9 +144,9 @@ Prepare your files early and ensure your paperwork meets every official standard
 <div id="cta-footer" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">🔥 Submit Your Documents to Lisan.pk Now</h3>
     <p className="text-emerald-800/70 mb-2">Join over 5,000+ applicants across Pakistan who successfully secured their visas using Lisan.pk.</p>
-    <p className="text-emerald-700 font-bold mb-6">📲 24/7 Professional Help Desk: <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20documents%20for%20certified%20translation." className="underline">03044296295</a></p>
+    <p className="text-emerald-700 font-bold mb-6">📲 24/7 Professional Help Desk: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20documents%20for%20certified%20translation." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20visa%20documents%20for%20certified%20translation." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Submit Documents via WhatsApp</a>
+        <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20visa%20documents%20for%20certified%20translation." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Submit Documents via WhatsApp</a>
         <a href="https://forms.gle/FnBnLrbdCQXsyjVS6" className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">Upload via Online Form</a>
     </div>
 </div>

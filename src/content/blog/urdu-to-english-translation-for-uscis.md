@@ -128,7 +128,7 @@ When assembling your civil evidence folder for NVC or USCIS adjudication, cross-
 Do not risk your immigration timeline with automated translations or uncertified files. Let our expert team manage your Urdu to English USCIS document translations with total precision.
 
 **Business Hours:** Monday – Saturday: 9:00 AM to 6:00 PM (PKT)  
-📞 **Direct WhatsApp / Call Support:** +92 304 4296295
+📞 **Direct WhatsApp / Call Support:** +92 328 8155866
 
 Connect with us via WhatsApp right now to request your instant quote and secure a flawless step toward your life in the United States!
 

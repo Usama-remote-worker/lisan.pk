@@ -22,7 +22,7 @@ howTo:
   name: "Official Translation Process in Pakistan"
   step:
     - name: "Submit documents"
-      text: "Send your scanned documents or clear photographs via WhatsApp (+92-304-4296295) for a quick professional review and quote."
+      text: "Send your scanned documents or clear photographs via WhatsApp (+92-328-8155866) for a quick professional review and quote."
     - name: "Professional translation"
       text: "Our expert native-level translators carefully convert your document, maintaining exact formatting and precise terminology."
     - name: "Certification & review"
@@ -32,7 +32,7 @@ howTo:
 ---
 
 <div class="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm" className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need Certified Translation Fast? — <a href="https://wa.me/923044296295" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Now: 0304-4296295</a>
+  Need Certified Translation Fast? — <a href="https://wa.me/923288155866" class="underline hover:text-emerald-100" className="underline hover:text-emerald-100">WhatsApp Now: 0328-8155866</a>
 </div>
 
 Finding reliable translation services in Pakistan is harder than most people expect. 
@@ -301,9 +301,9 @@ Our goal is not just translation. We help applicants and businesses submit docum
 Get your documents reviewed and translated by the leading industry specialists.
 
 ### WhatsApp Support
-👉 **[Chat on WhatsApp](https://wa.me/923044296295)**
+👉 **[Chat on WhatsApp](https://wa.me/923288155866)**
 
-📞 **Call Support:** `03044296295` (Speak directly with an expert translator)
+📞 **Call Support:** `03288155866` (Speak directly with an expert translator)
 
 🌐 **Visit Our Portal:** [Lisan.pk](https://lisan.pk)
 
@@ -353,7 +353,7 @@ Whether you need:
 
 Our team is ready to help you succeed.
 
-👉 **[Contact Lisan.pk on WhatsApp](https://wa.me/923044296295)**
+👉 **[Contact Lisan.pk on WhatsApp](https://wa.me/923288155866)**
 
 ---
 

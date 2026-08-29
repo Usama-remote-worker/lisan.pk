@@ -59,7 +59,7 @@ If your translator treats this like an ordinary document to be typed up in Word,
 > [!TIP]
 > **What I tell every student**: Your transcript translation must look, at a glance, like the Arabic twin of the original. If the layout is different, trust is gone.
 
-[Send me a photo of your transcript. I’ll tell you what needs to be done →](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20a%20review%20of%20my%20transcript%20translation%20requirements.)
+[Send me a photo of your transcript. I’ll tell you what needs to be done →](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20a%20review%20of%20my%20transcript%20translation%20requirements.)
 
 ---
 
@@ -119,7 +119,7 @@ Speed is necessary. Deadlines are real. But speed cannot come at the cost of acc
 
 The result: a 6-page bachelor’s transcript can be delivered in 24 hours. We don’t skip steps. We compress time through process, not shortcuts.
 
-[My deadline is extremely close. Can you do it? Let’s talk →](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20have%20an%20urgent%20transcript%20translation%20deadline.)
+[My deadline is extremely close. Can you do it? Let’s talk →](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20have%20an%20urgent%20transcript%20translation%20deadline.)
 
 ---
 
@@ -145,4 +145,4 @@ That’s the kind of **transcript translation for Saudi scholarship applications
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

@@ -208,7 +208,7 @@ export default function UKVICertifiedTranslationPage() {
                 Upload Your Document
                 <ChevronRight className="w-5 h-5" />
               </Link>
-              <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20UKVI%20certified%20translation." target="_blank"
+              <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20UKVI%20certified%20translation." target="_blank"
                 className="inline-flex items-center justify-center gap-2 border border-white/20 text-white hover:bg-white hover:text-blue-950 font-bold px-10 py-4 rounded-full text-base transition-all duration-300">
                 WhatsApp Us
               </Link>
@@ -589,7 +589,7 @@ export default function UKVICertifiedTranslationPage() {
               Upload Document
               <ChevronRight className="w-5 h-5" />
             </Link>
-            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20UKVI%20certified%20translation." target="_blank"
+            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20UKVI%20certified%20translation." target="_blank"
               className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-10 py-4 rounded-full text-base transition-all duration-300">
               WhatsApp Chat
             </Link>

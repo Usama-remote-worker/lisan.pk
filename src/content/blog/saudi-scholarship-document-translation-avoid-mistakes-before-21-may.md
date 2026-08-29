@@ -27,11 +27,11 @@ howTo:
     - name: "Review Spellings & Passport Alignment"
       text: "Verify that your name, date of birth, and credentials on your transcripts exactly match your passport spelling and spacing."
     - name: "Order Certified Arabic Translation"
-      text: "Send your PDF files to Lisan.pk via WhatsApp (+92-304-4296295) for rapid, certified Arabic translation featuring official seals and stamps required by Saudi portals."
+      text: "Send your PDF files to Lisan.pk via WhatsApp (+92-328-8155866) for rapid, certified Arabic translation featuring official seals and stamps required by Saudi portals."
 ---
 
 <div class="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  🚨 Only 9 Days Left Before May 21 Deadline! Get Saudi-Approved Translation in 24 Hours — <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20urgent%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20documents%20before%20the%2021%20May%20deadline." class="underline hover:text-white">WhatsApp Now</a>
+  🚨 Only 9 Days Left Before May 21 Deadline! Get Saudi-Approved Translation in 24 Hours — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20documents%20before%20the%2021%20May%20deadline." class="underline hover:text-white">WhatsApp Now</a>
 </div>
 
 Saudi scholarship deadlines are approaching fast, and many students are discovering too late that document translation is not something they can leave for the final days. With **only 9 days remaining** before the 21 May deadline, even a small mistake in academic documents can delay or weaken your application.
@@ -245,7 +245,7 @@ With Saudi scholarship deadlines closing on **21 May**, now is the time to revie
 
 Our dedicated student support team is online to assist you with urgent translations, document formatting reviews, and Saudi portal requirements.
 
-*   **WhatsApp Helpline:** [**0304-4296295**](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Saudi%20scholarship%20and%20need%20urgent%20help%20translating%20my%20documents%20before%20the%2021%20May%20deadline.)
+*   **WhatsApp Helpline:** [**0328-8155866**](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Saudi%20scholarship%20and%20need%20urgent%20help%20translating%20my%20documents%20before%20the%2021%20May%20deadline.)
 *   **Get a Fast Online Quote:** Submit your document checklist via our **[Contact Form](/contact)**.
 
 ---

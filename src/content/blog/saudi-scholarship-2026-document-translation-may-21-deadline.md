@@ -18,7 +18,7 @@ howTo:
       - name: "Scan Your Documents"
         text: "Take clear, high-resolution photos or scans of your degrees and transcripts."
       - name: "Send via WhatsApp"
-        text: "Message our experts at 0304-4296295 for an instant quote."
+        text: "Message our experts at 0328-8155866 for an instant quote."
       - name: "Receive Your Translation"
         text: "Get your certified files via email/WhatsApp within 24 hours, with optional doorstep delivery for hard copies."
 ---
@@ -83,7 +83,7 @@ Need to handle further verifications? Read our guide on [how to get embassy and 
 Getting your Saudi scholarship 2026 document translation is easier than you think:
 
 1. **Scan Your Documents**: Take clear, high-resolution photos or scans of your degrees and transcripts.
-2. **Send via WhatsApp**: Message our experts at 0304-4296295 for an instant quote.
+2. **Send via WhatsApp**: Message our experts at 0328-8155866 for an instant quote.
 3. **Receive Your Translation**: Get your certified files via email/WhatsApp within 24 hours, with optional doorstep delivery for hard copies.
 
 ---
@@ -114,5 +114,5 @@ The deadline for many major programs is May 21st, 2026. You should have your tra
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
 

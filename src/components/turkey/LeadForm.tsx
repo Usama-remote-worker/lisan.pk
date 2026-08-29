@@ -48,7 +48,7 @@ export function LeadForm({ defaultUniversity = "" }: LeadFormProps) {
 
 Please let me know my eligibility and scholarship tier!`
 
-        const whatsappUrl = `https://wa.me/923044296295?text=${encodeURIComponent(message)}`
+        const whatsappUrl = `https://wa.me/923288155866?text=${encodeURIComponent(message)}`
 
         setTimeout(() => {
             setLoading(false)
@@ -70,7 +70,7 @@ Please let me know my eligibility and scholarship tier!`
                 <div className="pt-4 space-y-3">
                     <p className="text-xs text-emerald-600/80">If WhatsApp did not open automatically, click the button below:</p>
                     <a 
-                        href={`https://wa.me/923044296295?text=${encodeURIComponent(
+                        href={`https://wa.me/923288155866?text=${encodeURIComponent(
                             `Hi Lisan.pk, my name is ${name}. I just filled the Turkey Admission Assessment form and want to follow up.`
                         )}`}
                         target="_blank"
@@ -118,7 +118,7 @@ Please let me know my eligibility and scholarship tier!`
                         <Input 
                             id="phone"
                             type="tel" 
-                            placeholder="e.g., 03044296295" 
+                            placeholder="e.g., 03288155866" 
                             required 
                             value={phone}
                             onChange={(e) => setPhone(e.target.value)}

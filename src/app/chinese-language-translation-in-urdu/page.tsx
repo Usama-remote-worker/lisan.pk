@@ -28,14 +28,14 @@ export default function ChineseTranslationPage() {
                         </p>
                         
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20Chinese%20translation%20services." target="_blank" className="w-full sm:w-auto">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20Chinese%20translation%20services." target="_blank" className="w-full sm:w-auto">
                                 <Button className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white h-14 px-8 text-base font-bold shadow-lg shadow-[#25D366]/20 transition-all rounded-xl">
                                     Chat on WhatsApp
                                 </Button>
                             </Link>
-                            <Link href="tel:+923044296295" className="w-full sm:w-auto">
+                            <Link href="tel:+923288155866" className="w-full sm:w-auto">
                                 <Button variant="outline" className="w-full border-emerald-700 hover:bg-emerald-800 text-white bg-transparent h-14 px-8 text-base font-bold rounded-xl transition-all">
-                                    Call Support: 0304 4296295
+                                    Call Support: 0328 8155866
                                 </Button>
                             </Link>
                         </div>
@@ -68,7 +68,7 @@ export default function ChineseTranslationPage() {
                         <div className="bg-emerald-900 text-white p-10 rounded-[2.5rem] text-center shadow-xl">
                             <h3 className="text-2xl font-bold mb-4">Partner With Expert Linguists</h3>
                             <p className="text-emerald-100 mb-8">Send your documents via WhatsApp to receive an exact cost and timeline for your Chinese translation project.</p>
-                            <Link href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20Chinese%20translation%20services." target="_blank">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20Chinese%20translation%20services." target="_blank">
                                 <Button className="bg-[#25D366] hover:bg-[#20bd5a] text-white h-14 px-10 text-base font-bold shadow-lg transition-all rounded-xl">
                                     Send Docs via WhatsApp
                                 </Button>

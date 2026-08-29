@@ -58,7 +58,7 @@ Our global multi-linguistic framework covers all major personal, legal, and comm
 Getting your papers officially certified does not have to be a confusing, multi-week ordeal. We have engineered a completely frictionless, 3-step digital and physical workflow to get your documents processed with maximum speed:
 
 ### 1. Upload Your Scans Securely (Takes < 2 minutes)
-Take a clear photo or create a clean PDF scan of your documents. Share them with us directly via our encrypted online portal or through our dedicated [WhatsApp support line at +923044296295](https://wa.me/923044296295).
+Take a clear photo or create a clean PDF scan of your documents. Share them with us directly via our encrypted online portal or through our dedicated [WhatsApp support line at +923288155866](https://wa.me/923288155866).
 
 ### 2. Expert Human Translation & Review (24 to 48 hours)
 Our certified, native Spanish legal translators carefully translate your files. Every seal, signature, and text block is converted into a structurally matched layout, followed by a strict internal quality assurance check.

@@ -27,7 +27,7 @@ If any of your supporting documents are not in English, USCIS requires a complet
 This guide explains everything you need to know about USCIS certified translations, including legal requirements, common mistakes, costs, turnaround times, and how to choose a reliable provider.
 
 <div class="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need USCIS Certified Translation Fast? — <a href="https://wa.me/923044296295" class="underline hover:text-emerald-100">WhatsApp Now: 0304-4296295</a>
+  Need USCIS Certified Translation Fast? — <a href="https://wa.me/923288155866" class="underline hover:text-emerald-100">WhatsApp Now: 0328-8155866</a>
 </div>
 
 ## What Are USCIS Certified Translation Services?
@@ -201,7 +201,7 @@ At Lisan.pk, we provide:
 Whether you need translation of a birth certificate, marriage certificate, diploma, transcript, affidavit, or legal document, our team helps ensure your submission meets USCIS requirements.
 
 ### Request a Free Quote
-📞 **Call or WhatsApp:** [+92 304 4296295](https://wa.me/923044296295)
+📞 **Call or WhatsApp:** [+92 328 8155866](https://wa.me/923288155866)
 
 Get a fast response and receive guidance on your USCIS translation requirements.
 
@@ -234,7 +234,7 @@ A complete, accurate, and properly certified translation helps prevent delays, a
 
 If you're preparing immigration documents and need reliable USCIS-compliant translations, contact Lisan.pk today.
 
-📞 **Call or WhatsApp:** [+92 304 4296295](https://wa.me/923044296295)
+📞 **Call or WhatsApp:** [+92 328 8155866](https://wa.me/923288155866)
 
 Get a free quote and ensure your documents are ready for submission.
 

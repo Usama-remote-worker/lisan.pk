@@ -126,7 +126,7 @@ If you are gathering your civil evidence packet for NVC or USCIS submission, ens
 Don't let minor spelling discrepancies or missing translator credentials derail your relocation plans to the United States. Trust our experienced team to handle your USCIS document translations with absolute precision.
 
 **Business Hours:** Monday – Saturday: 9:00 AM to 6:00 PM (PKT)  
-📞 **Direct Call / WhatsApp:** +92 304 4296295
+📞 **Direct Call / WhatsApp:** +92 328 8155866
 
 Connect with us via WhatsApp right now to request your instant quote and secure a flawless submission!
 

@@ -26,7 +26,7 @@ howTo:
 ---
 
 <div className="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Deadline Approaching? <a href="https://wa.me/923044296295" className="underline hover:text-white">Send Documents on WhatsApp Now</a>
+  Deadline Approaching? <a href="https://wa.me/923288155866" className="underline hover:text-white">Send Documents on WhatsApp Now</a>
 </div>
 
 When a scholarship deadline is close, translation stops being a routine task. It becomes a race against time.
@@ -197,9 +197,9 @@ Scholarship deadline document translation services in Pakistan are not about gen
 For applicants who need Arabic translation, Lisan.pk provides direct expert contact, WhatsApp submission, and urgent handling built around scholarship deadlines.
 
 **Secure Your Scholarship Application Today!**
-Don't risk missing your deadline. Send a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to start your fast-track document translation now.
+Don't risk missing your deadline. Send a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to start your fast-track document translation now.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

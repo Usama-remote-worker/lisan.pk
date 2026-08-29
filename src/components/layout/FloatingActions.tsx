@@ -23,7 +23,7 @@ export function FloatingActions() {
             {/* Desktop Floating Button */}
             <div className="fixed bottom-8 right-8 z-50 hidden md:flex flex-col gap-4">
                 <a
-                    href={`https://wa.me/923044296295?text=${isScholarshipPage ? "Hi Lisan.pk, I need help with my Saudi Scholarship document translation." : "Hi Lisan.pk, I visited your website and I am interested in your translation services."}`}
+                    href={`https://wa.me/923288155866?text=${isScholarshipPage ? "Hi Lisan.pk, I need help with my Saudi Scholarship document translation." : "Hi Lisan.pk, I visited your website and I am interested in your translation services."}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     id="gtm-wa-float-desktop"
@@ -40,7 +40,7 @@ export function FloatingActions() {
             {/* Mobile Sticky Bar */}
             <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white/95 border-t border-slate-100 p-3 shadow-[0_-10px_30px_rgba(0,0,0,0.08)] backdrop-blur-md font-sans">
                 <div className="flex gap-3 max-w-md mx-auto">
-                    <Link href="https://wa.me/923044296295" className="flex-1">
+                    <Link href="https://wa.me/923288155866" className="flex-1">
                         <button 
                             id="gtm-wa-float-mobile"
                             className="w-full h-12 bg-[#25D366] text-white rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-sm shadow-lg shadow-emerald-500/20"

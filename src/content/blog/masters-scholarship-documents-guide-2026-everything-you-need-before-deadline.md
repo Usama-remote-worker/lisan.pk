@@ -29,11 +29,11 @@ howTo:
     - name: "Format Research and Supporting Papers"
       text: "Check that your Research Proposal, SOP, CV, and letters of recommendation use standardized academic layouts and consistent spelling."
     - name: "Obtain Certified Arabic Translations"
-      text: "Upload your PDFs to Lisan.pk via WhatsApp (+92-304-4296295) to receive fully stamped, certified Arabic translation folders in 24 hours."
+      text: "Upload your PDFs to Lisan.pk via WhatsApp (+92-328-8155866) to receive fully stamped, certified Arabic translation folders in 24 hours."
 ---
 
 <div class="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  🚨 Masters Priority Alert: Only 9 Days Remaining Before May 21! Secure Certified Arabic Translation in 24 Hours — <a href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Master's%20scholarship%20and%20need%20urgent%20Arabic%20translation%20for%20my%20degree,%20transcripts,%20and%20research%20documents." class="underline hover:text-white">WhatsApp Now</a>
+  🚨 Masters Priority Alert: Only 9 Days Remaining Before May 21! Secure Certified Arabic Translation in 24 Hours — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Master's%20scholarship%20and%20need%20urgent%20Arabic%20translation%20for%20my%20degree,%20transcripts,%20and%20research%20documents." class="underline hover:text-white">WhatsApp Now</a>
 </div>
 
 Many students applying for master’s scholarships spend months preparing research proposals, improving academic profiles, and writing statements of purpose. But close to the deadline, document preparation becomes one of the biggest challenges.
@@ -215,7 +215,7 @@ With Saudi scholarship deadlines closing on **21 May**, students should now focu
 
 Our specialized graduate support team is online to assist you with same-day translations, technical research term checks, and portal-ready PDF sequencing.
 
-*   **WhatsApp Helpline:** [**0304-4296295**](https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20urgent%20academic%20translation%20for%20my%20Masters%20scholarship%20documents%20before%20the%2021%20May%20deadline.)
+*   **WhatsApp Helpline:** [**0328-8155866**](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20academic%20translation%20for%20my%20Masters%20scholarship%20documents%20before%20the%2021%20May%20deadline.)
 *   **Get a Quick Free Quote:** Submit your files to our **[Contact Form](/contact)** for an [urgent online translation assistance](/contact) review.
 
 ---

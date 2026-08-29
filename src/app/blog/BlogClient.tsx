@@ -165,7 +165,7 @@ export function BlogClient({ posts }: { posts: Post[] }) {
                             24/7 support for urgent translation & attestation requests.
                         </p>
                         <a
-                            href="https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20urgent%20translation%20help."
+                            href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20translation%20help."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-xs font-bold bg-white text-emerald-900 px-4 py-2 rounded-lg hover:bg-emerald-50 transition-colors inline-block w-full text-center"

@@ -409,12 +409,12 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                             <div className="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 border-t-4 border-t-emerald-600 sticky top-24">
                                 <h3 className="font-bold text-slate-900 mb-6 text-xl font-serif">Order Professional Translation</h3>
                                 <div className="space-y-4">
-                                    <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20${data.title}%20translation%20services.`} target="_blank" className="block w-full">
+                                    <Link href={`https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20${data.title}%20translation%20services.`} target="_blank" className="block w-full">
                                         <Button className="w-full bg-[#25D366] hover:bg-[#128C7E] h-14 text-lg font-bold text-white">
                                             WhatsApp Now
                                         </Button>
                                     </Link>
-                                    <Link href="tel:+923044296295" className="block w-full">
+                                    <Link href="tel:+923288155866" className="block w-full">
                                         <Button variant="outline" className="w-full h-14 text-lg border-slate-200 font-bold">
                                             Direct Call
                                         </Button>

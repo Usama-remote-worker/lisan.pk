@@ -178,7 +178,7 @@ By choosing a professional translation provider, applicants can submit their doc
 
 Need a certified Urdu to English Fard translation?
 
-📞 **Call / WhatsApp: [0304-4296295](https://wa.me/923044296295)**  
+📞 **Call / WhatsApp: [0328-8155866](https://wa.me/923288155866)**  
 🌐 **Visit [Lisan.pk](/)**
 
 Get a fast quote for immigration, embassy, legal, and international document submissions.

@@ -26,7 +26,7 @@ howTo:
 ---
 
 <div className="bg-emerald-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Need Urgent Degree Translation? — <a href="https://wa.me/923044296295" className="underline hover:text-emerald-100">WhatsApp Now: 0304-4296295</a>
+  Need Urgent Degree Translation? — <a href="https://wa.me/923288155866" className="underline hover:text-emerald-100">WhatsApp Now: 0328-8155866</a>
 </div>
 
 When your deadline is close, degree translation is not something you can leave to a random freelancer or a low-quality machine translation tool. A degree is an official academic document, and if the Arabic version is wrong, the whole application can lose credibility.
@@ -196,9 +196,9 @@ Urgent degree translation Arabic Pakistan is not about producing text quickly. I
 For applicants who need Arabic translation for embassy use, Lisan.pk can position itself as the practical option: talk to an expert first, send documents on WhatsApp, and get the files handled properly instead of gambling on generic translation.
 
 **Talk to an Expert Today!**
-Need to translate your documents fast? Call us directly or send a message on **WhatsApp at [0304-4296295](https://wa.me/923044296295)** to get started immediately.
+Need to translate your documents fast? Call us directly or send a message on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** to get started immediately.
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).

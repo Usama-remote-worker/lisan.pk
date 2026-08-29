@@ -117,11 +117,11 @@ Don’t let language barriers stop your dream of studying in Saudi Arabia. Wheth
 Call or WhatsApp now to get a free price quote for your document list. Mention this blog post for a 5% student discount. For complete end-to-end assistance, check out our [professional help with your Saudi scholarship](/consultancy/saudi-scholarship).
 
 ### **Need Fast Translation?**
-If you are racing against a deadline, don't wait. **For urgent translation, [text us at 03044296295](/contact)** or send your documents via WhatsApp. We are available 24/7.
+If you are racing against a deadline, don't wait. **For urgent translation, [text us at 03288155866](/contact)** or send your documents via WhatsApp. We are available 24/7.
 
 [View full contact details here →](/contact)
 
 ---
 
 ### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-304-4296295**](https://wa.me/923044296295).
+To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
