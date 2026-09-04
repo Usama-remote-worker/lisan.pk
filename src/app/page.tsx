@@ -9,6 +9,7 @@ import { getSortedPostsData } from "@/lib/blog"
 const DocumentTranslationGrid = dynamic(() => import("@/components/home/DocumentTranslationGrid").then(mod => mod.DocumentTranslationGrid))
 const B2BTravelSection = dynamic(() => import("@/components/home/B2BTravelSection").then(mod => mod.B2BTravelSection))
 const AttestationList = dynamic(() => import("@/components/home/AttestationList").then(mod => mod.AttestationList))
+const SaudiScholarshipPromo = dynamic(() => import("@/components/home/SaudiScholarshipPromo").then(mod => mod.SaudiScholarshipPromo))
 const StudyAbroadPromo = dynamic(() => import("@/components/home/StudyAbroadPromo").then(mod => mod.StudyAbroadPromo))
 const TestimonialSection = dynamic(() => import("@/components/home/TestimonialSection").then(mod => mod.TestimonialSection))
 const FaqSection = dynamic(() => import("@/components/home/FaqSection").then(mod => mod.FaqSection))
@@ -92,6 +93,9 @@ export default async function Home() {
       <B2BTravelSection />
       
       <AttestationList />
+
+      {/* Premium Saudi Arabia Fully Funded Scholarship Promo */}
+      <SaudiScholarshipPromo />
 
       {/* Premium Study Abroad Turkey Section */}
       <StudyAbroadPromo />

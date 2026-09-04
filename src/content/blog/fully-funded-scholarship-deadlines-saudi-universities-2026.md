@@ -1,157 +1,126 @@
 ---
-title: "Fully Funded Scholarship Deadlines of Saudi Universities 2026 (Bachelor’s, Master’s & PhD)"
-date: "2026-05-02"
-summary: "Dreaming of a degree from Saudi Arabia? Discover all the fully funded scholarship deadlines for 2026 that are still open, and learn how to prepare your documents correctly."
+title: "Saudi Scholarship / Study in Saudi Application Dates & Deadlines 2026"
+date: "2026-08-30"
+summary: "Official dates, deadlines, and timeline for the Saudi Arabia Fully Funded Scholarship 2026/2027 cycle. Applications open September 16, 2026. Learn the key deadlines and document preparation steps."
 category: "Education"
 author: "Lisan.pk Editorial Team"
 readingTime: "7 min"
 published: true
-tags: ["Saudi Scholarship 2026", "Fully Funded", "Scholarship Deadlines", "Pakistani Students"]
+tags: ["Saudi Scholarship 2026", "Study in Saudi", "Scholarship Deadlines", "Pakistani Students", "Document Translation"]
 faqs:
-  - q: "Can Pakistani students apply for fully funded Bachelor’s scholarships in Saudi Arabia?"
-    a: "Yes. Universities like the Islamic University of Madinah and unified government programs offer fully funded Bachelor’s seats. Deadlines in 2026 are open through July for some."
-  - q: "I have my documents in Urdu. Will the Saudi university accept them as is?"
-    a: "No. All documents must be in Arabic or English and accompanied by a certified translation. Otherwise, your application is marked incomplete."
-  - q: "How long does it take to get a certified Urdu-to-English translation?"
-    a: "Typically 2–4 working days, with express options available."
-  - q: "Are these Saudi scholarship deadlines fixed or do they change?"
-    a: "The dates shared here are based on official patterns from the last 3 years. They rarely shift by more than a few days. Always verify on the university portal, but these are the planning dates you need."
-  - q: "Do I need IELTS for Saudi fully funded scholarships?"
-    a: "It depends. KFUPM often requires TOEFL/IELTS for graduate programs. Many universities waive it if your previous degree was taught in English. Check each program carefully."
+  - q: "When do applications open for the Saudi Arabia Fully Funded Scholarship 2026?"
+    a: "Official Study in Saudi portal applications open on September 16, 2026, and close on October 6, 2026 for international applicants."
+  - q: "Can Pakistani students apply for Bachelor's, Master's, and PhD scholarships?"
+    a: "Yes. The unified Study in Saudi portal covers fully funded seats across Bachelor’s, Master’s, and PhD programs for Pakistani applicants."
+  - q: "Are Urdu-issued educational certificates accepted directly on the portal?"
+    a: "No. All documents must be accompanied by certified Arabic translations. Submitting untranslated Urdu certificates will result in application rejection."
+  - q: "How long does document preparation and certified translation take?"
+    a: "Standard translation takes 2–3 business days. It is strongly advised to complete your document review and translation before September 16 to ensure a smooth submission."
+  - q: "Where is the official application portal located?"
+    a: "The single official portal for Saudi government scholarship applications is studyinsaudi.sa (managed by the Saudi Ministry of Education)."
 howTo:
-  name: "Translation Timeline for Saudi Scholarship Applications"
+  name: "Document Preparation Timeline for Saudi Scholarship 2026"
   step:
-    - name: "Gather Documents"
-      text: "3 months before the deadline – Gather all Urdu documents (Matric, FSc, Bachelor’s, B-form)."
-    - name: "Send for Translation"
-      text: "8 weeks before – Send them for certified translation (regular delivery, no rush fee)."
-    - name: "Double-Check"
-      text: "4 weeks before – Double-check names, dates, and stamp quality."
-    - name: "Upload to Portal"
-      text: "2 weeks before – Upload everything to the scholarship portal."
-    - name: "Submit"
-      text: "Submit with confidence – your documentation is now professionally verified."
+    - name: "Document Audit & Translation"
+      text: "August 30 – September 15: Audit all Urdu educational certificates, CNIC/B-form, and obtain certified Arabic translations."
+    - name: "Attestation & Digital Formatting"
+      text: "Before September 16: Ensure HEC/IBCC attestations are complete and scan high-resolution PDFs matching portal file size limits."
+    - name: "Portal Opening & Submission"
+      text: "September 16 – October 6: Log into studyinsaudi.sa, select target universities/programs, upload translated documents, and submit."
 ---
 
-If you’re a Pakistani student dreaming of a degree from Saudi Arabia — without paying a rupee in tuition — you’re in the right place. Saudi universities offer some of the most generous fully funded scholarships in the world, covering tuition, accommodation, monthly stipends, and even airfare. But here’s the catch: deadlines don’t wait.
+*Last verified on **30 August 2026** against official Saudi Ministry of Education guidelines.*
 
-In this guide, you’ll find only the **fully funded scholarship deadlines of Saudi universities in 2026** that are still open — no expired dates, no false hope. Plus, I’ll show you exactly how to get your documents translated from Urdu to English or Arabic the right way, so your application sails through.
+If you are a Pakistani student planning to apply for a fully funded scholarship in Saudi Arabia for the 2026/2027 academic cycle, having accurate date information is critical. Every year, thousands of candidates prepare their documents too late or follow outdated schedule claims found on unofficial blogs.
 
-## Why Saudi Arabia Is a Top Choice for Fully Funded Scholarships Among Pakistani Students
-
-Saudi Arabia isn’t just geographically close. It’s culturally familiar, Halal-food-friendly, and home to universities that are climbing global rankings fast. For Pakistani students, fully funded scholarships in KSA mean:
-
-- **Zero tuition fees** across Bachelor’s, Master’s, and PhD programs
-- **Free furnished accommodation**
-- **Monthly living allowances**
-- **Yearly return airfare**
-- **No IELTS requirement** in several universities (if previous education was in English)
-
-And for 2026, several major Saudi institutions still have upcoming, open deadlines you can target right now. If you're specifically interested in KSU and KAU, check out our [detailed guide on Spring 2027 deadlines](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027).
-
-## Fully Funded Saudi Scholarship Deadlines Still Open in 2026
-
-Below are the confirmed and expected scholarship deadlines for top Saudi universities — all for admission cycles that accept applications in the coming months of 2026. Bookmark these.
-
-### 1. Islamic University of Madinah – Bachelor’s (Deadline: July 2026)
-A dream destination for Pakistani male students pursuing Islamic studies, Shariah, Quran, science, and engineering.
-- **Scholarship opens:** Around January 2026
-- **Final deadline:** Mid-July 2026
-- **Who can apply:** International male students with strong academic records
-- **Key document:** Translated high school certificate (Urdu to Arabic)
-
-### 2. Saudi Ministry of Education Unified Portal (Deadline: June–July 2026)
-The “Study in Saudi Arabia” government portal lists multiple universities under one application window.
-- **Application window:** Often opens May, closes late June or early July 2026
-- **Degrees:** Bachelor’s, Master’s, PhD
-- **Pakistani student priority:** Several seats are reserved for Asian students
-
-### 3. KFUPM – MS & PhD Scholarships (Deadline: September 2026)
-King Fahd University of Petroleum & Minerals (KFUPM) is a STEM powerhouse.
-- **Spring 2027 semester deadline:** Around mid-September 2026
-- **Programs:** Master’s and PhD in engineering, sciences, business
-- **Urdu document need:** Bachelor’s degree + transcripts certified into English/Arabic
-
-### 4. King Saud University (KSU) – Spring 2027 (Deadline: November 2026)
-KSU in Riyadh offers Spring intake scholarships for postgraduates.
-- **Applications open:** September 2026
-- **Submission deadline:** Late November 2026
-- **Translation tip:** If your degree is in Urdu, a sworn, certified translation is a must
-
-### 5. King Abdulaziz University (KAU) – Spring 2027 (Deadline: December 2026)
-KAU in Jeddah offers a large number of international scholarships for the Spring semester.
-- **Undergrad + Postgrad deadline:** Mid-December 2026
-- **Pakistani applicant advantage:** Large existing Pakistani student community
-
-> ✏️ **Quote:** “These deadlines are all ahead of you — not behind. Start your document prep now and you’ll hit submit weeks early.”
-
-## The Document Trap That Gets Pakistani Students Disqualified
-
-Every year, Pakistani applicants fill in the scholarship form, write a great personal statement, and upload their matric, FSc, or bachelor’s documents — only to get a rejection notice saying: “Documents not in Arabic or English.”
-
-Your Urdu-issued certificates are worthless without an official [certified translation](/services/document). Saudi scholarship committees are strict: no certified translation = incomplete application = no scholarship.
-
-### Certified Translation Checklist for Pakistani Applicants
-- **Matric certificate** (Urdu to English/Arabic certified)
-- **Intermediate (FSc/FA) certificate** (Urdu to English/Arabic)
-- **Bachelor’s transcript & degree** (for MS/PhD applicants)
-- **Birth certificate / B-form** (Urdu to English/Arabic)
-- **Marriage certificate** (if name differs across documents)
-
-An official, stamped, signed certified translation carries legal weight. Google Translate screenshots get you disqualified immediately.
-
-## Your Translation Timeline So You Never Miss a Deadline Again
-
-1. **3 months before the deadline:** Gather all Urdu documents.
-2. **8 weeks before:** Send them for [certified translation](/services/document).
-3. **4 weeks before:** Double-check names, dates, stamp quality.
-4. **2 weeks before:** Upload everything to the scholarship portal.
-5. **Submit with confidence:** Your application is now professionally verified.
-
-## FAQ: Saudi Fully Funded Scholarships 2026
-
-**Q: Can Pakistani students apply for fully funded Bachelor’s scholarships in Saudi Arabia?**  
-Yes. Universities like the Islamic University of Madinah and unified government programs offer fully funded Bachelor’s seats. Deadlines in 2026 are open through July for some.
-
-**Q: I have my documents in Urdu. Will the Saudi university accept them as is?**  
-No. All documents must be in Arabic or English and accompanied by a certified translation. Otherwise, your application is marked incomplete.
-
-**Q: How long does it take to get a certified Urdu-to-English translation?**  
-Typically 2–4 working days, with express options available.
-
-**Q: Are these Saudi scholarship deadlines fixed or do they change?**  
-The dates shared here are based on official patterns from the last 3 years. They rarely shift by more than a few days. Always verify on the university portal, but these are the planning dates you need.
-
-**Q: Do I need IELTS for Saudi fully funded scholarships?**  
-It depends. KFUPM often requires TOEFL/IELTS for graduate programs. Many universities waive it if your previous degree was taught in English. Check each program carefully.
-
-## Lock In Your Scholarship – Start Your Certified Translation Today
-
-The fully funded scholarship deadlines of Saudi universities in 2026 are right in front of you. Islamic University of Madinah. KFUPM. KSU. KAU. The government unified program. All still open — and all waiting for your application.
-
-Don’t let an untranslated Urdu document be the reason you don’t get on that plane.
-
-### Get a Free Certified Translation Quote in 60 Seconds
-
-Tell us which documents you need translated (Matric, FSc, Bachelor’s, B-form) and we’ll reply with a fixed price, professional turnaround, and a certification stamp Saudi universities accept without question.
+This guide provides the official application dates, university deadlines, and step-by-step document preparation rules for the **2026 Study in Saudi scholarship cycle**.
 
 ---
 
-### External Resources
-- [Official “Study in Saudi Arabia” Portal](https://studyinsaudi.moe.gov.sa/)
-- [Islamic University of Madinah Admission](https://admission.iu.edu.sa/)
-- [KFUPM Graduate Studies](https://gs.kfupm.edu.sa/)
-- [King Saud University Scholarships](https://dar.ksu.edu.sa/en/Scholarships)
-- [King Abdulaziz University Scholarships](https://scholarships.kau.edu.sa/Default-211-EN)
+## Official 2026 Saudi Scholarship Application Schedule
 
-### Recommended Reading
-- [Why Arabic Translation is Mandatory for Saudi Universities 2026](/blog/why-arabic-translation-mandatory-saudi-universities-2026)
-- [Certified Urdu to English Translation for Scholarships](/services/translation/academic-degree-transcript)
-- [Document Translation Pricing](/pricing)
-- [University Document Translation Service](/services/document)
-- [Contact Us for Fast Translation](/contact)
+According to official Saudi Ministry of Education specifications on the unified **Study in Saudi** portal (`studyinsaudi.sa`), the primary application window for international candidates is structured as follows:
+
+| Milestone | Verified Date | Status |
+| :--- | :--- | :--- |
+| **Document Preparation Window** | Current – 15 September 2026 | **ACTIVE: Prepare & Translate Documents** |
+| **Official Application Start** | **16 September 2026** | Portal Opens |
+| **Official Application Closing** | **6 October 2026** | Portal Closes |
+| **Target Academic Cycle** | 2026 / 2027 Academic Year | Undergraduate & Postgraduate |
+
+> 📌 **Current Status Notice:** Applications for the unified 2026 cycle open on **September 16, 2026**. Students are strongly advised to complete all certified document translations and attestation reviews *before* the portal opens to avoid last-minute submission bottlenecks.
+
+For complete assistance with application packages, visit our [Saudi Scholarship Consultancy & Application Hub](/consultancy/saudi-scholarship).
 
 ---
 
-### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
+## Participating Saudi Universities (Unified Portal & Specific Intakes)
+
+The unified Saudi government scholarship system covers major public universities across the Kingdom, including:
+
+1. **King Saud University (KSU) – Riyadh**  
+   Offers broad undergraduate and postgraduate seats in engineering, computer science, science, and humanities.
+2. **King Abdulaziz University (KAU) – Jeddah**  
+   High-ranked research institution offering fully funded Master's and PhD programs as well as undergraduate seats.
+3. **Islamic University of Madinah (IU) – Madinah**  
+   Dedicated undergraduate and postgraduate seats in Islamic studies, Shariah, engineering, and sciences.
+4. **King Fahd University of Petroleum & Minerals (KFUPM) – Dhahran**  
+   Premier STEM institute with separate graduate application deadlines for specialized research programs.
+
+---
+
+## Crucial Document Translation Requirements for Pakistani Applicants
+
+A primary reason Pakistani applications are rejected or marked "incomplete" by university admission committees is missing or improper Arabic translation.
+
+### Mandatory Documents Requiring Certified Arabic Translation:
+- **Matriculation Certificate & Result Card / Marksheet**
+- **Intermediate (FSc / FA / A-Level) Certificate & Marksheet**
+- **Bachelor’s Degree & Detailed Transcript** (for Master’s / PhD applicants)
+- **Character Certificate / Police Clearance Certificate**
+- **National ID Card (CNIC) or B-Form**
+- **Medical Fitness Certificate**
+
+All translations must be issued by a recognized certified translation company, stamped, signed, and formatted to match official Saudi admission standards.
+
+---
+
+## Action Plan Before September 16
+
+To ensure your application is submitted on day one of the portal opening:
+
+1. **Audit Original Documents:** Ensure spelling of your name, father's name, and date of birth match exactly across your Passport, CNIC, and educational certificates.
+2. **Get Certified Arabic Translations:** Send scanned copies of your original documents to [Lisan.pk Certified Translation Service](/services/translation).
+3. **Verify File Formats:** Scan all original certificates and their Arabic translations into clear, high-resolution PDFs (usually under 2MB per file as required by `studyinsaudi.sa`).
+4. **Shortlist Programs:** Select your preferred universities and degree disciplines in advance.
+
+---
+
+## Frequently Asked Questions
+
+**Q: When do applications open for the Saudi Arabia Fully Funded Scholarship 2026?**  
+Official Study in Saudi portal applications open on **September 16, 2026**, and close on **October 6, 2026** for international applicants.
+
+**Q: Can Pakistani students apply for Bachelor's, Master's, and PhD scholarships?**  
+Yes. The unified Study in Saudi portal covers fully funded seats across Bachelor’s, Master’s, and PhD programs for Pakistani applicants.
+
+**Q: Are Urdu-issued educational certificates accepted directly on the portal?**  
+No. All documents must be accompanied by certified Arabic translations. Submitting untranslated Urdu certificates will result in application rejection.
+
+**Q: How long does document preparation and certified translation take?**  
+Standard translation takes 2–3 business days. It is strongly advised to complete your document review and translation before September 16 to ensure a smooth submission.
+
+**Q: Where is the official application portal located?**  
+The single official portal for Saudi government scholarship applications is [studyinsaudi.sa](https://studyinsaudi.sa) (managed by the Saudi Ministry of Education).
+
+---
+
+### Verified Official Sources
+- [Study in Saudi Official Portal](https://studyinsaudi.sa)
+- [Saudi Ministry of Education](https://moe.gov.sa/)
+
+---
+
+### Need Certified Document Translation or Review?
+To get a quote or review your documents before the September 16 opening, send your files to our team on **WhatsApp at [0328-8155866](https://wa.me/923288155866)** or visit our [Saudi Scholarship Services Hub](/consultancy/saudi-scholarship).
+

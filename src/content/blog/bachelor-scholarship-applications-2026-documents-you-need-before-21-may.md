@@ -1,7 +1,7 @@
 ---
-title: "Bachelor Scholarship Applications 2026: Documents You Need Before 21 May"
-date: "2026-05-12"
-summary: "Are you applying for an undergraduate Saudi scholarship? With only 9 days left before the 21 May deadline, make sure you have all required documents and certified Arabic translations ready to prevent rejection. Here is your ultimate checklist."
+title: "Bachelor Scholarship Applications 2026: Complete Document Requirements Checklist"
+date: "2026-08-30"
+summary: "Are you applying for an undergraduate Saudi scholarship? Learn the exact document checklist, certified Arabic translation rules, and verification steps required before the September 16, 2026 portal opening."
 category: "Translation"
 author: "Lisan.pk Editorial Team"
 readingTime: "6 min"
@@ -10,37 +10,35 @@ image: "/images/blog/bachelor-scholarship-documents-organizing.png"
 tags: ["Bachelor Scholarship", "Undergraduate Scholarship", "Saudi Arabia Admissions", "Arabic Translation", "Matric Inter Certificates"]
 faqs:
   - q: "What documents are required for Saudi bachelor scholarships?"
-    a: "Most applications commonly require transcripts, matric/inter certificates, passport, recommendation letters, photographs, and supporting academic records."
+    a: "Most undergraduate applications require Matriculation (SSC) and Intermediate (HSSC) certificates/marksheets, passport, character certificate, recommendation letters, and certified Arabic translations."
   - q: "Do matric and inter certificates need Arabic translation?"
-    a: "Some universities may request Arabic translations for academic documents during admission or verification stages."
+    a: "Yes. Official Study in Saudi admission portals require certified Arabic translations for all Pakistani secondary and higher secondary certificates."
   - q: "Can I apply using English documents only?"
-    a: "Requirements vary by university and scholarship portal. Students should verify official guidelines carefully."
+    a: "While some portals accept English translations, certified Arabic translation is mandatory for many Saudi public universities. Providing both or certified Arabic is strongly recommended."
   - q: "How long does scholarship document translation take?"
-    a: "Standard timelines are usually 2–3 days, while urgent processing may be available within 24 hours depending on document type."
-  - q: "Can I translate scholarship documents online before 21 May?"
-    a: "Yes. Many students now send and receive scholarship translation documents digitally through online workflows."
+    a: "Standard translation timelines are 2–3 days, with 24-hour express options available for urgent preparation."
   - q: "What causes scholarship application rejection?"
-    a: "Common reasons include incomplete documents, poor formatting, inconsistent names, and inaccurate translation."
+    a: "Common reasons include incomplete documents, uncertified translations, name/date mismatches across passport and certificates, and poor scan quality."
 howTo:
-  name: "How Pakistani Students Can Prepare Saudi Scholarship Documents Before 21 May"
+  name: "How Pakistani Students Prepare Saudi Bachelor Scholarship Documents"
   step:
     - name: "Collect All Educational Certificates"
-      text: "Gather your Matric (SSC) and Intermediate (HSSC) original certificates, marks sheets, and character certificates."
+      text: "Gather your Matric (SSC) and Intermediate (HSSC) original certificates, mark sheets, and character certificates."
     - name: "Verify Identity Credentials"
       text: "Ensure the spelling of your name, family name, and date of birth match exactly across your passport, CNIC, and academic records."
     - name: "Submit for Certified Arabic Translation"
-      text: "Send clear high-resolution scans of your documents to Lisan.pk via WhatsApp (+92-328-8155866) to get same-day or 24-hour certified Arabic translations."
+      text: "Send clear high-resolution scans of your documents to Lisan.pk via WhatsApp (+92-328-8155866) to get certified Arabic translations before the September 16 portal opening."
 ---
 
-<div class="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  🚨 undergraduate Deadline Alert: Only 9 Days Left Before May 21! Secure Certified Arabic Translation in 24 Hours — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Bachelor%20scholarship%20and%20need%20urgent%20Arabic%20translation%20for%20my%20Matric%20and%20Inter%20certificates." class="underline hover:text-white">WhatsApp Now</a>
+<div class="bg-emerald-800 text-white py-3 px-4 text-center text-sm font-bold rounded-lg mb-8 shadow-sm">
+  📌 Saudi Scholarship 2026 Update: Applications open **September 16, 2026**. Prepare & translate your Matric/FSc certificates now — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Bachelor%20scholarship%20and%20need%20certified%20Arabic%20translation%20for%20my%20Matric%20and%20Inter%20certificates." class="underline hover:text-emerald-200">WhatsApp Lisan.pk</a>
 </div>
 
-Many students preparing for Saudi scholarship applications are now facing the same problem: they are unsure which documents are actually required before submission closes.
+Applying for a fully funded Bachelor's (undergraduate) scholarship in Saudi Arabia offers Pakistani students a tuition-free higher education with monthly stipends and housing. However, documentation mistakes remain the primary reason undergraduate applications get rejected or delayed.
 
-With **only 9 days left** before the 21 May deadline, students are rushing to prepare transcripts, recommendation letters, passports, and certificates. But many applicants discover too late that incomplete documentation, missing Arabic translations, or formatting mistakes can delay or even ruin the entire application process.
+With official **Study in Saudi** portal applications opening on **September 16, 2026**, starting your document review and certified Arabic translation early ensures a seamless submission.
 
-This comprehensive guide explains the documents usually required for bachelor (undergraduate) scholarship applications, common mistakes undergraduate students make, and how to prepare your scholarship files correctly before the deadline closes.
+This comprehensive guide breaks down the required documents for Bachelor scholarship applications, common mistakes to avoid, and how to prepare your application package correctly.
 
 ---
 

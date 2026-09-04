@@ -17,7 +17,7 @@ Whether you’re preparing for the [Saudi Government Scholarship](/blog/saudi-ar
 
 ## Why Pakistani Students Urgently Need Arabic Document Translation
 
-Every year, hundreds of Pakistani students secure fully funded scholarships in Saudi Arabia. The [May 21, 2026 deadline](/blog/saudia-scholarship-programs-still-open-2026) for the Saudi Government Scholarship and the Islamic University of Madinah is rapidly approaching. 
+Every year, hundreds of Pakistani students secure fully funded scholarships in Saudi Arabia. The [May 21, 2026 deadline](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026) for the Saudi Government Scholarship and the Islamic University of Madinah is rapidly approaching. 
 
 University admission offices and Saudi embassies are strict: all non-Arabic documents must be translated by a certified translator and often legalized.
 
@@ -69,7 +69,7 @@ Students in [Lahore](/locations/lahore) and [Faisalabad](/locations/faisalabad) 
 [Karachi’s](/locations/karachi) sprawling landscape makes physical document collection a headache. Similarly, [Multan](/locations/multan) students rarely have immediate access to certified Arabic translators. Our express service ensures you meet even the tightest deadlines.
 
 ### Islamabad & Rawalpindi – Trusted by Scholarship Applicants
-[Islamabad](/locations/islamabad) and [Rawalpindi](/locations/rawalpindi) are home to a high concentration of Saudi scholarship aspirants. We’ve handled hundreds of translations for students applying to the [Islamic University of Madinah](/blog/saudia-scholarship-programs-still-open-2026) and King Saud University—both of which are ranked among the [Top 5 Saudi Universities for Pakistani Students](/blog/top-5-best-universities-saudi-arabia-fully-funded-scholarship-2026).
+[Islamabad](/locations/islamabad) and [Rawalpindi](/locations/rawalpindi) are home to a high concentration of Saudi scholarship aspirants. We’ve handled hundreds of translations for students applying to the [Islamic University of Madinah](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026) and King Saud University—both of which are ranked among the [Top 5 Saudi Universities for Pakistani Students](/blog/top-5-best-universities-saudi-arabia-fully-funded-scholarship-2026).
 
 ---
 
@@ -96,8 +96,8 @@ Don't risk your scholarship or visa with amateur translations. Join 50,000+ sati
 ---
 
 ### Related Resources for Saudi Applicants:
-*   [Top-Rated Arabic Translation Services for Students: Best Picks](/blog/top-rated-arabic-translation-services-students-saudi-scholarships)
-*   [Saudia Scholarship Programs Still Open for 2026 (Apply Now)](/blog/saudia-scholarship-programs-still-open-2026)
+*   [Top-Rated Arabic Translation Services for Students: Best Picks](/blog/best-translation-agency-in-pakistan-certified-documents)
+*   [Saudia Scholarship Programs Still Open for 2026 (Apply Now)](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026)
 *   [Saudi Scholarship Document Translation: Ultimate Guide](/blog/saudi-scholarship-document-translation)
 *   [How to Prepare Your Statement of Purpose (SOP) for Saudi Arabia](/blog/saudi-arabia-fully-funded-scholarships-guide-pakistani-students)
 *   [Official MOFA and HEC Attestation Services](/services/attestation)

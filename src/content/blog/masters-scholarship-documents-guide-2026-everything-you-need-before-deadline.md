@@ -1,7 +1,7 @@
 ---
-title: "Masters Scholarship Documents Guide 2026 – Everything You Need Before Deadline"
-date: "2026-05-12"
-summary: "Are you applying for a master's scholarship? With only 9 days left before the 21 May Saudi deadline, preparing complex academic and research files can be daunting. Learn which documents require certified Arabic translation and how to format them."
+title: "Master's Scholarship Documents Guide 2026 – Complete Preparation Checklist"
+date: "2026-08-30"
+summary: "Are you applying for a Master's or PhD scholarship in Saudi Arabia? Learn the complete graduate document checklist, research file formatting, and certified Arabic translation requirements for the 2026 cycle."
 category: "Translation"
 author: "Lisan.pk Editorial Team"
 readingTime: "6 min"
@@ -9,38 +9,36 @@ published: true
 image: "/images/blog/masters-scholarship-student-reviewing.png"
 tags: ["Masters Scholarship", "Graduate Scholarship", "Research Proposal", "SOP", "Arabic Translation", "Bachelor Degree Translation"]
 faqs:
-  - q: "What documents are required for master’s scholarship applications?"
-    a: "Most applications commonly require transcripts, bachelor degrees, SOPs, recommendation letters, passport documents, and supporting academic records."
-  - q: "Do master’s scholarship documents need Arabic translation?"
-    a: "Some Saudi universities may request Arabic translations for academic and supporting documents during admission or verification."
-  - q: "Can recommendation letters and SOPs be translated?"
-    a: "Yes. Many students translate supporting academic documents as part of scholarship preparation."
+  - q: "What documents are required for Master's scholarship applications?"
+    a: "Most graduate applications require Bachelor's degree certificates, semester transcripts, HEC attestations, SOP, recommendation letters, research proposals, passport, and certified Arabic translations."
+  - q: "Do Master’s scholarship documents need Arabic translation?"
+    a: "Yes. Official Study in Saudi portals require certified Arabic translations for degrees, transcripts, and key supporting certificates."
+  - q: "Can recommendation letters and SOPs be submitted in English?"
+    a: "While many graduate portals accept English SOPs and recommendation letters, academic transcripts and degree certificates must have certified Arabic translations."
   - q: "How long does transcript translation take?"
-    a: "Standard processing is usually 2–3 days, while urgent timelines may be available for selected documents."
-  - q: "Can students submit documents online before 21 May?"
-    a: "Yes. Many scholarship applicants now process and receive academic translations digitally."
-  - q: "What causes scholarship application rejection?"
-    a: "Common issues include incomplete documentation, formatting errors, inaccurate translation, and inconsistent names."
+    a: "Standard processing takes 2–3 business days, with 24-hour express options available for urgent preparation."
+  - q: "What causes Master's scholarship application rejection?"
+    a: "Common issues include uncertified translations, inconsistent terminology across degrees and transcripts, unverified HEC stamps, and name mismatches."
 howTo:
-  name: "How Master's Students Can Prepare Saudi Scholarship Documents Before Deadline"
+  name: "How Master's Students Prepare Saudi Scholarship Documents"
   step:
     - name: "Consolidate Bachelor's Academic Records"
       text: "Acquire your official Bachelor's Degree Certificate, Semester-wise Transcripts, and HEC Equivalence Certificates."
     - name: "Format Research and Supporting Papers"
-      text: "Check that your Research Proposal, SOP, CV, and letters of recommendation use standardized academic layouts and consistent spelling."
+      text: "Ensure your Research Proposal, SOP, CV, and recommendation letters use standardized academic layouts and consistent spelling."
     - name: "Obtain Certified Arabic Translations"
-      text: "Upload your PDFs to Lisan.pk via WhatsApp (+92-328-8155866) to receive fully stamped, certified Arabic translation folders in 24 hours."
+      text: "Send clear high-resolution PDFs to Lisan.pk via WhatsApp (+92-328-8155866) to receive certified Arabic translations before the September 16 portal opening."
 ---
 
-<div class="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  🚨 Masters Priority Alert: Only 9 Days Remaining Before May 21! Secure Certified Arabic Translation in 24 Hours — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Master's%20scholarship%20and%20need%20urgent%20Arabic%20translation%20for%20my%20degree,%20transcripts,%20and%20research%20documents." class="underline hover:text-white">WhatsApp Now</a>
+<div class="bg-emerald-800 text-white py-3 px-4 text-center text-sm font-bold rounded-lg mb-8 shadow-sm">
+  📌 Saudi Graduate Scholarship 2026 Update: Applications open **September 16, 2026**. Prepare & translate your Degree, Transcripts & HEC documents now — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Master's%20scholarship%20and%20need%20certified%20Arabic%20translation%20for%20my%20degree%20and%20transcripts." class="underline hover:text-emerald-200">WhatsApp Lisan.pk</a>
 </div>
 
-Many students applying for master’s scholarships spend months preparing research proposals, improving academic profiles, and writing statements of purpose. But close to the deadline, document preparation becomes one of the biggest challenges.
+Applying for a Master's or PhD scholarship in Saudi Arabia allows Pakistani graduates to pursue advanced studies with full financial coverage, stipends, and research facilities. However, graduate admissions demand more specialized document preparation than undergraduate entries.
 
-With **only 9 days left** before the 21 May Saudi scholarship deadline, many applicants are still unsure which documents require Arabic translation, how academic files should be formatted, and what mistakes can create delays or rejections during submission.
+With official **Study in Saudi** portal applications opening on **September 16, 2026**, starting your graduate document preparation early prevents last-minute technical bottlenecks.
 
-This guide explains the complete master’s scholarship document checklist, common translation mistakes, and how students can prepare professional scholarship applications before deadlines close.
+This guide outlines the complete Master's scholarship document checklist, translation guidelines, and document verification rules for Pakistani applicants.
 
 ---
 

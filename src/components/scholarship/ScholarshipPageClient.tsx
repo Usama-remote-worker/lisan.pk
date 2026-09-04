@@ -12,17 +12,85 @@ export default function ScholarshipPageClient() {
     return (
         <main className="min-h-screen bg-white font-sans text-slate-900">
             <JsonLd
-                data={{
-                    "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "Saudi Scholarship Consultancy for Pakistani Students",
-                    "provider": {
-                        "@type": "Organization",
-                        "name": "Lisan.pk"
+                data={[
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Saudi Arabia Scholarship Consultancy & Document Services",
+                        "provider": {
+                            "@type": "Organization",
+                            "name": "Lisan.pk",
+                            "url": "https://www.lisan.pk"
+                        },
+                        "areaServed": "Pakistan",
+                        "description": "Comprehensive consultancy for Saudi Arabia fully funded scholarships for Pakistani students: certified Arabic translation, document verification, Study in Saudi portal support, and university shortlisting.",
+                        "hasOfferCatalog": {
+                            "@type": "OfferCatalog",
+                            "name": "Saudi Scholarship Support Services",
+                            "itemListElement": [
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Saudi Scholarship Document Translation"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Saudi Scholarship Document Review & Verification"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Study in Saudi Portal Guidance"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "University & Program Shortlisting"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Complete Scholarship Application Assistance"
+                                    }
+                                }
+                            ]
+                        }
                     },
-                    "areaServed": "Pakistan",
-                    "description": "Expert consultancy for Saudi scholarship for Pakistani students 2026. Documentation, attestation, and application support."
-                }}
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://www.lisan.pk"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Consultancy",
+                                "item": "https://www.lisan.pk/consultancy/saudi-scholarship"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": "Saudi Scholarship 2026",
+                                "item": "https://www.lisan.pk/consultancy/saudi-scholarship"
+                            }
+                        ]
+                    }
+                ]}
             />
 
             {/* Hero Section */}
@@ -32,18 +100,18 @@ export default function ScholarshipPageClient() {
                     <div className="max-w-4xl mx-auto text-center">
                         <div className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-sm font-semibold text-emerald-800 mb-4 shadow-sm">
                             <span className="flex h-2 w-2 rounded-full bg-emerald-600 mr-2 animate-pulse"></span>
-                            2026–2027 Admissions Now Open
+                            2026 Cycle: Applications Open September 16 — Prepare Documents Now
                         </div>
                         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-7xl mb-6 leading-tight">
-                            Saudi Arabia Scholarship 2026 – <span className="text-emerald-600">Complete Guide</span> for Pakistani Students
+                            Saudi Arabia Scholarship 2026 – <span className="text-emerald-600">Complete Support Guide</span>
                         </h1>
                         <p className="text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-                            Securing a <strong>Saudi scholarship for Pakistani students</strong> is a life-changing opportunity. This comprehensive guide covers everything from eligibility to the final student visa process.
+                            Official Study in Saudi portal applications open <strong>September 16 – October 6, 2026</strong>. Prepare your certified Arabic translations, document reviews, and program shortlists with Lisan.pk.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Saudi%20Scholarship%20consultancy." target="_blank">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20help%20preparing%20my%20documents%20for%20the%20Saudi%20Scholarship%202026." target="_blank">
                                 <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-10 h-16 text-lg shadow-xl">
-                                    Book Free Consultation
+                                    Prepare My Documents Now
                                 </Button>
                             </Link>
                             <Link href="/services">
@@ -299,16 +367,12 @@ export default function ScholarshipPageClient() {
                 </div>
             </section>
 
-            {/* Internal Linking Footer */}
-            <section className="py-16 bg-slate-50 border-t border-slate-200">
-                <div className="container mx-auto px-4 text-center">
-                    <p className="text-slate-500 font-medium mb-6">Learn more about our expertise:</p>
-                    <div className="flex flex-wrap justify-center gap-6">
-                        <Link href="/" className="text-emerald-700 hover:underline font-bold">Home</Link>
-                        <Link href="/services" className="text-emerald-700 hover:underline font-bold">Translation Services</Link>
-                        <Link href="/blog" className="text-emerald-700 hover:underline font-bold">Scholarship Blog</Link>
-                        <Link href="/contact" className="text-emerald-700 hover:underline font-bold">Contact Us</Link>
-                    </div>
+            {/* Legal & Affiliation Disclaimer */}
+            <section className="py-12 bg-slate-100 border-t border-slate-200 text-slate-600 text-xs">
+                <div className="container mx-auto px-4 max-w-4xl text-center">
+                    <p className="leading-relaxed">
+                        <strong>Disclaimer:</strong> LISAN.PK is an independent documentation, certified translation, and application-support service in Pakistan. LISAN.PK is not affiliated with the Saudi Ministry of Education, the Study in Saudi portal (`studyinsaudi.sa`), or any Saudi university. Admission and scholarship selection decisions are made solely by the respective Saudi government authorities and university admission boards.
+                    </p>
                 </div>
             </section>
         </main>

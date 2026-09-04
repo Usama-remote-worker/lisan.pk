@@ -9,8 +9,8 @@ export function AnnouncementBar() {
 
     const announcements = [
         {
-            iconText: "★",
-            text: "2026 Saudi Scholarship Application Cycle is LIVE",
+            iconText: "🎓",
+            text: "Saudi Scholarship 2026: Applications Open Sep 16 — Prepare Documents Now",
             linkText: "Get Checklist",
             href: "/consultancy/saudi-scholarship"
         },
@@ -28,9 +28,9 @@ export function AnnouncementBar() {
         },
         {
             iconText: "⏱",
-            text: "Important: Saudi Scholarship Deadlines Approaching",
-            linkText: "View Schedule",
-            href: "/consultancy/saudi-scholarship"
+            text: "Saudi Scholarship Dates 2026: Official Portal Window Sep 16 - Oct 6",
+            linkText: "View Dates",
+            href: "/blog/fully-funded-scholarship-deadlines-saudi-universities-2026"
         },
         {
             iconText: "🎓",

@@ -84,6 +84,7 @@ export function Footer() {
                         <div>
                             <h4 className="text-slate-900 font-bold mb-6 uppercase text-xs tracking-wider">Services</h4>
                             <ul className="space-y-3 text-xs font-medium text-slate-600">
+                                <li><Link href="/services/translation/saudi-scholarship-translation" className="hover:text-emerald-700 transition-colors font-bold text-emerald-800">Saudi Scholarship Translation</Link></li>
                                 <li><Link href="/certified-document-translation" className="hover:text-emerald-700 transition-colors font-bold text-slate-900">Embassy Document Hub</Link></li>
                                 <li><Link href="/services/translation/legal-translation" className="hover:text-emerald-700 transition-colors">Legal Translation</Link></li>
                                 <li><Link href="/services/translation/academic-degree-transcript" className="hover:text-emerald-700 transition-colors">Academic Translation</Link></li>
@@ -134,6 +135,7 @@ export function Footer() {
                                     <li><Link href="/blog" className="hover:text-emerald-700 transition-colors">Blog & Resources</Link></li>
                                     <li><Link href="/contact" className="hover:text-emerald-700 transition-colors">Contact Support</Link></li>
                                     <li><Link href="/directory" className="hover:text-emerald-700 transition-colors">Visual Directory</Link></li>
+                                    <li><Link href="/site-map" className="hover:text-emerald-700 transition-colors">HTML Sitemap</Link></li>
                                     <li><Link href="/sitemap.xml" className="hover:text-emerald-700 transition-colors text-xs opacity-50">XML Sitemap</Link></li>
                                 </ul>
                             </div>

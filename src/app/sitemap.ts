@@ -87,6 +87,18 @@ const TRANSLATION_SERVICE_SLUGS = [
 // ---------------------------------------------------------------------------
 // Blog posts: read frontmatter date for each published post
 // ---------------------------------------------------------------------------
+const REDIRECTED_BLOG_SLUGS = new Set([
+    'missed-21-may-deadline-saudi-scholarship-still-open-till-31-may',
+    'saudi-scholarship-extended-date-2026-apply-before-new-deadline',
+    'saudi-scholarship-2026-document-translation-may-21-deadline',
+    'urgent-scholarship-document-translation-before-21-may-2026-pakistan',
+    'saudia-scholarship-programs-still-open-2026',
+    'saudi-scholarship-document-translation-avoid-mistakes-before-21-may',
+    'transcript-translation-saudi-scholarship-urgent-certified',
+    'same-day-arabic-translation-pakistan-saudi-applications',
+    'top-rated-arabic-translation-services-students-saudi-scholarships',
+])
+
 function getBlogEntries(): MetadataRoute.Sitemap {
     const postsDirectory = path.join(process.cwd(), 'src/content/blog')
     let fileNames: string[]
@@ -99,14 +111,15 @@ function getBlogEntries(): MetadataRoute.Sitemap {
     return fileNames
         .filter(f => f.endsWith('.md') || f.endsWith('.mdx'))
         .flatMap(fileName => {
+            const slug = fileName.replace(/\.(md|mdx)$/, '')
+            if (REDIRECTED_BLOG_SLUGS.has(slug)) return []
+
             const fullPath = path.join(postsDirectory, fileName)
             const fileContents = fs.readFileSync(fullPath, 'utf8')
             const { data } = matter(fileContents)
 
             // Skip unpublished posts (default is published)
             if (data.published === false) return []
-
-            const slug = fileName.replace(/\.(md|mdx)$/, '')
 
             // Use frontmatter date as lastModified (author-provided publish date).
             // All 86 published posts have a `date` field in YYYY-MM-DD format.

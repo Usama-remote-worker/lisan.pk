@@ -27,10 +27,27 @@ export interface BlogPost {
     };
 }
 
+const EXCLUDED_BLOG_SLUGS = new Set([
+    'missed-21-may-deadline-saudi-scholarship-still-open-till-31-may',
+    'saudi-scholarship-extended-date-2026-apply-before-new-deadline',
+    'saudi-scholarship-2026-document-translation-may-21-deadline',
+    'urgent-scholarship-document-translation-before-21-may-2026-pakistan',
+    'saudia-scholarship-programs-still-open-2026',
+    'saudi-scholarship-document-translation-avoid-mistakes-before-21-may',
+    'transcript-translation-saudi-scholarship-urgent-certified',
+    'same-day-arabic-translation-pakistan-saudi-applications',
+    'top-rated-arabic-translation-services-students-saudi-scholarships',
+]);
+
 export async function getSortedPostsData(): Promise<BlogPost[]> {
     // Get file names under /src/content/blog
     const fileNames = fs.readdirSync(postsDirectory)
-    const allPostsData = fileNames.map((fileName) => {
+    const allPostsData = fileNames
+        .filter(fileName => {
+            const slug = fileName.replace(/\.md$/, '').replace(/\.mdx$/, '')
+            return !EXCLUDED_BLOG_SLUGS.has(slug)
+        })
+        .map((fileName) => {
         // Remove ".md" from file name to get slug
         const slug = fileName.replace(/\.md$/, '').replace(/\.mdx$/, '')
 

@@ -13,6 +13,7 @@ export function Header() {
             label: "Translation Services", 
             children: [
                 { label: "Arabic Translation", href: "/services/translation/arabic-translation" },
+                { label: "Saudi Scholarship Translation", href: "/services/translation/saudi-scholarship-translation" },
                 { label: "English Translation", href: "/services/translation/english-translation" },
                 { label: "Turkish Translation", href: "/services/translation/turkish-translation" },
                 { label: "Degree Translation", href: "/services/translation/degree-translation" },
@@ -23,8 +24,8 @@ export function Header() {
         { 
             label: "Study Abroad", 
             children: [
-                { label: "Study in Turkey", href: "/study-in-turkey" },
-                { label: "Study in Saudi Arabia", href: "/consultancy/saudi-scholarship" }
+                { label: "Saudi Arabia Scholarships", href: "/consultancy/saudi-scholarship" },
+                { label: "Study in Turkey", href: "/study-in-turkey" }
             ]
         },
         { label: "Blog", href: "/blog" },
