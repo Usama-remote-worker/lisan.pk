@@ -41,9 +41,9 @@ This is why Pakistani students applying from cities like Lahore, Karachi, and Is
 
 **KSU Application Timeline for Pakistani Students**
 
-The KSU scholarship application cycle typically opens in January and closes between April and May each year. The portal is managed through the Study in Saudi Arabia platform (studyinsaudi.moe.gov.sa), where you must create an account, fill in your bio-data precisely matching your passport, upload all translated and attested documents, and then select your preferred faculties and programs.
+For the 2026 application cycle, the official Study in Saudi portal (studyinsaudi.sa) application window opens on **16 September 2026** and closes on **6 October 2026**. You must create an account, fill in your bio-data precisely matching your passport, upload all translated and attested documents, and select your preferred faculties and programs before the window closes.
 
-Students are advised to complete their HEC degree verification and MOFA attestation at least 30 days before the deadline, as these processes can take 2–3 weeks. Translation of your documents by a certified provider like Lisan.pk can be completed in as little as 24 hours with same-day express service.
+Students are advised to complete their HEC degree verification, MOFA attestation, and certified Arabic translation before September 16. Translation of your documents by a certified provider like Lisan.pk can be completed in as little as 24 hours with same-day express service.
 
 **Most Popular Faculties at KSU for Pakistani Students**
 

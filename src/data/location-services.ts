@@ -526,29 +526,32 @@ export interface PackageData {
 }
 
 export const packages: Record<string, PackageData> = {
-    "bronze-undergraduate": {
-        name: "Bronze – Undergraduate Scholarship",
-        description: "Essential translations for starting your journey in the Kingdom.",
-        includes: ["Matric Certificate", "FSc/Intermediate Certificate", "NADRA B-Form/Birth Certificate"],
-        idealFor: "Bachelor's Degree applicants"
+    "package-1-documents-translation": {
+        name: "Package 1 — Documents & Translation Support",
+        description: "Essential document review, certified translation, and portal-ready file preparation for Bachelor, Master, and PhD applicants.",
+        includes: [
+            "Degree-Specific Document Checklist",
+            "Document Quality & Consistency Review",
+            "Certified Arabic Document Translation",
+            "Spelling & Name Consistency Check",
+            "Attestation Guidance (HEC/MOFA)",
+            "Portal-Ready PDF File Formatting"
+        ],
+        idealFor: "Bachelor, Master & PhD applicants handling their own submission"
     },
-    "silver-masters": {
-        name: "Silver – Master's Scholarship",
-        description: "Comprehensive translation pack for graduate-level admissions.",
-        includes: ["All Bronze documents", "Bachelor's Degree & Transcript", "Marriage Certificate (if applicable)"],
-        idealFor: "Master's Degree applicants"
-    },
-    "gold-phd": {
-        name: "Gold – PhD Scholarship",
-        description: "Deep-dive academic translation for researchers and doctoral candidates.",
-        includes: ["All Silver documents", "Master's Degree & Transcript", "Research Abstract/SOP"],
-        idealFor: "PhD & Research applicants"
-    },
-    "platinum-family": {
-        name: "Platinum – Full Family File",
-        description: "The complete legalization set for students relocating with their family.",
-        includes: ["Student's Gold package", "Spouse's Identity Documents", "Children's Birth Certificates"],
-        idealFor: "Family relocation + study"
+    "package-2-complete-application": {
+        name: "Package 2 — Complete Scholarship Application Support",
+        description: "Comprehensive end-to-end guidance including everything in Package 1 plus profile assessment, program shortlisting, and final application review.",
+        includes: [
+            "Everything in Package 1",
+            "Applicant Profile & Eligibility Assessment",
+            "University & Program Research & Shortlisting",
+            "Study in Saudi Portal Guidance",
+            "Document Upload & Application Guidance",
+            "Final Application & Document Review",
+            "Post-Submission Guidance"
+        ],
+        idealFor: "Bachelor, Master & PhD applicants seeking complete support"
     }
 };
 

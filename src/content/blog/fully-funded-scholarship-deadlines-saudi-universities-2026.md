@@ -50,7 +50,7 @@ According to official Saudi Ministry of Education specifications on the unified 
 
 > 📌 **Current Status Notice:** Applications for the unified 2026 cycle open on **September 16, 2026**. Students are strongly advised to complete all certified document translations and attestation reviews *before* the portal opens to avoid last-minute submission bottlenecks.
 
-For complete assistance with application packages, visit our [Saudi Scholarship Consultancy & Application Hub](/consultancy/saudi-scholarship).
+For complete assistance with application packages, visit our [Saudi Scholarship Consultancy & Application Hub](/consultancy/saudi-scholarship) or browse our complete [Fully Funded Saudi Scholarship Programs 2026/27 Catalogue](/blog/saudi-fully-funded-scholarship-programs-2026).
 
 ---
 

@@ -33,6 +33,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/certified-document-translation/nadra-nikahnama':            '2026-07-22',
     '/chinese-language-translation-in-urdu':                      '2026-06-15',
     '/consultancy/saudi-scholarship':                             '2026-05-04',
+    '/saudi-scholarships/program-finder':                         '2026-09-05',
     '/contact':                                                   '2026-07-22',
     '/directory':                                                 '2026-06-15',
     '/english-to-indonesian-translators':                         '2026-06-15',
@@ -155,6 +156,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 '/services',
                 '/services/translation',
                 '/consultancy/saudi-scholarship',
+                '/saudi-scholarships/program-finder',
             ].includes(route) ? 0.9 :
             [
                 '/certified-document-translation/degree-transcript',

@@ -185,7 +185,9 @@ If you are ready to take the next step in your educational journey, get your sch
 
 ### Recommended Resources & Further Reading
 
+* 🗺️ [Complete Saudi Scholarship Roadmap 2026/27: From Eligibility to Arrival](/blog/saudi-scholarship-complete-roadmap)
 * 📘 [Required Documents for Saudi Scholarships in 2026](/blog/required-documents-saudi-scholarship-2026)
+* 🛠️ [Study in Saudi Portal Problems 2026: Errors, Login & Application Fixes](/blog/study-in-saudi-portal-problems-errors)
 * 📙 [Saudi Embassy Approved Translation Services in Pakistan](/blog/saudi-embassy-approved-translation-services-pakistan)
 * 📗 [Why Arabic Translation is Mandatory for Saudi Universities](/blog/why-arabic-translation-mandatory-saudi-universities-2026)
 * 📕 [Saudi Embassy Rejection Fix: Translation Mistakes to Avoid](/blog/saudi-embassy-rejection-translation-fix-pakistan)

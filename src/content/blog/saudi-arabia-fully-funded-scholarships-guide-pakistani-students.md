@@ -37,13 +37,13 @@ Most importantly, many programs are specifically welcoming to Pakistani applican
 
 ## Top Fully Funded Saudi Scholarships for Pakistani Students
 
-Here are the most prestigious fully funded scholarships in Saudi Arabia currently open to Pakistani nationals:
+Here are the most prestigious fully funded scholarships in Saudi Arabia currently open to Pakistani nationals. You can also [search fully funded Saudi scholarship programs](/saudi-scholarships/program-finder) by university, degree level, and gender using our interactive database.
 
 ### 1. King Abdulaziz University Scholarships
 KAU offers fully funded undergraduate, master’s, and PhD scholarships for international students. Applications usually open in October. All documents must be in Arabic or English.
 
 ### 2. Islamic University of Madinah Scholarship
-Aimed primarily at students pursuing Islamic studies, this government scholarship covers everything. Pakistani students are a large portion of the intake.
+Aiming primarily at students pursuing Islamic studies, this government scholarship covers everything. Pakistani students are a large portion of the intake.
 
 ### 3. KAUST Fellowship (Master’s/PhD)
 The King Abdullah University of Science and Technology (KAUST) provides a fully funded fellowship with a generous stipend. Research areas include engineering, computer science, and bioscience.
@@ -53,17 +53,11 @@ KSU offers fully funded scholarships for both graduate and postgraduate programs
 
 ## Eligibility Criteria for Saudi Arabian Scholarships
 
-While each university has specifics, general requirements for Pakistani applicants include:
-
-- **Minimum academic percentage**: 70–75% (varies)
-- **Age limit**: Usually 17–25 for bachelor’s, up to 35 for PhD
-- **Medical Fitness**: Medically fit with no contagious diseases
-- **No previous unpaid scholarship** from the Saudi government
-- **Proficiency in English or Arabic** (depending on the program)
+While each university has specifics, general requirements for Pakistani applicants include minimum academic percentage, age limits, and clean medical records. For a complete breakdown, [check Saudi scholarship eligibility](/blog/saudi-scholarship-eligibility-pakistani-students) guidelines tailored for Pakistani qualifications.
 
 ## Step-by-Step Application Process
 
-Follow this general roadmap for any Saudi Arabia fully funded scholarship:
+Follow our [complete Saudi scholarship application roadmap](/blog/saudi-scholarship-complete-roadmap) for any Saudi Arabia fully funded scholarship:
 
 1. **Choose a university and program** – Research the official scholarship portal.
 2. **Check the deadline** – Most deadlines fall between November and February.

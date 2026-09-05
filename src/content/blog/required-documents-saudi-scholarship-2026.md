@@ -27,7 +27,9 @@ Saudi Arabia offers fully funded scholarships covering tuition, living stipends,
 - Free accommodation or housing allowance
 - Annual return air ticket
 
-To win a seat, your document checklist must be perfect.
+To win a seat, your document checklist must be perfect. Use our [Saudi scholarship application checklist](/blog/saudi-scholarship-application-review-checklist) to review every document before hitting submit. If you need full guidance, explore our [complete Saudi scholarship application assistance](/blog/saudi-scholarship-application-assistance-pakistan) or visit our [Saudi scholarship document and application support](/consultancy/saudi-scholarship) consultancy portal.
+
+Once your documents are prepared, you can use the [fully funded Saudi scholarship program finder](/saudi-scholarships/program-finder) to compare available programs by degree, university and gender.
 
 ## Complete List of Required Documents for Saudi Scholarship (Bachelor & PhD)
 

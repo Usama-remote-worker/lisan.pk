@@ -53,7 +53,7 @@ Master’s applications usually involve more complex, specialized documentation 
 *   **Statement of Purpose (SOP) Files** outlining prospective research goals.
 *   **Certified Academic Records** featuring HEC, board, or MoFA attestation stamps.
 
-Several Saudi universities and scholarship programs are currently processing international applications for the 2026 cycle, with major deadlines ending on **21 May 2026**.
+Official Study in Saudi portal applications for the 2026 cycle open on **16 September 2026** and close on **6 October 2026**.
 
 Many applicants only discover translation or formatting problems during:
 - Final submission on the university portal
@@ -191,7 +191,7 @@ Fortunately, Lisan.pk provides professional [educational document translation su
 - Process urgent translations remotely.
 - Review and approve technical terminology drafts before final printing.
 
-This becomes especially important with the **21 May** scholarship deadline approaching.
+This becomes especially important to complete *before* the **16 September** portal opening date.
 
 ### Translation Timeline for Urgent Masters Applications
 
@@ -207,7 +207,7 @@ This becomes especially important with the **21 May** scholarship deadline appro
 
 Students spend months building strong academic profiles, preparing research documents, and planning scholarship applications. Delays caused by incomplete translation or document formatting issues are completely avoidable.
 
-With Saudi scholarship deadlines closing on **21 May**, students should now focus on organizing files, reviewing academic documents carefully, and preparing professional translations before submission pressure increases further.
+With Saudi scholarship applications opening on **16 September 2026** (and closing **6 October 2026**), students should now focus on organizing files, reviewing academic documents carefully, and preparing professional translations before submission pressure increases further.
 
 ### Get Expert Help Today!
 

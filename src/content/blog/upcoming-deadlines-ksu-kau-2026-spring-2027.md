@@ -39,7 +39,7 @@ Below, you’ll find every upcoming deadline for King Saud and King Abdulaziz Un
 
 Most students only think about the big Fall intake. But both KSU and KAU offer a Spring semester (starting January/February 2027), and the application deadlines for that intake land squarely in the second half of 2026. That means you’re not behind — you’re actually early if you start prepping now.
 
-The Spring cycle is smaller, yes, but it’s a legitimate path in. And because fewer international students target it, your chances can actually be stronger if your documents are flawless. For a broader view of all available opportunities, see our [comprehensive guide on fully funded Saudi scholarship deadlines 2026](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026).
+The Spring cycle is smaller, yes, but it’s a legitimate path in. And because fewer international students target it, your chances can actually be stronger if your documents are flawless. You can [find available fully funded Saudi programs](/saudi-scholarships/program-finder) across all degree levels in our database, [check your Saudi scholarship application before submission](/blog/saudi-scholarship-application-review-checklist), or review the [Saudi scholarship application process from start to finish](/blog/saudi-scholarship-complete-roadmap). For a broader view of all available opportunities, see our [comprehensive guide on fully funded Saudi scholarship deadlines 2026](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026).
 
 ## Upcoming KSU Deadlines 2026 — Spring 2027 Semester
 

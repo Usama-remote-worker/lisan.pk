@@ -19,13 +19,13 @@ export function ServicePackages() {
                     </div>
                 </ScrollReveal>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                     {Object.entries(packages).map(([key, pkg], index) => (
                         <ScrollReveal key={key} delay={index * 0.1}>
                             <div className="flex flex-col bg-white rounded-[2.5rem] border border-slate-100 shadow-xl shadow-slate-200/50 p-8 hover:shadow-2xl hover:shadow-emerald-900/10 transition-all duration-500 group relative overflow-hidden h-full">
-                                {key === 'silver-masters' && (
+                                {key === 'package-2-complete-application' && (
                                     <div className="absolute top-0 right-0 bg-emerald-600 text-white text-[10px] font-bold uppercase tracking-widest px-6 py-2 rounded-bl-2xl">
-                                        Most Popular
+                                        Complete Guidance
                                     </div>
                                 )}
                                 <div className="mb-8">

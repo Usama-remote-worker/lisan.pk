@@ -124,11 +124,10 @@ We keep an updated internal checklist of any formatting tweaks each university p
 
 ## Urgent Translation Timelines for the 2026 Scholarship Season
 
-The deadlines you’re facing in 2026:
-- **Islamic University of Madinah**: mid‑July 2026
-- **Umm Al-Qura University**: August 2026 (Early deadline)
-- **KFUPM**: September 2026
-- **KSU and KAU Spring 2027 cycle**: November to December 2026
+The primary unified application window for 2026:
+- **Study in Saudi Unified Portal Opening**: 16 September 2026
+- **Study in Saudi Portal Closing**: 6 October 2026
+- **Pre-Opening Document Preparation Window**: Active Now – 15 September 2026
 
 Our delivery windows are built for these dates:
 - **Standard (3–4 working days)**: Ideal if your deadline is 3+ weeks out.

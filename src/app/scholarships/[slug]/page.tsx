@@ -179,13 +179,13 @@ export default async function UniversityPage({ params }: PageProps) {
 
                         {/* Internal links */}
                         <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100 font-sans">
-                            <h3 className="font-bold text-slate-900 mb-4 text-lg">Related Guides</h3>
+                            <h3 className="font-bold text-slate-900 mb-4 text-lg">Related Guides & Resources</h3>
                             <div className="grid sm:grid-cols-2 gap-3 text-sm">
+                                <Link href="/saudi-scholarships/program-finder" className="text-emerald-700 hover:text-emerald-800 hover:underline font-bold">→ Saudi Fully Funded Scholarship Program Finder</Link>
+                                <Link href="/blog/saudi-fully-funded-scholarship-programs-2026" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Full List of Saudi Scholarship Programs 2026</Link>
+                                <Link href="/blog/saudi-scholarship-eligibility-pakistani-students" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Saudi Scholarship Eligibility Requirements</Link>
+                                <Link href="/blog/saudi-scholarship-application-assistance-pakistan" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Application Guidance & Evaluation Support</Link>
                                 <Link href="/blog/required-documents-saudi-scholarship-2026" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Required Documents for Saudi Scholarship 2026</Link>
-                                <Link href="/blog/why-arabic-translation-mandatory-saudi-universities-2026" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Why Arabic Translation is Mandatory</Link>
-                                <Link href="/blog/hec-attested-degree-arabic-translation-services-pakistan" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ HEC Attested Degree Translation Guide</Link>
-                                <Link href="/blog/saudi-embassy-rejection-translation-fix-pakistan" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Saudi Embassy Rejection: Translation Fixes</Link>
-                                <Link href="/services/translation" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Our Certified Arabic Translation Services</Link>
                                 <Link href="/consultancy/saudi-scholarship" className="text-emerald-700 hover:text-emerald-800 hover:underline font-medium">→ Saudi Scholarship Consultancy</Link>
                             </div>
                         </div>

@@ -100,18 +100,18 @@ export default function ScholarshipPageClient() {
                     <div className="max-w-4xl mx-auto text-center">
                         <div className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-sm font-semibold text-emerald-800 mb-4 shadow-sm">
                             <span className="flex h-2 w-2 rounded-full bg-emerald-600 mr-2 animate-pulse"></span>
-                            2026 Cycle: Applications Open September 16 — Prepare Documents Now
+                            Saudi Scholarship Applications Open September 16, 2026
                         </div>
                         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-7xl mb-6 leading-tight">
                             Saudi Arabia Scholarship 2026 – <span className="text-emerald-600">Complete Support Guide</span>
                         </h1>
                         <p className="text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-                            Official Study in Saudi portal applications open <strong>September 16 – October 6, 2026</strong>. Prepare your certified Arabic translations, document reviews, and program shortlists with Lisan.pk.
+                            Official Study in Saudi submission period: <strong>16 September – 6 October 2026</strong>. Prepare your certified Arabic translations, document reviews, and program shortlists before applications open.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20help%20preparing%20my%20documents%20for%20the%20Saudi%20Scholarship%202026." target="_blank">
+                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20prepare%20my%20documents%20before%20Saudi%20scholarship%20applications%20open." target="_blank">
                                 <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-10 h-16 text-lg shadow-xl">
-                                    Prepare My Documents Now
+                                    Prepare Documents Before Applications Open
                                 </Button>
                             </Link>
                             <Link href="/services">
@@ -131,13 +131,18 @@ export default function ScholarshipPageClient() {
                         <h2 className="text-3xl font-bold text-slate-900 mb-6">Overview of Saudi Scholarship Programs 2026</h2>
                         <div className="prose prose-slate prose-lg text-slate-600">
                             <p>
-                                The Kingdom of Saudi Arabia (KSA) has significantly expanded its educational outreach under Vision 2030. For the 2026–2027 academic year, the Saudi government is offering thousands of <strong>fully funded scholarships for Pakistani students</strong> across 25+ top-tier universities.
+                                The Kingdom of Saudi Arabia (KSA) offers government-funded scholarship opportunities for international students across multiple Saudi universities at Bachelor’s, Master’s, and PhD levels.
                             </p>
                             <p>
-                                These scholarships are not limited to Islamic studies; they cover Medicine, Engineering, Artificial Intelligence, Business Administration, and Social Sciences. The goal is to foster international academic collaboration and provide world-class education to deserving students from brotherly nations like Pakistan.
+                                Programs are available across Computer Science, Artificial Intelligence, Engineering, Business Administration, Natural Sciences, Humanities, Languages, and Islamic Studies. Admission criteria, language requirements, and funding details vary by institution and department.
                             </p>
                             <p>
-                                A <strong>Saudi Arabia scholarship 2026</strong> typically covers 100% of tuition fees, monthly stipends, free housing, medical insurance, and annual return airfare to Pakistan.
+                                A fully funded external scholarship typically covers tuition fees, monthly stipends, university housing, medical coverage, and travel benefits according to official regulations.
+                            </p>
+                        </div>
+                        <div className="mt-6 p-5 bg-emerald-50 rounded-2xl border border-emerald-200 shadow-sm">
+                            <p className="text-sm font-semibold text-emerald-950 leading-relaxed">
+                                Not sure which university or degree program matches your profile? Use our <Link href="/saudi-scholarships/program-finder" className="text-emerald-700 underline font-bold hover:text-emerald-900">Saudi Fully Funded Scholarship Program Finder</Link> to search Bachelor’s, Master’s and PhD opportunities by university, field and gender.
                             </p>
                         </div>
                     </div>
@@ -151,12 +156,45 @@ export default function ScholarshipPageClient() {
                 </div>
             </section>
 
+            {/* Curated Resource Module */}
+            <section className="py-12 bg-slate-900 text-white font-sans border-y border-slate-800">
+                <div className="container mx-auto px-4 max-w-5xl text-center">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-wider mb-3 border border-emerald-500/20">
+                        Official Guidance Hub
+                    </div>
+                    <h2 className="text-2xl sm:text-3xl font-extrabold mb-3 text-white">EXPLORE SAUDI SCHOLARSHIP RESOURCES</h2>
+                    <p className="text-slate-300 text-sm mb-8 max-w-2xl mx-auto">Access interactive tools, eligibility guides, roadmap benchmarks, and application review checklists prepared by our education consultants:</p>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
+                        <Link href="/saudi-scholarships/program-finder" className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 hover:border-emerald-500 hover:bg-slate-800 transition-all block group">
+                            <span className="text-emerald-400 text-xs font-bold uppercase tracking-wider block mb-1">Interactive Tool</span>
+                            <h3 className="font-bold text-white text-base mb-1 group-hover:text-emerald-400 transition-colors">Find Fully Funded Programs</h3>
+                            <p className="text-slate-400 text-xs leading-relaxed">Search 400+ verified programs by university, field & gender.</p>
+                        </Link>
+                        <Link href="/blog/saudi-scholarship-eligibility-pakistani-students" className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 hover:border-emerald-500 hover:bg-slate-800 transition-all block group">
+                            <span className="text-emerald-400 text-xs font-bold uppercase tracking-wider block mb-1">Eligibility Criteria</span>
+                            <h3 className="font-bold text-white text-base mb-1 group-hover:text-emerald-400 transition-colors">Check Your Eligibility</h3>
+                            <p className="text-slate-400 text-xs leading-relaxed">Review CGPA, age limits & Pakistani qualifications match.</p>
+                        </Link>
+                        <Link href="/blog/saudi-scholarship-complete-roadmap" className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 hover:border-emerald-500 hover:bg-slate-800 transition-all block group">
+                            <span className="text-emerald-400 text-xs font-bold uppercase tracking-wider block mb-1">Step-by-Step Guide</span>
+                            <h3 className="font-bold text-white text-base mb-1 group-hover:text-emerald-400 transition-colors">Complete Scholarship Roadmap</h3>
+                            <p className="text-slate-400 text-xs leading-relaxed">From document preparation to visa & arrival in KSA.</p>
+                        </Link>
+                        <Link href="/blog/saudi-scholarship-application-review-checklist" className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 hover:border-emerald-500 hover:bg-slate-800 transition-all block group">
+                            <span className="text-emerald-400 text-xs font-bold uppercase tracking-wider block mb-1">Submission Quality</span>
+                            <h3 className="font-bold text-white text-base mb-1 group-hover:text-emerald-400 transition-colors">Application Checklist</h3>
+                            <p className="text-slate-400 text-xs leading-relaxed">25-point quality-control checks before hitting submit.</p>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
             {/* Eligibility Criteria */}
             <section className="py-20 bg-slate-50">
                 <div className="container mx-auto px-4 max-w-5xl">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Eligibility Criteria for Pakistani Students</h2>
-                        <p className="text-slate-600 max-w-2xl mx-auto">Ensuring you meet these basic requirements is the first step toward a successful application.</p>
+                        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Eligibility Criteria Guidelines for Pakistani Students</h2>
+                        <p className="text-slate-600 max-w-2xl mx-auto">General academic parameters vary by university and program. Review key guidelines before applying.</p>
                     </div>
                     
                     <div className="grid md:grid-cols-2 gap-8">
@@ -166,15 +204,15 @@ export default function ScholarshipPageClient() {
                             <ul className="space-y-3 text-slate-600">
                                 <li className="flex items-start gap-2">
                                     <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
-                                    <span>Minimum 80% marks in Matric/FSc for Bachelors.</span>
+                                    <span>Marks requirements vary by program (typically 70%–80%+ for competitive admission).</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
-                                    <span>Strong CGPA (3.0+) for Masters and PhD programs.</span>
+                                    <span>Academic background & CGPA thresholds depend on the target university and department.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
-                                    <span>Degrees must be verified by <Link href="https://www.hec.gov.pk" target="_blank" className="text-emerald-700 underline">HEC</Link> and MOFA.</span>
+                                    <span>Degrees require verification; HEC and MOFA attestation are required during post-selection/visa processing.</span>
                                 </li>
                             </ul>
                         </div>
@@ -184,15 +222,15 @@ export default function ScholarshipPageClient() {
                             <ul className="space-y-3 text-slate-600">
                                 <li className="flex items-start gap-2">
                                     <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
-                                    <span>Age limit: 17-25 (Bachelors), under 30 (Masters), under 35 (PhD).</span>
+                                    <span>General age guidelines: 17–25 (Bachelors), up to 30 (Masters), up to 35 (PhD).</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
-                                    <span>Applicant must have a clean criminal record.</span>
+                                    <span>Applicant must have a clean criminal record & valid passport.</span>
                                 </li>
                                 <li className="flex items-start gap-2">
                                     <span className="text-emerald-500 mt-1 flex-shrink-0 font-bold text-sm">✓</span>
-                                    <span>Medical fitness certificate is mandatory.</span>
+                                    <span>Medical fitness report is required during the educational visa stage.</span>
                                 </li>
                             </ul>
                         </div>
@@ -239,23 +277,23 @@ export default function ScholarshipPageClient() {
                                 <ul className="space-y-4">
                                     <li className="flex items-center gap-4">
                                         <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
-                                        <span>Attested Educational Degrees (HEC/MOFA)</span>
+                                        <span>Educational Degrees & Transcripts</span>
                                     </li>
                                     <li className="flex items-center gap-4">
                                         <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
-                                        <span>Certified Arabic Translations of Degrees</span>
+                                        <span>Certified Arabic Translations of Records</span>
                                     </li>
                                     <li className="flex items-center gap-4">
                                         <span className="text-emerald-400 font-extrabold shrink-0 mt-0.5 text-base">✓</span>
-                                        <span>Police Character Certificate</span>
+                                        <span>Police Character Certificate (if required)</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div className="mt-8 pt-8 border-t border-white/20 text-center">
                             <p className="text-emerald-50 mb-2">For a detailed breakdown of required documents and costs, read our comprehensive guide:</p>
-                            <Link href="/blog/arabic-translation-services-saudi-scholarship-pakistan" className="text-white font-bold underline hover:text-emerald-200">
-                                Arabic Translation Services for Saudi Scholarship Documents – Pakistan
+                            <Link href="/blog/saudi-scholarship-application-cost-pakistan" className="text-white font-bold underline hover:text-emerald-200">
+                                Saudi Scholarship Application Cost & Document Package Pricing – Pakistan
                             </Link>
                         </div>
                     </div>
@@ -265,17 +303,17 @@ export default function ScholarshipPageClient() {
             {/* Top Universities */}
             <section id="universities" className="py-24 container mx-auto px-4 max-w-6xl">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Top HEC Recognized Saudi Universities</h2>
-                    <p className="text-slate-600 max-w-2xl mx-auto">These institutions are part of the <strong>fully funded scholarship Saudi</strong> initiative.</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Prominent Saudi Universities</h2>
+                    <p className="text-slate-600 max-w-2xl mx-auto">These institutions are part of the <strong>Saudi scholarship program</strong> for international applicants.</p>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {[
-                        { name: "King Saud University", city: "Riyadh", rank: "#1 in KSA", tags: ["Medicine", "Engineering"] },
-                        { name: "King Abdulaziz University", city: "Jeddah", rank: "#1 in Arab World", tags: ["Sciences", "Arts"] },
-                        { name: "KFUPM", city: "Dhahran", rank: "Top 200 Global", tags: ["Petroleum", "Tech"] },
-                        { name: "Islamic University of Madinah", city: "Madinah", rank: "Legacy Education", tags: ["Theology", "Law"] },
-                        { name: "Princess Nourah University", city: "Riyadh", rank: "Largest Women Uni", tags: ["Social Work", "Admin"] },
-                        { name: "King Faisal University", city: "Al-Ahsa", rank: "Agriculture & Vet", tags: ["Research", "Biology"] }
+                        { name: "King Saud University", city: "Riyadh", rank: "Riyadh", tags: ["Sciences", "Engineering"] },
+                        { name: "King Abdulaziz University", city: "Jeddah", rank: "Jeddah", tags: ["Sciences", "Arts"] },
+                        { name: "KFUPM", city: "Dhahran", rank: "Dhahran", tags: ["Petroleum", "Tech"] },
+                        { name: "Islamic University of Madinah", city: "Madinah", rank: "Madinah", tags: ["Theology", "Law"] },
+                        { name: "Princess Nourah University", city: "Riyadh", rank: "Women's Campus", tags: ["Social Work", "Admin"] },
+                        { name: "King Faisal University", city: "Al-Ahsa", rank: "Al-Ahsa", tags: ["Research", "Biology"] }
                     ].map((uni, i) => (
                         <div key={i} className="group p-8 rounded-3xl bg-white border border-slate-200 hover:border-emerald-600 hover:shadow-xl transition-all duration-300">
                             <div className="flex justify-between items-start mb-6">
@@ -303,29 +341,39 @@ export default function ScholarshipPageClient() {
                             <h2 className="text-3xl font-bold text-slate-900">How Lisan Can Help You (Our Consultancy)</h2>
                         </div>
                         <p className="text-lg text-slate-600 mb-10 leading-relaxed">
-                            At Lisan.pk, we have over 40 years of experience in facilitating <strong>Saudi scholarship for Pakistani students</strong>. We are not just consultants; we are your bridge to a brighter future in the Kingdom. Our specialized services include:
+                            At Lisan.pk, we provide independent certified translation, document review, and application-support services for <strong>Pakistani students applying for Saudi scholarships</strong>. We assist Bachelor, Master, and PhD applicants through two structured service levels:
                         </p>
                         <div className="grid md:grid-cols-2 gap-8 mb-12">
-                            <div className="space-y-4">
-                                <h4 className="font-bold text-emerald-900">Technical Support</h4>
-                                <ul className="space-y-2 text-slate-600">
-                                    <li className="flex gap-2"><span>•</span> Certified Arabic Document Translation</li>
-                                    <li className="flex gap-2"><span>•</span> HEC, MOFA & Saudi Culture Attestation</li>
-                                    <li className="flex gap-2"><span>•</span> Portal Registration & Profile Building</li>
+                            <div className="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100 space-y-4">
+                                <span className="inline-block bg-emerald-100 text-emerald-800 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Package 1</span>
+                                <h4 className="font-bold text-slate-900 text-xl">Documents & Translation Support</h4>
+                                <p className="text-sm text-slate-600">Essential document preparation for Bachelor, Master & PhD applicants handling their own portal submission.</p>
+                                <ul className="space-y-2 text-slate-700 text-sm">
+                                    <li className="flex gap-2"><span className="text-emerald-600 font-bold">✓</span> Degree-Specific Document Checklist</li>
+                                    <li className="flex gap-2"><span className="text-emerald-600 font-bold">✓</span> Certified Arabic Document Translation</li>
+                                    <li className="flex gap-2"><span className="text-emerald-600 font-bold">✓</span> Name/Date/Spelling Consistency Review</li>
+                                    <li className="flex gap-2"><span className="text-emerald-600 font-bold">✓</span> Attestation Guidance (HEC/MOFA)</li>
+                                    <li className="flex gap-2"><span className="text-emerald-600 font-bold">✓</span> Portal-Ready PDF File Preparation</li>
                                 </ul>
                             </div>
-                            <div className="space-y-4">
-                                <h4 className="font-bold text-emerald-900">Strategic Support</h4>
-                                <ul className="space-y-2 text-slate-600">
-                                    <li className="flex gap-2"><span>•</span> Personal Statement (SOP) Optimization</li>
-                                    <li className="flex gap-2"><span>•</span> Interview Preparation & Mock Sessions</li>
-                                    <li className="flex gap-2"><span>•</span> Full Student Visa Process Assistance</li>
+                            <div className="bg-slate-900 text-white p-6 rounded-2xl border border-slate-800 space-y-4 shadow-lg">
+                                <span className="inline-block bg-emerald-500 text-slate-950 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Package 2</span>
+                                <h4 className="font-bold text-white text-xl">Complete Application Support</h4>
+                                <p className="text-sm text-slate-300">End-to-end guidance for Bachelor, Master & PhD applicants through profile assessment, shortlisting, and final review.</p>
+                                <ul className="space-y-2 text-slate-200 text-sm">
+                                    <li className="flex gap-2"><span className="text-emerald-400 font-bold">✓</span> Includes Everything in Package 1</li>
+                                    <li className="flex gap-2"><span className="text-emerald-400 font-bold">✓</span> Profile & Eligibility Assessment</li>
+                                    <li className="flex gap-2"><span className="text-emerald-400 font-bold">✓</span> University & Program Research & Shortlisting</li>
+                                    <li className="flex gap-2"><span className="text-emerald-400 font-bold">✓</span> Study in Saudi Portal Guidance</li>
+                                    <li className="flex gap-2"><span className="text-emerald-400 font-bold">✓</span> Document Upload & Application Guidance</li>
+                                    <li className="flex gap-2"><span className="text-emerald-400 font-bold">✓</span> Final Application & Document Review</li>
+                                    <li className="flex gap-2"><span className="text-emerald-400 font-bold">✓</span> Post-Submission Guidance</li>
                                 </ul>
                             </div>
                         </div>
-                        <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20am%20interested%20in%20Saudi%20Scholarship%20consultancy." target="_blank" className="block text-center">
+                        <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20guidance%20on%20preparing%20my%20Saudi%20Scholarship%20application." target="_blank" className="block text-center">
                             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white w-full h-16 text-xl rounded-2xl shadow-lg">
-                                Start Your Application Today
+                                Prepare Your Application With Us
                             </Button>
                         </Link>
                     </div>
@@ -338,16 +386,16 @@ export default function ScholarshipPageClient() {
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Frequently Asked Questions</h2>
                     <div className="space-y-6">
                         {[
-                            { q: "What is the monthly stipend for Saudi scholarship?", a: "Undergraduate students typically receive 840 SAR per month, while Master's and PhD candidates receive between 900 and 1,000 SAR, plus specialized research and book allowances." },
-                            { q: "Can I work while on a Saudi scholarship?", a: "No, the scholarship is fully funded, and international students are generally not permitted to work outside the campus. However, some universities offer internal part-time research or administrative roles." },
-                            { q: "Is IELTS required for Saudi scholarship?", a: "For Islamic studies and Arabic literature, IELTS is usually not required. However, for STEM and Engineering programs taught in English, most universities require an IELTS score of 6.0 or higher." },
-                            { q: "How to apply for Saudi scholarship from Pakistan?", a: "You must register on the 'Study in Saudi' centralized portal or visit the specific admission website of universities like KSU or KAU during the 2026 cycle." },
-                            { q: "Does the scholarship cover airfare?", a: "Yes, fully funded scholarships include an annual return economy-class ticket to Pakistan for the student during summer holidays." },
-                            { q: "What documents are needed for Saudi student visa process?", a: "You will need your scholarship acceptance letter, attested educational documents, a medical report verified by the embassy, and a valid passport." },
-                            { q: "Are Saudi degrees recognized in Pakistan?", a: "Yes, degrees from HEC recognized Saudi universities are fully valid in Pakistan and globally for employment and further education." },
-                            { q: "Can female students apply for Saudi scholarships?", a: "Yes! There are dedicated universities for women like Princess Nourah, and most top universities have separate, state-of-the-art campuses for female students." },
-                            { q: "What is the age limit for PhD applicants?", a: "Generally, PhD applicants should be under 35 years of age at the time of application." },
-                            { q: "How long does the attestation process take?", a: "The complete attestation (HEC -> MOFA -> Culture -> Embassy) typically takes 3-4 weeks. Lisan.pk can expedite this for scholarship applicants." }
+                            { q: "What is the monthly stipend for Saudi scholarship?", a: "Stipends vary by university and degree level. Full scholarships generally provide monthly stipends (typically ~840 SAR for Bachelors, ~900-1,000 SAR for Master's/PhD), plus book or thesis allowances where applicable." },
+                            { q: "Can I work while on a Saudi scholarship?", a: "No, full scholarships are designed for full-time study, and international students are generally not permitted to work off-campus." },
+                            { q: "Is IELTS required for Saudi scholarship?", a: "Language requirements depend on the university and program. Programs taught in Arabic or Islamic studies usually do not require IELTS, whereas STEM and English-medium programs may require IELTS, TOEFL, STEP, or an English MOI certificate depending on department policy." },
+                            { q: "How to apply for Saudi scholarship from Pakistan?", a: "During the official submission period (September 16 – October 6, 2026), candidates submit their profile and academic program choices on the official Study in Saudi portal at studyinsaudi.moe.gov.sa." },
+                            { q: "Does the scholarship cover airfare?", a: "Full external scholarships typically include annual travel benefits according to official regulations, such as a return economy ticket. Specific terms vary by university." },
+                            { q: "What documents are needed for Saudi student visa process?", a: "Required visa documents include your scholarship acceptance letter, attested educational certificates, medical report, clean police character record, and valid passport." },
+                            { q: "Are Saudi degrees recognized in Pakistan?", a: "Yes, degrees from accredited Saudi universities are recognized by HEC Pakistan and globally for higher education and career opportunities." },
+                            { q: "Can female students apply for Saudi scholarships?", a: "Yes! Dedicated women's institutions like Princess Nourah University and co-educational campuses across top Saudi universities offer scholarship opportunities for female candidates." },
+                            { q: "What is the age limit for PhD applicants?", a: "General Ministry parameters state PhD applicants should be under 35 years of age, though exact age thresholds can vary by institution." },
+                            { q: "How long does the attestation process take?", a: "Attestation timing depends on the relevant Pakistani authorities (BISE/HEC/MOFA). LISAN.PK provides guidance and certified translation to ensure compliance when your documents reach the attestation stage." }
                         ].map((faq, i) => (
                             <div key={i} className="border-b border-slate-100 pb-6">
                                 <h4 className="text-lg font-bold text-slate-900 mb-3 flex gap-3">
@@ -359,10 +407,24 @@ export default function ScholarshipPageClient() {
                         ))}
                     </div>
                     <div className="mt-12 text-center p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
-                        <p className="text-emerald-900 font-semibold mb-2">Need a sample of a certified translation and attestation process?</p>
-                        <Link href="/blog/arabic-translation-services-saudi-scholarship-pakistan" className="text-emerald-700 font-bold hover:underline flex justify-center items-center gap-2">
-                            Check out our blog post on Saudi Scholarship Document Translation
-                        </Link>
+                        <p className="text-emerald-900 font-semibold mb-3">Explore our complete 2026/27 Saudi Scholarship authority guides and roadmap:</p>
+                        <div className="flex flex-wrap justify-center gap-3 text-sm">
+                            <Link href="/blog/saudi-scholarship-complete-roadmap" className="text-emerald-800 font-bold hover:underline bg-white px-4 py-2 rounded-xl border border-emerald-200 shadow-sm">
+                                🗺️ Complete Saudi Scholarship Roadmap 2026/27
+                            </Link>
+                            <Link href="/blog/saudi-fully-funded-scholarship-programs-2026" className="text-emerald-800 font-bold hover:underline bg-white px-4 py-2 rounded-xl border border-emerald-200 shadow-sm">
+                                🎓 Fully Funded Programs Catalog
+                            </Link>
+                            <Link href="/blog/saudi-scholarship-eligibility-pakistani-students" className="text-emerald-800 font-bold hover:underline bg-white px-4 py-2 rounded-xl border border-emerald-200 shadow-sm">
+                                📋 Eligibility Criteria
+                            </Link>
+                            <Link href="/blog/saudi-scholarship-without-ielts" className="text-emerald-800 font-bold hover:underline bg-white px-4 py-2 rounded-xl border border-emerald-200 shadow-sm">
+                                🌐 Scholarship Without IELTS
+                            </Link>
+                            <Link href="/blog/study-in-saudi-portal-problems-errors" className="text-emerald-800 font-bold hover:underline bg-white px-4 py-2 rounded-xl border border-emerald-200 shadow-sm">
+                                🛠️ Portal Error Fixes
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -371,7 +433,7 @@ export default function ScholarshipPageClient() {
             <section className="py-12 bg-slate-100 border-t border-slate-200 text-slate-600 text-xs">
                 <div className="container mx-auto px-4 max-w-4xl text-center">
                     <p className="leading-relaxed">
-                        <strong>Disclaimer:</strong> LISAN.PK is an independent documentation, certified translation, and application-support service in Pakistan. LISAN.PK is not affiliated with the Saudi Ministry of Education, the Study in Saudi portal (`studyinsaudi.sa`), or any Saudi university. Admission and scholarship selection decisions are made solely by the respective Saudi government authorities and university admission boards.
+                        <strong>Disclaimer:</strong> LISAN.PK provides independent document translation, verification, and application-support services in Pakistan. LISAN.PK is not affiliated with the Saudi Ministry of Education, the Study in Saudi portal (`studyinsaudi.moe.gov.sa`), or any Saudi university. Admission, scholarship selection, and visa approval decisions are made exclusively by official Saudi government authorities and university admission boards. LISAN.PK does not control scholarship decisions or guarantee admission.
                     </p>
                 </div>
             </section>
@@ -446,7 +508,7 @@ function ProcessSection() {
                     <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-serif tracking-tight">Your Journey With Us</h2>
                     <p className="text-slate-500 max-w-2xl mx-auto leading-relaxed font-medium">
                         A structured approach that ensures your application is handled with precision, 
-                        authority, and a 100% success mindset.
+                        authority, and technical compliance.
                     </p>
                 </div>
 

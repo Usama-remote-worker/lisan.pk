@@ -54,7 +54,7 @@ This becomes a critical bottleneck near submission deadlines because Saudi unive
 *   **Complete PDF submissions** structured in exact sequences.
 *   **Properly scanned, legible files** under strict size limits.
 
-Several prestigious Saudi scholarship programs and universities are currently accepting international applications for the 2026 cycle, with some major deadlines closing on **21 May 2026**.
+Official Study in Saudi portal applications for the 2026 cycle open on **16 September 2026** and close on **6 October 2026**.
 
 Students often realize documentation issues at the final stage when they are:
 - Uploading files to the admission portal
@@ -62,7 +62,7 @@ Students often realize documentation issues at the final stage when they are:
 - Preparing Cultural Attaché or embassy requirements
 - Reviewing official submission checklists
 
-That delay becomes extremely risky when deadlines are only a few days away.
+That delay becomes extremely risky when portal opening dates approach.
 
 > [!IMPORTANT]
 > **Pull Quote:**
@@ -198,7 +198,7 @@ Fortunately, Lisan.pk provides high-quality [online academic translation help](/
 - Process urgent translations remotely without office visits.
 - Review and approve draft files quickly before final submission.
 
-This is especially important with the **21 May** scholarship deadline approaching fast.
+This is especially important to complete *before* the **16 September** portal opening date.
 
 ### Processing Timeline for Scholarship Document Translation
 
@@ -206,7 +206,7 @@ This is especially important with the **21 May** scholarship deadline approachin
 | :--- | :--- | :--- |
 | **Standard Translation** | 2–3 Days | Students preparing supporting letters and certificates |
 | **Urgent Translation** | 24 Hours | Rapid turnaround for Matric/Inter certificates & DMCs |
-| **Same-Day Processing** | Under 12 Hours | Critical corrections for urgent same-day uploads |
+| **Same-Day Processing** | Under 12 Hours | Critical corrections for urgent portal uploads |
 
 ---
 
@@ -214,13 +214,13 @@ This is especially important with the **21 May** scholarship deadline approachin
 
 Students spend months preparing IELTS exams, collecting board certificates, and writing personal statements. Losing a lifetime scholarship opportunity because of translation delays or minor document mistakes is completely avoidable.
 
-With Saudi scholarship deadlines closing on **21 May**, now is the time to organize your documents, review your translations carefully, and prepare professional academic files before submission pressure becomes overwhelming.
+With Saudi scholarship applications opening on **16 September 2026** (and closing **6 October 2026**), now is the time to organize your documents, review your translations carefully, and prepare professional academic files before submission pressure becomes overwhelming.
 
 ### Get Expert Help Today!
 
 Our expert translation team is online to assist you with same-day translations, board certificate reviews, and Saudi portal compatibility checks.
 
-*   **WhatsApp Helpline:** [**0328-8155866**](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20academic%20translation%20for%20my%20bachelor%20scholarship%20documents%20before%20the%2021%20May%20deadline.)
+*   **WhatsApp Helpline:** [**0328-8155866**](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20academic%20translation%20for%20my%20bachelor%20scholarship%20documents%20before%20the%20September%2016%20opening.)
 *   **Get a Free Quote Online:** Submit your files through our **[Contact Form](/contact)**.
 
 ---

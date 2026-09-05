@@ -147,27 +147,30 @@ export function SaudiScholarshipPromo() {
 
                 {/* Bottom CTA Action Bar */}
                 <div className="text-center bg-emerald-950/40 border border-emerald-500/20 p-8 rounded-3xl max-w-4xl mx-auto">
-                    <h3 className="text-xl sm:text-2xl font-bold font-serif text-white mb-3">
-                        Ready to Start Your Saudi University Application?
+                    <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full text-[11px] font-extrabold uppercase tracking-wider mb-3 border border-emerald-500/20">
+                        Interactive Search Tool
+                    </div>
+                    <h3 className="text-xl sm:text-2xl font-bold font-serif text-white mb-2">
+                        FIND YOUR SAUDI SCHOLARSHIP PROGRAM
                     </h3>
                     <p className="text-xs sm:text-sm text-slate-300 mb-6 max-w-2xl mx-auto">
-                        Speak directly with our senior Arabic translation & study abroad documentation experts today.
+                        Search fully funded Bachelor’s, Master’s and PhD programs by university, academic field and gender.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
+                        <Link href="/saudi-scholarships/program-finder">
+                            <Button className="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-8 h-12 rounded-xl text-sm shadow-lg w-full sm:w-auto">
+                                FIND PROGRAMS →
+                            </Button>
+                        </Link>
                         <a
                             href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20consult%20about%20Saudi%20Arabia%20scholarships%20and%20document%20translation."
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <Button className="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-8 h-12 rounded-xl text-sm shadow-lg w-full sm:w-auto">
+                            <Button variant="outline" className="border-slate-700 text-slate-200 hover:bg-slate-800 font-bold px-8 h-12 rounded-xl text-sm w-full sm:w-auto">
                                 Chat on WhatsApp Now
                             </Button>
                         </a>
-                        <Link href="/consultancy/saudi-scholarship">
-                            <Button variant="outline" className="border-slate-700 text-slate-200 hover:bg-slate-800 font-bold px-8 h-12 rounded-xl text-sm w-full sm:w-auto">
-                                View Scholarship Guide
-                            </Button>
-                        </Link>
                     </div>
                 </div>
             </div>
