@@ -27,16 +27,16 @@ howTo:
     - name: "Verify Identity Credentials"
       text: "Ensure the spelling of your name, family name, and date of birth match exactly across your passport, CNIC, and academic records."
     - name: "Submit for Certified Arabic Translation"
-      text: "Send clear high-resolution scans of your documents to Lisan.pk via WhatsApp (+92-328-8155866) to get certified Arabic translations before the September 16 portal opening."
+      text: "Send clear high-resolution scans of your documents to Lisan.pk via WhatsApp (+92-328-8155866) to get certified Arabic translations for upcoming scholarship cycles."
 ---
 
 <div class="bg-emerald-800 text-white py-3 px-4 text-center text-sm font-bold rounded-lg mb-8 shadow-sm">
-  📌 Saudi Scholarship 2026 Update: Applications open **September 16, 2026**. Prepare & translate your Matric/FSc certificates now — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Bachelor%20scholarship%20and%20need%20certified%20Arabic%20translation%20for%20my%20Matric%20and%20Inter%20certificates." class="underline hover:text-emerald-200">WhatsApp Lisan.pk</a>
+  📌 Status Notice: The unified Study in Saudi portal window (Sep 16 – Oct 6) has closed. Government portals are currently closed for new entries. Prepare & translate your Matric/FSc certificates now for the upcoming cycle — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Bachelor%20scholarship%20and%20need%20certified%20Arabic%20translation%20for%20my%20Matric%20and%20Inter%20certificates." class="underline hover:text-emerald-200">WhatsApp Lisan.pk</a>
 </div>
 
 Applying for a fully funded Bachelor's (undergraduate) scholarship in Saudi Arabia offers Pakistani students a tuition-free higher education with monthly stipends and housing. However, documentation mistakes remain the primary reason undergraduate applications get rejected or delayed.
 
-With official **Study in Saudi** portal applications opening on **September 16, 2026**, starting your document review and certified Arabic translation early ensures a seamless submission.
+With the recent unified **Study in Saudi** portal intake now closed, starting your document review and certified Arabic translation early ensures a seamless submission when upcoming application windows open.
 
 This comprehensive guide breaks down the required documents for Bachelor scholarship applications, common mistakes to avoid, and how to prepare your application package correctly.
 

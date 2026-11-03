@@ -10,15 +10,15 @@ export function AnnouncementBar() {
     const announcements = [
         {
             iconText: "🎓",
-            text: "Saudi Scholarship 2026: Applications Open Sep 16 — Prepare Documents Now",
-            linkText: "Get Checklist",
+            text: "Saudi Scholarship 2026: Latest Portal Intake Closed — Advance Document Preparation Active",
+            linkText: "View Requirements",
             href: "/consultancy/saudi-scholarship"
         },
         {
-            iconText: "🇹🇷",
-            text: "Admissions Open: 2026 Foundation & Private Turkey Universities",
-            linkText: "Apply Free",
-            href: "/study-in-turkey"
+            iconText: "🔍",
+            text: "Saudi Fully Funded Scholarship Program Finder 2026/27",
+            linkText: "Find Programs",
+            href: "/saudi-scholarships/program-finder"
         },
         {
             iconText: "%",
@@ -28,15 +28,9 @@ export function AnnouncementBar() {
         },
         {
             iconText: "⏱",
-            text: "Saudi Scholarship Dates 2026: Official Portal Window Sep 16 - Oct 6",
-            linkText: "View Dates",
-            href: "/blog/fully-funded-scholarship-deadlines-saudi-universities-2026"
-        },
-        {
-            iconText: "🎓",
-            text: "Turkey 2026 Intake: Apply Without IELTS Using High School Diploma",
-            linkText: "Learn More",
-            href: "/study-in-turkey"
+            text: "Saudi Scholarship Dates 2026: Latest Portal Intake Closed (Sep 16 - Oct 6) — Next Cycle Updates",
+            linkText: "View Schedule",
+            href: "/blog/saudi-scholarship-complete-roadmap"
         }
     ]
 

@@ -25,7 +25,7 @@ howTo:
       text: "August 30 – September 15: Audit all Urdu educational certificates, CNIC/B-form, and obtain certified Arabic translations."
     - name: "Attestation & Digital Formatting"
       text: "Before September 16: Ensure HEC/IBCC attestations are complete and scan high-resolution PDFs matching portal file size limits."
-    - name: "Portal Opening & Submission"
+    - name: "Portal Submission & Document Upload"
       text: "September 16 – October 6: Log into studyinsaudi.sa, select target universities/programs, upload translated documents, and submit."
 ---
 
@@ -43,12 +43,12 @@ According to official Saudi Ministry of Education specifications on the unified 
 
 | Milestone | Verified Date | Status |
 | :--- | :--- | :--- |
-| **Document Preparation Window** | Current – 15 September 2026 | **ACTIVE: Prepare & Translate Documents** |
-| **Official Application Start** | **16 September 2026** | Portal Opens |
-| **Official Application Closing** | **6 October 2026** | Portal Closes |
+| **Official Application Start** | **16 September 2026** | Intake Opened |
+| **Official Application Closing** | **6 October 2026** | **CLOSED (Concluded)** |
+| **Current Operational Status** | **November 2026 Onwards** | **Government Portals Closed — Post-Submission Tracking & Advance Prep** |
 | **Target Academic Cycle** | 2026 / 2027 Academic Year | Undergraduate & Postgraduate |
 
-> 📌 **Current Status Notice:** Applications for the unified 2026 cycle open on **September 16, 2026**. Students are strongly advised to complete all certified document translations and attestation reviews *before* the portal opens to avoid last-minute submission bottlenecks.
+> 📌 **Current Status Notice (November 2026):** Applications for the unified Study in Saudi 2026 intake closed on **6 October 2026**. Government portals are currently **closed** for new submissions. Students should track existing submitted applications or complete certified document translations and attestations in advance for upcoming cycles.
 
 For complete assistance with application packages, visit our [Saudi Scholarship Consultancy & Application Hub](/consultancy/saudi-scholarship) or browse our complete [Fully Funded Saudi Scholarship Programs 2026/27 Catalogue](/blog/saudi-fully-funded-scholarship-programs-2026).
 
@@ -87,7 +87,7 @@ All translations must be issued by a recognized certified translation company, s
 
 ## Action Plan Before September 16
 
-To ensure your application is submitted on day one of the portal opening:
+To ensure your application is ready whenever portal windows open:
 
 1. **Audit Original Documents:** Ensure spelling of your name, father's name, and date of birth match exactly across your Passport, CNIC, and educational certificates.
 2. **Get Certified Arabic Translations:** Send scanned copies of your original documents to [Lisan.pk Certified Translation Service](/services/translation).

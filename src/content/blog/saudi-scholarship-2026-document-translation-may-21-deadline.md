@@ -23,6 +23,10 @@ howTo:
         text: "Get your certified files via email/WhatsApp within 24 hours, with optional doorstep delivery for hard copies."
 ---
 
+> [!NOTE]
+> **Historical Archive Notice (Portals Closed):**  
+> This article covers the previous May deadline extension. The subsequent unified Study in Saudi cycle (16 September – 6 October 2026) has also concluded, and government portals are currently closed. For current verified scholarship information and advance document preparation, please see our [Saudi Universities Offering Scholarships Guide](/blog/saudi-universities-offering-scholarships) and [Complete Roadmap 2026/27](/blog/saudi-scholarship-complete-roadmap).
+
 
 The clock is ticking for the Saudi scholarship 2026 cycle. With the final submission deadline set for May 21st, thousands of students across Pakistan are rushing to finalize their portals. However, many applicants overlook a critical detail that can lead to immediate rejection: Saudi scholarship 2026 document translation.
 

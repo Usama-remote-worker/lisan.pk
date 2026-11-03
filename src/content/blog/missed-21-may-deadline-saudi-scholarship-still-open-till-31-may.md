@@ -9,6 +9,10 @@ published: true
 tags: ["Saudi Scholarship", "Deadline Extended", "31 May Deadline", "Scholarship 2026", "Arabic Translation Pakistan"]
 ---
 
+> [!NOTE]
+> **Historical Archive Notice (Portals Closed):**  
+> This article covers the previous May deadline extension. The subsequent unified Study in Saudi cycle (16 September – 6 October 2026) has also concluded, and government portals are currently closed. For current verified scholarship information and advance document preparation, please see our [Saudi Universities Offering Scholarships Guide](/blog/saudi-universities-offering-scholarships) and [Complete Roadmap 2026/27](/blog/saudi-scholarship-complete-roadmap).
+
 <div id="cta-top" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-2">⚡ Get Same-Day Certified Arabic Translation</h3>
     <p className="text-emerald-800/70 mb-1">Don't risk portal rejection. Send your documents to Lisan.pk now for 100% embassy-approved translations.</p>

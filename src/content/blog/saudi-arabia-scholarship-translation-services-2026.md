@@ -125,7 +125,7 @@ We keep an updated internal checklist of any formatting tweaks each university p
 ## Urgent Translation Timelines for the 2026 Scholarship Season
 
 The primary unified application window for 2026:
-- **Study in Saudi Unified Portal Opening**: 16 September 2026
+- **Study in Saudi Unified Portal Intake**: 16 September – 6 October 2026 (Closed)
 - **Study in Saudi Portal Closing**: 6 October 2026
 - **Pre-Opening Document Preparation Window**: Active Now – 15 September 2026
 

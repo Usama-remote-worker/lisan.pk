@@ -8,7 +8,11 @@ import { JsonLd } from "@/components/seo/JsonLd"
 import { ServicePackages } from "@/components/home/ServicePackages"
 import { cn } from "@/lib/utils"
 
+import { SAUDI_SCHOLARSHIP_CONFIG } from "@/lib/saudi-config"
+
 export default function ScholarshipPageClient() {
+    const status = SAUDI_SCHOLARSHIP_CONFIG.getStatus()
+
     return (
         <main className="min-h-screen bg-white font-sans text-slate-900">
             <JsonLd
@@ -98,25 +102,25 @@ export default function ScholarshipPageClient() {
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
                 <div className="container mx-auto px-4 relative z-10">
                     <div className="max-w-4xl mx-auto text-center">
-                        <div className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-sm font-semibold text-emerald-800 mb-4 shadow-sm">
-                            <span className="flex h-2 w-2 rounded-full bg-emerald-600 mr-2 animate-pulse"></span>
-                            Saudi Scholarship Applications Open September 16, 2026
+                        <div className="inline-flex items-center rounded-full border border-amber-300 bg-amber-50 px-4 py-1.5 text-sm font-semibold text-amber-900 mb-4 shadow-sm">
+                            <span className="flex h-2 w-2 rounded-full bg-amber-500 mr-2"></span>
+                            Study in Saudi Government Portals Closed — Advance Document Preparation Active
                         </div>
                         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-7xl mb-6 leading-tight">
                             Saudi Arabia Scholarship 2026 – <span className="text-emerald-600">Complete Support Guide</span>
                         </h1>
                         <p className="text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-                            Official Study in Saudi submission period: <strong>16 September – 6 October 2026</strong>. Prepare your certified Arabic translations, document reviews, and program shortlists before applications open.
+                            The official Study in Saudi application intake (16 September – 6 October 2026) has closed. Explore 400+ fully funded degree programs, check university admission requirements, and prepare your certified translations and attestations in advance for upcoming cycles.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20prepare%20my%20documents%20before%20Saudi%20scholarship%20applications%20open." target="_blank">
-                                <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-10 h-16 text-lg shadow-xl">
-                                    Prepare Documents Before Applications Open
+                            <Link href="/saudi-scholarships/program-finder">
+                                <Button size="lg" className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white px-10 h-16 text-lg font-extrabold shadow-xl rounded-2xl">
+                                    FIND FULLY FUNDED PROGRAMS →
                                 </Button>
                             </Link>
-                            <Link href="/services">
-                                <Button variant="outline" size="lg" className="border-slate-300 text-slate-700 hover:bg-white px-10 h-16 text-lg">
-                                    Our Services
+                            <Link href="#support">
+                                <Button variant="outline" size="lg" className="w-full sm:w-auto border-slate-300 text-slate-800 hover:bg-white px-10 h-16 text-lg font-bold rounded-2xl">
+                                    GET COMPLETE APPLICATION SUPPORT
                                 </Button>
                             </Link>
                         </div>
@@ -340,9 +344,20 @@ export default function ScholarshipPageClient() {
                             <div className="w-16 h-16 bg-emerald-50 text-emerald-700 rounded-3xl flex items-center justify-center font-black text-3xl shrink-0">✓</div>
                             <h2 className="text-3xl font-bold text-slate-900">How Lisan Can Help You (Our Consultancy)</h2>
                         </div>
-                        <p className="text-lg text-slate-600 mb-10 leading-relaxed">
+                        <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                             At Lisan.pk, we provide independent certified translation, document review, and application-support services for <strong>Pakistani students applying for Saudi scholarships</strong>. We assist Bachelor, Master, and PhD applicants through two structured service levels:
                         </p>
+                        <div className="mb-10 p-6 bg-slate-900 text-white rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg border border-slate-800 font-sans">
+                            <div>
+                                <h3 className="font-bold text-lg text-white font-serif">Not sure which degree matches your profile?</h3>
+                                <p className="text-slate-300 text-xs mt-0.5">Search 400+ fully funded programs by university, academic field & gender.</p>
+                            </div>
+                            <Link href="/saudi-scholarships/program-finder" className="shrink-0 w-full sm:w-auto">
+                                <Button className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-xs uppercase px-6 py-3 rounded-xl shadow-md">
+                                    FIND YOUR PROGRAM FIRST →
+                                </Button>
+                            </Link>
+                        </div>
                         <div className="grid md:grid-cols-2 gap-8 mb-12">
                             <div className="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100 space-y-4">
                                 <span className="inline-block bg-emerald-100 text-emerald-800 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">Package 1</span>
@@ -409,6 +424,9 @@ export default function ScholarshipPageClient() {
                     <div className="mt-12 text-center p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
                         <p className="text-emerald-900 font-semibold mb-3">Explore our complete 2026/27 Saudi Scholarship authority guides and roadmap:</p>
                         <div className="flex flex-wrap justify-center gap-3 text-sm">
+                            <Link href="/saudi-scholarships/program-finder" className="text-emerald-900 font-extrabold hover:underline bg-emerald-200 px-4 py-2 rounded-xl border border-emerald-300 shadow-sm">
+                                🔍 SEARCH FULLY FUNDED PROGRAMS
+                            </Link>
                             <Link href="/blog/saudi-scholarship-complete-roadmap" className="text-emerald-800 font-bold hover:underline bg-white px-4 py-2 rounded-xl border border-emerald-200 shadow-sm">
                                 🗺️ Complete Saudi Scholarship Roadmap 2026/27
                             </Link>

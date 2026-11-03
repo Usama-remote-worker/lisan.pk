@@ -27,16 +27,16 @@ howTo:
     - name: "Format Research and Supporting Papers"
       text: "Ensure your Research Proposal, SOP, CV, and recommendation letters use standardized academic layouts and consistent spelling."
     - name: "Obtain Certified Arabic Translations"
-      text: "Send clear high-resolution PDFs to Lisan.pk via WhatsApp (+92-328-8155866) to receive certified Arabic translations before the September 16 portal opening."
+      text: "Send clear high-resolution PDFs to Lisan.pk via WhatsApp (+92-328-8155866) to receive certified Arabic translations for upcoming scholarship cycles."
 ---
 
 <div class="bg-emerald-800 text-white py-3 px-4 text-center text-sm font-bold rounded-lg mb-8 shadow-sm">
-  📌 Saudi Graduate Scholarship 2026 Update: Applications open **September 16, 2026**. Prepare & translate your Degree, Transcripts & HEC documents now — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Master's%20scholarship%20and%20need%20certified%20Arabic%20translation%20for%20my%20degree%20and%20transcripts." class="underline hover:text-emerald-200">WhatsApp Lisan.pk</a>
+  📌 Status Notice: The unified Study in Saudi portal window (Sep 16 – Oct 6) has closed. Government portals are currently closed for new entries. Prepare & translate your Degree, Transcripts & HEC documents now for the upcoming cycle — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I'm%20applying%20for%20a%20Master's%20scholarship%20and%20need%20certified%20Arabic%20translation%20for%20my%20degree%20and%20transcripts." class="underline hover:text-emerald-200">WhatsApp Lisan.pk</a>
 </div>
 
 Applying for a Master's or PhD scholarship in Saudi Arabia allows Pakistani graduates to pursue advanced studies with full financial coverage, stipends, and research facilities. However, graduate admissions demand more specialized document preparation than undergraduate entries.
 
-With official **Study in Saudi** portal applications opening on **September 16, 2026**, starting your graduate document preparation early prevents last-minute technical bottlenecks.
+With the recent unified **Study in Saudi** portal intake now closed, starting your graduate document preparation early prevents last-minute technical bottlenecks when upcoming application windows open.
 
 This guide outlines the complete Master's scholarship document checklist, translation guidelines, and document verification rules for Pakistani applicants.
 

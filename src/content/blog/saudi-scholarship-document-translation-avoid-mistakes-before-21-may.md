@@ -30,6 +30,10 @@ howTo:
       text: "Send your PDF files to Lisan.pk via WhatsApp (+92-328-8155866) for rapid, certified Arabic translation featuring official seals and stamps required by Saudi portals."
 ---
 
+> [!NOTE]
+> **Historical Archive Notice (Portals Closed):**  
+> This article covers the previous May deadline extension. The subsequent unified Study in Saudi cycle (16 September – 6 October 2026) has also concluded, and government portals are currently closed. For current verified scholarship information and advance document preparation, please see our [Saudi Universities Offering Scholarships Guide](/blog/saudi-universities-offering-scholarships) and [Complete Roadmap 2026/27](/blog/saudi-scholarship-complete-roadmap).
+
 <div class="bg-amber-500 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
   🚨 Only 9 Days Left Before May 21 Deadline! Get Saudi-Approved Translation in 24 Hours — <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20urgent%20Arabic%20translation%20for%20my%20Saudi%20scholarship%20documents%20before%20the%2021%20May%20deadline." class="underline hover:text-white">WhatsApp Now</a>
 </div>

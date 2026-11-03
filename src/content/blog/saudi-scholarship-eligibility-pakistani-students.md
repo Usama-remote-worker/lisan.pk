@@ -51,7 +51,7 @@ Your eligibility can depend on:
 
 The Saudi Ministry of Education's general guidance for international scholarship students sets broad admission conditions, while individual universities may apply additional requirements to particular programs.
 
-> **2026/27 Application Update:** LISAN.PK is tracking the announced Study in Saudi application window as **16 September 2026 to 6 October 2026**. Refer to our verified [Saudi Arabia Scholarship Dates & Deadlines 2026 Guide](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026) for timeline tracking. Applicants should confirm live dates on the official Study in Saudi portal when applications open.
+> **2026/27 Application Status Update:** The unified Study in Saudi application window (16 September to 6 October 2026) has now **closed** and government portals are closed for new entries. Students should verify their eligibility, prepare certified Arabic translations, and complete attestations in advance for upcoming cycles.
 
 If you are planning to apply, the best time to check your eligibility and prepare your documents is **before 16 September**, not during the final days of the application period. For direct assistance, explore our [Saudi Arabia Scholarship Consultancy & Profile Review Service](/consultancy/saudi-scholarship).
 
@@ -105,7 +105,7 @@ A valid passport is an important part of the international admission and educati
 
 ---
 
-## Want Your Eligibility Checked Before Applications Open?
+## Want Your Eligibility Checked for Upcoming Intakes?
 
 Send us your profile details for one-on-one evaluation:
 
