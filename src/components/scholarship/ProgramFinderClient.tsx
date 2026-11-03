@@ -29,6 +29,7 @@ import {
   SCHOLARSHIP_ACADEMIC_FIELDS
 } from "@/data/saudi-scholarship-programs"
 import { LisanTrustSection } from "@/components/trust/LisanTrustSection"
+import { trackLeadEvent } from "@/lib/analytics"
 
 export function ProgramFinderClient() {
   // Public verified dataset (423 records)
@@ -144,6 +145,7 @@ export function ProgramFinderClient() {
   const handleProfileSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     trackEvent("saudi_profile_check_submit", { ...profileForm })
+    trackLeadEvent("form", { form_name: "saudi_profile_check" })
 
     const msg = `*NEW SCHOLARSHIP PROFILE EVALUATION REQUEST*%0A%0A` +
       `*Name:* ${encodeURIComponent(profileForm.name)}%0A` +

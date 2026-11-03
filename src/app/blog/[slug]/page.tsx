@@ -120,12 +120,6 @@ export default async function BlogPostPage({ params }: Props) {
                 />
             )}
             
-            {isScholarshipPillar && (
-                <div className="bg-amber-500 text-white py-3 text-center text-sm font-bold animate-pulse">
-                    ⚠️ 2026 Applications Closing Soon. Is your translation ready? 
-                    <Link href="#cta" className="ml-2 underline hover:text-white">Get Priority Help →</Link>
-                </div>
-            )}
 
             <PageHero
                 title={post.title}

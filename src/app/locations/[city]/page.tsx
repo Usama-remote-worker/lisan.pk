@@ -243,8 +243,14 @@ export default async function LocationPage({ params }: PageProps) {
                                         </p>
                                     </div>
                                 ) : (
-                                    <div className="mb-10 p-6 bg-amber-50/50 border border-amber-200/50 rounded-2xl text-amber-900 text-sm italic font-mono">
-                                        {"{{TODO: unique local content needed}}"}
+                                    <div className="mb-10 p-8 bg-emerald-950 rounded-[2.5rem] text-white relative overflow-hidden group">
+                                        <p className="text-emerald-400 font-bold mb-3 uppercase tracking-widest text-xs flex items-center gap-2">
+                                            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                            {cityData.name} Regional Coverage & Logistics
+                                        </p>
+                                        <p className="text-white text-lg font-medium leading-relaxed relative z-10">
+                                            Our {cityData.name} service network provides priority document pickup, certified multilingual translation, and direct coordination with MOFA, IBCC, HEC, and embassy offices with expedited doorstep delivery across the region.
+                                        </p>
                                     </div>
                                 )}
 

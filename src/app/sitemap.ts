@@ -38,6 +38,8 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/directory':                                                 '2026-06-15',
     '/english-to-indonesian-translators':                         '2026-06-15',
     '/english-to-spanish-translation-services':                   '2026-06-17',
+    '/privacy-policy':                                            '2026-11-03',
+    '/terms-of-service':                                          '2026-11-03',
     '/locations':                                                 '2026-05-24',
     '/services':                                                  '2026-06-15',
     '/services/attestation':                                      '2026-06-15',

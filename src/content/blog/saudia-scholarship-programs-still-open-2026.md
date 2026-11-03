@@ -9,6 +9,11 @@ published: true
 tags: ["Saudi Scholarship", "Apply Now", "Fully Funded", "2026 Deadlines", "Study in Saudi"]
 ---
 
+> [!IMPORTANT]
+> **Admissions Cycle Status & Archive Notice:**  
+> The May 2026 application windows and the subsequent Study in Saudi portal cycle (16 September – 6 October 2026) have concluded. Government portals are currently closed. For current verified application dates, semester timelines, and advance document preparation, please see our [KSU & KAU 2027 Admission Deadlines Guide](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027) and [Complete Saudi Scholarship Roadmap](/blog/saudi-scholarship-complete-roadmap).
+
+
 If you’re searching for a **Saudia Scholarship Program in 2026**, you might worry that you’ve already missed the boat. Many programs set their deadlines between January and March, and it’s true — several have closed. 
 
 But here’s the good news: **two of the most prestigious, fully funded opportunities are still accepting applications**, and their final deadline is just 20 days away on **May 21, 2026**.

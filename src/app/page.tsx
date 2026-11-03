@@ -10,7 +10,6 @@ const DocumentTranslationGrid = dynamic(() => import("@/components/home/Document
 const B2BTravelSection = dynamic(() => import("@/components/home/B2BTravelSection").then(mod => mod.B2BTravelSection))
 const AttestationList = dynamic(() => import("@/components/home/AttestationList").then(mod => mod.AttestationList))
 const SaudiScholarshipPromo = dynamic(() => import("@/components/home/SaudiScholarshipPromo").then(mod => mod.SaudiScholarshipPromo))
-const StudyAbroadPromo = dynamic(() => import("@/components/home/StudyAbroadPromo").then(mod => mod.StudyAbroadPromo))
 const TestimonialSection = dynamic(() => import("@/components/home/TestimonialSection").then(mod => mod.TestimonialSection))
 const FaqSection = dynamic(() => import("@/components/home/FaqSection").then(mod => mod.FaqSection))
 const BlogPreview = dynamic(() => import("@/components/home/BlogPreview").then(mod => mod.BlogPreview))
@@ -96,9 +95,6 @@ export default async function Home() {
 
       {/* Premium Saudi Arabia Fully Funded Scholarship Promo */}
       <SaudiScholarshipPromo />
-
-      {/* Premium Study Abroad Turkey Section */}
-      <StudyAbroadPromo />
 
       <LocationGrid />
       <TestimonialSection />

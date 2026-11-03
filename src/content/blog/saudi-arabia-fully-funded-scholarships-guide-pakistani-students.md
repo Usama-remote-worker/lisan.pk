@@ -1,7 +1,7 @@
 ---
-title: "Saudi Scholarship 2026 (Apply Now) | Fully Funded Guide for Pakistanis"
+title: "Saudi Scholarships for Pakistani Students 2026/27: Fully Funded Guide"
 date: "2026-04-28"
-summary: "Don't get rejected! Download the 2026 Saudi Scholarship document checklist. Certified Arabic translation & HEC attestation services with a 100% acceptance guarantee. Start your application today."
+summary: "Don't get rejected! Download the 2026 Saudi Scholarship document checklist. Certified Arabic translation & HEC attestation services with a certified compliance support. Start your application today."
 category: "Scholarship Guides"
 author: "Lisan.pk Editorial Team"
 readingTime: "6 min"
@@ -9,12 +9,16 @@ published: true
 tags: ["Saudi Scholarship", "Study Abroad", "Fully Funded", "Pakistani Students", "Document Translation"]
 ---
 
+> [!IMPORTANT]
+> **2026/27 Admission Cycle Status:** The official Study in Saudi application intake (16 September – 6 October 2026) has closed. Second semester classes begin January 2027. Pakistani students should prepare academic records, certified Arabic translations, and attestations in advance for upcoming intake announcements. Check our verified [KSU & KAU 2027 Admission Deadlines Guide](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027) for confirmed dates.
+
+
 <div id="cta" className="bg-emerald-50 border-2 border-emerald-100 p-8 rounded-3xl text-center my-12 shadow-sm">
     <h3 className="text-2xl font-bold text-emerald-900 mb-4">📥 Download: The 7-Step Document Checklist for Saudi Scholarships (PDF)</h3>
     <p className="text-emerald-800/70 mb-6">Get the exact list of required documents, attestation steps, and translation standards required by Saudi universities.</p>
     <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20the%20Scholarship%20Document%20Checklist%20PDF." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Get the Checklist via WhatsApp</a>
     <div className="mt-4 flex items-center justify-center gap-2 text-emerald-600 font-bold text-sm">
-        <span>✅ 100% Acceptance Guarantee</span>
+        <span>✅ Certified Compliance Support</span>
         <span>•</span>
         <span>✅ Embassy Certified</span>
     </div>

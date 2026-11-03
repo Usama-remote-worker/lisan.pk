@@ -29,9 +29,10 @@ howTo:
       text: "The translated documents are delivered before the deadline."
 ---
 
-<div className="bg-red-600 text-white py-3 px-4 text-center text-sm font-bold animate-pulse rounded-lg mb-8 shadow-sm">
-  Deadline Approaching! Need Translation Before May 21st? <a href="https://wa.me/923288155866" className="underline hover:text-red-100">WhatsApp Now: 0328-8155866</a>
-</div>
+> [!IMPORTANT]
+> **Admissions Cycle Status & Archive Notice:**  
+> The May 2026 application windows and the subsequent Study in Saudi portal cycle (16 September – 6 October 2026) have concluded. Government portals are currently closed. For current verified application dates, semester timelines, and advance document preparation, please see our [KSU & KAU 2027 Admission Deadlines Guide](/blog/upcoming-deadlines-ksu-kau-2026-spring-2027) and [Complete Saudi Scholarship Roadmap](/blog/saudi-scholarship-complete-roadmap).
+
 
 If you’re applying for a Saudi scholarship in 2026, you’re already in the final stretch.
 

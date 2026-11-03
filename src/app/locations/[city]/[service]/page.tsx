@@ -221,8 +221,14 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                             </p>
                                         </div>
                                     ) : (
-                                        <div className="p-6 bg-amber-50/50 border border-amber-200/50 rounded-2xl text-amber-900 text-sm italic font-mono">
-                                            {"{{TODO: unique local content needed}}"}
+                                        <div className="p-8 bg-emerald-950 rounded-[2.5rem] text-white relative overflow-hidden group">
+                                            <p className="text-emerald-400 font-bold mb-3 uppercase tracking-widest text-xs flex items-center gap-2">
+                                                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                                {cityData.name} Regional Coverage & Logistics
+                                            </p>
+                                            <p className="text-white text-lg font-medium leading-relaxed relative z-10">
+                                                Our {cityData.name} service network provides priority document pickup, certified multilingual translation, and direct coordination with MOFA, IBCC, HEC, and embassy offices with expedited doorstep delivery across the region.
+                                            </p>
                                         </div>
                                     )
                                 )}
@@ -430,7 +436,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                         Saudi Scholarship 2026 Guide
                                         <span className="text-emerald-400">→</span>
                                     </Link>
-                                    <Link href="/blog/fully-funded-scholarship-deadlines-saudi-universities-2026" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
+                                    <Link href="/blog/upcoming-deadlines-ksu-kau-2026-spring-2027" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
                                         KSU & KAU Deadlines
                                         <span className="text-emerald-400">→</span>
                                     </Link>

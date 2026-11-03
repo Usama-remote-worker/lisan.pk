@@ -16,14 +16,18 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 
 export function FloatingActions() {
     const pathname = usePathname()
-    const isScholarshipPage = pathname?.includes('scholarship')
+    const isScholarshipRoute = 
+        pathname?.startsWith('/blog') ||
+        pathname?.startsWith('/scholarships') ||
+        pathname?.startsWith('/saudi-scholarships') ||
+        pathname === '/consultancy/saudi-scholarship'
     
     return (
         <>
             {/* Desktop Floating Button */}
             <div className="fixed bottom-8 right-8 z-50 hidden md:flex flex-col gap-4">
                 <a
-                    href={`https://wa.me/923288155866?text=${isScholarshipPage ? "Hi Lisan.pk, I need help with my Saudi Scholarship document translation." : "Hi Lisan.pk, I visited your website and I am interested in your translation services."}`}
+                    href={`https://wa.me/923288155866?text=${isScholarshipRoute ? "Hi Lisan.pk, I need help with my Saudi Scholarship document translation." : "Hi Lisan.pk, I visited your website and I am interested in your translation services."}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     id="gtm-wa-float-desktop"
@@ -31,9 +35,11 @@ export function FloatingActions() {
                     aria-label="Chat on WhatsApp"
                 >
                     <WhatsAppIcon className="h-10 w-10" />
-                    <span className="absolute right-full mr-4 bg-slate-900 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none font-sans">
-                        {isScholarshipPage ? "Scholarship Help" : "Chat with Expert"}
-                    </span>
+                    {isScholarshipRoute && (
+                        <span className="absolute right-full mr-4 bg-slate-900 text-white text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none font-sans shadow-lg border border-slate-800">
+                            Scholarship Help
+                        </span>
+                    )}
                 </a>
             </div>
 

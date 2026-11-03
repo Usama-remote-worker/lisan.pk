@@ -5,6 +5,7 @@ import { trackLeadEvent } from "@/lib/analytics";
 
 export function AnalyticsTracker() {
   useEffect(() => {
+    // 1. Global Click Tracking (WhatsApp, Phone, Quote)
     const handleGlobalClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement | null;
       if (!target) return;
@@ -12,7 +13,7 @@ export function AnalyticsTracker() {
       const element = target.closest("a, button, [data-lead], [id]") as HTMLElement | null;
       if (!element) return;
 
-      // 1. Explicit data-lead attribute check
+      // Check explicit data-lead attribute
       const leadAttr = element.getAttribute("data-lead");
       if (leadAttr === "quote") {
         trackLeadEvent("quote");
@@ -27,7 +28,7 @@ export function AnalyticsTracker() {
         return;
       }
 
-      // 2. ID-based check
+      // Check Element ID
       const id = (element.id || "").toLowerCase();
       if (id.includes("wa-") || id.includes("whatsapp")) {
         trackLeadEvent("whatsapp");
@@ -42,7 +43,7 @@ export function AnalyticsTracker() {
         return;
       }
 
-      // 3. Anchor Href check
+      // Check Anchor Href
       const anchor = target.closest("a") as HTMLAnchorElement | null;
       if (anchor) {
         const href = (anchor.getAttribute("href") || anchor.href || "").toLowerCase();
@@ -67,7 +68,7 @@ export function AnalyticsTracker() {
         }
       }
 
-      // 4. Text content fallback check
+      // Check Text Content Fallback
       const text = (element.textContent || "").trim().toLowerCase();
       if (text.includes("whatsapp")) {
         trackLeadEvent("whatsapp");
@@ -77,16 +78,31 @@ export function AnalyticsTracker() {
         trackLeadEvent("quote");
         return;
       }
-      if (text === "call" || text.includes("call us") || text.includes("call now")) {
+      if (
+        text === "call" ||
+        text.includes("call us") ||
+        text.includes("call now") ||
+        text.includes("0304 4296295") ||
+        text.includes("0328 8155866") ||
+        text.includes("0300 5008586")
+      ) {
         trackLeadEvent("phone");
         return;
       }
     };
 
-    // Attach in capturing phase to fire event immediately upon click
+    // 2. Global Form Submission Tracking
+    const handleGlobalSubmit = (_e: Event) => {
+      trackLeadEvent("form");
+    };
+
+    // Attach in capturing phase to fire immediately upon click or submission
     document.addEventListener("click", handleGlobalClick, true);
+    document.addEventListener("submit", handleGlobalSubmit, true);
+
     return () => {
       document.removeEventListener("click", handleGlobalClick, true);
+      document.removeEventListener("submit", handleGlobalSubmit, true);
     };
   }, []);
 

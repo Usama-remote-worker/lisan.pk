@@ -82,7 +82,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Google Tag Manager */}
-        <Script id="gtm-script" strategy="lazyOnload">
+        <Script id="gtm-script" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -94,15 +94,17 @@ export default function RootLayout({
         {/* End Google Tag Manager */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-TK7C4ZDDRT"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="lazyOnload">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+            window.gtag = function(){window.dataLayer.push(arguments);};
+            window.gtag('js', new Date());
 
-            gtag('config', 'G-TK7C4ZDDRT');
+            window.gtag('config', 'G-TK7C4ZDDRT', {
+              send_page_view: true
+            });
           `}
         </Script>
       </head>

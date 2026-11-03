@@ -233,8 +233,8 @@ export function Footer() {
                     <div className="mt-8 pt-6 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 font-sans">
                         <p>&copy; {new Date().getFullYear()} Lisan.pk. All rights reserved. Multilingual translation services in 100+ languages worldwide.</p>
                         <div className="flex gap-6 font-semibold">
-                            <Link href="/services/translation/certified-translation" className="hover:text-emerald-700 transition-colors">Terms of Service</Link>
-                            <Link href="/about" className="hover:text-emerald-700 transition-colors">Privacy Policy</Link>
+                            <Link href="/terms-of-service" className="hover:text-emerald-700 transition-colors">Terms of Service</Link>
+                            <Link href="/privacy-policy" className="hover:text-emerald-700 transition-colors">Privacy Policy</Link>
                         </div>
                     </div>
                 </div>

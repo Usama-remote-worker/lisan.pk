@@ -25,9 +25,10 @@ export function Header() {
             label: "Study Abroad", 
             children: [
                 { label: "Saudi Arabia Scholarships", href: "/consultancy/saudi-scholarship" },
-                { label: "Study in Turkey", href: "/study-in-turkey" }
+                { label: "Saudi Program Finder", href: "/saudi-scholarships/program-finder" }
             ]
         },
+        { label: "Program Finder", href: "/saudi-scholarships/program-finder" },
         { label: "Blog", href: "/blog" },
         { label: "Contact", href: "/contact" }
     ]

@@ -108,7 +108,7 @@ Applications are submitted through the official KAU website (scholarships.kau.ed
         faqs: [
             {
                 q: "What is the deadline for King Abdulaziz University scholarship 2026?",
-                a: "KAU scholarship deadlines vary by program and level of study. Generally, the annual scholarship cycle closes between April and June. Pakistani students should monitor the official KAU portal (scholarships.kau.edu.sa) and the Study in Saudi Arabia platform for the exact 2026 closing date. It is strongly advised to complete your document translation and HEC attestation at least 4 weeks before any advertised deadline."
+                a: "KAU scholarship deadlines vary by program and level of study. For the officially announced 2026/27 second-semester cycle, the application window closed on 6 October 2026. The second semester begins on 17 January 2027. Pakistani students should prepare academic records, certified Arabic translations, and attestations in advance for upcoming intake announcements on the official KAU portal (scholarships.kau.edu.sa) and Study in Saudi platform."
             },
             {
                 q: "Can Pakistani students apply for KAU scholarship for a Master's degree?",
