@@ -64,11 +64,15 @@ const faqData = [
   },
   {
     q: "How much does certified Nikah Nama translation cost in Pakistan?",
-    a: "Pricing is transparent and based on document format and script density. Standard single-page Nikah Nama or NADRA MRC translation ranges from PKR 1,500 to PKR 2,500. A complete four-page traditional Urdu Nikah Nama booklet ranges from PKR 2,800 to PKR 4,000. Express same-day service is available for urgent submissions."
+    a: "Pricing is transparent and based on document format and script density. Standard single-page Nikah Nama or NADRA MRC translation ranges from PKR 1,500 to PKR 2,200. A complete four-page traditional Urdu Nikah Nama booklet ranges from PKR 2,500 to PKR 3,800. For official Notary Public attestation, an additional PKR 500 notary charge is included/applicable to provide legal advocate seals and official notary registration."
   },
   {
-    q: "What is the standard turnaround time for translation delivery?",
-    a: "Standard delivery is 24 to 48 hours for complete certified translations in high-resolution PDF format. Same-day urgent processing (6 to 12 hours) is available upon request. Physical hard copies with embossed wet stamps and signatures can be dispatched via TCS or Leopard courier nationwide."
+    q: "What is the turnaround time for digital and physical translation delivery?",
+    a: "Digital delivery can be completed within hours. You receive a certified high-resolution PDF with official digital seals via WhatsApp or email. Physical express delivery of stamped and signed hard copies takes 48 or more hours to reach your address anywhere in Pakistan via trackable TCS or Leopard courier."
+  },
+  {
+    q: "What specific information is included on the Certificate of Accuracy as per embassy requirements?",
+    a: "Every Nikah Nama translation strictly includes the mandatory certification elements required by UKVI, USCIS, and foreign embassies: 1) a formal Statement of Accuracy certifying complete fidelity to the original Urdu document, 2) the translator's full legal name and professional qualifications, 3) the exact date of translation, and 4) full agency contact details, phone number, and physical office address."
   },
   {
     q: "Where can I get certified Nikah Nama translation near me in Pakistan?",
@@ -231,19 +235,19 @@ export default function NikahNamaTranslationPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs text-slate-300">
             <div className="bg-white/5 border border-white/10 rounded-xl p-3 flex items-center gap-2.5">
               <Check className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>Signed Certificate of Accuracy</span>
+              <span>Full Certificate of Accuracy</span>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3 flex items-center gap-2.5">
               <Check className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>All 25 Legal Clauses Transcribed</span>
+              <span>Digital Delivery in Hours</span>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3 flex items-center gap-2.5">
               <Check className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>Passport Name-Spellings Aligned</span>
+              <span>Courier Delivery: 48+ Hours</span>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-xl p-3 flex items-center gap-2.5">
               <Check className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>24–48h Standard Delivery</span>
+              <span>Notary Certification (+PKR 500)</span>
             </div>
           </div>
         </div>
@@ -483,8 +487,39 @@ export default function NikahNamaTranslationPage() {
                 </div>
               </div>
 
+              {/* Embassy Mandated Certificate Elements Card */}
+              <div className="p-6 bg-slate-900 text-white rounded-2xl border border-emerald-500/30 my-6">
+                <div className="flex items-center gap-2 text-emerald-400 font-bold text-xs uppercase tracking-wider mb-3">
+                  <ShieldCheck className="w-4 h-4" /> Embassy-Mandated Certification Package
+                </div>
+                <h3 className="font-bold text-lg font-serif mb-2">
+                  What Every Nikah Nama Translation Must Include (As Per Official Embassy Rules)
+                </h3>
+                <p className="text-xs text-slate-300 leading-relaxed mb-4">
+                  To prevent visa rejection or Requests for Evidence (RFEs), foreign embassies (including UKVI and USCIS 8 CFR 103.2(b)(3)) mandate that marriage translations strictly contain the following four certified elements:
+                </p>
+                <div className="grid sm:grid-cols-2 gap-3 text-xs">
+                  <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                    <strong className="text-emerald-300 block mb-1">1. Formal Statement of Accuracy:</strong>
+                    A signed legal declaration attesting that the English/Arabic rendering is a true, faithful, and accurate translation of the original Urdu record.
+                  </div>
+                  <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                    <strong className="text-emerald-300 block mb-1">2. Translator&apos;s Full Legal Name:</strong>
+                    The full name and verified linguistic credentials of the professional translator who executed the translation.
+                  </div>
+                  <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                    <strong className="text-emerald-300 block mb-1">3. Exact Date of Translation:</strong>
+                    The official date on which the translation was certified and stamped for consular tracking.
+                  </div>
+                  <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                    <strong className="text-emerald-300 block mb-1">4. Verifiable Contact Details:</strong>
+                    Complete physical office address, phone numbers, and official email of the translation agency for embassy authentication checks.
+                  </div>
+                </div>
+              </div>
+
               <p className="leading-relaxed text-xs sm:text-sm text-slate-500 italic">
-                *LISAN.PK produces translations meeting all specific criteria mandated by USCIS and UKVI. We do not claim universal acceptance or official government endorsement, as final decision-making power rests solely with immigration caseworkers.
+                *LISAN.PK provides all four statutory elements on official letterhead with serialized authentication seals. We do not claim universal acceptance or official government endorsement, as final decision-making power rests solely with immigration caseworkers.
               </p>
             </section>
 
@@ -600,10 +635,10 @@ export default function NikahNamaTranslationPage() {
             {/* Section 10: Pricing & Turnaround */}
             <section className="bg-white p-8 rounded-3xl border border-slate-200/80 shadow-sm">
               <h2 className="text-2xl sm:text-3xl font-bold font-serif text-slate-900 mb-4">
-                10. Pricing & Turnaround Times (Transparent Rates)
+                10. Pricing, Notary Charges & Turnaround Times (Verified Business Information)
               </h2>
               <p className="leading-relaxed mb-6 text-sm sm:text-base">
-                We provide honest, fixed-quote pricing with zero hidden surcharges based on genuine document volume and turnaround needs:
+                We maintain complete transparency in our pricing structure, courier logistics, and legal attestation fees:
               </p>
 
               <div className="grid sm:grid-cols-3 gap-4 mb-6">
@@ -617,7 +652,7 @@ export default function NikahNamaTranslationPage() {
                   </div>
                   <div className="mt-4 pt-4 border-t border-slate-200">
                     <span className="text-xl font-black text-slate-900">PKR 1,500 – 2,200</span>
-                    <p className="text-[11px] text-slate-500 mt-1">Standard: 24–48 Hours</p>
+                    <p className="text-[11px] text-slate-500 mt-1">Digital Delivery: Within Hours</p>
                   </div>
                 </div>
 
@@ -634,7 +669,7 @@ export default function NikahNamaTranslationPage() {
                   </div>
                   <div className="mt-4 pt-4 border-t border-emerald-200/60">
                     <span className="text-xl font-black text-slate-900">PKR 2,500 – 3,800</span>
-                    <p className="text-[11px] text-slate-500 mt-1">Standard: 24–48 Hours</p>
+                    <p className="text-[11px] text-slate-500 mt-1">Digital Delivery: Within Hours</p>
                   </div>
                 </div>
 
@@ -648,14 +683,37 @@ export default function NikahNamaTranslationPage() {
                   </div>
                   <div className="mt-4 pt-4 border-t border-slate-200">
                     <span className="text-xl font-black text-slate-900">PKR 3,500 – 5,000</span>
-                    <p className="text-[11px] text-slate-500 mt-1">Standard: 24–48 Hours</p>
+                    <p className="text-[11px] text-slate-500 mt-1">Digital Delivery: Within Hours</p>
                   </div>
                 </div>
               </div>
 
-              <div className="p-4 bg-slate-100 rounded-xl text-xs text-slate-600 space-y-1">
-                <p>⚡ <strong>Same-Day Urgent Delivery:</strong> Available for time-sensitive embassy appointments (6–12 hour dispatch; additional fee applies).</p>
-                <p>📦 <strong>Courier Shipping:</strong> Physical stamped hard copies couriered via TCS/Leopard across Pakistan (standard courier fee applies).</p>
+              {/* Critical Turnaround and Fee Highlights */}
+              <div className="space-y-3 mb-4 text-xs sm:text-sm">
+                <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-2xl flex items-start gap-3">
+                  <Clock className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-emerald-950 block mb-1">
+                      Digital Delivery vs. Express Physical Delivery Timelines:
+                    </strong>
+                    <ul className="list-disc pl-4 space-y-1 text-emerald-900/90 text-xs sm:text-sm">
+                      <li><strong>Digital Delivery:</strong> Can be completed in just a few hours. High-resolution certified PDF with digital stamp and Statement of Accuracy delivered directly via WhatsApp or email.</li>
+                      <li><strong>Physical Courier Delivery:</strong> Express delivery of physical hard copies with embossed wet stamps takes <strong>48 or more hours</strong> to reach your address via TCS or Leopard courier nationwide.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-amber-50 border border-amber-200 rounded-2xl flex items-start gap-3">
+                  <Scale className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-amber-950 block mb-1">
+                      Notary Public Attestation (+PKR 500 Included / Applicable):
+                    </strong>
+                    <p className="text-amber-900/90 text-xs sm:text-sm">
+                      For legal court submissions, foreign apostille, or specific consular verification, an <strong>additional PKR 500 notary charge</strong> is included / added for official Notary Public certification, legal advocate endorsement, and official government registry stamping.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
 
@@ -816,19 +874,23 @@ export default function NikahNamaTranslationPage() {
               <div className="border-t border-slate-100 pt-5 space-y-3 text-xs text-slate-600">
                 <div className="flex items-center gap-2.5">
                   <Check className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>MA Arabic & Legal Linguists</span>
+                  <span>Digital Delivery in Hours</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Check className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Authorized Certificate of Accuracy</span>
+                  <span>Physical Delivery: 48+ Hours</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Check className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Strict Data Privacy & Confidentiality</span>
+                  <span>Statement of Accuracy + Translator Name</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Check className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Nationwide Courier Dispatch</span>
+                  <span>Translation Date & Contact Details</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <Check className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <span>Notary Charges: +PKR 500 Included</span>
                 </div>
               </div>
 
