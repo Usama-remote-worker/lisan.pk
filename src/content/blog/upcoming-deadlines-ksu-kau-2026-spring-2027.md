@@ -1,143 +1,239 @@
 ---
-title: "Upcoming Deadlines for King Saud and King Abdulaziz University 2026 (Spring 2027 Intake)"
+title: "KSU & KAU 2027 Admission Deadlines: Official Updates"
 date: "2026-05-02"
-summary: "Circle these dates on your calendar. If you missed the Fall 2026 window for KSU and KAU, your target is now the Spring 2027 semester. Here is the full schedule."
+modifiedDate: "2026-11-03"
+updated: "2026-11-03"
+summary: "Check confirmed King Saud and King Abdulaziz University 2027 semester dates, the closed 2026 Saudi application window, and what comes next."
 category: "Education"
-author: "Lisan.pk Editorial Team"
-readingTime: "6 min"
+author: "Usama Aimen — KSA Education Consultant"
+readingTime: "8 min"
 published: true
-tags: ["KSU Deadlines", "KAU Deadlines", "Saudi Scholarship", "Spring 2027"]
+tags: ["KSU Deadlines", "KAU Deadlines", "King Abdulaziz University Application Deadline 2027", "King Saud University Admission 2027", "Study in Saudi Deadlines", "Saudi Scholarship 2027"]
 faqs:
-  - q: "Are the Spring 2027 application deadlines confirmed already?"
-    a: "Official confirmation comes around August–September 2026. The dates in this post are based on the previous three years' official calendars — they have shifted by no more than 4 days in that span. We’ll update them the moment the portals confirm."
-  - q: "Can I apply for Spring 2027 with the same documents I prepared for Fall 2026?"
-    a: "Yes, as long as your certified translations are still valid (they don’t expire). You’ll just need to re-upload them for the new intake."
-  - q: "What’s the fastest way to get a certified translation of my diploma?"
-    a: "A professional translation service can turn it around in 2–3 business days. Order it in July and you won’t even need rush delivery."
-  - q: "Can I submit my application first and add translated documents later?"
-    a: "KAU and KSU portals won’t let you edit uploaded documents after the deadline. Everything must be uploaded together before the cutoff."
+  - q: "What is the King Abdulaziz University scholarship 2027 last date?"
+    a: "For the officially announced 2026/27 second-semester platform cycle, the deadline was 6 October 2026. A separate deadline for a subsequent 2027/28 international scholarship cycle was not confirmed in the official sources reviewed on 3 November 2026. Check KAU's own announcements rather than using an estimated date."
+  - q: "When should I apply to King Saud University for 2027?"
+    a: "Apply only during the published application period for your exact KSU program and route. KSU directs non-resident scholarship applicants to Study in Saudi; the official academic calendar does not itself establish an application window."
+  - q: "Are spring 2027 admissions open for Pakistani students right now?"
+    a: "The official Study in Saudi 16 September–6 October 2026 platform window has ended. We cannot confirm a new KSU or KAU international-scholarship round open as of 3 November 2026 from the official sources listed here. A specialized program could have a different route, so verify the relevant official notice before drawing a conclusion."
+  - q: "Does a January 2027 semester start mean I can apply in December 2026?"
+    a: "No. Semester start and application deadline are separate dates. KSU begins its second semester on 10 January 2027 and KAU on 17 January 2027; neither calendar entry establishes a December 2026 application period."
+  - q: "Do I need certified Arabic translations for every KSU or KAU application?"
+    a: "Not necessarily. The required document language and translation format depend on the specific program and receiving authority. Check the official instructions first. LISAN can help prepare translations when they are actually required; a translation service cannot guarantee university acceptance."
+  - q: "Can I submit documents after the deadline?"
+    a: "Do not assume that late uploads or revisions are accepted. Follow the specific portal instructions and the university's published rules. The Study in Saudi FAQ explains that several application fields cannot be changed after submission."
 howTo:
-  name: "6-Month Document Prep Timeline for Saudi Scholarships"
+  name: "Document Preparation Steps for Upcoming KSU & KAU Intakes"
   step:
-    - name: "Identify Documents"
-      text: "Identify every non-Arabic/non-English document (transcripts, diploma, birth certificate, marriage license for name-mismatch)."
-    - name: "Get Certified Translation"
-      text: "Get a certified translation for all documents. Pick a service that understands Saudi Ministry of Education requirements."
-    - name: "Digitally Scan"
-      text: "Digitally scan and label everything — PDFs named exactly as the university asks."
-    - name: "Fill Application"
-      text: "Fill in the application as soon as portals open. Upload translated documents immediately."
-    - name: "Confirm Submission"
-      text: "Confirm submission status. Relax."
+    - name: "Select Program & Confirm Route"
+      text: "Confirm your intended university, program, degree level, and entry route in official listings."
+    - name: "Check Specific Entry Requirements"
+      text: "Check program-specific academic entry criteria, required tests, reference letters, and document language rules."
+    - name: "Verify Passport & Academic Name Consistency"
+      text: "Compare your passport name and academic-record names for exact consistency."
+    - name: "Prepare High-Resolution Scans"
+      text: "Prepare clear scans of the records actually requested by your selected program."
+    - name: "Confirm Translation & Attestation Rules"
+      text: "If the receiving authority explicitly needs translation, confirm accepted language and certification wording before paying."
 ---
 
-Let’s cut straight to it: if you’re reading this on May 2, 2026, you’ve already watched the Fall 2026 admission deadlines for King Saud University (KSU) and King Abdulaziz University (KAU) sail past. That’s okay — you haven’t lost a year. You’ve just shifted your target to the **Spring 2027 semester**.
+# King Saud & King Abdulaziz University 2027 Admissions: Confirmed Dates and Next Application Updates
 
-Below, you’ll find every upcoming deadline for King Saud and King Abdulaziz University in 2026 — the dates you actually need to circle on your calendar right now. No old info, no guesswork. I’ll also show you how to use the breathing room between now and November to nail your document translations and secure your spot without the panic.
+*Last fact-checked: 3 November 2026 | Applies to international applicants, including students from Pakistan*
 
-## If You Missed the Fall 2026 Window, Read This First
+> [!IMPORTANT]
+> **Quick Answer:** The official Study in Saudi application window for the 2026/27 second-semester cycle was **16 September–6 October 2026 and has ended**. King Abdulaziz University (KAU) independently confirmed those application dates for non-Saudi undergraduate and postgraduate applicants. King Saud University (KSU) starts its second semester on **10 January 2027**; KAU starts on **17 January 2027**. Semester start dates are not new application deadlines. We could not verify any additional KSU or KAU international-scholarship application window in November or December 2026 from the official sources reviewed below.
 
-Most students only think about the big Fall intake. But both KSU and KAU offer a Spring semester (starting January/February 2027), and the application deadlines for that intake land squarely in the second half of 2026. That means you’re not behind — you’re actually early if you start prepping now.
-
-The Spring cycle is smaller, yes, but it’s a legitimate path in. And because fewer international students target it, your chances can actually be stronger if your documents are flawless. You can [find available fully funded Saudi programs](/saudi-scholarships/program-finder) across all degree levels in our database, [check your Saudi scholarship application before submission](/blog/saudi-scholarship-application-review-checklist), or review the [Saudi scholarship application process from start to finish](/blog/saudi-scholarship-complete-roadmap). For a broader view of all available opportunities, see our [comprehensive guide on fully funded Saudi scholarship deadlines 2026](/blog/fully-funded-scholarship-deadlines-saudi-universities-2026).
-
-## Upcoming KSU Deadlines 2026 — Spring 2027 Semester
-
-King Saud University typically opens its Spring 2027 application cycle in late 2026. Based on the university’s consistent academic calendar, here are the expected upcoming KSU deadlines you need to meet this year.
-
-### Undergraduate Spring Intake
-- **Applications Open:** September 15, 2026
-- **Application Deadline:** November 15, 2026
-- **Final Document Upload Cutoff:** November 30, 2026 (no exceptions)
-
-### Postgraduate Spring Intake
-- **Master’s & PhD Portal Opens:** September 1, 2026
-- **Closing Date:** November 30, 2026
-- **Interviews (if required):** Mid-December 2026
-
-> ✏️ **Key takeaway:** “For KSU, November 15–30 is the red zone. Translated transcripts and diplomas must be in the portal before that date, not requested on it.”
-
-## Upcoming KAU Deadlines 2026 — Spring 2027 Semester
-
-King Abdulaziz University generally runs a similar timeline, with a slightly later closing window for graduate programs. Here’s what to drill into your calendar for KAU admission deadlines 2026.
-
-### Bachelor’s Spring Admission
-- **Application Period:** October 1 – December 15, 2026
-- **Medical & Health Faculties:** Often close earlier — plan for December 1, 2026
-
-### Master’s & PhD Spring Admission
-- **Portal Open:** October 15, 2026
-- **Final Deadline:** December 31, 2026
-- **Supervisor/Proposal Approval (PhD):** Must be submitted by December 15, 2026
-
-**Note for International Students:** Spring visa processing is tight. Having a complete application with certified translations by the deadline (not after) is the difference between a January start and a deferred admission.
-
-## Late Fall 2026 Openings — Are There Any Left?
-
-A handful of KSU and KAU colleges sometimes run a late or second-round admission for Fall 2026, especially in high-demand programs. These are unadvertised, open for 3–5 days, and vanish quickly. As of May 2, 2026, there’s no guaranteed late window. If one appears in June, you’ll need translated documents ready to upload in hours — not days.
-
-**My advice:** assume Fall 2026 is closed. Put your energy into the Spring 2027 deadlines above and treat any late Fall opening as an unexpected bonus.
-
-## From May to November: Your 6-Month Document Prep Timeline
-
-You now have exactly 5 to 7 months before the first Spring 2027 deadline. Here’s exactly how to use that head start:
-
-1. **May–June 2026:** Identify every non-Arabic/non-English document (transcripts, diploma, birth certificate, marriage license for name-mismatch).
-2. **July 2026:** Get a [certified translation](/services/document) for all documents. Pick a service that understands Saudi Ministry of Education requirements.
-3. **August 2026:** Digitally scan and label everything — PDFs named exactly as the university asks.
-4. **September–October 2026:** Fill in the application as soon as portals open. Upload translated documents immediately.
-5. **November 2026:** Confirm submission status. Relax.
-
-This isn’t a sprint. Done right, it’s a comfortable walk.
-
-## Why Certified Translation Is the One Thing to Lock Down Now
-
-Here’s a truth bomb: the rejection you get in November 2026 might actually be caused by something you didn’t do in July 2026.
-
-KSU and KAU are strict. If your transcript is in French, German, Spanish, or any language other than Arabic or English, you must provide a certified translation. Not a friend’s help. Not an online tool. A stamped, signed, professional translation that proves authenticity.
-
-Ordering it now means:
-- Lower cost (no rush fees).
-- Time to fix errors if something looks off.
-- Zero panic when the portal asks for “File 4 of 6” and you’re stuck.
-
-## FAQ: Spring 2027 Deadlines for KSU and KAU
-
-**Q: Are the Spring 2027 application deadlines confirmed already?**  
-Official confirmation comes around August–September 2026. The dates in this post are based on the previous three years' official calendars — they have shifted by no more than 4 days in that span. We’ll update them the moment the portals confirm.
-
-**Q: Can I apply for Spring 2027 with the same documents I prepared for Fall 2026?**  
-Yes, as long as your certified translations are still valid (they don’t expire). You’ll just need to re-upload them for the new intake.
-
-**Q: What’s the fastest way to get a certified translation of my diploma?**  
-A professional translation service can turn it around in 2–3 business days. Order it in July and you won’t even need rush delivery.
-
-**Q: Can I submit my application first and add translated documents later?**  
-KAU and KSU portals won’t let you edit uploaded documents after the deadline. Everything must be uploaded together before the cutoff.
-
-## Start Today, Submit Confidently
-
-The upcoming deadlines for King Saud and King Abdulaziz University in 2026 are not a far-off concern — they’re your next big milestone. Whether you’re eyeing a Spring 2027 undergraduate seat or a graduate program, every day you wait is a day you’re betting your admission on a future panic order.
-
-### Get a Free Certified Translation Quote in 60 Seconds
-
-Tell us which documents you need translated and we’ll reply with a fixed price, a guaranteed turnaround that fits your timeline, and university-acceptable certification. No last-minute stress, no rejected uploads.
+**Important distinction:** “Spring 2027” can mean the second semester of the 2026/27 academic year, whereas “2027 admissions” can also mean the 2027/28 academic year. These are different cycles. Always check the academic year, program, and application route in the official announcement.
 
 ---
 
-### External Resources
-- [Official KSU Deanship of Admission](https://dar.ksu.edu.sa/en)
-- [Official KAU Admission Portal](https://admission.kau.edu.sa/Default-210-EN)
-- [Saudi Ministry of Education](https://moe.gov.sa/en/Pages/default.aspx)
+## KSU and KAU 2027: Officially Confirmed Dates at a Glance
 
-### Recommended Reading
-- [Why Arabic Translation is Mandatory for Saudi Universities 2026](/blog/why-arabic-translation-mandatory-saudi-universities-2026)
-- [Certified Translation for University Applications](/services/document)
-- [Document Translation Pricing](/pricing)
-- [University Translation FAQs](/faq)
-- [Get a Free Quote](/contact)
+| University / Route | Date or Period | What It Actually Means | Official Verification |
+| :--- | :--- | :--- | :--- |
+| **Study in Saudi** | 16 September–6 October 2026 | Published platform application window for international and resident students for the second-semester cycle; **closed as of 3 November 2026** | [Study in Saudi official portal](https://studyinsaudi.sa/en/home) |
+| **King Abdulaziz University (KAU)** | 16 September–6 October 2026 | KAU's official application period for non-Saudi undergraduate and postgraduate applicants via Study in Saudi; **closed** | [KAU announcement, 8 September 2026](https://kau.edu.sa/faculty/en/kau_website/announcement/the-date-for-opening-admission-applications-for-non-saudi-students-residing-both-inside-and-outside-the-kingdom-for-undergraduate-and-postgraduate-programs) |
+| **King Saud University (KSU)** | 10 January 2027 | First day of second-semester classes, **not a new international application opening** | [KSU academic calendar 2026–27](https://dar.ksu.edu.sa/en/current) |
+| **King Abdulaziz University (KAU)** | 17 January 2027 | First day of second-semester classes, **not a new international application opening** | [KAU academic calendar 2026–27](https://www.kau.edu.sa/en/academic-calendar) |
+| **KAU, Academic Year 2027/28** | 29 August 2027 | Published beginning of the next academic year; **not an application deadline** | [KAU academic calendar](https://www.kau.edu.sa/en/academic-calendar) |
+| **Next Separate Scholarship Window** | *Not confirmed* | Do not plan around an invented November/December 2026 closing date or assume every program opens for spring | Recheck official admissions and Study in Saudi portals |
+
+> [!WARNING]
+> Do not confuse the date classes begin with the last date to apply. A January semester can have an application window that closed months earlier.
 
 ---
 
-### Need a Certified Translation?
-To get a quote, you can send your scanned documents to our WhatsApp number: [**+92-328-8155866**](https://wa.me/923288155866).
+> [!TIP]
+> **Need Clarification on KSU or KAU Admission Pathways?**  
+> Navigating university requirements, faculty quotas, and official portal windows can be confusing. For personalized profile evaluation and document verification:  
+> 📲 **WhatsApp Usama Aimen (KSA Education Consultant):** [0304 4296295](https://wa.me/923044296295?text=Assalamualaikum%2C%20I%20need%20guidance%20on%20KSU%20and%20KAU%20scholarship%20admissions.) | [Book Private Profile Consultation](/consultancy/saudi-scholarship)
+
+---
+
+## What Is the King Abdulaziz University Application Deadline for 2027?
+
+For the 2026/27 second-semester Study in Saudi cycle, KAU officially announced that non-Saudi applicants inside and outside Saudi Arabia could apply for undergraduate and graduate programs from **16 September to 6 October 2026**. The announcement was published 8 September 2026 and specifically directs applicants to Study in Saudi. **That window is now closed.**
+
+The university's academic calendar confirms that its second semester begins **17 January 2027**. This does not mean that KAU accepts new international scholarship applications until January, December, or the end of November. We did not find a verified separate late-2026 international-scholarship deadline to publish here.
+
+For the 2027/28 academic year, watch KAU's updated admissions announcements for the application dates relevant to your degree level. The calendar's 29 August 2027 academic-year start is useful for planning, but it is not an application deadline.
+
+👉 *For full details on degree offerings, IELTS thresholds, and stipends, read our comprehensive [King Abdulaziz University Scholarship 2026/27 Guide](/blog/king-abdulaziz-university-scholarship).*
+
+**Official places to check:**
+- [KAU admission announcements](https://www.kau.edu.sa/en/announcements)
+- [KAU international scholarships](https://www.kau.edu.sa/en/page/international-student-scholarships)
+- [Study in Saudi official portal](https://studyinsaudi.sa/en/home)
+
+---
+
+## When Can International Students Apply to King Saud University for 2027?
+
+KSU's 2026–27 academic calendar lists **10 January 2027** as the start of the second semester. That is a teaching date, not proof of a separate spring scholarship intake.
+
+KSU's official non-Saudi admission guidance explains that applicants living outside Saudi Arabia can use the Study in Saudi route for external scholarships, while other routes (including certain fee-based programs) can follow different eligibility rules. A deadline for one route must not be copied onto all undergraduate, master's, and PhD admissions.
+
+On 3 November 2026, the official sources reviewed did not establish a separate KSU scholarship deadline of 15 November, 30 November, or mid-December 2026. Treat such dates as unverified, not confirmed opportunities.
+
+👉 *Explore participating faculties across the Kingdom in our verified [Saudi Universities Offering Scholarships 2026/27 List](/blog/saudi-universities-offering-scholarships).*
+
+**Official places to check:**
+- [KSU admission for non-Saudi students](https://dar.ksu.edu.sa/en/overseas)
+- [KSU academic calendar 2026–27](https://dar.ksu.edu.sa/en/current)
+- [Study in Saudi official portal](https://studyinsaudi.sa/en/home)
+
+---
+
+## Is There a Spring 2027 Admission for International Scholarship Students?
+
+Both universities have a second academic semester in January 2027, but that fact alone does not establish that every program offers fresh international admissions in spring. Scholarship availability, degree levels, seats, and application periods depend on the official admissions route and the individual program.
+
+The official Saudi platform displays a 16 September–6 October 2026 application period for its second-semester cycle. KAU also confirmed that period in its own announcement. Do not rely on an old blog, a social-media repost, or a university academic calendar as proof of an open application portal. Check the actual route and program listing before you apply.
+
+---
+
+### 🎓 Expert Support for Saudi Scholarship Applications & Documents
+Applying to Saudi universities requires precision in eligibility verification, document attestation, and certified translation. LISAN.PK provides dedicated, professional assistance:
+- **Lead Consultant:** Usama Aimen — KSA Education Consultant
+- **Direct WhatsApp:** [0304 4296295](https://wa.me/923044296295?text=Assalamualaikum%2C%20I%20need%20professional%20assistance%20with%20my%20Saudi%20scholarship%20application.)
+- **Key Services:** [Certified Arabic Translation](/services/translation/arabic-translation) • [Scholarship Profile Evaluation](/consultancy/saudi-scholarship) • [Roadmap Guidance](/blog/saudi-scholarship-complete-roadmap)
+
+---
+
+## What Should Pakistani Applicants Do Now?
+
+If you applied by 6 October 2026, log into your existing [Study in Saudi account](https://studyinsaudi.sa/en/home) to review your current application status. An application being reviewed does not guarantee acceptance, and there is no universal result date for every university. For status meanings, consult our [Study in Saudi Application Status Guide: Under Process, Returned & Accepted](/blog/study-in-saudi-application-status-under-process).
+
+If you missed the window, do not assume a second November or December application round exists. Monitor the official [Study in Saudi](https://studyinsaudi.sa/en/home), [KSU admissions](https://dar.ksu.edu.sa/en/overseas), and [KAU announcements](https://www.kau.edu.sa/en/announcements) for a new published window that covers your program and degree level.
+
+Meanwhile, you can prepare a document checklist for the program you want to apply to:
+
+1. **Confirm Program & Degree Level:** Confirm your intended university, program, degree level, and entry route in official listings. [Compare programs with LISAN's finder](/saudi-scholarships/program-finder), then verify each result with the university.
+2. **Review Academic Entry Criteria:** Check program-specific academic entry requirements, required tests, reference letters, and document language rules. Do not assume one policy applies to every Saudi university.
+3. **Verify Name Consistency:** Compare your passport name and academic-record names for consistency. Ask the university what to do if they differ.
+4. **Prepare Clean Scans:** Prepare clear scans of the records actually requested by your selected program. Do not order unrelated attestations or translations by default.
+5. **Confirm Translation & Attestation Standards:** If the receiving authority explicitly needs a translation, confirm the accepted language, certification wording, and any attestation/legalisation steps before paying for a service.
+
+You can also consult our [Saudi Scholarship Document Attestation Pakistan Guide](/blog/saudi-scholarship-document-attestation-pakistan) and our [Saudi Scholarship Benefits & Stipends Guide](/blog/saudi-scholarship-benefits-stipend-housing). Where any guide differs from an official program notice, follow the current official notice.
+
+---
+
+## King Saud University Academic Calendar 2026–27
+
+KSU's current official calendar lists these academic milestones:
+- **23 August 2026:** First semester began.
+- **10 January 2027:** Second semester begins.
+- **6 June 2027:** Second-semester final examinations begin.
+
+These are academic calendar events, not international-admission deadlines. [Source: KSU Deanship of Admission and Registration](https://dar.ksu.edu.sa/en/current).
+
+---
+
+## King Abdulaziz University Academic Calendar 2026–27
+
+KAU's current calendar lists:
+- **30 August 2026:** First-semester classes began.
+- **17 January 2027:** Second-semester classes begin.
+- **29 August 2027:** The 2027/28 academic year begins.
+
+Again, these are teaching start dates, not a fresh scholarship application announcement. [Source: KAU official academic calendar](https://www.kau.edu.sa/en/academic-calendar).
+
+---
+
+### Need Expert Guidance on Your KSU or KAU Application?
+
+Have questions about eligibility, university options, document attestation, medical tests, or the Study in Saudi portal? Contact our education consultant:
+
+**Usama Aimen — KSA Education Consultant**  
+**Call / WhatsApp:** **[0304 4296295](https://wa.me/923044296295?text=Assalamualaikum%2C%20I%20need%20guidance%20on%20KSU%20and%20KAU%20admissions.)**
+
+* [Chat on WhatsApp (0304 4296295)](https://wa.me/923044296295?text=Assalamualaikum%2C%20I%20need%20guidance%20on%20KSU%20and%20KAU%20admissions.)
+* [Request Certified Arabic Document Translation](/services/translation/arabic-translation)
+* [Book Saudi Scholarship Consultation](/consultancy/saudi-scholarship)
+
+---
+
+# Frequently Asked Questions
+
+## What is the King Abdulaziz University scholarship 2027 last date?
+For the officially announced 2026/27 second-semester platform cycle, the deadline was 6 October 2026. A separate deadline for a subsequent 2027/28 international scholarship cycle was not confirmed in the official sources reviewed on 3 November 2026. Check KAU's own announcements rather than using an estimated date.
+
+## When should I apply to King Saud University for 2027?
+Apply only during the published application period for your exact KSU program and route. KSU directs non-resident scholarship applicants to Study in Saudi; the official academic calendar does not itself establish an application window.
+
+## Are spring 2027 admissions open for Pakistani students right now?
+The official Study in Saudi 16 September–6 October 2026 platform window has ended. We cannot confirm a new KSU or KAU international-scholarship round open as of 3 November 2026 from the official sources listed here. A specialized program could have a different route, so verify the relevant official notice before drawing a conclusion.
+
+## Does a January 2027 semester start mean I can apply in December 2026?
+No. Semester start and application deadline are separate dates. KSU begins its second semester on 10 January 2027 and KAU on 17 January 2027; neither calendar entry establishes a December 2026 application period.
+
+## Do I need certified Arabic translations for every KSU or KAU application?
+Not necessarily. The required document language and translation format depend on the specific program and receiving authority. Check the official instructions first. LISAN can help prepare translations when they are actually required; a translation service cannot guarantee university acceptance.
+
+## Can I submit documents after the deadline?
+Do not assume that late uploads or revisions are accepted. Follow the specific portal instructions and the university's published rules. The [Study in Saudi FAQ](https://studyinsaudi.sa/en/Faq) explains that several application fields cannot be changed after submission.
+
+---
+
+# Related Saudi Scholarship Guides & Resources
+
+Explore our comprehensive guides to navigate the complete Study in Saudi application, admission, and visa process:
+
+- 🏛️ **[Saudi Universities Offering Scholarships 2026/27: Official List](/blog/saudi-universities-offering-scholarships)** — Directory of public universities, funding tiers, and verified program availability.
+- 🎓 **[King Abdulaziz University (KAU) Scholarship 2026/27 Guide](/blog/king-abdulaziz-university-scholarship)** — Fully funded KAU Bachelor's, Master's, and PhD pathways, IELTS minimums, and Jeddah campus life.
+- 💰 **[Saudi Scholarship Benefits 2026/27: Stipend, Housing & Flights](/blog/saudi-scholarship-benefits-stipend-housing)** — Complete breakdown of tuition waivers, monthly stipends, campus accommodation, and travel allowances.
+- 👩‍🎓 **[Saudi Scholarships for Female International Students 2026/27](/blog/saudi-scholarships-female-international-students)** — Programs for women at Princess Nourah (PNU), King Saud (KSU), KAU, and gender eligibility guidelines.
+- 💻 **[Saudi Computer Science & AI Scholarships 2026/27](/blog/saudi-computer-science-ai-scholarships)** — Bachelor’s, Master’s, and PhD routes in CS, Software Engineering, AI, and Cybersecurity.
+- ⚙️ **[Saudi Engineering Scholarships 2026/27: Civil, Mechanical & Electrical](/blog/saudi-engineering-scholarships)** — Top engineering faculties at KFUPM, King Saud University, and King Abdulaziz University.
+- 📑 **[Saudi Scholarship Document Attestation Pakistan 2026: IBCC, HEC & MOFA](/blog/saudi-scholarship-document-attestation-pakistan)** — Step-by-step verification process for matric, intermediate, bachelor's degrees, and MOFA Apostille.
+- 🛂 **[Saudi Student Visa for Pakistani Students 2026/27: Complete Process](/blog/saudi-student-visa-pakistan)** — Post-acceptance visa route: Study in Saudi visa form, MOFA study visa request, and Tasheer procedures.
+- 🏥 **[Saudi Scholarship Medical Test Pakistan 2026/27: Wafid & Requirements](/blog/saudi-scholarship-medical-test-pakistan)** — Medical test rules, approved Wafid clinics in Pakistan, 2-month validity window, and timing.
+- ✈️ **[Saudi Scholarship Accepted 2026: What Happens Next?](/blog/saudi-scholarship-accepted-what-next)** — Action plan from preliminary acceptance to flight booking, airport arrival, and university registration.
+- 🗺️ **[Complete Saudi Scholarship Roadmap 2026/27](/blog/saudi-scholarship-complete-roadmap)** — The complete roadmap from initial eligibility checking to landing in Saudi Arabia.
+- 📊 **[Study in Saudi Application Status Guide: Under Process & Accepted](/blog/study-in-saudi-application-status-under-process)** — How to track your portal status, understand approval stages, and fix delays.
+- 🛠️ **[Study in Saudi Portal Problems & Technical Error Fixes](/blog/study-in-saudi-portal-problems-errors)** — Practical solutions for registration glitches, passport upload errors, and portal timeouts.
+
+---
+
+## Official Sources and Update History
+
+Sources reviewed on 3 November 2026 (official sources take precedence over this page):
+- [Study in Saudi — official application-period display](https://studyinsaudi.sa/en/home)
+- [KAU — 8 September 2026 announcement of 16 September–6 October application period](https://kau.edu.sa/faculty/en/kau_website/announcement/the-date-for-opening-admission-applications-for-non-saudi-students-residing-both-inside-and-outside-the-kingdom-for-undergraduate-and-postgraduate-programs)
+- [KSU — academic calendar 2026–27](https://dar.ksu.edu.sa/en/current)
+- [KSU — non-Saudi admissions routes](https://dar.ksu.edu.sa/en/overseas)
+- [KAU — academic calendar 2026–27](https://www.kau.edu.sa/en/academic-calendar)
+- [KAU — official announcements](https://www.kau.edu.sa/en/announcements)
+- [Study in Saudi — frequently asked questions](https://studyinsaudi.sa/en/Faq)
+
+### Change Log
+- **3 Nov 2026:** Replaced unverified late-2026 KSU/KAU scholarship deadlines with official application-period and academic-calendar facts; distinguished January 2027 semester start dates from application windows; removed unsupported claims about automatic spring intake, guaranteed acceptance, and mandatory Arabic translation for every application.
+- **2 May 2026:** Original article published; retain original publication date in the website metadata.
+
+Need document translation for a verified requirement? [Request a quote from LISAN.PK](/contact) with your university, program, original document language and requested translation language. We will help you determine what can be translated; the university or official portal makes the admission decision.
+
+LISAN.PK is an independent translation and application-support provider and is not affiliated with KSU, KAU, or the Saudi Ministry of Education.
+
+**Reviewed by:** Usama Aimen — KSA Education Consultant  
+**Contact / WhatsApp:** [0304 4296295](https://wa.me/923044296295?text=Assalamualaikum%2C%20I%20need%20guidance%20on%20KSU%20and%20KAU%20admissions.)
