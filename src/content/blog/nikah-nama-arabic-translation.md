@@ -52,7 +52,7 @@ A certified translation is more than just a word-for-word conversion. It is a le
 | **Accepted by Saudi/UAE/Qatar visa offices** | ❌ No | ✅ Yes |
 | **Cost** | Lower | Moderate (value for reliability) |
 
-For any official purpose, always choose [certified Nikah Nama Arabic translation](/services/document).
+For any official visa or immigration submission, always choose [certified Nikah Nama translation in English and Arabic](/services/translation/nikah-nama-marriage-certificate).
 
 ## Documents We Translate (Nikah Nama Related)
 
@@ -111,13 +111,14 @@ We are not an attestation service, but we can guide you on the process and help 
 
 Don’t let a missing stamp or signature delay your family’s future – that’s the #1 fear we hear from customers, and we make sure it never happens with our certified translations. At Lisan.pk, we guarantee:
 
-- ✅ 100% embassy-accepted certified Arabic translation with official stamp and signature
+- ✅ Embassy-compliant certified Arabic translation with official stamp, Certificate of Accuracy, and linguist signature
 - ✅ Expert Arabic linguists specialized in legal and marriage documents 
 - ✅ Fast turnaround (as quick as 6 hours)
 - ✅ Transparent pricing – no surprise fees
 - ✅ Secure handling of your personal documents
 
-### Related Articles:
+### Related Services & Articles:
+*   [Certified Nikah Nama English & Arabic Translation Service](/services/translation/nikah-nama-marriage-certificate)
 *   [How to Order Arabic Document Translation Online](/blog/order-arabic-document-translation-online)
 *   [Complete Saudi Arabia Scholarship Guide for Pakistani Students](/blog/saudi-arabia-fully-funded-scholarships-guide-pakistani-students)
 *   [Required Documents Checklist for Saudi Visas & Scholarships](/blog/required-documents-saudi-scholarship-2026)

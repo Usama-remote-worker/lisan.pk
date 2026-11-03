@@ -24,7 +24,7 @@ export default function NikahnamaTranslationPage() {
                             Nikahnama english translation
                         </h1>
                         <p className="text-lg md:text-xl text-emerald-100/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-                            The definitive requirement for spouse visas and immigration. We provide MOFA-approved, 100% certified English and Arabic translations of your Marriage Registration Certificate (MRC).
+                            The definitive requirement for spouse visas and immigration. We provide certified English and Arabic translations of your Marriage Registration Certificate (MRC) and Urdu Nikah Nama formatted for official embassy submission and MOFA attestation.
                         </p>
                         
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -48,6 +48,16 @@ export default function NikahnamaTranslationPage() {
                         <p className="text-slate-600 mb-8">
                             At Lisan.pk, our official linguistic experts translate every clause of the Nadra Nikahnama with extreme legal precision, ensuring the names, dates, and dower (Haq Mehr) clauses match your passports perfectly.
                         </p>
+
+                        <div className="bg-emerald-50 border border-emerald-200/80 p-6 rounded-2xl mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <div>
+                                <h4 className="font-bold text-emerald-950 font-serif text-base mb-1">Need the full 25-column Urdu Nikah Nama translated?</h4>
+                                <p className="text-xs text-emerald-800/80">Explore our comprehensive guide and service page for UKVI, USCIS, and Gulf embassy submissions.</p>
+                            </div>
+                            <Link href="/services/translation/nikah-nama-marriage-certificate" className="shrink-0 px-5 py-2.5 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-xl transition-all shadow-sm">
+                                Full Nikah Nama Service →
+                            </Link>
+                        </div>
 
                         <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 mb-12">
                             <h3 className="text-xl font-bold text-slate-900 mb-4">Required Documents to Start</h3>

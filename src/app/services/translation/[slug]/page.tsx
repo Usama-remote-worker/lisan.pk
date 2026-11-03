@@ -77,19 +77,6 @@ const serviceData = {
             { q: "Do you deliver physical hard copies?", a: "Yes, we provide high-resolution digital scans via email/WhatsApp and send the physical stamped hard copies via TCS or Leopard courier anywhere in Pakistan." }
         ]
     },
-    "nikah-nama-marriage-certificate": {
-        title: "Certified Nikah Nama Translation Pakistan | Lisan.pk",
-        h1: "Certified Nikah Nama & Marriage Certificate Translation",
-        description: "Certified Arabic & English translation for Nikah Nama. Official and embassy-recognized services in Pakistan. Fast delivery for Saudi & UAE visas.",
-        content: "Translating a Nikah Nama (Marriage Contract) requires absolute precision, as legal terminology, Islamic dates, and dower (Haq Mehr) details must be exact. Our certified translations are thoroughly recognized by all foreign embassies for spouse visas, family registration, immigration, and legal stay applications. We carefully transcribe handwritten Urdu or Arabic scripts, maintaining the original document's layout and seal placements to ensure seamless verification.",
-        features: ["Embassy Certified & Accepted", "Same-day Service Available", "Notarized Certificate Included", "Accurate Islamic Date Conversion", "Precise Calligraphy Transcription"],
-        checklist: ["Original Arabic/Urdu Nikah Nama or MRC", "Passport copies of Bride & Groom", "CNIC copies for cross-verification", "Specific format requests (e.g., USCIS, UKVI)"],
-        faqs: [
-            { q: "Is this translation valid for UK/USA visas?", a: "Yes, our certified translations strictly meet the 'Certificate of Accuracy' requirements necessary for UKVI, USCIS, and all major western embassies." },
-            { q: "Do you translate handwritten Nikah Namas?", a: "Absolutely. Our expert linguists are highly experienced in deciphering traditional calligraphy, regional dialects, and complex handwritten legal scripts used by local registrars." },
-            { q: "Do I need to submit the NADRA Marriage Registration Certificate (MRC) as well?", a: "While the manual Nikah Nama contains more legal details, many embassies require the NADRA MRC alongside it. We recommend translating both for complete legal compliance." }
-        ]
-    },
     "birth-certificate-translation": {
         title: "Certified Birth Certificate Translation Pakistan | Lisan.pk",
         h1: "Certified Birth Certificate Translation for Visa & Immigration",
