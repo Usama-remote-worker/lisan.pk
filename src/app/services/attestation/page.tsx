@@ -362,7 +362,11 @@ export default function AttestationServicePage() {
                   Degrees, transcripts and educational certificates
                 </h3>
                 <p className="text-slate-600 leading-relaxed mb-3">
-                  University degrees generally need the relevant HEC authentication before MOFA where the official checklist requires it. School and board certificates use the applicable IBCC route. Check whether the destination institution needs an English or Arabic translation and whether it wants the final authentication included in that translation.
+                  University degrees generally need the relevant HEC authentication before MOFA where the official checklist requires it. Learn the online procedure in our{" "}
+                  <Link href="/guides/hec-online-degree-attestation" className="text-emerald-700 underline font-semibold hover:text-emerald-800">
+                    HEC Online Degree Attestation Guide
+                  </Link>
+                  . School and board certificates use the applicable IBCC route. Check whether the destination institution needs an English or Arabic translation and whether it wants the final authentication included in that translation.
                 </p>
                 <p className="text-[11px] font-bold text-amber-900">
                   MOFA does not appoint a private translation company to perform HEC&apos;s official verification.

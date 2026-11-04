@@ -47,6 +47,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/guides/mofa-online-attestation':                            '2026-11-03',
     '/guides/apostille-pakistan':                                 '2026-11-05',
     '/guides/certified-translation-vs-apostille-pakistan':        '2026-11-05',
+    '/guides/hec-online-degree-attestation':                      '2026-11-05',
     '/services/document':                                         '2026-06-15',
     '/services/translation':                                      '2026-05-24',
     '/services/ukvi-certified-translation':                       '2026-06-15',
@@ -180,6 +181,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 '/guides/mofa-online-attestation',
                 '/guides/apostille-pakistan',
                 '/guides/certified-translation-vs-apostille-pakistan',
+                '/guides/hec-online-degree-attestation',
                 '/services/attestation',
             ].includes(route) ? 0.8 :
             0.7

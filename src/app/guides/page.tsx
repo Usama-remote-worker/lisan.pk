@@ -13,6 +13,13 @@ export const metadata: Metadata = {
 export default function GuidesIndexPage() {
   const guides = [
     {
+      title: "HEC Degree Attestation Online (2026): Apply, Fee, Documents & e-Certificate",
+      description: "How to use HEC's new paperless Degree Attestation System (DAS), check the PKR 3,000 per-document fee, complete institutional verification, download your e-Attestation Certificate, and prepare academic translations for Saudi Arabia and the UAE.",
+      href: "/guides/hec-online-degree-attestation",
+      updated: "5 November 2026",
+      tag: "Degree Attestation (B:T05)",
+    },
+    {
       title: "Certified Translation vs Notarization vs Attestation vs Apostille in Pakistan (2026)",
       description: "Understand the critical differences between a private certified translation, a notary stamp, departmental attestation (HEC/IBCC), MOFA General Attestation, and a Hague Apostille in Pakistan. Clarifies legal weight, typical sequence, and country-specific rules.",
       href: "/guides/certified-translation-vs-apostille-pakistan",
