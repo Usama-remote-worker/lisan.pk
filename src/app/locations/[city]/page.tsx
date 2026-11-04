@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     return {
         title: `Certified Arabic Translation & Attestation Services in ${cityData.name} | Lisan.pk`,
-        description: `Embassy-approved Arabic translation & MOFA attestation services in ${cityData.name}. Express 24-48h delivery for degrees, certificates, and legal documents.`,
+        description: `Certified document translation support for residents of ${cityData.name}. Delivery options and estimated turnaround are confirmed after document review.`,
         robots: { index: true, follow: true },
         alternates: {
             canonical: `https://www.lisan.pk/locations/${normalizedCity}`,
@@ -62,16 +62,16 @@ export default async function LocationPage({ params }: PageProps) {
 
     const cityFaqs = [
         {
-            q: `Where can I get certified Arabic translation services in ${cityData.name}?`,
-            a: `Lisan.pk is Pakistan’s leading, embassy-approved translation platform. We serve residents of ${cityData.name} (with high priority handling near ${cityData.landmark}) by providing certified Arabic translations for degrees, transcripts, birth certificates, marriage documents, and legal affidavits. Clear photos or digital scans can be sent directly via WhatsApp, and the final certified documents are delivered safely to your home via secure courier.`
+            q: `Where can I get certified translation services in ${cityData.name}?`,
+            a: `LISAN.PK serves this area through its online document-translation enquiry and delivery arrangements; contact us to confirm service availability for your document. Clear photos or digital scans can be shared directly via WhatsApp (+92 304 4296295), and certified translations are delivered via secure courier across ${cityData.name}.`
         },
         {
-            q: `Do I need to travel to Islamabad or Lahore from ${cityData.name} for MOFA or Saudi Embassy attestation?`,
-            a: `No, you do not need to travel! Lisan.pk provides complete, end-to-end legalization services on your behalf. We manage the entire verification workflow—including coordinating with ${biseText}, HEC, and MOFA—and courier the completed, official embassy-ready documents directly back to your address in ${cityData.name}.`
+            q: `Do I need to travel to Islamabad or Lahore from ${cityData.name} for MOFA or embassy attestation?`,
+            a: `Document requirements vary by receiving institution. Please check the official authority's current instructions. LISAN.PK provides certified translation support and explains publicly documented preparation steps; official government attestation remains under respective public authorities.`
         },
         {
             q: `What is the turnaround time for certified translations in ${cityData.name}?`,
-            a: `Our standard translation and stamping process takes 24 to 48 hours. Once complete, we use high-speed courier partners (TCS or Leopards) to deliver the physical certified documents to your doorstep anywhere in ${cityData.name}, complete with tracking details.`
+            a: `Delivery options and estimated turnaround are confirmed after document review. Once complete, verified courier partners dispatch the physical certified documents directly to your address in ${cityData.name}.`
         }
     ];
 
@@ -137,7 +137,7 @@ export default async function LocationPage({ params }: PageProps) {
             />
             <PageHero
                 title={`Arabic Translation & Attestation Services in ${cityData.name}`}
-                description={`Certified & embassy-recognized translation services for residents of ${cityData.name}. Trusted for Saudi, UAE, and Gulf document legalization.`}
+                description={`Certified document translation support for residents of ${cityData.name}. Delivery options and estimated turnaround are confirmed after document review.`}
                 breadcrumbs={[
                     { label: "Locations", href: "/#locations" },
                     { label: cityData.name }

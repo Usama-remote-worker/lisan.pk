@@ -52,7 +52,7 @@ export default function LocationsPage() {
                             </div>
                             <div className="pt-4 border-t border-slate-50 flex items-center gap-2">
                                 <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
-                                    {city.tier === 1 ? 'Primary Hub' : city.tier === 2 ? 'Regional Center' : 'Local Branch'}
+                                    {city.tier === 1 ? 'Primary Hub' : city.tier === 2 ? 'Regional Center' : 'Service Area'}
                                 </span>
                             </div>
                         </Link>

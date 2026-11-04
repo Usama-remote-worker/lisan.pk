@@ -170,7 +170,14 @@ export default function AttestationServicePage() {
               href="/guides/mofa-online-attestation"
               className="p-3.5 bg-emerald-600/30 hover:bg-emerald-600/40 border border-emerald-500/40 rounded-xl text-emerald-200 flex items-center justify-between transition-all group"
             >
-              <span>MOFA Online Attestation 2026 Guide</span>
+              <span>MOFA Online Attestation Guide</span>
+              <ArrowRight className="w-4 h-4 text-emerald-400 group-hover:translate-x-1 transition-transform" />
+            </Link>
+            <Link
+              href="/guides/apostille-pakistan"
+              className="p-3.5 bg-emerald-600/30 hover:bg-emerald-600/40 border border-emerald-500/40 rounded-xl text-emerald-200 flex items-center justify-between transition-all group"
+            >
+              <span>MOFA Apostille Guide</span>
               <ArrowRight className="w-4 h-4 text-emerald-400 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link

@@ -45,6 +45,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/services/attestation':                                      '2026-11-03',
     '/guides':                                                    '2026-11-03',
     '/guides/mofa-online-attestation':                            '2026-11-03',
+    '/guides/apostille-pakistan':                                 '2026-11-05',
     '/services/document':                                         '2026-06-15',
     '/services/translation':                                      '2026-05-24',
     '/services/ukvi-certified-translation':                       '2026-06-15',

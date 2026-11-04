@@ -432,7 +432,7 @@ export default function NikahNamaTranslationPage() {
                   <strong>NADRA Registration:</strong> Obtain the official computerized MRC from your Union Council.
                 </li>
                 <li>
-                  <strong>MOFA Pakistan Attestation / Apostille:</strong> Submit the original MRC to the Ministry of Foreign Affairs (MOFA) in Islamabad, Lahore, Karachi, or designated centers.
+                  <strong>MOFA Pakistan Attestation / Apostille:</strong> Submit the original MRC to the Ministry of Foreign Affairs (MOFA) in Islamabad, Lahore, Karachi, or designated centers (see our <Link href="/guides/apostille-pakistan" className="text-emerald-700 underline font-semibold">MOFA Apostille Guide</Link>).
                 </li>
                 <li>
                   <strong>Certified Arabic Translation:</strong> Have your attested document translated into professional Arabic by an accredited translation agency.

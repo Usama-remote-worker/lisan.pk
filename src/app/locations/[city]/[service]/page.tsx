@@ -23,6 +23,8 @@ function getMainServiceUrl(serviceSlug: string): { url: string; label: string } 
         case 'birth-certificate-translation':
         case 'domicile-certificate-translation':
             return { url: '/certified-document-translation/nadra-nikahnama', label: 'Main Marriage & Identity Translation Service' }
+        case 'urdu-to-english-translation':
+            return { url: '/services/translation/urdu-to-english-translation', label: 'Main Urdu to English Translation Service' }
         default:
             return { url: '/certified-document-translation/legal-documents', label: 'Main Legal Document Translation Service' }
     }
@@ -37,19 +39,31 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!cityData || !serviceData) return {}
 
     const isAllowlisted = isAllowlistedSubPage(normalizedCity, service)
+    const svcLower = service.toLowerCase()
 
-    const title = service.toLowerCase() === 'degree-transcript-translation'
-        ? `Degree & Transcript Translation into Arabic in ${cityData.name} | Embassy Accepted`
-        : `Certified ${serviceData.title} in ${cityData.name} | Embassy Accepted`
+    let title: string
+    let description: string
 
-    const description = `Official certified ${serviceData.title.toLowerCase()} in ${cityData.name} for Saudi scholarship and visa applications. Recognized by MOFA, HEC, and Saudi Embassy with 24h express turnaround.`
+    if (svcLower === 'urdu-to-english-translation') {
+        title = `Certified Urdu to English Translation in ${cityData.name} | Lisan.pk`
+        description = `Certified Urdu to English document translation for residents of ${cityData.name}. Delivery options and turnaround confirmed after document review.`
+    } else if (svcLower === 'iata-dts-umrah-travel-agency') {
+        title = `IATA & DTS Travel Agency Document Translation in ${cityData.name} | Lisan.pk`
+        description = `Certified commercial translation for travel agency licenses, DTS registration, and IATA documentation in ${cityData.name}.`
+    } else if (svcLower === 'degree-transcript-translation') {
+        title = `Degree & Transcript Translation into Arabic in ${cityData.name} | Lisan.pk`
+        description = `Certified degree and academic transcript translation for residents of ${cityData.name}. Delivery options and turnaround confirmed after review.`
+    } else {
+        title = `Certified ${serviceData.title} in ${cityData.name} | Lisan.pk`
+        description = `Certified ${serviceData.title.toLowerCase()} for residents of ${cityData.name}. Delivery options and turnaround confirmed after document review.`
+    }
 
     return {
         title,
         description,
         robots: isAllowlisted ? { index: true, follow: true } : { index: false, follow: true },
         alternates: {
-            canonical: `https://www.lisan.pk/locations/${normalizedCity}/${service.toLowerCase()}`,
+            canonical: `https://www.lisan.pk/locations/${normalizedCity}/${svcLower}`,
         },
     }
 }
@@ -78,28 +92,75 @@ export default async function LocalizedServicePage({ params }: PageProps) {
     const priority1 = PRIORITY1_CONTENT[key]
     const isAllowlisted = isAllowlistedSubPage(normalizedCity, service)
     const mainService = getMainServiceUrl(service)
+    const svcLower = service.toLowerCase()
 
     const biseText = cityData.biseName ? `the ${cityData.biseName}` : "the local Board of Intermediate and Secondary Education (BISE)";
     const hecText = cityData.hecCenter ? `at the ${cityData.hecCenter}` : "at your regional Higher Education Commission (HEC) center";
 
-    const faqs = [
-        {
-            q: `How can I get my ${serviceData.title} translated into Arabic in ${cityData.name}?`,
-            a: `To translate your ${serviceData.title} in ${cityData.name}, simply send a high-quality photo or scan of the document to Lisan.pk via WhatsApp at +92 328 8155866. Our certified Arabic translators will translate, stamp, and sign your document to meet embassy standards, and send the official hard copy to your doorstep via secure courier.`
-        },
-        {
-            q: `Is the translation of my ${serviceData.title} from ${cityData.name} accepted by the Saudi Embassy?`,
-            a: `Yes! All translations provided by Lisan.pk carry our certified translation stamp and signature, which is 100% accepted by the Saudi Embassy, MOFA (Ministry of Foreign Affairs), and the Ministry of Education for scholarship or visa portals.`
-        },
-        {
-            q: `Where do I get my ${cityData.name}-issued ${serviceData.title} verified or attested before translation?`,
-            a: `For official Saudi university or embassy submissions, personal documents should ideally be attested by MOFA, and academic documents verified by ${biseText} or ${hecText}. We then provide the certified Arabic translation complete with our registered legal stamp, ensuring seamless portal uploads.`
-        },
-        {
-            q: `How long does it take to translate and deliver my ${serviceData.title} in ${cityData.name}?`,
-            a: `We offer a rapid 24-hour express service for urgent translation needs. Once the certified copy is stamped, we ship it to your location in ${cityData.name} (serving areas near ${cityData.landmark}) via TCS or Leopards courier, reaching you in 1-2 business days.`
-        }
-    ];
+    let heroDescription: string
+    let faqs: { q: string; a: string }[]
+
+    if (svcLower === 'urdu-to-english-translation') {
+        heroDescription = "We translate Urdu documents into English while preserving names, dates, document structure and relevant official markings."
+        faqs = [
+            {
+                q: `How can I get my Urdu documents translated into English in ${cityData.name}?`,
+                a: `We translate Urdu documents into English while preserving names, dates, document structure and relevant official markings. Share the document and the receiving organisation's instructions to request a translation quote via WhatsApp at +92 304 4296295.`
+            },
+            {
+                q: `Will my Urdu to English translation from ${cityData.name} be accepted by foreign authorities?`,
+                a: `The receiving authority decides the required translation format and any additional certification or attestation. Share the document and the receiving organisation's instructions to request a translation quote.`
+            },
+            {
+                q: `Do I need to get my document attested before Urdu to English translation?`,
+                a: `Document requirements vary by receiving institution. Please check the official authority's current instructions.`
+            },
+            {
+                q: `How long does it take to translate and deliver Urdu to English documents in ${cityData.name}?`,
+                a: `Delivery options and estimated turnaround are confirmed after document review.`
+            }
+        ]
+    } else if (svcLower === 'iata-dts-umrah-travel-agency') {
+        heroDescription = "Certified commercial translation of travel agency licenses, corporate certificates, and DTS registrations for overseas use."
+        faqs = [
+            {
+                q: `How can I translate my travel agency and DTS documents in ${cityData.name}?`,
+                a: `Share clear digital copies or scans of your corporate registrations, DTS certificates, or IATA accreditations with LISAN.PK. We review the document language and provide a certified translation quote.`
+            },
+            {
+                q: `What are the translation requirements for Saudi tourism and Umrah portal registration?`,
+                a: `The receiving authority decides the required translation format and any additional certification or attestation. Share the document and the receiving organisation's instructions to request a translation quote.`
+            },
+            {
+                q: `Where do travel agencies in ${cityData.name} verify commercial licenses?`,
+                a: `Commercial and tourism documents are issued by relevant regulatory authorities. Document requirements vary by receiving institution. Please check the official authority's current instructions.`
+            },
+            {
+                q: `What is the delivery turnaround for commercial translations in ${cityData.name}?`,
+                a: `Delivery options and estimated turnaround are confirmed after document review.`
+            }
+        ]
+    } else {
+        heroDescription = `Certified document translation support for residents of ${cityData.name}. Delivery options and estimated turnaround are confirmed after document review.`
+        faqs = [
+            {
+                q: `How can I get my ${serviceData.title} translated in ${cityData.name}?`,
+                a: `To request a translation quote for your ${serviceData.title} in ${cityData.name}, send a legible photo or digital scan to Lisan.pk via WhatsApp at +92 304 4296295. Share the document and the receiving organisation's instructions to request a translation quote.`
+            },
+            {
+                q: `Will my ${serviceData.title} translation from ${cityData.name} be accepted by receiving authorities?`,
+                a: `The receiving authority decides the required translation format and any additional certification or attestation. We provide certified translation accompanied by an accuracy statement matching official requirements.`
+            },
+            {
+                q: `Where do I get my ${cityData.name}-issued ${serviceData.title} verified or attested before translation?`,
+                a: `Document requirements vary by receiving institution. Please check the official authority's current instructions. Academic records generally follow BISE or HEC procedures, while civil records follow NADRA and MOFA.`
+            },
+            {
+                q: `How long does it take to translate and deliver my ${serviceData.title} in ${cityData.name}?`,
+                a: `Delivery options and estimated turnaround are confirmed after document review. Once complete, verified courier partners dispatch the physical certified documents directly to your address in ${cityData.name}.`
+            }
+        ]
+    }
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -121,7 +182,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
             
             <PageHero
                 title={`Certified ${serviceData.title} in ${cityData.name}`}
-                description={`Fast-track, embassy-accepted Arabic translation for ${cityData.name} residents. Guaranteed acceptance by Saudi portals, MOFA, and Gulf embassies.`}
+                description={heroDescription}
                 breadcrumbs={[
                     { label: "Locations", href: "/locations" },
                     { label: cityData.name, href: `/locations/${normalizedCity}` },
@@ -152,11 +213,11 @@ export default async function LocalizedServicePage({ params }: PageProps) {
 
                             <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-sm font-sans space-y-8">
                                 <h2 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight font-serif tracking-tight text-balance">
-                                    {priority1 ? `Certified ${priority1.service} in ${cityData.name}` : (service === 'degree-transcript-translation' ? `Translate degree and transcript into Arabic in ${cityData.name} for Saudi university admission` : `Certified ${serviceData.title} in ${cityData.name}`)}
+                                    {priority1 ? `Certified ${priority1.service} in ${cityData.name}` : (service === 'degree-transcript-translation' ? `Translate degree and transcript in ${cityData.name}` : `Certified ${serviceData.title} in ${cityData.name}`)}
                                 </h2>
 
                                 <p className="text-xl text-slate-600 leading-relaxed font-medium">
-                                    {priority1 ? priority1.intro : `${serviceData.engagementText} At Lisan.pk, we provide expert ${serviceData.title} in ${cityData.name}. Our embassy-grade services bypass common rejection triggers.`}
+                                    {priority1 ? priority1.intro : `${serviceData.engagementText} At Lisan.pk, we provide expert ${serviceData.title} in ${cityData.name}. Share the document and the receiving organisation's instructions to request a translation quote.`}
                                 </p>
                                 
                                 {priority1 ? (
@@ -174,20 +235,20 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                         {/* Local Issuing Authority & Context */}
                                         <div className="p-8 bg-emerald-950 text-white rounded-[2rem]">
                                             <h3 className="text-xl font-bold mb-3 font-serif text-emerald-400 flex items-center gap-2">
-                                                <span>🏛️</span> Local Issuing Authorities ({cityData.name})
+                                                <span>🏛️</span> Local Issuing Context ({cityData.name})
                                             </h3>
                                             <p className="text-emerald-100/90 leading-relaxed text-[15px] mb-4">
                                                 {priority1.issuingAuthority}
                                             </p>
                                             <span className="inline-block px-3 py-1 bg-emerald-800/80 rounded-lg text-xs font-bold uppercase tracking-wider text-emerald-300">
-                                                Factually Aligned with {cityData.name} Government Records
+                                                Document requirements vary by receiving institution. Please check the official authority&apos;s current instructions.
                                             </span>
                                         </div>
 
                                         {/* Primary Use Cases */}
                                         <div className="p-8 bg-white border border-emerald-100 rounded-[2rem] shadow-sm space-y-4">
                                             <h3 className="text-xl font-bold text-slate-900 font-serif flex items-center gap-2">
-                                                <span>🎯</span> Primary Use-Cases & Consular Acceptance
+                                                <span>🎯</span> Primary Use-Cases
                                             </h3>
                                             <div className="grid sm:grid-cols-2 gap-3">
                                                 {priority1.primaryUseCases.map((useCase, idx) => (
@@ -199,7 +260,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                             </div>
                                         </div>
 
-                                        {/* Honest Remote Delivery Framing */}
+                                        {/* Remote Delivery Framing */}
                                         <div className="p-8 bg-slate-900 text-white rounded-[2rem] space-y-3">
                                             <h3 className="text-xl font-bold text-emerald-400 font-serif flex items-center gap-2">
                                                 <span>📦</span> Remote Processing & Doorstep Courier in {cityData.name}
@@ -227,7 +288,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                                 {cityData.name} Regional Coverage & Logistics
                                             </p>
                                             <p className="text-white text-lg font-medium leading-relaxed relative z-10">
-                                                Our {cityData.name} service network provides priority document pickup, certified multilingual translation, and direct coordination with MOFA, IBCC, HEC, and embassy offices with expedited doorstep delivery across the region.
+                                                LISAN.PK serves this area through its online document-translation enquiry and delivery arrangements; contact us to confirm service availability for your document.
                                             </p>
                                         </div>
                                     )
@@ -243,20 +304,72 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 </div>
 
                                 <p className="text-slate-600 leading-relaxed">
-                                    {cityData.localInfo} Whether you are verifying your {serviceData.slug.includes('degree') ? 'academic credentials' : 'personal documents'} at <span className="font-bold text-slate-900">{cityData.biseName || 'the local board'}</span> or preparing for a scholarship at <span className="font-bold text-slate-900">{cityData.hecCenter || 'HEC'}</span>, we ensure your {cityData.name}-issued documents are translated into perfect Arabic with 100% technical accuracy.
+                                    {cityData.localInfo} {svcLower === 'urdu-to-english-translation' 
+                                        ? "We translate Urdu documents into English while preserving names, dates, document structure and relevant official markings." 
+                                        : svcLower === 'iata-dts-umrah-travel-agency'
+                                        ? "We translate commercial licenses, corporate certificates, and DTS registrations with accurate business terminology."
+                                        : "We provide certified translation support tailored to the receiving authority's stated requirements."}
                                 </p>
                             </div>
 
                             {/* Service attestation verification specifications */}
                             <div className="bg-gradient-to-br from-emerald-50 to-white p-10 rounded-[2.5rem] border border-emerald-100 shadow-sm space-y-6">
                                 <h3 className="text-2xl font-bold text-slate-900 font-serif">
-                                    Attestation Checklist for {serviceData.title} in {cityData.name}
+                                    Preparation Checklist for {serviceData.title} in {cityData.name}
                                 </h3>
                                 <p className="text-slate-600 leading-relaxed text-[15px]">
-                                    To guarantee that your translated <span className="font-bold text-slate-800">{serviceData.title}</span> is accepted by the Saudi Embassy, MOFA, or university admissions boards without delays, please verify the following regional steps:
+                                    Document requirements vary by receiving institution. Please check the official authority&apos;s current instructions before beginning:
                                 </p>
                                 <div className="grid gap-4">
-                                    {service.includes('degree') || service.includes('transcript') || service.includes('matric') || service.includes('intermediate') || service.includes('diploma') ? (
+                                    {svcLower === 'iata-dts-umrah-travel-agency' ? (
+                                        <>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Commercial & DTS Licensing Verification</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Confirm company registration and Department of Tourist Services accreditation.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Certified Commercial Translation</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Accurate translation of commercial registrations, tax records, and corporate agreements.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Submission Guidelines</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Document requirements vary by receiving institution. Please check the official authority&apos;s current instructions.</p>
+                                                </div>
+                                            </div>
+                                        </>
+                                    ) : svcLower === 'urdu-to-english-translation' ? (
+                                        <>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Document Legibility &amp; Completeness</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Ensure your original Urdu civil record, land paper (fard), court record, or affidavit is clear and legible.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Certified English Translation</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">We translate Urdu documents into English while preserving names, dates, document structure and relevant official markings.</p>
+                                                </div>
+                                            </div>
+                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
+                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
+                                                <div>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Recipient Format Compliance</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">The receiving authority decides the required translation format and any additional certification or attestation.</p>
+                                                </div>
+                                            </div>
+                                        </>
+                                    ) : service.includes('degree') || service.includes('transcript') || service.includes('matric') || service.includes('intermediate') || service.includes('diploma') ? (
                                         <>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
                                                 <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
@@ -268,39 +381,15 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
                                                 <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
                                                 <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">MOFA Attestation Support</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">Once verified, the document requires an active sticker attestation from the Ministry of Foreign Affairs (MOFA) in Pakistan.</p>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">MOFA Attestation / Apostille</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Check whether your destination requires General Attestation or Apostille on the official MOFA portal.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
                                                 <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
                                                 <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">Certified Arabic Translation</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">Lisan.pk will draft, format, and apply certified legal stamps to your document in perfect Arabic to mirror the MOFA-attested original.</p>
-                                                </div>
-                                            </div>
-                                        </>
-                                    ) : service.includes('nikah-nama') || service.includes('birth-certificate') ? (
-                                        <>
-                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
-                                                <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">NADRA Registration Certificate</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">Ensure your personal records are on a computerized NADRA certificate before starting the translation flow.</p>
-                                                </div>
-                                            </div>
-                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
-                                                <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">MOFA Verification</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">Your NADRA certificate must be attested by MOFA (Ministry of Foreign Affairs) {cityData.mofaOffice ? `at ${cityData.mofaOffice}` : 'at your nearest regional center'}.</p>
-                                                </div>
-                                            </div>
-                                            <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
-                                                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
-                                                <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">Lisan.pk Stamp & Sign</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">We apply our certified embassy-accepted stamps and signature. This guarantees acceptance on all Saudi portals.</p>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Certified Translation</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Lisan.pk provides certified translation complete with accuracy statement matching the original record.</p>
                                                 </div>
                                             </div>
                                         </>
@@ -309,22 +398,22 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
                                                 <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">1</div>
                                                 <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">Official Document Verification</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">Confirm that your document is officially issued by the relevant municipal or federal authority in {cityData.name}.</p>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Civil Record Verification</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Ensure your personal record is issued by NADRA or the competent civil registrar.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
                                                 <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">2</div>
                                                 <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">Legal Translation Delivery</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">Lisan.pk will assign a specialized translator with exact expertise in {serviceData.title.toLowerCase()} terminology to draft your file.</p>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">MOFA Attestation / Apostille</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">Follow MOFA online application instructions for your document category.</p>
                                                 </div>
                                             </div>
                                             <div className="p-4 bg-white rounded-xl border border-slate-100 flex gap-4">
                                                 <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800 font-bold shrink-0 select-none">3</div>
                                                 <div>
-                                                    <h4 className="font-bold text-slate-900 text-[15px]">Secure Courier Delivery</h4>
-                                                    <p className="text-slate-500 text-sm mt-1">We dispatch the legal translation directly to your doorstep in {cityData.name} via tracked DHL/TCS/Leopards delivery.</p>
+                                                    <h4 className="font-bold text-slate-900 text-[15px]">Certified Translation Delivery</h4>
+                                                    <p className="text-slate-500 text-sm mt-1">The receiving authority decides the required translation format and any additional certification or attestation.</p>
                                                 </div>
                                             </div>
                                         </>
@@ -339,19 +428,19 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                         Serving {cityData.name}
                                     </h3>
                                     <ul className="space-y-3 opacity-90">
-                                        <li className="text-sm">✓ High Priority Service in {cityData.name}</li>
+                                        <li className="text-sm">✓ Remote Document Service in {cityData.name}</li>
                                         <li className="text-sm">✓ Serving {cityData.landmark} areas</li>
-                                        {cityData.biseName && <li className="text-sm">✓ Direct support for {cityData.biseName}</li>}
-                                        {cityData.hecCenter && <li className="text-sm">✓ Aligned with {cityData.hecCenter}</li>}
+                                        {cityData.biseName && <li className="text-sm">✓ Guidance for {cityData.biseName} records</li>}
+                                        {cityData.hecCenter && <li className="text-sm">✓ Guidance for {cityData.hecCenter} records</li>}
                                     </ul>
                                 </div>
                                 <div className="p-8 bg-emerald-600 rounded-[2rem] text-white">
                                     <h3 className="text-xl font-bold mb-4 font-serif">
                                         Quick Connect
                                     </h3>
-                                    <p className="text-sm mb-6 opacity-90">Get a response in under 10 minutes for {cityData.name} service requests.</p>
-                                    <Link href="tel:+923288155866" className="font-bold text-lg hover:underline block mb-2">+92 328 8155866</Link>
-                                    <span className="text-xs uppercase tracking-widest font-bold opacity-70">Mon - Sat: 9am - 8pm</span>
+                                    <p className="text-sm mb-6 opacity-90">Delivery options and estimated turnaround are confirmed after document review.</p>
+                                    <Link href="tel:+923044296295" className="font-bold text-lg hover:underline block mb-2">+92 304 4296295</Link>
+                                    <span className="text-xs uppercase tracking-widest font-bold opacity-70">Online Document Enquiries &amp; Courier Delivery</span>
                                 </div>
                             </div>
 
@@ -359,12 +448,12 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                             <div className="prose prose-slate max-w-none prose-h3:text-2xl prose-h3:font-bold prose-p:text-slate-600 prose-p:leading-relaxed">
                             <h3 className="font-serif">How your documents are handled in {cityData.name}</h3>
                             <p>
-                                Applying from <span className="font-bold text-slate-900">{cityData.name}</span> means you are likely dealing with high volumes and tight deadlines. Our workflow is designed to minimize your stress:
+                                Document handling for <span className="font-bold text-slate-900">{cityData.name}</span> residents follows a streamlined remote workflow:
                             </p>
                                 <ol className="space-y-4">
-                                    <li><strong>Digital Review</strong>: Send a WhatsApp scan. We verify if your {cityData.name}-issued certificate has the required local attestations.</li>
-                                    <li><strong>Certified Drafting</strong>: Our qualified Arabic linguists translate and format the document to mirror the original perfectly.</li>
-                                    <li><strong>Embassy Stamping</strong>: We apply our official certification seal which is recognized by the Saudi Cultural Attaché.</li>
+                                    <li><strong>Digital Review</strong>: Share a clear digital scan. We review document details and confirm requested languages.</li>
+                                    <li><strong>Certified Drafting</strong>: Professional linguists translate and format the document to mirror the original structure.</li>
+                                    <li><strong>Certification</strong>: The receiving authority decides the required translation format and any additional certification or attestation.</li>
                                 </ol>
                             </div>
 
@@ -394,7 +483,7 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                             <div className="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100 sticky top-24">
                                 <h3 className="font-bold text-slate-900 mb-6 text-xl font-serif">Start Your Process</h3>
                                 <div className="space-y-4">
-                                    <Link href={`https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20${serviceData.title}%20in%20${cityData.name}.`} target="_blank" className="block w-full">
+                                    <Link href={`https://wa.me/923044296295?text=Hi%20Lisan.pk,%20I%20need%20${encodeURIComponent(serviceData.title)}%20in%20${encodeURIComponent(cityData.name)}.`} target="_blank" className="block w-full">
                                         <Button className="w-full bg-[#25D366] hover:bg-[#128C7E] h-16 text-lg rounded-2xl shadow-lg transition-transform hover:-translate-y-1 text-white font-bold">
                                             WhatsApp Now
                                         </Button>
@@ -407,15 +496,15 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                                 </div>
                                 <div className="mt-8 pt-8 border-t border-slate-100 text-center font-sans">
                                     <div className="flex items-center justify-center gap-3 text-slate-500 mb-4">
-                                        <span className="text-sm font-bold">● Available Now</span>
+                                        <span className="text-sm font-bold">● Available Online</span>
                                     </div>
-                                    <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold">100% Embassy Acceptance</p>
+                                    <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Certified Translation Standards</p>
                                 </div>
                             </div>
 
                             {/* Spoke Navigation to Hub & Main Service */}
                             <div className="p-8 bg-slate-900 rounded-[2.5rem] text-white space-y-4">
-                                <h4 className="font-bold text-sm uppercase tracking-wider text-emerald-400">Navigation & Spoke Links</h4>
+                                <h4 className="font-bold text-sm uppercase tracking-wider text-emerald-400">Navigation &amp; Spoke Links</h4>
                                 <div className="space-y-3">
                                     <Link href={`/locations/${normalizedCity}`} className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
                                         <span>📍 {cityData.name} Location Hub</span>
@@ -430,51 +519,15 @@ export default async function LocalizedServicePage({ params }: PageProps) {
 
                             {/* Internal Linking Spoke */}
                             <div className="p-8 bg-slate-900 rounded-[2.5rem] text-white">
-                                <h4 className="font-bold mb-6 text-sm uppercase tracking-wider text-emerald-400">Related Scholarship Guides</h4>
+                                <h4 className="font-bold mb-6 text-sm uppercase tracking-wider text-emerald-400">Related Official Guides</h4>
                                 <div className="space-y-3">
-                                    <Link href="/consultancy/saudi-scholarship" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
-                                        Saudi Scholarship 2026 Guide
+                                    <Link href="/guides/apostille-pakistan" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
+                                        MOFA Apostille Guide
                                         <span className="text-emerald-400">→</span>
                                     </Link>
-                                    <Link href="/blog/upcoming-deadlines-ksu-kau-2026-spring-2027" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
-                                        KSU & KAU Deadlines
+                                    <Link href="/guides/mofa-online-attestation" className="flex items-center justify-between p-4 bg-white/5 rounded-2xl text-sm font-medium hover:bg-white/10 transition-all group">
+                                        MOFA Online Attestation Guide
                                         <span className="text-emerald-400">→</span>
-                                    </Link>
-                                </div>
-                            </div>
-
-                            {/* Study in Turkey Cross-Linking Widget */}
-                            <div className="p-8 bg-gradient-to-br from-emerald-950 to-slate-900 rounded-[2.5rem] text-white border border-emerald-900/50 relative overflow-hidden">
-                                <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl" />
-                                <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-full text-[10px] font-black uppercase tracking-[0.15em] mb-4">
-                                    Study Abroad from {cityData.name}
-                                </div>
-                                <h4 className="text-lg font-black text-white leading-snug mb-3 font-serif">
-                                    Study in Turkey — Up to 75% Scholarship
-                                </h4>
-                                <p className="text-slate-400 text-xs leading-relaxed mb-5">
-                                    Students from {cityData.name} are now securing guaranteed university admissions in Istanbul with zero IELTS requirement. Our physical Bozok Technopark desk handles all on-ground support.
-                                </p>
-                                <ul className="space-y-2 mb-6">
-                                    {["No IELTS mandatory", "50%+ flat scholarship waiver", "Physical Turkey HQ verified", "Free application processing"].map(item => (
-                                        <li key={item} className="flex items-center gap-2 text-xs font-bold text-slate-200">
-                                            <span className="text-emerald-400 shrink-0">✓</span> {item}
-                                        </li>
-                                    ))}
-                                </ul>
-                                <div className="space-y-2">
-                                    <Link
-                                        href="/study-in-turkey"
-                                        className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-xl font-extrabold text-sm transition-all"
-                                    >
-                                        Explore Turkey Admissions →
-                                    </Link>
-                                    <Link
-                                        href={`https://wa.me/923288155866?text=Hi%20Lisan.pk%2C%20I%20am%20from%20${encodeURIComponent(cityData.name)}%20and%20want%20to%20know%20about%20Study%20in%20Turkey%20admissions.`}
-                                        target="_blank"
-                                        className="block w-full bg-white/5 hover:bg-white/10 border border-white/10 text-white text-center py-3 rounded-xl font-bold text-xs transition-all"
-                                    >
-                                        WhatsApp Turkey Desk
                                     </Link>
                                 </div>
                             </div>
@@ -482,21 +535,6 @@ export default async function LocalizedServicePage({ params }: PageProps) {
                     </div>
                 </div>
             </section>
-
-            <TestimonialSection />
-
-            {/* Global Links to Home/About/Contact */}
-            <section className="py-12 bg-white border-t border-slate-100 font-sans">
-                <div className="container mx-auto px-4 text-center">
-                    <div className="flex flex-wrap justify-center gap-8 text-sm font-bold text-slate-400 uppercase tracking-widest">
-                        <Link href="/" className="hover:text-emerald-600 transition-colors">Home</Link>
-                        <Link href="/locations" className="hover:text-emerald-600 transition-colors">Locations</Link>
-                        <Link href="/services" className="hover:text-emerald-600 transition-colors">All Services</Link>
-                        <Link href="/contact" className="hover:text-emerald-600 transition-colors">Contact</Link>
-                    </div>
-                </div>
-            </section>
         </main>
     )
 }
-

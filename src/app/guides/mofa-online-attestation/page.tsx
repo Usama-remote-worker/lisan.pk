@@ -353,6 +353,15 @@ export default function MofaOnlineAttestationGuidePage() {
             <p>
               For current country guidance, consult <a href="https://attestation.mofa.gov.pk/countries" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline font-semibold">MOFA&apos;s destination-country directory</a>. Saudi Arabia is listed under Apostille, whereas the United Arab Emirates appears under General Attestation on the directory reviewed for this guide. Always check your particular document and receiving authority before paying for either service.
             </p>
+            <div className="pt-2">
+              <Link
+                href="/guides/apostille-pakistan"
+                className="inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold underline text-sm"
+              >
+                <span>Apostille in Pakistan: Official Registration &amp; Requirements</span>
+                <ChevronRight className="w-4 h-4" />
+              </Link>
+            </div>
           </section>
 
           {/* Documents Required */}

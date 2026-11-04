@@ -6,7 +6,7 @@ import { getSortedPostsData } from "@/lib/blog"
 
 export const metadata: Metadata = {
     title: "Visual Directory & Service Sitemap",
-    description: "Navigate all pages, services, local branches, and guide maps of Lisan.pk. Access certified Arabic translations across Pakistan.",
+    description: "Navigate all pages, services, service areas, and guide maps of Lisan.pk. Access certified Arabic translations across Pakistan.",
     alternates: {
         canonical: "https://www.lisan.pk/directory",
     },
@@ -137,7 +137,7 @@ export default async function VisualDirectory() {
                                             <div key={slug} className="p-6 bg-slate-50/50 rounded-2xl border border-slate-200/60 hover:border-emerald-200 transition-colors">
                                                 <Link href={`/locations/${slug}`} className="font-bold text-slate-900 hover:text-emerald-700 text-base flex items-center gap-2 group mb-3 font-serif">
                                                     <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-                                                    {cityData.name} Branch
+                                                    {cityData.name} Service Area
                                                     <span className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-emerald-600 font-bold">→</span>
                                                 </Link>
                                                 <p className="text-xs text-slate-400 mb-4 line-clamp-1 italic">

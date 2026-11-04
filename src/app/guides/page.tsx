@@ -4,7 +4,7 @@ import { FileText, ArrowRight, ShieldCheck, CheckCircle2 } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Official Document & Translation Guides | LISAN.PK",
-  description: "Comprehensive step-by-step guides on Pakistani document attestation, MOFA online procedures, e-Certificates, and certified translation requirements.",
+  description: "Comprehensive step-by-step guides on Pakistani document attestation, MOFA online procedures, e-Certificates, apostille registration, and certified translation requirements.",
   alternates: {
     canonical: "https://www.lisan.pk/guides",
   },
@@ -12,6 +12,13 @@ export const metadata: Metadata = {
 
 export default function GuidesIndexPage() {
   const guides = [
+    {
+      title: "Apostille in Pakistan (2026): MOFA Registration, Fees, Documents & Verification",
+      description: "Complete guide to obtaining a Pakistani apostille under the Hague Convention: mandatory MOFA online registration, fees by category, prerequisite verifications, authorised couriers, and translation sequence.",
+      href: "/guides/apostille-pakistan",
+      updated: "5 November 2026",
+      tag: "Hague Apostille (B:T02)",
+    },
     {
       title: "MOFA Online Attestation in Pakistan (2026): Step-by-Step Guide",
       description: "How to use the official MOFA applicant portal, apply for General Attestation or Apostille, understand the October 2026 digital e-Certificate system, courier drop-offs, and pre-attestation requirements.",
@@ -86,7 +93,7 @@ export default function GuidesIndexPage() {
 
         {/* Support Section */}
         <section className="bg-emerald-900 text-white p-8 rounded-3xl space-y-4 shadow-sm">
-          <h2 className="text-xl font-bold font-serif">Need Certified Translation for Your Attested Documents?</h2>
+          <h2 className="text-xl font-bold font-serif">Need Certified Translation for Your Attested or Apostilled Documents?</h2>
           <p className="text-emerald-100 text-sm leading-relaxed max-w-2xl">
             LISAN.PK provides certified English and Arabic translations for civil records, degrees, and legal documents required for MOFA, embassy submissions, and overseas immigration.
           </p>

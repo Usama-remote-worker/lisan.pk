@@ -421,7 +421,7 @@ export const PRIORITY1_CONTENT: Record<string, Priority1Content> = {
         service: "IATA & DTS Umrah Agency Translation",
         intro: "Umrah operators and travel agencies in Sukkur submitting corporate licenses, DTS certificates, or IATA accreditations to Saudi tourism authorities require certified Arabic commercial translation. Lisan.pk provides official business translations aligned with Saudi Ministry of Tourism rules.",
         whatWeTranslate: "IATA Accreditation Certificates, Department of Tourist Services (DTS) Licenses, Travel Agency Registration Papers, and Securities.",
-        issuingAuthority: "{{VERIFY: which board/office issues DTS tourism licenses in Sukkur/Sindh}} (Issued by Department of Tourist Services Sindh / Sukkur Chamber of Commerce)",
+        issuingAuthority: "Issued by the Department of Tourist Services (DTS) Sindh or Sukkur Chamber of Commerce & Industry.",
         primaryUseCases: [
             "Saudi Ministry of Hajj & Umrah Portal Registration",
             "Saudi Tourism Authority Authorization",
