@@ -346,7 +346,7 @@ export default function AttestationServicePage() {
             </div>
 
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Check the <a href="https://attestation.mofa.gov.pk/countries" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline font-semibold">MOFA official country directory</a>. Do not assume Saudi Embassy legalisation is obligatory for every Saudi-bound document; Pakistan&apos;s apostille route may be applicable, depending on the receiving authority. Similarly, do not assume an apostille is the correct route for the UAE or another destination without checking.
+              Check the <a href="https://attestation.mofa.gov.pk/countries" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline font-semibold">MOFA official country directory</a>. Do not assume Saudi Embassy legalisation is obligatory for every Saudi-bound document; Pakistan&apos;s apostille route may be applicable, depending on the receiving authority. Similarly, do not assume an apostille is the correct route for the UAE or another destination without checking. See our <Link href="/guides/pakistan-apostille-country-list" className="text-emerald-700 underline font-semibold">Pakistan Apostille Country List</Link> to compare accepted destinations, objections and non-member routes.
             </p>
           </section>
 

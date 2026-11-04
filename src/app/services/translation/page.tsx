@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { PageHero } from "@/components/ui/PageHeader"
 import { Metadata } from "next"
 import { JsonLd } from "@/components/seo/JsonLd"
@@ -101,7 +102,7 @@ export default function TranslationPage() {
                             </div>
 
                             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 font-sans">
-                                <h3 className="text-xl font-semibold mb-4 text-emerald-800 font-serif">Languages</h3>
+                                <h3 className="text-xl font-semibold mb-4 text-emerald-800 font-serif">Direction-Specific Translation</h3>\n                                <div className="space-y-2 mb-4 text-xs font-semibold">\n                                    <Link href="/services/translation/arabic-to-english" className="block text-emerald-700 hover:text-emerald-800 underline">Arabic → English Document Translation</Link>\n                                    <Link href="/services/translation/arabic-to-urdu" className="block text-emerald-700 hover:text-emerald-800 underline">Arabic → Urdu Document Translation</Link>\n                                    <Link href="/translation-english-to-arabic" className="block text-emerald-700 hover:text-emerald-800 underline">English → Arabic Document Translation</Link>\n                                    <Link href="/services/translation/urdu-to-arabic" className="block text-emerald-700 hover:text-emerald-800 underline">Urdu → Arabic Document Translation</Link>\n                                </div>
                                 <ul className="space-y-3 font-sans">
                                     {["Arabic to English / Urdu", "English to Arabic", "Urdu to English / Arabic", "German Translation", "Turkish Translation"].map((item) => (
                                         <li key={item} className="flex items-center text-slate-700 font-medium">

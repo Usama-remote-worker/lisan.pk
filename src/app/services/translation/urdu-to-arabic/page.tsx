@@ -201,7 +201,7 @@ export default function UrduToArabicTranslationPage() {
           </div>
 
           <p className="text-xs text-emerald-200/70 italic pt-2 max-w-2xl">
-            *Urdu-to-Arabic translation is a separate language direction from English-to-Arabic translation. A translation, a translator&apos;s certification statement, notarisation, embassy legalisation and MOFA apostille are not interchangeable; the receiving authority determines which are required.
+            *Urdu-to-Arabic translation is a separate language direction from English-to-Arabic translation. Need an Arabic document translated into Urdu? See our dedicated <Link href="/services/translation/arabic-to-urdu" className="text-emerald-400 underline font-medium">Arabic-to-Urdu translation service</Link>. A translation, a translator&apos;s certification statement, notarisation, embassy legalisation and MOFA apostille are not interchangeable; the receiving authority determines which are required.
           </p>
         </div>
       </section>

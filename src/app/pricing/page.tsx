@@ -435,7 +435,7 @@ export default function PricingPage() {
           </div>
 
           <div className="text-xs text-slate-600 flex flex-wrap gap-2 pt-1">
-            <Link href="/services/translation/urdu-to-arabic" className="text-emerald-700 underline font-semibold">Urdu-to-Arabic translation services</Link> ·{" "}
+            <Link href="/services/translation/arabic-to-english" className="text-emerald-700 underline font-semibold">Arabic-to-English translation</Link> ·{" "}<Link href="/services/translation/arabic-to-urdu" className="text-emerald-700 underline font-semibold">Arabic-to-Urdu translation</Link> ·{" "}<Link href="/services/translation/urdu-to-arabic" className="text-emerald-700 underline font-semibold">Urdu-to-Arabic translation services</Link> ·{" "}
             <Link href="/translation-english-to-arabic" className="text-emerald-700 underline font-semibold">English-to-Arabic translation services</Link> ·{" "}
             <Link href="/services/translation/arabic-translation" className="text-emerald-700 underline font-semibold">Arabic translation hub</Link>
           </div>
