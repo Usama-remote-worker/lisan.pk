@@ -27,7 +27,7 @@ export function Footer() {
     ];
 
     const trustFeatures = [
-        { label: "Certified Translations", desc: "100% Embassy Accepted" },
+        { label: "Certified Translations", desc: "Official Submission Standard" },
         { label: "100+ Languages", desc: "Global Coverage" },
         { label: "Worldwide Delivery", desc: "Secure Tracked Courier" },
         { label: "Native Linguists", desc: "Professional Accuracy" },

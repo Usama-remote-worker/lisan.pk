@@ -9,23 +9,23 @@ const serviceData = {
         title: "Certified Arabic Translation Services in Pakistan | Lisan.pk",
         h1: "Official Arabic Translation & Attestation Support",
         description: "Professional Arabic translation for Saudi & Gulf visas. MOFA & embassy certified translation services in Lahore, Karachi & Islamabad.",
-        content: "Lisan.pk has been the premier choice for Arabic translation in Pakistan for over 40 years. Our certified Arabic translations are meticulously formatted and stamped, ensuring 100% acceptance by the Saudi Embassy, UAE Embassy, MOFA, and Gulf consulates. We specialize in translating all types of documents including legal, academic, commercial, and personal records into legally recognized Arabic.",
+        content: "Lisan.pk has been the premier choice for Arabic translation in Pakistan for over 40 years. Our certified Arabic translations are meticulously formatted and stamped, meeting the documentation standards of the Saudi Embassy, UAE Embassy, MOFA, and Gulf consulates. We specialize in translating all types of documents including legal, academic, commercial, and personal records into legally recognized Arabic.",
         features: ["Saudi Embassy Recognized", "MOFA Compliant", "40+ Years Legacy", "Same-Day Delivery Available"],
         checklist: ["Original English/Urdu Document", "Passport Copy for name spellings", "CNIC Copy"],
         faqs: [
             { q: "Is this translation valid for Saudi work visas?", a: "Yes, our certified translations are recognized by the Saudi Embassy and Cultural Attaché for all visa categories." },
-            { q: "How long does the attestation process take?", a: "The complete attestation (HEC -> MOFA -> Culture -> Embassy) typically takes 3-4 weeks. Lisan.pk can expedite this for you." }
+            { q: "How long does the attestation process take?", a: "Processing timelines vary by authority and document type (HEC, MOFA apostille, or consular legalization where required). LISAN.PK provides translation and document preparation assistance." }
         ]
     },
     "english-translation": {
         title: "Certified English Translation Services in Pakistan | Lisan.pk",
         h1: "Official English Translation with Accuracy Certificate",
-        description: "Certified Urdu to English translation for immigration, UKVI, USCIS, and global visas. High accuracy and 100% acceptance guaranteed.",
+        description: "Certified Urdu to English translation for immigration, UKVI, USCIS, and global visas. High accuracy and certified embassy-standard translation.",
         content: "Whether you need English translation for a birth certificate, marriage certificate, or academic transcripts for immigration or study abroad, our certified English translations meet the strict requirements of UKVI, USCIS, IRCC, and European embassies. We preserve the original formatting and ensure precise legal and medical terminology.",
         features: ["UKVI & USCIS Accepted", "Certificate of Accuracy", "Fast Turnaround", "Native Linguists"],
         checklist: ["Original Document", "Passport copies for verification", "Recipient country guidelines"],
         faqs: [
-            { q: "Is this translation valid for UK and Canada immigration?", a: "Yes, our certified translations are accompanied by an official 'Certificate of Accuracy' containing our registry details, which is 100% accepted by UKVI, USCIS, and IRCC." },
+            { q: "Is this translation valid for UK and Canada immigration?", a: "Yes, our certified translations are accompanied by an official 'Certificate of Accuracy' containing our registry details, which meets the published translation criteria of UKVI, USCIS, and IRCC." },
             { q: "Do you offer express delivery?", a: "Yes, we provide 12-hour express delivery for urgent immigration deadlines." }
         ]
     },
@@ -34,7 +34,7 @@ const serviceData = {
         h1: "Official Turkish Translation for Study & Residence Visas",
         description: "Professional Turkish translation services for student admissions, work permits, and residency. Certified by experienced translators.",
         content: "Applying for Turkish universities or a Turkish student/residence visa? We offer certified Turkish translation of your degree, transcripts, birth certificates, and police records. Our translations align perfectly with the requirements of the Turkish Embassy in Islamabad and Consulate General in Karachi. We ensure technical and legal terms are accurately localized.",
-        features: ["Turkish Embassy Accepted", "Accurate Formatting", "Technopark Coordination", "100% Valid for Visas"],
+        features: ["Turkish Embassy Accepted", "Accurate Formatting", "Technopark Coordination", "Visa Submission Ready"],
         checklist: ["Educational Documents or Degrees", "Birth Certificate / Police Character Certificate", "Valid Passport Scan"],
         faqs: [
             { q: "Do I need Turkey-related documents translated into Turkish?", a: "Yes, the Turkish Embassy and consulates require sworn and certified Turkish translations for all Urdu/English personal and academic records." },
@@ -67,7 +67,7 @@ const serviceData = {
     },
     "certified-translation": {
         title: "Certified Document Translation Services Pakistan | Lisan.pk",
-        h1: "Official Certified Translation | 100% Embassy Acceptance",
+        h1: "Official Certified Translation | Embassy-Standard Format",
         description: "Certified translation of personal and commercial documents. Accompanied by a Certificate of Accuracy, stamps, and official registry details.",
         content: "A certified translation is a legal document consisting of the translated text, a signed Certificate of Accuracy, and our registered seal. Lisan.pk translations are recognized worldwide by embassies, government agencies, universities, and corporate institutions. We ensure strict adherence to international formatting standards.",
         features: ["Certificate of Accuracy", "Embassy & MOFA Recognized", "Rapid Express Service", "Worldwide Courier Delivery"],
@@ -82,12 +82,12 @@ const serviceData = {
         h1: "Certified Birth Certificate Translation for Visa & Immigration",
         description: "Official Arabic & English translation of NADRA birth certificates. Accepted by embassies for visa & immigration. Certified and fast turnaround.",
         content: "A birth certificate is the most critical foundational document for identity verification during any visa, immigration, or residency application. Our certified translation services ensure that your NADRA or hospital birth certificate is translated into flawless English, Arabic, or other required languages. We meticulously mirror the exact formatting, layout, and terminology of the original document to guarantee absolute zero friction during your embassy visa interview or immigration document review. All translations come equipped with an official Certificate of Accuracy, registered stamps, and authorized signatures.",
-        features: ["Exact NADRA Format Matching", "100% Global Embassy Acceptance", "Fast Digital Copy Delivery", "Official Notarized Seal & Stamp", "Accurate Name Spellings"],
+        features: ["Exact NADRA Format Matching", "Global Embassy-Standard Formatting", "Fast Digital Copy Delivery", "Official Notarized Seal & Stamp", "Accurate Name Spellings"],
         checklist: ["Original NADRA Birth Certificate (Clear Scan)", "Passport Copies for exact name spelling match", "Parent's CNIC for cross-referencing", "Specific embassy guidelines (if any)"],
         faqs: [
             { q: "How long does the translation take?", a: "Our standard delivery time is 24 hours. For urgent immigration deadlines, we offer a specialized 2-hour express translation service." },
             { q: "Do I need to submit the physical original copy?", a: "No, a high-resolution scanned copy or clear photograph sent via WhatsApp or email is fully sufficient for us to process the certified translation." },
-            { q: "Will this translation be accepted by USCIS or UKVI?", a: "Yes, our certified translations include the mandated 'Certificate of Accuracy' which is universally accepted by USCIS, UKVI, IRCC, and all European embassies." }
+            { q: "Will this translation be accepted by USCIS or UKVI?", a: "Yes, our certified translations include the mandated 'Certificate of Accuracy' which complies with the certified translation criteria of USCIS, UKVI, IRCC, and European embassies." }
         ]
     },
     "academic-degree-transcript": {
@@ -256,7 +256,7 @@ const serviceData = {
         features: ["UKVI & USCIS Accepted", "12-Hour Urgent Delivery", "Official Seals & Stamps", "Accuracy Certification Included", "Regional Dialect Expertise"],
         checklist: ["Original Urdu Document (clear photo or scan)", "Passport copies for exact name matching", "Target country visa specifications (if any)"],
         faqs: [
-            { q: "Is this translation valid for UK and Canada immigration?", a: "Yes, our certified translations are accompanied by an official 'Certificate of Accuracy' containing our registry details, which is 100% accepted by UKVI, USCIS, and IRCC." },
+            { q: "Is this translation valid for UK and Canada immigration?", a: "Yes, our certified translations are accompanied by an official 'Certificate of Accuracy' containing our registry details, which meets the published translation criteria of UKVI, USCIS, and IRCC." },
             { q: "Do you translate handwritten marriage deeds (Nikah Nama)?", a: "Yes, we specialize in reading traditional handwriting and drafting high-precision, formatted English transcripts that mirror the original stamps and blocks." },
             { q: "Do you provide notarization for Urdu to English translations?", a: "Yes, if required by the requesting authority, we can provide notarization services along with the certified translation." }
         ]
@@ -415,8 +415,8 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                                             <div className="text-[10px] uppercase text-slate-400 font-bold">Google Rating</div>
                                         </div>
                                         <div className="text-center">
-                                            <div className="font-bold text-emerald-800">100%</div>
-                                            <div className="text-[10px] uppercase text-slate-400 font-bold">Acceptance</div>
+                                            <div className="font-bold text-emerald-800">Certified</div>
+                                            <div className="text-[10px] uppercase text-slate-400 font-bold">Standard</div>
                                         </div>
                                     </div>
                                 </div>

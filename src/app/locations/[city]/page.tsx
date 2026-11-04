@@ -346,7 +346,7 @@ export default async function LocationPage({ params }: PageProps) {
                                 <ul className="space-y-4">
                                     {[
                                         "40+ Years of Excellence",
-                                        "100% Embassy Acceptance",
+                                        "Official Embassy Standard",
                                         "Certified Arabic Experts",
                                         "Verified Legal Stamps"
                                     ].map(t => (

@@ -13,6 +13,13 @@ export const metadata: Metadata = {
 export default function GuidesIndexPage() {
   const guides = [
     {
+      title: "Certified Translation vs Notarization vs Attestation vs Apostille in Pakistan (2026)",
+      description: "Understand the critical differences between a private certified translation, a notary stamp, departmental attestation (HEC/IBCC), MOFA General Attestation, and a Hague Apostille in Pakistan. Clarifies legal weight, typical sequence, and country-specific rules.",
+      href: "/guides/certified-translation-vs-apostille-pakistan",
+      updated: "5 November 2026",
+      tag: "Decision Guide (A:T46)",
+    },
+    {
       title: "Apostille in Pakistan (2026): MOFA Registration, Fees, Documents & Verification",
       description: "Complete guide to obtaining a Pakistani apostille under the Hague Convention: mandatory MOFA online registration, fees by category, prerequisite verifications, authorised couriers, and translation sequence.",
       href: "/guides/apostille-pakistan",

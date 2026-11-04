@@ -56,6 +56,7 @@ export default async function BlogPostPage({ params }: Props) {
             "name": post.author
         },
         "datePublished": post.date,
+        "dateModified": post.lastModified || post.date,
         "image": post.image || "https://www.lisan.pk/logo.png",
         "publisher": {
             "@type": "Organization",

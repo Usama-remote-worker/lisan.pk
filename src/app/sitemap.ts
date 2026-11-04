@@ -46,6 +46,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/guides':                                                    '2026-11-03',
     '/guides/mofa-online-attestation':                            '2026-11-03',
     '/guides/apostille-pakistan':                                 '2026-11-05',
+    '/guides/certified-translation-vs-apostille-pakistan':        '2026-11-05',
     '/services/document':                                         '2026-06-15',
     '/services/translation':                                      '2026-05-24',
     '/services/ukvi-certified-translation':                       '2026-06-15',
@@ -129,7 +130,9 @@ function getBlogEntries(): MetadataRoute.Sitemap {
 
             // Use frontmatter date as lastModified (author-provided publish date).
             // All 86 published posts have a `date` field in YYYY-MM-DD format.
-            const lastModified = data.date
+            const lastModified = data.lastModified
+                ? new Date(data.lastModified)
+                : data.date
                 ? new Date(data.date)
                 : new Date('2026-05-07') // fallback: earliest commit batch date
 
@@ -172,6 +175,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 '/english-to-spanish-translation-services',
                 '/chinese-language-translation-in-urdu',
             ].includes(route) ? 0.85 :
+            [
+                '/guides',
+                '/guides/mofa-online-attestation',
+                '/guides/apostille-pakistan',
+                '/guides/certified-translation-vs-apostille-pakistan',
+                '/services/attestation',
+            ].includes(route) ? 0.8 :
             0.7
 
         entries.push({
