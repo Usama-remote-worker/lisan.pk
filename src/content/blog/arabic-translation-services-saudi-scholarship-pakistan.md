@@ -68,6 +68,9 @@ Throughout this process, we provide comprehensive [Saudi scholarship application
 
 Pricing depends on document length and urgency. Here’s a transparent estimate based on market rates for [professional translation services in Pakistan](/services).
 
+> [!NOTE]
+> **Official Company Pricing Notice:** The estimates below reflect general market estimates. For LISAN.PK's current confirmed document translation rates (standard document PKR 1,200, bachelor's transcript PKR 2,500, and scholarship packages), please see our verified [Translation Charges in Pakistan (2026)](/pricing) guide.
+
 ### Estimated Price List (PKR)
 
 | Document Type | Normal (3‑5 days) | Urgent (24‑48 hours) |
