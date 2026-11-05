@@ -1,9 +1,12 @@
 ---
+h1: "Saudi Scholarship Document Attestation Pakistan 2026: HEC, IBCC, MOFA & Apostille Guide"
+lastModified: "2026-11-05"
+
 title: "Saudi Scholarship Document Attestation Pakistan 2026: HEC, IBCC & MOFA"
 date: "2026-11-03"
 summary: "Learn how to attest Pakistani documents for Saudi scholarships in 2026. Understand when to use IBCC, HEC, Pakistan MOFA Apostille, translation and Saudi authority verification."
 category: "Attestation"
-author: "Usama Aimen — KSA Education Consultant"
+author: "LISAN.PK Editorial Team"
 readingTime: "16 min"
 published: true
 tags: ["Document Attestation Pakistan", "HEC Attestation", "IBCC Attestation", "MOFA Apostille Pakistan", "Saudi Scholarship Documents", "Saudi Embassy Legalization", "Pakistani Students", "Apostille Saudi Arabia"]
@@ -85,8 +88,6 @@ howTo:
       text: "Upload or submit authenticated documents according to the target Saudi institution's guidelines."
 ---
 
-# Saudi Scholarship Document Attestation Pakistan 2026: HEC, IBCC, MOFA & Apostille Guide
-
 **Pakistani documents do not all follow the same attestation route for a Saudi scholarship.** School and college certificates normally go through the relevant Board and **IBCC**, while Pakistani university degrees are authenticated through **HEC**. If the document must then be authenticated for use in Saudi Arabia, Pakistan's Ministry of Foreign Affairs currently lists Saudi Arabia as a country accepting **Apostille**.
 
 But the most important rule is:
@@ -105,7 +106,7 @@ Not:
 
 ---
 
-# Saudi Scholarship Attestation: Quick Answer
+## Saudi Scholarship Attestation: Quick Answer
 
 For Pakistani educational documents, the basic authority structure is:
 
@@ -126,7 +127,7 @@ For Pakistani educational documents, the basic authority structure is:
 
 For Saudi Arabia specifically, Pakistan's current Ministry of Foreign Affairs country directory states:
 
-# **Saudi Arabia Accepts Apostille**
+**Saudi Arabia Accepts Apostille**
 
 for eligible Pakistani public documents.
 
@@ -141,37 +142,37 @@ This is important because many older guides still automatically instruct student
 
 ---
 
-# The Correct Attestation Logic
+## The Correct Attestation Logic
 
 Use this sequence:
 
-# 1. Choose Your Saudi Program
+### 1. Choose Your Saudi Program
 ↓
-# 2. Check Exactly Which Documents Are Required
+### 2. Check Exactly Which Documents Are Required
 ↓
-# 3. Check Whether Attestation Is Required at Application Stage
+### 3. Check Whether Attestation Is Required at Application Stage
 ↓
-# 4. Identify the Document Type
+### 4. Identify the Document Type
 **SSC/HSSC → Board + IBCC**  
 **University Degree → HEC**
 ↓
-# 5. Complete Pakistan MOFA Apostille if Required for Saudi Use
+### 5. Complete Pakistan MOFA Apostille if Required for Saudi Use
 ↓
-# 6. Complete Translation if Required
+### 6. Complete Translation if Required
 ↓
-# 7. Follow Any Additional University / Visa Instruction
+### 7. Follow Any Additional University / Visa Instruction
 
 This is safer than blindly processing every academic document.
 
 ---
 
-# Do Saudi Scholarship Documents Need Attestation?
+## Do Saudi Scholarship Documents Need Attestation?
 
 **Saudi official guidance requires certificates and supporting documents to be authenticated by the competent authorities specified by the educational institution.**
 
 The important part is:
 
-# **specified by the educational institution**
+**specified by the educational institution**
 
 Therefore, not every student should automatically assume:
 
@@ -190,9 +191,9 @@ The route depends on:
 
 ---
 
-# Do I Need Attestation Before Applying on Study in Saudi?
+## Do I Need Attestation Before Applying on Study in Saudi?
 
-## Direct Answer
+### Direct Answer
 
 **Not necessarily for every document and every university. Check the exact application requirement first.**
 
@@ -213,11 +214,11 @@ Therefore:
 
 ---
 
-# Step 1: Identify Whether Your Document Is School-Level or University-Level
+## Step 1: Identify Whether Your Document Is School-Level or University-Level
 
 This determines which Pakistani authority is responsible.
 
-## School / College-Level Documents
+### School / College-Level Documents
 
 Examples:
 
@@ -231,13 +232,13 @@ Examples:
 
 These generally belong to the:
 
-# **IBCC route**
+**IBCC route**
 
 after verification by the issuing Board.
 
 ---
 
-## University-Level Documents
+### University-Level Documents
 
 Examples:
 
@@ -256,13 +257,13 @@ Examples:
 
 These generally belong to the:
 
-# **HEC route**
+**HEC route**
 
 ---
 
-# Step 2: Matric and Intermediate Documents — Use IBCC
+## Step 2: Matric and Intermediate Documents — Use IBCC
 
-## Direct Answer
+### Direct Answer
 
 **Pakistani SSC/Matric and HSSC/Intermediate documents are authenticated through IBCC, not HEC.**
 
@@ -272,15 +273,15 @@ Before IBCC attestation, the document must first be verified by the issuing Boar
 
 ---
 
-# IBCC Attestation Sequence
+### IBCC Attestation Sequence
 
 For a Pakistani Board-issued certificate, the current process is:
 
-# Issuing Board Verification
+### Issuing Board Verification
 ↓
-# IBCC Attestation
+### IBCC Attestation
 ↓
-# Pakistan MOFA Apostille — if required for Saudi use
+### Pakistan MOFA Apostille — if required for Saudi use
 
 This means a student with an FSc certificate should not send it to HEC.
 
@@ -288,7 +289,7 @@ HEC does not handle Matric and Intermediate certificates.
 
 ---
 
-# Does the Board Need to Verify the Certificate Before IBCC?
+### Does the Board Need to Verify the Certificate Before IBCC?
 
 **Yes.**
 
@@ -298,7 +299,7 @@ The verification should be available through the applicable IBCC/Board process b
 
 ---
 
-# Example: FSc Student Applying for a Saudi Bachelor's Scholarship
+### Example: FSc Student Applying for a Saudi Bachelor's Scholarship
 
 Suppose a Pakistani applicant has:
 
@@ -311,11 +312,11 @@ and the Saudi university specifically asks for an authenticated higher-secondary
 
 The likely Pakistani process for the requested Board document is:
 
-# Relevant Board
+### Relevant Board
 ↓
-# IBCC
+### IBCC
 ↓
-# Pakistan MOFA Apostille if required
+### Pakistan MOFA Apostille if required
 
 But:
 
@@ -325,7 +326,7 @@ If the university asks specifically for HSSC/FSc qualification evidence, determi
 
 ---
 
-# Does IBCC Need My Matric Record When Attesting HSSC?
+### Does IBCC Need My Matric Record When Attesting HSSC?
 
 IBCC's current rules state that when an HSSC certificate/diploma is submitted for attestation, a copy of the SSC certificate with marks statement may also be required as supporting documentation.
 
@@ -335,13 +336,13 @@ Supporting document requirement and paid attestation requirement are not the sam
 
 ---
 
-# How to Apply for IBCC Attestation
+### How to Apply for IBCC Attestation
 
 The current IBCC system provides three submission methods:
 
-### Appointment
-### Courier
-### Express Service
+#### Appointment
+#### Courier
+#### Express Service
 
 Express service is currently available in:
 
@@ -352,11 +353,11 @@ Applicants register through the official IBCC attestation portal and select the 
 
 ---
 
-# Current IBCC Standard Attestation Fee
+### Current IBCC Standard Attestation Fee
 
 As of the current IBCC FAQ, the standard fee for an:
 
-# **Original Certificate / DMC is PKR 1,200 each**
+**Original Certificate / DMC is PKR 1,200 each**
 
 Express or other service costs may differ.
 
@@ -364,7 +365,7 @@ Always verify the current fee before payment.
 
 ---
 
-# Important IBCC Warning
+### Important IBCC Warning
 
 IBCC requires the document to be verified by the issuing Board.
 
@@ -372,9 +373,9 @@ Do not send an unverified Board certificate assuming IBCC will automatically com
 
 ---
 
-# Step 3: Pakistani University Degrees — Use HEC
+## Step 3: Pakistani University Degrees — Use HEC
 
-## Direct Answer
+### Direct Answer
 
 **Pakistani Bachelor's, Master's, MS/MPhil and PhD degrees are authenticated through the Higher Education Commission (HEC), not IBCC.**
 
@@ -387,50 +388,50 @@ HEC currently authenticates documents including:
 
 ---
 
-# Which Documents Can HEC Attest?
+### Which Documents Can HEC Attest?
 
 HEC's current system covers academic documents such as:
 
-### Associate / Bachelor's
+#### Associate / Bachelor's
 - Degree
 - Transcript
 - Provisional Certificate
 
-### Master's
+#### Master's
 - Degree
 - Transcript
 - Provisional Certificate
 
-### MS / MPhil
+#### MS / MPhil
 - Degree
 - Transcript
 
-### PhD
+#### PhD
 - Degree
 - Transcript
 
-### HEC Equivalence
+#### HEC Equivalence
 - HEC-issued equivalence letter
 
 The exact document you need to attest depends on what the Saudi institution asks for.
 
 ---
 
-# HEC's New 2026 Attestation System
+### HEC's New 2026 Attestation System
 
-## Direct Answer
+### Direct Answer
 
 **HEC now operates a fully online, paperless degree-attestation system.**
 
 The current process involves:
 
-# Online Application
+### Online Application
 ↓
-# HEC Scrutiny
+### HEC Scrutiny
 ↓
-# Verification by the University / HEI
+### Verification by the University / HEI
 ↓
-# HEC e-Attestation Certificate
+### HEC e-Attestation Certificate
 
 Applicants use HEC's official e-services portal.
 
@@ -438,11 +439,11 @@ This is an important change from older guides describing only physical degree st
 
 ---
 
-# Current HEC Degree Attestation Fee
+### Current HEC Degree Attestation Fee
 
 HEC currently lists the attestation fee as:
 
-# **PKR 3,000 per document**
+**PKR 3,000 per document**
 
 A document can include, for example:
 
@@ -459,7 +460,7 @@ these are separate documents for fee purposes.
 
 ---
 
-# Example: Pakistani BS Graduate Applying for a Saudi Master's
+### Example: Pakistani BS Graduate Applying for a Saudi Master's
 
 Suppose a student has:
 
@@ -472,17 +473,17 @@ and the Saudi Master's application requires:
 
 If authentication is required, the Pakistani route is generally:
 
-# HEC
+### HEC
 for the degree/transcript
 ↓
-# Pakistan MOFA Apostille
+### Pakistan MOFA Apostille
 if required for use in Saudi Arabia
 
 The student does **not** send the BS degree to IBCC.
 
 ---
 
-# Example: Pakistani Master's Graduate Applying for Saudi PhD
+### Example: Pakistani Master's Graduate Applying for Saudi PhD
 
 Suppose the applicant holds:
 
@@ -507,15 +508,15 @@ If it only asks for certain authenticated records, process those.
 
 ---
 
-# Does HEC Attest Foreign University Degrees?
+### Does HEC Attest Foreign University Degrees?
 
-## Direct Answer
+### Direct Answer
 
 **No. HEC does not attest a foreign university degree itself.**
 
 HEC instead handles:
 
-# **Equivalence**
+**Equivalence**
 
 for foreign university qualifications.
 
@@ -531,7 +532,7 @@ Check whether:
 
 ---
 
-# Name Consistency Matters Before HEC Attestation
+### Name Consistency Matters Before HEC Attestation
 
 HEC's current process specifically checks consistency between:
 
@@ -553,7 +554,7 @@ Do this **before** starting the attestation process.
 
 ---
 
-# What If My Name Is Different on My Degree and Passport?
+### What If My Name Is Different on My Degree and Passport?
 
 Do not ignore it.
 
@@ -584,21 +585,21 @@ Do not alter the document yourself.
 
 ---
 
-# Step 4: Pakistan Ministry of Foreign Affairs — Apostille
+## Step 4: Pakistan Ministry of Foreign Affairs — Apostille
 
-## Direct Answer
+### Direct Answer
 
 **Saudi Arabia currently accepts Pakistan's Apostille for eligible Pakistani documents.**
 
 Pakistan and Saudi Arabia are both parties to the Hague Apostille Convention, and Pakistan's Ministry of Foreign Affairs currently lists:
 
-# **Saudi Arabia — Accepts Apostille**
+**Saudi Arabia — Accepts Apostille**
 
 This is a major point because older Pakistan-Saudi guides may describe a traditional legalization chain that predates the modern apostille system.
 
 ---
 
-# What Is an Apostille?
+### What Is an Apostille?
 
 An Apostille is an official authentication certificate used between countries participating in the Hague Apostille Convention.
 
@@ -614,7 +615,7 @@ For eligible Pakistani public documents being used in Saudi Arabia, Pakistan MOF
 
 ---
 
-# Does Apostille Replace Pakistan MOFA Attestation?
+### Does Apostille Replace Pakistan MOFA Attestation?
 
 The Apostille is issued through Pakistan's Ministry of Foreign Affairs.
 
@@ -622,13 +623,13 @@ In practical terms, for an eligible document going to an Apostille-accepting cou
 
 ---
 
-# Does Saudi Arabia Accept Pakistani Apostille?
+### Does Saudi Arabia Accept Pakistani Apostille?
 
 **Yes.**
 
 Pakistan MOFA's current destination directory specifically lists:
 
-# **Saudi Arabia — Accepts Apostille**
+**Saudi Arabia — Accepts Apostille**
 
 The Hague Conference also confirms that:
 
@@ -639,9 +640,9 @@ Therefore, students should be cautious when reading older guides written before 
 
 ---
 
-# Does Apostille Mean I Never Need the Saudi Embassy?
+### Does Apostille Mean I Never Need the Saudi Embassy?
 
-## Direct Answer
+### Direct Answer
 
 **Do not automatically add Saudi Embassy legalization after a Pakistani Apostille unless the receiving Saudi authority specifically instructs you to do so.**
 
@@ -669,27 +670,27 @@ Therefore:
 
 ---
 
-# Current Pakistan MOFA Apostille Process
+### Current Pakistan MOFA Apostille Process
 
 From **27 July 2026**, Pakistan's Ministry of Foreign Affairs requires applicants to register online before apostille processing.
 
 The current process is:
 
-# Create MOFA Apostille Account
+### Create MOFA Apostille Account
 ↓
-# Complete Applicant Details
+### Complete Applicant Details
 ↓
-# Upload CNIC
+### Upload CNIC
 ↓
-# Create Application
+### Create Application
 ↓
-# Enter Document Details
+### Enter Document Details
 ↓
-# Upload Required Documents
+### Upload Required Documents
 ↓
-# Submit
+### Submit
 ↓
-# Follow Approval / Appointment / Courier Instructions
+### Follow Approval / Appointment / Courier Instructions
 
 Pakistan MOFA currently operates apostille processing through:
 
@@ -704,7 +705,7 @@ and authorized service routes.
 
 ---
 
-### 🎓 Expert Support for Saudi Scholarship Applications & Documents
+#### 🎓 Expert Support for Saudi Scholarship Applications & Documents
 Applying to Saudi universities requires precision in eligibility verification, document attestation, and certified translation. LISAN.PK provides dedicated, professional assistance:
 - **Lead Consultant:** Usama Aimen — KSA Education Consultant
 - **Direct WhatsApp:** [0304 4296295](https://wa.me/923044296295?text=Assalamualaikum%2C%20I%20need%20professional%20assistance%20with%20my%20Saudi%20scholarship%20application.)
@@ -712,11 +713,11 @@ Applying to Saudi universities requires precision in eligibility verification, d
 
 ---
 
-# Current Pakistan MOFA Apostille Fee for Educational Documents
+### Current Pakistan MOFA Apostille Fee for Educational Documents
 
 Pakistan MOFA currently lists the fee for:
 
-# **Personal and Educational Documents: PKR 3,000 per document**
+**Personal and Educational Documents: PKR 3,000 per document**
 
 Additional courier/service charges can apply depending on the method used.
 
@@ -724,37 +725,37 @@ Fees can change, so verify the live MOFA portal before paying.
 
 ---
 
-# What Must Be Done Before Pakistan MOFA Apostille?
+### What Must Be Done Before Pakistan MOFA Apostille?
 
 MOFA's current educational-document checklist states:
 
-### University degrees
+#### University degrees
 must first complete the applicable:
 
-# **HEC authentication**
+**HEC authentication**
 
-### School / Board certificates
+#### School / Board certificates
 must first complete the applicable:
 
-# **IBCC authentication**
+**IBCC authentication**
 
 Therefore:
 
-# Matric / Intermediate
+### Matric / Intermediate
 Board → IBCC → MOFA Apostille
 
 and:
 
-# Pakistani University Degree
+### Pakistani University Degree
 HEC → MOFA Apostille
 
 where apostille is actually required.
 
 ---
 
-# Step 5: Translation Is Not the Same as Attestation
+## Step 5: Translation Is Not the Same as Attestation
 
-## Direct Answer
+### Direct Answer
 
 **Translation changes the language; attestation/authentication verifies the document's official origin. They are separate processes.**
 
@@ -768,9 +769,9 @@ Do not use the words interchangeably.
 
 ---
 
-# Do Saudi Scholarship Documents Need Arabic Translation?
+### Do Saudi Scholarship Documents Need Arabic Translation?
 
-## Direct Answer
+### Direct Answer
 
 **Not every Saudi scholarship document automatically needs Arabic translation.**
 
@@ -793,7 +794,7 @@ Check the exact program.
 
 ---
 
-# Should I Translate Before or After Attestation?
+### Should I Translate Before or After Attestation?
 
 There is no safe one-rule answer for every Saudi institution.
 
@@ -817,7 +818,7 @@ Therefore:
 
 ---
 
-# If the University Requires Arabic Translation
+### If the University Requires Arabic Translation
 
 Use a translation that accurately preserves:
 
@@ -837,9 +838,9 @@ It should accurately represent the source document.
 
 ---
 
-# Correct Attestation Route by Degree Level
+## Correct Attestation Route by Degree Level
 
-# Bachelor's Applicant from Pakistan
+### Bachelor's Applicant from Pakistan
 
 The main academic qualification is usually:
 
@@ -847,17 +848,17 @@ The main academic qualification is usually:
 
 For Pakistani Board qualifications:
 
-# Board Verification
+### Board Verification
 ↓
-# IBCC
+### IBCC
 ↓
-# Pakistan MOFA Apostille — if required
+### Pakistan MOFA Apostille — if required
 ↓
-# Translation — if required by university
+### Translation — if required by university
 
 ---
 
-# Master's Applicant from Pakistan
+### Master's Applicant from Pakistan
 
 The key previous qualification is normally:
 
@@ -865,17 +866,17 @@ The key previous qualification is normally:
 
 For a Pakistani university degree:
 
-# HEC
+### HEC
 ↓
-# Pakistan MOFA Apostille — if required
+### Pakistan MOFA Apostille — if required
 ↓
-# Translation — if required
+### Translation — if required
 
 The university may also ask for earlier academic records.
 
 ---
 
-# PhD Applicant from Pakistan
+### PhD Applicant from Pakistan
 
 The main previous academic qualifications can include:
 
@@ -886,23 +887,23 @@ The main previous academic qualifications can include:
 
 For Pakistani university degrees:
 
-# HEC
+### HEC
 ↓
-# Pakistan MOFA Apostille — if required
+### Pakistan MOFA Apostille — if required
 ↓
-# Translation — if required
+### Translation — if required
 
 Do not assume every publication, research paper or recommendation requires government attestation.
 
 ---
 
-# A-Level / O-Level Students
+### A-Level / O-Level Students
 
 Applicants with foreign examination-board qualifications should not treat them exactly like Pakistani BISE documents.
 
 They may need:
 
-# **IBCC Equivalence**
+**IBCC Equivalence**
 
 where a Pakistani equivalence is required.
 
@@ -912,7 +913,7 @@ Do not automatically apply the standard Matric/FSc workflow to Cambridge or othe
 
 ---
 
-# Foreign Degree Holder Living in Pakistan
+### Foreign Degree Holder Living in Pakistan
 
 If you earned your Bachelor's or Master's from a foreign university:
 
@@ -928,19 +929,19 @@ Always verify this separately.
 
 ---
 
-# Do I Need HEC and IBCC on the Same Degree?
+### Do I Need HEC and IBCC on the Same Degree?
 
-## Direct Answer
+### Direct Answer
 
 **Normally no. They handle different education levels.**
 
-### IBCC
+#### IBCC
 Handles:
 - SSC
 - HSSC
 - Board diplomas / secondary-level qualifications
 
-### HEC
+#### HEC
 Handles:
 - university degrees
 - university transcripts
@@ -952,7 +953,7 @@ An FSc certificate does not normally need HEC attestation.
 
 ---
 
-# Do I Need MOFA on Every Document?
+### Do I Need MOFA on Every Document?
 
 **No.**
 
@@ -969,15 +970,15 @@ If your application initially asks only for a scan, do not assume that every upl
 
 ---
 
-# Do I Need Saudi Embassy Attestation After MOFA Apostille?
+### Do I Need Saudi Embassy Attestation After MOFA Apostille?
 
-## Direct Answer
+### Direct Answer
 
 **Do not assume so. Saudi Arabia currently accepts Pakistani Apostilles.**
 
 Older workflows often instructed:
 
-# HEC / IBCC → Pakistan MOFA → Saudi Embassy
+### HEC / IBCC → Pakistan MOFA → Saudi Embassy
 
 But Pakistan's current MOFA country directory lists Saudi Arabia as accepting Apostille.
 
@@ -985,7 +986,7 @@ If your exact Saudi university or competent authority nevertheless gives a speci
 
 ---
 
-# What About the Saudi Cultural Mission?
+### What About the Saudi Cultural Mission?
 
 Saudi official document-ratification guidance can refer to Saudi Cultural Attaché/Cultural Mission involvement for certain foreign university documents.
 
@@ -997,11 +998,11 @@ Your scholarship application, final admission, equivalency or professional-regis
 
 ---
 
-# Attestation Before Application vs After Acceptance
+## Attestation Before Application vs After Acceptance
 
 This distinction can save students significant money.
 
-## Before Application
+### Before Application
 Your university may only require:
 - scanned qualification,
 - transcript,
@@ -1012,12 +1013,12 @@ Or it may explicitly ask for authenticated copies. Check first.
 
 ---
 
-## After University Approval
+### After University Approval
 Additional document authentication may be requested.
 
 ---
 
-## Visa / Enrollment Stage
+### Visa / Enrollment Stage
 The university or Saudi authority may require:
 - authenticated originals,
 - Apostille,
@@ -1030,7 +1031,7 @@ Therefore:
 
 ---
 
-# How Much Does Saudi Scholarship Document Attestation Cost in Pakistan?
+## How Much Does Saudi Scholarship Document Attestation Cost in Pakistan?
 
 Current official Pakistani government fees include:
 
@@ -1054,7 +1055,7 @@ Fees can change. Always confirm the official portal before payment.
 
 ---
 
-# Example: Cost of Attesting a Pakistani Bachelor's Degree
+### Example: Cost of Attesting a Pakistani Bachelor's Degree
 
 Suppose the Saudi university requires:
 
@@ -1064,17 +1065,17 @@ Suppose the Saudi university requires:
 
 Current government fees could include:
 
-### HEC
+#### HEC
 Degree: PKR 3,000  
 Transcript: PKR 3,000
 
-### Pakistan MOFA Apostille
+#### Pakistan MOFA Apostille
 Degree: PKR 3,000  
 Transcript: PKR 3,000
 
 That would make:
 
-# **PKR 12,000**
+**PKR 12,000**
 
 in these published government fees for those four document-actions, before:
 
@@ -1088,7 +1089,7 @@ But this is only an example.
 
 ---
 
-# Example: Bachelor's Scholarship Applicant With FSc
+### Example: Bachelor's Scholarship Applicant With FSc
 
 Suppose the university requires authenticated:
 
@@ -1107,106 +1108,106 @@ Check exactly which records the Saudi university requires before starting.
 
 ---
 
-# HEC vs IBCC vs MOFA: Simple Explanation
+## HEC vs IBCC vs MOFA: Simple Explanation
 
-# IBCC
+### IBCC
 **What does it verify?**  
 Pakistani school / Board qualifications.  
 *Think: Matric + Intermediate*
 
 ---
 
-# HEC
+### HEC
 **What does it verify?**  
 Pakistani university qualifications.  
 *Think: Bachelor's + Master's + PhD*
 
 ---
 
-# Pakistan MOFA
+### Pakistan MOFA
 **What does it do?**  
 Provides the final Pakistani international authentication/Apostille for eligible public documents after the relevant earlier authority has authenticated them.  
 *Think: Document is prepared for official use abroad.*
 
 ---
 
-# Saudi University / Authority
+### Saudi University / Authority
 **What does it decide?**  
 Which specific documents and authentication steps it requires.  
 *Think: Final destination requirement.*
 
 ---
 
-# The Correct Order Matters
+### The Correct Order Matters
 
 For a Pakistani university degree:
 
-# University Degree → HEC → Pakistan MOFA Apostille → Additional Saudi step only if specifically required
+### University Degree → HEC → Pakistan MOFA Apostille → Additional Saudi step only if specifically required
 
 For Pakistani Board documents:
 
-# BISE / Board Verification → IBCC → Pakistan MOFA Apostille → Additional Saudi step only if specifically required
+### BISE / Board Verification → IBCC → Pakistan MOFA Apostille → Additional Saudi step only if specifically required
 
 Do not reverse the sequence.
 
 ---
 
-# Common Saudi Scholarship Attestation Mistakes
+## Common Saudi Scholarship Attestation Mistakes
 
-## Mistake 1: Attesting Every Document Before Choosing a Program
+### Mistake 1: Attesting Every Document Before Choosing a Program
 This wastes money. First identify what the program requires.
 
-## Mistake 2: Sending FSc to HEC
+### Mistake 2: Sending FSc to HEC
 HEC handles higher education. FSc/Intermediate belongs to the Board/IBCC route.
 
-## Mistake 3: Sending a BS Degree to IBCC
+### Mistake 3: Sending a BS Degree to IBCC
 University degrees belong to HEC.
 
-## Mistake 4: Going to MOFA Before HEC or IBCC
+### Mistake 4: Going to MOFA Before HEC or IBCC
 Pakistan MOFA expects educational documents to have the appropriate prior authentication.
 
-## Mistake 5: Automatically Paying for Saudi Embassy Legalization
+### Mistake 5: Automatically Paying for Saudi Embassy Legalization
 Saudi Arabia currently accepts Pakistani Apostilles. Check whether your receiving authority actually requires anything further.
 
-## Mistake 6: Using Old Attestation Guides
+### Mistake 6: Using Old Attestation Guides
 Pakistan's Apostille system and HEC processes have changed. A guide from several years ago may describe an outdated route.
 
-## Mistake 7: Translating Before Checking the Accepted Language
+### Mistake 7: Translating Before Checking the Accepted Language
 The university may already accept English documents.
 
-## Mistake 8: Ignoring Name Mismatches
+### Mistake 8: Ignoring Name Mismatches
 Name differences can create problems at HEC, university, visa, and enrollment stages.
 
-## Mistake 9: Attesting Documents That Are Not Required
+### Mistake 9: Attesting Documents That Are Not Required
 More stamps do not make an application stronger.
 
-## Mistake 10: Using Unofficial Agents or Fake Websites
+### Mistake 10: Using Unofficial Agents or Fake Websites
 Always use the official portals. HEC has specifically warned students about fraudulent websites and parties pretending to provide HEC attestation services.
 
 ---
 
-# Official Portals Pakistani Students Should Use
+## Official Portals Pakistani Students Should Use
 
-## HEC
+### HEC
 Official e-services portal: `https://eservices.hec.gov.pk`  
 Use it for: Pakistani university degree attestation, transcript attestation, HEC equivalence services.
 
-## IBCC
+### IBCC
 Official website: `https://ibcc.edu.pk`  
 Official attestation portal: `https://attest.ibcc.edu.pk`  
 Use it for: Matric, Intermediate, recognized Board certificates and DMCs.
 
-## Pakistan Ministry of Foreign Affairs
+### Pakistan Ministry of Foreign Affairs
 Official Apostille portal: `https://apostille.mofa.gov.pk`  
 Use it for: international Apostille/authentication after the appropriate HEC/IBCC stage.
 
 ---
 
-# Saudi Arabia Currently Accepts Pakistan Apostille
+## Saudi Arabia Currently Accepts Pakistan Apostille
 
 Pakistan MOFA's official country directory currently classifies:
 
-# **Saudi Arabia — Accepts Apostille**
+**Saudi Arabia — Accepts Apostille**
 
 This should be checked again before processing because international document rules can change.
 
@@ -1214,7 +1215,7 @@ But as of **3 November 2026**, this is the current official Pakistani position.
 
 ---
 
-# Need Help With Document Attestation or Translation?
+## Need Help With Document Attestation or Translation?
 
 If you are unsure whether your target Saudi program requires HEC, IBCC, or MOFA Apostille at this stage, or if you need certified Arabic translation:
 
@@ -1227,7 +1228,7 @@ If you are unsure whether your target Saudi program requires HEC, IBCC, or MOFA 
 
 ---
 
-### Need Expert Guidance on Your Document Attestation & Arabic Translation?
+#### Need Expert Guidance on Your Document Attestation & Arabic Translation?
 
 Have questions about eligibility, university options, document attestation, medical tests, or the Study in Saudi portal? Contact our education consultant:
 
@@ -1240,137 +1241,137 @@ Have questions about eligibility, university options, document attestation, medi
 
 ---
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 
-## Do Saudi scholarship documents need attestation?
+### Do Saudi scholarship documents need attestation?
 
 **Some do, depending on the university and stage.** Saudi Ministry guidance says certificates and supporting papers should be authenticated by the competent authorities specified by the educational institution.
 
-## Do I need to attest everything before Study in Saudi application?
+### Do I need to attest everything before Study in Saudi application?
 
 No. Check the exact university/program requirement first.
 
-## Who attests Matric certificates in Pakistan?
+### Who attests Matric certificates in Pakistan?
 
 The issuing Board verifies them and IBCC handles national attestation.
 
-## Who attests FSc / Intermediate certificates?
+### Who attests FSc / Intermediate certificates?
 
 The issuing Board and IBCC.
 
-## Does HEC attest FSc?
+### Does HEC attest FSc?
 
 No. HEC handles higher-education qualifications.
 
-## Who attests Bachelor's degrees?
+### Who attests Bachelor's degrees?
 
 HEC handles Pakistani university degrees.
 
-## Who attests Master's degrees?
+### Who attests Master's degrees?
 
 HEC.
 
-## Who attests PhD degrees?
+### Who attests PhD degrees?
 
 HEC.
 
-## Does HEC attest transcripts?
+### Does HEC attest transcripts?
 
 Yes. HEC's current system includes transcripts among documents eligible for e-Attestation.
 
-## How much does HEC attestation cost?
+### How much does HEC attestation cost?
 
 HEC currently lists **PKR 3,000 per document**.
 
-## Is HEC attestation online?
+### Is HEC attestation online?
 
 Yes. HEC currently operates a fully online paperless degree-attestation system involving online submission, HEC scrutiny, university verification and issuance of an e-Attestation Certificate.
 
-## Does HEC attest foreign degrees?
+### Does HEC attest foreign degrees?
 
 No. HEC handles equivalence of foreign university qualifications rather than ordinary attestation of the foreign degree itself.
 
-## Does IBCC attest Bachelor's degrees?
+### Does IBCC attest Bachelor's degrees?
 
 No. University degrees belong to HEC.
 
-## Does IBCC require Board verification first?
+### Does IBCC require Board verification first?
 
 Yes. Current IBCC rules require relevant Board-issued documents to be verified by the issuing Board before IBCC attestation.
 
-## How much does IBCC attestation cost?
+### How much does IBCC attestation cost?
 
 The current standard fee listed for an original certificate/DMC is **PKR 1,200 each**.
 
-## Do I need Pakistan MOFA after HEC?
+### Do I need Pakistan MOFA after HEC?
 
 If the document needs international authentication/Apostille for Saudi use, Pakistan MOFA is the next Pakistani stage after the appropriate HEC authentication.
 
-## Do I need Pakistan MOFA after IBCC?
+### Do I need Pakistan MOFA after IBCC?
 
 Likewise, if the Board document needs Apostille for use in Saudi Arabia, MOFA follows IBCC.
 
-## Does Saudi Arabia accept Pakistan Apostille?
+### Does Saudi Arabia accept Pakistan Apostille?
 
 **Yes.** Pakistan MOFA's current country directory lists Saudi Arabia as accepting Apostille.
 
-## When did Pakistan start using Apostille?
+### When did Pakistan start using Apostille?
 
 The Hague Apostille Convention entered into force for Pakistan on **9 March 2023**.
 
-## When did Saudi Arabia join the Apostille Convention?
+### When did Saudi Arabia join the Apostille Convention?
 
 The Convention entered into force for Saudi Arabia on **7 December 2022**.
 
-## Do I still need Saudi Embassy attestation?
+### Do I still need Saudi Embassy attestation?
 
 Do not automatically assume so. Saudi Arabia accepts Pakistani Apostilles. Follow an additional embassy/authority step only where your receiving institution specifically requires it.
 
-## How much does Pakistan MOFA Apostille cost?
+### How much does Pakistan MOFA Apostille cost?
 
 The current fee for personal and educational documents is **PKR 3,000 per document**.
 
-## Can I walk into MOFA without applying online?
+### Can I walk into MOFA without applying online?
 
 From **27 July 2026**, Pakistan MOFA requires prior online registration for apostille processing.
 
-## Does every scholarship document need Arabic translation?
+### Does every scholarship document need Arabic translation?
 
 No. Translation depends on the university and document language.
 
-## Can English documents be used?
+### Can English documents be used?
 
 Many Saudi academic processes accept English documents, but this must be checked for the exact program.
 
-## Should translation happen before attestation?
+### Should translation happen before attestation?
 
 The correct sequence can depend on the receiving authority. Check the university's translation/authentication requirement before processing.
 
-## What if my degree name is different from my passport name?
+### What if my degree name is different from my passport name?
 
 Resolve or document the discrepancy before submission where possible. HEC specifically checks consistency across identity and academic information.
 
-## Do I need both degree and transcript attested?
+### Do I need both degree and transcript attested?
 
 Only if your Saudi university/process requires both authenticated.
 
-## Does more attestation improve my scholarship chances?
+### Does more attestation improve my scholarship chances?
 
 No. Attestation confirms document authenticity; it does not increase academic merit.
 
 ---
 
-# What Should a Pakistani Student Do First?
+## What Should a Pakistani Student Do First?
 
-## Bachelor's Applicant
+### Bachelor's Applicant
 Check: **Which school-level documents does the Saudi program require?**  
 Then, if authentication is required: **Board → IBCC → MOFA Apostille**
 
-## Master's Applicant
+### Master's Applicant
 Check: **Does the university require authenticated Bachelor's degree and/or transcript?**  
 Then: **HEC → MOFA Apostille**
 
-## PhD Applicant
+### PhD Applicant
 Check: **Which Bachelor's/Master's records require authentication?**  
 Then: **HEC → MOFA Apostille**
 
@@ -1378,7 +1379,7 @@ Do not automatically process every academic record from Matric onward.
 
 ---
 
-# Final Attestation Checklist
+## Final Attestation Checklist
 
 Before paying anything, answer:
 
@@ -1394,56 +1395,56 @@ If you cannot answer one of these questions, verify it before processing.
 
 ---
 
-# The Complete Pakistan-to-Saudi Document Route
+## The Complete Pakistan-to-Saudi Document Route
 
-## For Board Documents
-# Issuing Board Verification → IBCC → Pakistan MOFA Apostille (if required) → Translation (if required) → Saudi university / authority
+### For Board Documents
+### Issuing Board Verification → IBCC → Pakistan MOFA Apostille (if required) → Translation (if required) → Saudi university / authority
 
-## For Pakistani University Degrees
-# HEC e-Attestation → Pakistan MOFA Apostille (if required) → Translation (if required) → Saudi university / authority
+### For Pakistani University Degrees
+### HEC e-Attestation → Pakistan MOFA Apostille (if required) → Translation (if required) → Saudi university / authority
 
 ---
 
-# Continue Your Saudi Scholarship Research
+## Continue Your Saudi Scholarship Research
 
-## Before Attesting Documents
+### Before Attesting Documents
 
 👉 **[Complete Saudi Scholarship Roadmap 2026/27: From Eligibility to Arrival in Saudi Arabia](/blog/saudi-scholarship-complete-roadmap)**
 
-## Check What Your Program Requires
+### Check What Your Program Requires
 
 👉 **[Saudi Arabia Fully Funded Scholarship Programs 2026/27: Bachelor, Master & PhD List](/blog/saudi-fully-funded-scholarship-programs-2026)**
 
-## Check Eligibility First
+### Check Eligibility First
 
 👉 **[Saudi Scholarship Eligibility for Pakistani Students 2026: Age, Marks, CGPA & Requirements](/blog/saudi-scholarship-eligibility-pakistani-students)**
 
-## Before Submission
+### Before Submission
 
 👉 **[Saudi Scholarship Application Checklist 2026: 25 Checks Before You Submit](/blog/saudi-scholarship-application-review-checklist)**
 
-## Portal Problem?
+### Portal Problem?
 
 👉 **[Study in Saudi Portal Problems 2026: Registration, Passport, Application & Error Fixes](/blog/study-in-saudi-portal-problems-errors)**
 
-## Need Translation / Application Support?
+### Need Translation / Application Support?
 
 👉 **[Saudi Scholarship Application Assistance Pakistan: Study in Saudi Complete Support 2026](/blog/saudi-scholarship-application-assistance-pakistan)**
 
 ---
 
-# Final Answer: How Do You Attest Pakistani Documents for a Saudi Scholarship?
+## Final Answer: How Do You Attest Pakistani Documents for a Saudi Scholarship?
 
 **Use the authority that matches the document.**
 
 For Pakistani:
 
-# Matric / Intermediate
+### Matric / Intermediate
 **Board → IBCC → Pakistan MOFA Apostille if required**
 
 For:
 
-# Bachelor's / Master's / PhD
+### Bachelor's / Master's / PhD
 **HEC → Pakistan MOFA Apostille if required**
 
 Saudi Arabia currently accepts Pakistani Apostilles, so students should **not automatically follow old advice telling everyone to add Saudi Embassy legalization after MOFA**.
@@ -1456,7 +1457,7 @@ Saudi official rules place the final document-authentication requirement with th
 
 The best process is therefore:
 
-# **Program Requirement**
+**Program Requirement**
 → **Correct Document**
 → **IBCC or HEC**
 → **MOFA Apostille if required**
@@ -1467,7 +1468,7 @@ That approach is cheaper, faster and more accurate than attesting every document
 
 ---
 
-# Related Saudi Scholarship Guides & Resources
+## Related Saudi Scholarship Guides & Resources
 
 Explore our comprehensive guides to navigate the complete Study in Saudi application, admission, and visa process:
 
@@ -1485,7 +1486,7 @@ Explore our comprehensive guides to navigate the complete Study in Saudi applica
 - 📊 **[Study in Saudi Application Status Guide: Under Process & Accepted](/blog/study-in-saudi-application-status-under-process)** — How to track your portal status, understand approval stages, and fix delays.
 - 🛠️ **[Study in Saudi Portal Problems & Technical Error Fixes](/blog/study-in-saudi-portal-problems-errors)** — Practical solutions for registration glitches, passport upload errors, and portal timeouts.
 
-# Official Sources
+## Official Sources
 
 This guide was prepared using primary official sources:
 
@@ -1499,7 +1500,7 @@ This guide was prepared using primary official sources:
 
 ---
 
-# Important Disclaimer
+## Important Disclaimer
 
 LISAN.PK provides independent education guidance, translation, document support and scholarship application assistance.
 

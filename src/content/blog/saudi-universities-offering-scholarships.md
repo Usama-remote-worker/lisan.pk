@@ -1,9 +1,11 @@
 ---
+h1: "Saudi Universities Offering Scholarships 2026/27: Official List"
+lastModified: "2026-11-05"
 title: "Saudi Universities Offering Scholarships 2026/27: Official List"
 date: "2026-11-03"
 summary: "Explore Saudi universities offering scholarships to international students in 2026/27. See the official Study in Saudi university list, verified scholarship routes, funding types and how to check current programs."
 category: "Scholarship Guides"
-author: "Usama Aimen — KSA Education Consultant"
+author: "LISAN.PK Editorial Team"
 readingTime: "12 min"
 published: true
 tags: ["Saudi Universities", "Saudi Scholarships", "Study in Saudi", "Study in Saudi Universities", "International Students", "Pakistani Students", "King Saud University", "King Abdulaziz University", "KAUST"]
@@ -65,7 +67,6 @@ howTo:
       text: "Prepare certified translations and attestations, then submit your application."
 ---
 
-# Saudi Universities Offering Scholarships 2026/27 for International Students
 
 Saudi Arabia offers scholarship opportunities to international students through a large network of public universities, but there is an important distinction every applicant should understand:
 
@@ -90,7 +91,7 @@ This guide explains:
 
 ---
 
-# The Most Important Rule Before Using Any Saudi University List
+## The Most Important Rule Before Using Any Saudi University List
 
 There are four different questions:
 
@@ -127,7 +128,7 @@ Instead, verify each stage individually.
 
 ---
 
-# How Many Saudi Universities Are on Study in Saudi?
+## How Many Saudi Universities Are on Study in Saudi?
 
 The official Study in Saudi directory currently displays **25 universities** for international students.
 
@@ -141,7 +142,7 @@ Some Saudi universities and graduate institutions operate admission routes outsi
 
 ---
 
-# Official Study in Saudi University List
+## Official Study in Saudi University List
 
 As of **3 November 2026**, the official Study in Saudi university directory displays the following 25 institutions:
 
@@ -183,7 +184,7 @@ Therefore, this article does **not** label any of these 25 universities as "open
 
 ---
 
-# Do All 25 Universities Offer Fully Funded Scholarships?
+## Do All 25 Universities Offer Fully Funded Scholarships?
 
 No such blanket claim should be made.
 
@@ -209,7 +210,7 @@ The university name alone is not enough.
 
 ---
 
-# Universities With Clearly Verified International Scholarship Routes
+## Universities With Clearly Verified International Scholarship Routes
 
 Several universities have official pages that independently confirm scholarship opportunities for non-Saudi or international students.
 
@@ -217,7 +218,7 @@ These university-level sources give applicants much stronger evidence than relyi
 
 ---
 
-# 1. King Abdulaziz University
+### 1. King Abdulaziz University
 
 **King Abdulaziz University (KAU)** has one of the clearest official international-scholarship pages currently available.
 
@@ -250,7 +251,7 @@ Admission requirements should always be checked for the exact level and program.
 
 ---
 
-# 2. King Saud University
+### 2. King Saud University
 
 **King Saud University (KSU)** officially confirms external scholarship admission for international students living outside Saudi Arabia.
 
@@ -279,7 +280,7 @@ This is an excellent example of why students must check university-specific rule
 
 ---
 
-# 3. University of Tabuk
+### 3. University of Tabuk
 
 The **University of Tabuk** officially distinguishes between:
 
@@ -304,7 +305,7 @@ The university also maintains an official **Scholarship Application for Non-Saud
 
 ---
 
-# 4. University of Jeddah
+### 4. University of Jeddah
 
 The **University of Jeddah** explicitly states that it provides scholarship opportunities for non-Saudi students from outside the Kingdom through long-term and short-term educational programs.
 
@@ -328,7 +329,7 @@ This is a strong example of why the word "scholarship" should not automatically 
 
 ---
 
-# 5. Qassim University
+### 5. Qassim University
 
 **Qassim University** officially recognizes both internal and external scholarship tracks for non-Saudi students.
 
@@ -346,7 +347,7 @@ For graduate applicants, requirements must still be checked against the specific
 
 ---
 
-# 6. Princess Nourah bint Abdulrahman University
+### 6. Princess Nourah bint Abdulrahman University
 
 For female international students, **Princess Nourah bint Abdulrahman University (PNU)** is particularly important.
 
@@ -370,7 +371,7 @@ That is an important distinction for all applicants:
 
 ---
 
-# 7. Islamic University of Madinah
+### 7. Islamic University of Madinah
 
 The **Islamic University of Madinah** is widely associated with international scholarships, but applicants should read its current official information carefully rather than making assumptions.
 
@@ -396,7 +397,7 @@ That would be too broad.
 
 ---
 
-# 8. King Faisal University
+### 8. King Faisal University
 
 **King Faisal University** has an official scholarship page for non-Saudi students covering both:
 
@@ -419,7 +420,7 @@ For that reason:
 
 ---
 
-# 9. King Khalid University
+### 9. King Khalid University
 
 **King Khalid University (KKU)** appears in the current Study in Saudi university directory.
 
@@ -439,7 +440,7 @@ For KKU, the correct approach is:
 
 ---
 
-# What About the Other Study in Saudi Universities?
+## What About the Other Study in Saudi Universities?
 
 The remaining universities in the current official directory include:
 
@@ -472,11 +473,11 @@ before applying.
 
 ---
 
-# A Major University Outside the 25-University Study in Saudi List: KAUST
+## A Major University Outside the 25-University Study in Saudi List: KAUST
 
 There is an important reason students should not treat the Study in Saudi directory as a complete list of every funded opportunity in Saudi Arabia.
 
-## King Abdullah University of Science and Technology — KAUST
+### King Abdullah University of Science and Technology — KAUST
 
 **King Abdullah University of Science and Technology (KAUST)** operates its own international graduate admissions system.
 
@@ -514,7 +515,7 @@ KAUST is a **graduate-focused route**, not a general Bachelor's scholarship alte
 
 ---
 
-# Study in Saudi Universities vs Independent University Routes
+## Study in Saudi Universities vs Independent University Routes
 
 | Route | Examples | Where to Apply |
 |---|---|---|
@@ -534,7 +535,7 @@ Applying to Saudi universities requires precision in eligibility verification, d
 
 ---
 
-# Are All Saudi Universities Open to Pakistani Students?
+## Are All Saudi Universities Open to Pakistani Students?
 
 Saudi government external scholarships are designed for non-Saudi students from outside the Kingdom, subject to the applicable rules and university admission conditions.
 
@@ -562,7 +563,7 @@ For a complete eligibility assessment, use the LISAN.PK guide:
 
 ---
 
-# Are Health and Medical Scholarships Available?
+## Are Health and Medical Scholarships Available?
 
 Students should be especially careful here.
 
@@ -586,7 +587,7 @@ from
 
 ---
 
-# Which Saudi University Is Best for International Students?
+## Which Saudi University Is Best for International Students?
 
 There is no responsible universal answer.
 
@@ -625,29 +626,29 @@ The better question is:
 
 ---
 
-# How to Choose a Saudi University for Scholarship Applications
+## How to Choose a Saudi University for Scholarship Applications
 
 Use this order:
 
-## 1. Degree Level
+### 1. Degree Level
 Bachelor's, Master's or PhD.
 
-## 2. Previous Academic Background
+### 2. Previous Academic Background
 Does your previous qualification match?
 
-## 3. Program
+### 3. Program
 Is the desired specialization actually available?
 
-## 4. International Eligibility
+### 4. International Eligibility
 Is that program available to non-Saudi students?
 
-## 5. Scholarship Type
+### 5. Scholarship Type
 Is it full, partial or paid?
 
-## 6. Gender Eligibility
+### 6. Gender Eligibility
 Can you apply?
 
-## 7. Language Requirement
+### 7. Language Requirement
 Check:
 - Arabic
 - IELTS
@@ -656,14 +657,14 @@ Check:
 - previous English-medium education
 - other program-specific requirements
 
-## 8. Current Intake Status
+### 8. Current Intake Status
 Is the program open now?
 
 Only after these eight checks should university reputation become a major deciding factor.
 
 ---
 
-# Current Study in Saudi Program Availability
+## Current Study in Saudi Program Availability
 
 As of **3 November 2026**, the official Study in Saudi program-search page currently displays:
 
@@ -688,7 +689,7 @@ Does it show the correct scholarship type and applicant eligibility?
 
 ---
 
-# Why Scholarship Lists Become Outdated So Quickly
+## Why Scholarship Lists Become Outdated So Quickly
 
 A blog may say:
 
@@ -712,11 +713,11 @@ A useful scholarship directory should always tell the reader:
 
 ---
 
-# Full Scholarship vs Partial Scholarship vs Paid Study
+## Full Scholarship vs Partial Scholarship vs Paid Study
 
 The Saudi Ministry officially distinguishes the following categories for international students:
 
-## Full / Free Scholarship
+### Full / Free Scholarship
 
 The scholarship provides the full benefits determined under the applicable rules.
 
@@ -730,7 +731,7 @@ Possible external-scholarship benefits described by the Ministry include:
 
 subject to the relevant regulations.
 
-## Partial Scholarship
+### Partial Scholarship
 
 The university provides only some benefits.
 
@@ -739,7 +740,7 @@ For example:
 - study seat only,
 - or study seat plus accommodation.
 
-## Paid Study
+### Paid Study
 
 The student pays according to the applicable program arrangement.
 
@@ -749,7 +750,7 @@ Therefore:
 
 ---
 
-# Does Every University Offer Bachelor's, Master's and PhD Scholarships?
+## Does Every University Offer Bachelor's, Master's and PhD Scholarships?
 
 No.
 
@@ -770,7 +771,7 @@ Always check the **degree-specific route**.
 
 ---
 
-# Does Being Listed Mean the University Is Open Now?
+## Does Being Listed Mean the University Is Open Now?
 
 No.
 
@@ -792,7 +793,7 @@ A student needs all relevant conditions to align.
 
 ---
 
-# Can Students Apply Directly to the University?
+## Can Students Apply Directly to the University?
 
 The application route depends on the institution and program.
 
@@ -810,7 +811,7 @@ Therefore:
 
 ---
 
-# How Pakistani Students Should Use This University List
+## How Pakistani Students Should Use This University List
 
 Do not send applications to all 25 universities randomly.
 
@@ -835,7 +836,7 @@ A good shortlist may contain fewer universities but stronger academic matches.
 
 ---
 
-# Recommended Saudi Scholarship Research Sequence
+## Recommended Saudi Scholarship Research Sequence
 
 For each university:
 
@@ -871,7 +872,7 @@ Only then prepare the application.
 
 ---
 
-# Need Expert Help Choosing the Right Saudi University?
+## Need Expert Help Choosing the Right Saudi University?
 
 If you are unsure which Saudi university matches your profile, whether your target program offers a full scholarship, or how to prepare your documents and certified translations:
 
@@ -897,75 +898,75 @@ Have questions about eligibility, university options, document attestation, medi
 
 ---
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 
-## How many universities are currently listed on Study in Saudi?
+### How many universities are currently listed on Study in Saudi?
 
 As of **3 November 2026**, the official Study in Saudi university directory displays **25 universities**.
 
-## Does Saudi Arabia have only 25 public universities?
+### Does Saudi Arabia have only 25 public universities?
 
 No. The Saudi Ministry's general scholarship guidance refers to **27 public universities**, while Study in Saudi's current directory displays 25.
 
-## Are all 25 Study in Saudi universities currently accepting applications?
+### Are all 25 Study in Saudi universities currently accepting applications?
 
 No. The live Study in Saudi program-search page currently says that no programs are available.
 
-## Are all Study in Saudi scholarships fully funded?
+### Are all Study in Saudi scholarships fully funded?
 
 No. Saudi government scholarship arrangements can be full, partial or paid.
 
-## Which Saudi university has clearly documented fully funded international scholarships?
+### Which Saudi university has clearly documented fully funded international scholarships?
 
 King Abdulaziz University's official international scholarship page explicitly describes fully funded scholarships for students living outside Saudi Arabia.
 
-## Does King Saud University offer external scholarships?
+### Does King Saud University offer external scholarships?
 
 Yes. KSU's current non-Saudi admission page confirms an external-scholarship route for international applicants residing outside Saudi Arabia.
 
-## Does University of Tabuk accept external scholarship students?
+### Does University of Tabuk accept external scholarship students?
 
 Yes. Its official scholarship information distinguishes external scholarships for students outside Saudi Arabia and internal scholarships for residents.
 
-## Does University of Jeddah offer international scholarships?
+### Does University of Jeddah offer international scholarships?
 
 Yes. The University of Jeddah states that international opportunities may be free, partial or paid and directs external scholarship applications through Study in Saudi.
 
-## Does Qassim University accept international postgraduate scholarship applicants?
+### Does Qassim University accept international postgraduate scholarship applicants?
 
 Its official graduate-admission page confirms external and internal scholarship tracks for non-Saudi applicants and directs external applicants through Study in Saudi.
 
-## Which Saudi university offers scholarships specifically for female international students?
+### Which Saudi university offers scholarships specifically for female international students?
 
 Princess Nourah bint Abdulrahman University has an official external-scholarship route for non-Saudi female students residing outside Saudi Arabia.
 
-## Does Islamic University of Madinah offer international scholarships?
+### Does Islamic University of Madinah offer international scholarships?
 
 Yes, but the exact route depends on degree level and applicant status. Its official international-student FAQ should be checked carefully before assuming postgraduate external eligibility.
 
-## Is KAUST on Study in Saudi?
+### Is KAUST on Study in Saudi?
 
 KAUST is not among the 25 institutions currently displayed in the Study in Saudi university directory. It operates its own graduate admissions process and currently provides fully funded graduate study through the KAUST Fellowship for eligible admitted students.
 
-## Are KAUST applications currently open?
+### Are KAUST applications currently open?
 
 As of **3 November 2026**, Fall 2027 MS, MS/PhD and PhD applications are open according to KAUST's official admissions system.
 
-## Can Pakistani students apply?
+### Can Pakistani students apply?
 
 Pakistani students living outside Saudi Arabia can be considered under external international scholarship routes where they meet the university and program requirements. Eligibility is not automatic simply because of nationality.
 
-## Can international students apply for medicine through the standard Saudi government scholarship route?
+### Can international students apply for medicine through the standard Saudi government scholarship route?
 
 The Ministry's general scholarship guidance excludes health and medical specialties from the post-secondary programs described under that general framework. Students should verify any separate university or paid-study route directly.
 
-## Which university should I apply to?
+### Which university should I apply to?
 
 Choose based on **program fit, eligibility, funding type and current availability**, not simply university fame.
 
 ---
 
-# Before Choosing a Saudi University
+## Before Choosing a Saudi University
 
 Never make your decision using only:
 
@@ -976,53 +977,53 @@ Never make your decision using only:
 
 The correct sequence is:
 
-# **Profile**
+**Profile**
 ↓
-# **Degree**
+**Degree**
 ↓
-# **Field**
+**Field**
 ↓
-# **Eligible Programs**
+**Eligible Programs**
 ↓
-# **Universities**
+**Universities**
 ↓
-# **Scholarship Type**
+**Scholarship Type**
 ↓
-# **Language / Gender Requirements**
+**Language / Gender Requirements**
 ↓
-# **Current Opening**
+**Current Opening**
 ↓
-# **Application**
+**Application**
 
 This gives students a much stronger shortlist than starting with university names.
 
 ---
 
-# Continue Your Saudi Scholarship Research
+## Continue Your Saudi Scholarship Research
 
-## Find Actual Degree Programs
+### Find Actual Degree Programs
 
 👉 **[Saudi Arabia Fully Funded Scholarship Programs 2026/27: Bachelor, Master & PhD List](/blog/saudi-fully-funded-scholarship-programs-2026)**
 
-## Check Whether You Are Eligible
+### Check Whether You Are Eligible
 
 👉 **[Saudi Scholarship Eligibility for Pakistani Students 2026: Age, Marks, CGPA & Requirements](/blog/saudi-scholarship-eligibility-pakistani-students)**
 
-## Check IELTS or MOI Requirements
+### Check IELTS or MOI Requirements
 
 👉 **[Saudi Scholarship Without IELTS 2026: Universities, MOI & English Requirements](/blog/saudi-scholarship-without-ielts)**
 
-## Understand the Complete Journey
+### Understand the Complete Journey
 
 👉 **[Complete Saudi Scholarship Roadmap 2026/27: From Eligibility to Arrival in Saudi Arabia](/blog/saudi-scholarship-complete-roadmap)**
 
-## Need Application Guidance?
+### Need Application Guidance?
 
 👉 **[Saudi Scholarship Application Assistance Pakistan: Study in Saudi Complete Support 2026](/blog/saudi-scholarship-application-assistance-pakistan)**
 
 ---
 
-# Related Saudi Scholarship Guides & Resources
+## Related Saudi Scholarship Guides & Resources
 
 Explore our comprehensive guides to navigate the complete Study in Saudi application, admission, and visa process:
 
@@ -1040,7 +1041,7 @@ Explore our comprehensive guides to navigate the complete Study in Saudi applica
 - 📊 **[Study in Saudi Application Status Guide: Under Process & Accepted](/blog/study-in-saudi-application-status-under-process)** — How to track your portal status, understand approval stages, and fix delays.
 - 🛠️ **[Study in Saudi Portal Problems & Technical Error Fixes](/blog/study-in-saudi-portal-problems-errors)** — Practical solutions for registration glitches, passport upload errors, and portal timeouts.
 
-# Final Answer: Which Saudi Universities Offer Scholarships?
+## Final Answer: Which Saudi Universities Offer Scholarships?
 
 Saudi Arabia has a broad government-supported international scholarship system.
 
@@ -1068,7 +1069,7 @@ At the time this guide was last verified, Study in Saudi's live search page was 
 
 ---
 
-# Official Sources Used
+## Official Sources Used
 
 This article was verified using primary Saudi government and university sources, including:
 
@@ -1086,7 +1087,7 @@ This article was verified using primary Saudi government and university sources,
 
 ---
 
-# Important Disclaimer
+## Important Disclaimer
 
 LISAN.PK provides independent scholarship information, education guidance, document support and application assistance.
 
