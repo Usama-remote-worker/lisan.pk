@@ -34,6 +34,11 @@ export const metadata: Metadata = {
     description: "Urdu-to-English Fard, Intiqal, Jamabandi and registry deed translation in Pakistan. Clear ownership tables, document-specific certification and quotes for UK/US use.",
     url: "https://www.lisan.pk/services/translation/property-document-translation",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fard & Property Document Translation in Pakistan | Urdu to English | LISAN.PK",
+    description: "Urdu-to-English Fard, Intiqal, Jamabandi and registry deed translation in Pakistan. Clear ownership tables, document-specific certification and quotes for UK/US use.",
   }
 }
 

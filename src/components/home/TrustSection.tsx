@@ -16,58 +16,13 @@ const logos = [
     { name: "Nadra", color: "text-emerald-900" }
 ]
 
-function Counter({ value, suffix = "" }: { value: number, suffix?: string }) {
-    const ref = useRef<HTMLSpanElement>(null)
-    const motionValue = useMotionValue(0)
-    const springValue = useSpring(motionValue, { damping: 60, stiffness: 100 })
-    const isInView = useInView(ref, { once: true, margin: "-100px" })
-
-    useEffect(() => {
-        if (isInView) {
-            motionValue.set(value)
-        }
-    }, [isInView, value, motionValue])
-
-    useEffect(() => {
-        return springValue.on("change", (latest) => {
-            if (ref.current) {
-                ref.current.textContent = Intl.NumberFormat("en-US").format(Math.round(latest)) + suffix
-            }
-        })
-    }, [springValue, suffix])
-
-    return <span ref={ref} className="text-4xl md:text-5xl font-bold text-emerald-600 block mb-2 font-serif" />
-}
-
 export function TrustSection() {
     return (
         <section className="border-y border-slate-200 bg-white overflow-hidden font-sans">
-            {/* Stats Area */}
-            <div className="container mx-auto px-4 py-16">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-slate-100">
-                    <div>
-                        <Counter value={40} suffix="+" />
-                        <p className="text-slate-500 font-medium text-sm uppercase tracking-wide">Years Experience</p>
-                    </div>
-                    <div>
-                        <Counter value={100} suffix="k+" />
-                        <p className="text-slate-500 font-medium text-sm uppercase tracking-wide">Happy Clients</p>
-                    </div>
-                    <div>
-                        <Counter value={99} suffix="%" />
-                        <p className="text-slate-500 font-medium text-sm uppercase tracking-wide">Approval Rate</p>
-                    </div>
-                    <div>
-                        <Counter value={30} suffix="+" />
-                        <p className="text-slate-500 font-medium text-sm uppercase tracking-wide">Expert Translators</p>
-                    </div>
-                </div>
-            </div>
-
             {/* Marquee Area */}
-            <div className="py-12 bg-slate-50 border-t border-slate-200 relative">
+            <div className="py-12 bg-slate-50 relative">
                 <p className="text-center text-xs font-black text-slate-500 uppercase tracking-[0.3em] mb-10">
-                    Recognized & Trusted By
+                    Recognized & Trusted Standards
                 </p>
 
                 <div className="relative flex items-center group">

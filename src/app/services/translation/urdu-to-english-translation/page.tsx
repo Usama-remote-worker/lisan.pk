@@ -36,6 +36,11 @@ export const metadata: Metadata = {
     description: "Certified Urdu-to-English document translation in Pakistan for USCIS, UK visas, legal documents, Nikah Nama, Fard and degrees. Review requirements and request a quote.",
     url: "https://www.lisan.pk/services/translation/urdu-to-english-translation",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Certified Urdu to English Translation in Pakistan | USCIS, UKVI & Documents | LISAN.PK",
+    description: "Certified Urdu-to-English document translation in Pakistan for USCIS, UK visas, legal documents, Nikah Nama, Fard and degrees. Review requirements and request a quote.",
   }
 }
 

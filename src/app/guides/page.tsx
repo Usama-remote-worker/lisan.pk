@@ -13,6 +13,13 @@ export const metadata: Metadata = {
 export default function GuidesIndexPage() {
   const guides = [
     {
+      title: "Certificate of Translation Accuracy in Pakistan (2026): Sample & Requirements",
+      description: "Understand USCIS 8 CFR 103.2(b)(3) and UKVI translator accuracy declarations, review required statement fields, examine signing and certification rules, and access an editable unsigned sample.",
+      href: "/guides/certificate-of-accuracy-translation-sample",
+      updated: "5 November 2026",
+      tag: "Translation Standards (A:T47)",
+    },
+    {
       title: "HEC Degree Attestation Online (2026): Apply, Fee, Documents & e-Certificate",
       description: "How to use HEC's new paperless Degree Attestation System (DAS), check the PKR 3,000 per-document fee, complete institutional verification, download your e-Attestation Certificate, and prepare academic translations for Saudi Arabia and the UAE.",
       href: "/guides/hec-online-degree-attestation",

@@ -13,6 +13,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const post = await getPostData(slug)
     if (!post) return {}
 
+    const canonicalUrl = `https://www.lisan.pk/blog/${slug}`
+    const pageImage = post.image || "https://www.lisan.pk/logo.png"
+
     return {
         title: {
             absolute: post.title.includes('LISAN.PK') || post.title.includes('Lisan.pk')
@@ -21,14 +24,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         description: post.summary,
         alternates: {
-            canonical: `https://www.lisan.pk/blog/${slug}`,
+            canonical: canonicalUrl,
         },
         openGraph: {
             title: post.title,
             description: post.summary,
-            images: post.image ? [post.image] : [],
+            url: canonicalUrl,
+            images: [pageImage],
             type: 'article',
             publishedTime: post.date,
+            modifiedTime: post.lastModified || post.date,
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: post.title,
+            description: post.summary,
+            images: [pageImage],
         }
     }
 }
@@ -83,10 +94,10 @@ export default async function BlogPostPage({ params }: Props) {
         "@type": "FAQPage",
         "mainEntity": post.faqs.map((f: any) => ({
             "@type": "Question",
-            "name": f?.q || "",
+            "name": f?.q || f?.question || "",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": f?.a || ""
+                "text": f?.a || f?.answer || ""
             }
         }))
     } : null

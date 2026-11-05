@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     template: "%s | Lisan.pk"
   },
   description: "40+ years of certified Arabic translation & attestation in Pakistan. Trusted by Saudi & UAE embassies. Fast doorstep delivery nationwide. 100% acceptance.",
-  keywords: ["Arabic translation", "Attestation services", "Nikah Nama translation", "MOFA attestation", "Saudi Embassy attestation", "Pakistan translation services"],
   authors: [{ name: "Lisan.pk Team" }],
   creator: "Lisan.pk",
   publisher: "Lisan.pk",

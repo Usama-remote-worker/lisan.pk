@@ -21,7 +21,7 @@ export function Hero() {
                         className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-emerald-700 mb-8 shadow-sm select-none"
                     >
                         <span className="flex h-2 w-2 rounded-full bg-emerald-500 mr-2 animate-pulse"></span>
-                        Embassy Recommended Services
+                        Certified Document Translation & Attestation Support
                     </motion.div>
                     
                     <motion.h1 
@@ -40,7 +40,7 @@ export function Hero() {
                         transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] as any }}
                         className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed"
                     >
-                        Trusted by 100k+ clients for over 40 years. We provide accurate, certified translation and attestation services with doorstep delivery across Pakistan.
+                        Professional certified translation and document-preparation guidance for Pakistani academic, civil, and legal records.
                     </motion.p>
 
                     <motion.div 
@@ -64,13 +64,13 @@ export function Hero() {
 
                     <div className="mt-20 flex flex-wrap items-center justify-center gap-x-12 gap-y-6 text-xs font-bold text-slate-400 uppercase tracking-widest border-t border-slate-50 pt-12">
                         <div className="flex items-center gap-1.5">
-                            <span>✓</span> <span>Embassy Approved</span>
+                            <span>✓</span> <span>Certified Translation</span>
                         </div>
                         <div className="flex items-center gap-1.5">
                             <span>✓</span> <span>Same Day Delivery</span>
                         </div>
                         <div className="flex items-center gap-1.5">
-                            <span>✓</span> <span>100% Accuracy Guaranteed</span>
+                            <span>✓</span> <span>Strict Quality Review</span>
                         </div>
                     </div>
                 </div>
