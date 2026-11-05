@@ -127,7 +127,7 @@ We specialize in providing official, certified, and embassy-approved translation
 * **Professional Attestation Support** for HEC, MOFA, and Saudi Embassy stamps.
 
 👉 **Get a instant quote via WhatsApp:** [**+92-328-8155866**](https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20need%20certified%20translation%20for%20my%20Saudi%20scholarship%20application.)
-👉 **Or fill out our online quote form:** [**Lisan.pk Document Submission Form**](https://forms.gle/FnBnLrbdCQXsyjVS6)
+👉 **Or fill out our online quote form:** [**Lisan.pk Document Submission Form**](/contact)
 
 ---
 

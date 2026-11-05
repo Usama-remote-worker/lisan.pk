@@ -218,7 +218,7 @@ export default async function UniversityPage({ params }: PageProps) {
                         <div className="p-6 bg-emerald-50 rounded-2xl border border-emerald-100 text-center font-sans">
                             <p className="text-emerald-900 font-bold mb-2 text-sm">📋 Upload Documents for Free Quote</p>
                             <p className="text-emerald-800/70 text-xs mb-4">Delivery options and estimated turnaround are confirmed after document review.</p>
-                            <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-xl font-bold text-sm transition-all">Upload Documents</Link>
+                            <Link href="/contact" target="_blank" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-xl font-bold text-sm transition-all">Upload Documents</Link>
                         </div>
                     </div>
                 </div>

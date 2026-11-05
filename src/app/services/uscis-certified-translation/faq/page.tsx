@@ -118,7 +118,7 @@ export default function FAQPage() {
               Expert answers to all key legal, formatting, name spelling, and notary questions regarding certified translations for immigration.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+              <Link href="/contact" target="_blank"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-8 py-3.5 rounded-full text-sm transition-all shadow-lg shadow-emerald-500/25">
                 Upload Your Document
                 <ChevronRight className="w-4 h-4" />
@@ -214,7 +214,7 @@ export default function FAQPage() {
             Upload your document or connect with our support team on WhatsApp for immediate help and accurate pricing quotes.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+            <Link href="/contact" target="_blank"
               className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-10 py-4 rounded-full text-base transition-all duration-300">
               Upload Document
               <ChevronRight className="w-5 h-5" />

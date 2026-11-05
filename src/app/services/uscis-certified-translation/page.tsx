@@ -204,7 +204,7 @@ export default function USCISCertifiedTranslationPage() {
               Professional certified translations accepted by USCIS for green card, citizenship, family, and employment immigration petitions. Delivered in 24–48 hours.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-              <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+              <Link href="/contact" target="_blank"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-10 py-4 rounded-full text-base transition-all duration-300 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-400/40 hover:-translate-y-0.5">
                 Upload Your Document
                 <ChevronRight className="w-5 h-5" />
@@ -646,7 +646,7 @@ export default function USCISCertifiedTranslationPage() {
             Upload your document now and receive a USCIS-compliant certified translation for $15–$20 per page in 24–48 hours. Trusted by immigration applicants across Pakistan and worldwide.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+            <Link href="/contact" target="_blank"
               className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-10 py-4 rounded-full text-base transition-all duration-300 shadow-lg shadow-emerald-500/25">
               Upload Document
               <ChevronRight className="w-5 h-5" />

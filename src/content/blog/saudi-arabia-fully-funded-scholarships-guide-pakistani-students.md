@@ -152,7 +152,7 @@ A Saudi Arabia fully funded scholarship can transform your future—but only if 
 
 Don’t let a language barrier stand between you and a world-class education.
 
-👉 **[Get a free quote for certified document translation now](https://forms.gle/FnBnLrbdCQXsyjVS6)**. Call/WhatsApp us at **03288155866** or visit our [Contact Page](/contact).
+👉 **[Get a free quote for certified document translation now](/contact)**. Call/WhatsApp us at **03288155866** or visit our [Contact Page](/contact).
 
 Your scholarship dream deserves perfection from the very first page.
 

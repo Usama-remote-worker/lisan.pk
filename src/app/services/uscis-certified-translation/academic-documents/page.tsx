@@ -102,7 +102,7 @@ export default function AcademicDocumentsPage() {
               Certified English translation of school/university degrees, diplomas, academic transcripts, and course records. Accepted for EB-2/EB-3 visas and university admissions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+              <Link href="/contact" target="_blank"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-8 py-3.5 rounded-full text-sm transition-all shadow-lg shadow-emerald-500/25">
                 Upload Academic Documents
                 <ChevronRight className="w-4 h-4" />
@@ -235,7 +235,7 @@ export default function AcademicDocumentsPage() {
             Upload your graduation degrees, transcripts, or certificates. Receive a certified, USCIS-compliant translation in 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+            <Link href="/contact" target="_blank"
               className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-10 py-4 rounded-full text-base transition-all duration-300">
               Upload Document
               <ChevronRight className="w-5 h-5" />

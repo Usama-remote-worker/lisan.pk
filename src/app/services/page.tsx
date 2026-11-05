@@ -45,7 +45,7 @@ export default function ServicesPage() {
                         Accurate, legally recognized, and embassy-approved translation services. From birth certificates to complex legal contracts, we deliver precision in 50+ languages.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
-                        <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank">
+                        <Link href="/contact" target="_blank">
                             <Button size="lg" className="bg-white text-emerald-950 hover:bg-emerald-50 px-12 h-16 text-sm font-bold uppercase tracking-widest rounded-full shadow-2xl transition-all duration-300">
                                 Upload Your Document
                             </Button>
@@ -211,7 +211,7 @@ export default function ServicesPage() {
                         Join 100,000+ satisfied clients. Get your documents translated by the most trusted <strong>translation services in Pakistan</strong>.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-6">
-                        <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank">
+                        <Link href="/contact" target="_blank">
                             <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white h-16 px-10 text-xl rounded-xl shadow-lg">
                                 Get a Free Quote
                             </Button>

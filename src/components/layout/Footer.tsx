@@ -171,7 +171,7 @@ export function Footer() {
                                 </div>
                                 <div className="pt-2">
                                     <Link 
-                                        href="https://forms.gle/FnBnLrbdCQXsyjVS6" 
+                                        href="/contact" 
                                         target="_blank"
                                         className="block w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 min-h-[44px] flex items-center justify-center rounded-xl text-xs font-extrabold transition-all transform hover:scale-[1.02] border border-emerald-500/20 shadow-md shadow-emerald-900/10"
                                     >

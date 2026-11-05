@@ -54,7 +54,7 @@ export function FloatingActions() {
                             <WhatsAppIcon className="w-5 h-5" /> WhatsApp
                         </button>
                     </Link>
-                    <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" className="flex-1">
+                    <Link href="/contact" className="flex-1">
                         <button 
                             id="gtm-quote-float-mobile"
                             data-lead="quote"

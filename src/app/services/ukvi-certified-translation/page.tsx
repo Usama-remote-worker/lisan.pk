@@ -203,7 +203,7 @@ export default function UKVICertifiedTranslationPage() {
               <div className="flex items-center gap-2 justify-center"><Check className="w-5 h-5 text-emerald-400" /> Fast digital delivery</div>
             </div>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-              <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+              <Link href="/contact" target="_blank"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-10 py-4 rounded-full text-base transition-all duration-300 shadow-lg shadow-blue-500/25 hover:shadow-blue-400/40 hover:-translate-y-0.5">
                 Upload Your Document
                 <ChevronRight className="w-5 h-5" />
@@ -584,7 +584,7 @@ export default function UKVICertifiedTranslationPage() {
             Ensure your visa application is accepted without delays. Upload your documents now for a fixed-price quote and 24-hour delivery.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="https://forms.gle/FnBnLrbdCQXsyjVS6" target="_blank"
+            <Link href="/contact" target="_blank"
               className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-10 py-4 rounded-full text-base transition-all duration-300 shadow-lg shadow-blue-500/25">
               Upload Document
               <ChevronRight className="w-5 h-5" />

@@ -147,7 +147,7 @@ Prepare your files early and ensure your paperwork meets every official standard
     <p className="text-emerald-700 font-bold mb-6">📲 24/7 Professional Help Desk: <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20documents%20for%20certified%20translation." className="underline">03288155866</a></p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <a href="https://wa.me/923288155866?text=Hi%20Lisan.pk,%20I%20want%20to%20submit%20my%20visa%20documents%20for%20certified%20translation." className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">Submit Documents via WhatsApp</a>
-        <a href="https://forms.gle/FnBnLrbdCQXsyjVS6" className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">Upload via Online Form</a>
+        <a href="/contact" className="inline-block border-2 border-emerald-600 hover:bg-emerald-50 text-emerald-700 font-bold px-8 py-4 rounded-xl text-lg transition-all">Upload via Online Form</a>
     </div>
 </div>
 
