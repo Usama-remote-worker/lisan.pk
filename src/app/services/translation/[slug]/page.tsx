@@ -29,18 +29,6 @@ const serviceData = {
             { q: "Do you offer express delivery?", a: "Yes, we provide 12-hour express delivery for urgent immigration deadlines." }
         ]
     },
-    "turkish-translation": {
-        title: "Certified Turkish Translation Services in Pakistan | Lisan.pk",
-        h1: "Official Turkish Translation for Study & Residence Visas",
-        description: "Professional Turkish translation services for student admissions, work permits, and residency. Certified by experienced translators.",
-        content: "Applying for Turkish universities or a Turkish student/residence visa? We offer certified Turkish translation of your degree, transcripts, birth certificates, and police records. Our translations align perfectly with the requirements of the Turkish Embassy in Islamabad and Consulate General in Karachi. We ensure technical and legal terms are accurately localized.",
-        features: ["Turkish Embassy Accepted", "Accurate Formatting", "Technopark Coordination", "Visa Submission Ready"],
-        checklist: ["Educational Documents or Degrees", "Birth Certificate / Police Character Certificate", "Valid Passport Scan"],
-        faqs: [
-            { q: "Do I need Turkey-related documents translated into Turkish?", a: "Yes, the Turkish Embassy and consulates require sworn and certified Turkish translations for all Urdu/English personal and academic records." },
-            { q: "How fast can you process Turkish translations?", a: "Standard turnaround is 24 to 48 hours. Express options are available." }
-        ]
-    },
     "degree-translation": {
         title: "Certified Academic Degree & Transcript Translation | Lisan.pk",
         h1: "Professional Degree Translation for WES, HEC & Gulf Visas",
@@ -75,19 +63,6 @@ const serviceData = {
         faqs: [
             { q: "What makes a translation 'certified'?", a: "A certified translation must include a formal signed declaration by Lisan.pk stating that the translation is a true and accurate rendering of the source document, along with our stamp and contact details." },
             { q: "Do you deliver physical hard copies?", a: "Yes, we provide high-resolution digital scans via email/WhatsApp and send the physical stamped hard copies via TCS or Leopard courier anywhere in Pakistan." }
-        ]
-    },
-    "birth-certificate-translation": {
-        title: "Certified Birth Certificate Translation Pakistan | Lisan.pk",
-        h1: "Certified Birth Certificate Translation for Visa & Immigration",
-        description: "Official Arabic & English translation of NADRA birth certificates. Accepted by embassies for visa & immigration. Certified and fast turnaround.",
-        content: "A birth certificate is the most critical foundational document for identity verification during any visa, immigration, or residency application. Our certified translation services ensure that your NADRA or hospital birth certificate is translated into flawless English, Arabic, or other required languages. We meticulously mirror the exact formatting, layout, and terminology of the original document to guarantee absolute zero friction during your embassy visa interview or immigration document review. All translations come equipped with an official Certificate of Accuracy, registered stamps, and authorized signatures.",
-        features: ["Exact NADRA Format Matching", "Global Embassy-Standard Formatting", "Fast Digital Copy Delivery", "Official Notarized Seal & Stamp", "Accurate Name Spellings"],
-        checklist: ["Original NADRA Birth Certificate (Clear Scan)", "Passport Copies for exact name spelling match", "Parent's CNIC for cross-referencing", "Specific embassy guidelines (if any)"],
-        faqs: [
-            { q: "How long does the translation take?", a: "Our standard delivery time is 24 hours. For urgent immigration deadlines, we offer a specialized 2-hour express translation service." },
-            { q: "Do I need to submit the physical original copy?", a: "No, a high-resolution scanned copy or clear photograph sent via WhatsApp or email is fully sufficient for us to process the certified translation." },
-            { q: "Will this translation be accepted by USCIS or UKVI?", a: "Yes, our certified translations include the mandated 'Certificate of Accuracy' which complies with the certified translation criteria of USCIS, UKVI, IRCC, and European embassies." }
         ]
     },
     "academic-degree-transcript": {

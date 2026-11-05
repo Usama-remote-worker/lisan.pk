@@ -217,10 +217,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     //    Source: /services/translation/[slug]/page.tsx
     //    git last-commit on template: 2026-06-15
     // -------------------------------------------------------------------------
+    const SERVICE_DATES: Record<string, string> = {
+        'turkish-translation': '2026-11-05',
+        'birth-certificate-translation': '2026-11-05',
+        'property-document-translation': '2026-11-05',
+        'nikah-nama-marriage-certificate': '2026-11-05',
+    }
+
     for (const slug of TRANSLATION_SERVICE_SLUGS) {
         entries.push({
             url: `${BASE_URL}/services/translation/${slug}`,
-            lastModified: new Date('2026-06-15'),
+            lastModified: new Date(SERVICE_DATES[slug] || '2026-06-15'),
             changeFrequency: 'monthly',
             priority: 0.8,
         })
