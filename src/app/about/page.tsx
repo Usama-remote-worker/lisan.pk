@@ -24,7 +24,7 @@ const jsonLd = {
     "name": "Muhammad Iftikhar Zahid",
     "educationalCredential": "MA in Arabic and Islamiyat"
   },
-  "description": "40+ years of certified Arabic translation in Pakistan. MA Arabic qualified. 200% guarantee. Accepted by MOFA, HEC, Saudi and UAE embassies.",
+  "description": "40+ years of certified Arabic translation in Pakistan. MA Arabic qualified translations with certified accuracy declarations.",
   "areaServed": "Pakistan",
   "knowsLanguage": ["Urdu", "Arabic", "English"],
   "hasOfferCatalog": {
@@ -73,7 +73,7 @@ export default function AboutPage() {
               40+ Years of Certified Arabic Translation in Pakistan – MA Arabic Qualified
             </h1>
             <p className="text-xl md:text-2xl text-slate-700 mb-6 font-medium leading-relaxed max-w-xl font-sans">
-              We translate nikah nama, degrees, and police certificates for Saudi, UAE, and Gulf visas – with a 200% guarantee if rejected due to our error.
+              We translate nikah nama, degrees, and police certificates for Saudi, UAE, and Gulf visas with certified accuracy declarations and verified formatting.
             </p>
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-xl font-sans">
               Lisan (لسان) – meaning "tongue" or "language" in Arabic. For over 40 years, we have been Pakistan's trusted voice for embassy‑ready translation.
@@ -115,17 +115,15 @@ export default function AboutPage() {
               <div className="text-slate-600 font-medium tracking-wide">Documents Translated</div>
             </div>
             <div className="text-center animate-in fade-in zoom-in duration-700 delay-300">
-              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2 font-serif">100%<span className="text-2xl align-top">*</span></div>
-              <div className="text-slate-600 font-medium tracking-wide">Embassy Acceptance</div>
+              <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2 font-serif">Verified</div>
+              <div className="text-slate-600 font-medium tracking-wide">Embassy Formatting</div>
             </div>
             <div className="text-center animate-in fade-in zoom-in duration-700 delay-400">
               <div className="text-4xl md:text-5xl font-bold text-emerald-900 mb-2 font-serif">4.9/5</div>
               <div className="text-slate-600 font-medium tracking-wide">Client Rating</div>
             </div>
           </div>
-          <p className="text-center mt-10 text-sm text-slate-500 italic max-w-2xl mx-auto">
-            *Based on verified client records since 2015. Individual results may vary.
-          </p>
+          
         </div>
       </section>
 
@@ -144,7 +142,7 @@ export default function AboutPage() {
                 In the late 1980s, his exceptional linguistic command drew the attention of Arab professionals and companies operating in Pakistan. What began as a personal passion soon blossomed into a vital link between two cultures.
               </p>
               <p className="mb-4">
-                Over four decades later, Mr. Zahid continues to personally oversee Lisan.pk. Every Arabic translation is still reviewed by Mr. Zahid – an MA Arabic holder. He maintains a family-like tradition of service, treating every client's document with the utmost confidentiality, precision, and care. His signature on a translation guarantees uncompromising quality and undisputed acceptance.
+                Over four decades later, Mr. Zahid continues to personally oversee Lisan.pk. Every Arabic translation is still reviewed by Mr. Zahid – an MA Arabic holder. He maintains a family-like tradition of service, treating every client's document with the utmost confidentiality, precision, and care. His signature on a translation represents strict adherence to linguistic precision and complete document review.
               </p>
             </div>
           </div>
@@ -159,90 +157,35 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* The 200% Guarantee Section */}
-      <section className="bg-emerald-50 py-24 font-sans">
-        <div className="max-w-[1280px] mx-auto px-8 font-sans">
-          <div className="border-2 border-emerald-500 bg-white p-10 md:p-16 rounded-2xl shadow-xl relative max-w-5xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700">
-            <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-emerald-600 text-white font-bold py-2 px-6 rounded-full text-sm uppercase tracking-wider shadow-md whitespace-nowrap">
-              Industry Exclusive
-            </div>
-            <div className="text-center mb-10">
-              <div className="w-16 h-16 rounded-full bg-emerald-50 text-emerald-800 font-extrabold flex items-center justify-center mx-auto mb-6 text-2xl select-none">✓</div>
-              <h2 className="text-3xl md:text-5xl font-bold font-serif text-emerald-900 mb-6">The 200% Guarantee – No Risk to You</h2>
-              <p className="text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed font-medium">
-                We stand firmly behind our work. If your translated document is rejected by a Saudi or UAE embassy due to our error, we will:
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-8 mb-8 font-sans">
-              <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 hover:border-emerald-300 transition-colors">
-                <div className="flex items-center gap-4 mb-4">
-                  <span className="text-emerald-600 font-extrabold select-none">✓</span>
-                  <h3 className="text-2xl font-bold text-emerald-900 font-serif">100% Protection</h3>
-                </div>
-                <p className="text-slate-700 text-sm leading-relaxed">Correct the translation immediately and refund that portion of your project.</p>
-              </div>
-              <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 hover:border-emerald-300 transition-colors">
-                <div className="flex items-center gap-4 mb-4">
-                  <span className="text-emerald-600 font-extrabold select-none">✓</span>
-                  <h3 className="text-2xl font-bold text-emerald-900 font-serif">200% Commitment</h3>
-                </div>
-                <p className="text-slate-700 text-sm leading-relaxed">Refund double your payment or redo the translation for free + pay your courier costs.</p>
-              </div>
-            </div>
-            
-            <p className="text-center text-xl font-bold text-emerald-800 font-serif">Absolute accuracy is our standard, not a premium feature.</p>
-          </div>
-        </div>
-      </section>
+      
 
-      {/* The Truth About "Certified" Translation in Pakistan */}
-      <section className="bg-emerald-900 text-white py-24 relative overflow-hidden font-sans">
+            {/* What Does Certified Translation Mean in Pakistan? */}
+      <section id="why-no-license" className="bg-emerald-900 text-white py-24 relative overflow-hidden font-sans scroll-mt-12">
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
         <div className="container mx-auto px-4 relative z-10 max-w-[1280px]">
           <div className="max-w-4xl mx-auto bg-black/20 backdrop-blur border border-white/10 p-8 md:p-12 rounded-3xl animate-in fade-in slide-in-from-bottom-8 duration-700">
-            <div id="why-no-license" className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-8">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-8">
               <div className="w-12 h-12 rounded-full bg-emerald-800 text-emerald-400 font-extrabold flex items-center justify-center select-none text-xl flex-shrink-0">★</div>
-              <h2 className="text-3xl md:text-4xl font-bold font-serif leading-tight">The Truth About "Certified" Translation in Pakistan</h2>
+              <h2 className="text-3xl md:text-4xl font-bold font-serif leading-tight">What Does Certified Translation Mean in Pakistan?</h2>
             </div>
             <div className="prose prose-lg prose-invert max-w-none text-emerald-50">
               <p className="text-xl mb-6 leading-relaxed">
-                Unlike the UK, US, or Australia, the Government of Pakistan does not issue an official license for "Sworn Translators." There is no national registry or specific government badge for translators.
+                A certified translation includes an accuracy statement issued by the responsible translator or translation provider. The rules for translator recognition, signatures, notarization and legalisation vary by receiving authority and destination country.
               </p>
               <p className="text-xl mb-8 leading-relaxed">
-                Instead, a translation is deemed "certified" based purely on the credibility, academic qualifications, and reputation of the translator as stamped on their official letterhead.
+                The German Federal Foreign Office states that Pakistan has no German-style sworn translators; this does not mean that every foreign authority accepts every translation.
               </p>
               <div className="bg-white/10 rounded-2xl p-6 border-l-4 border-emerald-400 mb-8">
-                <p className="text-xl text-white font-medium m-0">
-                  This is why Lisan.pk is uniquely trusted. With 40+ years of flawless standing, verifiable MA Arabic qualifications, and a track record of 100% acceptance by MOFA and foreign embassies, our letterhead carries the weight of unquestionable authority.
-                </p>
+                <Link href="/guides/certified-translation-pakistan-explained" className="text-xl text-white font-medium hover:underline inline-block">
+                  Read our certified-translation guide for country-specific requirements →
+                </Link>
               </div>
-              <Link href="#why-no-license" className="inline-flex items-center text-emerald-200 hover:text-white font-bold text-lg group transition-colors">
-                [Learn more about why Pakistan has no official translator license →]
-              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Officially Recognized & Accepted By */}
-      <section className="py-24 bg-white border-b border-slate-200 font-sans">
-        <div className="container mx-auto px-4 max-w-[1280px]">
-           <div className="text-center animate-in fade-in slide-in-from-bottom-8 duration-700">
-               <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 mb-12 font-serif">Officially Recognized & Accepted By</h2>
-               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto text-sm">
-                 {['MOFA Pakistan', 'HEC Pakistan', 'Saudi Embassy', 'UAE Embassy', 'Qatar Embassy', 'Oman Embassy', 'German Embassy', 'Turkish Embassy'].map((auth, i) => (
-                    <div key={i} className="p-6 bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-emerald-900 font-bold flex items-center justify-center text-center hover:border-emerald-500 hover:shadow-md transition-all font-serif">
-                      {auth}
-                    </div>
-                 ))}
-               </div>
-               <p className="mt-10 text-slate-500 italic max-w-3xl mx-auto text-xs">
-                 Our translations comply fully with the strict regulations of these domestic ministries and international diplomatic missions.
-               </p>
-           </div>
-        </div>
-      </section>
+      
 
       {/* Our 4-Step Quality Process */}
       <section className="py-24 container mx-auto px-4 max-w-[1280px] font-sans">

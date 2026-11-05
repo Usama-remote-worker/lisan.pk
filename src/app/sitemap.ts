@@ -48,6 +48,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/guides/apostille-pakistan':                                 '2026-11-05',
     '/guides/certified-translation-vs-apostille-pakistan':        '2026-11-05',
     '/guides/certificate-of-accuracy-translation-sample':         '2026-11-05',
+    '/guides/certified-translation-pakistan-explained':           '2026-11-05',
     '/guides/hec-online-degree-attestation':                      '2026-11-05',
     '/pricing':                                                   '2026-11-05',
     '/services/translation/urdu-to-arabic':                       '2026-11-05',
@@ -195,6 +196,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 '/guides/apostille-pakistan',
                 '/guides/certified-translation-vs-apostille-pakistan',
                 '/guides/certificate-of-accuracy-translation-sample',
+                '/guides/certified-translation-pakistan-explained',
                 '/guides/hec-online-degree-attestation',
                 '/services/attestation',
             ].includes(route) ? 0.8 :

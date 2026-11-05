@@ -13,6 +13,13 @@ export const metadata: Metadata = {
 export default function GuidesIndexPage() {
   const guides = [
     {
+      title: "Certified Translation in Pakistan: Meaning, Sworn Translators and Notarization Explained",
+      description: "Learn what certified translation means in Pakistan, translator statements, German Federal Foreign Office position on sworn translators, USCIS 8 CFR 103.2(b)(3), UKVI rules, and verification checklist.",
+      href: "/guides/certified-translation-pakistan-explained",
+      updated: "5 November 2026",
+      tag: "Educational Authority Guide (B:T20)",
+    },
+    {
       title: "Certificate of Translation Accuracy in Pakistan (2026): Sample & Requirements",
       description: "Understand USCIS 8 CFR 103.2(b)(3) and UKVI translator accuracy declarations, review required statement fields, examine signing and certification rules, and access an editable unsigned sample.",
       href: "/guides/certificate-of-accuracy-translation-sample",

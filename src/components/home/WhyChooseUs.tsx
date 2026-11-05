@@ -8,12 +8,12 @@ const features = [
         description: "Urgent translation services with same-day digital delivery available.",
     },
     {
-        title: "Embassy Approved",
-        description: "100% acceptance rate at Saudi, UAE, and other Gulf embassies.",
+        title: "Authority Alignment",
+        description: "Translations formatted and certified for the stated receiving authority.",
     },
     {
-        title: "200% Guarantee",
-        description: "Full protection against rejections caused by our translation errors.",
+        title: "Verified Delivery",
+        description: "Scope, certification and accuracy declarations confirmed before delivery.",
     },
 ]
 
@@ -51,4 +51,3 @@ export function WhyChooseUs() {
         </section>
     )
 }
-
