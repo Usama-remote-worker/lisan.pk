@@ -33,7 +33,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/certified-document-translation/nadra-nikahnama':            '2026-07-22',
     '/chinese-language-translation-in-urdu':                      '2026-06-15',
     '/consultancy/saudi-scholarship':                             '2026-05-04',
-    '/saudi-scholarships/program-finder':                         '2026-09-05',
+    '/saudi-scholarships/program-finder':                         '2026-11-05',
     '/contact':                                                   '2026-11-05',
     '/directory':                                                 '2026-06-15',
     '/english-to-indonesian-translators':                         '2026-06-15',
@@ -49,6 +49,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/guides/certified-translation-vs-apostille-pakistan':        '2026-11-05',
     '/guides/certificate-of-accuracy-translation-sample':         '2026-11-05',
     '/guides/certified-translation-pakistan-explained':           '2026-11-05',
+    '/guides/study-in-saudi-edit-application-after-submission':  '2026-11-05',
     '/guides/hec-online-degree-attestation':                      '2026-11-05',
     '/pricing':                                                   '2026-11-05',
     '/services/translation/urdu-to-arabic':                       '2026-11-05',
@@ -197,6 +198,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 '/guides/certified-translation-vs-apostille-pakistan',
                 '/guides/certificate-of-accuracy-translation-sample',
                 '/guides/certified-translation-pakistan-explained',
+                '/guides/study-in-saudi-edit-application-after-submission',
                 '/guides/hec-online-degree-attestation',
                 '/services/attestation',
             ].includes(route) ? 0.8 :
@@ -266,10 +268,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     //    Source: universities object in scholarship-universities.ts
     //    git last-commit on data file: 2026-05-23
     // -------------------------------------------------------------------------
+    const SCHOLARSHIP_DATES: Record<string, string> = {
+        'kaust': '2026-11-05',
+        'king-saud-university': '2026-11-05',
+        'king-abdulaziz-university': '2026-11-05',
+    }
+
     for (const slug of Object.keys(universities)) {
         entries.push({
             url: `${BASE_URL}/scholarships/${slug}`,
-            lastModified: new Date('2026-05-23'),
+            lastModified: new Date(SCHOLARSHIP_DATES[slug] || '2026-05-23'),
             changeFrequency: 'monthly',
             priority: 0.8,
         })

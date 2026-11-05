@@ -166,33 +166,43 @@ For the full post-acceptance workflow, see [Saudi Scholarship Accepted: What Hap
 
 ## Study in Saudi application “Returned”: what should you do?
 
-**Returned means you should read the university/portal notice before taking action; it is not automatically the same as Rejected.** The FAQ separately discusses editing an application returned by a university. [1]
+**Returned does not automatically mean rejected or approved.** A university may return a record requiring corrections, but the official FAQ does not promise that every returned application allows all fields to be changed or that correction guarantees acceptance. Read the actual return notice, check which fields and uploads are enabled, and follow any deadline shown for your account. [1]
 
-### Five-step returned-application checklist
+**Recommended steps:**
 
-1. **Open the returned application**, not just the summary status.
-2. **Read the reason or reviewer comment.** Identify the exact field or file in question; do not assume every return concerns document translation.
-3. **Check what can be edited.** Only use fields and actions visibly enabled in the portal for your specific record.
-4. **Correct the requested issue accurately.** Where a document is unclear, upload a more readable, authentic file only if the system invites a replacement. Do not change names or dates to fit an expected result.
-5. **Resubmit or confirm the correction** only as the account instructs. Save the new submission status and any acknowledgement.
+1. Open the notice in your own official account.
+2. Identify the named problem (e.g., a qualification record or supporting document).
+3. Compare the entry against genuine original documents.
+4. Make only the changes the portal permits.
+5. Verify any upload and required resubmission action.
+6. If a locked passport/nationality field is the problem, contact official support; do not use a false identity or duplicate account.
+7. Monitor the updated status; never assume a returned application will be accepted after resubmission.
 
-If the university requests a better academic certificate, transcript or translation, check the receiving institution's requirements before paying for a new version. LISAN.PK can help translate or review documents, **not override the portal's locks or reverse official decisions**.
+### Can a returned application change passport number?
 
-### Can I edit my passport number after submission?
+**Normally no.** The FAQ specifically restricts passport number changes after submission, including while it explains that some returned-application qualification data may be updated. [1]
 
-**The official Study in Saudi FAQ says a passport number cannot ordinarily be changed after an application has been submitted using it.** The FAQ specifically says a passport number can be updated when no applications have yet been submitted; it cannot be modified after submission through the regular process. [1]
+### Can I cancel an application that is Under Process?
 
-Keep evidence of both old and renewed passports where relevant, and contact the official help route if your situation needs clarification. **Do not create a second account with inaccurate identity information to bypass a restriction.**
+The official FAQ says cancellation is possible **only if the institution has not yet acted on the application**. Under Process itself means the application is under review, not that cancellation or editing will definitely be available. [1]
 
-### Can I update my qualifications or contact details?
+### What should I do when a field is locked?
 
-**The official site currently contains two differently worded answers.** Its homepage FAQ says contact information is editable while other submitted application data is not. The detailed FAQ says qualification data and certain specified fields may be updated, but not passport/Gulf ID or residency number, gender or nationality. [1–2]
+Use the official support channel linked from [Study in Saudi](https://studyinsaudi.sa/en). Keep support responses and your application reference private. No third party should ask for your account password or one-time code.
 
-This means it is **not safe to publish a blanket claim** that all qualifications can always be edited—or that none can. **Your actual editable fields, application status and official support instructions control.** If a correction is essential and the field is locked, use the [official help section](https://studyinsaudi.sa/en/Faq) rather than attempting a workaround.
+### Can I edit Study in Saudi after submitting?
 
-### Can I change the email registered with Study in Saudi?
+**The Study in Saudi portal does not allow unrestricted editing after submission.** Its official FAQ contains both a general answer saying contact details can be updated and a more specific answer stating that qualification data and certain selected fields may be editable. Core identity details—**including passport number, nationality and gender**—are restricted. In particular, the portal says a passport number can be changed only for a new account **before any applications are submitted**. The controls visible in the applicant's actual account and any university return notice determine the available actions. [1]
 
-The FAQ distinguishes between account types: a registrant who used an email address generally cannot change that registered email, while certain residents in Saudi Arabia may have an email-update option through the profile. Check the official answer for your account category. [1]
+| Detail | What is supported by the official FAQ |
+|---|---|
+| Contact information | May be updated according to the portal's rules |
+| Qualification information | May be updated in specified circumstances; verify actual edit controls |
+| Passport number after submission | Normally locked; portal says it cannot be modified after submission |
+| Gender and nationality | Listed as non-editable core identity fields |
+| Data after application is Returned | Certain qualifications and permitted fields may be corrected; identity restrictions remain |
+
+**For a field-by-field correction walkthrough:** [How to edit a Study in Saudi application after submission](/guides/study-in-saudi-edit-application-after-submission).
 
 ## What if Study in Saudi says “Rejected”?
 

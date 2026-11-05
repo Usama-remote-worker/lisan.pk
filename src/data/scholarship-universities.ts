@@ -12,6 +12,36 @@ export interface UniversityData {
 }
 
 export const universities: Record<string, UniversityData> = {
+    "kaust": {
+        slug: "kaust",
+        name: "King Abdullah University of Science and Technology",
+        fullName: "KAUST Fellowship 2027 Admissions",
+        location: "Thuwal, Saudi Arabia",
+        description: "A world-leading graduate STEM research university. KAUST Fellowship offers fully funded MS and PhD programs with high-merit packages.",
+        tags: ["STEM", "Graduate Research", "Global Top 100"],
+        checklist: [
+            "University Transcripts from all higher-ed institutions with grading scale",
+            "Statement of Purpose (approximately 750 words)",
+            "Curriculum Vitae (CV) / Résumé",
+            "Three Letters of Recommendation (academic/professional)",
+            "Official English Test Score (IELTS 7.0 / TOEFL iBT 5.0) before enrolment",
+            "Certified English Translation of non-English records",
+            "Valid Passport Biography Page"
+        ],
+        portalUrl: "https://apply.kaust.edu.sa/apply/",
+        bodyContent: "KAUST Fall 2027 graduate applications are open, with a Round 2 deadline of 3 January 2027. Pakistani applicants can apply for eligible MS, MS/PhD and PhD programs through KAUST's own admissions system.",
+        faqs: [
+            {
+                q: "What is the KAUST Fall 2027 application deadline?",
+                a: "3 January 2027 for the Round 2 window shown on the official timeline. The university states its dates are tentative."
+            },
+            {
+                q: "Is there a separate KAUST Fellowship application?",
+                a: "No. The Fellowship normally accompanies eligible admission, with exceptions for certain sponsorship arrangements."
+            }
+        ]
+    },
+
     "king-saud-university": {
         slug: "king-saud-university",
         name: "King Saud University",

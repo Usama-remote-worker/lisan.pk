@@ -13,6 +13,13 @@ export const metadata: Metadata = {
 export default function GuidesIndexPage() {
   const guides = [
     {
+      title: "Edit Study in Saudi Application After Submission: Passport, Qualifications & Returned Status",
+      description: "Field-by-field guidance on editing Study in Saudi applications: what can and cannot be changed after submission, step-by-step procedures when your application is Returned (\u0645\u0639\u0627\u062f), and support ticket templates.",
+      href: "/guides/study-in-saudi-edit-application-after-submission",
+      updated: "5 November 2026",
+      tag: "Portal Guide (A:S03)",
+    },
+    {
       title: "Certified Translation in Pakistan: Meaning, Sworn Translators and Notarization Explained",
       description: "Learn what certified translation means in Pakistan, translator statements, German Federal Foreign Office position on sworn translators, USCIS 8 CFR 103.2(b)(3), UKVI rules, and verification checklist.",
       href: "/guides/certified-translation-pakistan-explained",
