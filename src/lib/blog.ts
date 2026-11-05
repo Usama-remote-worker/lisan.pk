@@ -11,6 +11,7 @@ export interface BlogPost {
     id: string;
     slug: string;
     title: string;
+    h1?: string;
     date: string;
     lastModified?: string;
     summary: string;

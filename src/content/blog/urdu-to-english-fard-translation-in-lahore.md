@@ -1,201 +1,300 @@
 ---
-title: "Urdu to English Fard Translation in Lahore: Certified Translation for Immigration & International Use"
+title: "Fard Translation in English (Pakistan): Fard-e-Malkiat, Intiqal & 14-Column Layout | LISAN.PK"
+h1: "Fard Translation in English: Pakistan Land Records, Intiqal, Jamabandi and 14-Column Formats"
 date: "2026-06-13"
-summary: "Professional Urdu to English Fard translation services in Lahore. Discover immigration requirements, costs, and how to avoid mistakes for USCIS and UKVI applications."
+lastModified: "2026-11-05"
+summary: "Need a Fard translation in English? Learn how Pakistani Fard-e-Malkiat, Intiqal, Jamabandi and registry records are translated for UK visas, USCIS and legal use."
 category: "Translation Services"
-author: "Lisan.pk Editorial Team"
-readingTime: "6 min"
+author: "LISAN.PK Editorial Team"
+readingTime: "11 min"
 published: true
-tags: ["Fard Translation", "Urdu to English", "Lahore", "Immigration Translation", "Certified Translation"]
+tags: ["Fard Translation", "Urdu to English", "Property Documents", "Immigration Translation", "Certified Translation"]
+faqs:
+  - q: "What is the English translation of Fard?"
+    a: "Usually **land-record extract** or **land ownership record extract**, depending on the source heading. Preserve *Fard-e-Malkiat* as a transliterated term where clarity requires it."
+  - q: "Is Fard the same as a property registry or sale deed?"
+    a: "No. A Fard records information from land-revenue/ownership records; a sale deed or registered instrument documents a particular transaction."
+  - q: "What is Intiqal in English?"
+    a: "**Mutation** or **land-record mutation entry**. It commonly records a change following a sale, inheritance, gift or other legally relevant event."
+  - q: "Can you translate all 14 columns of a Fard?"
+    a: "Yes, where the original has 14 columns and every column is visible. The translated format can retain the source sequence in a readable landscape or split-table layout. Not all records have exactly 14 columns."
+  - q: "Can a Fard translation retain the original table layout?"
+    a: "Yes. Table correspondence is good practice for dense records. The priority is a complete and accurate translation, not a decorative copy of the page."
+  - q: "Is Fard translation required for a UK visit visa?"
+    a: "Not automatically. If a Fard is relevant supporting evidence and you submit it in Urdu, follow the current GOV.UK translation guidance for your visa route."
+  - q: "Does USCIS require a translated Fard for every immigration application?"
+    a: "No. Whether land evidence is needed depends on the specific benefit or request. A foreign-language Fard **submitted to USCIS** needs a complete certified English translation under the applicable rule."
+  - q: "Can I use an English Fard translation as proof of property ownership?"
+    a: "It can help a reader understand the original record, but it does not certify title, resolve disputes or verify that an underlying record is genuine."
+  - q: "Is notarization always necessary for a translated Fard?"
+    a: "No. The need for notarization or additional authentication depends on the receiving authority. USCIS's translation rule does not require universal notarization."
+  - q: "Can land area units be converted to acres or square metres?"
+    a: "An explanatory conversion may be added when requested and verified, but original measurements and units should remain unchanged and distinguishable."
+  - q: "Do you translate handwritten Jamabandi and mutation records?"
+    a: "A clear scan can be assessed and quoted. If portions are illegible, the translation should identify them rather than guess."
+  - q: "Can I obtain Fard directly from LISAN.PK?"
+    a: "LISAN.PK's service described here is **translation**, not issuance of government land records. Obtain the original from the appropriate official land-record authority."
+  - q: "Is a redacted Fard sample available online?"
+    a: "Only an approved and properly anonymised sample should be published. Ask LISAN.PK whether a suitable example is available; do not rely on an image containing another owner's personal data."
+  - q: "How quickly can my translation be completed?"
+    a: "Timing depends on the length, readability, layout and requested certification. The delivery estimate is confirmed after document review; same-day service is not guaranteed."
+  - q: "What should I send to receive an exact translation quote?"
+    a: "Every page of the record, requested language pair, destination authority and required delivery format. Do not send unrelated personal records."
+  - q: "Where can I request Fard translation in Lahore?"
+    a: "Use [LISAN.PK's property-document translation page](/services/translation/property-document-translation) or the [contact form](/contact) to request an Urdu-to-English quotation. Document processing can be coordinated remotely; do not assume a physical branch exists in every listed city."
 ---
 
-If you're applying for a visa, immigration program, foreign university, embassy process, or international legal matter, your property documents may need to be translated into English.
+**A Fard translation in English is a complete, readable translation of a Pakistani land-record extract (Fard-e-Malkiat), including owners' names, land identifiers, ownership shares, dates, and any relevant stamps or annotations.** A qualified translator can reproduce a wide or 14-column Fard in a corresponding English table, but the translated document **does not issue or verify land ownership**. For USCIS or a UK visa application, use the translation rules for your particular immigration process rather than relying on a blanket “embassy-approved” claim.
 
-One of the most commonly requested documents is a Fard (Land Ownership Record). Whether you're submitting proof of assets for a UK visa, demonstrating ties to Pakistan for a visitor visa, or providing financial evidence for immigration purposes, a professional [Urdu to English Fard Translation in Lahore](/locations/lahore) can help ensure your documents are accepted by authorities abroad.
+**Need a quotation?** [Request Fard and property-document translation](/services/translation/property-document-translation) or [send your document for review](/contact). We review the full record before confirming scope, cost and delivery format.
 
-This guide explains everything you need to know about [certified Fard translation services](/services/translation/property-document-translation), immigration requirements, costs, and how to avoid mistakes that can delay your application.
+> **In brief:** **Fard** = land-record extract; **Intiqal** = mutation/change recorded in land records; **Jamabandi / Register Haqdaran Zamin** = broader record of rights; **Registry / sale deed** = transaction documentation. They have different purposes and should not be translated as if they were interchangeable. [Sources: Pakistan land/property training manual hosted by NDMA; Punjab Land Records Authority (PLRA).]
 
-## What Is a Fard and Why Does It Need Translation?
+## What does Fard mean in English?
 
-A Fard is an official land ownership record issued by the Revenue Department in Pakistan. 
+**Fard (فرد) is commonly rendered “land-record extract” or “copy of the land ownership record.”** A Fard-e-Malkiat (فردِ ملکیت) can be described as a **land ownership record extract**, with the source name preserved in brackets: *Fard-e-Malkiat (Land Ownership Record Extract)*.
 
-It typically contains:
-- Property ownership details
-- Khasra numbers
-- Ownership shares
-- Location information
-- Revenue records
-- Mutation history
+The exact English heading depends on what the original document says. A translator should not add “title deed,” “freehold certificate,” “property ownership guarantee,” or another legal characterization that is not supported by the record. Pakistan's land-record manual explains that Fard Malkiyat comes from the Register Haqdaran Zamin/Jamabandi and reflects recorded mutations. [1]
 
-Since these documents are usually issued in Urdu, foreign authorities cannot review them directly. 
+A Fard may show some or all of these fields, depending on province, issuing system and record type:
 
-A [certified English translation](/services/translation/certified-translation) makes the document understandable for:
-- Immigration authorities
-- Embassies
-- Universities
-- Foreign courts
-- International banks
+- Owner/co-owner names, parentage and identification information.
+- Mauza (revenue estate/village), tehsil and district.
+- Khewat, khata/khatooni, khasra or other land-record identifiers.
+- Area, ownership share and other interest descriptions.
+- Relevant entries, issuance dates and official remarks.
+- Issuing authority, electronic identifiers and visible seals/stamps.
 
-## When Do You Need a Certified Fard Translation?
+**Do not assume every Fard proves undisputed ownership or shows the same columns.** Land records may require independent official verification; translation alone cannot establish legal title.
 
-A certified Fard translation is commonly required for:
+## Fard-e-Malkiat, Intiqal, Jamabandi and Registry: differences in English
 
-### Immigration Applications
-Applicants often submit property records to demonstrate:
-- Financial stability
-- Assets held in Pakistan
-- Strong home-country ties
+| Urdu / local term | Useful English rendering | What it generally records | Caution |
+|---|---|---|---|
+| **Fard / فرد** | Land-record extract | Information drawn from a revenue/rights record | An extract, not independent legal title verification |
+| **Fard-e-Malkiat / فردِ ملکیت** | Land ownership record extract | Owner and land particulars reflected in the record | Translate the source heading faithfully |
+| **Intiqal / انتقال** | Mutation / land-record mutation entry | Recorded change following sale, inheritance, gift or other event | Mutation is not the same document as a registered deed |
+| **Jamabandi / جمع بندی** | Record of rights / landholders' register | Periodic holdings, interests and related revenue details | Can be multi-page and involve several owners |
+| **Registry / رجسٹری** | Registered deed / registration record | Particulars of a registered transfer or instrument | Identify whether it is a sale deed, gift deed or another instrument |
+| **Bay Nama / بیع نامہ** | Sale deed / deed of sale | Sale-related legal instrument | Use the actual type and terms of the instrument |
+| **Khasra number / خسرہ نمبر** | Field/parcel number | Identifies an individual parcel in a revenue estate | Preserve numbers exactly; do not substitute street addresses |
+| **Khewat / کھیوٹ** | Ownership account / khewat number | Revenue account relating to ownership holdings | Preserve the transliterated term in parenthesis |
+| **Khatooni / کھتونی** | Cultivation/holding account / khatooni | Revenue account associated with holdings/tenancies | Meaning depends on the form and regional practice |
+| **Raqba / رقبہ** | Area | Land area and subunits | Retain the original units; conversions should be labelled separately |
 
-### UK Visa Applications
-Property ownership evidence may support:
-- Visitor Visa applications
-- Student Visa sponsorship
-- Family visas
+*These are translation aids, not universal legally binding equivalents. The source record and intended use control the final choice.*
 
-Recent Home Office data shows strong demand for UK immigration and education pathways, with UK student visa applications increasing by 29% in early 2025.
+The Punjab Land Records Authority describes **Intiqal (mutation)** as the record process for changes following sale, inheritance or a court order. The National Disaster Management Authority-hosted training manual distinguishes the **Register Haqdaran Zamin/Jamabandi**, **register of mutations**, and **Fard-e-Malkiat**. [1–2]
 
-### U.S. Immigration Applications
-[USCIS](/services/uscis-certified-translation) requires any foreign-language document submitted with an application to be accompanied by a complete English translation and translator certification.
+## Can a 14-column Fard be translated into English with the same layout?
 
-### Canadian Immigration
-Property records may be submitted as supporting evidence during certain immigration and financial assessments.
+**Yes. A translator can prepare a landscape English table that follows the original column sequence, row relationships and identifiers of a 14-column Fard.** That makes a dense record easier to compare with the Urdu original. However, **14 columns are not a universal legal specification for every Pakistani land record**, and a recipient may not require pixel-perfect replication.
 
-## Urdu to English Fard Translation for Immigration Applications
+### Recommended approach for a wide land-record translation
 
-For immigration purposes, accuracy matters. Even a minor mistake involving:
-- Owner names
-- Property measurements
-- Revenue entries
-- Registration numbers
+1. **Inspect every original page.** Confirm whether the scan contains all columns and any continuation pages.
+2. **Identify the true column count.** Use the exact number on the supplied record, whether 14, fewer or more.
+3. **Keep row-to-row correspondence.** Each source owner, parcel number, share and area should remain traceable in the translation.
+4. **Preserve numbers and units.** Recheck khasra/khewat/khatooni references, fractions and kanal–marla entries.
+5. **Mark reading limitations.** Write `[illegible]` or `[partially legible]` where appropriate; do not invent missing letters.
+6. **Identify stamps and signatures.** Translate visible text; describe marks in square brackets without pretending to authenticate them.
+7. **Use legible pages.** A landscape multi-page PDF can be preferable to an unreadable compressed single sheet.
+8. **Compare against the source.** Conduct a second pass for omitted columns, dates and cross-references.
+9. **Attach certification if requested.** Match the destination's rules for translator statement and accompanying documents.
 
-...can create unnecessary complications.
+### Example: illustrative column mapping (not a client sample)
 
-According to USCIS translation guidance, every foreign-language document submitted must include a complete English translation accompanied by a certification of accuracy and translator competence.
+| Source label (illustrative) | Possible English label | QA check |
+|---|---|---|
+| موضع | Mauza / Revenue Estate | Do not replace with a city postal address |
+| تحصیل | Tehsil / Subdistrict | Match original spelling |
+| کھیوٹ نمبر | Khewat / Ownership Account No. | Preserve exact number |
+| کھتونی نمبر | Khatooni / Holding Account No. | Preserve exact number |
+| خسرہ نمبر | Khasra / Parcel No. | Preserve exact number and ranges |
+| نام مالکان | Owners' Names | Keep all co-owners and parentage |
+| حصہ | Ownership Share | Check every fraction |
+| رقبہ | Area | Preserve source units and values |
+| کیفیت | Remarks / Particulars | Translate text; do not suppress restrictions |
 
-This means your Fard translation should include:
-- ✅ Complete translation
-- ✅ Translator certification
-- ✅ Translator contact details
-- ✅ Signature
-- ✅ Accuracy declaration
+**Visual evidence:** LISAN.PK should publish a **genuinely approved, fully redacted** before/after Fard sample only after confirming consent and removing owner names, CNICs, exact khasra/khewat numbers, signatures, QR identifiers and other identifying information. **No sample is included here because no approved image was supplied.** Do not manufacture one and label it a client document.
 
-### Documents Commonly Translated Along With a Fard
-Many clients require translation of additional property and [legal records](/services/translation/legal-translation). These include:
-- Registry documents
-- Intiqal (Mutation Records)
-- Sale Deeds
-- Property Tax Records
-- FRC Certificates
-- [Birth Certificates](/services/translation/birth-certificate-translation)
-- [Marriage Certificates](/services/translation/nikah-nama-marriage-certificate)
-- Academic Documents
+## Which land documents should be translated for a UK visa?
 
-Having all related documents translated by one provider ensures consistency across your immigration file.
+**There is no universal rule that all UK visa applicants must submit a Fard.** For a visitor application, GOV.UK explains that supporting evidence may help establish personal circumstances and the applicant's ties and finances, but submitting any particular document does not guarantee a visa. If you choose to submit a relevant Urdu property record, the official visitor guidance says it must be accompanied by a **full translation that the Home Office can independently verify**. [3]
 
-## USCIS, UKVI, IRCC & Embassy Translation Requirements
+For UK visit-visa supporting documents, GOV.UK specifies that a translation should contain:
 
-### USCIS Requirements
-The USCIS regulation 8 CFR 103.2(b)(3) requires:
-> "Any foreign-language document must be accompanied by a full English translation and translator certification."
+- Confirmation from the translator that the translation accurately represents the original.
+- **Date** of translation.
+- Translator's **full name and signature**.
+- Translator's **contact details**. [3]
 
-USCIS also expects full translation of stamps, seals, handwritten notes, and marginal comments. Incomplete translations can trigger Requests for Evidence (RFEs).
+**Example:** If a family member owns land in Punjab and the applicant wishes to submit a Fard as supplementary evidence of circumstances in Pakistan, provide the record and a qualifying English translation. A translated Fard **does not automatically prove sufficient funds, property market value, income or visa eligibility**. The application must meet the actual route requirements.
 
-### UKVI Requirements
-UK authorities generally require:
-- Accurate translations
-- Translator information
-- Certification statement
-- Contact details
+**Important:** Other UK application routes can have specific supporting-evidence rules. Always read the document checklist for your route, not only the visitor guidance.
 
-### Notarization vs Certification
-A common misconception is that notarization is always required. For USCIS, certification is generally the key requirement—not notarization.
+## Fard translation for USCIS: what is actually required?
 
-## Why Accurate Translation Matters
+**USCIS does not generally require a Fard simply because the applicant owns property in Pakistan.** The relevance of a land record depends on the immigration benefit, evidence request, and case facts. **When an Urdu Fard is submitted to USCIS**, 8 CFR 103.2(b)(3) requires a **full English translation** with the translator's certification that the translation is complete and accurate and the translator is competent to translate into English. [4]
 
-Millions of Pakistanis live, work, study, or immigrate abroad. Pakistan received approximately $34.9 billion in remittances during FY2024–25, highlighting the enormous overseas Pakistani community that frequently requires immigration and legal documentation services. Additionally, remittances reached $3.59 billion in December 2025 alone, reflecting continued growth in overseas migration and international engagement.
+A well-prepared submission should preserve:
 
-As immigration applications continue to rise globally, document accuracy becomes increasingly important.
+- The full source record, including all relevant pages.
+- A complete readable translation, without paraphrasing away column entries.
+- Owner names, parcel identifiers, shares and dates matched to the original.
+- Translator certification with the information required by the applicable form instructions.
 
-## Common Mistakes in Fard Translation
+**Does USCIS require notarization?** The core regulation at 8 CFR 103.2(b)(3) calls for a complete certified translation; it **does not impose a universal notarization requirement** for every translated document. Additional authentication requirements can arise in a particular case. Read the form instructions and any RFE or notice received. [4–5]
 
-Avoid these common errors:
+**Is a Fard mandatory for Form I-864 affidavit of support?** No universal Fard requirement applies. Petitioners/sponsors must follow Form I-864 and related evidence instructions. A translated property record may be relevant only if the case actually calls for evidence of an asset or ownership, and other financial evidence may be necessary. Translation cannot substitute for valuation, liquidity or legal eligibility evidence.
 
-- **Using Google Translate:** Machine translations often fail to capture legal and revenue terminology accurately.
-- **Missing Stamps and Seals:** USCIS guidance stresses that stamps, seals, and handwritten annotations must be translated.
-- **Self-Translation:** Many applicants attempt to translate documents themselves. This often creates compliance issues during immigration processing.
-- **Incomplete Translation:** Every visible element of the document should be translated.
+For more detail, see [USCIS certified translation requirements](/services/uscis-certified-translation/requirements) and [Urdu-to-English certified translation services](/services/translation/urdu-to-english-translation).
 
-## Urdu to English Fard Translation Services Across Pakistan
+## Property and inheritance document translation: what else might be needed?
 
-- **Urdu to English Fard Translation in Lahore:** Fast certified translation services for immigration, embassy, and legal purposes.
-- **Urdu to English Fard Translation in Karachi:** Professional translation of property and revenue documents.
-- **Urdu to English Fard Translation in Islamabad:** Suitable for visa applications and international submissions.
-- **Urdu to English Fard Translation in Rawalpindi:** Certified translations accepted for immigration use.
-- **Urdu to English Fard Translation in Faisalabad:** Translation of Fard, Registry, and Mutation records.
-- **Urdu to English Fard Translation in Multan:** Property document translation for embassies and foreign authorities.
-- **Urdu to English Fard Translation in Quetta:** Accurate certified translations for overseas use.
-- **Urdu to English Fard Translation in Peshawar:** Fast turnaround and professional certification.
-- **Urdu to English Fard Translation in Gujranwala:** Translation services for legal and immigration documentation.
-- **Urdu to English Fard Translation in Sialkot:** Certified English translations for property ownership records.
+A Fard is one part of a potential property file. Depending on the purpose, a client may also need:
 
-## Why Choose Lisan.pk?
+| Document | Why it may be submitted | Translation caution |
+|---|---|---|
+| Mutation / Intiqal entry | To show a recorded transfer or inheritance entry | Do not call it a sale deed |
+| Registered sale deed | To show terms of a transfer | Include legal clauses, schedule, parties and registration marks |
+| Jamabandi / record of rights | To review a broader ownership/holding record | Preserve all persons and shares |
+| Inheritance mutation | To show an entry relating to a deceased owner | The record does not replace a court order or legal heirship proof when separately required |
+| Succession or court documentation | When an authority asks about estate entitlement | Identify the document's actual legal nature |
+| Power of attorney | Where an agent is involved | Translate scope and limitations carefully |
+| Valuation / tax documents | If a receiving body requests value or taxes | Do not present an ownership translation as a valuation |
 
-At Lisan.pk, we specialize in certified document translation services for immigration and international use. Our services include:
-- [Fard Translation](/services/translation/property-document-translation)
-- Registry Translation
-- Intiqal Translation
-- [Birth Certificate Translation](/services/translation/birth-certificate-translation)
-- [Marriage Certificate Translation](/services/translation/nikah-nama-marriage-certificate)
-- [Academic Translation](/services/translation/academic-degree-transcript)
-- [Legal Translation](/services/translation/legal-translation)
+**What should a Pakistani inheritance file contain for a foreign authority?** There is no globally fixed bundle. Ask the solicitor, caseworker, university or receiving authority for the **exact document list**, then translate each relevant Urdu document. LISAN.PK can translate documents; it does not provide title opinions, inheritance entitlement determinations or property valuation.
 
-### What You Receive
-- ✅ Certified Translation
-- ✅ Immigration-Compliant Formatting
-- ✅ Human Translation
-- ✅ Quality Review
-- ✅ Fast Delivery
-- ✅ Nationwide Service
+## How do I get a Fard in Punjab before requesting translation?
 
-## Why Certified Translation Matters for Immigration Applications
+**You must obtain an authentic record from the competent land-record authority; a translator cannot create it.** In Punjab, the **Punjab Land Records Authority (PLRA)** publishes guidance for obtaining a Fard through authorised land-record channels, and the official online Fard system includes verification services. [2, 6]
 
-When submitting property documents such as a Fard for immigration or visa purposes, accuracy is essential.
+Practical sequence:
 
-A professionally certified translation helps ensure that immigration officers, visa caseworkers, and foreign authorities can clearly understand your documents without confusion or misinterpretation.
+1. Identify the district, tehsil, mauza and record type.
+2. Follow the **official PLRA online Fard process** or the applicable service-center channel.
+3. Check the issued record for names, parcel numbers, ownership shares, date and completeness.
+4. If the record contains an error, request correction through the competent authority; a translator must not alter an inaccurate original.
+5. Obtain a clear, full copy for translation.
+6. Verify the issuance/record identifier through the official system where available.
 
-Certified translations can help:
-* Reduce the risk of application delays caused by incomplete or inaccurate translations
-* Ensure compliance with USCIS, UKVI, IRCC, and embassy document requirements
-* Accurately translate property ownership details, revenue records, stamps, and official annotations
-* Present supporting evidence in a clear and professional format
-* Minimize the chances of Requests for Evidence (RFEs) or additional document requests
+**Official portals:** [Punjab Land Records Authority](https://www.punjab-zameen.gov.pk/) · [Punjab Online Fard](https://onlinefard.punjab-zameen.gov.pk/) · [Fard/Intiqal verification](https://onlinefard.punjab-zameen.gov.pk/verifydocument).
 
-Property documents often contain legal and technical terminology that requires careful translation. A small error in ownership details, registration numbers, or land records can create unnecessary complications during the review process.
+**Outside Punjab:** Sindh, Khyber Pakhtunkhwa, Balochistan and Islamabad may use different authorities and formats. Do not assume a Punjab online portal applies to every Pakistani record.
 
-By choosing a professional translation provider, applicants can submit their documents with greater confidence and ensure that their property records are properly understood by the receiving authority.
+## How much does a Fard translation cost in Pakistan?
 
-## Contact Lisan.pk
+**The price should be quoted after viewing the entire document.** A single-page digital extract and a multi-page handwritten 14-column land register may require very different amounts of work. We do **not** apply the generic PKR 1,200 standard-document price automatically to large or complex land records.
 
-Need a certified Urdu to English Fard translation?
+Price factors include number of pages and populated columns, legibility, language pair, repeat entries, layout preparation, certificate requirements, and requested turnaround.
 
-📞 **Call / WhatsApp: [0328-8155866](https://wa.me/923288155866)**  
-🌐 **Visit [Lisan.pk](/)**
+**Request an itemised quote:** [Property-document translation service](/services/translation/property-document-translation) · [Translation charges](/pricing) · [Contact](/contact).
 
-Get a fast quote for immigration, embassy, legal, and international document submissions.
+## How to order Urdu-to-English Fard translation online
 
-## Frequently Asked Questions
+1. **Send complete scans** of each page, preferably high resolution and uncropped.
+2. **Name the document:** Fard-e-Malkiat, Jamabandi, Intiqal, registry or a combination.
+3. **State the destination:** UK visa, USCIS, foreign lawyer, university, court or other recipient.
+4. **Confirm required format:** English PDF, signed certification, print copy, matched table or landscape layout.
+5. **Receive a scope-and-price quote** after document review.
+6. **Review names and land identifiers** in the draft for fidelity to the original; the translator remains responsible for accurate rendition.
+7. **Receive the approved translation** with the agreed supporting statement and delivery method.
 
-**How much does Urdu to English Fard translation cost?**  
-Pricing depends on document length, urgency, and certification requirements. [Contact us for a free quote](/contact).
+For security, transmit sensitive owner data only through the agreed intake channel. Avoid posting full CNICs, personal addresses, QR codes or signatures publicly.
 
-**Can I use Google Translate for a Fard?**  
-No. Immigration authorities generally require accurate, professionally prepared translations.
+**Contact LISAN.PK:** [Request a translation quote](/contact) · [WhatsApp](https://wa.me/923288155866) · [See Urdu-to-English services](/services/translation/urdu-to-english-translation).
 
-**Is notarization required?**  
-Not always. Many immigration authorities require certification rather than notarization.
+## Common mistakes in Fard-e-Malkiat translation
 
-**Can I submit a translated Fard to USCIS?**  
-Yes, provided it includes a complete English translation and proper certification.
+- Calling a Fard a **registered title deed** without a basis in the original record.
+- Translating **Intiqal** as if it were the underlying sale deed.
+- Dropping co-owners or confusing ownership shares with land area.
+- Treating khewat, khatooni and khasra numbers as interchangeable.
+- Converting kanal/marla into square metres without preserving source units or stating the conversion basis.
+- Removing illegible entries silently or inventing unclear handwriting.
+- Publishing a “sample” with real owner names or QR codes still visible.
+- Assuming an English translation proves authenticity, value or legal entitlement.
+- Claiming all foreign embassies accept one certificate format.
+- Submitting only the translated table when the receiving authority needs the source copy as well.
 
-**Do you provide services outside Lahore?**  
-Yes. We serve clients in Lahore, Karachi, Islamabad, Rawalpindi, Faisalabad, Multan, Quetta, Peshawar, Sialkot, and across Pakistan.
+## Frequently asked questions
+
+### 1. What is the English translation of Fard?
+
+Usually **land-record extract** or **land ownership record extract**, depending on the source heading. Preserve *Fard-e-Malkiat* as a transliterated term where clarity requires it.
+
+### 2. Is Fard the same as a property registry or sale deed?
+
+No. A Fard records information from land-revenue/ownership records; a sale deed or registered instrument documents a particular transaction.
+
+### 3. What is Intiqal in English?
+
+**Mutation** or **land-record mutation entry**. It commonly records a change following a sale, inheritance, gift or other legally relevant event.
+
+### 4. Can you translate all 14 columns of a Fard?
+
+Yes, where the original has 14 columns and every column is visible. The translated format can retain the source sequence in a readable landscape or split-table layout. Not all records have exactly 14 columns.
+
+### 5. Can a Fard translation retain the original table layout?
+
+Yes. Table correspondence is good practice for dense records. The priority is a complete and accurate translation, not a decorative copy of the page.
+
+### 6. Is Fard translation required for a UK visit visa?
+
+Not automatically. If a Fard is relevant supporting evidence and you submit it in Urdu, follow the current GOV.UK translation guidance for your visa route.
+
+### 7. Does USCIS require a translated Fard for every immigration application?
+
+No. Whether land evidence is needed depends on the specific benefit or request. A foreign-language Fard **submitted to USCIS** needs a complete certified English translation under the applicable rule.
+
+### 8. Can I use an English Fard translation as proof of property ownership?
+
+It can help a reader understand the original record, but it does not certify title, resolve disputes or verify that an underlying record is genuine.
+
+### 9. Is notarization always necessary for a translated Fard?
+
+No. The need for notarization or additional authentication depends on the receiving authority. USCIS's translation rule does not require universal notarization.
+
+### 10. Can land area units be converted to acres or square metres?
+
+An explanatory conversion may be added when requested and verified, but original measurements and units should remain unchanged and distinguishable.
+
+### 11. Do you translate handwritten Jamabandi and mutation records?
+
+A clear scan can be assessed and quoted. If portions are illegible, the translation should identify them rather than guess.
+
+### 12. Can I obtain Fard directly from LISAN.PK?
+
+LISAN.PK's service described here is **translation**, not issuance of government land records. Obtain the original from the appropriate official land-record authority.
+
+### 13. Is a redacted Fard sample available online?
+
+Only an approved and properly anonymised sample should be published. Ask LISAN.PK whether a suitable example is available; do not rely on an image containing another owner's personal data.
+
+### 14. How quickly can my translation be completed?
+
+Timing depends on the length, readability, layout and requested certification. The delivery estimate is confirmed after document review; same-day service is not guaranteed.
+
+### 15. What should I send to receive an exact translation quote?
+
+Every page of the record, requested language pair, destination authority and required delivery format. Do not send unrelated personal records.
+
+### 16. Where can I request Fard translation in Lahore?
+
+Use [LISAN.PK's property-document translation page](/services/translation/property-document-translation) or the [contact form](/contact) to request an Urdu-to-English quotation. Document processing can be coordinated remotely; do not assume a physical branch exists in every listed city.
+
+---
+
+## Official references and further reading
+
+1. **Land and Property Rights in Pakistan — Training Manual**, chapter on land records; government-hosted PDF. Explains Jamabandi, mutation registers and Fard Malkiyat. (Historical training document; consult current provincial authority for modern issuance processes.) https://ndma.gov.pk/storage/publications/July2024/TwkByEeXdr6bUVVLmqEj.pdf
+2. **Punjab Land Records Authority — Entry of Mutations / Fard Services**, https://www.punjab-zameen.gov.pk/entryMutationsInfo ; https://www.punjab-zameen.gov.pk/fardInfo
+3. **GOV.UK — Visiting the UK: guide to supporting documents**, https://www.gov.uk/government/publications/visitor-visa-guide-to-supporting-documents/guide-to-supporting-documents-visiting-the-uk
+4. **8 CFR § 103.2(b)(3), Translations**, https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-103/section-103.2
+5. **USCIS — Form I-130 instructions, evidence and translations**, https://www.uscis.gov/sites/default/files/document/forms/i-130instr.pdf
+6. **Official Punjab Online Fard and verification system**, https://onlinefard.punjab-zameen.gov.pk/ ; https://onlinefard.punjab-zameen.gov.pk/verifydocument
+
+*Information checked: 5 November 2026. Requirements differ by authority and can change. This is translation and document-preparation information, not legal advice, land-title certification or a visa outcome guarantee.*
+
+**Need a complete Urdu-to-English Fard, Intiqal or registry translation?** [Request a document review and quotation](/contact) · [Explore property translation services](/services/translation/property-document-translation).

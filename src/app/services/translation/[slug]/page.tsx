@@ -142,19 +142,6 @@ const serviceData = {
             { q: "Do you translate GAMCA medical fitness reports for Gulf visas?", a: "Yes, we regularly translate GAMCA and other official medical fitness certificates required for Saudi, UAE, and Oman work visas." }
         ]
     },
-    "property-document-translation": {
-        title: "Property Document & Fard Translation | Lisan.pk",
-        h1: "Certified Translation for Property Documents & Sale Deeds",
-        description: "Official translation of Fard, registry, sale deeds, and property documents for visa wealth proofs and international legal use.",
-        content: "Proving your financial ties and assets is a crucial part of securing visitor, student, or immigration visas. We offer certified translations of Pakistani property documents including Fard, Registry (Registry Inteqal), Sale Deeds, Allotment Letters, and Lease Agreements. Our experts accurately translate archaic revenue and land terminologies (such as Kanal, Marla, Khasra, and Khatooni) into globally understood legal and financial terms, making your wealth proof robust and transparent for embassy officials.",
-        features: ["Revenue Terminology Experts", "Wealth Proof Ready", "Accurate Measurement Conversion", "Embassy Trusted", "Fast Processing"],
-        checklist: ["Original Fard or Property Registry", "CNIC of Property Owner", "Passport copy for visa applicants", "Any associated valuation reports"],
-        faqs: [
-            { q: "Do you translate old, handwritten registry documents?", a: "Yes, we specialize in translating old, handwritten Urdu/Persian land records and deciphering complex local revenue terminologies." },
-            { q: "Is property translation required for student or visitor visas?", a: "Yes, translating property documents is highly recommended as it serves as strong proof of ties to your home country and financial stability." },
-            { q: "Can you translate property valuation reports?", a: "Yes, we translate property valuation certificates issued by approved evaluators to support your financial portfolio for embassies." }
-        ]
-    },
     "legal-document-translation": {
         title: "Certified Legal Document Translation | Lisan.pk",
         h1: "Certified Legal Translation for Court Cases & Affidavits",
@@ -248,19 +235,6 @@ const serviceData = {
             { q: "Can Umrah companies outside major cities use your services?", a: "Yes. We accept documents via WhatsApp and email from any city in Pakistan and provide certified translations with nationwide courier delivery." }
         ]
     },
-    "urdu-to-english-translation": {
-        title: "Certified Urdu to English Translation Services | Lisan.pk",
-        h1: "Certified Urdu to English Document Translation Services",
-        description: "Official Urdu to English translation for academic degrees, Nikah Nama, birth certificates, and police records. Accepted globally by UKVI, USCIS, and Canadian IRCC.",
-        content: "When applying for global visas, immigration, or foreign university admissions, presenting a flawlessly translated English document with certified stamps is non-negotiable. Our certified translations are formatted to match the original structure perfectly and are accompanied by an official Certificate of Accuracy, registered stamps, and authorized signatures. We specialize in transforming complex Urdu legal, medical, and regional academic texts into standard international English.",
-        features: ["UKVI & USCIS Accepted", "12-Hour Urgent Delivery", "Official Seals & Stamps", "Accuracy Certification Included", "Regional Dialect Expertise"],
-        checklist: ["Original Urdu Document (clear photo or scan)", "Passport copies for exact name matching", "Target country visa specifications (if any)"],
-        faqs: [
-            { q: "Is this translation valid for UK and Canada immigration?", a: "Yes, our certified translations are accompanied by an official 'Certificate of Accuracy' containing our registry details, which meets the published translation criteria of UKVI, USCIS, and IRCC." },
-            { q: "Do you translate handwritten marriage deeds (Nikah Nama)?", a: "Yes, we specialize in reading traditional handwriting and drafting high-precision, formatted English transcripts that mirror the original stamps and blocks." },
-            { q: "Do you provide notarization for Urdu to English translations?", a: "Yes, if required by the requesting authority, we can provide notarization services along with the certified translation." }
-        ]
-    }
 }
 
 interface PageProps {

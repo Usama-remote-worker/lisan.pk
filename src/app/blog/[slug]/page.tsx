@@ -14,7 +14,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!post) return {}
 
     return {
-        title: post.title,
+        title: {
+            absolute: post.title.includes('LISAN.PK') || post.title.includes('Lisan.pk')
+                ? post.title
+                : `${post.title} | Lisan.pk`
+        },
         description: post.summary,
         alternates: {
             canonical: `https://www.lisan.pk/blog/${slug}`,
@@ -123,7 +127,7 @@ export default async function BlogPostPage({ params }: Props) {
             
 
             <PageHero
-                title={post.title}
+                title={post.h1 || post.title}
                 breadcrumbs={[
                     { label: "Blog", href: "/blog" },
                     { label: post.title }

@@ -52,6 +52,8 @@ const STATIC_PAGE_DATES: Record<string, string> = {
     '/services/translation/urdu-to-arabic':                       '2026-11-05',
     '/services/translation/arabic-to-english':                    '2026-11-05',
     '/services/translation/arabic-to-urdu':                       '2026-11-05',
+    '/services/translation/property-document-translation':        '2026-11-05',
+    '/services/translation/urdu-to-english-translation':          '2026-11-05',
     '/guides/pakistan-apostille-country-list':                     '2026-11-05',
     '/services/document':                                         '2026-06-15',
     '/services/translation':                                      '2026-05-24',
@@ -86,7 +88,6 @@ const TRANSLATION_SERVICE_SLUGS = [
     'police-character-certificate',
     'divorce-certificate-translation',
     'medical-report-translation',
-    'property-document-translation',
     'legal-document-translation',
     'bank-statement-translation',
     'cnic-id-card-translation',
@@ -94,7 +95,6 @@ const TRANSLATION_SERVICE_SLUGS = [
     'experience-certificate-translation',
     'saudi-scholarship-translation',
     'iata-dts-umrah-travel-agency',
-    'urdu-to-english-translation',
 ] as const
 
 // ---------------------------------------------------------------------------
@@ -180,6 +180,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 '/services/translation/urdu-to-arabic',
                 '/services/translation/arabic-to-english',
                 '/services/translation/arabic-to-urdu',
+                '/services/translation/property-document-translation',
+                '/services/translation/urdu-to-english-translation',
                 '/guides/pakistan-apostille-country-list',
                 '/pricing',
                 '/english-to-indonesian-translators',
