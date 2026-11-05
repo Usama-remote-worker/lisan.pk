@@ -98,6 +98,7 @@ const TRANSLATION_SERVICE_SLUGS = [
     'experience-certificate-translation',
     'saudi-scholarship-translation',
     'iata-dts-umrah-travel-agency',
+    'urdu-to-turkish',
 ] as const
 
 // ---------------------------------------------------------------------------
@@ -222,6 +223,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'birth-certificate-translation': '2026-11-05',
         'property-document-translation': '2026-11-05',
         'nikah-nama-marriage-certificate': '2026-11-05',
+        'urdu-to-turkish': '2026-11-05',
     }
 
     for (const slug of TRANSLATION_SERVICE_SLUGS) {
